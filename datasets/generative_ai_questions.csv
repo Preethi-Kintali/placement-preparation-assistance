@@ -1,0 +1,1001 @@
+Question,Option_1,Option_2,Option_3,Option_4,Correct_Answer,Level
+What does Generative AI refer to?,"AI systems that create new content (text, images, code)",AI that analyzes existing data only,AI that classifies images,AI for robotics control,Option_1,Beginner
+What is the primary difference between Generative AI and Discriminative AI?,"Generative models data distribution, Discriminative learn boundaries",Generative is faster,Discriminative is older,No difference,Option_1,Beginner
+Which of the following is a Generative AI application?,ChatGPT,Image classification model,Spam detection,Face recognition,Option_1,Beginner
+What is prompt engineering?,Crafting inputs to guide AI outputs effectively,Writing code for AI,Training neural networks,Data preprocessing,Option_1,Beginner
+What is the purpose of a prompt?,To provide instructions/context to AI model,To test model speed,To verify correctness,To train the model,Option_1,Beginner
+What is LLM?,Large Language Model trained on vast text data,Linear Learning Model,Low-Level Management,Linguistic Language Module,Option_1,Beginner
+What are common applications of LLMs?,"Chatbots, text generation, translation, summarization",Image generation only,Video processing only,Audio synthesis only,Option_1,Beginner
+What does GPT stand for?,Generative Pre-trained Transformer,General Purpose Tool,Gradient Processing Technology,Global Parameter Tuning,Option_1,Beginner
+What does BERT stand for?,Bidirectional Encoder Representations from Transformers,Basic Encoder for Text Recognition,Binary Encoding Representation,Base Embedding Representation Technology,Option_1,Intermediate
+What is the difference between GPT and BERT?,"GPT is autoregressive, BERT is bidirectional",GPT is faster,BERT generates text,No difference,Option_1,Intermediate
+What is the Transformer architecture?,Deep learning architecture using self-attention mechanism,Recurrent neural network,Convolutional network,Fully connected network,Option_1,Intermediate
+What is the 'Attention is All You Need' paper about?,Introducing Transformer architecture with self-attention,Attention mechanisms only,Feature attention,Memory attention,Option_1,Intermediate
+What is self-attention?,Mechanism relating different positions in sequence,Attention to input only,Attention to output only,Human attention,Option_1,Intermediate
+What is the purpose of positional encoding in Transformers?,Provides sequence position information to model,Encodes data type,Normalizes features,Compresses input,Option_1,Intermediate
+What is multi-head attention?,Multiple parallel attention mechanisms,Single attention head,Sequential attention,Hierarchical attention,Option_1,Intermediate
+What is a token in LLMs?,Subword unit (word/part of word) processed by model,Token of appreciation,Security token,Blockchain token,Option_1,Beginner
+What is tokenization?,Converting text into tokens for model processing,Sorting words,Removing punctuation,Converting to lowercase,Option_1,Beginner
+What is vocabulary in LLMs?,Complete set of tokens model can process,Knowledge of words,Embeddings,Token frequencies,Option_1,Intermediate
+What is pre-training in LLMs?,Training on large corpus before task-specific training,First attempt at training,Quick training,Training on small data,Option_1,Intermediate
+What is fine-tuning?,Adapting pre-trained model to specific task,Training from scratch,Reducing model size,Adding layers,Option_1,Intermediate
+What is the purpose of pre-training?,Learn general language patterns from large data,Reduce training time,Improve accuracy only,Reduce model size,Option_1,Intermediate
+What is supervised fine-tuning (SFT)?,Fine-tuning with labeled examples for specific task,Unsupervised fine-tuning,Pre-training,Transfer learning,Option_1,Intermediate
+What is instruction tuning?,Training model to follow human instructions,Following instructions only,Instruction reading,Query optimization,Option_1,Intermediate
+What is few-shot learning?,Model learning from few examples in prompt,Zero-shot learning,One-shot learning,Many samples,Option_1,Intermediate
+What is zero-shot learning?,Model performing task without specific examples,Few-shot learning,One-shot learning,Pre-training,Option_1,Intermediate
+What is one-shot learning?,Learning from single example in prompt,Zero-shot learning,Few-shot learning,Multiple examples,Option_1,Intermediate
+What is chain-of-thought prompting?,Guiding model through step-by-step reasoning,Direct prompting,Question answering,Summarization,Option_1,Intermediate
+What is in-context learning?,Model learning from examples in prompt without updating weights,Learning by training,Fine-tuning,Pre-training,Option_1,Advanced
+What is retrieval augmented generation (RAG)?,Combining retrieval with generation for accurate responses,Pure generation,Pure retrieval,Fusion only,Option_1,Intermediate
+What is the benefit of RAG?,"Grounds generation in retrieved documents, reduces hallucination",Faster processing,Larger model,More parameters,Option_1,Intermediate
+What are vector databases in RAG?,Storing embeddings for semantic search and retrieval,Text databases,Relational databases,Graph databases,Option_1,Intermediate
+What is ChatGPT?,Conversational AI model by OpenAI based on GPT,Text classification model,Image generation model,Video model,Option_1,Beginner
+What is DALL-E?,Image generation model by OpenAI,Text generation model,Audio synthesis model,Video model,Option_1,Beginner
+What is Claude?,Large language model by Anthropic,Computer vision model,Speech recognition model,Recommendation system,Option_1,Beginner
+What is Llama?,Large language model by Meta,Computer vision model,Image generation model,Speech model,Option_1,Intermediate
+What is Stable Diffusion?,Text-to-image generation model using diffusion,Text generation model,Audio model,Video model,Option_1,Intermediate
+What is Mistral?,Efficient large language model,Image model,Video model,Audio model,Option_1,Intermediate
+What is Gemini?,Multimodal AI model by Google,Text-only model,Image-only model,Audio-only model,Option_1,Intermediate
+What is an embedding?,Vector representation capturing semantic meaning,Text representation,Image pixels,Audio samples,Option_1,Intermediate
+What is semantic similarity?,Measure of meaning similarity between text/embeddings,Word similarity,Character similarity,Byte similarity,Option_1,Intermediate
+What is cosine similarity?,Measuring angle between two vectors,Distance metric,Euclidean distance,Manhattan distance,Option_1,Intermediate
+What is embedding dimension?,"Size of embedding vectors (e.g., 768, 1536)",Text length,Vocabulary size,Model size,Option_1,Intermediate
+What is a dense vector?,Vector with many non-zero values,Vector with few non-zero values,Sparse vector,One-hot vector,Option_1,Advanced
+What is a sparse vector?,Vector with mostly zero values,Dense vector,Embedding vector,Output vector,Option_1,Advanced
+What is a diffusion model?,Generative model using iterative noise removal,Direct generation model,Classification model,Clustering model,Option_1,Intermediate
+How do diffusion models generate images?,"Starting from noise, iteratively removing noise",Direct output,Sampling from distribution,Interpolating features,Option_1,Intermediate
+What is the forward process in diffusion?,Gradually adding noise to image,Removing noise,Generating image,Sampling process,Option_1,Intermediate
+What is the reverse process in diffusion?,Gradually removing noise from noisy image,Adding noise,Generation process,Training process,Option_1,Intermediate
+What is denoising in diffusion models?,Removing noise to recover clean data,Adding noise,Filtering images,Image enhancement,Option_1,Intermediate
+What is a GAN (Generative Adversarial Network)?,Two competing networks: generator and discriminator,Single network,Supervised model,Unsupervised classification,Option_1,Intermediate
+What does the generator in GAN do?,Creates fake data to fool discriminator,Discriminates data,Classifies data,Clusters data,Option_1,Intermediate
+What does the discriminator in GAN do?,Distinguishes real from fake data,Generates data,Classifies data,Clusters data,Option_1,Intermediate
+What is mode collapse in GANs?,Generator learning limited modes of data distribution,Generator failure,Discriminator issue,Training error,Option_1,Advanced
+What is Wasserstein GAN?,GAN using Wasserstein distance improving training stability,Simple GAN,Conditional GAN,StyleGAN,Option_1,Advanced
+What is VAE (Variational Autoencoder)?,Generative model learning latent distribution,Supervised classifier,Feature extractor,Dimensionality reduction,Option_1,Intermediate
+What is encoder in VAE?,Maps data to latent space distribution,Maps output to input,Generates data,Decodes data,Option_1,Intermediate
+What is decoder in VAE?,Maps latent variables to data space,Encodes data,Generates samples,Samples latent,Option_1,Intermediate
+What is latent space in VAE?,Compressed representation space of data,Output space,Input space,Feature space,Option_1,Intermediate
+What is KL divergence in VAE?,Regularizing latent distribution to be normal,Data loss,Reconstruction loss,Entropy measure,Option_1,Advanced
+What is text generation?,Creating text automatically from model,Writing manually,Copying text,Summarizing text,Option_1,Beginner
+What is language model?,Model predicting next token given previous tokens,Classification model,Clustering model,Regression model,Option_1,Beginner
+What is next token prediction?,Predicting most likely next word in sequence,Random generation,Fixed output,User input,Option_1,Beginner
+What is beam search?,Algorithm exploring multiple paths for text generation,Greedy search,Random search,Exhaustive search,Option_1,Intermediate
+What is greedy decoding?,Selecting highest probability token at each step,Random selection,Beam search,Exhaustive search,Option_1,Intermediate
+What is nucleus sampling (top-p)?,Sampling from top probability tokens until probability sum reaches p,Temperature sampling,Beam search,Greedy decoding,Option_1,Advanced
+What is top-k sampling?,Sampling from k highest probability tokens,Top-p sampling,Temperature sampling,Beam search,Option_1,Advanced
+What is temperature in text generation?,"Controls randomness of predictions (high=random, low=deterministic)",Model speed,Model size,Learning rate,Option_1,Intermediate
+What is image generation?,Creating images from text descriptions or noise,Image classification,Image recognition,Image segmentation,Option_1,Beginner
+What is text-to-image generation?,Converting text descriptions to images,Image-to-text,Image classification,Image editing,Option_1,Beginner
+What is CLIP?,Model linking text and image representations,Image generation model,Text generation model,Classification model,Option_1,Intermediate
+What is guidance in image generation?,Conditioning model on text or other guidance signals,Brightness adjustment,Contrast adjustment,Filtering,Option_1,Intermediate
+What is classifier-free guidance?,Technique improving generation quality without explicit classifier,Using classifier,Supervised generation,Unsupervised learning,Option_1,Advanced
+What is LoRA (Low-Rank Adaptation)?,Efficient fine-tuning method with low-rank updates,Full fine-tuning,Transfer learning,Feature extraction,Option_1,Advanced
+What is video generation?,Creating videos from descriptions or frames,Video classification,Video analysis,Video editing,Option_1,Advanced
+What is frame interpolation?,Generating intermediate frames between key frames,Frame extraction,Frame rate conversion,Frame blending,Option_1,Advanced
+What is text-to-speech (TTS)?,Converting text to natural speech audio,Speech recognition,Audio analysis,Voice cloning,Option_1,Intermediate
+What is speech-to-text?,Converting speech audio to text,Text-to-speech,Voice synthesis,Audio generation,Option_1,Beginner
+What is voice cloning?,Generating speech in specific person's voice,Voice recognition,Voice synthesis,Audio editing,Option_1,Intermediate
+What is WaveNet?,Generative model for audio waveform synthesis,Image generation model,Text model,Video model,Option_1,Advanced
+What is multimodal AI?,"AI understanding multiple modalities (text, image, audio)",Single modality AI,Text-only AI,Image-only AI,Option_1,Intermediate
+What is vision-language model?,Model understanding both images and text,Image-only model,Text-only model,Audio model,Option_1,Intermediate
+What is visual question answering (VQA)?,Answering questions about images,Image classification,Image generation,Image segmentation,Option_1,Intermediate
+What is image captioning?,Generating text descriptions of images,Image classification,Object detection,Image generation,Option_1,Intermediate
+What is alignment in AI?,Ensuring AI behavior matches human intentions,Data alignment,Model alignment,Feature alignment,Option_1,Intermediate
+What is RLHF (Reinforcement Learning from Human Feedback)?,Training using human feedback to improve model behavior,Standard training,Supervised learning,Unsupervised learning,Option_1,Intermediate
+What is constitutional AI?,Training AI using principles/constitution for behavior,Standard training,Rule-based AI,Expert systems,Option_1,Advanced
+What is hallucination in LLMs?,Model generating false/nonsensical information,Model crashes,Slow inference,Overfitting,Option_1,Beginner
+How to reduce hallucination?,"Use RAG, fine-tuning, better prompts, fact checking",More data only,Larger model only,Higher temperature,Option_1,Intermediate
+What is jailbreaking in AI?,Bypassing safety measures through clever prompting,Security break,Model theft,Unauthorized access,Option_1,Advanced
+What is BLEU score?,Machine translation evaluation metric,Image quality metric,Text similarity,Model accuracy,Option_1,Intermediate
+What is ROUGE score?,Summarization evaluation metric,Image metric,Classification metric,Generation quality,Option_1,Intermediate
+What is perplexity?,Language model evaluation metric measuring prediction uncertainty,Text complexity,Model size,Generation speed,Option_1,Intermediate
+What is METEOR score?,Machine translation evaluation considering synonyms,BLEU score,ROUGE score,Accuracy metric,Option_1,Advanced
+What is human evaluation?,Experts assessing generated content quality,Automatic metric,Benchmark dataset,Test suite,Option_1,Intermediate
+What are scaling laws in LLMs?,Predictable relationships between model size/data and performance,Model architecture,Training speed,Inference cost,Option_1,Advanced
+What is compute-optimal scaling?,Allocating equal compute to model size and training data,Larger models only,More data only,Faster training,Option_1,Advanced
+What is the scaling hypothesis?,Performance improves with more scale (data/model/compute),Scaling reaches limit,Scaling hurts performance,Scaling irrelevant,Option_1,Advanced
+What is quantization?,Reducing precision of model weights for faster inference,Model compression,Model pruning,Distillation,Option_1,Intermediate
+What is model compression?,Reducing model size while maintaining performance,Data compression,Feature compression,Algorithm compression,Option_1,Intermediate
+What is knowledge distillation?,Training small model to mimic large model,Model compression,Quantization,Pruning,Option_1,Intermediate
+What is inference optimization?,Techniques improving speed/efficiency of model predictions,Training optimization,Data optimization,Feature optimization,Option_1,Intermediate
+What is batching in inference?,Processing multiple inputs simultaneously,Single input,Sequential processing,Parallel computation,Option_1,Intermediate
+What is caching in LLMs?,Storing intermediate computations to avoid recomputation,Data caching,Memory caching,Disk caching,Option_1,Advanced
+What is a chatbot?,AI system conversing with users,Question answering system,Search engine,Recommendation system,Option_1,Beginner
+What is code generation?,AI generating code from descriptions,Code compilation,Code execution,Code review,Option_1,Intermediate
+What is code completion?,Autocompleting code based on context,Full code generation,Code suggestion,Code snippet,Option_1,Beginner
+What is content summarization?,Generating concise summaries of content,Content analysis,Content classification,Content extraction,Option_1,Beginner
+What is machine translation?,Converting text from one language to another,Language detection,Language modeling,Language generation,Option_1,Beginner
+What is paraphrase generation?,Rewriting text with different wording,Text extraction,Text compression,Text expansion,Option_1,Intermediate
+What is question answering?,Answering questions based on context/knowledge,Question generation,Question classification,Information retrieval,Option_1,Beginner
+What is semantic search?,Finding relevant content based on meaning not keywords,Keyword search,Boolean search,Fuzzy search,Option_1,Intermediate
+What is context window?,Maximum length of input sequence model can handle,Model size,Memory size,Processing speed,Option_1,Intermediate
+What is context length limitation?,Models can't handle very long sequences,Model accuracy issue,Training problem,Inference issue,Option_1,Intermediate
+What is token limit?,Maximum tokens model can process,Maximum model size,Maximum parameters,Maximum accuracy,Option_1,Beginner
+What is bias in GenAI?,Models reflecting training data biases,Model unfairness,Data imbalance,Sampling bias,Option_1,Intermediate
+What is copyright concern in GenAI?,Training on copyrighted content raises legal issues,Data privacy,Model theft,Unauthorized access,Option_1,Intermediate
+What is environmental impact of LLMs?,Large training requires significant computational resources,Model performance,Model accuracy,Inference speed,Option_1,Advanced
+What is long-context modeling?,Extending context window for very long sequences,Short context,Fixed context,No context,Option_1,Advanced
+What is continual learning in LLMs?,Learning new information without forgetting previous,Retraining,Fine-tuning,Transfer learning,Option_1,Advanced
+What is few-shot adaptation?,Quickly adapting to new tasks with few examples,Zero-shot,No adaptation,Full retraining,Option_1,Advanced
+What is emergent abilities?,Unexpected capabilities appearing at certain model sizes,Learned abilities,Pre-trained abilities,Intended abilities,Option_1,Advanced
+What is mixture of experts (MoE)?,Architecture with multiple specialized experts and router,Single model,Ensemble method,Transfer learning,Option_1,Advanced
+What is attention mask?,Controlling which tokens attend to others,Attention weights,Attention heads,Attention mechanism,Option_1,Intermediate
+What is masking in model training?,Hiding tokens during training for prediction,Data masking,Feature masking,Label masking,Option_1,Intermediate
+What is padding in NLP?,Adding tokens to make sequences same length,Text removal,Token removal,Sequence truncation,Option_1,Intermediate
+What is batch normalization in transformers?,Normalizing layer outputs for training stability,Input normalization,Feature normalization,Output normalization,Option_1,Advanced
+What is layer normalization?,Normalizing across features within each sample,Batch normalization,Instance normalization,Group normalization,Option_1,Advanced
+What does Generative AI refer to?,"AI systems that create new content (text, images, code)",AI that analyzes existing data only,AI that classifies images,AI for robotics control,Option_1,Beginner
+What is the primary difference between Generative AI and Discriminative AI?,"Generative models data distribution, Discriminative learn boundaries",Generative is faster,Discriminative is older,No difference,Option_1,Beginner
+Which of the following is a Generative AI application?,ChatGPT,Image classification model,Spam detection,Face recognition,Option_1,Beginner
+What is prompt engineering?,Crafting inputs to guide AI outputs effectively,Writing code for AI,Training neural networks,Data preprocessing,Option_1,Beginner
+What is the purpose of a prompt?,To provide instructions/context to AI model,To test model speed,To verify correctness,To train the model,Option_1,Beginner
+What is LLM?,Large Language Model trained on vast text data,Linear Learning Model,Low-Level Management,Linguistic Language Module,Option_1,Beginner
+What are common applications of LLMs?,"Chatbots, text generation, translation, summarization",Image generation only,Video processing only,Audio synthesis only,Option_1,Beginner
+What does GPT stand for?,Generative Pre-trained Transformer,General Purpose Tool,Gradient Processing Technology,Global Parameter Tuning,Option_1,Beginner
+What does BERT stand for?,Bidirectional Encoder Representations from Transformers,Basic Encoder for Text Recognition,Binary Encoding Representation,Base Embedding Representation Technology,Option_1,Intermediate
+What is the difference between GPT and BERT?,"GPT is autoregressive, BERT is bidirectional",GPT is faster,BERT generates text,No difference,Option_1,Intermediate
+What is the Transformer architecture?,Deep learning architecture using self-attention mechanism,Recurrent neural network,Convolutional network,Fully connected network,Option_1,Intermediate
+What is the 'Attention is All You Need' paper about?,Introducing Transformer architecture with self-attention,Attention mechanisms only,Feature attention,Memory attention,Option_1,Intermediate
+What is self-attention?,Mechanism relating different positions in sequence,Attention to input only,Attention to output only,Human attention,Option_1,Intermediate
+What is the purpose of positional encoding in Transformers?,Provides sequence position information to model,Encodes data type,Normalizes features,Compresses input,Option_1,Intermediate
+What is multi-head attention?,Multiple parallel attention mechanisms,Single attention head,Sequential attention,Hierarchical attention,Option_1,Intermediate
+What is a token in LLMs?,Subword unit (word/part of word) processed by model,Token of appreciation,Security token,Blockchain token,Option_1,Beginner
+What is tokenization?,Converting text into tokens for model processing,Sorting words,Removing punctuation,Converting to lowercase,Option_1,Beginner
+What is vocabulary in LLMs?,Complete set of tokens model can process,Knowledge of words,Embeddings,Token frequencies,Option_1,Intermediate
+What is pre-training in LLMs?,Training on large corpus before task-specific training,First attempt at training,Quick training,Training on small data,Option_1,Intermediate
+What is fine-tuning?,Adapting pre-trained model to specific task,Training from scratch,Reducing model size,Adding layers,Option_1,Intermediate
+What is the purpose of pre-training?,Learn general language patterns from large data,Reduce training time,Improve accuracy only,Reduce model size,Option_1,Intermediate
+What is supervised fine-tuning (SFT)?,Fine-tuning with labeled examples for specific task,Unsupervised fine-tuning,Pre-training,Transfer learning,Option_1,Intermediate
+What is instruction tuning?,Training model to follow human instructions,Following instructions only,Instruction reading,Query optimization,Option_1,Intermediate
+What is few-shot learning?,Model learning from few examples in prompt,Zero-shot learning,One-shot learning,Many samples,Option_1,Intermediate
+What is zero-shot learning?,Model performing task without specific examples,Few-shot learning,One-shot learning,Pre-training,Option_1,Intermediate
+What is one-shot learning?,Learning from single example in prompt,Zero-shot learning,Few-shot learning,Multiple examples,Option_1,Intermediate
+What is chain-of-thought prompting?,Guiding model through step-by-step reasoning,Direct prompting,Question answering,Summarization,Option_1,Intermediate
+What is in-context learning?,Model learning from examples in prompt without updating weights,Learning by training,Fine-tuning,Pre-training,Option_1,Advanced
+What is retrieval augmented generation (RAG)?,Combining retrieval with generation for accurate responses,Pure generation,Pure retrieval,Fusion only,Option_1,Intermediate
+What is the benefit of RAG?,"Grounds generation in retrieved documents, reduces hallucination",Faster processing,Larger model,More parameters,Option_1,Intermediate
+What are vector databases in RAG?,Storing embeddings for semantic search and retrieval,Text databases,Relational databases,Graph databases,Option_1,Intermediate
+What is ChatGPT?,Conversational AI model by OpenAI based on GPT,Text classification model,Image generation model,Video model,Option_1,Beginner
+What is DALL-E?,Image generation model by OpenAI,Text generation model,Audio synthesis model,Video model,Option_1,Beginner
+What is Claude?,Large language model by Anthropic,Computer vision model,Speech recognition model,Recommendation system,Option_1,Beginner
+What is Llama?,Large language model by Meta,Computer vision model,Image generation model,Speech model,Option_1,Intermediate
+What is Stable Diffusion?,Text-to-image generation model using diffusion,Text generation model,Audio model,Video model,Option_1,Intermediate
+What is Mistral?,Efficient large language model,Image model,Video model,Audio model,Option_1,Intermediate
+What is Gemini?,Multimodal AI model by Google,Text-only model,Image-only model,Audio-only model,Option_1,Intermediate
+What is an embedding?,Vector representation capturing semantic meaning,Text representation,Image pixels,Audio samples,Option_1,Intermediate
+What is semantic similarity?,Measure of meaning similarity between text/embeddings,Word similarity,Character similarity,Byte similarity,Option_1,Intermediate
+What is cosine similarity?,Measuring angle between two vectors,Distance metric,Euclidean distance,Manhattan distance,Option_1,Intermediate
+What is embedding dimension?,"Size of embedding vectors (e.g., 768, 1536)",Text length,Vocabulary size,Model size,Option_1,Intermediate
+What is a dense vector?,Vector with many non-zero values,Vector with few non-zero values,Sparse vector,One-hot vector,Option_1,Advanced
+What is a sparse vector?,Vector with mostly zero values,Dense vector,Embedding vector,Output vector,Option_1,Advanced
+What is a diffusion model?,Generative model using iterative noise removal,Direct generation model,Classification model,Clustering model,Option_1,Intermediate
+How do diffusion models generate images?,"Starting from noise, iteratively removing noise",Direct output,Sampling from distribution,Interpolating features,Option_1,Intermediate
+What is the forward process in diffusion?,Gradually adding noise to image,Removing noise,Generating image,Sampling process,Option_1,Intermediate
+What is the reverse process in diffusion?,Gradually removing noise from noisy image,Adding noise,Generation process,Training process,Option_1,Intermediate
+What is denoising in diffusion models?,Removing noise to recover clean data,Adding noise,Filtering images,Image enhancement,Option_1,Intermediate
+What is a GAN (Generative Adversarial Network)?,Two competing networks: generator and discriminator,Single network,Supervised model,Unsupervised classification,Option_1,Intermediate
+What does the generator in GAN do?,Creates fake data to fool discriminator,Discriminates data,Classifies data,Clusters data,Option_1,Intermediate
+What does the discriminator in GAN do?,Distinguishes real from fake data,Generates data,Classifies data,Clusters data,Option_1,Intermediate
+What is mode collapse in GANs?,Generator learning limited modes of data distribution,Generator failure,Discriminator issue,Training error,Option_1,Advanced
+What is Wasserstein GAN?,GAN using Wasserstein distance improving training stability,Simple GAN,Conditional GAN,StyleGAN,Option_1,Advanced
+What is VAE (Variational Autoencoder)?,Generative model learning latent distribution,Supervised classifier,Feature extractor,Dimensionality reduction,Option_1,Intermediate
+What is encoder in VAE?,Maps data to latent space distribution,Maps output to input,Generates data,Decodes data,Option_1,Intermediate
+What is decoder in VAE?,Maps latent variables to data space,Encodes data,Generates samples,Samples latent,Option_1,Intermediate
+What is latent space in VAE?,Compressed representation space of data,Output space,Input space,Feature space,Option_1,Intermediate
+What is KL divergence in VAE?,Regularizing latent distribution to be normal,Data loss,Reconstruction loss,Entropy measure,Option_1,Advanced
+What is text generation?,Creating text automatically from model,Writing manually,Copying text,Summarizing text,Option_1,Beginner
+What is language model?,Model predicting next token given previous tokens,Classification model,Clustering model,Regression model,Option_1,Beginner
+What is next token prediction?,Predicting most likely next word in sequence,Random generation,Fixed output,User input,Option_1,Beginner
+What is beam search?,Algorithm exploring multiple paths for text generation,Greedy search,Random search,Exhaustive search,Option_1,Intermediate
+What is greedy decoding?,Selecting highest probability token at each step,Random selection,Beam search,Exhaustive search,Option_1,Intermediate
+What is nucleus sampling (top-p)?,Sampling from top probability tokens until probability sum reaches p,Temperature sampling,Beam search,Greedy decoding,Option_1,Advanced
+What is top-k sampling?,Sampling from k highest probability tokens,Top-p sampling,Temperature sampling,Beam search,Option_1,Advanced
+What is temperature in text generation?,"Controls randomness of predictions (high=random, low=deterministic)",Model speed,Model size,Learning rate,Option_1,Intermediate
+What is image generation?,Creating images from text descriptions or noise,Image classification,Image recognition,Image segmentation,Option_1,Beginner
+What is text-to-image generation?,Converting text descriptions to images,Image-to-text,Image classification,Image editing,Option_1,Beginner
+What is CLIP?,Model linking text and image representations,Image generation model,Text generation model,Classification model,Option_1,Intermediate
+What is guidance in image generation?,Conditioning model on text or other guidance signals,Brightness adjustment,Contrast adjustment,Filtering,Option_1,Intermediate
+What is classifier-free guidance?,Technique improving generation quality without explicit classifier,Using classifier,Supervised generation,Unsupervised learning,Option_1,Advanced
+What is LoRA (Low-Rank Adaptation)?,Efficient fine-tuning method with low-rank updates,Full fine-tuning,Transfer learning,Feature extraction,Option_1,Advanced
+What is video generation?,Creating videos from descriptions or frames,Video classification,Video analysis,Video editing,Option_1,Advanced
+What is frame interpolation?,Generating intermediate frames between key frames,Frame extraction,Frame rate conversion,Frame blending,Option_1,Advanced
+What is text-to-speech (TTS)?,Converting text to natural speech audio,Speech recognition,Audio analysis,Voice cloning,Option_1,Intermediate
+What is speech-to-text?,Converting speech audio to text,Text-to-speech,Voice synthesis,Audio generation,Option_1,Beginner
+What is voice cloning?,Generating speech in specific person's voice,Voice recognition,Voice synthesis,Audio editing,Option_1,Intermediate
+What is WaveNet?,Generative model for audio waveform synthesis,Image generation model,Text model,Video model,Option_1,Advanced
+What is multimodal AI?,"AI understanding multiple modalities (text, image, audio)",Single modality AI,Text-only AI,Image-only AI,Option_1,Intermediate
+What is vision-language model?,Model understanding both images and text,Image-only model,Text-only model,Audio model,Option_1,Intermediate
+What is visual question answering (VQA)?,Answering questions about images,Image classification,Image generation,Image segmentation,Option_1,Intermediate
+What is image captioning?,Generating text descriptions of images,Image classification,Object detection,Image generation,Option_1,Intermediate
+What is alignment in AI?,Ensuring AI behavior matches human intentions,Data alignment,Model alignment,Feature alignment,Option_1,Intermediate
+What is RLHF (Reinforcement Learning from Human Feedback)?,Training using human feedback to improve model behavior,Standard training,Supervised learning,Unsupervised learning,Option_1,Intermediate
+What is constitutional AI?,Training AI using principles/constitution for behavior,Standard training,Rule-based AI,Expert systems,Option_1,Advanced
+What is hallucination in LLMs?,Model generating false/nonsensical information,Model crashes,Slow inference,Overfitting,Option_1,Beginner
+How to reduce hallucination?,"Use RAG, fine-tuning, better prompts, fact checking",More data only,Larger model only,Higher temperature,Option_1,Intermediate
+What is jailbreaking in AI?,Bypassing safety measures through clever prompting,Security break,Model theft,Unauthorized access,Option_1,Advanced
+What is BLEU score?,Machine translation evaluation metric,Image quality metric,Text similarity,Model accuracy,Option_1,Intermediate
+What is ROUGE score?,Summarization evaluation metric,Image metric,Classification metric,Generation quality,Option_1,Intermediate
+What is perplexity?,Language model evaluation metric measuring prediction uncertainty,Text complexity,Model size,Generation speed,Option_1,Intermediate
+What is METEOR score?,Machine translation evaluation considering synonyms,BLEU score,ROUGE score,Accuracy metric,Option_1,Advanced
+What is human evaluation?,Experts assessing generated content quality,Automatic metric,Benchmark dataset,Test suite,Option_1,Intermediate
+What are scaling laws in LLMs?,Predictable relationships between model size/data and performance,Model architecture,Training speed,Inference cost,Option_1,Advanced
+What is compute-optimal scaling?,Allocating equal compute to model size and training data,Larger models only,More data only,Faster training,Option_1,Advanced
+What is the scaling hypothesis?,Performance improves with more scale (data/model/compute),Scaling reaches limit,Scaling hurts performance,Scaling irrelevant,Option_1,Advanced
+What is quantization?,Reducing precision of model weights for faster inference,Model compression,Model pruning,Distillation,Option_1,Intermediate
+What is model compression?,Reducing model size while maintaining performance,Data compression,Feature compression,Algorithm compression,Option_1,Intermediate
+What is knowledge distillation?,Training small model to mimic large model,Model compression,Quantization,Pruning,Option_1,Intermediate
+What is inference optimization?,Techniques improving speed/efficiency of model predictions,Training optimization,Data optimization,Feature optimization,Option_1,Intermediate
+What is batching in inference?,Processing multiple inputs simultaneously,Single input,Sequential processing,Parallel computation,Option_1,Intermediate
+What is caching in LLMs?,Storing intermediate computations to avoid recomputation,Data caching,Memory caching,Disk caching,Option_1,Advanced
+What is a chatbot?,AI system conversing with users,Question answering system,Search engine,Recommendation system,Option_1,Beginner
+What is code generation?,AI generating code from descriptions,Code compilation,Code execution,Code review,Option_1,Intermediate
+What is code completion?,Autocompleting code based on context,Full code generation,Code suggestion,Code snippet,Option_1,Beginner
+What is content summarization?,Generating concise summaries of content,Content analysis,Content classification,Content extraction,Option_1,Beginner
+What is machine translation?,Converting text from one language to another,Language detection,Language modeling,Language generation,Option_1,Beginner
+What is paraphrase generation?,Rewriting text with different wording,Text extraction,Text compression,Text expansion,Option_1,Intermediate
+What is question answering?,Answering questions based on context/knowledge,Question generation,Question classification,Information retrieval,Option_1,Beginner
+What is semantic search?,Finding relevant content based on meaning not keywords,Keyword search,Boolean search,Fuzzy search,Option_1,Intermediate
+What is context window?,Maximum length of input sequence model can handle,Model size,Memory size,Processing speed,Option_1,Intermediate
+What is context length limitation?,Models can't handle very long sequences,Model accuracy issue,Training problem,Inference issue,Option_1,Intermediate
+What is token limit?,Maximum tokens model can process,Maximum model size,Maximum parameters,Maximum accuracy,Option_1,Beginner
+What is bias in GenAI?,Models reflecting training data biases,Model unfairness,Data imbalance,Sampling bias,Option_1,Intermediate
+What is copyright concern in GenAI?,Training on copyrighted content raises legal issues,Data privacy,Model theft,Unauthorized access,Option_1,Intermediate
+What is environmental impact of LLMs?,Large training requires significant computational resources,Model performance,Model accuracy,Inference speed,Option_1,Advanced
+What is long-context modeling?,Extending context window for very long sequences,Short context,Fixed context,No context,Option_1,Advanced
+What is continual learning in LLMs?,Learning new information without forgetting previous,Retraining,Fine-tuning,Transfer learning,Option_1,Advanced
+What is few-shot adaptation?,Quickly adapting to new tasks with few examples,Zero-shot,No adaptation,Full retraining,Option_1,Advanced
+What is emergent abilities?,Unexpected capabilities appearing at certain model sizes,Learned abilities,Pre-trained abilities,Intended abilities,Option_1,Advanced
+What is mixture of experts (MoE)?,Architecture with multiple specialized experts and router,Single model,Ensemble method,Transfer learning,Option_1,Advanced
+What is attention mask?,Controlling which tokens attend to others,Attention weights,Attention heads,Attention mechanism,Option_1,Intermediate
+What is masking in model training?,Hiding tokens during training for prediction,Data masking,Feature masking,Label masking,Option_1,Intermediate
+What is padding in NLP?,Adding tokens to make sequences same length,Text removal,Token removal,Sequence truncation,Option_1,Intermediate
+What is batch normalization in transformers?,Normalizing layer outputs for training stability,Input normalization,Feature normalization,Output normalization,Option_1,Advanced
+What is layer normalization?,Normalizing across features within each sample,Batch normalization,Instance normalization,Group normalization,Option_1,Advanced
+What does Generative AI refer to?,"AI systems that create new content (text, images, code)",AI that analyzes existing data only,AI that classifies images,AI for robotics control,Option_1,Beginner
+What is the primary difference between Generative AI and Discriminative AI?,"Generative models data distribution, Discriminative learn boundaries",Generative is faster,Discriminative is older,No difference,Option_1,Beginner
+Which of the following is a Generative AI application?,ChatGPT,Image classification model,Spam detection,Face recognition,Option_1,Beginner
+What is prompt engineering?,Crafting inputs to guide AI outputs effectively,Writing code for AI,Training neural networks,Data preprocessing,Option_1,Beginner
+What is the purpose of a prompt?,To provide instructions/context to AI model,To test model speed,To verify correctness,To train the model,Option_1,Beginner
+What is LLM?,Large Language Model trained on vast text data,Linear Learning Model,Low-Level Management,Linguistic Language Module,Option_1,Beginner
+What are common applications of LLMs?,"Chatbots, text generation, translation, summarization",Image generation only,Video processing only,Audio synthesis only,Option_1,Beginner
+What does GPT stand for?,Generative Pre-trained Transformer,General Purpose Tool,Gradient Processing Technology,Global Parameter Tuning,Option_1,Beginner
+What does BERT stand for?,Bidirectional Encoder Representations from Transformers,Basic Encoder for Text Recognition,Binary Encoding Representation,Base Embedding Representation Technology,Option_1,Intermediate
+What is the difference between GPT and BERT?,"GPT is autoregressive, BERT is bidirectional",GPT is faster,BERT generates text,No difference,Option_1,Intermediate
+What is the Transformer architecture?,Deep learning architecture using self-attention mechanism,Recurrent neural network,Convolutional network,Fully connected network,Option_1,Intermediate
+What is the 'Attention is All You Need' paper about?,Introducing Transformer architecture with self-attention,Attention mechanisms only,Feature attention,Memory attention,Option_1,Intermediate
+What is self-attention?,Mechanism relating different positions in sequence,Attention to input only,Attention to output only,Human attention,Option_1,Intermediate
+What is the purpose of positional encoding in Transformers?,Provides sequence position information to model,Encodes data type,Normalizes features,Compresses input,Option_1,Intermediate
+What is multi-head attention?,Multiple parallel attention mechanisms,Single attention head,Sequential attention,Hierarchical attention,Option_1,Intermediate
+What is a token in LLMs?,Subword unit (word/part of word) processed by model,Token of appreciation,Security token,Blockchain token,Option_1,Beginner
+What is tokenization?,Converting text into tokens for model processing,Sorting words,Removing punctuation,Converting to lowercase,Option_1,Beginner
+What is vocabulary in LLMs?,Complete set of tokens model can process,Knowledge of words,Embeddings,Token frequencies,Option_1,Intermediate
+What is pre-training in LLMs?,Training on large corpus before task-specific training,First attempt at training,Quick training,Training on small data,Option_1,Intermediate
+What is fine-tuning?,Adapting pre-trained model to specific task,Training from scratch,Reducing model size,Adding layers,Option_1,Intermediate
+What is the purpose of pre-training?,Learn general language patterns from large data,Reduce training time,Improve accuracy only,Reduce model size,Option_1,Intermediate
+What is supervised fine-tuning (SFT)?,Fine-tuning with labeled examples for specific task,Unsupervised fine-tuning,Pre-training,Transfer learning,Option_1,Intermediate
+What is instruction tuning?,Training model to follow human instructions,Following instructions only,Instruction reading,Query optimization,Option_1,Intermediate
+What is few-shot learning?,Model learning from few examples in prompt,Zero-shot learning,One-shot learning,Many samples,Option_1,Intermediate
+What is zero-shot learning?,Model performing task without specific examples,Few-shot learning,One-shot learning,Pre-training,Option_1,Intermediate
+What is one-shot learning?,Learning from single example in prompt,Zero-shot learning,Few-shot learning,Multiple examples,Option_1,Intermediate
+What is chain-of-thought prompting?,Guiding model through step-by-step reasoning,Direct prompting,Question answering,Summarization,Option_1,Intermediate
+What is in-context learning?,Model learning from examples in prompt without updating weights,Learning by training,Fine-tuning,Pre-training,Option_1,Advanced
+What is retrieval augmented generation (RAG)?,Combining retrieval with generation for accurate responses,Pure generation,Pure retrieval,Fusion only,Option_1,Intermediate
+What is the benefit of RAG?,"Grounds generation in retrieved documents, reduces hallucination",Faster processing,Larger model,More parameters,Option_1,Intermediate
+What are vector databases in RAG?,Storing embeddings for semantic search and retrieval,Text databases,Relational databases,Graph databases,Option_1,Intermediate
+What is ChatGPT?,Conversational AI model by OpenAI based on GPT,Text classification model,Image generation model,Video model,Option_1,Beginner
+What is DALL-E?,Image generation model by OpenAI,Text generation model,Audio synthesis model,Video model,Option_1,Beginner
+What is Claude?,Large language model by Anthropic,Computer vision model,Speech recognition model,Recommendation system,Option_1,Beginner
+What is Llama?,Large language model by Meta,Computer vision model,Image generation model,Speech model,Option_1,Intermediate
+What is Stable Diffusion?,Text-to-image generation model using diffusion,Text generation model,Audio model,Video model,Option_1,Intermediate
+What is Mistral?,Efficient large language model,Image model,Video model,Audio model,Option_1,Intermediate
+What is Gemini?,Multimodal AI model by Google,Text-only model,Image-only model,Audio-only model,Option_1,Intermediate
+What is an embedding?,Vector representation capturing semantic meaning,Text representation,Image pixels,Audio samples,Option_1,Intermediate
+What is semantic similarity?,Measure of meaning similarity between text/embeddings,Word similarity,Character similarity,Byte similarity,Option_1,Intermediate
+What is cosine similarity?,Measuring angle between two vectors,Distance metric,Euclidean distance,Manhattan distance,Option_1,Intermediate
+What is embedding dimension?,"Size of embedding vectors (e.g., 768, 1536)",Text length,Vocabulary size,Model size,Option_1,Intermediate
+What is a dense vector?,Vector with many non-zero values,Vector with few non-zero values,Sparse vector,One-hot vector,Option_1,Advanced
+What is a sparse vector?,Vector with mostly zero values,Dense vector,Embedding vector,Output vector,Option_1,Advanced
+What is a diffusion model?,Generative model using iterative noise removal,Direct generation model,Classification model,Clustering model,Option_1,Intermediate
+How do diffusion models generate images?,"Starting from noise, iteratively removing noise",Direct output,Sampling from distribution,Interpolating features,Option_1,Intermediate
+What is the forward process in diffusion?,Gradually adding noise to image,Removing noise,Generating image,Sampling process,Option_1,Intermediate
+What is the reverse process in diffusion?,Gradually removing noise from noisy image,Adding noise,Generation process,Training process,Option_1,Intermediate
+What is denoising in diffusion models?,Removing noise to recover clean data,Adding noise,Filtering images,Image enhancement,Option_1,Intermediate
+What is a GAN (Generative Adversarial Network)?,Two competing networks: generator and discriminator,Single network,Supervised model,Unsupervised classification,Option_1,Intermediate
+What does the generator in GAN do?,Creates fake data to fool discriminator,Discriminates data,Classifies data,Clusters data,Option_1,Intermediate
+What does the discriminator in GAN do?,Distinguishes real from fake data,Generates data,Classifies data,Clusters data,Option_1,Intermediate
+What is mode collapse in GANs?,Generator learning limited modes of data distribution,Generator failure,Discriminator issue,Training error,Option_1,Advanced
+What is Wasserstein GAN?,GAN using Wasserstein distance improving training stability,Simple GAN,Conditional GAN,StyleGAN,Option_1,Advanced
+What is VAE (Variational Autoencoder)?,Generative model learning latent distribution,Supervised classifier,Feature extractor,Dimensionality reduction,Option_1,Intermediate
+What is encoder in VAE?,Maps data to latent space distribution,Maps output to input,Generates data,Decodes data,Option_1,Intermediate
+What is decoder in VAE?,Maps latent variables to data space,Encodes data,Generates samples,Samples latent,Option_1,Intermediate
+What is latent space in VAE?,Compressed representation space of data,Output space,Input space,Feature space,Option_1,Intermediate
+What is KL divergence in VAE?,Regularizing latent distribution to be normal,Data loss,Reconstruction loss,Entropy measure,Option_1,Advanced
+What is text generation?,Creating text automatically from model,Writing manually,Copying text,Summarizing text,Option_1,Beginner
+What is language model?,Model predicting next token given previous tokens,Classification model,Clustering model,Regression model,Option_1,Beginner
+What is next token prediction?,Predicting most likely next word in sequence,Random generation,Fixed output,User input,Option_1,Beginner
+What is beam search?,Algorithm exploring multiple paths for text generation,Greedy search,Random search,Exhaustive search,Option_1,Intermediate
+What is greedy decoding?,Selecting highest probability token at each step,Random selection,Beam search,Exhaustive search,Option_1,Intermediate
+What is nucleus sampling (top-p)?,Sampling from top probability tokens until probability sum reaches p,Temperature sampling,Beam search,Greedy decoding,Option_1,Advanced
+What is top-k sampling?,Sampling from k highest probability tokens,Top-p sampling,Temperature sampling,Beam search,Option_1,Advanced
+What is temperature in text generation?,"Controls randomness of predictions (high=random, low=deterministic)",Model speed,Model size,Learning rate,Option_1,Intermediate
+What is image generation?,Creating images from text descriptions or noise,Image classification,Image recognition,Image segmentation,Option_1,Beginner
+What is text-to-image generation?,Converting text descriptions to images,Image-to-text,Image classification,Image editing,Option_1,Beginner
+What is CLIP?,Model linking text and image representations,Image generation model,Text generation model,Classification model,Option_1,Intermediate
+What is guidance in image generation?,Conditioning model on text or other guidance signals,Brightness adjustment,Contrast adjustment,Filtering,Option_1,Intermediate
+What is classifier-free guidance?,Technique improving generation quality without explicit classifier,Using classifier,Supervised generation,Unsupervised learning,Option_1,Advanced
+What is LoRA (Low-Rank Adaptation)?,Efficient fine-tuning method with low-rank updates,Full fine-tuning,Transfer learning,Feature extraction,Option_1,Advanced
+What is video generation?,Creating videos from descriptions or frames,Video classification,Video analysis,Video editing,Option_1,Advanced
+What is frame interpolation?,Generating intermediate frames between key frames,Frame extraction,Frame rate conversion,Frame blending,Option_1,Advanced
+What is text-to-speech (TTS)?,Converting text to natural speech audio,Speech recognition,Audio analysis,Voice cloning,Option_1,Intermediate
+What is speech-to-text?,Converting speech audio to text,Text-to-speech,Voice synthesis,Audio generation,Option_1,Beginner
+What is voice cloning?,Generating speech in specific person's voice,Voice recognition,Voice synthesis,Audio editing,Option_1,Intermediate
+What is WaveNet?,Generative model for audio waveform synthesis,Image generation model,Text model,Video model,Option_1,Advanced
+What is multimodal AI?,"AI understanding multiple modalities (text, image, audio)",Single modality AI,Text-only AI,Image-only AI,Option_1,Intermediate
+What is vision-language model?,Model understanding both images and text,Image-only model,Text-only model,Audio model,Option_1,Intermediate
+What is visual question answering (VQA)?,Answering questions about images,Image classification,Image generation,Image segmentation,Option_1,Intermediate
+What is image captioning?,Generating text descriptions of images,Image classification,Object detection,Image generation,Option_1,Intermediate
+What is alignment in AI?,Ensuring AI behavior matches human intentions,Data alignment,Model alignment,Feature alignment,Option_1,Intermediate
+What is RLHF (Reinforcement Learning from Human Feedback)?,Training using human feedback to improve model behavior,Standard training,Supervised learning,Unsupervised learning,Option_1,Intermediate
+What is constitutional AI?,Training AI using principles/constitution for behavior,Standard training,Rule-based AI,Expert systems,Option_1,Advanced
+What is hallucination in LLMs?,Model generating false/nonsensical information,Model crashes,Slow inference,Overfitting,Option_1,Beginner
+How to reduce hallucination?,"Use RAG, fine-tuning, better prompts, fact checking",More data only,Larger model only,Higher temperature,Option_1,Intermediate
+What is jailbreaking in AI?,Bypassing safety measures through clever prompting,Security break,Model theft,Unauthorized access,Option_1,Advanced
+What is BLEU score?,Machine translation evaluation metric,Image quality metric,Text similarity,Model accuracy,Option_1,Intermediate
+What is ROUGE score?,Summarization evaluation metric,Image metric,Classification metric,Generation quality,Option_1,Intermediate
+What is perplexity?,Language model evaluation metric measuring prediction uncertainty,Text complexity,Model size,Generation speed,Option_1,Intermediate
+What is METEOR score?,Machine translation evaluation considering synonyms,BLEU score,ROUGE score,Accuracy metric,Option_1,Advanced
+What is human evaluation?,Experts assessing generated content quality,Automatic metric,Benchmark dataset,Test suite,Option_1,Intermediate
+What are scaling laws in LLMs?,Predictable relationships between model size/data and performance,Model architecture,Training speed,Inference cost,Option_1,Advanced
+What is compute-optimal scaling?,Allocating equal compute to model size and training data,Larger models only,More data only,Faster training,Option_1,Advanced
+What is the scaling hypothesis?,Performance improves with more scale (data/model/compute),Scaling reaches limit,Scaling hurts performance,Scaling irrelevant,Option_1,Advanced
+What is quantization?,Reducing precision of model weights for faster inference,Model compression,Model pruning,Distillation,Option_1,Intermediate
+What is model compression?,Reducing model size while maintaining performance,Data compression,Feature compression,Algorithm compression,Option_1,Intermediate
+What is knowledge distillation?,Training small model to mimic large model,Model compression,Quantization,Pruning,Option_1,Intermediate
+What is inference optimization?,Techniques improving speed/efficiency of model predictions,Training optimization,Data optimization,Feature optimization,Option_1,Intermediate
+What is batching in inference?,Processing multiple inputs simultaneously,Single input,Sequential processing,Parallel computation,Option_1,Intermediate
+What is caching in LLMs?,Storing intermediate computations to avoid recomputation,Data caching,Memory caching,Disk caching,Option_1,Advanced
+What is a chatbot?,AI system conversing with users,Question answering system,Search engine,Recommendation system,Option_1,Beginner
+What is code generation?,AI generating code from descriptions,Code compilation,Code execution,Code review,Option_1,Intermediate
+What is code completion?,Autocompleting code based on context,Full code generation,Code suggestion,Code snippet,Option_1,Beginner
+What is content summarization?,Generating concise summaries of content,Content analysis,Content classification,Content extraction,Option_1,Beginner
+What is machine translation?,Converting text from one language to another,Language detection,Language modeling,Language generation,Option_1,Beginner
+What is paraphrase generation?,Rewriting text with different wording,Text extraction,Text compression,Text expansion,Option_1,Intermediate
+What is question answering?,Answering questions based on context/knowledge,Question generation,Question classification,Information retrieval,Option_1,Beginner
+What is semantic search?,Finding relevant content based on meaning not keywords,Keyword search,Boolean search,Fuzzy search,Option_1,Intermediate
+What is context window?,Maximum length of input sequence model can handle,Model size,Memory size,Processing speed,Option_1,Intermediate
+What is context length limitation?,Models can't handle very long sequences,Model accuracy issue,Training problem,Inference issue,Option_1,Intermediate
+What is token limit?,Maximum tokens model can process,Maximum model size,Maximum parameters,Maximum accuracy,Option_1,Beginner
+What is bias in GenAI?,Models reflecting training data biases,Model unfairness,Data imbalance,Sampling bias,Option_1,Intermediate
+What is copyright concern in GenAI?,Training on copyrighted content raises legal issues,Data privacy,Model theft,Unauthorized access,Option_1,Intermediate
+What is environmental impact of LLMs?,Large training requires significant computational resources,Model performance,Model accuracy,Inference speed,Option_1,Advanced
+What is long-context modeling?,Extending context window for very long sequences,Short context,Fixed context,No context,Option_1,Advanced
+What is continual learning in LLMs?,Learning new information without forgetting previous,Retraining,Fine-tuning,Transfer learning,Option_1,Advanced
+What is few-shot adaptation?,Quickly adapting to new tasks with few examples,Zero-shot,No adaptation,Full retraining,Option_1,Advanced
+What is emergent abilities?,Unexpected capabilities appearing at certain model sizes,Learned abilities,Pre-trained abilities,Intended abilities,Option_1,Advanced
+What is mixture of experts (MoE)?,Architecture with multiple specialized experts and router,Single model,Ensemble method,Transfer learning,Option_1,Advanced
+What is attention mask?,Controlling which tokens attend to others,Attention weights,Attention heads,Attention mechanism,Option_1,Intermediate
+What is masking in model training?,Hiding tokens during training for prediction,Data masking,Feature masking,Label masking,Option_1,Intermediate
+What is padding in NLP?,Adding tokens to make sequences same length,Text removal,Token removal,Sequence truncation,Option_1,Intermediate
+What is batch normalization in transformers?,Normalizing layer outputs for training stability,Input normalization,Feature normalization,Output normalization,Option_1,Advanced
+What is layer normalization?,Normalizing across features within each sample,Batch normalization,Instance normalization,Group normalization,Option_1,Advanced
+What does Generative AI refer to?,"AI systems that create new content (text, images, code)",AI that analyzes existing data only,AI that classifies images,AI for robotics control,Option_1,Beginner
+What is the primary difference between Generative AI and Discriminative AI?,"Generative models data distribution, Discriminative learn boundaries",Generative is faster,Discriminative is older,No difference,Option_1,Beginner
+Which of the following is a Generative AI application?,ChatGPT,Image classification model,Spam detection,Face recognition,Option_1,Beginner
+What is prompt engineering?,Crafting inputs to guide AI outputs effectively,Writing code for AI,Training neural networks,Data preprocessing,Option_1,Beginner
+What is the purpose of a prompt?,To provide instructions/context to AI model,To test model speed,To verify correctness,To train the model,Option_1,Beginner
+What is LLM?,Large Language Model trained on vast text data,Linear Learning Model,Low-Level Management,Linguistic Language Module,Option_1,Beginner
+What are common applications of LLMs?,"Chatbots, text generation, translation, summarization",Image generation only,Video processing only,Audio synthesis only,Option_1,Beginner
+What does GPT stand for?,Generative Pre-trained Transformer,General Purpose Tool,Gradient Processing Technology,Global Parameter Tuning,Option_1,Beginner
+What does BERT stand for?,Bidirectional Encoder Representations from Transformers,Basic Encoder for Text Recognition,Binary Encoding Representation,Base Embedding Representation Technology,Option_1,Intermediate
+What is the difference between GPT and BERT?,"GPT is autoregressive, BERT is bidirectional",GPT is faster,BERT generates text,No difference,Option_1,Intermediate
+What is the Transformer architecture?,Deep learning architecture using self-attention mechanism,Recurrent neural network,Convolutional network,Fully connected network,Option_1,Intermediate
+What is the 'Attention is All You Need' paper about?,Introducing Transformer architecture with self-attention,Attention mechanisms only,Feature attention,Memory attention,Option_1,Intermediate
+What is self-attention?,Mechanism relating different positions in sequence,Attention to input only,Attention to output only,Human attention,Option_1,Intermediate
+What is the purpose of positional encoding in Transformers?,Provides sequence position information to model,Encodes data type,Normalizes features,Compresses input,Option_1,Intermediate
+What is multi-head attention?,Multiple parallel attention mechanisms,Single attention head,Sequential attention,Hierarchical attention,Option_1,Intermediate
+What is a token in LLMs?,Subword unit (word/part of word) processed by model,Token of appreciation,Security token,Blockchain token,Option_1,Beginner
+What is tokenization?,Converting text into tokens for model processing,Sorting words,Removing punctuation,Converting to lowercase,Option_1,Beginner
+What is vocabulary in LLMs?,Complete set of tokens model can process,Knowledge of words,Embeddings,Token frequencies,Option_1,Intermediate
+What is pre-training in LLMs?,Training on large corpus before task-specific training,First attempt at training,Quick training,Training on small data,Option_1,Intermediate
+What is fine-tuning?,Adapting pre-trained model to specific task,Training from scratch,Reducing model size,Adding layers,Option_1,Intermediate
+What is the purpose of pre-training?,Learn general language patterns from large data,Reduce training time,Improve accuracy only,Reduce model size,Option_1,Intermediate
+What is supervised fine-tuning (SFT)?,Fine-tuning with labeled examples for specific task,Unsupervised fine-tuning,Pre-training,Transfer learning,Option_1,Intermediate
+What is instruction tuning?,Training model to follow human instructions,Following instructions only,Instruction reading,Query optimization,Option_1,Intermediate
+What is few-shot learning?,Model learning from few examples in prompt,Zero-shot learning,One-shot learning,Many samples,Option_1,Intermediate
+What is zero-shot learning?,Model performing task without specific examples,Few-shot learning,One-shot learning,Pre-training,Option_1,Intermediate
+What is one-shot learning?,Learning from single example in prompt,Zero-shot learning,Few-shot learning,Multiple examples,Option_1,Intermediate
+What is chain-of-thought prompting?,Guiding model through step-by-step reasoning,Direct prompting,Question answering,Summarization,Option_1,Intermediate
+What is in-context learning?,Model learning from examples in prompt without updating weights,Learning by training,Fine-tuning,Pre-training,Option_1,Advanced
+What is retrieval augmented generation (RAG)?,Combining retrieval with generation for accurate responses,Pure generation,Pure retrieval,Fusion only,Option_1,Intermediate
+What is the benefit of RAG?,"Grounds generation in retrieved documents, reduces hallucination",Faster processing,Larger model,More parameters,Option_1,Intermediate
+What are vector databases in RAG?,Storing embeddings for semantic search and retrieval,Text databases,Relational databases,Graph databases,Option_1,Intermediate
+What is ChatGPT?,Conversational AI model by OpenAI based on GPT,Text classification model,Image generation model,Video model,Option_1,Beginner
+What is DALL-E?,Image generation model by OpenAI,Text generation model,Audio synthesis model,Video model,Option_1,Beginner
+What is Claude?,Large language model by Anthropic,Computer vision model,Speech recognition model,Recommendation system,Option_1,Beginner
+What is Llama?,Large language model by Meta,Computer vision model,Image generation model,Speech model,Option_1,Intermediate
+What is Stable Diffusion?,Text-to-image generation model using diffusion,Text generation model,Audio model,Video model,Option_1,Intermediate
+What is Mistral?,Efficient large language model,Image model,Video model,Audio model,Option_1,Intermediate
+What is Gemini?,Multimodal AI model by Google,Text-only model,Image-only model,Audio-only model,Option_1,Intermediate
+What is an embedding?,Vector representation capturing semantic meaning,Text representation,Image pixels,Audio samples,Option_1,Intermediate
+What is semantic similarity?,Measure of meaning similarity between text/embeddings,Word similarity,Character similarity,Byte similarity,Option_1,Intermediate
+What is cosine similarity?,Measuring angle between two vectors,Distance metric,Euclidean distance,Manhattan distance,Option_1,Intermediate
+What is embedding dimension?,"Size of embedding vectors (e.g., 768, 1536)",Text length,Vocabulary size,Model size,Option_1,Intermediate
+What is a dense vector?,Vector with many non-zero values,Vector with few non-zero values,Sparse vector,One-hot vector,Option_1,Advanced
+What is a sparse vector?,Vector with mostly zero values,Dense vector,Embedding vector,Output vector,Option_1,Advanced
+What is a diffusion model?,Generative model using iterative noise removal,Direct generation model,Classification model,Clustering model,Option_1,Intermediate
+How do diffusion models generate images?,"Starting from noise, iteratively removing noise",Direct output,Sampling from distribution,Interpolating features,Option_1,Intermediate
+What is the forward process in diffusion?,Gradually adding noise to image,Removing noise,Generating image,Sampling process,Option_1,Intermediate
+What is the reverse process in diffusion?,Gradually removing noise from noisy image,Adding noise,Generation process,Training process,Option_1,Intermediate
+What is denoising in diffusion models?,Removing noise to recover clean data,Adding noise,Filtering images,Image enhancement,Option_1,Intermediate
+What is a GAN (Generative Adversarial Network)?,Two competing networks: generator and discriminator,Single network,Supervised model,Unsupervised classification,Option_1,Intermediate
+What does the generator in GAN do?,Creates fake data to fool discriminator,Discriminates data,Classifies data,Clusters data,Option_1,Intermediate
+What does the discriminator in GAN do?,Distinguishes real from fake data,Generates data,Classifies data,Clusters data,Option_1,Intermediate
+What is mode collapse in GANs?,Generator learning limited modes of data distribution,Generator failure,Discriminator issue,Training error,Option_1,Advanced
+What is Wasserstein GAN?,GAN using Wasserstein distance improving training stability,Simple GAN,Conditional GAN,StyleGAN,Option_1,Advanced
+What is VAE (Variational Autoencoder)?,Generative model learning latent distribution,Supervised classifier,Feature extractor,Dimensionality reduction,Option_1,Intermediate
+What is encoder in VAE?,Maps data to latent space distribution,Maps output to input,Generates data,Decodes data,Option_1,Intermediate
+What is decoder in VAE?,Maps latent variables to data space,Encodes data,Generates samples,Samples latent,Option_1,Intermediate
+What is latent space in VAE?,Compressed representation space of data,Output space,Input space,Feature space,Option_1,Intermediate
+What is KL divergence in VAE?,Regularizing latent distribution to be normal,Data loss,Reconstruction loss,Entropy measure,Option_1,Advanced
+What is text generation?,Creating text automatically from model,Writing manually,Copying text,Summarizing text,Option_1,Beginner
+What is language model?,Model predicting next token given previous tokens,Classification model,Clustering model,Regression model,Option_1,Beginner
+What is next token prediction?,Predicting most likely next word in sequence,Random generation,Fixed output,User input,Option_1,Beginner
+What is beam search?,Algorithm exploring multiple paths for text generation,Greedy search,Random search,Exhaustive search,Option_1,Intermediate
+What is greedy decoding?,Selecting highest probability token at each step,Random selection,Beam search,Exhaustive search,Option_1,Intermediate
+What is nucleus sampling (top-p)?,Sampling from top probability tokens until probability sum reaches p,Temperature sampling,Beam search,Greedy decoding,Option_1,Advanced
+What is top-k sampling?,Sampling from k highest probability tokens,Top-p sampling,Temperature sampling,Beam search,Option_1,Advanced
+What is temperature in text generation?,"Controls randomness of predictions (high=random, low=deterministic)",Model speed,Model size,Learning rate,Option_1,Intermediate
+What is image generation?,Creating images from text descriptions or noise,Image classification,Image recognition,Image segmentation,Option_1,Beginner
+What is text-to-image generation?,Converting text descriptions to images,Image-to-text,Image classification,Image editing,Option_1,Beginner
+What is CLIP?,Model linking text and image representations,Image generation model,Text generation model,Classification model,Option_1,Intermediate
+What is guidance in image generation?,Conditioning model on text or other guidance signals,Brightness adjustment,Contrast adjustment,Filtering,Option_1,Intermediate
+What is classifier-free guidance?,Technique improving generation quality without explicit classifier,Using classifier,Supervised generation,Unsupervised learning,Option_1,Advanced
+What is LoRA (Low-Rank Adaptation)?,Efficient fine-tuning method with low-rank updates,Full fine-tuning,Transfer learning,Feature extraction,Option_1,Advanced
+What is video generation?,Creating videos from descriptions or frames,Video classification,Video analysis,Video editing,Option_1,Advanced
+What is frame interpolation?,Generating intermediate frames between key frames,Frame extraction,Frame rate conversion,Frame blending,Option_1,Advanced
+What is text-to-speech (TTS)?,Converting text to natural speech audio,Speech recognition,Audio analysis,Voice cloning,Option_1,Intermediate
+What is speech-to-text?,Converting speech audio to text,Text-to-speech,Voice synthesis,Audio generation,Option_1,Beginner
+What is voice cloning?,Generating speech in specific person's voice,Voice recognition,Voice synthesis,Audio editing,Option_1,Intermediate
+What is WaveNet?,Generative model for audio waveform synthesis,Image generation model,Text model,Video model,Option_1,Advanced
+What is multimodal AI?,"AI understanding multiple modalities (text, image, audio)",Single modality AI,Text-only AI,Image-only AI,Option_1,Intermediate
+What is vision-language model?,Model understanding both images and text,Image-only model,Text-only model,Audio model,Option_1,Intermediate
+What is visual question answering (VQA)?,Answering questions about images,Image classification,Image generation,Image segmentation,Option_1,Intermediate
+What is image captioning?,Generating text descriptions of images,Image classification,Object detection,Image generation,Option_1,Intermediate
+What is alignment in AI?,Ensuring AI behavior matches human intentions,Data alignment,Model alignment,Feature alignment,Option_1,Intermediate
+What is RLHF (Reinforcement Learning from Human Feedback)?,Training using human feedback to improve model behavior,Standard training,Supervised learning,Unsupervised learning,Option_1,Intermediate
+What is constitutional AI?,Training AI using principles/constitution for behavior,Standard training,Rule-based AI,Expert systems,Option_1,Advanced
+What is hallucination in LLMs?,Model generating false/nonsensical information,Model crashes,Slow inference,Overfitting,Option_1,Beginner
+How to reduce hallucination?,"Use RAG, fine-tuning, better prompts, fact checking",More data only,Larger model only,Higher temperature,Option_1,Intermediate
+What is jailbreaking in AI?,Bypassing safety measures through clever prompting,Security break,Model theft,Unauthorized access,Option_1,Advanced
+What is BLEU score?,Machine translation evaluation metric,Image quality metric,Text similarity,Model accuracy,Option_1,Intermediate
+What is ROUGE score?,Summarization evaluation metric,Image metric,Classification metric,Generation quality,Option_1,Intermediate
+What is perplexity?,Language model evaluation metric measuring prediction uncertainty,Text complexity,Model size,Generation speed,Option_1,Intermediate
+What is METEOR score?,Machine translation evaluation considering synonyms,BLEU score,ROUGE score,Accuracy metric,Option_1,Advanced
+What is human evaluation?,Experts assessing generated content quality,Automatic metric,Benchmark dataset,Test suite,Option_1,Intermediate
+What are scaling laws in LLMs?,Predictable relationships between model size/data and performance,Model architecture,Training speed,Inference cost,Option_1,Advanced
+What is compute-optimal scaling?,Allocating equal compute to model size and training data,Larger models only,More data only,Faster training,Option_1,Advanced
+What is the scaling hypothesis?,Performance improves with more scale (data/model/compute),Scaling reaches limit,Scaling hurts performance,Scaling irrelevant,Option_1,Advanced
+What is quantization?,Reducing precision of model weights for faster inference,Model compression,Model pruning,Distillation,Option_1,Intermediate
+What is model compression?,Reducing model size while maintaining performance,Data compression,Feature compression,Algorithm compression,Option_1,Intermediate
+What is knowledge distillation?,Training small model to mimic large model,Model compression,Quantization,Pruning,Option_1,Intermediate
+What is inference optimization?,Techniques improving speed/efficiency of model predictions,Training optimization,Data optimization,Feature optimization,Option_1,Intermediate
+What is batching in inference?,Processing multiple inputs simultaneously,Single input,Sequential processing,Parallel computation,Option_1,Intermediate
+What is caching in LLMs?,Storing intermediate computations to avoid recomputation,Data caching,Memory caching,Disk caching,Option_1,Advanced
+What is a chatbot?,AI system conversing with users,Question answering system,Search engine,Recommendation system,Option_1,Beginner
+What is code generation?,AI generating code from descriptions,Code compilation,Code execution,Code review,Option_1,Intermediate
+What is code completion?,Autocompleting code based on context,Full code generation,Code suggestion,Code snippet,Option_1,Beginner
+What is content summarization?,Generating concise summaries of content,Content analysis,Content classification,Content extraction,Option_1,Beginner
+What is machine translation?,Converting text from one language to another,Language detection,Language modeling,Language generation,Option_1,Beginner
+What is paraphrase generation?,Rewriting text with different wording,Text extraction,Text compression,Text expansion,Option_1,Intermediate
+What is question answering?,Answering questions based on context/knowledge,Question generation,Question classification,Information retrieval,Option_1,Beginner
+What is semantic search?,Finding relevant content based on meaning not keywords,Keyword search,Boolean search,Fuzzy search,Option_1,Intermediate
+What is context window?,Maximum length of input sequence model can handle,Model size,Memory size,Processing speed,Option_1,Intermediate
+What is context length limitation?,Models can't handle very long sequences,Model accuracy issue,Training problem,Inference issue,Option_1,Intermediate
+What is token limit?,Maximum tokens model can process,Maximum model size,Maximum parameters,Maximum accuracy,Option_1,Beginner
+What is bias in GenAI?,Models reflecting training data biases,Model unfairness,Data imbalance,Sampling bias,Option_1,Intermediate
+What is copyright concern in GenAI?,Training on copyrighted content raises legal issues,Data privacy,Model theft,Unauthorized access,Option_1,Intermediate
+What is environmental impact of LLMs?,Large training requires significant computational resources,Model performance,Model accuracy,Inference speed,Option_1,Advanced
+What is long-context modeling?,Extending context window for very long sequences,Short context,Fixed context,No context,Option_1,Advanced
+What is continual learning in LLMs?,Learning new information without forgetting previous,Retraining,Fine-tuning,Transfer learning,Option_1,Advanced
+What is few-shot adaptation?,Quickly adapting to new tasks with few examples,Zero-shot,No adaptation,Full retraining,Option_1,Advanced
+What is emergent abilities?,Unexpected capabilities appearing at certain model sizes,Learned abilities,Pre-trained abilities,Intended abilities,Option_1,Advanced
+What is mixture of experts (MoE)?,Architecture with multiple specialized experts and router,Single model,Ensemble method,Transfer learning,Option_1,Advanced
+What is attention mask?,Controlling which tokens attend to others,Attention weights,Attention heads,Attention mechanism,Option_1,Intermediate
+What is masking in model training?,Hiding tokens during training for prediction,Data masking,Feature masking,Label masking,Option_1,Intermediate
+What is padding in NLP?,Adding tokens to make sequences same length,Text removal,Token removal,Sequence truncation,Option_1,Intermediate
+What is batch normalization in transformers?,Normalizing layer outputs for training stability,Input normalization,Feature normalization,Output normalization,Option_1,Advanced
+What is layer normalization?,Normalizing across features within each sample,Batch normalization,Instance normalization,Group normalization,Option_1,Advanced
+What does Generative AI refer to?,"AI systems that create new content (text, images, code)",AI that analyzes existing data only,AI that classifies images,AI for robotics control,Option_1,Beginner
+What is the primary difference between Generative AI and Discriminative AI?,"Generative models data distribution, Discriminative learn boundaries",Generative is faster,Discriminative is older,No difference,Option_1,Beginner
+Which of the following is a Generative AI application?,ChatGPT,Image classification model,Spam detection,Face recognition,Option_1,Beginner
+What is prompt engineering?,Crafting inputs to guide AI outputs effectively,Writing code for AI,Training neural networks,Data preprocessing,Option_1,Beginner
+What is the purpose of a prompt?,To provide instructions/context to AI model,To test model speed,To verify correctness,To train the model,Option_1,Beginner
+What is LLM?,Large Language Model trained on vast text data,Linear Learning Model,Low-Level Management,Linguistic Language Module,Option_1,Beginner
+What are common applications of LLMs?,"Chatbots, text generation, translation, summarization",Image generation only,Video processing only,Audio synthesis only,Option_1,Beginner
+What does GPT stand for?,Generative Pre-trained Transformer,General Purpose Tool,Gradient Processing Technology,Global Parameter Tuning,Option_1,Beginner
+What does BERT stand for?,Bidirectional Encoder Representations from Transformers,Basic Encoder for Text Recognition,Binary Encoding Representation,Base Embedding Representation Technology,Option_1,Intermediate
+What is the difference between GPT and BERT?,"GPT is autoregressive, BERT is bidirectional",GPT is faster,BERT generates text,No difference,Option_1,Intermediate
+What is the Transformer architecture?,Deep learning architecture using self-attention mechanism,Recurrent neural network,Convolutional network,Fully connected network,Option_1,Intermediate
+What is the 'Attention is All You Need' paper about?,Introducing Transformer architecture with self-attention,Attention mechanisms only,Feature attention,Memory attention,Option_1,Intermediate
+What is self-attention?,Mechanism relating different positions in sequence,Attention to input only,Attention to output only,Human attention,Option_1,Intermediate
+What is the purpose of positional encoding in Transformers?,Provides sequence position information to model,Encodes data type,Normalizes features,Compresses input,Option_1,Intermediate
+What is multi-head attention?,Multiple parallel attention mechanisms,Single attention head,Sequential attention,Hierarchical attention,Option_1,Intermediate
+What is a token in LLMs?,Subword unit (word/part of word) processed by model,Token of appreciation,Security token,Blockchain token,Option_1,Beginner
+What is tokenization?,Converting text into tokens for model processing,Sorting words,Removing punctuation,Converting to lowercase,Option_1,Beginner
+What is vocabulary in LLMs?,Complete set of tokens model can process,Knowledge of words,Embeddings,Token frequencies,Option_1,Intermediate
+What is pre-training in LLMs?,Training on large corpus before task-specific training,First attempt at training,Quick training,Training on small data,Option_1,Intermediate
+What is fine-tuning?,Adapting pre-trained model to specific task,Training from scratch,Reducing model size,Adding layers,Option_1,Intermediate
+What is the purpose of pre-training?,Learn general language patterns from large data,Reduce training time,Improve accuracy only,Reduce model size,Option_1,Intermediate
+What is supervised fine-tuning (SFT)?,Fine-tuning with labeled examples for specific task,Unsupervised fine-tuning,Pre-training,Transfer learning,Option_1,Intermediate
+What is instruction tuning?,Training model to follow human instructions,Following instructions only,Instruction reading,Query optimization,Option_1,Intermediate
+What is few-shot learning?,Model learning from few examples in prompt,Zero-shot learning,One-shot learning,Many samples,Option_1,Intermediate
+What is zero-shot learning?,Model performing task without specific examples,Few-shot learning,One-shot learning,Pre-training,Option_1,Intermediate
+What is one-shot learning?,Learning from single example in prompt,Zero-shot learning,Few-shot learning,Multiple examples,Option_1,Intermediate
+What is chain-of-thought prompting?,Guiding model through step-by-step reasoning,Direct prompting,Question answering,Summarization,Option_1,Intermediate
+What is in-context learning?,Model learning from examples in prompt without updating weights,Learning by training,Fine-tuning,Pre-training,Option_1,Advanced
+What is retrieval augmented generation (RAG)?,Combining retrieval with generation for accurate responses,Pure generation,Pure retrieval,Fusion only,Option_1,Intermediate
+What is the benefit of RAG?,"Grounds generation in retrieved documents, reduces hallucination",Faster processing,Larger model,More parameters,Option_1,Intermediate
+What are vector databases in RAG?,Storing embeddings for semantic search and retrieval,Text databases,Relational databases,Graph databases,Option_1,Intermediate
+What is ChatGPT?,Conversational AI model by OpenAI based on GPT,Text classification model,Image generation model,Video model,Option_1,Beginner
+What is DALL-E?,Image generation model by OpenAI,Text generation model,Audio synthesis model,Video model,Option_1,Beginner
+What is Claude?,Large language model by Anthropic,Computer vision model,Speech recognition model,Recommendation system,Option_1,Beginner
+What is Llama?,Large language model by Meta,Computer vision model,Image generation model,Speech model,Option_1,Intermediate
+What is Stable Diffusion?,Text-to-image generation model using diffusion,Text generation model,Audio model,Video model,Option_1,Intermediate
+What is Mistral?,Efficient large language model,Image model,Video model,Audio model,Option_1,Intermediate
+What is Gemini?,Multimodal AI model by Google,Text-only model,Image-only model,Audio-only model,Option_1,Intermediate
+What is an embedding?,Vector representation capturing semantic meaning,Text representation,Image pixels,Audio samples,Option_1,Intermediate
+What is semantic similarity?,Measure of meaning similarity between text/embeddings,Word similarity,Character similarity,Byte similarity,Option_1,Intermediate
+What is cosine similarity?,Measuring angle between two vectors,Distance metric,Euclidean distance,Manhattan distance,Option_1,Intermediate
+What is embedding dimension?,"Size of embedding vectors (e.g., 768, 1536)",Text length,Vocabulary size,Model size,Option_1,Intermediate
+What is a dense vector?,Vector with many non-zero values,Vector with few non-zero values,Sparse vector,One-hot vector,Option_1,Advanced
+What is a sparse vector?,Vector with mostly zero values,Dense vector,Embedding vector,Output vector,Option_1,Advanced
+What is a diffusion model?,Generative model using iterative noise removal,Direct generation model,Classification model,Clustering model,Option_1,Intermediate
+How do diffusion models generate images?,"Starting from noise, iteratively removing noise",Direct output,Sampling from distribution,Interpolating features,Option_1,Intermediate
+What is the forward process in diffusion?,Gradually adding noise to image,Removing noise,Generating image,Sampling process,Option_1,Intermediate
+What is the reverse process in diffusion?,Gradually removing noise from noisy image,Adding noise,Generation process,Training process,Option_1,Intermediate
+What is denoising in diffusion models?,Removing noise to recover clean data,Adding noise,Filtering images,Image enhancement,Option_1,Intermediate
+What is a GAN (Generative Adversarial Network)?,Two competing networks: generator and discriminator,Single network,Supervised model,Unsupervised classification,Option_1,Intermediate
+What does the generator in GAN do?,Creates fake data to fool discriminator,Discriminates data,Classifies data,Clusters data,Option_1,Intermediate
+What does the discriminator in GAN do?,Distinguishes real from fake data,Generates data,Classifies data,Clusters data,Option_1,Intermediate
+What is mode collapse in GANs?,Generator learning limited modes of data distribution,Generator failure,Discriminator issue,Training error,Option_1,Advanced
+What is Wasserstein GAN?,GAN using Wasserstein distance improving training stability,Simple GAN,Conditional GAN,StyleGAN,Option_1,Advanced
+What is VAE (Variational Autoencoder)?,Generative model learning latent distribution,Supervised classifier,Feature extractor,Dimensionality reduction,Option_1,Intermediate
+What is encoder in VAE?,Maps data to latent space distribution,Maps output to input,Generates data,Decodes data,Option_1,Intermediate
+What is decoder in VAE?,Maps latent variables to data space,Encodes data,Generates samples,Samples latent,Option_1,Intermediate
+What is latent space in VAE?,Compressed representation space of data,Output space,Input space,Feature space,Option_1,Intermediate
+What is KL divergence in VAE?,Regularizing latent distribution to be normal,Data loss,Reconstruction loss,Entropy measure,Option_1,Advanced
+What is text generation?,Creating text automatically from model,Writing manually,Copying text,Summarizing text,Option_1,Beginner
+What is language model?,Model predicting next token given previous tokens,Classification model,Clustering model,Regression model,Option_1,Beginner
+What is next token prediction?,Predicting most likely next word in sequence,Random generation,Fixed output,User input,Option_1,Beginner
+What is beam search?,Algorithm exploring multiple paths for text generation,Greedy search,Random search,Exhaustive search,Option_1,Intermediate
+What is greedy decoding?,Selecting highest probability token at each step,Random selection,Beam search,Exhaustive search,Option_1,Intermediate
+What is nucleus sampling (top-p)?,Sampling from top probability tokens until probability sum reaches p,Temperature sampling,Beam search,Greedy decoding,Option_1,Advanced
+What is top-k sampling?,Sampling from k highest probability tokens,Top-p sampling,Temperature sampling,Beam search,Option_1,Advanced
+What is temperature in text generation?,"Controls randomness of predictions (high=random, low=deterministic)",Model speed,Model size,Learning rate,Option_1,Intermediate
+What is image generation?,Creating images from text descriptions or noise,Image classification,Image recognition,Image segmentation,Option_1,Beginner
+What is text-to-image generation?,Converting text descriptions to images,Image-to-text,Image classification,Image editing,Option_1,Beginner
+What is CLIP?,Model linking text and image representations,Image generation model,Text generation model,Classification model,Option_1,Intermediate
+What is guidance in image generation?,Conditioning model on text or other guidance signals,Brightness adjustment,Contrast adjustment,Filtering,Option_1,Intermediate
+What is classifier-free guidance?,Technique improving generation quality without explicit classifier,Using classifier,Supervised generation,Unsupervised learning,Option_1,Advanced
+What is LoRA (Low-Rank Adaptation)?,Efficient fine-tuning method with low-rank updates,Full fine-tuning,Transfer learning,Feature extraction,Option_1,Advanced
+What is video generation?,Creating videos from descriptions or frames,Video classification,Video analysis,Video editing,Option_1,Advanced
+What is frame interpolation?,Generating intermediate frames between key frames,Frame extraction,Frame rate conversion,Frame blending,Option_1,Advanced
+What is text-to-speech (TTS)?,Converting text to natural speech audio,Speech recognition,Audio analysis,Voice cloning,Option_1,Intermediate
+What is speech-to-text?,Converting speech audio to text,Text-to-speech,Voice synthesis,Audio generation,Option_1,Beginner
+What is voice cloning?,Generating speech in specific person's voice,Voice recognition,Voice synthesis,Audio editing,Option_1,Intermediate
+What is WaveNet?,Generative model for audio waveform synthesis,Image generation model,Text model,Video model,Option_1,Advanced
+What is multimodal AI?,"AI understanding multiple modalities (text, image, audio)",Single modality AI,Text-only AI,Image-only AI,Option_1,Intermediate
+What is vision-language model?,Model understanding both images and text,Image-only model,Text-only model,Audio model,Option_1,Intermediate
+What is visual question answering (VQA)?,Answering questions about images,Image classification,Image generation,Image segmentation,Option_1,Intermediate
+What is image captioning?,Generating text descriptions of images,Image classification,Object detection,Image generation,Option_1,Intermediate
+What is alignment in AI?,Ensuring AI behavior matches human intentions,Data alignment,Model alignment,Feature alignment,Option_1,Intermediate
+What is RLHF (Reinforcement Learning from Human Feedback)?,Training using human feedback to improve model behavior,Standard training,Supervised learning,Unsupervised learning,Option_1,Intermediate
+What is constitutional AI?,Training AI using principles/constitution for behavior,Standard training,Rule-based AI,Expert systems,Option_1,Advanced
+What is hallucination in LLMs?,Model generating false/nonsensical information,Model crashes,Slow inference,Overfitting,Option_1,Beginner
+How to reduce hallucination?,"Use RAG, fine-tuning, better prompts, fact checking",More data only,Larger model only,Higher temperature,Option_1,Intermediate
+What is jailbreaking in AI?,Bypassing safety measures through clever prompting,Security break,Model theft,Unauthorized access,Option_1,Advanced
+What is BLEU score?,Machine translation evaluation metric,Image quality metric,Text similarity,Model accuracy,Option_1,Intermediate
+What is ROUGE score?,Summarization evaluation metric,Image metric,Classification metric,Generation quality,Option_1,Intermediate
+What is perplexity?,Language model evaluation metric measuring prediction uncertainty,Text complexity,Model size,Generation speed,Option_1,Intermediate
+What is METEOR score?,Machine translation evaluation considering synonyms,BLEU score,ROUGE score,Accuracy metric,Option_1,Advanced
+What is human evaluation?,Experts assessing generated content quality,Automatic metric,Benchmark dataset,Test suite,Option_1,Intermediate
+What are scaling laws in LLMs?,Predictable relationships between model size/data and performance,Model architecture,Training speed,Inference cost,Option_1,Advanced
+What is compute-optimal scaling?,Allocating equal compute to model size and training data,Larger models only,More data only,Faster training,Option_1,Advanced
+What is the scaling hypothesis?,Performance improves with more scale (data/model/compute),Scaling reaches limit,Scaling hurts performance,Scaling irrelevant,Option_1,Advanced
+What is quantization?,Reducing precision of model weights for faster inference,Model compression,Model pruning,Distillation,Option_1,Intermediate
+What is model compression?,Reducing model size while maintaining performance,Data compression,Feature compression,Algorithm compression,Option_1,Intermediate
+What is knowledge distillation?,Training small model to mimic large model,Model compression,Quantization,Pruning,Option_1,Intermediate
+What is inference optimization?,Techniques improving speed/efficiency of model predictions,Training optimization,Data optimization,Feature optimization,Option_1,Intermediate
+What is batching in inference?,Processing multiple inputs simultaneously,Single input,Sequential processing,Parallel computation,Option_1,Intermediate
+What is caching in LLMs?,Storing intermediate computations to avoid recomputation,Data caching,Memory caching,Disk caching,Option_1,Advanced
+What is a chatbot?,AI system conversing with users,Question answering system,Search engine,Recommendation system,Option_1,Beginner
+What is code generation?,AI generating code from descriptions,Code compilation,Code execution,Code review,Option_1,Intermediate
+What is code completion?,Autocompleting code based on context,Full code generation,Code suggestion,Code snippet,Option_1,Beginner
+What is content summarization?,Generating concise summaries of content,Content analysis,Content classification,Content extraction,Option_1,Beginner
+What is machine translation?,Converting text from one language to another,Language detection,Language modeling,Language generation,Option_1,Beginner
+What is paraphrase generation?,Rewriting text with different wording,Text extraction,Text compression,Text expansion,Option_1,Intermediate
+What is question answering?,Answering questions based on context/knowledge,Question generation,Question classification,Information retrieval,Option_1,Beginner
+What is semantic search?,Finding relevant content based on meaning not keywords,Keyword search,Boolean search,Fuzzy search,Option_1,Intermediate
+What is context window?,Maximum length of input sequence model can handle,Model size,Memory size,Processing speed,Option_1,Intermediate
+What is context length limitation?,Models can't handle very long sequences,Model accuracy issue,Training problem,Inference issue,Option_1,Intermediate
+What is token limit?,Maximum tokens model can process,Maximum model size,Maximum parameters,Maximum accuracy,Option_1,Beginner
+What is bias in GenAI?,Models reflecting training data biases,Model unfairness,Data imbalance,Sampling bias,Option_1,Intermediate
+What is copyright concern in GenAI?,Training on copyrighted content raises legal issues,Data privacy,Model theft,Unauthorized access,Option_1,Intermediate
+What is environmental impact of LLMs?,Large training requires significant computational resources,Model performance,Model accuracy,Inference speed,Option_1,Advanced
+What is long-context modeling?,Extending context window for very long sequences,Short context,Fixed context,No context,Option_1,Advanced
+What is continual learning in LLMs?,Learning new information without forgetting previous,Retraining,Fine-tuning,Transfer learning,Option_1,Advanced
+What is few-shot adaptation?,Quickly adapting to new tasks with few examples,Zero-shot,No adaptation,Full retraining,Option_1,Advanced
+What is emergent abilities?,Unexpected capabilities appearing at certain model sizes,Learned abilities,Pre-trained abilities,Intended abilities,Option_1,Advanced
+What is mixture of experts (MoE)?,Architecture with multiple specialized experts and router,Single model,Ensemble method,Transfer learning,Option_1,Advanced
+What is attention mask?,Controlling which tokens attend to others,Attention weights,Attention heads,Attention mechanism,Option_1,Intermediate
+What is masking in model training?,Hiding tokens during training for prediction,Data masking,Feature masking,Label masking,Option_1,Intermediate
+What is padding in NLP?,Adding tokens to make sequences same length,Text removal,Token removal,Sequence truncation,Option_1,Intermediate
+What is batch normalization in transformers?,Normalizing layer outputs for training stability,Input normalization,Feature normalization,Output normalization,Option_1,Advanced
+What is layer normalization?,Normalizing across features within each sample,Batch normalization,Instance normalization,Group normalization,Option_1,Advanced
+What does Generative AI refer to?,"AI systems that create new content (text, images, code)",AI that analyzes existing data only,AI that classifies images,AI for robotics control,Option_1,Beginner
+What is the primary difference between Generative AI and Discriminative AI?,"Generative models data distribution, Discriminative learn boundaries",Generative is faster,Discriminative is older,No difference,Option_1,Beginner
+Which of the following is a Generative AI application?,ChatGPT,Image classification model,Spam detection,Face recognition,Option_1,Beginner
+What is prompt engineering?,Crafting inputs to guide AI outputs effectively,Writing code for AI,Training neural networks,Data preprocessing,Option_1,Beginner
+What is the purpose of a prompt?,To provide instructions/context to AI model,To test model speed,To verify correctness,To train the model,Option_1,Beginner
+What is LLM?,Large Language Model trained on vast text data,Linear Learning Model,Low-Level Management,Linguistic Language Module,Option_1,Beginner
+What are common applications of LLMs?,"Chatbots, text generation, translation, summarization",Image generation only,Video processing only,Audio synthesis only,Option_1,Beginner
+What does GPT stand for?,Generative Pre-trained Transformer,General Purpose Tool,Gradient Processing Technology,Global Parameter Tuning,Option_1,Beginner
+What does BERT stand for?,Bidirectional Encoder Representations from Transformers,Basic Encoder for Text Recognition,Binary Encoding Representation,Base Embedding Representation Technology,Option_1,Intermediate
+What is the difference between GPT and BERT?,"GPT is autoregressive, BERT is bidirectional",GPT is faster,BERT generates text,No difference,Option_1,Intermediate
+What is the Transformer architecture?,Deep learning architecture using self-attention mechanism,Recurrent neural network,Convolutional network,Fully connected network,Option_1,Intermediate
+What is the 'Attention is All You Need' paper about?,Introducing Transformer architecture with self-attention,Attention mechanisms only,Feature attention,Memory attention,Option_1,Intermediate
+What is self-attention?,Mechanism relating different positions in sequence,Attention to input only,Attention to output only,Human attention,Option_1,Intermediate
+What is the purpose of positional encoding in Transformers?,Provides sequence position information to model,Encodes data type,Normalizes features,Compresses input,Option_1,Intermediate
+What is multi-head attention?,Multiple parallel attention mechanisms,Single attention head,Sequential attention,Hierarchical attention,Option_1,Intermediate
+What is a token in LLMs?,Subword unit (word/part of word) processed by model,Token of appreciation,Security token,Blockchain token,Option_1,Beginner
+What is tokenization?,Converting text into tokens for model processing,Sorting words,Removing punctuation,Converting to lowercase,Option_1,Beginner
+What is vocabulary in LLMs?,Complete set of tokens model can process,Knowledge of words,Embeddings,Token frequencies,Option_1,Intermediate
+What is pre-training in LLMs?,Training on large corpus before task-specific training,First attempt at training,Quick training,Training on small data,Option_1,Intermediate
+What is fine-tuning?,Adapting pre-trained model to specific task,Training from scratch,Reducing model size,Adding layers,Option_1,Intermediate
+What is the purpose of pre-training?,Learn general language patterns from large data,Reduce training time,Improve accuracy only,Reduce model size,Option_1,Intermediate
+What is supervised fine-tuning (SFT)?,Fine-tuning with labeled examples for specific task,Unsupervised fine-tuning,Pre-training,Transfer learning,Option_1,Intermediate
+What is instruction tuning?,Training model to follow human instructions,Following instructions only,Instruction reading,Query optimization,Option_1,Intermediate
+What is few-shot learning?,Model learning from few examples in prompt,Zero-shot learning,One-shot learning,Many samples,Option_1,Intermediate
+What is zero-shot learning?,Model performing task without specific examples,Few-shot learning,One-shot learning,Pre-training,Option_1,Intermediate
+What is one-shot learning?,Learning from single example in prompt,Zero-shot learning,Few-shot learning,Multiple examples,Option_1,Intermediate
+What is chain-of-thought prompting?,Guiding model through step-by-step reasoning,Direct prompting,Question answering,Summarization,Option_1,Intermediate
+What is in-context learning?,Model learning from examples in prompt without updating weights,Learning by training,Fine-tuning,Pre-training,Option_1,Advanced
+What is retrieval augmented generation (RAG)?,Combining retrieval with generation for accurate responses,Pure generation,Pure retrieval,Fusion only,Option_1,Intermediate
+What is the benefit of RAG?,"Grounds generation in retrieved documents, reduces hallucination",Faster processing,Larger model,More parameters,Option_1,Intermediate
+What are vector databases in RAG?,Storing embeddings for semantic search and retrieval,Text databases,Relational databases,Graph databases,Option_1,Intermediate
+What is ChatGPT?,Conversational AI model by OpenAI based on GPT,Text classification model,Image generation model,Video model,Option_1,Beginner
+What is DALL-E?,Image generation model by OpenAI,Text generation model,Audio synthesis model,Video model,Option_1,Beginner
+What is Claude?,Large language model by Anthropic,Computer vision model,Speech recognition model,Recommendation system,Option_1,Beginner
+What is Llama?,Large language model by Meta,Computer vision model,Image generation model,Speech model,Option_1,Intermediate
+What is Stable Diffusion?,Text-to-image generation model using diffusion,Text generation model,Audio model,Video model,Option_1,Intermediate
+What is Mistral?,Efficient large language model,Image model,Video model,Audio model,Option_1,Intermediate
+What is Gemini?,Multimodal AI model by Google,Text-only model,Image-only model,Audio-only model,Option_1,Intermediate
+What is an embedding?,Vector representation capturing semantic meaning,Text representation,Image pixels,Audio samples,Option_1,Intermediate
+What is semantic similarity?,Measure of meaning similarity between text/embeddings,Word similarity,Character similarity,Byte similarity,Option_1,Intermediate
+What is cosine similarity?,Measuring angle between two vectors,Distance metric,Euclidean distance,Manhattan distance,Option_1,Intermediate
+What is embedding dimension?,"Size of embedding vectors (e.g., 768, 1536)",Text length,Vocabulary size,Model size,Option_1,Intermediate
+What is a dense vector?,Vector with many non-zero values,Vector with few non-zero values,Sparse vector,One-hot vector,Option_1,Advanced
+What is a sparse vector?,Vector with mostly zero values,Dense vector,Embedding vector,Output vector,Option_1,Advanced
+What is a diffusion model?,Generative model using iterative noise removal,Direct generation model,Classification model,Clustering model,Option_1,Intermediate
+How do diffusion models generate images?,"Starting from noise, iteratively removing noise",Direct output,Sampling from distribution,Interpolating features,Option_1,Intermediate
+What is the forward process in diffusion?,Gradually adding noise to image,Removing noise,Generating image,Sampling process,Option_1,Intermediate
+What is the reverse process in diffusion?,Gradually removing noise from noisy image,Adding noise,Generation process,Training process,Option_1,Intermediate
+What is denoising in diffusion models?,Removing noise to recover clean data,Adding noise,Filtering images,Image enhancement,Option_1,Intermediate
+What is a GAN (Generative Adversarial Network)?,Two competing networks: generator and discriminator,Single network,Supervised model,Unsupervised classification,Option_1,Intermediate
+What does the generator in GAN do?,Creates fake data to fool discriminator,Discriminates data,Classifies data,Clusters data,Option_1,Intermediate
+What does the discriminator in GAN do?,Distinguishes real from fake data,Generates data,Classifies data,Clusters data,Option_1,Intermediate
+What is mode collapse in GANs?,Generator learning limited modes of data distribution,Generator failure,Discriminator issue,Training error,Option_1,Advanced
+What is Wasserstein GAN?,GAN using Wasserstein distance improving training stability,Simple GAN,Conditional GAN,StyleGAN,Option_1,Advanced
+What is VAE (Variational Autoencoder)?,Generative model learning latent distribution,Supervised classifier,Feature extractor,Dimensionality reduction,Option_1,Intermediate
+What is encoder in VAE?,Maps data to latent space distribution,Maps output to input,Generates data,Decodes data,Option_1,Intermediate
+What is decoder in VAE?,Maps latent variables to data space,Encodes data,Generates samples,Samples latent,Option_1,Intermediate
+What is latent space in VAE?,Compressed representation space of data,Output space,Input space,Feature space,Option_1,Intermediate
+What is KL divergence in VAE?,Regularizing latent distribution to be normal,Data loss,Reconstruction loss,Entropy measure,Option_1,Advanced
+What is text generation?,Creating text automatically from model,Writing manually,Copying text,Summarizing text,Option_1,Beginner
+What is language model?,Model predicting next token given previous tokens,Classification model,Clustering model,Regression model,Option_1,Beginner
+What is next token prediction?,Predicting most likely next word in sequence,Random generation,Fixed output,User input,Option_1,Beginner
+What is beam search?,Algorithm exploring multiple paths for text generation,Greedy search,Random search,Exhaustive search,Option_1,Intermediate
+What is greedy decoding?,Selecting highest probability token at each step,Random selection,Beam search,Exhaustive search,Option_1,Intermediate
+What is nucleus sampling (top-p)?,Sampling from top probability tokens until probability sum reaches p,Temperature sampling,Beam search,Greedy decoding,Option_1,Advanced
+What is top-k sampling?,Sampling from k highest probability tokens,Top-p sampling,Temperature sampling,Beam search,Option_1,Advanced
+What is temperature in text generation?,"Controls randomness of predictions (high=random, low=deterministic)",Model speed,Model size,Learning rate,Option_1,Intermediate
+What is image generation?,Creating images from text descriptions or noise,Image classification,Image recognition,Image segmentation,Option_1,Beginner
+What is text-to-image generation?,Converting text descriptions to images,Image-to-text,Image classification,Image editing,Option_1,Beginner
+What is CLIP?,Model linking text and image representations,Image generation model,Text generation model,Classification model,Option_1,Intermediate
+What is guidance in image generation?,Conditioning model on text or other guidance signals,Brightness adjustment,Contrast adjustment,Filtering,Option_1,Intermediate
+What is classifier-free guidance?,Technique improving generation quality without explicit classifier,Using classifier,Supervised generation,Unsupervised learning,Option_1,Advanced
+What is LoRA (Low-Rank Adaptation)?,Efficient fine-tuning method with low-rank updates,Full fine-tuning,Transfer learning,Feature extraction,Option_1,Advanced
+What is video generation?,Creating videos from descriptions or frames,Video classification,Video analysis,Video editing,Option_1,Advanced
+What is frame interpolation?,Generating intermediate frames between key frames,Frame extraction,Frame rate conversion,Frame blending,Option_1,Advanced
+What is text-to-speech (TTS)?,Converting text to natural speech audio,Speech recognition,Audio analysis,Voice cloning,Option_1,Intermediate
+What is speech-to-text?,Converting speech audio to text,Text-to-speech,Voice synthesis,Audio generation,Option_1,Beginner
+What is voice cloning?,Generating speech in specific person's voice,Voice recognition,Voice synthesis,Audio editing,Option_1,Intermediate
+What is WaveNet?,Generative model for audio waveform synthesis,Image generation model,Text model,Video model,Option_1,Advanced
+What is multimodal AI?,"AI understanding multiple modalities (text, image, audio)",Single modality AI,Text-only AI,Image-only AI,Option_1,Intermediate
+What is vision-language model?,Model understanding both images and text,Image-only model,Text-only model,Audio model,Option_1,Intermediate
+What is visual question answering (VQA)?,Answering questions about images,Image classification,Image generation,Image segmentation,Option_1,Intermediate
+What is image captioning?,Generating text descriptions of images,Image classification,Object detection,Image generation,Option_1,Intermediate
+What is alignment in AI?,Ensuring AI behavior matches human intentions,Data alignment,Model alignment,Feature alignment,Option_1,Intermediate
+What is RLHF (Reinforcement Learning from Human Feedback)?,Training using human feedback to improve model behavior,Standard training,Supervised learning,Unsupervised learning,Option_1,Intermediate
+What is constitutional AI?,Training AI using principles/constitution for behavior,Standard training,Rule-based AI,Expert systems,Option_1,Advanced
+What is hallucination in LLMs?,Model generating false/nonsensical information,Model crashes,Slow inference,Overfitting,Option_1,Beginner
+How to reduce hallucination?,"Use RAG, fine-tuning, better prompts, fact checking",More data only,Larger model only,Higher temperature,Option_1,Intermediate
+What is jailbreaking in AI?,Bypassing safety measures through clever prompting,Security break,Model theft,Unauthorized access,Option_1,Advanced
+What is BLEU score?,Machine translation evaluation metric,Image quality metric,Text similarity,Model accuracy,Option_1,Intermediate
+What is ROUGE score?,Summarization evaluation metric,Image metric,Classification metric,Generation quality,Option_1,Intermediate
+What is perplexity?,Language model evaluation metric measuring prediction uncertainty,Text complexity,Model size,Generation speed,Option_1,Intermediate
+What is METEOR score?,Machine translation evaluation considering synonyms,BLEU score,ROUGE score,Accuracy metric,Option_1,Advanced
+What is human evaluation?,Experts assessing generated content quality,Automatic metric,Benchmark dataset,Test suite,Option_1,Intermediate
+What are scaling laws in LLMs?,Predictable relationships between model size/data and performance,Model architecture,Training speed,Inference cost,Option_1,Advanced
+What is compute-optimal scaling?,Allocating equal compute to model size and training data,Larger models only,More data only,Faster training,Option_1,Advanced
+What is the scaling hypothesis?,Performance improves with more scale (data/model/compute),Scaling reaches limit,Scaling hurts performance,Scaling irrelevant,Option_1,Advanced
+What is quantization?,Reducing precision of model weights for faster inference,Model compression,Model pruning,Distillation,Option_1,Intermediate
+What is model compression?,Reducing model size while maintaining performance,Data compression,Feature compression,Algorithm compression,Option_1,Intermediate
+What is knowledge distillation?,Training small model to mimic large model,Model compression,Quantization,Pruning,Option_1,Intermediate
+What is inference optimization?,Techniques improving speed/efficiency of model predictions,Training optimization,Data optimization,Feature optimization,Option_1,Intermediate
+What is batching in inference?,Processing multiple inputs simultaneously,Single input,Sequential processing,Parallel computation,Option_1,Intermediate
+What is caching in LLMs?,Storing intermediate computations to avoid recomputation,Data caching,Memory caching,Disk caching,Option_1,Advanced
+What is a chatbot?,AI system conversing with users,Question answering system,Search engine,Recommendation system,Option_1,Beginner
+What is code generation?,AI generating code from descriptions,Code compilation,Code execution,Code review,Option_1,Intermediate
+What is code completion?,Autocompleting code based on context,Full code generation,Code suggestion,Code snippet,Option_1,Beginner
+What is content summarization?,Generating concise summaries of content,Content analysis,Content classification,Content extraction,Option_1,Beginner
+What is machine translation?,Converting text from one language to another,Language detection,Language modeling,Language generation,Option_1,Beginner
+What is paraphrase generation?,Rewriting text with different wording,Text extraction,Text compression,Text expansion,Option_1,Intermediate
+What is question answering?,Answering questions based on context/knowledge,Question generation,Question classification,Information retrieval,Option_1,Beginner
+What is semantic search?,Finding relevant content based on meaning not keywords,Keyword search,Boolean search,Fuzzy search,Option_1,Intermediate
+What is context window?,Maximum length of input sequence model can handle,Model size,Memory size,Processing speed,Option_1,Intermediate
+What is context length limitation?,Models can't handle very long sequences,Model accuracy issue,Training problem,Inference issue,Option_1,Intermediate
+What is token limit?,Maximum tokens model can process,Maximum model size,Maximum parameters,Maximum accuracy,Option_1,Beginner
+What is bias in GenAI?,Models reflecting training data biases,Model unfairness,Data imbalance,Sampling bias,Option_1,Intermediate
+What is copyright concern in GenAI?,Training on copyrighted content raises legal issues,Data privacy,Model theft,Unauthorized access,Option_1,Intermediate
+What is environmental impact of LLMs?,Large training requires significant computational resources,Model performance,Model accuracy,Inference speed,Option_1,Advanced
+What is long-context modeling?,Extending context window for very long sequences,Short context,Fixed context,No context,Option_1,Advanced
+What is continual learning in LLMs?,Learning new information without forgetting previous,Retraining,Fine-tuning,Transfer learning,Option_1,Advanced
+What is few-shot adaptation?,Quickly adapting to new tasks with few examples,Zero-shot,No adaptation,Full retraining,Option_1,Advanced
+What is emergent abilities?,Unexpected capabilities appearing at certain model sizes,Learned abilities,Pre-trained abilities,Intended abilities,Option_1,Advanced
+What is mixture of experts (MoE)?,Architecture with multiple specialized experts and router,Single model,Ensemble method,Transfer learning,Option_1,Advanced
+What is attention mask?,Controlling which tokens attend to others,Attention weights,Attention heads,Attention mechanism,Option_1,Intermediate
+What is masking in model training?,Hiding tokens during training for prediction,Data masking,Feature masking,Label masking,Option_1,Intermediate
+What is padding in NLP?,Adding tokens to make sequences same length,Text removal,Token removal,Sequence truncation,Option_1,Intermediate
+What is batch normalization in transformers?,Normalizing layer outputs for training stability,Input normalization,Feature normalization,Output normalization,Option_1,Advanced
+What is layer normalization?,Normalizing across features within each sample,Batch normalization,Instance normalization,Group normalization,Option_1,Advanced
+What does Generative AI refer to?,"AI systems that create new content (text, images, code)",AI that analyzes existing data only,AI that classifies images,AI for robotics control,Option_1,Beginner
+What is the primary difference between Generative AI and Discriminative AI?,"Generative models data distribution, Discriminative learn boundaries",Generative is faster,Discriminative is older,No difference,Option_1,Beginner
+Which of the following is a Generative AI application?,ChatGPT,Image classification model,Spam detection,Face recognition,Option_1,Beginner
+What is prompt engineering?,Crafting inputs to guide AI outputs effectively,Writing code for AI,Training neural networks,Data preprocessing,Option_1,Beginner
+What is the purpose of a prompt?,To provide instructions/context to AI model,To test model speed,To verify correctness,To train the model,Option_1,Beginner
+What is LLM?,Large Language Model trained on vast text data,Linear Learning Model,Low-Level Management,Linguistic Language Module,Option_1,Beginner
+What are common applications of LLMs?,"Chatbots, text generation, translation, summarization",Image generation only,Video processing only,Audio synthesis only,Option_1,Beginner
+What does GPT stand for?,Generative Pre-trained Transformer,General Purpose Tool,Gradient Processing Technology,Global Parameter Tuning,Option_1,Beginner
+What does BERT stand for?,Bidirectional Encoder Representations from Transformers,Basic Encoder for Text Recognition,Binary Encoding Representation,Base Embedding Representation Technology,Option_1,Intermediate
+What is the difference between GPT and BERT?,"GPT is autoregressive, BERT is bidirectional",GPT is faster,BERT generates text,No difference,Option_1,Intermediate
+What is the Transformer architecture?,Deep learning architecture using self-attention mechanism,Recurrent neural network,Convolutional network,Fully connected network,Option_1,Intermediate
+What is the 'Attention is All You Need' paper about?,Introducing Transformer architecture with self-attention,Attention mechanisms only,Feature attention,Memory attention,Option_1,Intermediate
+What is self-attention?,Mechanism relating different positions in sequence,Attention to input only,Attention to output only,Human attention,Option_1,Intermediate
+What is the purpose of positional encoding in Transformers?,Provides sequence position information to model,Encodes data type,Normalizes features,Compresses input,Option_1,Intermediate
+What is multi-head attention?,Multiple parallel attention mechanisms,Single attention head,Sequential attention,Hierarchical attention,Option_1,Intermediate
+What is a token in LLMs?,Subword unit (word/part of word) processed by model,Token of appreciation,Security token,Blockchain token,Option_1,Beginner
+What is tokenization?,Converting text into tokens for model processing,Sorting words,Removing punctuation,Converting to lowercase,Option_1,Beginner
+What is vocabulary in LLMs?,Complete set of tokens model can process,Knowledge of words,Embeddings,Token frequencies,Option_1,Intermediate
+What is pre-training in LLMs?,Training on large corpus before task-specific training,First attempt at training,Quick training,Training on small data,Option_1,Intermediate
+What is fine-tuning?,Adapting pre-trained model to specific task,Training from scratch,Reducing model size,Adding layers,Option_1,Intermediate
+What is the purpose of pre-training?,Learn general language patterns from large data,Reduce training time,Improve accuracy only,Reduce model size,Option_1,Intermediate
+What is supervised fine-tuning (SFT)?,Fine-tuning with labeled examples for specific task,Unsupervised fine-tuning,Pre-training,Transfer learning,Option_1,Intermediate
+What is instruction tuning?,Training model to follow human instructions,Following instructions only,Instruction reading,Query optimization,Option_1,Intermediate
+What is few-shot learning?,Model learning from few examples in prompt,Zero-shot learning,One-shot learning,Many samples,Option_1,Intermediate
+What is zero-shot learning?,Model performing task without specific examples,Few-shot learning,One-shot learning,Pre-training,Option_1,Intermediate
+What is one-shot learning?,Learning from single example in prompt,Zero-shot learning,Few-shot learning,Multiple examples,Option_1,Intermediate
+What is chain-of-thought prompting?,Guiding model through step-by-step reasoning,Direct prompting,Question answering,Summarization,Option_1,Intermediate
+What is in-context learning?,Model learning from examples in prompt without updating weights,Learning by training,Fine-tuning,Pre-training,Option_1,Advanced
+What is retrieval augmented generation (RAG)?,Combining retrieval with generation for accurate responses,Pure generation,Pure retrieval,Fusion only,Option_1,Intermediate
+What is the benefit of RAG?,"Grounds generation in retrieved documents, reduces hallucination",Faster processing,Larger model,More parameters,Option_1,Intermediate
+What are vector databases in RAG?,Storing embeddings for semantic search and retrieval,Text databases,Relational databases,Graph databases,Option_1,Intermediate
+What is ChatGPT?,Conversational AI model by OpenAI based on GPT,Text classification model,Image generation model,Video model,Option_1,Beginner
+What is DALL-E?,Image generation model by OpenAI,Text generation model,Audio synthesis model,Video model,Option_1,Beginner
+What is Claude?,Large language model by Anthropic,Computer vision model,Speech recognition model,Recommendation system,Option_1,Beginner
+What is Llama?,Large language model by Meta,Computer vision model,Image generation model,Speech model,Option_1,Intermediate
+What is Stable Diffusion?,Text-to-image generation model using diffusion,Text generation model,Audio model,Video model,Option_1,Intermediate
+What is Mistral?,Efficient large language model,Image model,Video model,Audio model,Option_1,Intermediate
+What is Gemini?,Multimodal AI model by Google,Text-only model,Image-only model,Audio-only model,Option_1,Intermediate
+What is an embedding?,Vector representation capturing semantic meaning,Text representation,Image pixels,Audio samples,Option_1,Intermediate
+What is semantic similarity?,Measure of meaning similarity between text/embeddings,Word similarity,Character similarity,Byte similarity,Option_1,Intermediate
+What is cosine similarity?,Measuring angle between two vectors,Distance metric,Euclidean distance,Manhattan distance,Option_1,Intermediate
+What is embedding dimension?,"Size of embedding vectors (e.g., 768, 1536)",Text length,Vocabulary size,Model size,Option_1,Intermediate
+What is a dense vector?,Vector with many non-zero values,Vector with few non-zero values,Sparse vector,One-hot vector,Option_1,Advanced
+What is a sparse vector?,Vector with mostly zero values,Dense vector,Embedding vector,Output vector,Option_1,Advanced
+What is a diffusion model?,Generative model using iterative noise removal,Direct generation model,Classification model,Clustering model,Option_1,Intermediate
+How do diffusion models generate images?,"Starting from noise, iteratively removing noise",Direct output,Sampling from distribution,Interpolating features,Option_1,Intermediate
+What is the forward process in diffusion?,Gradually adding noise to image,Removing noise,Generating image,Sampling process,Option_1,Intermediate
+What is the reverse process in diffusion?,Gradually removing noise from noisy image,Adding noise,Generation process,Training process,Option_1,Intermediate
+What is denoising in diffusion models?,Removing noise to recover clean data,Adding noise,Filtering images,Image enhancement,Option_1,Intermediate
+What is a GAN (Generative Adversarial Network)?,Two competing networks: generator and discriminator,Single network,Supervised model,Unsupervised classification,Option_1,Intermediate
+What does the generator in GAN do?,Creates fake data to fool discriminator,Discriminates data,Classifies data,Clusters data,Option_1,Intermediate
+What does the discriminator in GAN do?,Distinguishes real from fake data,Generates data,Classifies data,Clusters data,Option_1,Intermediate
+What is mode collapse in GANs?,Generator learning limited modes of data distribution,Generator failure,Discriminator issue,Training error,Option_1,Advanced
+What is Wasserstein GAN?,GAN using Wasserstein distance improving training stability,Simple GAN,Conditional GAN,StyleGAN,Option_1,Advanced
+What is VAE (Variational Autoencoder)?,Generative model learning latent distribution,Supervised classifier,Feature extractor,Dimensionality reduction,Option_1,Intermediate
+What is encoder in VAE?,Maps data to latent space distribution,Maps output to input,Generates data,Decodes data,Option_1,Intermediate
+What is decoder in VAE?,Maps latent variables to data space,Encodes data,Generates samples,Samples latent,Option_1,Intermediate
+What is latent space in VAE?,Compressed representation space of data,Output space,Input space,Feature space,Option_1,Intermediate
+What is KL divergence in VAE?,Regularizing latent distribution to be normal,Data loss,Reconstruction loss,Entropy measure,Option_1,Advanced
+What is text generation?,Creating text automatically from model,Writing manually,Copying text,Summarizing text,Option_1,Beginner
+What is language model?,Model predicting next token given previous tokens,Classification model,Clustering model,Regression model,Option_1,Beginner
+What is next token prediction?,Predicting most likely next word in sequence,Random generation,Fixed output,User input,Option_1,Beginner
+What is beam search?,Algorithm exploring multiple paths for text generation,Greedy search,Random search,Exhaustive search,Option_1,Intermediate
+What is greedy decoding?,Selecting highest probability token at each step,Random selection,Beam search,Exhaustive search,Option_1,Intermediate
+What is nucleus sampling (top-p)?,Sampling from top probability tokens until probability sum reaches p,Temperature sampling,Beam search,Greedy decoding,Option_1,Advanced
+What is top-k sampling?,Sampling from k highest probability tokens,Top-p sampling,Temperature sampling,Beam search,Option_1,Advanced
+What is temperature in text generation?,"Controls randomness of predictions (high=random, low=deterministic)",Model speed,Model size,Learning rate,Option_1,Intermediate
+What is image generation?,Creating images from text descriptions or noise,Image classification,Image recognition,Image segmentation,Option_1,Beginner
+What is text-to-image generation?,Converting text descriptions to images,Image-to-text,Image classification,Image editing,Option_1,Beginner
+What is CLIP?,Model linking text and image representations,Image generation model,Text generation model,Classification model,Option_1,Intermediate
+What is guidance in image generation?,Conditioning model on text or other guidance signals,Brightness adjustment,Contrast adjustment,Filtering,Option_1,Intermediate
+What is classifier-free guidance?,Technique improving generation quality without explicit classifier,Using classifier,Supervised generation,Unsupervised learning,Option_1,Advanced
+What is LoRA (Low-Rank Adaptation)?,Efficient fine-tuning method with low-rank updates,Full fine-tuning,Transfer learning,Feature extraction,Option_1,Advanced
+What is video generation?,Creating videos from descriptions or frames,Video classification,Video analysis,Video editing,Option_1,Advanced
+What is frame interpolation?,Generating intermediate frames between key frames,Frame extraction,Frame rate conversion,Frame blending,Option_1,Advanced
+What is text-to-speech (TTS)?,Converting text to natural speech audio,Speech recognition,Audio analysis,Voice cloning,Option_1,Intermediate
+What is speech-to-text?,Converting speech audio to text,Text-to-speech,Voice synthesis,Audio generation,Option_1,Beginner
+What is voice cloning?,Generating speech in specific person's voice,Voice recognition,Voice synthesis,Audio editing,Option_1,Intermediate
+What is WaveNet?,Generative model for audio waveform synthesis,Image generation model,Text model,Video model,Option_1,Advanced
+What is multimodal AI?,"AI understanding multiple modalities (text, image, audio)",Single modality AI,Text-only AI,Image-only AI,Option_1,Intermediate
+What is vision-language model?,Model understanding both images and text,Image-only model,Text-only model,Audio model,Option_1,Intermediate
+What is visual question answering (VQA)?,Answering questions about images,Image classification,Image generation,Image segmentation,Option_1,Intermediate
+What is image captioning?,Generating text descriptions of images,Image classification,Object detection,Image generation,Option_1,Intermediate
+What is alignment in AI?,Ensuring AI behavior matches human intentions,Data alignment,Model alignment,Feature alignment,Option_1,Intermediate
+What is RLHF (Reinforcement Learning from Human Feedback)?,Training using human feedback to improve model behavior,Standard training,Supervised learning,Unsupervised learning,Option_1,Intermediate
+What is constitutional AI?,Training AI using principles/constitution for behavior,Standard training,Rule-based AI,Expert systems,Option_1,Advanced
+What is hallucination in LLMs?,Model generating false/nonsensical information,Model crashes,Slow inference,Overfitting,Option_1,Beginner
+How to reduce hallucination?,"Use RAG, fine-tuning, better prompts, fact checking",More data only,Larger model only,Higher temperature,Option_1,Intermediate
+What is jailbreaking in AI?,Bypassing safety measures through clever prompting,Security break,Model theft,Unauthorized access,Option_1,Advanced
+What is BLEU score?,Machine translation evaluation metric,Image quality metric,Text similarity,Model accuracy,Option_1,Intermediate
+What is ROUGE score?,Summarization evaluation metric,Image metric,Classification metric,Generation quality,Option_1,Intermediate
+What is perplexity?,Language model evaluation metric measuring prediction uncertainty,Text complexity,Model size,Generation speed,Option_1,Intermediate
+What is METEOR score?,Machine translation evaluation considering synonyms,BLEU score,ROUGE score,Accuracy metric,Option_1,Advanced
+What is human evaluation?,Experts assessing generated content quality,Automatic metric,Benchmark dataset,Test suite,Option_1,Intermediate
+What are scaling laws in LLMs?,Predictable relationships between model size/data and performance,Model architecture,Training speed,Inference cost,Option_1,Advanced
+What is compute-optimal scaling?,Allocating equal compute to model size and training data,Larger models only,More data only,Faster training,Option_1,Advanced
+What is the scaling hypothesis?,Performance improves with more scale (data/model/compute),Scaling reaches limit,Scaling hurts performance,Scaling irrelevant,Option_1,Advanced
+What is quantization?,Reducing precision of model weights for faster inference,Model compression,Model pruning,Distillation,Option_1,Intermediate
+What is model compression?,Reducing model size while maintaining performance,Data compression,Feature compression,Algorithm compression,Option_1,Intermediate
+What is knowledge distillation?,Training small model to mimic large model,Model compression,Quantization,Pruning,Option_1,Intermediate
+What is inference optimization?,Techniques improving speed/efficiency of model predictions,Training optimization,Data optimization,Feature optimization,Option_1,Intermediate
+What is batching in inference?,Processing multiple inputs simultaneously,Single input,Sequential processing,Parallel computation,Option_1,Intermediate
+What is caching in LLMs?,Storing intermediate computations to avoid recomputation,Data caching,Memory caching,Disk caching,Option_1,Advanced
+What is a chatbot?,AI system conversing with users,Question answering system,Search engine,Recommendation system,Option_1,Beginner
+What is code generation?,AI generating code from descriptions,Code compilation,Code execution,Code review,Option_1,Intermediate
+What is code completion?,Autocompleting code based on context,Full code generation,Code suggestion,Code snippet,Option_1,Beginner
+What is content summarization?,Generating concise summaries of content,Content analysis,Content classification,Content extraction,Option_1,Beginner
+What is machine translation?,Converting text from one language to another,Language detection,Language modeling,Language generation,Option_1,Beginner
+What is paraphrase generation?,Rewriting text with different wording,Text extraction,Text compression,Text expansion,Option_1,Intermediate
+What is question answering?,Answering questions based on context/knowledge,Question generation,Question classification,Information retrieval,Option_1,Beginner
+What is semantic search?,Finding relevant content based on meaning not keywords,Keyword search,Boolean search,Fuzzy search,Option_1,Intermediate
+What is context window?,Maximum length of input sequence model can handle,Model size,Memory size,Processing speed,Option_1,Intermediate
+What is context length limitation?,Models can't handle very long sequences,Model accuracy issue,Training problem,Inference issue,Option_1,Intermediate
+What is token limit?,Maximum tokens model can process,Maximum model size,Maximum parameters,Maximum accuracy,Option_1,Beginner
+What is bias in GenAI?,Models reflecting training data biases,Model unfairness,Data imbalance,Sampling bias,Option_1,Intermediate
+What is copyright concern in GenAI?,Training on copyrighted content raises legal issues,Data privacy,Model theft,Unauthorized access,Option_1,Intermediate
+What is environmental impact of LLMs?,Large training requires significant computational resources,Model performance,Model accuracy,Inference speed,Option_1,Advanced
+What is long-context modeling?,Extending context window for very long sequences,Short context,Fixed context,No context,Option_1,Advanced
+What is continual learning in LLMs?,Learning new information without forgetting previous,Retraining,Fine-tuning,Transfer learning,Option_1,Advanced
+What is few-shot adaptation?,Quickly adapting to new tasks with few examples,Zero-shot,No adaptation,Full retraining,Option_1,Advanced
+What is emergent abilities?,Unexpected capabilities appearing at certain model sizes,Learned abilities,Pre-trained abilities,Intended abilities,Option_1,Advanced
+What is mixture of experts (MoE)?,Architecture with multiple specialized experts and router,Single model,Ensemble method,Transfer learning,Option_1,Advanced
+What is attention mask?,Controlling which tokens attend to others,Attention weights,Attention heads,Attention mechanism,Option_1,Intermediate
+What is masking in model training?,Hiding tokens during training for prediction,Data masking,Feature masking,Label masking,Option_1,Intermediate
+What is padding in NLP?,Adding tokens to make sequences same length,Text removal,Token removal,Sequence truncation,Option_1,Intermediate
+What is batch normalization in transformers?,Normalizing layer outputs for training stability,Input normalization,Feature normalization,Output normalization,Option_1,Advanced
+What is layer normalization?,Normalizing across features within each sample,Batch normalization,Instance normalization,Group normalization,Option_1,Advanced
+What does Generative AI refer to?,"AI systems that create new content (text, images, code)",AI that analyzes existing data only,AI that classifies images,AI for robotics control,Option_1,Beginner
+What is the primary difference between Generative AI and Discriminative AI?,"Generative models data distribution, Discriminative learn boundaries",Generative is faster,Discriminative is older,No difference,Option_1,Beginner
+Which of the following is a Generative AI application?,ChatGPT,Image classification model,Spam detection,Face recognition,Option_1,Beginner
+What is prompt engineering?,Crafting inputs to guide AI outputs effectively,Writing code for AI,Training neural networks,Data preprocessing,Option_1,Beginner
+What is the purpose of a prompt?,To provide instructions/context to AI model,To test model speed,To verify correctness,To train the model,Option_1,Beginner
+What is LLM?,Large Language Model trained on vast text data,Linear Learning Model,Low-Level Management,Linguistic Language Module,Option_1,Beginner
+What are common applications of LLMs?,"Chatbots, text generation, translation, summarization",Image generation only,Video processing only,Audio synthesis only,Option_1,Beginner
+What does GPT stand for?,Generative Pre-trained Transformer,General Purpose Tool,Gradient Processing Technology,Global Parameter Tuning,Option_1,Beginner
+What does BERT stand for?,Bidirectional Encoder Representations from Transformers,Basic Encoder for Text Recognition,Binary Encoding Representation,Base Embedding Representation Technology,Option_1,Intermediate
+What is the difference between GPT and BERT?,"GPT is autoregressive, BERT is bidirectional",GPT is faster,BERT generates text,No difference,Option_1,Intermediate
+What is the Transformer architecture?,Deep learning architecture using self-attention mechanism,Recurrent neural network,Convolutional network,Fully connected network,Option_1,Intermediate
+What is the 'Attention is All You Need' paper about?,Introducing Transformer architecture with self-attention,Attention mechanisms only,Feature attention,Memory attention,Option_1,Intermediate
+What is self-attention?,Mechanism relating different positions in sequence,Attention to input only,Attention to output only,Human attention,Option_1,Intermediate
+What is the purpose of positional encoding in Transformers?,Provides sequence position information to model,Encodes data type,Normalizes features,Compresses input,Option_1,Intermediate
+What is multi-head attention?,Multiple parallel attention mechanisms,Single attention head,Sequential attention,Hierarchical attention,Option_1,Intermediate
+What is a token in LLMs?,Subword unit (word/part of word) processed by model,Token of appreciation,Security token,Blockchain token,Option_1,Beginner
+What is tokenization?,Converting text into tokens for model processing,Sorting words,Removing punctuation,Converting to lowercase,Option_1,Beginner
+What is vocabulary in LLMs?,Complete set of tokens model can process,Knowledge of words,Embeddings,Token frequencies,Option_1,Intermediate
+What is pre-training in LLMs?,Training on large corpus before task-specific training,First attempt at training,Quick training,Training on small data,Option_1,Intermediate
+What is fine-tuning?,Adapting pre-trained model to specific task,Training from scratch,Reducing model size,Adding layers,Option_1,Intermediate
+What is the purpose of pre-training?,Learn general language patterns from large data,Reduce training time,Improve accuracy only,Reduce model size,Option_1,Intermediate
+What is supervised fine-tuning (SFT)?,Fine-tuning with labeled examples for specific task,Unsupervised fine-tuning,Pre-training,Transfer learning,Option_1,Intermediate
+What is instruction tuning?,Training model to follow human instructions,Following instructions only,Instruction reading,Query optimization,Option_1,Intermediate
+What is few-shot learning?,Model learning from few examples in prompt,Zero-shot learning,One-shot learning,Many samples,Option_1,Intermediate
+What is zero-shot learning?,Model performing task without specific examples,Few-shot learning,One-shot learning,Pre-training,Option_1,Intermediate
+What is one-shot learning?,Learning from single example in prompt,Zero-shot learning,Few-shot learning,Multiple examples,Option_1,Intermediate
+What is chain-of-thought prompting?,Guiding model through step-by-step reasoning,Direct prompting,Question answering,Summarization,Option_1,Intermediate
+What is in-context learning?,Model learning from examples in prompt without updating weights,Learning by training,Fine-tuning,Pre-training,Option_1,Advanced
+What is retrieval augmented generation (RAG)?,Combining retrieval with generation for accurate responses,Pure generation,Pure retrieval,Fusion only,Option_1,Intermediate
+What is the benefit of RAG?,"Grounds generation in retrieved documents, reduces hallucination",Faster processing,Larger model,More parameters,Option_1,Intermediate
+What are vector databases in RAG?,Storing embeddings for semantic search and retrieval,Text databases,Relational databases,Graph databases,Option_1,Intermediate
+What is ChatGPT?,Conversational AI model by OpenAI based on GPT,Text classification model,Image generation model,Video model,Option_1,Beginner
+What is DALL-E?,Image generation model by OpenAI,Text generation model,Audio synthesis model,Video model,Option_1,Beginner
+What is Claude?,Large language model by Anthropic,Computer vision model,Speech recognition model,Recommendation system,Option_1,Beginner
+What is Llama?,Large language model by Meta,Computer vision model,Image generation model,Speech model,Option_1,Intermediate
+What is Stable Diffusion?,Text-to-image generation model using diffusion,Text generation model,Audio model,Video model,Option_1,Intermediate
+What is Mistral?,Efficient large language model,Image model,Video model,Audio model,Option_1,Intermediate
+What is Gemini?,Multimodal AI model by Google,Text-only model,Image-only model,Audio-only model,Option_1,Intermediate
+What is an embedding?,Vector representation capturing semantic meaning,Text representation,Image pixels,Audio samples,Option_1,Intermediate
+What is semantic similarity?,Measure of meaning similarity between text/embeddings,Word similarity,Character similarity,Byte similarity,Option_1,Intermediate
+What is cosine similarity?,Measuring angle between two vectors,Distance metric,Euclidean distance,Manhattan distance,Option_1,Intermediate
+What is embedding dimension?,"Size of embedding vectors (e.g., 768, 1536)",Text length,Vocabulary size,Model size,Option_1,Intermediate
+What is a dense vector?,Vector with many non-zero values,Vector with few non-zero values,Sparse vector,One-hot vector,Option_1,Advanced
+What is a sparse vector?,Vector with mostly zero values,Dense vector,Embedding vector,Output vector,Option_1,Advanced
+What is a diffusion model?,Generative model using iterative noise removal,Direct generation model,Classification model,Clustering model,Option_1,Intermediate
+How do diffusion models generate images?,"Starting from noise, iteratively removing noise",Direct output,Sampling from distribution,Interpolating features,Option_1,Intermediate
+What is the forward process in diffusion?,Gradually adding noise to image,Removing noise,Generating image,Sampling process,Option_1,Intermediate
+What is the reverse process in diffusion?,Gradually removing noise from noisy image,Adding noise,Generation process,Training process,Option_1,Intermediate
+What is denoising in diffusion models?,Removing noise to recover clean data,Adding noise,Filtering images,Image enhancement,Option_1,Intermediate
+What is a GAN (Generative Adversarial Network)?,Two competing networks: generator and discriminator,Single network,Supervised model,Unsupervised classification,Option_1,Intermediate
+What does the generator in GAN do?,Creates fake data to fool discriminator,Discriminates data,Classifies data,Clusters data,Option_1,Intermediate
+What does the discriminator in GAN do?,Distinguishes real from fake data,Generates data,Classifies data,Clusters data,Option_1,Intermediate
+What is mode collapse in GANs?,Generator learning limited modes of data distribution,Generator failure,Discriminator issue,Training error,Option_1,Advanced
+What is Wasserstein GAN?,GAN using Wasserstein distance improving training stability,Simple GAN,Conditional GAN,StyleGAN,Option_1,Advanced
+What is VAE (Variational Autoencoder)?,Generative model learning latent distribution,Supervised classifier,Feature extractor,Dimensionality reduction,Option_1,Intermediate
+What is encoder in VAE?,Maps data to latent space distribution,Maps output to input,Generates data,Decodes data,Option_1,Intermediate
+What is decoder in VAE?,Maps latent variables to data space,Encodes data,Generates samples,Samples latent,Option_1,Intermediate
+What is latent space in VAE?,Compressed representation space of data,Output space,Input space,Feature space,Option_1,Intermediate
+What is KL divergence in VAE?,Regularizing latent distribution to be normal,Data loss,Reconstruction loss,Entropy measure,Option_1,Advanced
+What is text generation?,Creating text automatically from model,Writing manually,Copying text,Summarizing text,Option_1,Beginner
+What is language model?,Model predicting next token given previous tokens,Classification model,Clustering model,Regression model,Option_1,Beginner
+What is next token prediction?,Predicting most likely next word in sequence,Random generation,Fixed output,User input,Option_1,Beginner
+What is beam search?,Algorithm exploring multiple paths for text generation,Greedy search,Random search,Exhaustive search,Option_1,Intermediate
+What is greedy decoding?,Selecting highest probability token at each step,Random selection,Beam search,Exhaustive search,Option_1,Intermediate
+What is nucleus sampling (top-p)?,Sampling from top probability tokens until probability sum reaches p,Temperature sampling,Beam search,Greedy decoding,Option_1,Advanced
+What is top-k sampling?,Sampling from k highest probability tokens,Top-p sampling,Temperature sampling,Beam search,Option_1,Advanced
+What is temperature in text generation?,"Controls randomness of predictions (high=random, low=deterministic)",Model speed,Model size,Learning rate,Option_1,Intermediate
+What is image generation?,Creating images from text descriptions or noise,Image classification,Image recognition,Image segmentation,Option_1,Beginner
+What is text-to-image generation?,Converting text descriptions to images,Image-to-text,Image classification,Image editing,Option_1,Beginner
+What is CLIP?,Model linking text and image representations,Image generation model,Text generation model,Classification model,Option_1,Intermediate
+What is guidance in image generation?,Conditioning model on text or other guidance signals,Brightness adjustment,Contrast adjustment,Filtering,Option_1,Intermediate
+What is classifier-free guidance?,Technique improving generation quality without explicit classifier,Using classifier,Supervised generation,Unsupervised learning,Option_1,Advanced
+What is LoRA (Low-Rank Adaptation)?,Efficient fine-tuning method with low-rank updates,Full fine-tuning,Transfer learning,Feature extraction,Option_1,Advanced
+What is video generation?,Creating videos from descriptions or frames,Video classification,Video analysis,Video editing,Option_1,Advanced
+What is frame interpolation?,Generating intermediate frames between key frames,Frame extraction,Frame rate conversion,Frame blending,Option_1,Advanced
+What is text-to-speech (TTS)?,Converting text to natural speech audio,Speech recognition,Audio analysis,Voice cloning,Option_1,Intermediate
+What is speech-to-text?,Converting speech audio to text,Text-to-speech,Voice synthesis,Audio generation,Option_1,Beginner
+What is voice cloning?,Generating speech in specific person's voice,Voice recognition,Voice synthesis,Audio editing,Option_1,Intermediate
+What is WaveNet?,Generative model for audio waveform synthesis,Image generation model,Text model,Video model,Option_1,Advanced
+What is multimodal AI?,"AI understanding multiple modalities (text, image, audio)",Single modality AI,Text-only AI,Image-only AI,Option_1,Intermediate
+What is vision-language model?,Model understanding both images and text,Image-only model,Text-only model,Audio model,Option_1,Intermediate
+What is visual question answering (VQA)?,Answering questions about images,Image classification,Image generation,Image segmentation,Option_1,Intermediate
+What is image captioning?,Generating text descriptions of images,Image classification,Object detection,Image generation,Option_1,Intermediate
+What is alignment in AI?,Ensuring AI behavior matches human intentions,Data alignment,Model alignment,Feature alignment,Option_1,Intermediate
+What is RLHF (Reinforcement Learning from Human Feedback)?,Training using human feedback to improve model behavior,Standard training,Supervised learning,Unsupervised learning,Option_1,Intermediate
+What is constitutional AI?,Training AI using principles/constitution for behavior,Standard training,Rule-based AI,Expert systems,Option_1,Advanced
+What is hallucination in LLMs?,Model generating false/nonsensical information,Model crashes,Slow inference,Overfitting,Option_1,Beginner
+How to reduce hallucination?,"Use RAG, fine-tuning, better prompts, fact checking",More data only,Larger model only,Higher temperature,Option_1,Intermediate
+What is jailbreaking in AI?,Bypassing safety measures through clever prompting,Security break,Model theft,Unauthorized access,Option_1,Advanced
+What is BLEU score?,Machine translation evaluation metric,Image quality metric,Text similarity,Model accuracy,Option_1,Intermediate
+What is ROUGE score?,Summarization evaluation metric,Image metric,Classification metric,Generation quality,Option_1,Intermediate
+What is perplexity?,Language model evaluation metric measuring prediction uncertainty,Text complexity,Model size,Generation speed,Option_1,Intermediate
+What is METEOR score?,Machine translation evaluation considering synonyms,BLEU score,ROUGE score,Accuracy metric,Option_1,Advanced
+What is human evaluation?,Experts assessing generated content quality,Automatic metric,Benchmark dataset,Test suite,Option_1,Intermediate
+What are scaling laws in LLMs?,Predictable relationships between model size/data and performance,Model architecture,Training speed,Inference cost,Option_1,Advanced
+What is compute-optimal scaling?,Allocating equal compute to model size and training data,Larger models only,More data only,Faster training,Option_1,Advanced
+What is the scaling hypothesis?,Performance improves with more scale (data/model/compute),Scaling reaches limit,Scaling hurts performance,Scaling irrelevant,Option_1,Advanced
+What is quantization?,Reducing precision of model weights for faster inference,Model compression,Model pruning,Distillation,Option_1,Intermediate
+What is model compression?,Reducing model size while maintaining performance,Data compression,Feature compression,Algorithm compression,Option_1,Intermediate
+What is knowledge distillation?,Training small model to mimic large model,Model compression,Quantization,Pruning,Option_1,Intermediate
+What is inference optimization?,Techniques improving speed/efficiency of model predictions,Training optimization,Data optimization,Feature optimization,Option_1,Intermediate
+What is batching in inference?,Processing multiple inputs simultaneously,Single input,Sequential processing,Parallel computation,Option_1,Intermediate
+What is caching in LLMs?,Storing intermediate computations to avoid recomputation,Data caching,Memory caching,Disk caching,Option_1,Advanced
+What is a chatbot?,AI system conversing with users,Question answering system,Search engine,Recommendation system,Option_1,Beginner
+What is code generation?,AI generating code from descriptions,Code compilation,Code execution,Code review,Option_1,Intermediate
+What is code completion?,Autocompleting code based on context,Full code generation,Code suggestion,Code snippet,Option_1,Beginner
+What is content summarization?,Generating concise summaries of content,Content analysis,Content classification,Content extraction,Option_1,Beginner
+What is machine translation?,Converting text from one language to another,Language detection,Language modeling,Language generation,Option_1,Beginner
+What is paraphrase generation?,Rewriting text with different wording,Text extraction,Text compression,Text expansion,Option_1,Intermediate
+What is question answering?,Answering questions based on context/knowledge,Question generation,Question classification,Information retrieval,Option_1,Beginner
+What is semantic search?,Finding relevant content based on meaning not keywords,Keyword search,Boolean search,Fuzzy search,Option_1,Intermediate

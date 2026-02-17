@@ -1,0 +1,1001 @@
+Question,Option_1,Option_2,Option_3,Option_4,Correct_Answer,Level
+What is Data Science?,"Extracting insights from data using statistics, ML, programming",Data collection only,Data storage,Data visualization,Option_1,Beginner
+What are the main components of Data Science?,"Data collection, preprocessing, analysis, modeling, visualization",Data storage only,Programming only,Statistics only,Option_1,Beginner
+What is the data science workflow?,"Problem definition, data collection, EDA, modeling, evaluation, deployment",Just modeling,Only visualization,Only prediction,Option_1,Beginner
+What are the roles in data science team?,"Data Engineer, Data Analyst, Data Scientist, ML Engineer",Only programmers,Only statisticians,Only analysts,Option_1,Beginner
+What is the difference between data analyst and data scientist?,"Analyst explores data, Scientist builds predictive models",Same role,Analyst is higher,Scientist is lower,Option_1,Beginner
+What is probability?,Likelihood of event occurring between 0 and 1,Certainty of outcome,Statistical measure,Mathematical concept,Option_1,Beginner
+What is statistics?,"Science of collecting, analyzing, interpreting data",Data collection only,Data storage,Data visualization,Option_1,Beginner
+What is normal distribution?,Bell-shaped probability distribution,Uniform distribution,Skewed distribution,Bimodal distribution,Option_1,Intermediate
+"What is mean, median, and mode?","Mean is average, median is middle value, mode is most frequent",All are same,All are averages,Different names only,Option_1,Beginner
+What is standard deviation?,Measure of data spread from mean,Average value,Range measure,Variance measure,Option_1,Intermediate
+What is correlation?,Statistical relationship between variables,Causation,Covariance,Regression,Option_1,Intermediate
+What is causation?,One variable directly causes another,Statistical relationship,Correlation,Association,Option_1,Intermediate
+What is hypothesis testing?,Statistical method determining if hypothesis is supported,Hypothesis formation,Data collection,Model building,Option_1,Intermediate
+What is p-value?,Probability of observing data assuming null hypothesis,Statistical significance,Test statistic,Confidence level,Option_1,Intermediate
+What is confidence interval?,Range containing true population parameter with confidence,Probability range,Data range,Error range,Option_1,Intermediate
+What is a matrix?,Rectangular array of numbers arranged in rows/columns,Single row of numbers,Single column,Square grid only,Option_1,Intermediate
+What is a vector?,One-dimensional array of numbers,Two-dimensional array,Matrix,Scalar,Option_1,Intermediate
+What is dot product?,Sum of products of corresponding vector elements,Vector addition,Vector multiplication,Vector division,Option_1,Intermediate
+What is eigenvalue and eigenvector?,Vector unchanged in direction when multiplied by matrix,Special vector,Special value,Matrix property,Option_1,Advanced
+What is matrix decomposition?,Breaking matrix into simpler components,Matrix combination,Matrix multiplication,Matrix addition,Option_1,Advanced
+What is data collection?,Gathering data from sources,Data cleaning,Data storage,Data analysis,Option_1,Beginner
+What are data sources?,"Databases, APIs, web scraping, sensors, surveys",Only databases,Only files,Only APIs,Option_1,Intermediate
+What is missing data?,Values absent in dataset,Zero values,Negative values,Outliers,Option_1,Beginner
+What are methods to handle missing data?,"Deletion, imputation, prediction",Ignoring,Replacing with zero,Dropping records,Option_1,Intermediate
+What is data preprocessing?,Cleaning and transforming raw data,Data collection,Data analysis,Data modeling,Option_1,Beginner
+What is data cleaning?,"Removing errors, duplicates, inconsistencies",Data collection,Data storage,Data visualization,Option_1,Beginner
+What is outlier?,Unusual data point significantly different from others,Normal value,Expected value,Average value,Option_1,Intermediate
+What methods detect outliers?,"Z-score, IQR, Isolation Forest, LOF",Mean only,Median only,Visual inspection only,Option_1,Intermediate
+What is data normalization?,Scaling data to standard range,Data cleaning,Data transformation,Data organization,Option_1,Intermediate
+What is data standardization?,"Centering data with mean 0, std dev 1",Normalization,Scaling,Transformation,Option_1,Intermediate
+What is EDA (Exploratory Data Analysis)?,Investigating data to discover patterns and relationships,Data collection,Data modeling,Data prediction,Option_1,Beginner
+What is the purpose of EDA?,"Understand data structure, patterns, anomalies",Build models,Make predictions,Deploy models,Option_1,Intermediate
+What are EDA techniques?,"Descriptive statistics, visualization, correlation analysis",Only statistics,Only visualization,Only correlation,Option_1,Intermediate
+What is data visualization?,Creating visual representations of data,Data collection,Data storage,Data analysis,Option_1,Beginner
+What are common visualization types?,"Histograms, scatter plots, box plots, bar charts, heatmaps",Only bar charts,Only scatter plots,Only histograms,Option_1,Intermediate
+What is histogram?,Plot showing distribution of continuous data,Bar chart,Scatter plot,Line plot,Option_1,Beginner
+What is box plot?,"Plot showing quartiles, median, outliers",Histogram,Scatter plot,Line plot,Option_1,Intermediate
+What is scatter plot?,Plot showing relationship between two variables,Distribution plot,Trend plot,Frequency plot,Option_1,Beginner
+What is heatmap?,Matrix visualization using colors to show values,Color scale,Temperature plot,Geographic map,Option_1,Intermediate
+What is feature engineering?,Creating new features from raw data,Data cleaning,Data collection,Data analysis,Option_1,Intermediate
+What is feature scaling?,Transforming features to comparable scale,Feature selection,Feature creation,Feature extraction,Option_1,Intermediate
+What is feature selection?,Selecting subset of relevant features,Creating features,Scaling features,Extracting features,Option_1,Intermediate
+What are feature selection methods?,"Filter, Wrapper, Embedded methods",Only statistical,Only model-based,Only manual,Option_1,Advanced
+What is dimensionality reduction?,Reducing number of features while preserving information,Feature selection,Feature scaling,Feature extraction,Option_1,Intermediate
+What is PCA (Principal Component Analysis)?,Technique reducing dimensions finding principal components,Clustering method,Classification method,Regression,Option_1,Intermediate
+What is t-SNE?,Non-linear dimensionality reduction for visualization,Linear reduction,Feature selection,Clustering,Option_1,Intermediate
+What is one-hot encoding?,Converting categorical variables to binary vectors,Label encoding,Ordinal encoding,Frequency encoding,Option_1,Intermediate
+What is label encoding?,Converting categorical variables to numerical labels,One-hot encoding,Ordinal encoding,Binary encoding,Option_1,Intermediate
+What is machine learning?,Systems learning from data without explicit programming,Data collection,Data storage,Data visualization,Option_1,Beginner
+What are main ML algorithms?,"Regression, Classification, Clustering, Dimensionality Reduction",Only regression,Only classification,Only clustering,Option_1,Intermediate
+What is supervised learning?,Learning from labeled data with known outputs,Learning without labels,Self-directed learning,Unsupervised learning,Option_1,Beginner
+What is unsupervised learning?,Finding patterns in unlabeled data,Learning with labels,Classification,Prediction,Option_1,Beginner
+What is regression?,Predicting continuous numerical values,Classification,Clustering,Dimensionality reduction,Option_1,Beginner
+What is classification?,Predicting categorical class labels,Predicting numbers,Grouping similar data,Reducing dimensions,Option_1,Beginner
+What is clustering?,Grouping similar data points without labels,Classification,Regression,Dimensionality reduction,Option_1,Beginner
+What is Linear Regression?,Modeling linear relationship between variables,Non-linear relationship,Classification,Clustering,Option_1,Intermediate
+What is Logistic Regression?,Classification algorithm for binary/multi-class,Linear regression,Clustering,Dimensionality reduction,Option_1,Intermediate
+What is Decision Tree?,Tree model making predictions through decisions,Regression line,Clustering algorithm,Dimensionality reduction,Option_1,Intermediate
+What is Random Forest?,Ensemble of decision trees voting on prediction,Single tree,Clustering method,Regression method,Option_1,Intermediate
+What is SVM (Support Vector Machine)?,Classifier finding optimal boundary between classes,Regression model,Clustering algorithm,Feature selector,Option_1,Intermediate
+What is K-Means clustering?,Algorithm partitioning data into K clusters,Hierarchical clustering,Classification algorithm,Regression,Option_1,Intermediate
+What is DBSCAN?,Density-based clustering for arbitrary shapes,K-Means variant,Hierarchical clustering,Classification,Option_1,Advanced
+What is Naive Bayes?,Probabilistic classifier based on Bayes' theorem,Decision tree,Nearest neighbor,Regression,Option_1,Intermediate
+What is K-Nearest Neighbors?,Instance-based classifier finding K nearest neighbors,Centroid-based,Tree-based,Probabilistic,Option_1,Intermediate
+What is model evaluation?,Assessing model performance on test data,Model training,Model building,Model selection,Option_1,Intermediate
+What is accuracy?,Percentage of correct predictions,True positive rate,False positive rate,Precision,Option_1,Beginner
+What is precision?,Proportion of positive predictions that are correct,Recall,Accuracy,F1-score,Option_1,Intermediate
+What is recall?,Proportion of actual positives correctly identified,Precision,Accuracy,Specificity,Option_1,Intermediate
+What is F1-score?,Harmonic mean of precision and recall,Sum of metrics,Product of metrics,Average of metrics,Option_1,Intermediate
+What is confusion matrix?,"Table showing TP, TN, FP, FN",Covariance matrix,Correlation matrix,Distance matrix,Option_1,Intermediate
+What is AUC-ROC?,Area under Receiver Operating Characteristic curve,Accuracy metric,Precision metric,F1-score,Option_1,Advanced
+What is cross-validation?,Evaluating model using multiple data splits,Single split,Random sampling,Bootstrap,Option_1,Intermediate
+What is overfitting?,"Model learning training data too well, poor generalization",Model not learning,Underfitting,Proper fitting,Option_1,Intermediate
+What is underfitting?,Model too simple to capture patterns,Model too complex,Good fit,Overfitting,Option_1,Intermediate
+What is time series?,Sequence of data points ordered by time,Random data,Cross-sectional data,Panel data,Option_1,Intermediate
+What is trend in time series?,Long-term movement in data,Short-term fluctuation,Seasonal pattern,Random noise,Option_1,Intermediate
+What is seasonality?,Recurring pattern at fixed intervals,Trend,Autocorrelation,Stationarity,Option_1,Intermediate
+What is stationarity?,Statistical properties don't change over time,Properties change,Increasing variance,Trend present,Option_1,Advanced
+What is ARIMA?,AutoRegressive Integrated Moving Average model,Regression model,Classification model,Clustering,Option_1,Advanced
+What is forecasting?,Predicting future values in time series,Past prediction,Current analysis,Historical analysis,Option_1,Beginner
+What is neural network?,Computational model inspired by biological neurons,Computer network,Data structure,Algorithm,Option_1,Intermediate
+What is perceptron?,Single-layer neural network for binary classification,Multi-layer network,Deep learning,Regression,Option_1,Intermediate
+What is activation function?,Non-linear function enabling networks to learn complex patterns,Linear function,Loss function,Activation,Option_1,Intermediate
+What is backpropagation?,Algorithm computing gradients for neural networks,Forward pass,Feature extraction,Data preprocessing,Option_1,Advanced
+What is gradient descent?,Iteratively updating parameters to minimize loss,Ascending parameters,Direct solution,Random search,Option_1,Intermediate
+What is CNN (Convolutional Neural Network)?,Neural network for image recognition using convolutions,General neural network,RNN,Transformer,Option_1,Intermediate
+What is RNN (Recurrent Neural Network)?,Neural network processing sequences with feedback,Feed-forward network,CNN,Transformer,Option_1,Intermediate
+What is LSTM?,Long Short-Term Memory for handling long-term dependencies,Simple RNN,GRU,Transformer,Option_1,Advanced
+What is NLP (Natural Language Processing)?,Field enabling computers to understand human language,Programming language,Database language,Markup language,Option_1,Beginner
+What is tokenization?,Breaking text into individual words/tokens,Removing duplicates,Removing stopwords,Stemming,Option_1,Intermediate
+What is stemming?,Reducing words to root form,Word combination,Removing duplicates,Sorting words,Option_1,Intermediate
+What is lemmatization?,Converting words to dictionary base form,Removing characters,Adding affixes,Removing suffixes,Option_1,Intermediate
+What is bag of words?,Representing text as word frequency vectors,Word ordering,Word relationships,Word meanings,Option_1,Intermediate
+What is TF-IDF?,Term Frequency-Inverse Document Frequency weighting,Word frequency,Document frequency,Term weighting,Option_1,Intermediate
+What is word embedding?,Vector representation of words capturing meaning,Word ordering,Character encoding,Byte representation,Option_1,Intermediate
+What is Word2Vec?,Algorithm creating word embeddings using neural networks,Word counting,Text classification,Language model,Option_1,Advanced
+What is matplotlib?,Python library for static 2D visualizations,3D visualization,Interactive plotting,Real-time graphics,Option_1,Beginner
+What is Seaborn?,Statistical data visualization built on matplotlib,Data analysis,Machine learning library,Database,Option_1,Intermediate
+What is Plotly?,Interactive visualization library,Static plots,Data analysis,Machine learning,Option_1,Intermediate
+What is Tableau?,Business intelligence and visualization platform,Python library,Programming language,Database,Option_1,Beginner
+What is Big Data?,Large-scale data requiring distributed processing,Large dataset,Data in files,Database data,Option_1,Intermediate
+What is Apache Spark?,Distributed computing framework for big data processing,Database,Programming language,Web framework,Option_1,Advanced
+What is Hadoop?,Framework for distributed processing of large datasets,Programming language,Database system,Visualization tool,Option_1,Advanced
+What is MapReduce?,Programming model for distributed processing,Database model,Data structure,Algorithm,Option_1,Advanced
+What is SQL?,Language for querying relational databases,Programming language,Data format,Storage system,Option_1,Beginner
+What is NoSQL?,Non-relational database for flexible data structures,SQL database,Relational database,Traditional database,Option_1,Intermediate
+What is MongoDB?,NoSQL document database with JSON-like documents,Relational database,Graph database,Search engine,Option_1,Intermediate
+What is data warehouse?,Centralized repository for integrated data,Database,Data lake,File system,Option_1,Intermediate
+What is data lake?,Repository storing raw data in original form,Data warehouse,Database,Data mart,Option_1,Advanced
+What is data privacy?,Protecting personal data from unauthorized access,Data security,Data protection,Data confidentiality,Option_1,Intermediate
+What is data bias?,Systematic errors in data reflecting prejudices,Random error,Measurement error,Sampling error,Option_1,Intermediate
+What is fairness in data science?,Ensuring models don't discriminate unfairly,Model accuracy,Model performance,Prediction speed,Option_1,Advanced
+What is GDPR?,General Data Protection Regulation for data privacy,Data storage standard,Data format standard,Data security,Option_1,Advanced
+What is Python?,Programming language popular in data science,Database language,Markup language,Styling language,Option_1,Beginner
+What is R?,Programming language for statistical computing,Database language,Web language,Mobile language,Option_1,Intermediate
+What is Jupyter?,"Interactive notebook for code, visualization, documentation",Programming language,Database,Framework,Option_1,Beginner
+What is pandas?,Python library for data manipulation and analysis,Visualization library,Machine learning library,Database,Option_1,Intermediate
+What is NumPy?,Python library for numerical computing with arrays,Data manipulation,Visualization,Machine learning,Option_1,Intermediate
+What is scikit-learn?,Python library for machine learning algorithms,Data visualization,Data preprocessing,Deep learning,Option_1,Intermediate
+What is TensorFlow?,Deep learning framework for neural networks,Machine learning library,Data analysis tool,Visualization,Option_1,Intermediate
+What is PyTorch?,Deep learning framework with dynamic computation graphs,TensorFlow alternative,Data science library,ML toolkit,Option_1,Advanced
+What is t-test?,Statistical test comparing means of two groups,ANOVA test,Chi-square test,Z-test,Option_1,Advanced
+What is ANOVA?,Analysis of Variance comparing means of multiple groups,t-test,Chi-square test,Z-test,Option_1,Advanced
+What is chi-square test?,Test for categorical data independence,Continuous data test,Mean comparison,Variance test,Option_1,Advanced
+What is Bayesian statistics?,Probabilistic approach updating beliefs with evidence,Frequentist approach,Descriptive statistics,Inferential,Option_1,Advanced
+What is model deployment?,Putting trained model into production,Model training,Model evaluation,Model building,Option_1,Intermediate
+What is A/B testing?,Comparing two versions to determine which performs better,Model testing,Unit testing,Integration testing,Option_1,Advanced
+What is model monitoring?,Tracking model performance in production,Model training,Model building,Model evaluation,Option_1,Advanced
+What is model drift?,Change in model performance due to data drift,Model failure,Training error,Deployment issue,Option_1,Advanced
+What is Data Science?,"Extracting insights from data using statistics, ML, programming",Data collection only,Data storage,Data visualization,Option_1,Beginner
+What are the main components of Data Science?,"Data collection, preprocessing, analysis, modeling, visualization",Data storage only,Programming only,Statistics only,Option_1,Beginner
+What is the data science workflow?,"Problem definition, data collection, EDA, modeling, evaluation, deployment",Just modeling,Only visualization,Only prediction,Option_1,Beginner
+What are the roles in data science team?,"Data Engineer, Data Analyst, Data Scientist, ML Engineer",Only programmers,Only statisticians,Only analysts,Option_1,Beginner
+What is the difference between data analyst and data scientist?,"Analyst explores data, Scientist builds predictive models",Same role,Analyst is higher,Scientist is lower,Option_1,Beginner
+What is probability?,Likelihood of event occurring between 0 and 1,Certainty of outcome,Statistical measure,Mathematical concept,Option_1,Beginner
+What is statistics?,"Science of collecting, analyzing, interpreting data",Data collection only,Data storage,Data visualization,Option_1,Beginner
+What is normal distribution?,Bell-shaped probability distribution,Uniform distribution,Skewed distribution,Bimodal distribution,Option_1,Intermediate
+"What is mean, median, and mode?","Mean is average, median is middle value, mode is most frequent",All are same,All are averages,Different names only,Option_1,Beginner
+What is standard deviation?,Measure of data spread from mean,Average value,Range measure,Variance measure,Option_1,Intermediate
+What is correlation?,Statistical relationship between variables,Causation,Covariance,Regression,Option_1,Intermediate
+What is causation?,One variable directly causes another,Statistical relationship,Correlation,Association,Option_1,Intermediate
+What is hypothesis testing?,Statistical method determining if hypothesis is supported,Hypothesis formation,Data collection,Model building,Option_1,Intermediate
+What is p-value?,Probability of observing data assuming null hypothesis,Statistical significance,Test statistic,Confidence level,Option_1,Intermediate
+What is confidence interval?,Range containing true population parameter with confidence,Probability range,Data range,Error range,Option_1,Intermediate
+What is a matrix?,Rectangular array of numbers arranged in rows/columns,Single row of numbers,Single column,Square grid only,Option_1,Intermediate
+What is a vector?,One-dimensional array of numbers,Two-dimensional array,Matrix,Scalar,Option_1,Intermediate
+What is dot product?,Sum of products of corresponding vector elements,Vector addition,Vector multiplication,Vector division,Option_1,Intermediate
+What is eigenvalue and eigenvector?,Vector unchanged in direction when multiplied by matrix,Special vector,Special value,Matrix property,Option_1,Advanced
+What is matrix decomposition?,Breaking matrix into simpler components,Matrix combination,Matrix multiplication,Matrix addition,Option_1,Advanced
+What is data collection?,Gathering data from sources,Data cleaning,Data storage,Data analysis,Option_1,Beginner
+What are data sources?,"Databases, APIs, web scraping, sensors, surveys",Only databases,Only files,Only APIs,Option_1,Intermediate
+What is missing data?,Values absent in dataset,Zero values,Negative values,Outliers,Option_1,Beginner
+What are methods to handle missing data?,"Deletion, imputation, prediction",Ignoring,Replacing with zero,Dropping records,Option_1,Intermediate
+What is data preprocessing?,Cleaning and transforming raw data,Data collection,Data analysis,Data modeling,Option_1,Beginner
+What is data cleaning?,"Removing errors, duplicates, inconsistencies",Data collection,Data storage,Data visualization,Option_1,Beginner
+What is outlier?,Unusual data point significantly different from others,Normal value,Expected value,Average value,Option_1,Intermediate
+What methods detect outliers?,"Z-score, IQR, Isolation Forest, LOF",Mean only,Median only,Visual inspection only,Option_1,Intermediate
+What is data normalization?,Scaling data to standard range,Data cleaning,Data transformation,Data organization,Option_1,Intermediate
+What is data standardization?,"Centering data with mean 0, std dev 1",Normalization,Scaling,Transformation,Option_1,Intermediate
+What is EDA (Exploratory Data Analysis)?,Investigating data to discover patterns and relationships,Data collection,Data modeling,Data prediction,Option_1,Beginner
+What is the purpose of EDA?,"Understand data structure, patterns, anomalies",Build models,Make predictions,Deploy models,Option_1,Intermediate
+What are EDA techniques?,"Descriptive statistics, visualization, correlation analysis",Only statistics,Only visualization,Only correlation,Option_1,Intermediate
+What is data visualization?,Creating visual representations of data,Data collection,Data storage,Data analysis,Option_1,Beginner
+What are common visualization types?,"Histograms, scatter plots, box plots, bar charts, heatmaps",Only bar charts,Only scatter plots,Only histograms,Option_1,Intermediate
+What is histogram?,Plot showing distribution of continuous data,Bar chart,Scatter plot,Line plot,Option_1,Beginner
+What is box plot?,"Plot showing quartiles, median, outliers",Histogram,Scatter plot,Line plot,Option_1,Intermediate
+What is scatter plot?,Plot showing relationship between two variables,Distribution plot,Trend plot,Frequency plot,Option_1,Beginner
+What is heatmap?,Matrix visualization using colors to show values,Color scale,Temperature plot,Geographic map,Option_1,Intermediate
+What is feature engineering?,Creating new features from raw data,Data cleaning,Data collection,Data analysis,Option_1,Intermediate
+What is feature scaling?,Transforming features to comparable scale,Feature selection,Feature creation,Feature extraction,Option_1,Intermediate
+What is feature selection?,Selecting subset of relevant features,Creating features,Scaling features,Extracting features,Option_1,Intermediate
+What are feature selection methods?,"Filter, Wrapper, Embedded methods",Only statistical,Only model-based,Only manual,Option_1,Advanced
+What is dimensionality reduction?,Reducing number of features while preserving information,Feature selection,Feature scaling,Feature extraction,Option_1,Intermediate
+What is PCA (Principal Component Analysis)?,Technique reducing dimensions finding principal components,Clustering method,Classification method,Regression,Option_1,Intermediate
+What is t-SNE?,Non-linear dimensionality reduction for visualization,Linear reduction,Feature selection,Clustering,Option_1,Intermediate
+What is one-hot encoding?,Converting categorical variables to binary vectors,Label encoding,Ordinal encoding,Frequency encoding,Option_1,Intermediate
+What is label encoding?,Converting categorical variables to numerical labels,One-hot encoding,Ordinal encoding,Binary encoding,Option_1,Intermediate
+What is machine learning?,Systems learning from data without explicit programming,Data collection,Data storage,Data visualization,Option_1,Beginner
+What are main ML algorithms?,"Regression, Classification, Clustering, Dimensionality Reduction",Only regression,Only classification,Only clustering,Option_1,Intermediate
+What is supervised learning?,Learning from labeled data with known outputs,Learning without labels,Self-directed learning,Unsupervised learning,Option_1,Beginner
+What is unsupervised learning?,Finding patterns in unlabeled data,Learning with labels,Classification,Prediction,Option_1,Beginner
+What is regression?,Predicting continuous numerical values,Classification,Clustering,Dimensionality reduction,Option_1,Beginner
+What is classification?,Predicting categorical class labels,Predicting numbers,Grouping similar data,Reducing dimensions,Option_1,Beginner
+What is clustering?,Grouping similar data points without labels,Classification,Regression,Dimensionality reduction,Option_1,Beginner
+What is Linear Regression?,Modeling linear relationship between variables,Non-linear relationship,Classification,Clustering,Option_1,Intermediate
+What is Logistic Regression?,Classification algorithm for binary/multi-class,Linear regression,Clustering,Dimensionality reduction,Option_1,Intermediate
+What is Decision Tree?,Tree model making predictions through decisions,Regression line,Clustering algorithm,Dimensionality reduction,Option_1,Intermediate
+What is Random Forest?,Ensemble of decision trees voting on prediction,Single tree,Clustering method,Regression method,Option_1,Intermediate
+What is SVM (Support Vector Machine)?,Classifier finding optimal boundary between classes,Regression model,Clustering algorithm,Feature selector,Option_1,Intermediate
+What is K-Means clustering?,Algorithm partitioning data into K clusters,Hierarchical clustering,Classification algorithm,Regression,Option_1,Intermediate
+What is DBSCAN?,Density-based clustering for arbitrary shapes,K-Means variant,Hierarchical clustering,Classification,Option_1,Advanced
+What is Naive Bayes?,Probabilistic classifier based on Bayes' theorem,Decision tree,Nearest neighbor,Regression,Option_1,Intermediate
+What is K-Nearest Neighbors?,Instance-based classifier finding K nearest neighbors,Centroid-based,Tree-based,Probabilistic,Option_1,Intermediate
+What is model evaluation?,Assessing model performance on test data,Model training,Model building,Model selection,Option_1,Intermediate
+What is accuracy?,Percentage of correct predictions,True positive rate,False positive rate,Precision,Option_1,Beginner
+What is precision?,Proportion of positive predictions that are correct,Recall,Accuracy,F1-score,Option_1,Intermediate
+What is recall?,Proportion of actual positives correctly identified,Precision,Accuracy,Specificity,Option_1,Intermediate
+What is F1-score?,Harmonic mean of precision and recall,Sum of metrics,Product of metrics,Average of metrics,Option_1,Intermediate
+What is confusion matrix?,"Table showing TP, TN, FP, FN",Covariance matrix,Correlation matrix,Distance matrix,Option_1,Intermediate
+What is AUC-ROC?,Area under Receiver Operating Characteristic curve,Accuracy metric,Precision metric,F1-score,Option_1,Advanced
+What is cross-validation?,Evaluating model using multiple data splits,Single split,Random sampling,Bootstrap,Option_1,Intermediate
+What is overfitting?,"Model learning training data too well, poor generalization",Model not learning,Underfitting,Proper fitting,Option_1,Intermediate
+What is underfitting?,Model too simple to capture patterns,Model too complex,Good fit,Overfitting,Option_1,Intermediate
+What is time series?,Sequence of data points ordered by time,Random data,Cross-sectional data,Panel data,Option_1,Intermediate
+What is trend in time series?,Long-term movement in data,Short-term fluctuation,Seasonal pattern,Random noise,Option_1,Intermediate
+What is seasonality?,Recurring pattern at fixed intervals,Trend,Autocorrelation,Stationarity,Option_1,Intermediate
+What is stationarity?,Statistical properties don't change over time,Properties change,Increasing variance,Trend present,Option_1,Advanced
+What is ARIMA?,AutoRegressive Integrated Moving Average model,Regression model,Classification model,Clustering,Option_1,Advanced
+What is forecasting?,Predicting future values in time series,Past prediction,Current analysis,Historical analysis,Option_1,Beginner
+What is neural network?,Computational model inspired by biological neurons,Computer network,Data structure,Algorithm,Option_1,Intermediate
+What is perceptron?,Single-layer neural network for binary classification,Multi-layer network,Deep learning,Regression,Option_1,Intermediate
+What is activation function?,Non-linear function enabling networks to learn complex patterns,Linear function,Loss function,Activation,Option_1,Intermediate
+What is backpropagation?,Algorithm computing gradients for neural networks,Forward pass,Feature extraction,Data preprocessing,Option_1,Advanced
+What is gradient descent?,Iteratively updating parameters to minimize loss,Ascending parameters,Direct solution,Random search,Option_1,Intermediate
+What is CNN (Convolutional Neural Network)?,Neural network for image recognition using convolutions,General neural network,RNN,Transformer,Option_1,Intermediate
+What is RNN (Recurrent Neural Network)?,Neural network processing sequences with feedback,Feed-forward network,CNN,Transformer,Option_1,Intermediate
+What is LSTM?,Long Short-Term Memory for handling long-term dependencies,Simple RNN,GRU,Transformer,Option_1,Advanced
+What is NLP (Natural Language Processing)?,Field enabling computers to understand human language,Programming language,Database language,Markup language,Option_1,Beginner
+What is tokenization?,Breaking text into individual words/tokens,Removing duplicates,Removing stopwords,Stemming,Option_1,Intermediate
+What is stemming?,Reducing words to root form,Word combination,Removing duplicates,Sorting words,Option_1,Intermediate
+What is lemmatization?,Converting words to dictionary base form,Removing characters,Adding affixes,Removing suffixes,Option_1,Intermediate
+What is bag of words?,Representing text as word frequency vectors,Word ordering,Word relationships,Word meanings,Option_1,Intermediate
+What is TF-IDF?,Term Frequency-Inverse Document Frequency weighting,Word frequency,Document frequency,Term weighting,Option_1,Intermediate
+What is word embedding?,Vector representation of words capturing meaning,Word ordering,Character encoding,Byte representation,Option_1,Intermediate
+What is Word2Vec?,Algorithm creating word embeddings using neural networks,Word counting,Text classification,Language model,Option_1,Advanced
+What is matplotlib?,Python library for static 2D visualizations,3D visualization,Interactive plotting,Real-time graphics,Option_1,Beginner
+What is Seaborn?,Statistical data visualization built on matplotlib,Data analysis,Machine learning library,Database,Option_1,Intermediate
+What is Plotly?,Interactive visualization library,Static plots,Data analysis,Machine learning,Option_1,Intermediate
+What is Tableau?,Business intelligence and visualization platform,Python library,Programming language,Database,Option_1,Beginner
+What is Big Data?,Large-scale data requiring distributed processing,Large dataset,Data in files,Database data,Option_1,Intermediate
+What is Apache Spark?,Distributed computing framework for big data processing,Database,Programming language,Web framework,Option_1,Advanced
+What is Hadoop?,Framework for distributed processing of large datasets,Programming language,Database system,Visualization tool,Option_1,Advanced
+What is MapReduce?,Programming model for distributed processing,Database model,Data structure,Algorithm,Option_1,Advanced
+What is SQL?,Language for querying relational databases,Programming language,Data format,Storage system,Option_1,Beginner
+What is NoSQL?,Non-relational database for flexible data structures,SQL database,Relational database,Traditional database,Option_1,Intermediate
+What is MongoDB?,NoSQL document database with JSON-like documents,Relational database,Graph database,Search engine,Option_1,Intermediate
+What is data warehouse?,Centralized repository for integrated data,Database,Data lake,File system,Option_1,Intermediate
+What is data lake?,Repository storing raw data in original form,Data warehouse,Database,Data mart,Option_1,Advanced
+What is data privacy?,Protecting personal data from unauthorized access,Data security,Data protection,Data confidentiality,Option_1,Intermediate
+What is data bias?,Systematic errors in data reflecting prejudices,Random error,Measurement error,Sampling error,Option_1,Intermediate
+What is fairness in data science?,Ensuring models don't discriminate unfairly,Model accuracy,Model performance,Prediction speed,Option_1,Advanced
+What is GDPR?,General Data Protection Regulation for data privacy,Data storage standard,Data format standard,Data security,Option_1,Advanced
+What is Python?,Programming language popular in data science,Database language,Markup language,Styling language,Option_1,Beginner
+What is R?,Programming language for statistical computing,Database language,Web language,Mobile language,Option_1,Intermediate
+What is Jupyter?,"Interactive notebook for code, visualization, documentation",Programming language,Database,Framework,Option_1,Beginner
+What is pandas?,Python library for data manipulation and analysis,Visualization library,Machine learning library,Database,Option_1,Intermediate
+What is NumPy?,Python library for numerical computing with arrays,Data manipulation,Visualization,Machine learning,Option_1,Intermediate
+What is scikit-learn?,Python library for machine learning algorithms,Data visualization,Data preprocessing,Deep learning,Option_1,Intermediate
+What is TensorFlow?,Deep learning framework for neural networks,Machine learning library,Data analysis tool,Visualization,Option_1,Intermediate
+What is PyTorch?,Deep learning framework with dynamic computation graphs,TensorFlow alternative,Data science library,ML toolkit,Option_1,Advanced
+What is t-test?,Statistical test comparing means of two groups,ANOVA test,Chi-square test,Z-test,Option_1,Advanced
+What is ANOVA?,Analysis of Variance comparing means of multiple groups,t-test,Chi-square test,Z-test,Option_1,Advanced
+What is chi-square test?,Test for categorical data independence,Continuous data test,Mean comparison,Variance test,Option_1,Advanced
+What is Bayesian statistics?,Probabilistic approach updating beliefs with evidence,Frequentist approach,Descriptive statistics,Inferential,Option_1,Advanced
+What is model deployment?,Putting trained model into production,Model training,Model evaluation,Model building,Option_1,Intermediate
+What is A/B testing?,Comparing two versions to determine which performs better,Model testing,Unit testing,Integration testing,Option_1,Advanced
+What is model monitoring?,Tracking model performance in production,Model training,Model building,Model evaluation,Option_1,Advanced
+What is model drift?,Change in model performance due to data drift,Model failure,Training error,Deployment issue,Option_1,Advanced
+What is Data Science?,"Extracting insights from data using statistics, ML, programming",Data collection only,Data storage,Data visualization,Option_1,Beginner
+What are the main components of Data Science?,"Data collection, preprocessing, analysis, modeling, visualization",Data storage only,Programming only,Statistics only,Option_1,Beginner
+What is the data science workflow?,"Problem definition, data collection, EDA, modeling, evaluation, deployment",Just modeling,Only visualization,Only prediction,Option_1,Beginner
+What are the roles in data science team?,"Data Engineer, Data Analyst, Data Scientist, ML Engineer",Only programmers,Only statisticians,Only analysts,Option_1,Beginner
+What is the difference between data analyst and data scientist?,"Analyst explores data, Scientist builds predictive models",Same role,Analyst is higher,Scientist is lower,Option_1,Beginner
+What is probability?,Likelihood of event occurring between 0 and 1,Certainty of outcome,Statistical measure,Mathematical concept,Option_1,Beginner
+What is statistics?,"Science of collecting, analyzing, interpreting data",Data collection only,Data storage,Data visualization,Option_1,Beginner
+What is normal distribution?,Bell-shaped probability distribution,Uniform distribution,Skewed distribution,Bimodal distribution,Option_1,Intermediate
+"What is mean, median, and mode?","Mean is average, median is middle value, mode is most frequent",All are same,All are averages,Different names only,Option_1,Beginner
+What is standard deviation?,Measure of data spread from mean,Average value,Range measure,Variance measure,Option_1,Intermediate
+What is correlation?,Statistical relationship between variables,Causation,Covariance,Regression,Option_1,Intermediate
+What is causation?,One variable directly causes another,Statistical relationship,Correlation,Association,Option_1,Intermediate
+What is hypothesis testing?,Statistical method determining if hypothesis is supported,Hypothesis formation,Data collection,Model building,Option_1,Intermediate
+What is p-value?,Probability of observing data assuming null hypothesis,Statistical significance,Test statistic,Confidence level,Option_1,Intermediate
+What is confidence interval?,Range containing true population parameter with confidence,Probability range,Data range,Error range,Option_1,Intermediate
+What is a matrix?,Rectangular array of numbers arranged in rows/columns,Single row of numbers,Single column,Square grid only,Option_1,Intermediate
+What is a vector?,One-dimensional array of numbers,Two-dimensional array,Matrix,Scalar,Option_1,Intermediate
+What is dot product?,Sum of products of corresponding vector elements,Vector addition,Vector multiplication,Vector division,Option_1,Intermediate
+What is eigenvalue and eigenvector?,Vector unchanged in direction when multiplied by matrix,Special vector,Special value,Matrix property,Option_1,Advanced
+What is matrix decomposition?,Breaking matrix into simpler components,Matrix combination,Matrix multiplication,Matrix addition,Option_1,Advanced
+What is data collection?,Gathering data from sources,Data cleaning,Data storage,Data analysis,Option_1,Beginner
+What are data sources?,"Databases, APIs, web scraping, sensors, surveys",Only databases,Only files,Only APIs,Option_1,Intermediate
+What is missing data?,Values absent in dataset,Zero values,Negative values,Outliers,Option_1,Beginner
+What are methods to handle missing data?,"Deletion, imputation, prediction",Ignoring,Replacing with zero,Dropping records,Option_1,Intermediate
+What is data preprocessing?,Cleaning and transforming raw data,Data collection,Data analysis,Data modeling,Option_1,Beginner
+What is data cleaning?,"Removing errors, duplicates, inconsistencies",Data collection,Data storage,Data visualization,Option_1,Beginner
+What is outlier?,Unusual data point significantly different from others,Normal value,Expected value,Average value,Option_1,Intermediate
+What methods detect outliers?,"Z-score, IQR, Isolation Forest, LOF",Mean only,Median only,Visual inspection only,Option_1,Intermediate
+What is data normalization?,Scaling data to standard range,Data cleaning,Data transformation,Data organization,Option_1,Intermediate
+What is data standardization?,"Centering data with mean 0, std dev 1",Normalization,Scaling,Transformation,Option_1,Intermediate
+What is EDA (Exploratory Data Analysis)?,Investigating data to discover patterns and relationships,Data collection,Data modeling,Data prediction,Option_1,Beginner
+What is the purpose of EDA?,"Understand data structure, patterns, anomalies",Build models,Make predictions,Deploy models,Option_1,Intermediate
+What are EDA techniques?,"Descriptive statistics, visualization, correlation analysis",Only statistics,Only visualization,Only correlation,Option_1,Intermediate
+What is data visualization?,Creating visual representations of data,Data collection,Data storage,Data analysis,Option_1,Beginner
+What are common visualization types?,"Histograms, scatter plots, box plots, bar charts, heatmaps",Only bar charts,Only scatter plots,Only histograms,Option_1,Intermediate
+What is histogram?,Plot showing distribution of continuous data,Bar chart,Scatter plot,Line plot,Option_1,Beginner
+What is box plot?,"Plot showing quartiles, median, outliers",Histogram,Scatter plot,Line plot,Option_1,Intermediate
+What is scatter plot?,Plot showing relationship between two variables,Distribution plot,Trend plot,Frequency plot,Option_1,Beginner
+What is heatmap?,Matrix visualization using colors to show values,Color scale,Temperature plot,Geographic map,Option_1,Intermediate
+What is feature engineering?,Creating new features from raw data,Data cleaning,Data collection,Data analysis,Option_1,Intermediate
+What is feature scaling?,Transforming features to comparable scale,Feature selection,Feature creation,Feature extraction,Option_1,Intermediate
+What is feature selection?,Selecting subset of relevant features,Creating features,Scaling features,Extracting features,Option_1,Intermediate
+What are feature selection methods?,"Filter, Wrapper, Embedded methods",Only statistical,Only model-based,Only manual,Option_1,Advanced
+What is dimensionality reduction?,Reducing number of features while preserving information,Feature selection,Feature scaling,Feature extraction,Option_1,Intermediate
+What is PCA (Principal Component Analysis)?,Technique reducing dimensions finding principal components,Clustering method,Classification method,Regression,Option_1,Intermediate
+What is t-SNE?,Non-linear dimensionality reduction for visualization,Linear reduction,Feature selection,Clustering,Option_1,Intermediate
+What is one-hot encoding?,Converting categorical variables to binary vectors,Label encoding,Ordinal encoding,Frequency encoding,Option_1,Intermediate
+What is label encoding?,Converting categorical variables to numerical labels,One-hot encoding,Ordinal encoding,Binary encoding,Option_1,Intermediate
+What is machine learning?,Systems learning from data without explicit programming,Data collection,Data storage,Data visualization,Option_1,Beginner
+What are main ML algorithms?,"Regression, Classification, Clustering, Dimensionality Reduction",Only regression,Only classification,Only clustering,Option_1,Intermediate
+What is supervised learning?,Learning from labeled data with known outputs,Learning without labels,Self-directed learning,Unsupervised learning,Option_1,Beginner
+What is unsupervised learning?,Finding patterns in unlabeled data,Learning with labels,Classification,Prediction,Option_1,Beginner
+What is regression?,Predicting continuous numerical values,Classification,Clustering,Dimensionality reduction,Option_1,Beginner
+What is classification?,Predicting categorical class labels,Predicting numbers,Grouping similar data,Reducing dimensions,Option_1,Beginner
+What is clustering?,Grouping similar data points without labels,Classification,Regression,Dimensionality reduction,Option_1,Beginner
+What is Linear Regression?,Modeling linear relationship between variables,Non-linear relationship,Classification,Clustering,Option_1,Intermediate
+What is Logistic Regression?,Classification algorithm for binary/multi-class,Linear regression,Clustering,Dimensionality reduction,Option_1,Intermediate
+What is Decision Tree?,Tree model making predictions through decisions,Regression line,Clustering algorithm,Dimensionality reduction,Option_1,Intermediate
+What is Random Forest?,Ensemble of decision trees voting on prediction,Single tree,Clustering method,Regression method,Option_1,Intermediate
+What is SVM (Support Vector Machine)?,Classifier finding optimal boundary between classes,Regression model,Clustering algorithm,Feature selector,Option_1,Intermediate
+What is K-Means clustering?,Algorithm partitioning data into K clusters,Hierarchical clustering,Classification algorithm,Regression,Option_1,Intermediate
+What is DBSCAN?,Density-based clustering for arbitrary shapes,K-Means variant,Hierarchical clustering,Classification,Option_1,Advanced
+What is Naive Bayes?,Probabilistic classifier based on Bayes' theorem,Decision tree,Nearest neighbor,Regression,Option_1,Intermediate
+What is K-Nearest Neighbors?,Instance-based classifier finding K nearest neighbors,Centroid-based,Tree-based,Probabilistic,Option_1,Intermediate
+What is model evaluation?,Assessing model performance on test data,Model training,Model building,Model selection,Option_1,Intermediate
+What is accuracy?,Percentage of correct predictions,True positive rate,False positive rate,Precision,Option_1,Beginner
+What is precision?,Proportion of positive predictions that are correct,Recall,Accuracy,F1-score,Option_1,Intermediate
+What is recall?,Proportion of actual positives correctly identified,Precision,Accuracy,Specificity,Option_1,Intermediate
+What is F1-score?,Harmonic mean of precision and recall,Sum of metrics,Product of metrics,Average of metrics,Option_1,Intermediate
+What is confusion matrix?,"Table showing TP, TN, FP, FN",Covariance matrix,Correlation matrix,Distance matrix,Option_1,Intermediate
+What is AUC-ROC?,Area under Receiver Operating Characteristic curve,Accuracy metric,Precision metric,F1-score,Option_1,Advanced
+What is cross-validation?,Evaluating model using multiple data splits,Single split,Random sampling,Bootstrap,Option_1,Intermediate
+What is overfitting?,"Model learning training data too well, poor generalization",Model not learning,Underfitting,Proper fitting,Option_1,Intermediate
+What is underfitting?,Model too simple to capture patterns,Model too complex,Good fit,Overfitting,Option_1,Intermediate
+What is time series?,Sequence of data points ordered by time,Random data,Cross-sectional data,Panel data,Option_1,Intermediate
+What is trend in time series?,Long-term movement in data,Short-term fluctuation,Seasonal pattern,Random noise,Option_1,Intermediate
+What is seasonality?,Recurring pattern at fixed intervals,Trend,Autocorrelation,Stationarity,Option_1,Intermediate
+What is stationarity?,Statistical properties don't change over time,Properties change,Increasing variance,Trend present,Option_1,Advanced
+What is ARIMA?,AutoRegressive Integrated Moving Average model,Regression model,Classification model,Clustering,Option_1,Advanced
+What is forecasting?,Predicting future values in time series,Past prediction,Current analysis,Historical analysis,Option_1,Beginner
+What is neural network?,Computational model inspired by biological neurons,Computer network,Data structure,Algorithm,Option_1,Intermediate
+What is perceptron?,Single-layer neural network for binary classification,Multi-layer network,Deep learning,Regression,Option_1,Intermediate
+What is activation function?,Non-linear function enabling networks to learn complex patterns,Linear function,Loss function,Activation,Option_1,Intermediate
+What is backpropagation?,Algorithm computing gradients for neural networks,Forward pass,Feature extraction,Data preprocessing,Option_1,Advanced
+What is gradient descent?,Iteratively updating parameters to minimize loss,Ascending parameters,Direct solution,Random search,Option_1,Intermediate
+What is CNN (Convolutional Neural Network)?,Neural network for image recognition using convolutions,General neural network,RNN,Transformer,Option_1,Intermediate
+What is RNN (Recurrent Neural Network)?,Neural network processing sequences with feedback,Feed-forward network,CNN,Transformer,Option_1,Intermediate
+What is LSTM?,Long Short-Term Memory for handling long-term dependencies,Simple RNN,GRU,Transformer,Option_1,Advanced
+What is NLP (Natural Language Processing)?,Field enabling computers to understand human language,Programming language,Database language,Markup language,Option_1,Beginner
+What is tokenization?,Breaking text into individual words/tokens,Removing duplicates,Removing stopwords,Stemming,Option_1,Intermediate
+What is stemming?,Reducing words to root form,Word combination,Removing duplicates,Sorting words,Option_1,Intermediate
+What is lemmatization?,Converting words to dictionary base form,Removing characters,Adding affixes,Removing suffixes,Option_1,Intermediate
+What is bag of words?,Representing text as word frequency vectors,Word ordering,Word relationships,Word meanings,Option_1,Intermediate
+What is TF-IDF?,Term Frequency-Inverse Document Frequency weighting,Word frequency,Document frequency,Term weighting,Option_1,Intermediate
+What is word embedding?,Vector representation of words capturing meaning,Word ordering,Character encoding,Byte representation,Option_1,Intermediate
+What is Word2Vec?,Algorithm creating word embeddings using neural networks,Word counting,Text classification,Language model,Option_1,Advanced
+What is matplotlib?,Python library for static 2D visualizations,3D visualization,Interactive plotting,Real-time graphics,Option_1,Beginner
+What is Seaborn?,Statistical data visualization built on matplotlib,Data analysis,Machine learning library,Database,Option_1,Intermediate
+What is Plotly?,Interactive visualization library,Static plots,Data analysis,Machine learning,Option_1,Intermediate
+What is Tableau?,Business intelligence and visualization platform,Python library,Programming language,Database,Option_1,Beginner
+What is Big Data?,Large-scale data requiring distributed processing,Large dataset,Data in files,Database data,Option_1,Intermediate
+What is Apache Spark?,Distributed computing framework for big data processing,Database,Programming language,Web framework,Option_1,Advanced
+What is Hadoop?,Framework for distributed processing of large datasets,Programming language,Database system,Visualization tool,Option_1,Advanced
+What is MapReduce?,Programming model for distributed processing,Database model,Data structure,Algorithm,Option_1,Advanced
+What is SQL?,Language for querying relational databases,Programming language,Data format,Storage system,Option_1,Beginner
+What is NoSQL?,Non-relational database for flexible data structures,SQL database,Relational database,Traditional database,Option_1,Intermediate
+What is MongoDB?,NoSQL document database with JSON-like documents,Relational database,Graph database,Search engine,Option_1,Intermediate
+What is data warehouse?,Centralized repository for integrated data,Database,Data lake,File system,Option_1,Intermediate
+What is data lake?,Repository storing raw data in original form,Data warehouse,Database,Data mart,Option_1,Advanced
+What is data privacy?,Protecting personal data from unauthorized access,Data security,Data protection,Data confidentiality,Option_1,Intermediate
+What is data bias?,Systematic errors in data reflecting prejudices,Random error,Measurement error,Sampling error,Option_1,Intermediate
+What is fairness in data science?,Ensuring models don't discriminate unfairly,Model accuracy,Model performance,Prediction speed,Option_1,Advanced
+What is GDPR?,General Data Protection Regulation for data privacy,Data storage standard,Data format standard,Data security,Option_1,Advanced
+What is Python?,Programming language popular in data science,Database language,Markup language,Styling language,Option_1,Beginner
+What is R?,Programming language for statistical computing,Database language,Web language,Mobile language,Option_1,Intermediate
+What is Jupyter?,"Interactive notebook for code, visualization, documentation",Programming language,Database,Framework,Option_1,Beginner
+What is pandas?,Python library for data manipulation and analysis,Visualization library,Machine learning library,Database,Option_1,Intermediate
+What is NumPy?,Python library for numerical computing with arrays,Data manipulation,Visualization,Machine learning,Option_1,Intermediate
+What is scikit-learn?,Python library for machine learning algorithms,Data visualization,Data preprocessing,Deep learning,Option_1,Intermediate
+What is TensorFlow?,Deep learning framework for neural networks,Machine learning library,Data analysis tool,Visualization,Option_1,Intermediate
+What is PyTorch?,Deep learning framework with dynamic computation graphs,TensorFlow alternative,Data science library,ML toolkit,Option_1,Advanced
+What is t-test?,Statistical test comparing means of two groups,ANOVA test,Chi-square test,Z-test,Option_1,Advanced
+What is ANOVA?,Analysis of Variance comparing means of multiple groups,t-test,Chi-square test,Z-test,Option_1,Advanced
+What is chi-square test?,Test for categorical data independence,Continuous data test,Mean comparison,Variance test,Option_1,Advanced
+What is Bayesian statistics?,Probabilistic approach updating beliefs with evidence,Frequentist approach,Descriptive statistics,Inferential,Option_1,Advanced
+What is model deployment?,Putting trained model into production,Model training,Model evaluation,Model building,Option_1,Intermediate
+What is A/B testing?,Comparing two versions to determine which performs better,Model testing,Unit testing,Integration testing,Option_1,Advanced
+What is model monitoring?,Tracking model performance in production,Model training,Model building,Model evaluation,Option_1,Advanced
+What is model drift?,Change in model performance due to data drift,Model failure,Training error,Deployment issue,Option_1,Advanced
+What is Data Science?,"Extracting insights from data using statistics, ML, programming",Data collection only,Data storage,Data visualization,Option_1,Beginner
+What are the main components of Data Science?,"Data collection, preprocessing, analysis, modeling, visualization",Data storage only,Programming only,Statistics only,Option_1,Beginner
+What is the data science workflow?,"Problem definition, data collection, EDA, modeling, evaluation, deployment",Just modeling,Only visualization,Only prediction,Option_1,Beginner
+What are the roles in data science team?,"Data Engineer, Data Analyst, Data Scientist, ML Engineer",Only programmers,Only statisticians,Only analysts,Option_1,Beginner
+What is the difference between data analyst and data scientist?,"Analyst explores data, Scientist builds predictive models",Same role,Analyst is higher,Scientist is lower,Option_1,Beginner
+What is probability?,Likelihood of event occurring between 0 and 1,Certainty of outcome,Statistical measure,Mathematical concept,Option_1,Beginner
+What is statistics?,"Science of collecting, analyzing, interpreting data",Data collection only,Data storage,Data visualization,Option_1,Beginner
+What is normal distribution?,Bell-shaped probability distribution,Uniform distribution,Skewed distribution,Bimodal distribution,Option_1,Intermediate
+"What is mean, median, and mode?","Mean is average, median is middle value, mode is most frequent",All are same,All are averages,Different names only,Option_1,Beginner
+What is standard deviation?,Measure of data spread from mean,Average value,Range measure,Variance measure,Option_1,Intermediate
+What is correlation?,Statistical relationship between variables,Causation,Covariance,Regression,Option_1,Intermediate
+What is causation?,One variable directly causes another,Statistical relationship,Correlation,Association,Option_1,Intermediate
+What is hypothesis testing?,Statistical method determining if hypothesis is supported,Hypothesis formation,Data collection,Model building,Option_1,Intermediate
+What is p-value?,Probability of observing data assuming null hypothesis,Statistical significance,Test statistic,Confidence level,Option_1,Intermediate
+What is confidence interval?,Range containing true population parameter with confidence,Probability range,Data range,Error range,Option_1,Intermediate
+What is a matrix?,Rectangular array of numbers arranged in rows/columns,Single row of numbers,Single column,Square grid only,Option_1,Intermediate
+What is a vector?,One-dimensional array of numbers,Two-dimensional array,Matrix,Scalar,Option_1,Intermediate
+What is dot product?,Sum of products of corresponding vector elements,Vector addition,Vector multiplication,Vector division,Option_1,Intermediate
+What is eigenvalue and eigenvector?,Vector unchanged in direction when multiplied by matrix,Special vector,Special value,Matrix property,Option_1,Advanced
+What is matrix decomposition?,Breaking matrix into simpler components,Matrix combination,Matrix multiplication,Matrix addition,Option_1,Advanced
+What is data collection?,Gathering data from sources,Data cleaning,Data storage,Data analysis,Option_1,Beginner
+What are data sources?,"Databases, APIs, web scraping, sensors, surveys",Only databases,Only files,Only APIs,Option_1,Intermediate
+What is missing data?,Values absent in dataset,Zero values,Negative values,Outliers,Option_1,Beginner
+What are methods to handle missing data?,"Deletion, imputation, prediction",Ignoring,Replacing with zero,Dropping records,Option_1,Intermediate
+What is data preprocessing?,Cleaning and transforming raw data,Data collection,Data analysis,Data modeling,Option_1,Beginner
+What is data cleaning?,"Removing errors, duplicates, inconsistencies",Data collection,Data storage,Data visualization,Option_1,Beginner
+What is outlier?,Unusual data point significantly different from others,Normal value,Expected value,Average value,Option_1,Intermediate
+What methods detect outliers?,"Z-score, IQR, Isolation Forest, LOF",Mean only,Median only,Visual inspection only,Option_1,Intermediate
+What is data normalization?,Scaling data to standard range,Data cleaning,Data transformation,Data organization,Option_1,Intermediate
+What is data standardization?,"Centering data with mean 0, std dev 1",Normalization,Scaling,Transformation,Option_1,Intermediate
+What is EDA (Exploratory Data Analysis)?,Investigating data to discover patterns and relationships,Data collection,Data modeling,Data prediction,Option_1,Beginner
+What is the purpose of EDA?,"Understand data structure, patterns, anomalies",Build models,Make predictions,Deploy models,Option_1,Intermediate
+What are EDA techniques?,"Descriptive statistics, visualization, correlation analysis",Only statistics,Only visualization,Only correlation,Option_1,Intermediate
+What is data visualization?,Creating visual representations of data,Data collection,Data storage,Data analysis,Option_1,Beginner
+What are common visualization types?,"Histograms, scatter plots, box plots, bar charts, heatmaps",Only bar charts,Only scatter plots,Only histograms,Option_1,Intermediate
+What is histogram?,Plot showing distribution of continuous data,Bar chart,Scatter plot,Line plot,Option_1,Beginner
+What is box plot?,"Plot showing quartiles, median, outliers",Histogram,Scatter plot,Line plot,Option_1,Intermediate
+What is scatter plot?,Plot showing relationship between two variables,Distribution plot,Trend plot,Frequency plot,Option_1,Beginner
+What is heatmap?,Matrix visualization using colors to show values,Color scale,Temperature plot,Geographic map,Option_1,Intermediate
+What is feature engineering?,Creating new features from raw data,Data cleaning,Data collection,Data analysis,Option_1,Intermediate
+What is feature scaling?,Transforming features to comparable scale,Feature selection,Feature creation,Feature extraction,Option_1,Intermediate
+What is feature selection?,Selecting subset of relevant features,Creating features,Scaling features,Extracting features,Option_1,Intermediate
+What are feature selection methods?,"Filter, Wrapper, Embedded methods",Only statistical,Only model-based,Only manual,Option_1,Advanced
+What is dimensionality reduction?,Reducing number of features while preserving information,Feature selection,Feature scaling,Feature extraction,Option_1,Intermediate
+What is PCA (Principal Component Analysis)?,Technique reducing dimensions finding principal components,Clustering method,Classification method,Regression,Option_1,Intermediate
+What is t-SNE?,Non-linear dimensionality reduction for visualization,Linear reduction,Feature selection,Clustering,Option_1,Intermediate
+What is one-hot encoding?,Converting categorical variables to binary vectors,Label encoding,Ordinal encoding,Frequency encoding,Option_1,Intermediate
+What is label encoding?,Converting categorical variables to numerical labels,One-hot encoding,Ordinal encoding,Binary encoding,Option_1,Intermediate
+What is machine learning?,Systems learning from data without explicit programming,Data collection,Data storage,Data visualization,Option_1,Beginner
+What are main ML algorithms?,"Regression, Classification, Clustering, Dimensionality Reduction",Only regression,Only classification,Only clustering,Option_1,Intermediate
+What is supervised learning?,Learning from labeled data with known outputs,Learning without labels,Self-directed learning,Unsupervised learning,Option_1,Beginner
+What is unsupervised learning?,Finding patterns in unlabeled data,Learning with labels,Classification,Prediction,Option_1,Beginner
+What is regression?,Predicting continuous numerical values,Classification,Clustering,Dimensionality reduction,Option_1,Beginner
+What is classification?,Predicting categorical class labels,Predicting numbers,Grouping similar data,Reducing dimensions,Option_1,Beginner
+What is clustering?,Grouping similar data points without labels,Classification,Regression,Dimensionality reduction,Option_1,Beginner
+What is Linear Regression?,Modeling linear relationship between variables,Non-linear relationship,Classification,Clustering,Option_1,Intermediate
+What is Logistic Regression?,Classification algorithm for binary/multi-class,Linear regression,Clustering,Dimensionality reduction,Option_1,Intermediate
+What is Decision Tree?,Tree model making predictions through decisions,Regression line,Clustering algorithm,Dimensionality reduction,Option_1,Intermediate
+What is Random Forest?,Ensemble of decision trees voting on prediction,Single tree,Clustering method,Regression method,Option_1,Intermediate
+What is SVM (Support Vector Machine)?,Classifier finding optimal boundary between classes,Regression model,Clustering algorithm,Feature selector,Option_1,Intermediate
+What is K-Means clustering?,Algorithm partitioning data into K clusters,Hierarchical clustering,Classification algorithm,Regression,Option_1,Intermediate
+What is DBSCAN?,Density-based clustering for arbitrary shapes,K-Means variant,Hierarchical clustering,Classification,Option_1,Advanced
+What is Naive Bayes?,Probabilistic classifier based on Bayes' theorem,Decision tree,Nearest neighbor,Regression,Option_1,Intermediate
+What is K-Nearest Neighbors?,Instance-based classifier finding K nearest neighbors,Centroid-based,Tree-based,Probabilistic,Option_1,Intermediate
+What is model evaluation?,Assessing model performance on test data,Model training,Model building,Model selection,Option_1,Intermediate
+What is accuracy?,Percentage of correct predictions,True positive rate,False positive rate,Precision,Option_1,Beginner
+What is precision?,Proportion of positive predictions that are correct,Recall,Accuracy,F1-score,Option_1,Intermediate
+What is recall?,Proportion of actual positives correctly identified,Precision,Accuracy,Specificity,Option_1,Intermediate
+What is F1-score?,Harmonic mean of precision and recall,Sum of metrics,Product of metrics,Average of metrics,Option_1,Intermediate
+What is confusion matrix?,"Table showing TP, TN, FP, FN",Covariance matrix,Correlation matrix,Distance matrix,Option_1,Intermediate
+What is AUC-ROC?,Area under Receiver Operating Characteristic curve,Accuracy metric,Precision metric,F1-score,Option_1,Advanced
+What is cross-validation?,Evaluating model using multiple data splits,Single split,Random sampling,Bootstrap,Option_1,Intermediate
+What is overfitting?,"Model learning training data too well, poor generalization",Model not learning,Underfitting,Proper fitting,Option_1,Intermediate
+What is underfitting?,Model too simple to capture patterns,Model too complex,Good fit,Overfitting,Option_1,Intermediate
+What is time series?,Sequence of data points ordered by time,Random data,Cross-sectional data,Panel data,Option_1,Intermediate
+What is trend in time series?,Long-term movement in data,Short-term fluctuation,Seasonal pattern,Random noise,Option_1,Intermediate
+What is seasonality?,Recurring pattern at fixed intervals,Trend,Autocorrelation,Stationarity,Option_1,Intermediate
+What is stationarity?,Statistical properties don't change over time,Properties change,Increasing variance,Trend present,Option_1,Advanced
+What is ARIMA?,AutoRegressive Integrated Moving Average model,Regression model,Classification model,Clustering,Option_1,Advanced
+What is forecasting?,Predicting future values in time series,Past prediction,Current analysis,Historical analysis,Option_1,Beginner
+What is neural network?,Computational model inspired by biological neurons,Computer network,Data structure,Algorithm,Option_1,Intermediate
+What is perceptron?,Single-layer neural network for binary classification,Multi-layer network,Deep learning,Regression,Option_1,Intermediate
+What is activation function?,Non-linear function enabling networks to learn complex patterns,Linear function,Loss function,Activation,Option_1,Intermediate
+What is backpropagation?,Algorithm computing gradients for neural networks,Forward pass,Feature extraction,Data preprocessing,Option_1,Advanced
+What is gradient descent?,Iteratively updating parameters to minimize loss,Ascending parameters,Direct solution,Random search,Option_1,Intermediate
+What is CNN (Convolutional Neural Network)?,Neural network for image recognition using convolutions,General neural network,RNN,Transformer,Option_1,Intermediate
+What is RNN (Recurrent Neural Network)?,Neural network processing sequences with feedback,Feed-forward network,CNN,Transformer,Option_1,Intermediate
+What is LSTM?,Long Short-Term Memory for handling long-term dependencies,Simple RNN,GRU,Transformer,Option_1,Advanced
+What is NLP (Natural Language Processing)?,Field enabling computers to understand human language,Programming language,Database language,Markup language,Option_1,Beginner
+What is tokenization?,Breaking text into individual words/tokens,Removing duplicates,Removing stopwords,Stemming,Option_1,Intermediate
+What is stemming?,Reducing words to root form,Word combination,Removing duplicates,Sorting words,Option_1,Intermediate
+What is lemmatization?,Converting words to dictionary base form,Removing characters,Adding affixes,Removing suffixes,Option_1,Intermediate
+What is bag of words?,Representing text as word frequency vectors,Word ordering,Word relationships,Word meanings,Option_1,Intermediate
+What is TF-IDF?,Term Frequency-Inverse Document Frequency weighting,Word frequency,Document frequency,Term weighting,Option_1,Intermediate
+What is word embedding?,Vector representation of words capturing meaning,Word ordering,Character encoding,Byte representation,Option_1,Intermediate
+What is Word2Vec?,Algorithm creating word embeddings using neural networks,Word counting,Text classification,Language model,Option_1,Advanced
+What is matplotlib?,Python library for static 2D visualizations,3D visualization,Interactive plotting,Real-time graphics,Option_1,Beginner
+What is Seaborn?,Statistical data visualization built on matplotlib,Data analysis,Machine learning library,Database,Option_1,Intermediate
+What is Plotly?,Interactive visualization library,Static plots,Data analysis,Machine learning,Option_1,Intermediate
+What is Tableau?,Business intelligence and visualization platform,Python library,Programming language,Database,Option_1,Beginner
+What is Big Data?,Large-scale data requiring distributed processing,Large dataset,Data in files,Database data,Option_1,Intermediate
+What is Apache Spark?,Distributed computing framework for big data processing,Database,Programming language,Web framework,Option_1,Advanced
+What is Hadoop?,Framework for distributed processing of large datasets,Programming language,Database system,Visualization tool,Option_1,Advanced
+What is MapReduce?,Programming model for distributed processing,Database model,Data structure,Algorithm,Option_1,Advanced
+What is SQL?,Language for querying relational databases,Programming language,Data format,Storage system,Option_1,Beginner
+What is NoSQL?,Non-relational database for flexible data structures,SQL database,Relational database,Traditional database,Option_1,Intermediate
+What is MongoDB?,NoSQL document database with JSON-like documents,Relational database,Graph database,Search engine,Option_1,Intermediate
+What is data warehouse?,Centralized repository for integrated data,Database,Data lake,File system,Option_1,Intermediate
+What is data lake?,Repository storing raw data in original form,Data warehouse,Database,Data mart,Option_1,Advanced
+What is data privacy?,Protecting personal data from unauthorized access,Data security,Data protection,Data confidentiality,Option_1,Intermediate
+What is data bias?,Systematic errors in data reflecting prejudices,Random error,Measurement error,Sampling error,Option_1,Intermediate
+What is fairness in data science?,Ensuring models don't discriminate unfairly,Model accuracy,Model performance,Prediction speed,Option_1,Advanced
+What is GDPR?,General Data Protection Regulation for data privacy,Data storage standard,Data format standard,Data security,Option_1,Advanced
+What is Python?,Programming language popular in data science,Database language,Markup language,Styling language,Option_1,Beginner
+What is R?,Programming language for statistical computing,Database language,Web language,Mobile language,Option_1,Intermediate
+What is Jupyter?,"Interactive notebook for code, visualization, documentation",Programming language,Database,Framework,Option_1,Beginner
+What is pandas?,Python library for data manipulation and analysis,Visualization library,Machine learning library,Database,Option_1,Intermediate
+What is NumPy?,Python library for numerical computing with arrays,Data manipulation,Visualization,Machine learning,Option_1,Intermediate
+What is scikit-learn?,Python library for machine learning algorithms,Data visualization,Data preprocessing,Deep learning,Option_1,Intermediate
+What is TensorFlow?,Deep learning framework for neural networks,Machine learning library,Data analysis tool,Visualization,Option_1,Intermediate
+What is PyTorch?,Deep learning framework with dynamic computation graphs,TensorFlow alternative,Data science library,ML toolkit,Option_1,Advanced
+What is t-test?,Statistical test comparing means of two groups,ANOVA test,Chi-square test,Z-test,Option_1,Advanced
+What is ANOVA?,Analysis of Variance comparing means of multiple groups,t-test,Chi-square test,Z-test,Option_1,Advanced
+What is chi-square test?,Test for categorical data independence,Continuous data test,Mean comparison,Variance test,Option_1,Advanced
+What is Bayesian statistics?,Probabilistic approach updating beliefs with evidence,Frequentist approach,Descriptive statistics,Inferential,Option_1,Advanced
+What is model deployment?,Putting trained model into production,Model training,Model evaluation,Model building,Option_1,Intermediate
+What is A/B testing?,Comparing two versions to determine which performs better,Model testing,Unit testing,Integration testing,Option_1,Advanced
+What is model monitoring?,Tracking model performance in production,Model training,Model building,Model evaluation,Option_1,Advanced
+What is model drift?,Change in model performance due to data drift,Model failure,Training error,Deployment issue,Option_1,Advanced
+What is Data Science?,"Extracting insights from data using statistics, ML, programming",Data collection only,Data storage,Data visualization,Option_1,Beginner
+What are the main components of Data Science?,"Data collection, preprocessing, analysis, modeling, visualization",Data storage only,Programming only,Statistics only,Option_1,Beginner
+What is the data science workflow?,"Problem definition, data collection, EDA, modeling, evaluation, deployment",Just modeling,Only visualization,Only prediction,Option_1,Beginner
+What are the roles in data science team?,"Data Engineer, Data Analyst, Data Scientist, ML Engineer",Only programmers,Only statisticians,Only analysts,Option_1,Beginner
+What is the difference between data analyst and data scientist?,"Analyst explores data, Scientist builds predictive models",Same role,Analyst is higher,Scientist is lower,Option_1,Beginner
+What is probability?,Likelihood of event occurring between 0 and 1,Certainty of outcome,Statistical measure,Mathematical concept,Option_1,Beginner
+What is statistics?,"Science of collecting, analyzing, interpreting data",Data collection only,Data storage,Data visualization,Option_1,Beginner
+What is normal distribution?,Bell-shaped probability distribution,Uniform distribution,Skewed distribution,Bimodal distribution,Option_1,Intermediate
+"What is mean, median, and mode?","Mean is average, median is middle value, mode is most frequent",All are same,All are averages,Different names only,Option_1,Beginner
+What is standard deviation?,Measure of data spread from mean,Average value,Range measure,Variance measure,Option_1,Intermediate
+What is correlation?,Statistical relationship between variables,Causation,Covariance,Regression,Option_1,Intermediate
+What is causation?,One variable directly causes another,Statistical relationship,Correlation,Association,Option_1,Intermediate
+What is hypothesis testing?,Statistical method determining if hypothesis is supported,Hypothesis formation,Data collection,Model building,Option_1,Intermediate
+What is p-value?,Probability of observing data assuming null hypothesis,Statistical significance,Test statistic,Confidence level,Option_1,Intermediate
+What is confidence interval?,Range containing true population parameter with confidence,Probability range,Data range,Error range,Option_1,Intermediate
+What is a matrix?,Rectangular array of numbers arranged in rows/columns,Single row of numbers,Single column,Square grid only,Option_1,Intermediate
+What is a vector?,One-dimensional array of numbers,Two-dimensional array,Matrix,Scalar,Option_1,Intermediate
+What is dot product?,Sum of products of corresponding vector elements,Vector addition,Vector multiplication,Vector division,Option_1,Intermediate
+What is eigenvalue and eigenvector?,Vector unchanged in direction when multiplied by matrix,Special vector,Special value,Matrix property,Option_1,Advanced
+What is matrix decomposition?,Breaking matrix into simpler components,Matrix combination,Matrix multiplication,Matrix addition,Option_1,Advanced
+What is data collection?,Gathering data from sources,Data cleaning,Data storage,Data analysis,Option_1,Beginner
+What are data sources?,"Databases, APIs, web scraping, sensors, surveys",Only databases,Only files,Only APIs,Option_1,Intermediate
+What is missing data?,Values absent in dataset,Zero values,Negative values,Outliers,Option_1,Beginner
+What are methods to handle missing data?,"Deletion, imputation, prediction",Ignoring,Replacing with zero,Dropping records,Option_1,Intermediate
+What is data preprocessing?,Cleaning and transforming raw data,Data collection,Data analysis,Data modeling,Option_1,Beginner
+What is data cleaning?,"Removing errors, duplicates, inconsistencies",Data collection,Data storage,Data visualization,Option_1,Beginner
+What is outlier?,Unusual data point significantly different from others,Normal value,Expected value,Average value,Option_1,Intermediate
+What methods detect outliers?,"Z-score, IQR, Isolation Forest, LOF",Mean only,Median only,Visual inspection only,Option_1,Intermediate
+What is data normalization?,Scaling data to standard range,Data cleaning,Data transformation,Data organization,Option_1,Intermediate
+What is data standardization?,"Centering data with mean 0, std dev 1",Normalization,Scaling,Transformation,Option_1,Intermediate
+What is EDA (Exploratory Data Analysis)?,Investigating data to discover patterns and relationships,Data collection,Data modeling,Data prediction,Option_1,Beginner
+What is the purpose of EDA?,"Understand data structure, patterns, anomalies",Build models,Make predictions,Deploy models,Option_1,Intermediate
+What are EDA techniques?,"Descriptive statistics, visualization, correlation analysis",Only statistics,Only visualization,Only correlation,Option_1,Intermediate
+What is data visualization?,Creating visual representations of data,Data collection,Data storage,Data analysis,Option_1,Beginner
+What are common visualization types?,"Histograms, scatter plots, box plots, bar charts, heatmaps",Only bar charts,Only scatter plots,Only histograms,Option_1,Intermediate
+What is histogram?,Plot showing distribution of continuous data,Bar chart,Scatter plot,Line plot,Option_1,Beginner
+What is box plot?,"Plot showing quartiles, median, outliers",Histogram,Scatter plot,Line plot,Option_1,Intermediate
+What is scatter plot?,Plot showing relationship between two variables,Distribution plot,Trend plot,Frequency plot,Option_1,Beginner
+What is heatmap?,Matrix visualization using colors to show values,Color scale,Temperature plot,Geographic map,Option_1,Intermediate
+What is feature engineering?,Creating new features from raw data,Data cleaning,Data collection,Data analysis,Option_1,Intermediate
+What is feature scaling?,Transforming features to comparable scale,Feature selection,Feature creation,Feature extraction,Option_1,Intermediate
+What is feature selection?,Selecting subset of relevant features,Creating features,Scaling features,Extracting features,Option_1,Intermediate
+What are feature selection methods?,"Filter, Wrapper, Embedded methods",Only statistical,Only model-based,Only manual,Option_1,Advanced
+What is dimensionality reduction?,Reducing number of features while preserving information,Feature selection,Feature scaling,Feature extraction,Option_1,Intermediate
+What is PCA (Principal Component Analysis)?,Technique reducing dimensions finding principal components,Clustering method,Classification method,Regression,Option_1,Intermediate
+What is t-SNE?,Non-linear dimensionality reduction for visualization,Linear reduction,Feature selection,Clustering,Option_1,Intermediate
+What is one-hot encoding?,Converting categorical variables to binary vectors,Label encoding,Ordinal encoding,Frequency encoding,Option_1,Intermediate
+What is label encoding?,Converting categorical variables to numerical labels,One-hot encoding,Ordinal encoding,Binary encoding,Option_1,Intermediate
+What is machine learning?,Systems learning from data without explicit programming,Data collection,Data storage,Data visualization,Option_1,Beginner
+What are main ML algorithms?,"Regression, Classification, Clustering, Dimensionality Reduction",Only regression,Only classification,Only clustering,Option_1,Intermediate
+What is supervised learning?,Learning from labeled data with known outputs,Learning without labels,Self-directed learning,Unsupervised learning,Option_1,Beginner
+What is unsupervised learning?,Finding patterns in unlabeled data,Learning with labels,Classification,Prediction,Option_1,Beginner
+What is regression?,Predicting continuous numerical values,Classification,Clustering,Dimensionality reduction,Option_1,Beginner
+What is classification?,Predicting categorical class labels,Predicting numbers,Grouping similar data,Reducing dimensions,Option_1,Beginner
+What is clustering?,Grouping similar data points without labels,Classification,Regression,Dimensionality reduction,Option_1,Beginner
+What is Linear Regression?,Modeling linear relationship between variables,Non-linear relationship,Classification,Clustering,Option_1,Intermediate
+What is Logistic Regression?,Classification algorithm for binary/multi-class,Linear regression,Clustering,Dimensionality reduction,Option_1,Intermediate
+What is Decision Tree?,Tree model making predictions through decisions,Regression line,Clustering algorithm,Dimensionality reduction,Option_1,Intermediate
+What is Random Forest?,Ensemble of decision trees voting on prediction,Single tree,Clustering method,Regression method,Option_1,Intermediate
+What is SVM (Support Vector Machine)?,Classifier finding optimal boundary between classes,Regression model,Clustering algorithm,Feature selector,Option_1,Intermediate
+What is K-Means clustering?,Algorithm partitioning data into K clusters,Hierarchical clustering,Classification algorithm,Regression,Option_1,Intermediate
+What is DBSCAN?,Density-based clustering for arbitrary shapes,K-Means variant,Hierarchical clustering,Classification,Option_1,Advanced
+What is Naive Bayes?,Probabilistic classifier based on Bayes' theorem,Decision tree,Nearest neighbor,Regression,Option_1,Intermediate
+What is K-Nearest Neighbors?,Instance-based classifier finding K nearest neighbors,Centroid-based,Tree-based,Probabilistic,Option_1,Intermediate
+What is model evaluation?,Assessing model performance on test data,Model training,Model building,Model selection,Option_1,Intermediate
+What is accuracy?,Percentage of correct predictions,True positive rate,False positive rate,Precision,Option_1,Beginner
+What is precision?,Proportion of positive predictions that are correct,Recall,Accuracy,F1-score,Option_1,Intermediate
+What is recall?,Proportion of actual positives correctly identified,Precision,Accuracy,Specificity,Option_1,Intermediate
+What is F1-score?,Harmonic mean of precision and recall,Sum of metrics,Product of metrics,Average of metrics,Option_1,Intermediate
+What is confusion matrix?,"Table showing TP, TN, FP, FN",Covariance matrix,Correlation matrix,Distance matrix,Option_1,Intermediate
+What is AUC-ROC?,Area under Receiver Operating Characteristic curve,Accuracy metric,Precision metric,F1-score,Option_1,Advanced
+What is cross-validation?,Evaluating model using multiple data splits,Single split,Random sampling,Bootstrap,Option_1,Intermediate
+What is overfitting?,"Model learning training data too well, poor generalization",Model not learning,Underfitting,Proper fitting,Option_1,Intermediate
+What is underfitting?,Model too simple to capture patterns,Model too complex,Good fit,Overfitting,Option_1,Intermediate
+What is time series?,Sequence of data points ordered by time,Random data,Cross-sectional data,Panel data,Option_1,Intermediate
+What is trend in time series?,Long-term movement in data,Short-term fluctuation,Seasonal pattern,Random noise,Option_1,Intermediate
+What is seasonality?,Recurring pattern at fixed intervals,Trend,Autocorrelation,Stationarity,Option_1,Intermediate
+What is stationarity?,Statistical properties don't change over time,Properties change,Increasing variance,Trend present,Option_1,Advanced
+What is ARIMA?,AutoRegressive Integrated Moving Average model,Regression model,Classification model,Clustering,Option_1,Advanced
+What is forecasting?,Predicting future values in time series,Past prediction,Current analysis,Historical analysis,Option_1,Beginner
+What is neural network?,Computational model inspired by biological neurons,Computer network,Data structure,Algorithm,Option_1,Intermediate
+What is perceptron?,Single-layer neural network for binary classification,Multi-layer network,Deep learning,Regression,Option_1,Intermediate
+What is activation function?,Non-linear function enabling networks to learn complex patterns,Linear function,Loss function,Activation,Option_1,Intermediate
+What is backpropagation?,Algorithm computing gradients for neural networks,Forward pass,Feature extraction,Data preprocessing,Option_1,Advanced
+What is gradient descent?,Iteratively updating parameters to minimize loss,Ascending parameters,Direct solution,Random search,Option_1,Intermediate
+What is CNN (Convolutional Neural Network)?,Neural network for image recognition using convolutions,General neural network,RNN,Transformer,Option_1,Intermediate
+What is RNN (Recurrent Neural Network)?,Neural network processing sequences with feedback,Feed-forward network,CNN,Transformer,Option_1,Intermediate
+What is LSTM?,Long Short-Term Memory for handling long-term dependencies,Simple RNN,GRU,Transformer,Option_1,Advanced
+What is NLP (Natural Language Processing)?,Field enabling computers to understand human language,Programming language,Database language,Markup language,Option_1,Beginner
+What is tokenization?,Breaking text into individual words/tokens,Removing duplicates,Removing stopwords,Stemming,Option_1,Intermediate
+What is stemming?,Reducing words to root form,Word combination,Removing duplicates,Sorting words,Option_1,Intermediate
+What is lemmatization?,Converting words to dictionary base form,Removing characters,Adding affixes,Removing suffixes,Option_1,Intermediate
+What is bag of words?,Representing text as word frequency vectors,Word ordering,Word relationships,Word meanings,Option_1,Intermediate
+What is TF-IDF?,Term Frequency-Inverse Document Frequency weighting,Word frequency,Document frequency,Term weighting,Option_1,Intermediate
+What is word embedding?,Vector representation of words capturing meaning,Word ordering,Character encoding,Byte representation,Option_1,Intermediate
+What is Word2Vec?,Algorithm creating word embeddings using neural networks,Word counting,Text classification,Language model,Option_1,Advanced
+What is matplotlib?,Python library for static 2D visualizations,3D visualization,Interactive plotting,Real-time graphics,Option_1,Beginner
+What is Seaborn?,Statistical data visualization built on matplotlib,Data analysis,Machine learning library,Database,Option_1,Intermediate
+What is Plotly?,Interactive visualization library,Static plots,Data analysis,Machine learning,Option_1,Intermediate
+What is Tableau?,Business intelligence and visualization platform,Python library,Programming language,Database,Option_1,Beginner
+What is Big Data?,Large-scale data requiring distributed processing,Large dataset,Data in files,Database data,Option_1,Intermediate
+What is Apache Spark?,Distributed computing framework for big data processing,Database,Programming language,Web framework,Option_1,Advanced
+What is Hadoop?,Framework for distributed processing of large datasets,Programming language,Database system,Visualization tool,Option_1,Advanced
+What is MapReduce?,Programming model for distributed processing,Database model,Data structure,Algorithm,Option_1,Advanced
+What is SQL?,Language for querying relational databases,Programming language,Data format,Storage system,Option_1,Beginner
+What is NoSQL?,Non-relational database for flexible data structures,SQL database,Relational database,Traditional database,Option_1,Intermediate
+What is MongoDB?,NoSQL document database with JSON-like documents,Relational database,Graph database,Search engine,Option_1,Intermediate
+What is data warehouse?,Centralized repository for integrated data,Database,Data lake,File system,Option_1,Intermediate
+What is data lake?,Repository storing raw data in original form,Data warehouse,Database,Data mart,Option_1,Advanced
+What is data privacy?,Protecting personal data from unauthorized access,Data security,Data protection,Data confidentiality,Option_1,Intermediate
+What is data bias?,Systematic errors in data reflecting prejudices,Random error,Measurement error,Sampling error,Option_1,Intermediate
+What is fairness in data science?,Ensuring models don't discriminate unfairly,Model accuracy,Model performance,Prediction speed,Option_1,Advanced
+What is GDPR?,General Data Protection Regulation for data privacy,Data storage standard,Data format standard,Data security,Option_1,Advanced
+What is Python?,Programming language popular in data science,Database language,Markup language,Styling language,Option_1,Beginner
+What is R?,Programming language for statistical computing,Database language,Web language,Mobile language,Option_1,Intermediate
+What is Jupyter?,"Interactive notebook for code, visualization, documentation",Programming language,Database,Framework,Option_1,Beginner
+What is pandas?,Python library for data manipulation and analysis,Visualization library,Machine learning library,Database,Option_1,Intermediate
+What is NumPy?,Python library for numerical computing with arrays,Data manipulation,Visualization,Machine learning,Option_1,Intermediate
+What is scikit-learn?,Python library for machine learning algorithms,Data visualization,Data preprocessing,Deep learning,Option_1,Intermediate
+What is TensorFlow?,Deep learning framework for neural networks,Machine learning library,Data analysis tool,Visualization,Option_1,Intermediate
+What is PyTorch?,Deep learning framework with dynamic computation graphs,TensorFlow alternative,Data science library,ML toolkit,Option_1,Advanced
+What is t-test?,Statistical test comparing means of two groups,ANOVA test,Chi-square test,Z-test,Option_1,Advanced
+What is ANOVA?,Analysis of Variance comparing means of multiple groups,t-test,Chi-square test,Z-test,Option_1,Advanced
+What is chi-square test?,Test for categorical data independence,Continuous data test,Mean comparison,Variance test,Option_1,Advanced
+What is Bayesian statistics?,Probabilistic approach updating beliefs with evidence,Frequentist approach,Descriptive statistics,Inferential,Option_1,Advanced
+What is model deployment?,Putting trained model into production,Model training,Model evaluation,Model building,Option_1,Intermediate
+What is A/B testing?,Comparing two versions to determine which performs better,Model testing,Unit testing,Integration testing,Option_1,Advanced
+What is model monitoring?,Tracking model performance in production,Model training,Model building,Model evaluation,Option_1,Advanced
+What is model drift?,Change in model performance due to data drift,Model failure,Training error,Deployment issue,Option_1,Advanced
+What is Data Science?,"Extracting insights from data using statistics, ML, programming",Data collection only,Data storage,Data visualization,Option_1,Beginner
+What are the main components of Data Science?,"Data collection, preprocessing, analysis, modeling, visualization",Data storage only,Programming only,Statistics only,Option_1,Beginner
+What is the data science workflow?,"Problem definition, data collection, EDA, modeling, evaluation, deployment",Just modeling,Only visualization,Only prediction,Option_1,Beginner
+What are the roles in data science team?,"Data Engineer, Data Analyst, Data Scientist, ML Engineer",Only programmers,Only statisticians,Only analysts,Option_1,Beginner
+What is the difference between data analyst and data scientist?,"Analyst explores data, Scientist builds predictive models",Same role,Analyst is higher,Scientist is lower,Option_1,Beginner
+What is probability?,Likelihood of event occurring between 0 and 1,Certainty of outcome,Statistical measure,Mathematical concept,Option_1,Beginner
+What is statistics?,"Science of collecting, analyzing, interpreting data",Data collection only,Data storage,Data visualization,Option_1,Beginner
+What is normal distribution?,Bell-shaped probability distribution,Uniform distribution,Skewed distribution,Bimodal distribution,Option_1,Intermediate
+"What is mean, median, and mode?","Mean is average, median is middle value, mode is most frequent",All are same,All are averages,Different names only,Option_1,Beginner
+What is standard deviation?,Measure of data spread from mean,Average value,Range measure,Variance measure,Option_1,Intermediate
+What is correlation?,Statistical relationship between variables,Causation,Covariance,Regression,Option_1,Intermediate
+What is causation?,One variable directly causes another,Statistical relationship,Correlation,Association,Option_1,Intermediate
+What is hypothesis testing?,Statistical method determining if hypothesis is supported,Hypothesis formation,Data collection,Model building,Option_1,Intermediate
+What is p-value?,Probability of observing data assuming null hypothesis,Statistical significance,Test statistic,Confidence level,Option_1,Intermediate
+What is confidence interval?,Range containing true population parameter with confidence,Probability range,Data range,Error range,Option_1,Intermediate
+What is a matrix?,Rectangular array of numbers arranged in rows/columns,Single row of numbers,Single column,Square grid only,Option_1,Intermediate
+What is a vector?,One-dimensional array of numbers,Two-dimensional array,Matrix,Scalar,Option_1,Intermediate
+What is dot product?,Sum of products of corresponding vector elements,Vector addition,Vector multiplication,Vector division,Option_1,Intermediate
+What is eigenvalue and eigenvector?,Vector unchanged in direction when multiplied by matrix,Special vector,Special value,Matrix property,Option_1,Advanced
+What is matrix decomposition?,Breaking matrix into simpler components,Matrix combination,Matrix multiplication,Matrix addition,Option_1,Advanced
+What is data collection?,Gathering data from sources,Data cleaning,Data storage,Data analysis,Option_1,Beginner
+What are data sources?,"Databases, APIs, web scraping, sensors, surveys",Only databases,Only files,Only APIs,Option_1,Intermediate
+What is missing data?,Values absent in dataset,Zero values,Negative values,Outliers,Option_1,Beginner
+What are methods to handle missing data?,"Deletion, imputation, prediction",Ignoring,Replacing with zero,Dropping records,Option_1,Intermediate
+What is data preprocessing?,Cleaning and transforming raw data,Data collection,Data analysis,Data modeling,Option_1,Beginner
+What is data cleaning?,"Removing errors, duplicates, inconsistencies",Data collection,Data storage,Data visualization,Option_1,Beginner
+What is outlier?,Unusual data point significantly different from others,Normal value,Expected value,Average value,Option_1,Intermediate
+What methods detect outliers?,"Z-score, IQR, Isolation Forest, LOF",Mean only,Median only,Visual inspection only,Option_1,Intermediate
+What is data normalization?,Scaling data to standard range,Data cleaning,Data transformation,Data organization,Option_1,Intermediate
+What is data standardization?,"Centering data with mean 0, std dev 1",Normalization,Scaling,Transformation,Option_1,Intermediate
+What is EDA (Exploratory Data Analysis)?,Investigating data to discover patterns and relationships,Data collection,Data modeling,Data prediction,Option_1,Beginner
+What is the purpose of EDA?,"Understand data structure, patterns, anomalies",Build models,Make predictions,Deploy models,Option_1,Intermediate
+What are EDA techniques?,"Descriptive statistics, visualization, correlation analysis",Only statistics,Only visualization,Only correlation,Option_1,Intermediate
+What is data visualization?,Creating visual representations of data,Data collection,Data storage,Data analysis,Option_1,Beginner
+What are common visualization types?,"Histograms, scatter plots, box plots, bar charts, heatmaps",Only bar charts,Only scatter plots,Only histograms,Option_1,Intermediate
+What is histogram?,Plot showing distribution of continuous data,Bar chart,Scatter plot,Line plot,Option_1,Beginner
+What is box plot?,"Plot showing quartiles, median, outliers",Histogram,Scatter plot,Line plot,Option_1,Intermediate
+What is scatter plot?,Plot showing relationship between two variables,Distribution plot,Trend plot,Frequency plot,Option_1,Beginner
+What is heatmap?,Matrix visualization using colors to show values,Color scale,Temperature plot,Geographic map,Option_1,Intermediate
+What is feature engineering?,Creating new features from raw data,Data cleaning,Data collection,Data analysis,Option_1,Intermediate
+What is feature scaling?,Transforming features to comparable scale,Feature selection,Feature creation,Feature extraction,Option_1,Intermediate
+What is feature selection?,Selecting subset of relevant features,Creating features,Scaling features,Extracting features,Option_1,Intermediate
+What are feature selection methods?,"Filter, Wrapper, Embedded methods",Only statistical,Only model-based,Only manual,Option_1,Advanced
+What is dimensionality reduction?,Reducing number of features while preserving information,Feature selection,Feature scaling,Feature extraction,Option_1,Intermediate
+What is PCA (Principal Component Analysis)?,Technique reducing dimensions finding principal components,Clustering method,Classification method,Regression,Option_1,Intermediate
+What is t-SNE?,Non-linear dimensionality reduction for visualization,Linear reduction,Feature selection,Clustering,Option_1,Intermediate
+What is one-hot encoding?,Converting categorical variables to binary vectors,Label encoding,Ordinal encoding,Frequency encoding,Option_1,Intermediate
+What is label encoding?,Converting categorical variables to numerical labels,One-hot encoding,Ordinal encoding,Binary encoding,Option_1,Intermediate
+What is machine learning?,Systems learning from data without explicit programming,Data collection,Data storage,Data visualization,Option_1,Beginner
+What are main ML algorithms?,"Regression, Classification, Clustering, Dimensionality Reduction",Only regression,Only classification,Only clustering,Option_1,Intermediate
+What is supervised learning?,Learning from labeled data with known outputs,Learning without labels,Self-directed learning,Unsupervised learning,Option_1,Beginner
+What is unsupervised learning?,Finding patterns in unlabeled data,Learning with labels,Classification,Prediction,Option_1,Beginner
+What is regression?,Predicting continuous numerical values,Classification,Clustering,Dimensionality reduction,Option_1,Beginner
+What is classification?,Predicting categorical class labels,Predicting numbers,Grouping similar data,Reducing dimensions,Option_1,Beginner
+What is clustering?,Grouping similar data points without labels,Classification,Regression,Dimensionality reduction,Option_1,Beginner
+What is Linear Regression?,Modeling linear relationship between variables,Non-linear relationship,Classification,Clustering,Option_1,Intermediate
+What is Logistic Regression?,Classification algorithm for binary/multi-class,Linear regression,Clustering,Dimensionality reduction,Option_1,Intermediate
+What is Decision Tree?,Tree model making predictions through decisions,Regression line,Clustering algorithm,Dimensionality reduction,Option_1,Intermediate
+What is Random Forest?,Ensemble of decision trees voting on prediction,Single tree,Clustering method,Regression method,Option_1,Intermediate
+What is SVM (Support Vector Machine)?,Classifier finding optimal boundary between classes,Regression model,Clustering algorithm,Feature selector,Option_1,Intermediate
+What is K-Means clustering?,Algorithm partitioning data into K clusters,Hierarchical clustering,Classification algorithm,Regression,Option_1,Intermediate
+What is DBSCAN?,Density-based clustering for arbitrary shapes,K-Means variant,Hierarchical clustering,Classification,Option_1,Advanced
+What is Naive Bayes?,Probabilistic classifier based on Bayes' theorem,Decision tree,Nearest neighbor,Regression,Option_1,Intermediate
+What is K-Nearest Neighbors?,Instance-based classifier finding K nearest neighbors,Centroid-based,Tree-based,Probabilistic,Option_1,Intermediate
+What is model evaluation?,Assessing model performance on test data,Model training,Model building,Model selection,Option_1,Intermediate
+What is accuracy?,Percentage of correct predictions,True positive rate,False positive rate,Precision,Option_1,Beginner
+What is precision?,Proportion of positive predictions that are correct,Recall,Accuracy,F1-score,Option_1,Intermediate
+What is recall?,Proportion of actual positives correctly identified,Precision,Accuracy,Specificity,Option_1,Intermediate
+What is F1-score?,Harmonic mean of precision and recall,Sum of metrics,Product of metrics,Average of metrics,Option_1,Intermediate
+What is confusion matrix?,"Table showing TP, TN, FP, FN",Covariance matrix,Correlation matrix,Distance matrix,Option_1,Intermediate
+What is AUC-ROC?,Area under Receiver Operating Characteristic curve,Accuracy metric,Precision metric,F1-score,Option_1,Advanced
+What is cross-validation?,Evaluating model using multiple data splits,Single split,Random sampling,Bootstrap,Option_1,Intermediate
+What is overfitting?,"Model learning training data too well, poor generalization",Model not learning,Underfitting,Proper fitting,Option_1,Intermediate
+What is underfitting?,Model too simple to capture patterns,Model too complex,Good fit,Overfitting,Option_1,Intermediate
+What is time series?,Sequence of data points ordered by time,Random data,Cross-sectional data,Panel data,Option_1,Intermediate
+What is trend in time series?,Long-term movement in data,Short-term fluctuation,Seasonal pattern,Random noise,Option_1,Intermediate
+What is seasonality?,Recurring pattern at fixed intervals,Trend,Autocorrelation,Stationarity,Option_1,Intermediate
+What is stationarity?,Statistical properties don't change over time,Properties change,Increasing variance,Trend present,Option_1,Advanced
+What is ARIMA?,AutoRegressive Integrated Moving Average model,Regression model,Classification model,Clustering,Option_1,Advanced
+What is forecasting?,Predicting future values in time series,Past prediction,Current analysis,Historical analysis,Option_1,Beginner
+What is neural network?,Computational model inspired by biological neurons,Computer network,Data structure,Algorithm,Option_1,Intermediate
+What is perceptron?,Single-layer neural network for binary classification,Multi-layer network,Deep learning,Regression,Option_1,Intermediate
+What is activation function?,Non-linear function enabling networks to learn complex patterns,Linear function,Loss function,Activation,Option_1,Intermediate
+What is backpropagation?,Algorithm computing gradients for neural networks,Forward pass,Feature extraction,Data preprocessing,Option_1,Advanced
+What is gradient descent?,Iteratively updating parameters to minimize loss,Ascending parameters,Direct solution,Random search,Option_1,Intermediate
+What is CNN (Convolutional Neural Network)?,Neural network for image recognition using convolutions,General neural network,RNN,Transformer,Option_1,Intermediate
+What is RNN (Recurrent Neural Network)?,Neural network processing sequences with feedback,Feed-forward network,CNN,Transformer,Option_1,Intermediate
+What is LSTM?,Long Short-Term Memory for handling long-term dependencies,Simple RNN,GRU,Transformer,Option_1,Advanced
+What is NLP (Natural Language Processing)?,Field enabling computers to understand human language,Programming language,Database language,Markup language,Option_1,Beginner
+What is tokenization?,Breaking text into individual words/tokens,Removing duplicates,Removing stopwords,Stemming,Option_1,Intermediate
+What is stemming?,Reducing words to root form,Word combination,Removing duplicates,Sorting words,Option_1,Intermediate
+What is lemmatization?,Converting words to dictionary base form,Removing characters,Adding affixes,Removing suffixes,Option_1,Intermediate
+What is bag of words?,Representing text as word frequency vectors,Word ordering,Word relationships,Word meanings,Option_1,Intermediate
+What is TF-IDF?,Term Frequency-Inverse Document Frequency weighting,Word frequency,Document frequency,Term weighting,Option_1,Intermediate
+What is word embedding?,Vector representation of words capturing meaning,Word ordering,Character encoding,Byte representation,Option_1,Intermediate
+What is Word2Vec?,Algorithm creating word embeddings using neural networks,Word counting,Text classification,Language model,Option_1,Advanced
+What is matplotlib?,Python library for static 2D visualizations,3D visualization,Interactive plotting,Real-time graphics,Option_1,Beginner
+What is Seaborn?,Statistical data visualization built on matplotlib,Data analysis,Machine learning library,Database,Option_1,Intermediate
+What is Plotly?,Interactive visualization library,Static plots,Data analysis,Machine learning,Option_1,Intermediate
+What is Tableau?,Business intelligence and visualization platform,Python library,Programming language,Database,Option_1,Beginner
+What is Big Data?,Large-scale data requiring distributed processing,Large dataset,Data in files,Database data,Option_1,Intermediate
+What is Apache Spark?,Distributed computing framework for big data processing,Database,Programming language,Web framework,Option_1,Advanced
+What is Hadoop?,Framework for distributed processing of large datasets,Programming language,Database system,Visualization tool,Option_1,Advanced
+What is MapReduce?,Programming model for distributed processing,Database model,Data structure,Algorithm,Option_1,Advanced
+What is SQL?,Language for querying relational databases,Programming language,Data format,Storage system,Option_1,Beginner
+What is NoSQL?,Non-relational database for flexible data structures,SQL database,Relational database,Traditional database,Option_1,Intermediate
+What is MongoDB?,NoSQL document database with JSON-like documents,Relational database,Graph database,Search engine,Option_1,Intermediate
+What is data warehouse?,Centralized repository for integrated data,Database,Data lake,File system,Option_1,Intermediate
+What is data lake?,Repository storing raw data in original form,Data warehouse,Database,Data mart,Option_1,Advanced
+What is data privacy?,Protecting personal data from unauthorized access,Data security,Data protection,Data confidentiality,Option_1,Intermediate
+What is data bias?,Systematic errors in data reflecting prejudices,Random error,Measurement error,Sampling error,Option_1,Intermediate
+What is fairness in data science?,Ensuring models don't discriminate unfairly,Model accuracy,Model performance,Prediction speed,Option_1,Advanced
+What is GDPR?,General Data Protection Regulation for data privacy,Data storage standard,Data format standard,Data security,Option_1,Advanced
+What is Python?,Programming language popular in data science,Database language,Markup language,Styling language,Option_1,Beginner
+What is R?,Programming language for statistical computing,Database language,Web language,Mobile language,Option_1,Intermediate
+What is Jupyter?,"Interactive notebook for code, visualization, documentation",Programming language,Database,Framework,Option_1,Beginner
+What is pandas?,Python library for data manipulation and analysis,Visualization library,Machine learning library,Database,Option_1,Intermediate
+What is NumPy?,Python library for numerical computing with arrays,Data manipulation,Visualization,Machine learning,Option_1,Intermediate
+What is scikit-learn?,Python library for machine learning algorithms,Data visualization,Data preprocessing,Deep learning,Option_1,Intermediate
+What is TensorFlow?,Deep learning framework for neural networks,Machine learning library,Data analysis tool,Visualization,Option_1,Intermediate
+What is PyTorch?,Deep learning framework with dynamic computation graphs,TensorFlow alternative,Data science library,ML toolkit,Option_1,Advanced
+What is t-test?,Statistical test comparing means of two groups,ANOVA test,Chi-square test,Z-test,Option_1,Advanced
+What is ANOVA?,Analysis of Variance comparing means of multiple groups,t-test,Chi-square test,Z-test,Option_1,Advanced
+What is chi-square test?,Test for categorical data independence,Continuous data test,Mean comparison,Variance test,Option_1,Advanced
+What is Bayesian statistics?,Probabilistic approach updating beliefs with evidence,Frequentist approach,Descriptive statistics,Inferential,Option_1,Advanced
+What is model deployment?,Putting trained model into production,Model training,Model evaluation,Model building,Option_1,Intermediate
+What is A/B testing?,Comparing two versions to determine which performs better,Model testing,Unit testing,Integration testing,Option_1,Advanced
+What is model monitoring?,Tracking model performance in production,Model training,Model building,Model evaluation,Option_1,Advanced
+What is model drift?,Change in model performance due to data drift,Model failure,Training error,Deployment issue,Option_1,Advanced
+What is Data Science?,"Extracting insights from data using statistics, ML, programming",Data collection only,Data storage,Data visualization,Option_1,Beginner
+What are the main components of Data Science?,"Data collection, preprocessing, analysis, modeling, visualization",Data storage only,Programming only,Statistics only,Option_1,Beginner
+What is the data science workflow?,"Problem definition, data collection, EDA, modeling, evaluation, deployment",Just modeling,Only visualization,Only prediction,Option_1,Beginner
+What are the roles in data science team?,"Data Engineer, Data Analyst, Data Scientist, ML Engineer",Only programmers,Only statisticians,Only analysts,Option_1,Beginner
+What is the difference between data analyst and data scientist?,"Analyst explores data, Scientist builds predictive models",Same role,Analyst is higher,Scientist is lower,Option_1,Beginner
+What is probability?,Likelihood of event occurring between 0 and 1,Certainty of outcome,Statistical measure,Mathematical concept,Option_1,Beginner
+What is statistics?,"Science of collecting, analyzing, interpreting data",Data collection only,Data storage,Data visualization,Option_1,Beginner
+What is normal distribution?,Bell-shaped probability distribution,Uniform distribution,Skewed distribution,Bimodal distribution,Option_1,Intermediate
+"What is mean, median, and mode?","Mean is average, median is middle value, mode is most frequent",All are same,All are averages,Different names only,Option_1,Beginner
+What is standard deviation?,Measure of data spread from mean,Average value,Range measure,Variance measure,Option_1,Intermediate
+What is correlation?,Statistical relationship between variables,Causation,Covariance,Regression,Option_1,Intermediate
+What is causation?,One variable directly causes another,Statistical relationship,Correlation,Association,Option_1,Intermediate
+What is hypothesis testing?,Statistical method determining if hypothesis is supported,Hypothesis formation,Data collection,Model building,Option_1,Intermediate
+What is p-value?,Probability of observing data assuming null hypothesis,Statistical significance,Test statistic,Confidence level,Option_1,Intermediate
+What is confidence interval?,Range containing true population parameter with confidence,Probability range,Data range,Error range,Option_1,Intermediate
+What is a matrix?,Rectangular array of numbers arranged in rows/columns,Single row of numbers,Single column,Square grid only,Option_1,Intermediate
+What is a vector?,One-dimensional array of numbers,Two-dimensional array,Matrix,Scalar,Option_1,Intermediate
+What is dot product?,Sum of products of corresponding vector elements,Vector addition,Vector multiplication,Vector division,Option_1,Intermediate
+What is eigenvalue and eigenvector?,Vector unchanged in direction when multiplied by matrix,Special vector,Special value,Matrix property,Option_1,Advanced
+What is matrix decomposition?,Breaking matrix into simpler components,Matrix combination,Matrix multiplication,Matrix addition,Option_1,Advanced
+What is data collection?,Gathering data from sources,Data cleaning,Data storage,Data analysis,Option_1,Beginner
+What are data sources?,"Databases, APIs, web scraping, sensors, surveys",Only databases,Only files,Only APIs,Option_1,Intermediate
+What is missing data?,Values absent in dataset,Zero values,Negative values,Outliers,Option_1,Beginner
+What are methods to handle missing data?,"Deletion, imputation, prediction",Ignoring,Replacing with zero,Dropping records,Option_1,Intermediate
+What is data preprocessing?,Cleaning and transforming raw data,Data collection,Data analysis,Data modeling,Option_1,Beginner
+What is data cleaning?,"Removing errors, duplicates, inconsistencies",Data collection,Data storage,Data visualization,Option_1,Beginner
+What is outlier?,Unusual data point significantly different from others,Normal value,Expected value,Average value,Option_1,Intermediate
+What methods detect outliers?,"Z-score, IQR, Isolation Forest, LOF",Mean only,Median only,Visual inspection only,Option_1,Intermediate
+What is data normalization?,Scaling data to standard range,Data cleaning,Data transformation,Data organization,Option_1,Intermediate
+What is data standardization?,"Centering data with mean 0, std dev 1",Normalization,Scaling,Transformation,Option_1,Intermediate
+What is EDA (Exploratory Data Analysis)?,Investigating data to discover patterns and relationships,Data collection,Data modeling,Data prediction,Option_1,Beginner
+What is the purpose of EDA?,"Understand data structure, patterns, anomalies",Build models,Make predictions,Deploy models,Option_1,Intermediate
+What are EDA techniques?,"Descriptive statistics, visualization, correlation analysis",Only statistics,Only visualization,Only correlation,Option_1,Intermediate
+What is data visualization?,Creating visual representations of data,Data collection,Data storage,Data analysis,Option_1,Beginner
+What are common visualization types?,"Histograms, scatter plots, box plots, bar charts, heatmaps",Only bar charts,Only scatter plots,Only histograms,Option_1,Intermediate
+What is histogram?,Plot showing distribution of continuous data,Bar chart,Scatter plot,Line plot,Option_1,Beginner
+What is box plot?,"Plot showing quartiles, median, outliers",Histogram,Scatter plot,Line plot,Option_1,Intermediate
+What is scatter plot?,Plot showing relationship between two variables,Distribution plot,Trend plot,Frequency plot,Option_1,Beginner
+What is heatmap?,Matrix visualization using colors to show values,Color scale,Temperature plot,Geographic map,Option_1,Intermediate
+What is feature engineering?,Creating new features from raw data,Data cleaning,Data collection,Data analysis,Option_1,Intermediate
+What is feature scaling?,Transforming features to comparable scale,Feature selection,Feature creation,Feature extraction,Option_1,Intermediate
+What is feature selection?,Selecting subset of relevant features,Creating features,Scaling features,Extracting features,Option_1,Intermediate
+What are feature selection methods?,"Filter, Wrapper, Embedded methods",Only statistical,Only model-based,Only manual,Option_1,Advanced
+What is dimensionality reduction?,Reducing number of features while preserving information,Feature selection,Feature scaling,Feature extraction,Option_1,Intermediate
+What is PCA (Principal Component Analysis)?,Technique reducing dimensions finding principal components,Clustering method,Classification method,Regression,Option_1,Intermediate
+What is t-SNE?,Non-linear dimensionality reduction for visualization,Linear reduction,Feature selection,Clustering,Option_1,Intermediate
+What is one-hot encoding?,Converting categorical variables to binary vectors,Label encoding,Ordinal encoding,Frequency encoding,Option_1,Intermediate
+What is label encoding?,Converting categorical variables to numerical labels,One-hot encoding,Ordinal encoding,Binary encoding,Option_1,Intermediate
+What is machine learning?,Systems learning from data without explicit programming,Data collection,Data storage,Data visualization,Option_1,Beginner
+What are main ML algorithms?,"Regression, Classification, Clustering, Dimensionality Reduction",Only regression,Only classification,Only clustering,Option_1,Intermediate
+What is supervised learning?,Learning from labeled data with known outputs,Learning without labels,Self-directed learning,Unsupervised learning,Option_1,Beginner
+What is unsupervised learning?,Finding patterns in unlabeled data,Learning with labels,Classification,Prediction,Option_1,Beginner
+What is regression?,Predicting continuous numerical values,Classification,Clustering,Dimensionality reduction,Option_1,Beginner
+What is classification?,Predicting categorical class labels,Predicting numbers,Grouping similar data,Reducing dimensions,Option_1,Beginner
+What is clustering?,Grouping similar data points without labels,Classification,Regression,Dimensionality reduction,Option_1,Beginner
+What is Linear Regression?,Modeling linear relationship between variables,Non-linear relationship,Classification,Clustering,Option_1,Intermediate
+What is Logistic Regression?,Classification algorithm for binary/multi-class,Linear regression,Clustering,Dimensionality reduction,Option_1,Intermediate
+What is Decision Tree?,Tree model making predictions through decisions,Regression line,Clustering algorithm,Dimensionality reduction,Option_1,Intermediate
+What is Random Forest?,Ensemble of decision trees voting on prediction,Single tree,Clustering method,Regression method,Option_1,Intermediate
+What is SVM (Support Vector Machine)?,Classifier finding optimal boundary between classes,Regression model,Clustering algorithm,Feature selector,Option_1,Intermediate
+What is K-Means clustering?,Algorithm partitioning data into K clusters,Hierarchical clustering,Classification algorithm,Regression,Option_1,Intermediate
+What is DBSCAN?,Density-based clustering for arbitrary shapes,K-Means variant,Hierarchical clustering,Classification,Option_1,Advanced
+What is Naive Bayes?,Probabilistic classifier based on Bayes' theorem,Decision tree,Nearest neighbor,Regression,Option_1,Intermediate
+What is K-Nearest Neighbors?,Instance-based classifier finding K nearest neighbors,Centroid-based,Tree-based,Probabilistic,Option_1,Intermediate
+What is model evaluation?,Assessing model performance on test data,Model training,Model building,Model selection,Option_1,Intermediate
+What is accuracy?,Percentage of correct predictions,True positive rate,False positive rate,Precision,Option_1,Beginner
+What is precision?,Proportion of positive predictions that are correct,Recall,Accuracy,F1-score,Option_1,Intermediate
+What is recall?,Proportion of actual positives correctly identified,Precision,Accuracy,Specificity,Option_1,Intermediate
+What is F1-score?,Harmonic mean of precision and recall,Sum of metrics,Product of metrics,Average of metrics,Option_1,Intermediate
+What is confusion matrix?,"Table showing TP, TN, FP, FN",Covariance matrix,Correlation matrix,Distance matrix,Option_1,Intermediate
+What is AUC-ROC?,Area under Receiver Operating Characteristic curve,Accuracy metric,Precision metric,F1-score,Option_1,Advanced
+What is cross-validation?,Evaluating model using multiple data splits,Single split,Random sampling,Bootstrap,Option_1,Intermediate
+What is overfitting?,"Model learning training data too well, poor generalization",Model not learning,Underfitting,Proper fitting,Option_1,Intermediate
+What is underfitting?,Model too simple to capture patterns,Model too complex,Good fit,Overfitting,Option_1,Intermediate
+What is time series?,Sequence of data points ordered by time,Random data,Cross-sectional data,Panel data,Option_1,Intermediate
+What is trend in time series?,Long-term movement in data,Short-term fluctuation,Seasonal pattern,Random noise,Option_1,Intermediate
+What is seasonality?,Recurring pattern at fixed intervals,Trend,Autocorrelation,Stationarity,Option_1,Intermediate
+What is stationarity?,Statistical properties don't change over time,Properties change,Increasing variance,Trend present,Option_1,Advanced
+What is ARIMA?,AutoRegressive Integrated Moving Average model,Regression model,Classification model,Clustering,Option_1,Advanced
+What is forecasting?,Predicting future values in time series,Past prediction,Current analysis,Historical analysis,Option_1,Beginner
+What is neural network?,Computational model inspired by biological neurons,Computer network,Data structure,Algorithm,Option_1,Intermediate
+What is perceptron?,Single-layer neural network for binary classification,Multi-layer network,Deep learning,Regression,Option_1,Intermediate
+What is activation function?,Non-linear function enabling networks to learn complex patterns,Linear function,Loss function,Activation,Option_1,Intermediate
+What is backpropagation?,Algorithm computing gradients for neural networks,Forward pass,Feature extraction,Data preprocessing,Option_1,Advanced
+What is gradient descent?,Iteratively updating parameters to minimize loss,Ascending parameters,Direct solution,Random search,Option_1,Intermediate
+What is CNN (Convolutional Neural Network)?,Neural network for image recognition using convolutions,General neural network,RNN,Transformer,Option_1,Intermediate
+What is RNN (Recurrent Neural Network)?,Neural network processing sequences with feedback,Feed-forward network,CNN,Transformer,Option_1,Intermediate
+What is LSTM?,Long Short-Term Memory for handling long-term dependencies,Simple RNN,GRU,Transformer,Option_1,Advanced
+What is NLP (Natural Language Processing)?,Field enabling computers to understand human language,Programming language,Database language,Markup language,Option_1,Beginner
+What is tokenization?,Breaking text into individual words/tokens,Removing duplicates,Removing stopwords,Stemming,Option_1,Intermediate
+What is stemming?,Reducing words to root form,Word combination,Removing duplicates,Sorting words,Option_1,Intermediate
+What is lemmatization?,Converting words to dictionary base form,Removing characters,Adding affixes,Removing suffixes,Option_1,Intermediate
+What is bag of words?,Representing text as word frequency vectors,Word ordering,Word relationships,Word meanings,Option_1,Intermediate
+What is TF-IDF?,Term Frequency-Inverse Document Frequency weighting,Word frequency,Document frequency,Term weighting,Option_1,Intermediate
+What is word embedding?,Vector representation of words capturing meaning,Word ordering,Character encoding,Byte representation,Option_1,Intermediate
+What is Word2Vec?,Algorithm creating word embeddings using neural networks,Word counting,Text classification,Language model,Option_1,Advanced
+What is matplotlib?,Python library for static 2D visualizations,3D visualization,Interactive plotting,Real-time graphics,Option_1,Beginner
+What is Seaborn?,Statistical data visualization built on matplotlib,Data analysis,Machine learning library,Database,Option_1,Intermediate
+What is Plotly?,Interactive visualization library,Static plots,Data analysis,Machine learning,Option_1,Intermediate
+What is Tableau?,Business intelligence and visualization platform,Python library,Programming language,Database,Option_1,Beginner
+What is Big Data?,Large-scale data requiring distributed processing,Large dataset,Data in files,Database data,Option_1,Intermediate
+What is Apache Spark?,Distributed computing framework for big data processing,Database,Programming language,Web framework,Option_1,Advanced
+What is Hadoop?,Framework for distributed processing of large datasets,Programming language,Database system,Visualization tool,Option_1,Advanced
+What is MapReduce?,Programming model for distributed processing,Database model,Data structure,Algorithm,Option_1,Advanced
+What is SQL?,Language for querying relational databases,Programming language,Data format,Storage system,Option_1,Beginner
+What is NoSQL?,Non-relational database for flexible data structures,SQL database,Relational database,Traditional database,Option_1,Intermediate
+What is MongoDB?,NoSQL document database with JSON-like documents,Relational database,Graph database,Search engine,Option_1,Intermediate
+What is data warehouse?,Centralized repository for integrated data,Database,Data lake,File system,Option_1,Intermediate
+What is data lake?,Repository storing raw data in original form,Data warehouse,Database,Data mart,Option_1,Advanced
+What is data privacy?,Protecting personal data from unauthorized access,Data security,Data protection,Data confidentiality,Option_1,Intermediate
+What is data bias?,Systematic errors in data reflecting prejudices,Random error,Measurement error,Sampling error,Option_1,Intermediate
+What is fairness in data science?,Ensuring models don't discriminate unfairly,Model accuracy,Model performance,Prediction speed,Option_1,Advanced
+What is GDPR?,General Data Protection Regulation for data privacy,Data storage standard,Data format standard,Data security,Option_1,Advanced
+What is Python?,Programming language popular in data science,Database language,Markup language,Styling language,Option_1,Beginner
+What is R?,Programming language for statistical computing,Database language,Web language,Mobile language,Option_1,Intermediate
+What is Jupyter?,"Interactive notebook for code, visualization, documentation",Programming language,Database,Framework,Option_1,Beginner
+What is pandas?,Python library for data manipulation and analysis,Visualization library,Machine learning library,Database,Option_1,Intermediate
+What is NumPy?,Python library for numerical computing with arrays,Data manipulation,Visualization,Machine learning,Option_1,Intermediate
+What is scikit-learn?,Python library for machine learning algorithms,Data visualization,Data preprocessing,Deep learning,Option_1,Intermediate
+What is TensorFlow?,Deep learning framework for neural networks,Machine learning library,Data analysis tool,Visualization,Option_1,Intermediate
+What is PyTorch?,Deep learning framework with dynamic computation graphs,TensorFlow alternative,Data science library,ML toolkit,Option_1,Advanced
+What is t-test?,Statistical test comparing means of two groups,ANOVA test,Chi-square test,Z-test,Option_1,Advanced
+What is ANOVA?,Analysis of Variance comparing means of multiple groups,t-test,Chi-square test,Z-test,Option_1,Advanced
+What is chi-square test?,Test for categorical data independence,Continuous data test,Mean comparison,Variance test,Option_1,Advanced
+What is Bayesian statistics?,Probabilistic approach updating beliefs with evidence,Frequentist approach,Descriptive statistics,Inferential,Option_1,Advanced
+What is model deployment?,Putting trained model into production,Model training,Model evaluation,Model building,Option_1,Intermediate
+What is A/B testing?,Comparing two versions to determine which performs better,Model testing,Unit testing,Integration testing,Option_1,Advanced
+What is model monitoring?,Tracking model performance in production,Model training,Model building,Model evaluation,Option_1,Advanced
+What is model drift?,Change in model performance due to data drift,Model failure,Training error,Deployment issue,Option_1,Advanced
+What is Data Science?,"Extracting insights from data using statistics, ML, programming",Data collection only,Data storage,Data visualization,Option_1,Beginner
+What are the main components of Data Science?,"Data collection, preprocessing, analysis, modeling, visualization",Data storage only,Programming only,Statistics only,Option_1,Beginner
+What is the data science workflow?,"Problem definition, data collection, EDA, modeling, evaluation, deployment",Just modeling,Only visualization,Only prediction,Option_1,Beginner
+What are the roles in data science team?,"Data Engineer, Data Analyst, Data Scientist, ML Engineer",Only programmers,Only statisticians,Only analysts,Option_1,Beginner
+What is the difference between data analyst and data scientist?,"Analyst explores data, Scientist builds predictive models",Same role,Analyst is higher,Scientist is lower,Option_1,Beginner
+What is probability?,Likelihood of event occurring between 0 and 1,Certainty of outcome,Statistical measure,Mathematical concept,Option_1,Beginner
+What is statistics?,"Science of collecting, analyzing, interpreting data",Data collection only,Data storage,Data visualization,Option_1,Beginner
+What is normal distribution?,Bell-shaped probability distribution,Uniform distribution,Skewed distribution,Bimodal distribution,Option_1,Intermediate
+"What is mean, median, and mode?","Mean is average, median is middle value, mode is most frequent",All are same,All are averages,Different names only,Option_1,Beginner
+What is standard deviation?,Measure of data spread from mean,Average value,Range measure,Variance measure,Option_1,Intermediate
+What is correlation?,Statistical relationship between variables,Causation,Covariance,Regression,Option_1,Intermediate
+What is causation?,One variable directly causes another,Statistical relationship,Correlation,Association,Option_1,Intermediate
+What is hypothesis testing?,Statistical method determining if hypothesis is supported,Hypothesis formation,Data collection,Model building,Option_1,Intermediate
+What is p-value?,Probability of observing data assuming null hypothesis,Statistical significance,Test statistic,Confidence level,Option_1,Intermediate
+What is confidence interval?,Range containing true population parameter with confidence,Probability range,Data range,Error range,Option_1,Intermediate
+What is a matrix?,Rectangular array of numbers arranged in rows/columns,Single row of numbers,Single column,Square grid only,Option_1,Intermediate
+What is a vector?,One-dimensional array of numbers,Two-dimensional array,Matrix,Scalar,Option_1,Intermediate
+What is dot product?,Sum of products of corresponding vector elements,Vector addition,Vector multiplication,Vector division,Option_1,Intermediate
+What is eigenvalue and eigenvector?,Vector unchanged in direction when multiplied by matrix,Special vector,Special value,Matrix property,Option_1,Advanced
+What is matrix decomposition?,Breaking matrix into simpler components,Matrix combination,Matrix multiplication,Matrix addition,Option_1,Advanced
+What is data collection?,Gathering data from sources,Data cleaning,Data storage,Data analysis,Option_1,Beginner
+What are data sources?,"Databases, APIs, web scraping, sensors, surveys",Only databases,Only files,Only APIs,Option_1,Intermediate
+What is missing data?,Values absent in dataset,Zero values,Negative values,Outliers,Option_1,Beginner
+What are methods to handle missing data?,"Deletion, imputation, prediction",Ignoring,Replacing with zero,Dropping records,Option_1,Intermediate
+What is data preprocessing?,Cleaning and transforming raw data,Data collection,Data analysis,Data modeling,Option_1,Beginner
+What is data cleaning?,"Removing errors, duplicates, inconsistencies",Data collection,Data storage,Data visualization,Option_1,Beginner
+What is outlier?,Unusual data point significantly different from others,Normal value,Expected value,Average value,Option_1,Intermediate
+What methods detect outliers?,"Z-score, IQR, Isolation Forest, LOF",Mean only,Median only,Visual inspection only,Option_1,Intermediate
+What is data normalization?,Scaling data to standard range,Data cleaning,Data transformation,Data organization,Option_1,Intermediate
+What is data standardization?,"Centering data with mean 0, std dev 1",Normalization,Scaling,Transformation,Option_1,Intermediate
+What is EDA (Exploratory Data Analysis)?,Investigating data to discover patterns and relationships,Data collection,Data modeling,Data prediction,Option_1,Beginner
+What is the purpose of EDA?,"Understand data structure, patterns, anomalies",Build models,Make predictions,Deploy models,Option_1,Intermediate
+What are EDA techniques?,"Descriptive statistics, visualization, correlation analysis",Only statistics,Only visualization,Only correlation,Option_1,Intermediate
+What is data visualization?,Creating visual representations of data,Data collection,Data storage,Data analysis,Option_1,Beginner
+What are common visualization types?,"Histograms, scatter plots, box plots, bar charts, heatmaps",Only bar charts,Only scatter plots,Only histograms,Option_1,Intermediate
+What is histogram?,Plot showing distribution of continuous data,Bar chart,Scatter plot,Line plot,Option_1,Beginner
+What is box plot?,"Plot showing quartiles, median, outliers",Histogram,Scatter plot,Line plot,Option_1,Intermediate
+What is scatter plot?,Plot showing relationship between two variables,Distribution plot,Trend plot,Frequency plot,Option_1,Beginner
+What is heatmap?,Matrix visualization using colors to show values,Color scale,Temperature plot,Geographic map,Option_1,Intermediate
+What is feature engineering?,Creating new features from raw data,Data cleaning,Data collection,Data analysis,Option_1,Intermediate
+What is feature scaling?,Transforming features to comparable scale,Feature selection,Feature creation,Feature extraction,Option_1,Intermediate
+What is feature selection?,Selecting subset of relevant features,Creating features,Scaling features,Extracting features,Option_1,Intermediate
+What are feature selection methods?,"Filter, Wrapper, Embedded methods",Only statistical,Only model-based,Only manual,Option_1,Advanced
+What is dimensionality reduction?,Reducing number of features while preserving information,Feature selection,Feature scaling,Feature extraction,Option_1,Intermediate
+What is PCA (Principal Component Analysis)?,Technique reducing dimensions finding principal components,Clustering method,Classification method,Regression,Option_1,Intermediate
+What is t-SNE?,Non-linear dimensionality reduction for visualization,Linear reduction,Feature selection,Clustering,Option_1,Intermediate
+What is one-hot encoding?,Converting categorical variables to binary vectors,Label encoding,Ordinal encoding,Frequency encoding,Option_1,Intermediate
+What is label encoding?,Converting categorical variables to numerical labels,One-hot encoding,Ordinal encoding,Binary encoding,Option_1,Intermediate
+What is machine learning?,Systems learning from data without explicit programming,Data collection,Data storage,Data visualization,Option_1,Beginner
+What are main ML algorithms?,"Regression, Classification, Clustering, Dimensionality Reduction",Only regression,Only classification,Only clustering,Option_1,Intermediate
+What is supervised learning?,Learning from labeled data with known outputs,Learning without labels,Self-directed learning,Unsupervised learning,Option_1,Beginner
+What is unsupervised learning?,Finding patterns in unlabeled data,Learning with labels,Classification,Prediction,Option_1,Beginner
+What is regression?,Predicting continuous numerical values,Classification,Clustering,Dimensionality reduction,Option_1,Beginner
+What is classification?,Predicting categorical class labels,Predicting numbers,Grouping similar data,Reducing dimensions,Option_1,Beginner
+What is clustering?,Grouping similar data points without labels,Classification,Regression,Dimensionality reduction,Option_1,Beginner
+What is Linear Regression?,Modeling linear relationship between variables,Non-linear relationship,Classification,Clustering,Option_1,Intermediate
+What is Logistic Regression?,Classification algorithm for binary/multi-class,Linear regression,Clustering,Dimensionality reduction,Option_1,Intermediate
+What is Decision Tree?,Tree model making predictions through decisions,Regression line,Clustering algorithm,Dimensionality reduction,Option_1,Intermediate
+What is Random Forest?,Ensemble of decision trees voting on prediction,Single tree,Clustering method,Regression method,Option_1,Intermediate
+What is SVM (Support Vector Machine)?,Classifier finding optimal boundary between classes,Regression model,Clustering algorithm,Feature selector,Option_1,Intermediate
+What is K-Means clustering?,Algorithm partitioning data into K clusters,Hierarchical clustering,Classification algorithm,Regression,Option_1,Intermediate
+What is DBSCAN?,Density-based clustering for arbitrary shapes,K-Means variant,Hierarchical clustering,Classification,Option_1,Advanced
+What is Naive Bayes?,Probabilistic classifier based on Bayes' theorem,Decision tree,Nearest neighbor,Regression,Option_1,Intermediate
+What is K-Nearest Neighbors?,Instance-based classifier finding K nearest neighbors,Centroid-based,Tree-based,Probabilistic,Option_1,Intermediate
+What is model evaluation?,Assessing model performance on test data,Model training,Model building,Model selection,Option_1,Intermediate
+What is accuracy?,Percentage of correct predictions,True positive rate,False positive rate,Precision,Option_1,Beginner
+What is precision?,Proportion of positive predictions that are correct,Recall,Accuracy,F1-score,Option_1,Intermediate
+What is recall?,Proportion of actual positives correctly identified,Precision,Accuracy,Specificity,Option_1,Intermediate
+What is F1-score?,Harmonic mean of precision and recall,Sum of metrics,Product of metrics,Average of metrics,Option_1,Intermediate
+What is confusion matrix?,"Table showing TP, TN, FP, FN",Covariance matrix,Correlation matrix,Distance matrix,Option_1,Intermediate
+What is AUC-ROC?,Area under Receiver Operating Characteristic curve,Accuracy metric,Precision metric,F1-score,Option_1,Advanced
+What is cross-validation?,Evaluating model using multiple data splits,Single split,Random sampling,Bootstrap,Option_1,Intermediate
+What is overfitting?,"Model learning training data too well, poor generalization",Model not learning,Underfitting,Proper fitting,Option_1,Intermediate
+What is underfitting?,Model too simple to capture patterns,Model too complex,Good fit,Overfitting,Option_1,Intermediate
+What is time series?,Sequence of data points ordered by time,Random data,Cross-sectional data,Panel data,Option_1,Intermediate
+What is trend in time series?,Long-term movement in data,Short-term fluctuation,Seasonal pattern,Random noise,Option_1,Intermediate
+What is seasonality?,Recurring pattern at fixed intervals,Trend,Autocorrelation,Stationarity,Option_1,Intermediate
+What is stationarity?,Statistical properties don't change over time,Properties change,Increasing variance,Trend present,Option_1,Advanced
+What is ARIMA?,AutoRegressive Integrated Moving Average model,Regression model,Classification model,Clustering,Option_1,Advanced
+What is forecasting?,Predicting future values in time series,Past prediction,Current analysis,Historical analysis,Option_1,Beginner
+What is neural network?,Computational model inspired by biological neurons,Computer network,Data structure,Algorithm,Option_1,Intermediate
+What is perceptron?,Single-layer neural network for binary classification,Multi-layer network,Deep learning,Regression,Option_1,Intermediate
+What is activation function?,Non-linear function enabling networks to learn complex patterns,Linear function,Loss function,Activation,Option_1,Intermediate
+What is backpropagation?,Algorithm computing gradients for neural networks,Forward pass,Feature extraction,Data preprocessing,Option_1,Advanced
+What is gradient descent?,Iteratively updating parameters to minimize loss,Ascending parameters,Direct solution,Random search,Option_1,Intermediate
+What is CNN (Convolutional Neural Network)?,Neural network for image recognition using convolutions,General neural network,RNN,Transformer,Option_1,Intermediate
+What is RNN (Recurrent Neural Network)?,Neural network processing sequences with feedback,Feed-forward network,CNN,Transformer,Option_1,Intermediate
+What is LSTM?,Long Short-Term Memory for handling long-term dependencies,Simple RNN,GRU,Transformer,Option_1,Advanced
+What is NLP (Natural Language Processing)?,Field enabling computers to understand human language,Programming language,Database language,Markup language,Option_1,Beginner
+What is tokenization?,Breaking text into individual words/tokens,Removing duplicates,Removing stopwords,Stemming,Option_1,Intermediate
+What is stemming?,Reducing words to root form,Word combination,Removing duplicates,Sorting words,Option_1,Intermediate
+What is lemmatization?,Converting words to dictionary base form,Removing characters,Adding affixes,Removing suffixes,Option_1,Intermediate
+What is bag of words?,Representing text as word frequency vectors,Word ordering,Word relationships,Word meanings,Option_1,Intermediate
+What is TF-IDF?,Term Frequency-Inverse Document Frequency weighting,Word frequency,Document frequency,Term weighting,Option_1,Intermediate
+What is word embedding?,Vector representation of words capturing meaning,Word ordering,Character encoding,Byte representation,Option_1,Intermediate
+What is Word2Vec?,Algorithm creating word embeddings using neural networks,Word counting,Text classification,Language model,Option_1,Advanced
+What is matplotlib?,Python library for static 2D visualizations,3D visualization,Interactive plotting,Real-time graphics,Option_1,Beginner

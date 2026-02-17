@@ -1,0 +1,1001 @@
+Question_ID,Question,Option_A,Option_B,Option_C,Option_D,Correct_Option,Topic,Difficulty
+1,What is the time complexity of accessing an element in an array by index?,O(n),O(log n),O(1),O(n²),C,Array,Beginner
+2,Which operation is most efficient in an array?,Insertion at beginning,Deletion from middle,Searching an element,Random access,D,Linked List,Beginner
+3,What is the space complexity of an array of size n?,O(1),O(log n),O(n),O(n²),C,Stack,Beginner
+4,What is the time complexity of inserting an element at the beginning of a singly linked list?,O(1),O(n),O(log n),O(n²),A,Queue,Beginner
+5,"In a doubly linked list, each node contains how many pointers?",1,2,3,4,B,Sorting,Beginner
+6,Time complexity of searching in an unsorted linked list is:,O(1),O(log n),O(n),O(n²),C,Searching,Beginner
+7,Which data structure follows LIFO principle?,Queue,Stack,Tree,Graph,B,Tree,Beginner
+8,What is the time complexity of push and pop operations in a stack?,O(n),O(log n),O(1),O(n²),C,BST,Beginner
+9,In which application is stack NOT used?,Function call management,Expression evaluation,BFS traversal,Undo/Redo functionality,C,AVL Tree,Beginner
+10,Which data structure follows FIFO principle?,Stack,Queue,Deque,Heap,B,Heap,Beginner
+11,What is the time complexity of enqueue and dequeue in a simple queue?,O(n),O(1),O(log n),O(n²),B,Graph,Beginner
+12,A circular queue is better than a simple queue because:,It uses less memory,It avoids the wastage of space,It is faster,It requires less code,B,Graph Traversal,Beginner
+13,What is the average time complexity of Quick Sort?,O(n),O(n log n),O(n²),O(2^n),B,Shortest Path,Intermediate
+14,Which sorting algorithm is stable?,Quick Sort,Heap Sort,Merge Sort,Selection Sort,C,MST,Intermediate
+15,Merge Sort has a time complexity of:,O(n),O(n log n),O(n²),O(n³),B,Hash Table,Intermediate
+16,Bubble Sort is efficient for which case?,Already sorted data,Reverse sorted data,Random data,Large datasets,A,Dynamic Programming,Intermediate
+17,What is the space complexity of Quick Sort?,O(1),O(log n),O(n),O(n²),B,Backtracking,Intermediate
+18,Binary Search works on which type of array?,Unsorted,Sorted,Partially sorted,None of above,B,String Algorithms,Intermediate
+19,Time complexity of Binary Search is:,O(n),O(log n),O(n log n),O(n²),B,Greedy,Intermediate
+20,Linear Search has a time complexity of:,O(1),O(log n),O(n),O(n²),C,Divide and Conquer,Intermediate
+21,What is a binary tree?,Tree with max 2 children,Tree with exactly 2 children,Tree with 3 children,Tree with 4 children,A,Array,Intermediate
+22,Height of a tree with single node is:,0,1,2,-1,A,Linked List,Intermediate
+23,What is the maximum number of nodes in a binary tree of height h?,2^h - 1,2^(h+1) - 1,2^h,h²,B,Stack,Intermediate
+24,"In a BST, for any node, left child is:",Greater than parent,Less than parent,Equal to parent,Any value,B,Queue,Intermediate
+25,Time complexity of searching in a balanced BST is:,O(1),O(log n),O(n),O(n²),B,Sorting,Intermediate
+26,Inorder traversal of a BST gives:,Sorted array,Reverse sorted array,Random order,Heap order,A,Searching,Intermediate
+27,AVL tree is a:,Unbalanced BST,Self-balancing BST,Complete tree,Perfect tree,B,Tree,Intermediate
+28,Balance factor in AVL tree is defined as:,Left height - Right height,Right height - Left height,Left height + Right height,Left height / Right height,A,BST,Intermediate
+29,Height of an AVL tree with n nodes is:,O(n),O(log n),O(n log n),O(n²),B,AVL Tree,Intermediate
+30,"In a min heap, the smallest element is at:",Leaf,Root,Middle,Random,B,Heap,Intermediate
+31,Time complexity of insertion in a heap is:,O(1),O(log n),O(n),O(n²),B,Graph,Advanced
+32,Heap sort time complexity is:,O(n),O(n log n),O(n²),O(2^n),B,Graph Traversal,Advanced
+33,Adjacency matrix representation requires space of:,O(V),O(E),O(V²),O(V + E),C,Shortest Path,Advanced
+34,Adjacency list representation requires space of:,O(V),O(V²),O(E),O(V + E),D,MST,Advanced
+35,DFS uses which data structure?,Queue,Stack,Deque,Heap,B,Hash Table,Advanced
+36,BFS uses which data structure?,Stack,Queue,Priority Queue,Deque,B,Dynamic Programming,Advanced
+37,Time complexity of DFS and BFS is:,O(n),O(V + E),O(V²),O(E log V),B,Backtracking,Advanced
+38,Dijkstra's algorithm is used for:,Negative weights,Positive weights,Unweighted graphs,None,B,String Algorithms,Advanced
+39,Bellman-Ford can handle:,Only positive weights,Negative weights,Negative cycles,All graphs,B,Greedy,Advanced
+40,Floyd-Warshall finds:,Shortest path between two nodes,All pairs shortest path,Minimum spanning tree,Topological sort,B,Divide and Conquer,Advanced
+41,Kruskal's algorithm uses which approach?,Dynamic Programming,Greedy,Divide and Conquer,Backtracking,B,Array,Advanced
+42,Prim's algorithm starts from:,A random vertex,A specific vertex,The minimum edge,None,B,Linked List,Advanced
+43,Time complexity of Kruskal's algorithm is:,O(E log E),O(V log V),O(V + E),O(V²),A,Stack,Advanced
+44,Hash table provides average time complexity of:,O(log n),O(n),O(1),O(n²),C,Queue,Advanced
+45,Collision resolution technique is:,Linear Probing,Chaining,Double Hashing,All of above,D,Sorting,Advanced
+46,DP is used when a problem has:,Overlapping subproblems,Optimal substructure,Both,Neither,C,Searching,Advanced
+47,Memoization is:,Top-down approach,Bottom-up approach,Recursive approach,Iterative approach,A,Tree,Advanced
+48,Tabulation is:,Top-down DP,Bottom-up DP,Recursive,None,B,BST,Advanced
+49,Backtracking is used for:,N-Queens problem,Sudoku solver,Maze solving,All,D,AVL Tree,Advanced
+50,Time complexity of backtracking can be:,O(n),O(n!),O(2^n),All of above,D,Heap,Advanced
+51,KMP algorithm is used for:,Pattern matching,Sorting,Searching,Hashing,A,Graph,Advanced
+52,Time complexity of KMP is:,O(n + m),O(n * m),O(n log m),O(m log n),A,Graph Traversal,Advanced
+53,Rabin-Karp uses which concept?,Hashing,Sorting,Trees,Graphs,A,Shortest Path,Advanced
+54,Greedy algorithms work when problem has:,Optimal substructure,Greedy choice property,Both,Neither,C,MST,Advanced
+55,Activity selection uses:,Greedy,DP,Backtracking,Divide and Conquer,A,Hash Table,Advanced
+56,Merge Sort uses:,Greedy,DP,Divide and Conquer,Backtracking,C,Dynamic Programming,Advanced
+57,Binary Search uses:,Greedy,DP,Divide and Conquer,Backtracking,C,Backtracking,Advanced
+58,Topological sorting is for:,Directed Acyclic Graph,Undirected graph,Weighted graph,Complete graph,A,String Algorithms,Advanced
+59,Strongly Connected Components are found using:,DFS,BFS,Dijkstra,Prim's,A,Greedy,Advanced
+60,What is the time complexity of accessing an element in an array by index?,O(n),O(log n),O(1),O(n²),C,Array,Beginner
+61,Which operation is most efficient in an array?,Insertion at beginning,Deletion from middle,Searching an element,Random access,D,Linked List,Beginner
+62,What is the space complexity of an array of size n?,O(1),O(log n),O(n),O(n²),C,Stack,Beginner
+63,What is the time complexity of inserting an element at the beginning of a singly linked list?,O(1),O(n),O(log n),O(n²),A,Queue,Beginner
+64,"In a doubly linked list, each node contains how many pointers?",1,2,3,4,B,Sorting,Beginner
+65,Time complexity of searching in an unsorted linked list is:,O(1),O(log n),O(n),O(n²),C,Searching,Beginner
+66,Which data structure follows LIFO principle?,Queue,Stack,Tree,Graph,B,Tree,Beginner
+67,What is the time complexity of push and pop operations in a stack?,O(n),O(log n),O(1),O(n²),C,BST,Beginner
+68,In which application is stack NOT used?,Function call management,Expression evaluation,BFS traversal,Undo/Redo functionality,C,AVL Tree,Beginner
+69,Which data structure follows FIFO principle?,Stack,Queue,Deque,Heap,B,Heap,Beginner
+70,What is the time complexity of enqueue and dequeue in a simple queue?,O(n),O(1),O(log n),O(n²),B,Graph,Beginner
+71,A circular queue is better than a simple queue because:,It uses less memory,It avoids the wastage of space,It is faster,It requires less code,B,Graph Traversal,Beginner
+72,What is the average time complexity of Quick Sort?,O(n),O(n log n),O(n²),O(2^n),B,Shortest Path,Intermediate
+73,Which sorting algorithm is stable?,Quick Sort,Heap Sort,Merge Sort,Selection Sort,C,MST,Intermediate
+74,Merge Sort has a time complexity of:,O(n),O(n log n),O(n²),O(n³),B,Hash Table,Intermediate
+75,Bubble Sort is efficient for which case?,Already sorted data,Reverse sorted data,Random data,Large datasets,A,Dynamic Programming,Intermediate
+76,What is the space complexity of Quick Sort?,O(1),O(log n),O(n),O(n²),B,Backtracking,Intermediate
+77,Binary Search works on which type of array?,Unsorted,Sorted,Partially sorted,None of above,B,String Algorithms,Intermediate
+78,Time complexity of Binary Search is:,O(n),O(log n),O(n log n),O(n²),B,Greedy,Intermediate
+79,Linear Search has a time complexity of:,O(1),O(log n),O(n),O(n²),C,Divide and Conquer,Intermediate
+80,What is a binary tree?,Tree with max 2 children,Tree with exactly 2 children,Tree with 3 children,Tree with 4 children,A,Array,Intermediate
+81,Height of a tree with single node is:,0,1,2,-1,A,Linked List,Intermediate
+82,What is the maximum number of nodes in a binary tree of height h?,2^h - 1,2^(h+1) - 1,2^h,h²,B,Stack,Intermediate
+83,"In a BST, for any node, left child is:",Greater than parent,Less than parent,Equal to parent,Any value,B,Queue,Intermediate
+84,Time complexity of searching in a balanced BST is:,O(1),O(log n),O(n),O(n²),B,Sorting,Intermediate
+85,Inorder traversal of a BST gives:,Sorted array,Reverse sorted array,Random order,Heap order,A,Searching,Intermediate
+86,AVL tree is a:,Unbalanced BST,Self-balancing BST,Complete tree,Perfect tree,B,Tree,Intermediate
+87,Balance factor in AVL tree is defined as:,Left height - Right height,Right height - Left height,Left height + Right height,Left height / Right height,A,BST,Intermediate
+88,Height of an AVL tree with n nodes is:,O(n),O(log n),O(n log n),O(n²),B,AVL Tree,Intermediate
+89,"In a min heap, the smallest element is at:",Leaf,Root,Middle,Random,B,Heap,Intermediate
+90,Time complexity of insertion in a heap is:,O(1),O(log n),O(n),O(n²),B,Graph,Advanced
+91,Heap sort time complexity is:,O(n),O(n log n),O(n²),O(2^n),B,Graph Traversal,Advanced
+92,Adjacency matrix representation requires space of:,O(V),O(E),O(V²),O(V + E),C,Shortest Path,Advanced
+93,Adjacency list representation requires space of:,O(V),O(V²),O(E),O(V + E),D,MST,Advanced
+94,DFS uses which data structure?,Queue,Stack,Deque,Heap,B,Hash Table,Advanced
+95,BFS uses which data structure?,Stack,Queue,Priority Queue,Deque,B,Dynamic Programming,Advanced
+96,Time complexity of DFS and BFS is:,O(n),O(V + E),O(V²),O(E log V),B,Backtracking,Advanced
+97,Dijkstra's algorithm is used for:,Negative weights,Positive weights,Unweighted graphs,None,B,String Algorithms,Advanced
+98,Bellman-Ford can handle:,Only positive weights,Negative weights,Negative cycles,All graphs,B,Greedy,Advanced
+99,Floyd-Warshall finds:,Shortest path between two nodes,All pairs shortest path,Minimum spanning tree,Topological sort,B,Divide and Conquer,Advanced
+100,Kruskal's algorithm uses which approach?,Dynamic Programming,Greedy,Divide and Conquer,Backtracking,B,Array,Advanced
+101,Prim's algorithm starts from:,A random vertex,A specific vertex,The minimum edge,None,B,Linked List,Advanced
+102,Time complexity of Kruskal's algorithm is:,O(E log E),O(V log V),O(V + E),O(V²),A,Stack,Advanced
+103,Hash table provides average time complexity of:,O(log n),O(n),O(1),O(n²),C,Queue,Advanced
+104,Collision resolution technique is:,Linear Probing,Chaining,Double Hashing,All of above,D,Sorting,Advanced
+105,DP is used when a problem has:,Overlapping subproblems,Optimal substructure,Both,Neither,C,Searching,Advanced
+106,Memoization is:,Top-down approach,Bottom-up approach,Recursive approach,Iterative approach,A,Tree,Advanced
+107,Tabulation is:,Top-down DP,Bottom-up DP,Recursive,None,B,BST,Advanced
+108,Backtracking is used for:,N-Queens problem,Sudoku solver,Maze solving,All,D,AVL Tree,Advanced
+109,Time complexity of backtracking can be:,O(n),O(n!),O(2^n),All of above,D,Heap,Advanced
+110,KMP algorithm is used for:,Pattern matching,Sorting,Searching,Hashing,A,Graph,Advanced
+111,Time complexity of KMP is:,O(n + m),O(n * m),O(n log m),O(m log n),A,Graph Traversal,Advanced
+112,Rabin-Karp uses which concept?,Hashing,Sorting,Trees,Graphs,A,Shortest Path,Advanced
+113,Greedy algorithms work when problem has:,Optimal substructure,Greedy choice property,Both,Neither,C,MST,Advanced
+114,Activity selection uses:,Greedy,DP,Backtracking,Divide and Conquer,A,Hash Table,Advanced
+115,Merge Sort uses:,Greedy,DP,Divide and Conquer,Backtracking,C,Dynamic Programming,Advanced
+116,Binary Search uses:,Greedy,DP,Divide and Conquer,Backtracking,C,Backtracking,Advanced
+117,Topological sorting is for:,Directed Acyclic Graph,Undirected graph,Weighted graph,Complete graph,A,String Algorithms,Advanced
+118,Strongly Connected Components are found using:,DFS,BFS,Dijkstra,Prim's,A,Greedy,Advanced
+119,What is the time complexity of accessing an element in an array by index?,O(n),O(log n),O(1),O(n²),C,Array,Beginner
+120,Which operation is most efficient in an array?,Insertion at beginning,Deletion from middle,Searching an element,Random access,D,Linked List,Beginner
+121,What is the space complexity of an array of size n?,O(1),O(log n),O(n),O(n²),C,Stack,Beginner
+122,What is the time complexity of inserting an element at the beginning of a singly linked list?,O(1),O(n),O(log n),O(n²),A,Queue,Beginner
+123,"In a doubly linked list, each node contains how many pointers?",1,2,3,4,B,Sorting,Beginner
+124,Time complexity of searching in an unsorted linked list is:,O(1),O(log n),O(n),O(n²),C,Searching,Beginner
+125,Which data structure follows LIFO principle?,Queue,Stack,Tree,Graph,B,Tree,Beginner
+126,What is the time complexity of push and pop operations in a stack?,O(n),O(log n),O(1),O(n²),C,BST,Beginner
+127,In which application is stack NOT used?,Function call management,Expression evaluation,BFS traversal,Undo/Redo functionality,C,AVL Tree,Beginner
+128,Which data structure follows FIFO principle?,Stack,Queue,Deque,Heap,B,Heap,Beginner
+129,What is the time complexity of enqueue and dequeue in a simple queue?,O(n),O(1),O(log n),O(n²),B,Graph,Beginner
+130,A circular queue is better than a simple queue because:,It uses less memory,It avoids the wastage of space,It is faster,It requires less code,B,Graph Traversal,Beginner
+131,What is the average time complexity of Quick Sort?,O(n),O(n log n),O(n²),O(2^n),B,Shortest Path,Intermediate
+132,Which sorting algorithm is stable?,Quick Sort,Heap Sort,Merge Sort,Selection Sort,C,MST,Intermediate
+133,Merge Sort has a time complexity of:,O(n),O(n log n),O(n²),O(n³),B,Hash Table,Intermediate
+134,Bubble Sort is efficient for which case?,Already sorted data,Reverse sorted data,Random data,Large datasets,A,Dynamic Programming,Intermediate
+135,What is the space complexity of Quick Sort?,O(1),O(log n),O(n),O(n²),B,Backtracking,Intermediate
+136,Binary Search works on which type of array?,Unsorted,Sorted,Partially sorted,None of above,B,String Algorithms,Intermediate
+137,Time complexity of Binary Search is:,O(n),O(log n),O(n log n),O(n²),B,Greedy,Intermediate
+138,Linear Search has a time complexity of:,O(1),O(log n),O(n),O(n²),C,Divide and Conquer,Intermediate
+139,What is a binary tree?,Tree with max 2 children,Tree with exactly 2 children,Tree with 3 children,Tree with 4 children,A,Array,Intermediate
+140,Height of a tree with single node is:,0,1,2,-1,A,Linked List,Intermediate
+141,What is the maximum number of nodes in a binary tree of height h?,2^h - 1,2^(h+1) - 1,2^h,h²,B,Stack,Intermediate
+142,"In a BST, for any node, left child is:",Greater than parent,Less than parent,Equal to parent,Any value,B,Queue,Intermediate
+143,Time complexity of searching in a balanced BST is:,O(1),O(log n),O(n),O(n²),B,Sorting,Intermediate
+144,Inorder traversal of a BST gives:,Sorted array,Reverse sorted array,Random order,Heap order,A,Searching,Intermediate
+145,AVL tree is a:,Unbalanced BST,Self-balancing BST,Complete tree,Perfect tree,B,Tree,Intermediate
+146,Balance factor in AVL tree is defined as:,Left height - Right height,Right height - Left height,Left height + Right height,Left height / Right height,A,BST,Intermediate
+147,Height of an AVL tree with n nodes is:,O(n),O(log n),O(n log n),O(n²),B,AVL Tree,Intermediate
+148,"In a min heap, the smallest element is at:",Leaf,Root,Middle,Random,B,Heap,Intermediate
+149,Time complexity of insertion in a heap is:,O(1),O(log n),O(n),O(n²),B,Graph,Advanced
+150,Heap sort time complexity is:,O(n),O(n log n),O(n²),O(2^n),B,Graph Traversal,Advanced
+151,Adjacency matrix representation requires space of:,O(V),O(E),O(V²),O(V + E),C,Shortest Path,Advanced
+152,Adjacency list representation requires space of:,O(V),O(V²),O(E),O(V + E),D,MST,Advanced
+153,DFS uses which data structure?,Queue,Stack,Deque,Heap,B,Hash Table,Advanced
+154,BFS uses which data structure?,Stack,Queue,Priority Queue,Deque,B,Dynamic Programming,Advanced
+155,Time complexity of DFS and BFS is:,O(n),O(V + E),O(V²),O(E log V),B,Backtracking,Advanced
+156,Dijkstra's algorithm is used for:,Negative weights,Positive weights,Unweighted graphs,None,B,String Algorithms,Advanced
+157,Bellman-Ford can handle:,Only positive weights,Negative weights,Negative cycles,All graphs,B,Greedy,Advanced
+158,Floyd-Warshall finds:,Shortest path between two nodes,All pairs shortest path,Minimum spanning tree,Topological sort,B,Divide and Conquer,Advanced
+159,Kruskal's algorithm uses which approach?,Dynamic Programming,Greedy,Divide and Conquer,Backtracking,B,Array,Advanced
+160,Prim's algorithm starts from:,A random vertex,A specific vertex,The minimum edge,None,B,Linked List,Advanced
+161,Time complexity of Kruskal's algorithm is:,O(E log E),O(V log V),O(V + E),O(V²),A,Stack,Advanced
+162,Hash table provides average time complexity of:,O(log n),O(n),O(1),O(n²),C,Queue,Advanced
+163,Collision resolution technique is:,Linear Probing,Chaining,Double Hashing,All of above,D,Sorting,Advanced
+164,DP is used when a problem has:,Overlapping subproblems,Optimal substructure,Both,Neither,C,Searching,Advanced
+165,Memoization is:,Top-down approach,Bottom-up approach,Recursive approach,Iterative approach,A,Tree,Advanced
+166,Tabulation is:,Top-down DP,Bottom-up DP,Recursive,None,B,BST,Advanced
+167,Backtracking is used for:,N-Queens problem,Sudoku solver,Maze solving,All,D,AVL Tree,Advanced
+168,Time complexity of backtracking can be:,O(n),O(n!),O(2^n),All of above,D,Heap,Advanced
+169,KMP algorithm is used for:,Pattern matching,Sorting,Searching,Hashing,A,Graph,Advanced
+170,Time complexity of KMP is:,O(n + m),O(n * m),O(n log m),O(m log n),A,Graph Traversal,Advanced
+171,Rabin-Karp uses which concept?,Hashing,Sorting,Trees,Graphs,A,Shortest Path,Advanced
+172,Greedy algorithms work when problem has:,Optimal substructure,Greedy choice property,Both,Neither,C,MST,Advanced
+173,Activity selection uses:,Greedy,DP,Backtracking,Divide and Conquer,A,Hash Table,Advanced
+174,Merge Sort uses:,Greedy,DP,Divide and Conquer,Backtracking,C,Dynamic Programming,Advanced
+175,Binary Search uses:,Greedy,DP,Divide and Conquer,Backtracking,C,Backtracking,Advanced
+176,Topological sorting is for:,Directed Acyclic Graph,Undirected graph,Weighted graph,Complete graph,A,String Algorithms,Advanced
+177,Strongly Connected Components are found using:,DFS,BFS,Dijkstra,Prim's,A,Greedy,Advanced
+178,What is the time complexity of accessing an element in an array by index?,O(n),O(log n),O(1),O(n²),C,Array,Beginner
+179,Which operation is most efficient in an array?,Insertion at beginning,Deletion from middle,Searching an element,Random access,D,Linked List,Beginner
+180,What is the space complexity of an array of size n?,O(1),O(log n),O(n),O(n²),C,Stack,Beginner
+181,What is the time complexity of inserting an element at the beginning of a singly linked list?,O(1),O(n),O(log n),O(n²),A,Queue,Beginner
+182,"In a doubly linked list, each node contains how many pointers?",1,2,3,4,B,Sorting,Beginner
+183,Time complexity of searching in an unsorted linked list is:,O(1),O(log n),O(n),O(n²),C,Searching,Beginner
+184,Which data structure follows LIFO principle?,Queue,Stack,Tree,Graph,B,Tree,Beginner
+185,What is the time complexity of push and pop operations in a stack?,O(n),O(log n),O(1),O(n²),C,BST,Beginner
+186,In which application is stack NOT used?,Function call management,Expression evaluation,BFS traversal,Undo/Redo functionality,C,AVL Tree,Beginner
+187,Which data structure follows FIFO principle?,Stack,Queue,Deque,Heap,B,Heap,Beginner
+188,What is the time complexity of enqueue and dequeue in a simple queue?,O(n),O(1),O(log n),O(n²),B,Graph,Beginner
+189,A circular queue is better than a simple queue because:,It uses less memory,It avoids the wastage of space,It is faster,It requires less code,B,Graph Traversal,Beginner
+190,What is the average time complexity of Quick Sort?,O(n),O(n log n),O(n²),O(2^n),B,Shortest Path,Intermediate
+191,Which sorting algorithm is stable?,Quick Sort,Heap Sort,Merge Sort,Selection Sort,C,MST,Intermediate
+192,Merge Sort has a time complexity of:,O(n),O(n log n),O(n²),O(n³),B,Hash Table,Intermediate
+193,Bubble Sort is efficient for which case?,Already sorted data,Reverse sorted data,Random data,Large datasets,A,Dynamic Programming,Intermediate
+194,What is the space complexity of Quick Sort?,O(1),O(log n),O(n),O(n²),B,Backtracking,Intermediate
+195,Binary Search works on which type of array?,Unsorted,Sorted,Partially sorted,None of above,B,String Algorithms,Intermediate
+196,Time complexity of Binary Search is:,O(n),O(log n),O(n log n),O(n²),B,Greedy,Intermediate
+197,Linear Search has a time complexity of:,O(1),O(log n),O(n),O(n²),C,Divide and Conquer,Intermediate
+198,What is a binary tree?,Tree with max 2 children,Tree with exactly 2 children,Tree with 3 children,Tree with 4 children,A,Array,Intermediate
+199,Height of a tree with single node is:,0,1,2,-1,A,Linked List,Intermediate
+200,What is the maximum number of nodes in a binary tree of height h?,2^h - 1,2^(h+1) - 1,2^h,h²,B,Stack,Intermediate
+201,"In a BST, for any node, left child is:",Greater than parent,Less than parent,Equal to parent,Any value,B,Queue,Intermediate
+202,Time complexity of searching in a balanced BST is:,O(1),O(log n),O(n),O(n²),B,Sorting,Intermediate
+203,Inorder traversal of a BST gives:,Sorted array,Reverse sorted array,Random order,Heap order,A,Searching,Intermediate
+204,AVL tree is a:,Unbalanced BST,Self-balancing BST,Complete tree,Perfect tree,B,Tree,Intermediate
+205,Balance factor in AVL tree is defined as:,Left height - Right height,Right height - Left height,Left height + Right height,Left height / Right height,A,BST,Intermediate
+206,Height of an AVL tree with n nodes is:,O(n),O(log n),O(n log n),O(n²),B,AVL Tree,Intermediate
+207,"In a min heap, the smallest element is at:",Leaf,Root,Middle,Random,B,Heap,Intermediate
+208,Time complexity of insertion in a heap is:,O(1),O(log n),O(n),O(n²),B,Graph,Advanced
+209,Heap sort time complexity is:,O(n),O(n log n),O(n²),O(2^n),B,Graph Traversal,Advanced
+210,Adjacency matrix representation requires space of:,O(V),O(E),O(V²),O(V + E),C,Shortest Path,Advanced
+211,Adjacency list representation requires space of:,O(V),O(V²),O(E),O(V + E),D,MST,Advanced
+212,DFS uses which data structure?,Queue,Stack,Deque,Heap,B,Hash Table,Advanced
+213,BFS uses which data structure?,Stack,Queue,Priority Queue,Deque,B,Dynamic Programming,Advanced
+214,Time complexity of DFS and BFS is:,O(n),O(V + E),O(V²),O(E log V),B,Backtracking,Advanced
+215,Dijkstra's algorithm is used for:,Negative weights,Positive weights,Unweighted graphs,None,B,String Algorithms,Advanced
+216,Bellman-Ford can handle:,Only positive weights,Negative weights,Negative cycles,All graphs,B,Greedy,Advanced
+217,Floyd-Warshall finds:,Shortest path between two nodes,All pairs shortest path,Minimum spanning tree,Topological sort,B,Divide and Conquer,Advanced
+218,Kruskal's algorithm uses which approach?,Dynamic Programming,Greedy,Divide and Conquer,Backtracking,B,Array,Advanced
+219,Prim's algorithm starts from:,A random vertex,A specific vertex,The minimum edge,None,B,Linked List,Advanced
+220,Time complexity of Kruskal's algorithm is:,O(E log E),O(V log V),O(V + E),O(V²),A,Stack,Advanced
+221,Hash table provides average time complexity of:,O(log n),O(n),O(1),O(n²),C,Queue,Advanced
+222,Collision resolution technique is:,Linear Probing,Chaining,Double Hashing,All of above,D,Sorting,Advanced
+223,DP is used when a problem has:,Overlapping subproblems,Optimal substructure,Both,Neither,C,Searching,Advanced
+224,Memoization is:,Top-down approach,Bottom-up approach,Recursive approach,Iterative approach,A,Tree,Advanced
+225,Tabulation is:,Top-down DP,Bottom-up DP,Recursive,None,B,BST,Advanced
+226,Backtracking is used for:,N-Queens problem,Sudoku solver,Maze solving,All,D,AVL Tree,Advanced
+227,Time complexity of backtracking can be:,O(n),O(n!),O(2^n),All of above,D,Heap,Advanced
+228,KMP algorithm is used for:,Pattern matching,Sorting,Searching,Hashing,A,Graph,Advanced
+229,Time complexity of KMP is:,O(n + m),O(n * m),O(n log m),O(m log n),A,Graph Traversal,Advanced
+230,Rabin-Karp uses which concept?,Hashing,Sorting,Trees,Graphs,A,Shortest Path,Advanced
+231,Greedy algorithms work when problem has:,Optimal substructure,Greedy choice property,Both,Neither,C,MST,Advanced
+232,Activity selection uses:,Greedy,DP,Backtracking,Divide and Conquer,A,Hash Table,Advanced
+233,Merge Sort uses:,Greedy,DP,Divide and Conquer,Backtracking,C,Dynamic Programming,Advanced
+234,Binary Search uses:,Greedy,DP,Divide and Conquer,Backtracking,C,Backtracking,Advanced
+235,Topological sorting is for:,Directed Acyclic Graph,Undirected graph,Weighted graph,Complete graph,A,String Algorithms,Advanced
+236,Strongly Connected Components are found using:,DFS,BFS,Dijkstra,Prim's,A,Greedy,Advanced
+237,What is the time complexity of accessing an element in an array by index?,O(n),O(log n),O(1),O(n²),C,Array,Beginner
+238,Which operation is most efficient in an array?,Insertion at beginning,Deletion from middle,Searching an element,Random access,D,Linked List,Beginner
+239,What is the space complexity of an array of size n?,O(1),O(log n),O(n),O(n²),C,Stack,Beginner
+240,What is the time complexity of inserting an element at the beginning of a singly linked list?,O(1),O(n),O(log n),O(n²),A,Queue,Beginner
+241,"In a doubly linked list, each node contains how many pointers?",1,2,3,4,B,Sorting,Beginner
+242,Time complexity of searching in an unsorted linked list is:,O(1),O(log n),O(n),O(n²),C,Searching,Beginner
+243,Which data structure follows LIFO principle?,Queue,Stack,Tree,Graph,B,Tree,Beginner
+244,What is the time complexity of push and pop operations in a stack?,O(n),O(log n),O(1),O(n²),C,BST,Beginner
+245,In which application is stack NOT used?,Function call management,Expression evaluation,BFS traversal,Undo/Redo functionality,C,AVL Tree,Beginner
+246,Which data structure follows FIFO principle?,Stack,Queue,Deque,Heap,B,Heap,Beginner
+247,What is the time complexity of enqueue and dequeue in a simple queue?,O(n),O(1),O(log n),O(n²),B,Graph,Beginner
+248,A circular queue is better than a simple queue because:,It uses less memory,It avoids the wastage of space,It is faster,It requires less code,B,Graph Traversal,Beginner
+249,What is the average time complexity of Quick Sort?,O(n),O(n log n),O(n²),O(2^n),B,Shortest Path,Intermediate
+250,Which sorting algorithm is stable?,Quick Sort,Heap Sort,Merge Sort,Selection Sort,C,MST,Intermediate
+251,Merge Sort has a time complexity of:,O(n),O(n log n),O(n²),O(n³),B,Hash Table,Intermediate
+252,Bubble Sort is efficient for which case?,Already sorted data,Reverse sorted data,Random data,Large datasets,A,Dynamic Programming,Intermediate
+253,What is the space complexity of Quick Sort?,O(1),O(log n),O(n),O(n²),B,Backtracking,Intermediate
+254,Binary Search works on which type of array?,Unsorted,Sorted,Partially sorted,None of above,B,String Algorithms,Intermediate
+255,Time complexity of Binary Search is:,O(n),O(log n),O(n log n),O(n²),B,Greedy,Intermediate
+256,Linear Search has a time complexity of:,O(1),O(log n),O(n),O(n²),C,Divide and Conquer,Intermediate
+257,What is a binary tree?,Tree with max 2 children,Tree with exactly 2 children,Tree with 3 children,Tree with 4 children,A,Array,Intermediate
+258,Height of a tree with single node is:,0,1,2,-1,A,Linked List,Intermediate
+259,What is the maximum number of nodes in a binary tree of height h?,2^h - 1,2^(h+1) - 1,2^h,h²,B,Stack,Intermediate
+260,"In a BST, for any node, left child is:",Greater than parent,Less than parent,Equal to parent,Any value,B,Queue,Intermediate
+261,Time complexity of searching in a balanced BST is:,O(1),O(log n),O(n),O(n²),B,Sorting,Intermediate
+262,Inorder traversal of a BST gives:,Sorted array,Reverse sorted array,Random order,Heap order,A,Searching,Intermediate
+263,AVL tree is a:,Unbalanced BST,Self-balancing BST,Complete tree,Perfect tree,B,Tree,Intermediate
+264,Balance factor in AVL tree is defined as:,Left height - Right height,Right height - Left height,Left height + Right height,Left height / Right height,A,BST,Intermediate
+265,Height of an AVL tree with n nodes is:,O(n),O(log n),O(n log n),O(n²),B,AVL Tree,Intermediate
+266,"In a min heap, the smallest element is at:",Leaf,Root,Middle,Random,B,Heap,Intermediate
+267,Time complexity of insertion in a heap is:,O(1),O(log n),O(n),O(n²),B,Graph,Advanced
+268,Heap sort time complexity is:,O(n),O(n log n),O(n²),O(2^n),B,Graph Traversal,Advanced
+269,Adjacency matrix representation requires space of:,O(V),O(E),O(V²),O(V + E),C,Shortest Path,Advanced
+270,Adjacency list representation requires space of:,O(V),O(V²),O(E),O(V + E),D,MST,Advanced
+271,DFS uses which data structure?,Queue,Stack,Deque,Heap,B,Hash Table,Advanced
+272,BFS uses which data structure?,Stack,Queue,Priority Queue,Deque,B,Dynamic Programming,Advanced
+273,Time complexity of DFS and BFS is:,O(n),O(V + E),O(V²),O(E log V),B,Backtracking,Advanced
+274,Dijkstra's algorithm is used for:,Negative weights,Positive weights,Unweighted graphs,None,B,String Algorithms,Advanced
+275,Bellman-Ford can handle:,Only positive weights,Negative weights,Negative cycles,All graphs,B,Greedy,Advanced
+276,Floyd-Warshall finds:,Shortest path between two nodes,All pairs shortest path,Minimum spanning tree,Topological sort,B,Divide and Conquer,Advanced
+277,Kruskal's algorithm uses which approach?,Dynamic Programming,Greedy,Divide and Conquer,Backtracking,B,Array,Advanced
+278,Prim's algorithm starts from:,A random vertex,A specific vertex,The minimum edge,None,B,Linked List,Advanced
+279,Time complexity of Kruskal's algorithm is:,O(E log E),O(V log V),O(V + E),O(V²),A,Stack,Advanced
+280,Hash table provides average time complexity of:,O(log n),O(n),O(1),O(n²),C,Queue,Advanced
+281,Collision resolution technique is:,Linear Probing,Chaining,Double Hashing,All of above,D,Sorting,Advanced
+282,DP is used when a problem has:,Overlapping subproblems,Optimal substructure,Both,Neither,C,Searching,Advanced
+283,Memoization is:,Top-down approach,Bottom-up approach,Recursive approach,Iterative approach,A,Tree,Advanced
+284,Tabulation is:,Top-down DP,Bottom-up DP,Recursive,None,B,BST,Advanced
+285,Backtracking is used for:,N-Queens problem,Sudoku solver,Maze solving,All,D,AVL Tree,Advanced
+286,Time complexity of backtracking can be:,O(n),O(n!),O(2^n),All of above,D,Heap,Advanced
+287,KMP algorithm is used for:,Pattern matching,Sorting,Searching,Hashing,A,Graph,Advanced
+288,Time complexity of KMP is:,O(n + m),O(n * m),O(n log m),O(m log n),A,Graph Traversal,Advanced
+289,Rabin-Karp uses which concept?,Hashing,Sorting,Trees,Graphs,A,Shortest Path,Advanced
+290,Greedy algorithms work when problem has:,Optimal substructure,Greedy choice property,Both,Neither,C,MST,Advanced
+291,Activity selection uses:,Greedy,DP,Backtracking,Divide and Conquer,A,Hash Table,Advanced
+292,Merge Sort uses:,Greedy,DP,Divide and Conquer,Backtracking,C,Dynamic Programming,Advanced
+293,Binary Search uses:,Greedy,DP,Divide and Conquer,Backtracking,C,Backtracking,Advanced
+294,Topological sorting is for:,Directed Acyclic Graph,Undirected graph,Weighted graph,Complete graph,A,String Algorithms,Advanced
+295,Strongly Connected Components are found using:,DFS,BFS,Dijkstra,Prim's,A,Greedy,Advanced
+296,What is the time complexity of accessing an element in an array by index?,O(n),O(log n),O(1),O(n²),C,Array,Beginner
+297,Which operation is most efficient in an array?,Insertion at beginning,Deletion from middle,Searching an element,Random access,D,Linked List,Beginner
+298,What is the space complexity of an array of size n?,O(1),O(log n),O(n),O(n²),C,Stack,Beginner
+299,What is the time complexity of inserting an element at the beginning of a singly linked list?,O(1),O(n),O(log n),O(n²),A,Queue,Beginner
+300,"In a doubly linked list, each node contains how many pointers?",1,2,3,4,B,Sorting,Beginner
+301,Time complexity of searching in an unsorted linked list is:,O(1),O(log n),O(n),O(n²),C,Searching,Beginner
+302,Which data structure follows LIFO principle?,Queue,Stack,Tree,Graph,B,Tree,Beginner
+303,What is the time complexity of push and pop operations in a stack?,O(n),O(log n),O(1),O(n²),C,BST,Beginner
+304,In which application is stack NOT used?,Function call management,Expression evaluation,BFS traversal,Undo/Redo functionality,C,AVL Tree,Beginner
+305,Which data structure follows FIFO principle?,Stack,Queue,Deque,Heap,B,Heap,Beginner
+306,What is the time complexity of enqueue and dequeue in a simple queue?,O(n),O(1),O(log n),O(n²),B,Graph,Beginner
+307,A circular queue is better than a simple queue because:,It uses less memory,It avoids the wastage of space,It is faster,It requires less code,B,Graph Traversal,Beginner
+308,What is the average time complexity of Quick Sort?,O(n),O(n log n),O(n²),O(2^n),B,Shortest Path,Intermediate
+309,Which sorting algorithm is stable?,Quick Sort,Heap Sort,Merge Sort,Selection Sort,C,MST,Intermediate
+310,Merge Sort has a time complexity of:,O(n),O(n log n),O(n²),O(n³),B,Hash Table,Intermediate
+311,Bubble Sort is efficient for which case?,Already sorted data,Reverse sorted data,Random data,Large datasets,A,Dynamic Programming,Intermediate
+312,What is the space complexity of Quick Sort?,O(1),O(log n),O(n),O(n²),B,Backtracking,Intermediate
+313,Binary Search works on which type of array?,Unsorted,Sorted,Partially sorted,None of above,B,String Algorithms,Intermediate
+314,Time complexity of Binary Search is:,O(n),O(log n),O(n log n),O(n²),B,Greedy,Intermediate
+315,Linear Search has a time complexity of:,O(1),O(log n),O(n),O(n²),C,Divide and Conquer,Intermediate
+316,What is a binary tree?,Tree with max 2 children,Tree with exactly 2 children,Tree with 3 children,Tree with 4 children,A,Array,Intermediate
+317,Height of a tree with single node is:,0,1,2,-1,A,Linked List,Intermediate
+318,What is the maximum number of nodes in a binary tree of height h?,2^h - 1,2^(h+1) - 1,2^h,h²,B,Stack,Intermediate
+319,"In a BST, for any node, left child is:",Greater than parent,Less than parent,Equal to parent,Any value,B,Queue,Intermediate
+320,Time complexity of searching in a balanced BST is:,O(1),O(log n),O(n),O(n²),B,Sorting,Intermediate
+321,Inorder traversal of a BST gives:,Sorted array,Reverse sorted array,Random order,Heap order,A,Searching,Intermediate
+322,AVL tree is a:,Unbalanced BST,Self-balancing BST,Complete tree,Perfect tree,B,Tree,Intermediate
+323,Balance factor in AVL tree is defined as:,Left height - Right height,Right height - Left height,Left height + Right height,Left height / Right height,A,BST,Intermediate
+324,Height of an AVL tree with n nodes is:,O(n),O(log n),O(n log n),O(n²),B,AVL Tree,Intermediate
+325,"In a min heap, the smallest element is at:",Leaf,Root,Middle,Random,B,Heap,Intermediate
+326,Time complexity of insertion in a heap is:,O(1),O(log n),O(n),O(n²),B,Graph,Advanced
+327,Heap sort time complexity is:,O(n),O(n log n),O(n²),O(2^n),B,Graph Traversal,Advanced
+328,Adjacency matrix representation requires space of:,O(V),O(E),O(V²),O(V + E),C,Shortest Path,Advanced
+329,Adjacency list representation requires space of:,O(V),O(V²),O(E),O(V + E),D,MST,Advanced
+330,DFS uses which data structure?,Queue,Stack,Deque,Heap,B,Hash Table,Advanced
+331,BFS uses which data structure?,Stack,Queue,Priority Queue,Deque,B,Dynamic Programming,Advanced
+332,Time complexity of DFS and BFS is:,O(n),O(V + E),O(V²),O(E log V),B,Backtracking,Advanced
+333,Dijkstra's algorithm is used for:,Negative weights,Positive weights,Unweighted graphs,None,B,String Algorithms,Advanced
+334,Bellman-Ford can handle:,Only positive weights,Negative weights,Negative cycles,All graphs,B,Greedy,Advanced
+335,Floyd-Warshall finds:,Shortest path between two nodes,All pairs shortest path,Minimum spanning tree,Topological sort,B,Divide and Conquer,Advanced
+336,Kruskal's algorithm uses which approach?,Dynamic Programming,Greedy,Divide and Conquer,Backtracking,B,Array,Advanced
+337,Prim's algorithm starts from:,A random vertex,A specific vertex,The minimum edge,None,B,Linked List,Advanced
+338,Time complexity of Kruskal's algorithm is:,O(E log E),O(V log V),O(V + E),O(V²),A,Stack,Advanced
+339,Hash table provides average time complexity of:,O(log n),O(n),O(1),O(n²),C,Queue,Advanced
+340,Collision resolution technique is:,Linear Probing,Chaining,Double Hashing,All of above,D,Sorting,Advanced
+341,DP is used when a problem has:,Overlapping subproblems,Optimal substructure,Both,Neither,C,Searching,Advanced
+342,Memoization is:,Top-down approach,Bottom-up approach,Recursive approach,Iterative approach,A,Tree,Advanced
+343,Tabulation is:,Top-down DP,Bottom-up DP,Recursive,None,B,BST,Advanced
+344,Backtracking is used for:,N-Queens problem,Sudoku solver,Maze solving,All,D,AVL Tree,Advanced
+345,Time complexity of backtracking can be:,O(n),O(n!),O(2^n),All of above,D,Heap,Advanced
+346,KMP algorithm is used for:,Pattern matching,Sorting,Searching,Hashing,A,Graph,Advanced
+347,Time complexity of KMP is:,O(n + m),O(n * m),O(n log m),O(m log n),A,Graph Traversal,Advanced
+348,Rabin-Karp uses which concept?,Hashing,Sorting,Trees,Graphs,A,Shortest Path,Advanced
+349,Greedy algorithms work when problem has:,Optimal substructure,Greedy choice property,Both,Neither,C,MST,Advanced
+350,Activity selection uses:,Greedy,DP,Backtracking,Divide and Conquer,A,Hash Table,Advanced
+351,Merge Sort uses:,Greedy,DP,Divide and Conquer,Backtracking,C,Dynamic Programming,Advanced
+352,Binary Search uses:,Greedy,DP,Divide and Conquer,Backtracking,C,Backtracking,Advanced
+353,Topological sorting is for:,Directed Acyclic Graph,Undirected graph,Weighted graph,Complete graph,A,String Algorithms,Advanced
+354,Strongly Connected Components are found using:,DFS,BFS,Dijkstra,Prim's,A,Greedy,Advanced
+355,What is the time complexity of accessing an element in an array by index?,O(n),O(log n),O(1),O(n²),C,Array,Beginner
+356,Which operation is most efficient in an array?,Insertion at beginning,Deletion from middle,Searching an element,Random access,D,Linked List,Beginner
+357,What is the space complexity of an array of size n?,O(1),O(log n),O(n),O(n²),C,Stack,Beginner
+358,What is the time complexity of inserting an element at the beginning of a singly linked list?,O(1),O(n),O(log n),O(n²),A,Queue,Beginner
+359,"In a doubly linked list, each node contains how many pointers?",1,2,3,4,B,Sorting,Beginner
+360,Time complexity of searching in an unsorted linked list is:,O(1),O(log n),O(n),O(n²),C,Searching,Beginner
+361,Which data structure follows LIFO principle?,Queue,Stack,Tree,Graph,B,Tree,Beginner
+362,What is the time complexity of push and pop operations in a stack?,O(n),O(log n),O(1),O(n²),C,BST,Beginner
+363,In which application is stack NOT used?,Function call management,Expression evaluation,BFS traversal,Undo/Redo functionality,C,AVL Tree,Beginner
+364,Which data structure follows FIFO principle?,Stack,Queue,Deque,Heap,B,Heap,Beginner
+365,What is the time complexity of enqueue and dequeue in a simple queue?,O(n),O(1),O(log n),O(n²),B,Graph,Beginner
+366,A circular queue is better than a simple queue because:,It uses less memory,It avoids the wastage of space,It is faster,It requires less code,B,Graph Traversal,Beginner
+367,What is the average time complexity of Quick Sort?,O(n),O(n log n),O(n²),O(2^n),B,Shortest Path,Intermediate
+368,Which sorting algorithm is stable?,Quick Sort,Heap Sort,Merge Sort,Selection Sort,C,MST,Intermediate
+369,Merge Sort has a time complexity of:,O(n),O(n log n),O(n²),O(n³),B,Hash Table,Intermediate
+370,Bubble Sort is efficient for which case?,Already sorted data,Reverse sorted data,Random data,Large datasets,A,Dynamic Programming,Intermediate
+371,What is the space complexity of Quick Sort?,O(1),O(log n),O(n),O(n²),B,Backtracking,Intermediate
+372,Binary Search works on which type of array?,Unsorted,Sorted,Partially sorted,None of above,B,String Algorithms,Intermediate
+373,Time complexity of Binary Search is:,O(n),O(log n),O(n log n),O(n²),B,Greedy,Intermediate
+374,Linear Search has a time complexity of:,O(1),O(log n),O(n),O(n²),C,Divide and Conquer,Intermediate
+375,What is a binary tree?,Tree with max 2 children,Tree with exactly 2 children,Tree with 3 children,Tree with 4 children,A,Array,Intermediate
+376,Height of a tree with single node is:,0,1,2,-1,A,Linked List,Intermediate
+377,What is the maximum number of nodes in a binary tree of height h?,2^h - 1,2^(h+1) - 1,2^h,h²,B,Stack,Intermediate
+378,"In a BST, for any node, left child is:",Greater than parent,Less than parent,Equal to parent,Any value,B,Queue,Intermediate
+379,Time complexity of searching in a balanced BST is:,O(1),O(log n),O(n),O(n²),B,Sorting,Intermediate
+380,Inorder traversal of a BST gives:,Sorted array,Reverse sorted array,Random order,Heap order,A,Searching,Intermediate
+381,AVL tree is a:,Unbalanced BST,Self-balancing BST,Complete tree,Perfect tree,B,Tree,Intermediate
+382,Balance factor in AVL tree is defined as:,Left height - Right height,Right height - Left height,Left height + Right height,Left height / Right height,A,BST,Intermediate
+383,Height of an AVL tree with n nodes is:,O(n),O(log n),O(n log n),O(n²),B,AVL Tree,Intermediate
+384,"In a min heap, the smallest element is at:",Leaf,Root,Middle,Random,B,Heap,Intermediate
+385,Time complexity of insertion in a heap is:,O(1),O(log n),O(n),O(n²),B,Graph,Advanced
+386,Heap sort time complexity is:,O(n),O(n log n),O(n²),O(2^n),B,Graph Traversal,Advanced
+387,Adjacency matrix representation requires space of:,O(V),O(E),O(V²),O(V + E),C,Shortest Path,Advanced
+388,Adjacency list representation requires space of:,O(V),O(V²),O(E),O(V + E),D,MST,Advanced
+389,DFS uses which data structure?,Queue,Stack,Deque,Heap,B,Hash Table,Advanced
+390,BFS uses which data structure?,Stack,Queue,Priority Queue,Deque,B,Dynamic Programming,Advanced
+391,Time complexity of DFS and BFS is:,O(n),O(V + E),O(V²),O(E log V),B,Backtracking,Advanced
+392,Dijkstra's algorithm is used for:,Negative weights,Positive weights,Unweighted graphs,None,B,String Algorithms,Advanced
+393,Bellman-Ford can handle:,Only positive weights,Negative weights,Negative cycles,All graphs,B,Greedy,Advanced
+394,Floyd-Warshall finds:,Shortest path between two nodes,All pairs shortest path,Minimum spanning tree,Topological sort,B,Divide and Conquer,Advanced
+395,Kruskal's algorithm uses which approach?,Dynamic Programming,Greedy,Divide and Conquer,Backtracking,B,Array,Advanced
+396,Prim's algorithm starts from:,A random vertex,A specific vertex,The minimum edge,None,B,Linked List,Advanced
+397,Time complexity of Kruskal's algorithm is:,O(E log E),O(V log V),O(V + E),O(V²),A,Stack,Advanced
+398,Hash table provides average time complexity of:,O(log n),O(n),O(1),O(n²),C,Queue,Advanced
+399,Collision resolution technique is:,Linear Probing,Chaining,Double Hashing,All of above,D,Sorting,Advanced
+400,DP is used when a problem has:,Overlapping subproblems,Optimal substructure,Both,Neither,C,Searching,Advanced
+401,Memoization is:,Top-down approach,Bottom-up approach,Recursive approach,Iterative approach,A,Tree,Advanced
+402,Tabulation is:,Top-down DP,Bottom-up DP,Recursive,None,B,BST,Advanced
+403,Backtracking is used for:,N-Queens problem,Sudoku solver,Maze solving,All,D,AVL Tree,Advanced
+404,Time complexity of backtracking can be:,O(n),O(n!),O(2^n),All of above,D,Heap,Advanced
+405,KMP algorithm is used for:,Pattern matching,Sorting,Searching,Hashing,A,Graph,Advanced
+406,Time complexity of KMP is:,O(n + m),O(n * m),O(n log m),O(m log n),A,Graph Traversal,Advanced
+407,Rabin-Karp uses which concept?,Hashing,Sorting,Trees,Graphs,A,Shortest Path,Advanced
+408,Greedy algorithms work when problem has:,Optimal substructure,Greedy choice property,Both,Neither,C,MST,Advanced
+409,Activity selection uses:,Greedy,DP,Backtracking,Divide and Conquer,A,Hash Table,Advanced
+410,Merge Sort uses:,Greedy,DP,Divide and Conquer,Backtracking,C,Dynamic Programming,Advanced
+411,Binary Search uses:,Greedy,DP,Divide and Conquer,Backtracking,C,Backtracking,Advanced
+412,Topological sorting is for:,Directed Acyclic Graph,Undirected graph,Weighted graph,Complete graph,A,String Algorithms,Advanced
+413,Strongly Connected Components are found using:,DFS,BFS,Dijkstra,Prim's,A,Greedy,Advanced
+414,What is the time complexity of accessing an element in an array by index?,O(n),O(log n),O(1),O(n²),C,Array,Beginner
+415,Which operation is most efficient in an array?,Insertion at beginning,Deletion from middle,Searching an element,Random access,D,Linked List,Beginner
+416,What is the space complexity of an array of size n?,O(1),O(log n),O(n),O(n²),C,Stack,Beginner
+417,What is the time complexity of inserting an element at the beginning of a singly linked list?,O(1),O(n),O(log n),O(n²),A,Queue,Beginner
+418,"In a doubly linked list, each node contains how many pointers?",1,2,3,4,B,Sorting,Beginner
+419,Time complexity of searching in an unsorted linked list is:,O(1),O(log n),O(n),O(n²),C,Searching,Beginner
+420,Which data structure follows LIFO principle?,Queue,Stack,Tree,Graph,B,Tree,Beginner
+421,What is the time complexity of push and pop operations in a stack?,O(n),O(log n),O(1),O(n²),C,BST,Beginner
+422,In which application is stack NOT used?,Function call management,Expression evaluation,BFS traversal,Undo/Redo functionality,C,AVL Tree,Beginner
+423,Which data structure follows FIFO principle?,Stack,Queue,Deque,Heap,B,Heap,Beginner
+424,What is the time complexity of enqueue and dequeue in a simple queue?,O(n),O(1),O(log n),O(n²),B,Graph,Beginner
+425,A circular queue is better than a simple queue because:,It uses less memory,It avoids the wastage of space,It is faster,It requires less code,B,Graph Traversal,Beginner
+426,What is the average time complexity of Quick Sort?,O(n),O(n log n),O(n²),O(2^n),B,Shortest Path,Intermediate
+427,Which sorting algorithm is stable?,Quick Sort,Heap Sort,Merge Sort,Selection Sort,C,MST,Intermediate
+428,Merge Sort has a time complexity of:,O(n),O(n log n),O(n²),O(n³),B,Hash Table,Intermediate
+429,Bubble Sort is efficient for which case?,Already sorted data,Reverse sorted data,Random data,Large datasets,A,Dynamic Programming,Intermediate
+430,What is the space complexity of Quick Sort?,O(1),O(log n),O(n),O(n²),B,Backtracking,Intermediate
+431,Binary Search works on which type of array?,Unsorted,Sorted,Partially sorted,None of above,B,String Algorithms,Intermediate
+432,Time complexity of Binary Search is:,O(n),O(log n),O(n log n),O(n²),B,Greedy,Intermediate
+433,Linear Search has a time complexity of:,O(1),O(log n),O(n),O(n²),C,Divide and Conquer,Intermediate
+434,What is a binary tree?,Tree with max 2 children,Tree with exactly 2 children,Tree with 3 children,Tree with 4 children,A,Array,Intermediate
+435,Height of a tree with single node is:,0,1,2,-1,A,Linked List,Intermediate
+436,What is the maximum number of nodes in a binary tree of height h?,2^h - 1,2^(h+1) - 1,2^h,h²,B,Stack,Intermediate
+437,"In a BST, for any node, left child is:",Greater than parent,Less than parent,Equal to parent,Any value,B,Queue,Intermediate
+438,Time complexity of searching in a balanced BST is:,O(1),O(log n),O(n),O(n²),B,Sorting,Intermediate
+439,Inorder traversal of a BST gives:,Sorted array,Reverse sorted array,Random order,Heap order,A,Searching,Intermediate
+440,AVL tree is a:,Unbalanced BST,Self-balancing BST,Complete tree,Perfect tree,B,Tree,Intermediate
+441,Balance factor in AVL tree is defined as:,Left height - Right height,Right height - Left height,Left height + Right height,Left height / Right height,A,BST,Intermediate
+442,Height of an AVL tree with n nodes is:,O(n),O(log n),O(n log n),O(n²),B,AVL Tree,Intermediate
+443,"In a min heap, the smallest element is at:",Leaf,Root,Middle,Random,B,Heap,Intermediate
+444,Time complexity of insertion in a heap is:,O(1),O(log n),O(n),O(n²),B,Graph,Advanced
+445,Heap sort time complexity is:,O(n),O(n log n),O(n²),O(2^n),B,Graph Traversal,Advanced
+446,Adjacency matrix representation requires space of:,O(V),O(E),O(V²),O(V + E),C,Shortest Path,Advanced
+447,Adjacency list representation requires space of:,O(V),O(V²),O(E),O(V + E),D,MST,Advanced
+448,DFS uses which data structure?,Queue,Stack,Deque,Heap,B,Hash Table,Advanced
+449,BFS uses which data structure?,Stack,Queue,Priority Queue,Deque,B,Dynamic Programming,Advanced
+450,Time complexity of DFS and BFS is:,O(n),O(V + E),O(V²),O(E log V),B,Backtracking,Advanced
+451,Dijkstra's algorithm is used for:,Negative weights,Positive weights,Unweighted graphs,None,B,String Algorithms,Advanced
+452,Bellman-Ford can handle:,Only positive weights,Negative weights,Negative cycles,All graphs,B,Greedy,Advanced
+453,Floyd-Warshall finds:,Shortest path between two nodes,All pairs shortest path,Minimum spanning tree,Topological sort,B,Divide and Conquer,Advanced
+454,Kruskal's algorithm uses which approach?,Dynamic Programming,Greedy,Divide and Conquer,Backtracking,B,Array,Advanced
+455,Prim's algorithm starts from:,A random vertex,A specific vertex,The minimum edge,None,B,Linked List,Advanced
+456,Time complexity of Kruskal's algorithm is:,O(E log E),O(V log V),O(V + E),O(V²),A,Stack,Advanced
+457,Hash table provides average time complexity of:,O(log n),O(n),O(1),O(n²),C,Queue,Advanced
+458,Collision resolution technique is:,Linear Probing,Chaining,Double Hashing,All of above,D,Sorting,Advanced
+459,DP is used when a problem has:,Overlapping subproblems,Optimal substructure,Both,Neither,C,Searching,Advanced
+460,Memoization is:,Top-down approach,Bottom-up approach,Recursive approach,Iterative approach,A,Tree,Advanced
+461,Tabulation is:,Top-down DP,Bottom-up DP,Recursive,None,B,BST,Advanced
+462,Backtracking is used for:,N-Queens problem,Sudoku solver,Maze solving,All,D,AVL Tree,Advanced
+463,Time complexity of backtracking can be:,O(n),O(n!),O(2^n),All of above,D,Heap,Advanced
+464,KMP algorithm is used for:,Pattern matching,Sorting,Searching,Hashing,A,Graph,Advanced
+465,Time complexity of KMP is:,O(n + m),O(n * m),O(n log m),O(m log n),A,Graph Traversal,Advanced
+466,Rabin-Karp uses which concept?,Hashing,Sorting,Trees,Graphs,A,Shortest Path,Advanced
+467,Greedy algorithms work when problem has:,Optimal substructure,Greedy choice property,Both,Neither,C,MST,Advanced
+468,Activity selection uses:,Greedy,DP,Backtracking,Divide and Conquer,A,Hash Table,Advanced
+469,Merge Sort uses:,Greedy,DP,Divide and Conquer,Backtracking,C,Dynamic Programming,Advanced
+470,Binary Search uses:,Greedy,DP,Divide and Conquer,Backtracking,C,Backtracking,Advanced
+471,Topological sorting is for:,Directed Acyclic Graph,Undirected graph,Weighted graph,Complete graph,A,String Algorithms,Advanced
+472,Strongly Connected Components are found using:,DFS,BFS,Dijkstra,Prim's,A,Greedy,Advanced
+473,What is the time complexity of accessing an element in an array by index?,O(n),O(log n),O(1),O(n²),C,Array,Beginner
+474,Which operation is most efficient in an array?,Insertion at beginning,Deletion from middle,Searching an element,Random access,D,Linked List,Beginner
+475,What is the space complexity of an array of size n?,O(1),O(log n),O(n),O(n²),C,Stack,Beginner
+476,What is the time complexity of inserting an element at the beginning of a singly linked list?,O(1),O(n),O(log n),O(n²),A,Queue,Beginner
+477,"In a doubly linked list, each node contains how many pointers?",1,2,3,4,B,Sorting,Beginner
+478,Time complexity of searching in an unsorted linked list is:,O(1),O(log n),O(n),O(n²),C,Searching,Beginner
+479,Which data structure follows LIFO principle?,Queue,Stack,Tree,Graph,B,Tree,Beginner
+480,What is the time complexity of push and pop operations in a stack?,O(n),O(log n),O(1),O(n²),C,BST,Beginner
+481,In which application is stack NOT used?,Function call management,Expression evaluation,BFS traversal,Undo/Redo functionality,C,AVL Tree,Beginner
+482,Which data structure follows FIFO principle?,Stack,Queue,Deque,Heap,B,Heap,Beginner
+483,What is the time complexity of enqueue and dequeue in a simple queue?,O(n),O(1),O(log n),O(n²),B,Graph,Beginner
+484,A circular queue is better than a simple queue because:,It uses less memory,It avoids the wastage of space,It is faster,It requires less code,B,Graph Traversal,Beginner
+485,What is the average time complexity of Quick Sort?,O(n),O(n log n),O(n²),O(2^n),B,Shortest Path,Intermediate
+486,Which sorting algorithm is stable?,Quick Sort,Heap Sort,Merge Sort,Selection Sort,C,MST,Intermediate
+487,Merge Sort has a time complexity of:,O(n),O(n log n),O(n²),O(n³),B,Hash Table,Intermediate
+488,Bubble Sort is efficient for which case?,Already sorted data,Reverse sorted data,Random data,Large datasets,A,Dynamic Programming,Intermediate
+489,What is the space complexity of Quick Sort?,O(1),O(log n),O(n),O(n²),B,Backtracking,Intermediate
+490,Binary Search works on which type of array?,Unsorted,Sorted,Partially sorted,None of above,B,String Algorithms,Intermediate
+491,Time complexity of Binary Search is:,O(n),O(log n),O(n log n),O(n²),B,Greedy,Intermediate
+492,Linear Search has a time complexity of:,O(1),O(log n),O(n),O(n²),C,Divide and Conquer,Intermediate
+493,What is a binary tree?,Tree with max 2 children,Tree with exactly 2 children,Tree with 3 children,Tree with 4 children,A,Array,Intermediate
+494,Height of a tree with single node is:,0,1,2,-1,A,Linked List,Intermediate
+495,What is the maximum number of nodes in a binary tree of height h?,2^h - 1,2^(h+1) - 1,2^h,h²,B,Stack,Intermediate
+496,"In a BST, for any node, left child is:",Greater than parent,Less than parent,Equal to parent,Any value,B,Queue,Intermediate
+497,Time complexity of searching in a balanced BST is:,O(1),O(log n),O(n),O(n²),B,Sorting,Intermediate
+498,Inorder traversal of a BST gives:,Sorted array,Reverse sorted array,Random order,Heap order,A,Searching,Intermediate
+499,AVL tree is a:,Unbalanced BST,Self-balancing BST,Complete tree,Perfect tree,B,Tree,Intermediate
+500,Balance factor in AVL tree is defined as:,Left height - Right height,Right height - Left height,Left height + Right height,Left height / Right height,A,BST,Intermediate
+501,Height of an AVL tree with n nodes is:,O(n),O(log n),O(n log n),O(n²),B,AVL Tree,Intermediate
+502,"In a min heap, the smallest element is at:",Leaf,Root,Middle,Random,B,Heap,Intermediate
+503,Time complexity of insertion in a heap is:,O(1),O(log n),O(n),O(n²),B,Graph,Advanced
+504,Heap sort time complexity is:,O(n),O(n log n),O(n²),O(2^n),B,Graph Traversal,Advanced
+505,Adjacency matrix representation requires space of:,O(V),O(E),O(V²),O(V + E),C,Shortest Path,Advanced
+506,Adjacency list representation requires space of:,O(V),O(V²),O(E),O(V + E),D,MST,Advanced
+507,DFS uses which data structure?,Queue,Stack,Deque,Heap,B,Hash Table,Advanced
+508,BFS uses which data structure?,Stack,Queue,Priority Queue,Deque,B,Dynamic Programming,Advanced
+509,Time complexity of DFS and BFS is:,O(n),O(V + E),O(V²),O(E log V),B,Backtracking,Advanced
+510,Dijkstra's algorithm is used for:,Negative weights,Positive weights,Unweighted graphs,None,B,String Algorithms,Advanced
+511,Bellman-Ford can handle:,Only positive weights,Negative weights,Negative cycles,All graphs,B,Greedy,Advanced
+512,Floyd-Warshall finds:,Shortest path between two nodes,All pairs shortest path,Minimum spanning tree,Topological sort,B,Divide and Conquer,Advanced
+513,Kruskal's algorithm uses which approach?,Dynamic Programming,Greedy,Divide and Conquer,Backtracking,B,Array,Advanced
+514,Prim's algorithm starts from:,A random vertex,A specific vertex,The minimum edge,None,B,Linked List,Advanced
+515,Time complexity of Kruskal's algorithm is:,O(E log E),O(V log V),O(V + E),O(V²),A,Stack,Advanced
+516,Hash table provides average time complexity of:,O(log n),O(n),O(1),O(n²),C,Queue,Advanced
+517,Collision resolution technique is:,Linear Probing,Chaining,Double Hashing,All of above,D,Sorting,Advanced
+518,DP is used when a problem has:,Overlapping subproblems,Optimal substructure,Both,Neither,C,Searching,Advanced
+519,Memoization is:,Top-down approach,Bottom-up approach,Recursive approach,Iterative approach,A,Tree,Advanced
+520,Tabulation is:,Top-down DP,Bottom-up DP,Recursive,None,B,BST,Advanced
+521,Backtracking is used for:,N-Queens problem,Sudoku solver,Maze solving,All,D,AVL Tree,Advanced
+522,Time complexity of backtracking can be:,O(n),O(n!),O(2^n),All of above,D,Heap,Advanced
+523,KMP algorithm is used for:,Pattern matching,Sorting,Searching,Hashing,A,Graph,Advanced
+524,Time complexity of KMP is:,O(n + m),O(n * m),O(n log m),O(m log n),A,Graph Traversal,Advanced
+525,Rabin-Karp uses which concept?,Hashing,Sorting,Trees,Graphs,A,Shortest Path,Advanced
+526,Greedy algorithms work when problem has:,Optimal substructure,Greedy choice property,Both,Neither,C,MST,Advanced
+527,Activity selection uses:,Greedy,DP,Backtracking,Divide and Conquer,A,Hash Table,Advanced
+528,Merge Sort uses:,Greedy,DP,Divide and Conquer,Backtracking,C,Dynamic Programming,Advanced
+529,Binary Search uses:,Greedy,DP,Divide and Conquer,Backtracking,C,Backtracking,Advanced
+530,Topological sorting is for:,Directed Acyclic Graph,Undirected graph,Weighted graph,Complete graph,A,String Algorithms,Advanced
+531,Strongly Connected Components are found using:,DFS,BFS,Dijkstra,Prim's,A,Greedy,Advanced
+532,What is the time complexity of accessing an element in an array by index?,O(n),O(log n),O(1),O(n²),C,Array,Beginner
+533,Which operation is most efficient in an array?,Insertion at beginning,Deletion from middle,Searching an element,Random access,D,Linked List,Beginner
+534,What is the space complexity of an array of size n?,O(1),O(log n),O(n),O(n²),C,Stack,Beginner
+535,What is the time complexity of inserting an element at the beginning of a singly linked list?,O(1),O(n),O(log n),O(n²),A,Queue,Beginner
+536,"In a doubly linked list, each node contains how many pointers?",1,2,3,4,B,Sorting,Beginner
+537,Time complexity of searching in an unsorted linked list is:,O(1),O(log n),O(n),O(n²),C,Searching,Beginner
+538,Which data structure follows LIFO principle?,Queue,Stack,Tree,Graph,B,Tree,Beginner
+539,What is the time complexity of push and pop operations in a stack?,O(n),O(log n),O(1),O(n²),C,BST,Beginner
+540,In which application is stack NOT used?,Function call management,Expression evaluation,BFS traversal,Undo/Redo functionality,C,AVL Tree,Beginner
+541,Which data structure follows FIFO principle?,Stack,Queue,Deque,Heap,B,Heap,Beginner
+542,What is the time complexity of enqueue and dequeue in a simple queue?,O(n),O(1),O(log n),O(n²),B,Graph,Beginner
+543,A circular queue is better than a simple queue because:,It uses less memory,It avoids the wastage of space,It is faster,It requires less code,B,Graph Traversal,Beginner
+544,What is the average time complexity of Quick Sort?,O(n),O(n log n),O(n²),O(2^n),B,Shortest Path,Intermediate
+545,Which sorting algorithm is stable?,Quick Sort,Heap Sort,Merge Sort,Selection Sort,C,MST,Intermediate
+546,Merge Sort has a time complexity of:,O(n),O(n log n),O(n²),O(n³),B,Hash Table,Intermediate
+547,Bubble Sort is efficient for which case?,Already sorted data,Reverse sorted data,Random data,Large datasets,A,Dynamic Programming,Intermediate
+548,What is the space complexity of Quick Sort?,O(1),O(log n),O(n),O(n²),B,Backtracking,Intermediate
+549,Binary Search works on which type of array?,Unsorted,Sorted,Partially sorted,None of above,B,String Algorithms,Intermediate
+550,Time complexity of Binary Search is:,O(n),O(log n),O(n log n),O(n²),B,Greedy,Intermediate
+551,Linear Search has a time complexity of:,O(1),O(log n),O(n),O(n²),C,Divide and Conquer,Intermediate
+552,What is a binary tree?,Tree with max 2 children,Tree with exactly 2 children,Tree with 3 children,Tree with 4 children,A,Array,Intermediate
+553,Height of a tree with single node is:,0,1,2,-1,A,Linked List,Intermediate
+554,What is the maximum number of nodes in a binary tree of height h?,2^h - 1,2^(h+1) - 1,2^h,h²,B,Stack,Intermediate
+555,"In a BST, for any node, left child is:",Greater than parent,Less than parent,Equal to parent,Any value,B,Queue,Intermediate
+556,Time complexity of searching in a balanced BST is:,O(1),O(log n),O(n),O(n²),B,Sorting,Intermediate
+557,Inorder traversal of a BST gives:,Sorted array,Reverse sorted array,Random order,Heap order,A,Searching,Intermediate
+558,AVL tree is a:,Unbalanced BST,Self-balancing BST,Complete tree,Perfect tree,B,Tree,Intermediate
+559,Balance factor in AVL tree is defined as:,Left height - Right height,Right height - Left height,Left height + Right height,Left height / Right height,A,BST,Intermediate
+560,Height of an AVL tree with n nodes is:,O(n),O(log n),O(n log n),O(n²),B,AVL Tree,Intermediate
+561,"In a min heap, the smallest element is at:",Leaf,Root,Middle,Random,B,Heap,Intermediate
+562,Time complexity of insertion in a heap is:,O(1),O(log n),O(n),O(n²),B,Graph,Advanced
+563,Heap sort time complexity is:,O(n),O(n log n),O(n²),O(2^n),B,Graph Traversal,Advanced
+564,Adjacency matrix representation requires space of:,O(V),O(E),O(V²),O(V + E),C,Shortest Path,Advanced
+565,Adjacency list representation requires space of:,O(V),O(V²),O(E),O(V + E),D,MST,Advanced
+566,DFS uses which data structure?,Queue,Stack,Deque,Heap,B,Hash Table,Advanced
+567,BFS uses which data structure?,Stack,Queue,Priority Queue,Deque,B,Dynamic Programming,Advanced
+568,Time complexity of DFS and BFS is:,O(n),O(V + E),O(V²),O(E log V),B,Backtracking,Advanced
+569,Dijkstra's algorithm is used for:,Negative weights,Positive weights,Unweighted graphs,None,B,String Algorithms,Advanced
+570,Bellman-Ford can handle:,Only positive weights,Negative weights,Negative cycles,All graphs,B,Greedy,Advanced
+571,Floyd-Warshall finds:,Shortest path between two nodes,All pairs shortest path,Minimum spanning tree,Topological sort,B,Divide and Conquer,Advanced
+572,Kruskal's algorithm uses which approach?,Dynamic Programming,Greedy,Divide and Conquer,Backtracking,B,Array,Advanced
+573,Prim's algorithm starts from:,A random vertex,A specific vertex,The minimum edge,None,B,Linked List,Advanced
+574,Time complexity of Kruskal's algorithm is:,O(E log E),O(V log V),O(V + E),O(V²),A,Stack,Advanced
+575,Hash table provides average time complexity of:,O(log n),O(n),O(1),O(n²),C,Queue,Advanced
+576,Collision resolution technique is:,Linear Probing,Chaining,Double Hashing,All of above,D,Sorting,Advanced
+577,DP is used when a problem has:,Overlapping subproblems,Optimal substructure,Both,Neither,C,Searching,Advanced
+578,Memoization is:,Top-down approach,Bottom-up approach,Recursive approach,Iterative approach,A,Tree,Advanced
+579,Tabulation is:,Top-down DP,Bottom-up DP,Recursive,None,B,BST,Advanced
+580,Backtracking is used for:,N-Queens problem,Sudoku solver,Maze solving,All,D,AVL Tree,Advanced
+581,Time complexity of backtracking can be:,O(n),O(n!),O(2^n),All of above,D,Heap,Advanced
+582,KMP algorithm is used for:,Pattern matching,Sorting,Searching,Hashing,A,Graph,Advanced
+583,Time complexity of KMP is:,O(n + m),O(n * m),O(n log m),O(m log n),A,Graph Traversal,Advanced
+584,Rabin-Karp uses which concept?,Hashing,Sorting,Trees,Graphs,A,Shortest Path,Advanced
+585,Greedy algorithms work when problem has:,Optimal substructure,Greedy choice property,Both,Neither,C,MST,Advanced
+586,Activity selection uses:,Greedy,DP,Backtracking,Divide and Conquer,A,Hash Table,Advanced
+587,Merge Sort uses:,Greedy,DP,Divide and Conquer,Backtracking,C,Dynamic Programming,Advanced
+588,Binary Search uses:,Greedy,DP,Divide and Conquer,Backtracking,C,Backtracking,Advanced
+589,Topological sorting is for:,Directed Acyclic Graph,Undirected graph,Weighted graph,Complete graph,A,String Algorithms,Advanced
+590,Strongly Connected Components are found using:,DFS,BFS,Dijkstra,Prim's,A,Greedy,Advanced
+591,What is the time complexity of accessing an element in an array by index?,O(n),O(log n),O(1),O(n²),C,Array,Beginner
+592,Which operation is most efficient in an array?,Insertion at beginning,Deletion from middle,Searching an element,Random access,D,Linked List,Beginner
+593,What is the space complexity of an array of size n?,O(1),O(log n),O(n),O(n²),C,Stack,Beginner
+594,What is the time complexity of inserting an element at the beginning of a singly linked list?,O(1),O(n),O(log n),O(n²),A,Queue,Beginner
+595,"In a doubly linked list, each node contains how many pointers?",1,2,3,4,B,Sorting,Beginner
+596,Time complexity of searching in an unsorted linked list is:,O(1),O(log n),O(n),O(n²),C,Searching,Beginner
+597,Which data structure follows LIFO principle?,Queue,Stack,Tree,Graph,B,Tree,Beginner
+598,What is the time complexity of push and pop operations in a stack?,O(n),O(log n),O(1),O(n²),C,BST,Beginner
+599,In which application is stack NOT used?,Function call management,Expression evaluation,BFS traversal,Undo/Redo functionality,C,AVL Tree,Beginner
+600,Which data structure follows FIFO principle?,Stack,Queue,Deque,Heap,B,Heap,Beginner
+601,What is the time complexity of enqueue and dequeue in a simple queue?,O(n),O(1),O(log n),O(n²),B,Graph,Beginner
+602,A circular queue is better than a simple queue because:,It uses less memory,It avoids the wastage of space,It is faster,It requires less code,B,Graph Traversal,Beginner
+603,What is the average time complexity of Quick Sort?,O(n),O(n log n),O(n²),O(2^n),B,Shortest Path,Intermediate
+604,Which sorting algorithm is stable?,Quick Sort,Heap Sort,Merge Sort,Selection Sort,C,MST,Intermediate
+605,Merge Sort has a time complexity of:,O(n),O(n log n),O(n²),O(n³),B,Hash Table,Intermediate
+606,Bubble Sort is efficient for which case?,Already sorted data,Reverse sorted data,Random data,Large datasets,A,Dynamic Programming,Intermediate
+607,What is the space complexity of Quick Sort?,O(1),O(log n),O(n),O(n²),B,Backtracking,Intermediate
+608,Binary Search works on which type of array?,Unsorted,Sorted,Partially sorted,None of above,B,String Algorithms,Intermediate
+609,Time complexity of Binary Search is:,O(n),O(log n),O(n log n),O(n²),B,Greedy,Intermediate
+610,Linear Search has a time complexity of:,O(1),O(log n),O(n),O(n²),C,Divide and Conquer,Intermediate
+611,What is a binary tree?,Tree with max 2 children,Tree with exactly 2 children,Tree with 3 children,Tree with 4 children,A,Array,Intermediate
+612,Height of a tree with single node is:,0,1,2,-1,A,Linked List,Intermediate
+613,What is the maximum number of nodes in a binary tree of height h?,2^h - 1,2^(h+1) - 1,2^h,h²,B,Stack,Intermediate
+614,"In a BST, for any node, left child is:",Greater than parent,Less than parent,Equal to parent,Any value,B,Queue,Intermediate
+615,Time complexity of searching in a balanced BST is:,O(1),O(log n),O(n),O(n²),B,Sorting,Intermediate
+616,Inorder traversal of a BST gives:,Sorted array,Reverse sorted array,Random order,Heap order,A,Searching,Intermediate
+617,AVL tree is a:,Unbalanced BST,Self-balancing BST,Complete tree,Perfect tree,B,Tree,Intermediate
+618,Balance factor in AVL tree is defined as:,Left height - Right height,Right height - Left height,Left height + Right height,Left height / Right height,A,BST,Intermediate
+619,Height of an AVL tree with n nodes is:,O(n),O(log n),O(n log n),O(n²),B,AVL Tree,Intermediate
+620,"In a min heap, the smallest element is at:",Leaf,Root,Middle,Random,B,Heap,Intermediate
+621,Time complexity of insertion in a heap is:,O(1),O(log n),O(n),O(n²),B,Graph,Advanced
+622,Heap sort time complexity is:,O(n),O(n log n),O(n²),O(2^n),B,Graph Traversal,Advanced
+623,Adjacency matrix representation requires space of:,O(V),O(E),O(V²),O(V + E),C,Shortest Path,Advanced
+624,Adjacency list representation requires space of:,O(V),O(V²),O(E),O(V + E),D,MST,Advanced
+625,DFS uses which data structure?,Queue,Stack,Deque,Heap,B,Hash Table,Advanced
+626,BFS uses which data structure?,Stack,Queue,Priority Queue,Deque,B,Dynamic Programming,Advanced
+627,Time complexity of DFS and BFS is:,O(n),O(V + E),O(V²),O(E log V),B,Backtracking,Advanced
+628,Dijkstra's algorithm is used for:,Negative weights,Positive weights,Unweighted graphs,None,B,String Algorithms,Advanced
+629,Bellman-Ford can handle:,Only positive weights,Negative weights,Negative cycles,All graphs,B,Greedy,Advanced
+630,Floyd-Warshall finds:,Shortest path between two nodes,All pairs shortest path,Minimum spanning tree,Topological sort,B,Divide and Conquer,Advanced
+631,Kruskal's algorithm uses which approach?,Dynamic Programming,Greedy,Divide and Conquer,Backtracking,B,Array,Advanced
+632,Prim's algorithm starts from:,A random vertex,A specific vertex,The minimum edge,None,B,Linked List,Advanced
+633,Time complexity of Kruskal's algorithm is:,O(E log E),O(V log V),O(V + E),O(V²),A,Stack,Advanced
+634,Hash table provides average time complexity of:,O(log n),O(n),O(1),O(n²),C,Queue,Advanced
+635,Collision resolution technique is:,Linear Probing,Chaining,Double Hashing,All of above,D,Sorting,Advanced
+636,DP is used when a problem has:,Overlapping subproblems,Optimal substructure,Both,Neither,C,Searching,Advanced
+637,Memoization is:,Top-down approach,Bottom-up approach,Recursive approach,Iterative approach,A,Tree,Advanced
+638,Tabulation is:,Top-down DP,Bottom-up DP,Recursive,None,B,BST,Advanced
+639,Backtracking is used for:,N-Queens problem,Sudoku solver,Maze solving,All,D,AVL Tree,Advanced
+640,Time complexity of backtracking can be:,O(n),O(n!),O(2^n),All of above,D,Heap,Advanced
+641,KMP algorithm is used for:,Pattern matching,Sorting,Searching,Hashing,A,Graph,Advanced
+642,Time complexity of KMP is:,O(n + m),O(n * m),O(n log m),O(m log n),A,Graph Traversal,Advanced
+643,Rabin-Karp uses which concept?,Hashing,Sorting,Trees,Graphs,A,Shortest Path,Advanced
+644,Greedy algorithms work when problem has:,Optimal substructure,Greedy choice property,Both,Neither,C,MST,Advanced
+645,Activity selection uses:,Greedy,DP,Backtracking,Divide and Conquer,A,Hash Table,Advanced
+646,Merge Sort uses:,Greedy,DP,Divide and Conquer,Backtracking,C,Dynamic Programming,Advanced
+647,Binary Search uses:,Greedy,DP,Divide and Conquer,Backtracking,C,Backtracking,Advanced
+648,Topological sorting is for:,Directed Acyclic Graph,Undirected graph,Weighted graph,Complete graph,A,String Algorithms,Advanced
+649,Strongly Connected Components are found using:,DFS,BFS,Dijkstra,Prim's,A,Greedy,Advanced
+650,What is the time complexity of accessing an element in an array by index?,O(n),O(log n),O(1),O(n²),C,Array,Beginner
+651,Which operation is most efficient in an array?,Insertion at beginning,Deletion from middle,Searching an element,Random access,D,Linked List,Beginner
+652,What is the space complexity of an array of size n?,O(1),O(log n),O(n),O(n²),C,Stack,Beginner
+653,What is the time complexity of inserting an element at the beginning of a singly linked list?,O(1),O(n),O(log n),O(n²),A,Queue,Beginner
+654,"In a doubly linked list, each node contains how many pointers?",1,2,3,4,B,Sorting,Beginner
+655,Time complexity of searching in an unsorted linked list is:,O(1),O(log n),O(n),O(n²),C,Searching,Beginner
+656,Which data structure follows LIFO principle?,Queue,Stack,Tree,Graph,B,Tree,Beginner
+657,What is the time complexity of push and pop operations in a stack?,O(n),O(log n),O(1),O(n²),C,BST,Beginner
+658,In which application is stack NOT used?,Function call management,Expression evaluation,BFS traversal,Undo/Redo functionality,C,AVL Tree,Beginner
+659,Which data structure follows FIFO principle?,Stack,Queue,Deque,Heap,B,Heap,Beginner
+660,What is the time complexity of enqueue and dequeue in a simple queue?,O(n),O(1),O(log n),O(n²),B,Graph,Beginner
+661,A circular queue is better than a simple queue because:,It uses less memory,It avoids the wastage of space,It is faster,It requires less code,B,Graph Traversal,Beginner
+662,What is the average time complexity of Quick Sort?,O(n),O(n log n),O(n²),O(2^n),B,Shortest Path,Intermediate
+663,Which sorting algorithm is stable?,Quick Sort,Heap Sort,Merge Sort,Selection Sort,C,MST,Intermediate
+664,Merge Sort has a time complexity of:,O(n),O(n log n),O(n²),O(n³),B,Hash Table,Intermediate
+665,Bubble Sort is efficient for which case?,Already sorted data,Reverse sorted data,Random data,Large datasets,A,Dynamic Programming,Intermediate
+666,What is the space complexity of Quick Sort?,O(1),O(log n),O(n),O(n²),B,Backtracking,Intermediate
+667,Binary Search works on which type of array?,Unsorted,Sorted,Partially sorted,None of above,B,String Algorithms,Intermediate
+668,Time complexity of Binary Search is:,O(n),O(log n),O(n log n),O(n²),B,Greedy,Intermediate
+669,Linear Search has a time complexity of:,O(1),O(log n),O(n),O(n²),C,Divide and Conquer,Intermediate
+670,What is a binary tree?,Tree with max 2 children,Tree with exactly 2 children,Tree with 3 children,Tree with 4 children,A,Array,Intermediate
+671,Height of a tree with single node is:,0,1,2,-1,A,Linked List,Intermediate
+672,What is the maximum number of nodes in a binary tree of height h?,2^h - 1,2^(h+1) - 1,2^h,h²,B,Stack,Intermediate
+673,"In a BST, for any node, left child is:",Greater than parent,Less than parent,Equal to parent,Any value,B,Queue,Intermediate
+674,Time complexity of searching in a balanced BST is:,O(1),O(log n),O(n),O(n²),B,Sorting,Intermediate
+675,Inorder traversal of a BST gives:,Sorted array,Reverse sorted array,Random order,Heap order,A,Searching,Intermediate
+676,AVL tree is a:,Unbalanced BST,Self-balancing BST,Complete tree,Perfect tree,B,Tree,Intermediate
+677,Balance factor in AVL tree is defined as:,Left height - Right height,Right height - Left height,Left height + Right height,Left height / Right height,A,BST,Intermediate
+678,Height of an AVL tree with n nodes is:,O(n),O(log n),O(n log n),O(n²),B,AVL Tree,Intermediate
+679,"In a min heap, the smallest element is at:",Leaf,Root,Middle,Random,B,Heap,Intermediate
+680,Time complexity of insertion in a heap is:,O(1),O(log n),O(n),O(n²),B,Graph,Advanced
+681,Heap sort time complexity is:,O(n),O(n log n),O(n²),O(2^n),B,Graph Traversal,Advanced
+682,Adjacency matrix representation requires space of:,O(V),O(E),O(V²),O(V + E),C,Shortest Path,Advanced
+683,Adjacency list representation requires space of:,O(V),O(V²),O(E),O(V + E),D,MST,Advanced
+684,DFS uses which data structure?,Queue,Stack,Deque,Heap,B,Hash Table,Advanced
+685,BFS uses which data structure?,Stack,Queue,Priority Queue,Deque,B,Dynamic Programming,Advanced
+686,Time complexity of DFS and BFS is:,O(n),O(V + E),O(V²),O(E log V),B,Backtracking,Advanced
+687,Dijkstra's algorithm is used for:,Negative weights,Positive weights,Unweighted graphs,None,B,String Algorithms,Advanced
+688,Bellman-Ford can handle:,Only positive weights,Negative weights,Negative cycles,All graphs,B,Greedy,Advanced
+689,Floyd-Warshall finds:,Shortest path between two nodes,All pairs shortest path,Minimum spanning tree,Topological sort,B,Divide and Conquer,Advanced
+690,Kruskal's algorithm uses which approach?,Dynamic Programming,Greedy,Divide and Conquer,Backtracking,B,Array,Advanced
+691,Prim's algorithm starts from:,A random vertex,A specific vertex,The minimum edge,None,B,Linked List,Advanced
+692,Time complexity of Kruskal's algorithm is:,O(E log E),O(V log V),O(V + E),O(V²),A,Stack,Advanced
+693,Hash table provides average time complexity of:,O(log n),O(n),O(1),O(n²),C,Queue,Advanced
+694,Collision resolution technique is:,Linear Probing,Chaining,Double Hashing,All of above,D,Sorting,Advanced
+695,DP is used when a problem has:,Overlapping subproblems,Optimal substructure,Both,Neither,C,Searching,Advanced
+696,Memoization is:,Top-down approach,Bottom-up approach,Recursive approach,Iterative approach,A,Tree,Advanced
+697,Tabulation is:,Top-down DP,Bottom-up DP,Recursive,None,B,BST,Advanced
+698,Backtracking is used for:,N-Queens problem,Sudoku solver,Maze solving,All,D,AVL Tree,Advanced
+699,Time complexity of backtracking can be:,O(n),O(n!),O(2^n),All of above,D,Heap,Advanced
+700,KMP algorithm is used for:,Pattern matching,Sorting,Searching,Hashing,A,Graph,Advanced
+701,Time complexity of KMP is:,O(n + m),O(n * m),O(n log m),O(m log n),A,Graph Traversal,Advanced
+702,Rabin-Karp uses which concept?,Hashing,Sorting,Trees,Graphs,A,Shortest Path,Advanced
+703,Greedy algorithms work when problem has:,Optimal substructure,Greedy choice property,Both,Neither,C,MST,Advanced
+704,Activity selection uses:,Greedy,DP,Backtracking,Divide and Conquer,A,Hash Table,Advanced
+705,Merge Sort uses:,Greedy,DP,Divide and Conquer,Backtracking,C,Dynamic Programming,Advanced
+706,Binary Search uses:,Greedy,DP,Divide and Conquer,Backtracking,C,Backtracking,Advanced
+707,Topological sorting is for:,Directed Acyclic Graph,Undirected graph,Weighted graph,Complete graph,A,String Algorithms,Advanced
+708,Strongly Connected Components are found using:,DFS,BFS,Dijkstra,Prim's,A,Greedy,Advanced
+709,What is the time complexity of accessing an element in an array by index?,O(n),O(log n),O(1),O(n²),C,Array,Beginner
+710,Which operation is most efficient in an array?,Insertion at beginning,Deletion from middle,Searching an element,Random access,D,Linked List,Beginner
+711,What is the space complexity of an array of size n?,O(1),O(log n),O(n),O(n²),C,Stack,Beginner
+712,What is the time complexity of inserting an element at the beginning of a singly linked list?,O(1),O(n),O(log n),O(n²),A,Queue,Beginner
+713,"In a doubly linked list, each node contains how many pointers?",1,2,3,4,B,Sorting,Beginner
+714,Time complexity of searching in an unsorted linked list is:,O(1),O(log n),O(n),O(n²),C,Searching,Beginner
+715,Which data structure follows LIFO principle?,Queue,Stack,Tree,Graph,B,Tree,Beginner
+716,What is the time complexity of push and pop operations in a stack?,O(n),O(log n),O(1),O(n²),C,BST,Beginner
+717,In which application is stack NOT used?,Function call management,Expression evaluation,BFS traversal,Undo/Redo functionality,C,AVL Tree,Beginner
+718,Which data structure follows FIFO principle?,Stack,Queue,Deque,Heap,B,Heap,Beginner
+719,What is the time complexity of enqueue and dequeue in a simple queue?,O(n),O(1),O(log n),O(n²),B,Graph,Beginner
+720,A circular queue is better than a simple queue because:,It uses less memory,It avoids the wastage of space,It is faster,It requires less code,B,Graph Traversal,Beginner
+721,What is the average time complexity of Quick Sort?,O(n),O(n log n),O(n²),O(2^n),B,Shortest Path,Intermediate
+722,Which sorting algorithm is stable?,Quick Sort,Heap Sort,Merge Sort,Selection Sort,C,MST,Intermediate
+723,Merge Sort has a time complexity of:,O(n),O(n log n),O(n²),O(n³),B,Hash Table,Intermediate
+724,Bubble Sort is efficient for which case?,Already sorted data,Reverse sorted data,Random data,Large datasets,A,Dynamic Programming,Intermediate
+725,What is the space complexity of Quick Sort?,O(1),O(log n),O(n),O(n²),B,Backtracking,Intermediate
+726,Binary Search works on which type of array?,Unsorted,Sorted,Partially sorted,None of above,B,String Algorithms,Intermediate
+727,Time complexity of Binary Search is:,O(n),O(log n),O(n log n),O(n²),B,Greedy,Intermediate
+728,Linear Search has a time complexity of:,O(1),O(log n),O(n),O(n²),C,Divide and Conquer,Intermediate
+729,What is a binary tree?,Tree with max 2 children,Tree with exactly 2 children,Tree with 3 children,Tree with 4 children,A,Array,Intermediate
+730,Height of a tree with single node is:,0,1,2,-1,A,Linked List,Intermediate
+731,What is the maximum number of nodes in a binary tree of height h?,2^h - 1,2^(h+1) - 1,2^h,h²,B,Stack,Intermediate
+732,"In a BST, for any node, left child is:",Greater than parent,Less than parent,Equal to parent,Any value,B,Queue,Intermediate
+733,Time complexity of searching in a balanced BST is:,O(1),O(log n),O(n),O(n²),B,Sorting,Intermediate
+734,Inorder traversal of a BST gives:,Sorted array,Reverse sorted array,Random order,Heap order,A,Searching,Intermediate
+735,AVL tree is a:,Unbalanced BST,Self-balancing BST,Complete tree,Perfect tree,B,Tree,Intermediate
+736,Balance factor in AVL tree is defined as:,Left height - Right height,Right height - Left height,Left height + Right height,Left height / Right height,A,BST,Intermediate
+737,Height of an AVL tree with n nodes is:,O(n),O(log n),O(n log n),O(n²),B,AVL Tree,Intermediate
+738,"In a min heap, the smallest element is at:",Leaf,Root,Middle,Random,B,Heap,Intermediate
+739,Time complexity of insertion in a heap is:,O(1),O(log n),O(n),O(n²),B,Graph,Advanced
+740,Heap sort time complexity is:,O(n),O(n log n),O(n²),O(2^n),B,Graph Traversal,Advanced
+741,Adjacency matrix representation requires space of:,O(V),O(E),O(V²),O(V + E),C,Shortest Path,Advanced
+742,Adjacency list representation requires space of:,O(V),O(V²),O(E),O(V + E),D,MST,Advanced
+743,DFS uses which data structure?,Queue,Stack,Deque,Heap,B,Hash Table,Advanced
+744,BFS uses which data structure?,Stack,Queue,Priority Queue,Deque,B,Dynamic Programming,Advanced
+745,Time complexity of DFS and BFS is:,O(n),O(V + E),O(V²),O(E log V),B,Backtracking,Advanced
+746,Dijkstra's algorithm is used for:,Negative weights,Positive weights,Unweighted graphs,None,B,String Algorithms,Advanced
+747,Bellman-Ford can handle:,Only positive weights,Negative weights,Negative cycles,All graphs,B,Greedy,Advanced
+748,Floyd-Warshall finds:,Shortest path between two nodes,All pairs shortest path,Minimum spanning tree,Topological sort,B,Divide and Conquer,Advanced
+749,Kruskal's algorithm uses which approach?,Dynamic Programming,Greedy,Divide and Conquer,Backtracking,B,Array,Advanced
+750,Prim's algorithm starts from:,A random vertex,A specific vertex,The minimum edge,None,B,Linked List,Advanced
+751,Time complexity of Kruskal's algorithm is:,O(E log E),O(V log V),O(V + E),O(V²),A,Stack,Advanced
+752,Hash table provides average time complexity of:,O(log n),O(n),O(1),O(n²),C,Queue,Advanced
+753,Collision resolution technique is:,Linear Probing,Chaining,Double Hashing,All of above,D,Sorting,Advanced
+754,DP is used when a problem has:,Overlapping subproblems,Optimal substructure,Both,Neither,C,Searching,Advanced
+755,Memoization is:,Top-down approach,Bottom-up approach,Recursive approach,Iterative approach,A,Tree,Advanced
+756,Tabulation is:,Top-down DP,Bottom-up DP,Recursive,None,B,BST,Advanced
+757,Backtracking is used for:,N-Queens problem,Sudoku solver,Maze solving,All,D,AVL Tree,Advanced
+758,Time complexity of backtracking can be:,O(n),O(n!),O(2^n),All of above,D,Heap,Advanced
+759,KMP algorithm is used for:,Pattern matching,Sorting,Searching,Hashing,A,Graph,Advanced
+760,Time complexity of KMP is:,O(n + m),O(n * m),O(n log m),O(m log n),A,Graph Traversal,Advanced
+761,Rabin-Karp uses which concept?,Hashing,Sorting,Trees,Graphs,A,Shortest Path,Advanced
+762,Greedy algorithms work when problem has:,Optimal substructure,Greedy choice property,Both,Neither,C,MST,Advanced
+763,Activity selection uses:,Greedy,DP,Backtracking,Divide and Conquer,A,Hash Table,Advanced
+764,Merge Sort uses:,Greedy,DP,Divide and Conquer,Backtracking,C,Dynamic Programming,Advanced
+765,Binary Search uses:,Greedy,DP,Divide and Conquer,Backtracking,C,Backtracking,Advanced
+766,Topological sorting is for:,Directed Acyclic Graph,Undirected graph,Weighted graph,Complete graph,A,String Algorithms,Advanced
+767,Strongly Connected Components are found using:,DFS,BFS,Dijkstra,Prim's,A,Greedy,Advanced
+768,What is the time complexity of accessing an element in an array by index?,O(n),O(log n),O(1),O(n²),C,Array,Beginner
+769,Which operation is most efficient in an array?,Insertion at beginning,Deletion from middle,Searching an element,Random access,D,Linked List,Beginner
+770,What is the space complexity of an array of size n?,O(1),O(log n),O(n),O(n²),C,Stack,Beginner
+771,What is the time complexity of inserting an element at the beginning of a singly linked list?,O(1),O(n),O(log n),O(n²),A,Queue,Beginner
+772,"In a doubly linked list, each node contains how many pointers?",1,2,3,4,B,Sorting,Beginner
+773,Time complexity of searching in an unsorted linked list is:,O(1),O(log n),O(n),O(n²),C,Searching,Beginner
+774,Which data structure follows LIFO principle?,Queue,Stack,Tree,Graph,B,Tree,Beginner
+775,What is the time complexity of push and pop operations in a stack?,O(n),O(log n),O(1),O(n²),C,BST,Beginner
+776,In which application is stack NOT used?,Function call management,Expression evaluation,BFS traversal,Undo/Redo functionality,C,AVL Tree,Beginner
+777,Which data structure follows FIFO principle?,Stack,Queue,Deque,Heap,B,Heap,Beginner
+778,What is the time complexity of enqueue and dequeue in a simple queue?,O(n),O(1),O(log n),O(n²),B,Graph,Beginner
+779,A circular queue is better than a simple queue because:,It uses less memory,It avoids the wastage of space,It is faster,It requires less code,B,Graph Traversal,Beginner
+780,What is the average time complexity of Quick Sort?,O(n),O(n log n),O(n²),O(2^n),B,Shortest Path,Intermediate
+781,Which sorting algorithm is stable?,Quick Sort,Heap Sort,Merge Sort,Selection Sort,C,MST,Intermediate
+782,Merge Sort has a time complexity of:,O(n),O(n log n),O(n²),O(n³),B,Hash Table,Intermediate
+783,Bubble Sort is efficient for which case?,Already sorted data,Reverse sorted data,Random data,Large datasets,A,Dynamic Programming,Intermediate
+784,What is the space complexity of Quick Sort?,O(1),O(log n),O(n),O(n²),B,Backtracking,Intermediate
+785,Binary Search works on which type of array?,Unsorted,Sorted,Partially sorted,None of above,B,String Algorithms,Intermediate
+786,Time complexity of Binary Search is:,O(n),O(log n),O(n log n),O(n²),B,Greedy,Intermediate
+787,Linear Search has a time complexity of:,O(1),O(log n),O(n),O(n²),C,Divide and Conquer,Intermediate
+788,What is a binary tree?,Tree with max 2 children,Tree with exactly 2 children,Tree with 3 children,Tree with 4 children,A,Array,Intermediate
+789,Height of a tree with single node is:,0,1,2,-1,A,Linked List,Intermediate
+790,What is the maximum number of nodes in a binary tree of height h?,2^h - 1,2^(h+1) - 1,2^h,h²,B,Stack,Intermediate
+791,"In a BST, for any node, left child is:",Greater than parent,Less than parent,Equal to parent,Any value,B,Queue,Intermediate
+792,Time complexity of searching in a balanced BST is:,O(1),O(log n),O(n),O(n²),B,Sorting,Intermediate
+793,Inorder traversal of a BST gives:,Sorted array,Reverse sorted array,Random order,Heap order,A,Searching,Intermediate
+794,AVL tree is a:,Unbalanced BST,Self-balancing BST,Complete tree,Perfect tree,B,Tree,Intermediate
+795,Balance factor in AVL tree is defined as:,Left height - Right height,Right height - Left height,Left height + Right height,Left height / Right height,A,BST,Intermediate
+796,Height of an AVL tree with n nodes is:,O(n),O(log n),O(n log n),O(n²),B,AVL Tree,Intermediate
+797,"In a min heap, the smallest element is at:",Leaf,Root,Middle,Random,B,Heap,Intermediate
+798,Time complexity of insertion in a heap is:,O(1),O(log n),O(n),O(n²),B,Graph,Advanced
+799,Heap sort time complexity is:,O(n),O(n log n),O(n²),O(2^n),B,Graph Traversal,Advanced
+800,Adjacency matrix representation requires space of:,O(V),O(E),O(V²),O(V + E),C,Shortest Path,Advanced
+801,Adjacency list representation requires space of:,O(V),O(V²),O(E),O(V + E),D,MST,Advanced
+802,DFS uses which data structure?,Queue,Stack,Deque,Heap,B,Hash Table,Advanced
+803,BFS uses which data structure?,Stack,Queue,Priority Queue,Deque,B,Dynamic Programming,Advanced
+804,Time complexity of DFS and BFS is:,O(n),O(V + E),O(V²),O(E log V),B,Backtracking,Advanced
+805,Dijkstra's algorithm is used for:,Negative weights,Positive weights,Unweighted graphs,None,B,String Algorithms,Advanced
+806,Bellman-Ford can handle:,Only positive weights,Negative weights,Negative cycles,All graphs,B,Greedy,Advanced
+807,Floyd-Warshall finds:,Shortest path between two nodes,All pairs shortest path,Minimum spanning tree,Topological sort,B,Divide and Conquer,Advanced
+808,Kruskal's algorithm uses which approach?,Dynamic Programming,Greedy,Divide and Conquer,Backtracking,B,Array,Advanced
+809,Prim's algorithm starts from:,A random vertex,A specific vertex,The minimum edge,None,B,Linked List,Advanced
+810,Time complexity of Kruskal's algorithm is:,O(E log E),O(V log V),O(V + E),O(V²),A,Stack,Advanced
+811,Hash table provides average time complexity of:,O(log n),O(n),O(1),O(n²),C,Queue,Advanced
+812,Collision resolution technique is:,Linear Probing,Chaining,Double Hashing,All of above,D,Sorting,Advanced
+813,DP is used when a problem has:,Overlapping subproblems,Optimal substructure,Both,Neither,C,Searching,Advanced
+814,Memoization is:,Top-down approach,Bottom-up approach,Recursive approach,Iterative approach,A,Tree,Advanced
+815,Tabulation is:,Top-down DP,Bottom-up DP,Recursive,None,B,BST,Advanced
+816,Backtracking is used for:,N-Queens problem,Sudoku solver,Maze solving,All,D,AVL Tree,Advanced
+817,Time complexity of backtracking can be:,O(n),O(n!),O(2^n),All of above,D,Heap,Advanced
+818,KMP algorithm is used for:,Pattern matching,Sorting,Searching,Hashing,A,Graph,Advanced
+819,Time complexity of KMP is:,O(n + m),O(n * m),O(n log m),O(m log n),A,Graph Traversal,Advanced
+820,Rabin-Karp uses which concept?,Hashing,Sorting,Trees,Graphs,A,Shortest Path,Advanced
+821,Greedy algorithms work when problem has:,Optimal substructure,Greedy choice property,Both,Neither,C,MST,Advanced
+822,Activity selection uses:,Greedy,DP,Backtracking,Divide and Conquer,A,Hash Table,Advanced
+823,Merge Sort uses:,Greedy,DP,Divide and Conquer,Backtracking,C,Dynamic Programming,Advanced
+824,Binary Search uses:,Greedy,DP,Divide and Conquer,Backtracking,C,Backtracking,Advanced
+825,Topological sorting is for:,Directed Acyclic Graph,Undirected graph,Weighted graph,Complete graph,A,String Algorithms,Advanced
+826,Strongly Connected Components are found using:,DFS,BFS,Dijkstra,Prim's,A,Greedy,Advanced
+827,What is the time complexity of accessing an element in an array by index?,O(n),O(log n),O(1),O(n²),C,Array,Beginner
+828,Which operation is most efficient in an array?,Insertion at beginning,Deletion from middle,Searching an element,Random access,D,Linked List,Beginner
+829,What is the space complexity of an array of size n?,O(1),O(log n),O(n),O(n²),C,Stack,Beginner
+830,What is the time complexity of inserting an element at the beginning of a singly linked list?,O(1),O(n),O(log n),O(n²),A,Queue,Beginner
+831,"In a doubly linked list, each node contains how many pointers?",1,2,3,4,B,Sorting,Beginner
+832,Time complexity of searching in an unsorted linked list is:,O(1),O(log n),O(n),O(n²),C,Searching,Beginner
+833,Which data structure follows LIFO principle?,Queue,Stack,Tree,Graph,B,Tree,Beginner
+834,What is the time complexity of push and pop operations in a stack?,O(n),O(log n),O(1),O(n²),C,BST,Beginner
+835,In which application is stack NOT used?,Function call management,Expression evaluation,BFS traversal,Undo/Redo functionality,C,AVL Tree,Beginner
+836,Which data structure follows FIFO principle?,Stack,Queue,Deque,Heap,B,Heap,Beginner
+837,What is the time complexity of enqueue and dequeue in a simple queue?,O(n),O(1),O(log n),O(n²),B,Graph,Beginner
+838,A circular queue is better than a simple queue because:,It uses less memory,It avoids the wastage of space,It is faster,It requires less code,B,Graph Traversal,Beginner
+839,What is the average time complexity of Quick Sort?,O(n),O(n log n),O(n²),O(2^n),B,Shortest Path,Intermediate
+840,Which sorting algorithm is stable?,Quick Sort,Heap Sort,Merge Sort,Selection Sort,C,MST,Intermediate
+841,Merge Sort has a time complexity of:,O(n),O(n log n),O(n²),O(n³),B,Hash Table,Intermediate
+842,Bubble Sort is efficient for which case?,Already sorted data,Reverse sorted data,Random data,Large datasets,A,Dynamic Programming,Intermediate
+843,What is the space complexity of Quick Sort?,O(1),O(log n),O(n),O(n²),B,Backtracking,Intermediate
+844,Binary Search works on which type of array?,Unsorted,Sorted,Partially sorted,None of above,B,String Algorithms,Intermediate
+845,Time complexity of Binary Search is:,O(n),O(log n),O(n log n),O(n²),B,Greedy,Intermediate
+846,Linear Search has a time complexity of:,O(1),O(log n),O(n),O(n²),C,Divide and Conquer,Intermediate
+847,What is a binary tree?,Tree with max 2 children,Tree with exactly 2 children,Tree with 3 children,Tree with 4 children,A,Array,Intermediate
+848,Height of a tree with single node is:,0,1,2,-1,A,Linked List,Intermediate
+849,What is the maximum number of nodes in a binary tree of height h?,2^h - 1,2^(h+1) - 1,2^h,h²,B,Stack,Intermediate
+850,"In a BST, for any node, left child is:",Greater than parent,Less than parent,Equal to parent,Any value,B,Queue,Intermediate
+851,Time complexity of searching in a balanced BST is:,O(1),O(log n),O(n),O(n²),B,Sorting,Intermediate
+852,Inorder traversal of a BST gives:,Sorted array,Reverse sorted array,Random order,Heap order,A,Searching,Intermediate
+853,AVL tree is a:,Unbalanced BST,Self-balancing BST,Complete tree,Perfect tree,B,Tree,Intermediate
+854,Balance factor in AVL tree is defined as:,Left height - Right height,Right height - Left height,Left height + Right height,Left height / Right height,A,BST,Intermediate
+855,Height of an AVL tree with n nodes is:,O(n),O(log n),O(n log n),O(n²),B,AVL Tree,Intermediate
+856,"In a min heap, the smallest element is at:",Leaf,Root,Middle,Random,B,Heap,Intermediate
+857,Time complexity of insertion in a heap is:,O(1),O(log n),O(n),O(n²),B,Graph,Advanced
+858,Heap sort time complexity is:,O(n),O(n log n),O(n²),O(2^n),B,Graph Traversal,Advanced
+859,Adjacency matrix representation requires space of:,O(V),O(E),O(V²),O(V + E),C,Shortest Path,Advanced
+860,Adjacency list representation requires space of:,O(V),O(V²),O(E),O(V + E),D,MST,Advanced
+861,DFS uses which data structure?,Queue,Stack,Deque,Heap,B,Hash Table,Advanced
+862,BFS uses which data structure?,Stack,Queue,Priority Queue,Deque,B,Dynamic Programming,Advanced
+863,Time complexity of DFS and BFS is:,O(n),O(V + E),O(V²),O(E log V),B,Backtracking,Advanced
+864,Dijkstra's algorithm is used for:,Negative weights,Positive weights,Unweighted graphs,None,B,String Algorithms,Advanced
+865,Bellman-Ford can handle:,Only positive weights,Negative weights,Negative cycles,All graphs,B,Greedy,Advanced
+866,Floyd-Warshall finds:,Shortest path between two nodes,All pairs shortest path,Minimum spanning tree,Topological sort,B,Divide and Conquer,Advanced
+867,Kruskal's algorithm uses which approach?,Dynamic Programming,Greedy,Divide and Conquer,Backtracking,B,Array,Advanced
+868,Prim's algorithm starts from:,A random vertex,A specific vertex,The minimum edge,None,B,Linked List,Advanced
+869,Time complexity of Kruskal's algorithm is:,O(E log E),O(V log V),O(V + E),O(V²),A,Stack,Advanced
+870,Hash table provides average time complexity of:,O(log n),O(n),O(1),O(n²),C,Queue,Advanced
+871,Collision resolution technique is:,Linear Probing,Chaining,Double Hashing,All of above,D,Sorting,Advanced
+872,DP is used when a problem has:,Overlapping subproblems,Optimal substructure,Both,Neither,C,Searching,Advanced
+873,Memoization is:,Top-down approach,Bottom-up approach,Recursive approach,Iterative approach,A,Tree,Advanced
+874,Tabulation is:,Top-down DP,Bottom-up DP,Recursive,None,B,BST,Advanced
+875,Backtracking is used for:,N-Queens problem,Sudoku solver,Maze solving,All,D,AVL Tree,Advanced
+876,Time complexity of backtracking can be:,O(n),O(n!),O(2^n),All of above,D,Heap,Advanced
+877,KMP algorithm is used for:,Pattern matching,Sorting,Searching,Hashing,A,Graph,Advanced
+878,Time complexity of KMP is:,O(n + m),O(n * m),O(n log m),O(m log n),A,Graph Traversal,Advanced
+879,Rabin-Karp uses which concept?,Hashing,Sorting,Trees,Graphs,A,Shortest Path,Advanced
+880,Greedy algorithms work when problem has:,Optimal substructure,Greedy choice property,Both,Neither,C,MST,Advanced
+881,Activity selection uses:,Greedy,DP,Backtracking,Divide and Conquer,A,Hash Table,Advanced
+882,Merge Sort uses:,Greedy,DP,Divide and Conquer,Backtracking,C,Dynamic Programming,Advanced
+883,Binary Search uses:,Greedy,DP,Divide and Conquer,Backtracking,C,Backtracking,Advanced
+884,Topological sorting is for:,Directed Acyclic Graph,Undirected graph,Weighted graph,Complete graph,A,String Algorithms,Advanced
+885,Strongly Connected Components are found using:,DFS,BFS,Dijkstra,Prim's,A,Greedy,Advanced
+886,What is the time complexity of accessing an element in an array by index?,O(n),O(log n),O(1),O(n²),C,Array,Beginner
+887,Which operation is most efficient in an array?,Insertion at beginning,Deletion from middle,Searching an element,Random access,D,Linked List,Beginner
+888,What is the space complexity of an array of size n?,O(1),O(log n),O(n),O(n²),C,Stack,Beginner
+889,What is the time complexity of inserting an element at the beginning of a singly linked list?,O(1),O(n),O(log n),O(n²),A,Queue,Beginner
+890,"In a doubly linked list, each node contains how many pointers?",1,2,3,4,B,Sorting,Beginner
+891,Time complexity of searching in an unsorted linked list is:,O(1),O(log n),O(n),O(n²),C,Searching,Beginner
+892,Which data structure follows LIFO principle?,Queue,Stack,Tree,Graph,B,Tree,Beginner
+893,What is the time complexity of push and pop operations in a stack?,O(n),O(log n),O(1),O(n²),C,BST,Beginner
+894,In which application is stack NOT used?,Function call management,Expression evaluation,BFS traversal,Undo/Redo functionality,C,AVL Tree,Beginner
+895,Which data structure follows FIFO principle?,Stack,Queue,Deque,Heap,B,Heap,Beginner
+896,What is the time complexity of enqueue and dequeue in a simple queue?,O(n),O(1),O(log n),O(n²),B,Graph,Beginner
+897,A circular queue is better than a simple queue because:,It uses less memory,It avoids the wastage of space,It is faster,It requires less code,B,Graph Traversal,Beginner
+898,What is the average time complexity of Quick Sort?,O(n),O(n log n),O(n²),O(2^n),B,Shortest Path,Intermediate
+899,Which sorting algorithm is stable?,Quick Sort,Heap Sort,Merge Sort,Selection Sort,C,MST,Intermediate
+900,Merge Sort has a time complexity of:,O(n),O(n log n),O(n²),O(n³),B,Hash Table,Intermediate
+901,Bubble Sort is efficient for which case?,Already sorted data,Reverse sorted data,Random data,Large datasets,A,Dynamic Programming,Intermediate
+902,What is the space complexity of Quick Sort?,O(1),O(log n),O(n),O(n²),B,Backtracking,Intermediate
+903,Binary Search works on which type of array?,Unsorted,Sorted,Partially sorted,None of above,B,String Algorithms,Intermediate
+904,Time complexity of Binary Search is:,O(n),O(log n),O(n log n),O(n²),B,Greedy,Intermediate
+905,Linear Search has a time complexity of:,O(1),O(log n),O(n),O(n²),C,Divide and Conquer,Intermediate
+906,What is a binary tree?,Tree with max 2 children,Tree with exactly 2 children,Tree with 3 children,Tree with 4 children,A,Array,Intermediate
+907,Height of a tree with single node is:,0,1,2,-1,A,Linked List,Intermediate
+908,What is the maximum number of nodes in a binary tree of height h?,2^h - 1,2^(h+1) - 1,2^h,h²,B,Stack,Intermediate
+909,"In a BST, for any node, left child is:",Greater than parent,Less than parent,Equal to parent,Any value,B,Queue,Intermediate
+910,Time complexity of searching in a balanced BST is:,O(1),O(log n),O(n),O(n²),B,Sorting,Intermediate
+911,Inorder traversal of a BST gives:,Sorted array,Reverse sorted array,Random order,Heap order,A,Searching,Intermediate
+912,AVL tree is a:,Unbalanced BST,Self-balancing BST,Complete tree,Perfect tree,B,Tree,Intermediate
+913,Balance factor in AVL tree is defined as:,Left height - Right height,Right height - Left height,Left height + Right height,Left height / Right height,A,BST,Intermediate
+914,Height of an AVL tree with n nodes is:,O(n),O(log n),O(n log n),O(n²),B,AVL Tree,Intermediate
+915,"In a min heap, the smallest element is at:",Leaf,Root,Middle,Random,B,Heap,Intermediate
+916,Time complexity of insertion in a heap is:,O(1),O(log n),O(n),O(n²),B,Graph,Advanced
+917,Heap sort time complexity is:,O(n),O(n log n),O(n²),O(2^n),B,Graph Traversal,Advanced
+918,Adjacency matrix representation requires space of:,O(V),O(E),O(V²),O(V + E),C,Shortest Path,Advanced
+919,Adjacency list representation requires space of:,O(V),O(V²),O(E),O(V + E),D,MST,Advanced
+920,DFS uses which data structure?,Queue,Stack,Deque,Heap,B,Hash Table,Advanced
+921,BFS uses which data structure?,Stack,Queue,Priority Queue,Deque,B,Dynamic Programming,Advanced
+922,Time complexity of DFS and BFS is:,O(n),O(V + E),O(V²),O(E log V),B,Backtracking,Advanced
+923,Dijkstra's algorithm is used for:,Negative weights,Positive weights,Unweighted graphs,None,B,String Algorithms,Advanced
+924,Bellman-Ford can handle:,Only positive weights,Negative weights,Negative cycles,All graphs,B,Greedy,Advanced
+925,Floyd-Warshall finds:,Shortest path between two nodes,All pairs shortest path,Minimum spanning tree,Topological sort,B,Divide and Conquer,Advanced
+926,Kruskal's algorithm uses which approach?,Dynamic Programming,Greedy,Divide and Conquer,Backtracking,B,Array,Advanced
+927,Prim's algorithm starts from:,A random vertex,A specific vertex,The minimum edge,None,B,Linked List,Advanced
+928,Time complexity of Kruskal's algorithm is:,O(E log E),O(V log V),O(V + E),O(V²),A,Stack,Advanced
+929,Hash table provides average time complexity of:,O(log n),O(n),O(1),O(n²),C,Queue,Advanced
+930,Collision resolution technique is:,Linear Probing,Chaining,Double Hashing,All of above,D,Sorting,Advanced
+931,DP is used when a problem has:,Overlapping subproblems,Optimal substructure,Both,Neither,C,Searching,Advanced
+932,Memoization is:,Top-down approach,Bottom-up approach,Recursive approach,Iterative approach,A,Tree,Advanced
+933,Tabulation is:,Top-down DP,Bottom-up DP,Recursive,None,B,BST,Advanced
+934,Backtracking is used for:,N-Queens problem,Sudoku solver,Maze solving,All,D,AVL Tree,Advanced
+935,Time complexity of backtracking can be:,O(n),O(n!),O(2^n),All of above,D,Heap,Advanced
+936,KMP algorithm is used for:,Pattern matching,Sorting,Searching,Hashing,A,Graph,Advanced
+937,Time complexity of KMP is:,O(n + m),O(n * m),O(n log m),O(m log n),A,Graph Traversal,Advanced
+938,Rabin-Karp uses which concept?,Hashing,Sorting,Trees,Graphs,A,Shortest Path,Advanced
+939,Greedy algorithms work when problem has:,Optimal substructure,Greedy choice property,Both,Neither,C,MST,Advanced
+940,Activity selection uses:,Greedy,DP,Backtracking,Divide and Conquer,A,Hash Table,Advanced
+941,Merge Sort uses:,Greedy,DP,Divide and Conquer,Backtracking,C,Dynamic Programming,Advanced
+942,Binary Search uses:,Greedy,DP,Divide and Conquer,Backtracking,C,Backtracking,Advanced
+943,Topological sorting is for:,Directed Acyclic Graph,Undirected graph,Weighted graph,Complete graph,A,String Algorithms,Advanced
+944,Strongly Connected Components are found using:,DFS,BFS,Dijkstra,Prim's,A,Greedy,Advanced
+945,What is the time complexity of accessing an element in an array by index?,O(n),O(log n),O(1),O(n²),C,Array,Beginner
+946,Which operation is most efficient in an array?,Insertion at beginning,Deletion from middle,Searching an element,Random access,D,Linked List,Beginner
+947,What is the space complexity of an array of size n?,O(1),O(log n),O(n),O(n²),C,Stack,Beginner
+948,What is the time complexity of inserting an element at the beginning of a singly linked list?,O(1),O(n),O(log n),O(n²),A,Queue,Beginner
+949,"In a doubly linked list, each node contains how many pointers?",1,2,3,4,B,Sorting,Beginner
+950,Time complexity of searching in an unsorted linked list is:,O(1),O(log n),O(n),O(n²),C,Searching,Beginner
+951,Which data structure follows LIFO principle?,Queue,Stack,Tree,Graph,B,Tree,Beginner
+952,What is the time complexity of push and pop operations in a stack?,O(n),O(log n),O(1),O(n²),C,BST,Beginner
+953,In which application is stack NOT used?,Function call management,Expression evaluation,BFS traversal,Undo/Redo functionality,C,AVL Tree,Beginner
+954,Which data structure follows FIFO principle?,Stack,Queue,Deque,Heap,B,Heap,Beginner
+955,What is the time complexity of enqueue and dequeue in a simple queue?,O(n),O(1),O(log n),O(n²),B,Graph,Beginner
+956,A circular queue is better than a simple queue because:,It uses less memory,It avoids the wastage of space,It is faster,It requires less code,B,Graph Traversal,Beginner
+957,What is the average time complexity of Quick Sort?,O(n),O(n log n),O(n²),O(2^n),B,Shortest Path,Intermediate
+958,Which sorting algorithm is stable?,Quick Sort,Heap Sort,Merge Sort,Selection Sort,C,MST,Intermediate
+959,Merge Sort has a time complexity of:,O(n),O(n log n),O(n²),O(n³),B,Hash Table,Intermediate
+960,Bubble Sort is efficient for which case?,Already sorted data,Reverse sorted data,Random data,Large datasets,A,Dynamic Programming,Intermediate
+961,What is the space complexity of Quick Sort?,O(1),O(log n),O(n),O(n²),B,Backtracking,Intermediate
+962,Binary Search works on which type of array?,Unsorted,Sorted,Partially sorted,None of above,B,String Algorithms,Intermediate
+963,Time complexity of Binary Search is:,O(n),O(log n),O(n log n),O(n²),B,Greedy,Intermediate
+964,Linear Search has a time complexity of:,O(1),O(log n),O(n),O(n²),C,Divide and Conquer,Intermediate
+965,What is a binary tree?,Tree with max 2 children,Tree with exactly 2 children,Tree with 3 children,Tree with 4 children,A,Array,Intermediate
+966,Height of a tree with single node is:,0,1,2,-1,A,Linked List,Intermediate
+967,What is the maximum number of nodes in a binary tree of height h?,2^h - 1,2^(h+1) - 1,2^h,h²,B,Stack,Intermediate
+968,"In a BST, for any node, left child is:",Greater than parent,Less than parent,Equal to parent,Any value,B,Queue,Intermediate
+969,Time complexity of searching in a balanced BST is:,O(1),O(log n),O(n),O(n²),B,Sorting,Intermediate
+970,Inorder traversal of a BST gives:,Sorted array,Reverse sorted array,Random order,Heap order,A,Searching,Intermediate
+971,AVL tree is a:,Unbalanced BST,Self-balancing BST,Complete tree,Perfect tree,B,Tree,Intermediate
+972,Balance factor in AVL tree is defined as:,Left height - Right height,Right height - Left height,Left height + Right height,Left height / Right height,A,BST,Intermediate
+973,Height of an AVL tree with n nodes is:,O(n),O(log n),O(n log n),O(n²),B,AVL Tree,Intermediate
+974,"In a min heap, the smallest element is at:",Leaf,Root,Middle,Random,B,Heap,Intermediate
+975,Time complexity of insertion in a heap is:,O(1),O(log n),O(n),O(n²),B,Graph,Advanced
+976,Heap sort time complexity is:,O(n),O(n log n),O(n²),O(2^n),B,Graph Traversal,Advanced
+977,Adjacency matrix representation requires space of:,O(V),O(E),O(V²),O(V + E),C,Shortest Path,Advanced
+978,Adjacency list representation requires space of:,O(V),O(V²),O(E),O(V + E),D,MST,Advanced
+979,DFS uses which data structure?,Queue,Stack,Deque,Heap,B,Hash Table,Advanced
+980,BFS uses which data structure?,Stack,Queue,Priority Queue,Deque,B,Dynamic Programming,Advanced
+981,Time complexity of DFS and BFS is:,O(n),O(V + E),O(V²),O(E log V),B,Backtracking,Advanced
+982,Dijkstra's algorithm is used for:,Negative weights,Positive weights,Unweighted graphs,None,B,String Algorithms,Advanced
+983,Bellman-Ford can handle:,Only positive weights,Negative weights,Negative cycles,All graphs,B,Greedy,Advanced
+984,Floyd-Warshall finds:,Shortest path between two nodes,All pairs shortest path,Minimum spanning tree,Topological sort,B,Divide and Conquer,Advanced
+985,Kruskal's algorithm uses which approach?,Dynamic Programming,Greedy,Divide and Conquer,Backtracking,B,Array,Advanced
+986,Prim's algorithm starts from:,A random vertex,A specific vertex,The minimum edge,None,B,Linked List,Advanced
+987,Time complexity of Kruskal's algorithm is:,O(E log E),O(V log V),O(V + E),O(V²),A,Stack,Advanced
+988,Hash table provides average time complexity of:,O(log n),O(n),O(1),O(n²),C,Queue,Advanced
+989,Collision resolution technique is:,Linear Probing,Chaining,Double Hashing,All of above,D,Sorting,Advanced
+990,DP is used when a problem has:,Overlapping subproblems,Optimal substructure,Both,Neither,C,Searching,Advanced
+991,Memoization is:,Top-down approach,Bottom-up approach,Recursive approach,Iterative approach,A,Tree,Advanced
+992,Tabulation is:,Top-down DP,Bottom-up DP,Recursive,None,B,BST,Advanced
+993,Backtracking is used for:,N-Queens problem,Sudoku solver,Maze solving,All,D,AVL Tree,Advanced
+994,Time complexity of backtracking can be:,O(n),O(n!),O(2^n),All of above,D,Heap,Advanced
+995,KMP algorithm is used for:,Pattern matching,Sorting,Searching,Hashing,A,Graph,Advanced
+996,Time complexity of KMP is:,O(n + m),O(n * m),O(n log m),O(m log n),A,Graph Traversal,Advanced
+997,Rabin-Karp uses which concept?,Hashing,Sorting,Trees,Graphs,A,Shortest Path,Advanced
+998,Greedy algorithms work when problem has:,Optimal substructure,Greedy choice property,Both,Neither,C,MST,Advanced
+999,Activity selection uses:,Greedy,DP,Backtracking,Divide and Conquer,A,Hash Table,Advanced
+1000,Merge Sort uses:,Greedy,DP,Divide and Conquer,Backtracking,C,Dynamic Programming,Advanced

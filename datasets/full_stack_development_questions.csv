@@ -1,0 +1,1001 @@
+Question,Option_1,Option_2,Option_3,Option_4,Correct_Answer,Level
+What does Full Stack Development refer to?,Development of both frontend and backend of applications,Only frontend development,Only backend development,Mobile app development,Option_1,Beginner
+What is HTML?,Markup language for creating web structure,Programming language,Styling language,Database language,Option_1,Beginner
+What is CSS?,Stylesheet language for web page styling,Programming language,Markup language,Database language,Option_1,Beginner
+What is JavaScript?,Programming language for interactive web functionality,Markup language,Styling language,Database language,Option_1,Beginner
+"What is the difference between HTML, CSS, and JavaScript?","HTML structure, CSS styling, JavaScript behavior",All are same,All are languages,Different versions,Option_1,Beginner
+What is a semantic HTML tag?,"Tags with meaningful context like <header>, <footer>",All tags,Non-standard tags,Deprecated tags,Option_1,Beginner
+What is the difference between <div> and <span>?,"<div> is block-level, <span> is inline",Same element,Different names only,Different behavior,Option_1,Beginner
+What is an HTML form?,User input collection mechanism with <form> element,Text display element,Navigation element,Styling element,Option_1,Beginner
+What is the purpose of alt attribute in <img>?,Provide text alternative for accessibility,Image title,Image styling,Image link,Option_1,Intermediate
+What are HTML5 new features?,"Canvas, Video, Audio, Semantic elements, Geolocation",Only visual elements,Only metadata,Only form elements,Option_1,Intermediate
+What is the CSS box model?,"Margin, Border, Padding, Content",Only width and height,Only colors,Only fonts,Option_1,Beginner
+What is the difference between padding and margin?,"Padding is inside, margin is outside",Same thing,Margin is inside,No difference,Option_1,Beginner
+What is CSS specificity?,Priority of CSS rules applied to elements,CSS performance,CSS file size,CSS syntax,Option_1,Intermediate
+What are CSS selectors?,Patterns for selecting HTML elements to style,CSS properties,CSS values,CSS rules,Option_1,Beginner
+What is Flexbox?,CSS layout model for flexible responsive design,Grid system,Positioning method,Display property,Option_1,Intermediate
+What is CSS Grid?,2D layout system for complex designs,1D layout,Flexbox alternative,Positioning system,Option_1,Intermediate
+What is responsive design?,Design adapting to different screen sizes,Fixed design,Desktop-only design,Mobile-only design,Option_1,Beginner
+What is media query?,CSS technique applying styles based on device features,CSS property,CSS function,CSS variable,Option_1,Intermediate
+What are CSS preprocessors?,"SASS, LESS extending CSS with variables, functions",CSS frameworks,CSS libraries,CSS standards,Option_1,Intermediate
+What is Bootstrap?,CSS framework with pre-built components,JavaScript library,Programming language,Database,Option_1,Beginner
+What is JavaScript?,Programming language for web interactivity,Markup language,Styling language,Database language,Option_1,Beginner
+What are variables in JavaScript?,Containers for storing data values,Data types,Functions,Objects,Option_1,Beginner
+What are JavaScript data types?,"String, Number, Boolean, Object, Array, Null, Undefined",Only String and Number,Only objects,Only primitives,Option_1,Beginner
+"What is the difference between let, const, and var?","var is function-scoped, let/const are block-scoped",All are same,Different naming only,Different performance,Option_1,Intermediate
+What are JavaScript functions?,Reusable blocks of code,Variables,Objects,Data types,Option_1,Beginner
+What is arrow function?,Concise function syntax using => arrow,Regular function,Anonymous function,Named function,Option_1,Intermediate
+What is a callback function?,Function passed as argument to another function,Called back repeatedly,Recursive function,Nested function,Option_1,Intermediate
+What is Promise in JavaScript?,Object handling asynchronous operations,Synchronous operation,Function,Variable,Option_1,Intermediate
+What is async/await?,Syntactic sugar for handling Promises,Promise alternative,Callback replacement,Loop structure,Option_1,Intermediate
+What is the difference between == and ===?,"=== strict equality, == loose equality",Same operator,Different performance,Different use,Option_1,Intermediate
+What is DOM (Document Object Model)?,Tree representation of HTML document,Programming language,Browser feature,Document format,Option_1,Intermediate
+What is DOM manipulation?,Changing HTML structure/content with JavaScript,HTML editing,CSS styling,Browser settings,Option_1,Intermediate
+What is an event in JavaScript?,"User interaction like click, scroll, hover",Program error,Function call,Data type,Option_1,Beginner
+What is event listener?,Function waiting for specific event to occur,Event handler,Event trigger,Event type,Option_1,Intermediate
+What is event delegation?,Single listener handling events for multiple elements,Multiple listeners,Bubbling events,Capturing events,Option_1,Advanced
+What is closure in JavaScript?,Function accessing variables from outer scope,Function scope,Global scope,Block scope,Option_1,Intermediate
+What is this keyword?,Reference to object context,Current value,Previous value,Next value,Option_1,Intermediate
+What is prototype in JavaScript?,Object from which other objects inherit,Class definition,Instance object,Prototype pattern,Option_1,Advanced
+What is prototypal inheritance?,Objects inheriting from prototype object,Class-based inheritance,Interface inheritance,Multiple inheritance,Option_1,Advanced
+What is hoisting?,Variables/functions moved to top of scope during execution,Loading code,Parsing code,Executing code,Option_1,Intermediate
+What is IIFE (Immediately Invoked Function Expression)?,Function executed immediately after definition,Regular function,Anonymous function,Named function,Option_1,Advanced
+What is destructuring?,Extracting values from objects/arrays into variables,Object creation,Array creation,Variable assignment,Option_1,Intermediate
+What is spread operator?,Expanding arrays/objects using ...,Rest parameter,Arrow function,Spread syntax,Option_1,Intermediate
+What is React?,JavaScript library for building UI with components,Frontend framework,Backend framework,Full-stack framework,Option_1,Beginner
+What is Vue.js?,Progressive JavaScript framework for UIs,React competitor,Angular alternative,Svelte replacement,Option_1,Beginner
+What is Angular?,Full-featured JavaScript framework for web apps,Library,Template engine,CSS framework,Option_1,Beginner
+What is component in React?,Reusable piece of UI logic,File type,Folder structure,Naming convention,Option_1,Beginner
+What is JSX?,JavaScript XML syntax allowing HTML-like code in JS,Template language,HTML variant,XML dialect,Option_1,Intermediate
+What is virtual DOM?,In-memory representation of actual DOM,Real DOM,Actual DOM,Browser DOM,Option_1,Intermediate
+What is React hooks?,Functions adding state/lifecycle to functional components,Class components,Component props,Component methods,Option_1,Intermediate
+What is useState hook?,React hook managing component state,useEffect hook,useContext hook,useReducer hook,Option_1,Intermediate
+What is useEffect hook?,React hook for side effects and lifecycle,useState hook,useContext hook,useCallback hook,Option_1,Intermediate
+What is state in React?,Dynamic data that affects component rendering,Static data,Props,Variables,Option_1,Beginner
+What is backend development?,Server-side development handling logic/database,Frontend development,UI development,Styling,Option_1,Beginner
+What is Node.js?,JavaScript runtime for server-side development,Frontend library,Browser feature,CSS preprocessor,Option_1,Beginner
+What is Express.js?,Web application framework for Node.js,Node.js runtime,JavaScript library,Backend language,Option_1,Beginner
+What is API (Application Programming Interface)?,Interface allowing communication between applications,Program interface,User interface,Database interface,Option_1,Beginner
+What is REST API?,"API using HTTP requests (GET, POST, PUT, DELETE)",SOAP API,GraphQL API,WebSocket API,Option_1,Intermediate
+What is HTTP method?,"GET, POST, PUT, DELETE, PATCH operations",URL method,Server method,Client method,Option_1,Intermediate
+What is GET request?,Request retrieving data from server,Request sending data,Request updating data,Request deleting data,Option_1,Beginner
+What is POST request?,Request sending data to server creating resource,Request retrieving data,Request updating data,Request deleting,Option_1,Beginner
+What is PUT request?,Request updating entire existing resource,Request creating resource,Request deleting resource,Request retrieving data,Option_1,Intermediate
+What is DELETE request?,Request removing resource from server,Request creating resource,Request updating resource,Request retrieving data,Option_1,Beginner
+What is database?,Organized collection of structured data,Data file,Excel spreadsheet,Text file,Option_1,Beginner
+What are SQL and NoSQL databases?,"SQL relational, NoSQL non-relational",Both same,SQL is old,NoSQL is old,Option_1,Intermediate
+What is MySQL?,Relational database management system,NoSQL database,Graph database,Search engine,Option_1,Beginner
+What is PostgreSQL?,Advanced relational database system,NoSQL database,Document database,Key-value store,Option_1,Intermediate
+What is MongoDB?,NoSQL document database with JSON-like documents,Relational database,SQL database,Graph database,Option_1,Intermediate
+What is table in relational database?,Collection of rows and columns storing data,Database file,Query result,Data structure,Option_1,Beginner
+What is primary key?,Unique identifier for each record in table,Foreign key,Index,Constraint,Option_1,Beginner
+What is foreign key?,Key referencing primary key in another table,Primary key,Unique key,Index,Option_1,Intermediate
+What is SQL?,Language for querying and managing databases,Programming language,Markup language,Styling language,Option_1,Beginner
+What is normalization?,Organizing database reducing redundancy,Database backup,Data encryption,Query optimization,Option_1,Intermediate
+What is authentication?,Verifying user identity with credentials,Authorization,Encryption,Security protocol,Option_1,Intermediate
+What is authorization?,Determining what authenticated user can access,Authentication,Identification,Encryption,Option_1,Intermediate
+What is JWT (JSON Web Token)?,Token-based authentication mechanism,Session-based auth,Cookie-based auth,OAuth,Option_1,Intermediate
+What is OAuth?,Open authorization standard for delegated access,JWT,Basic auth,Bearer token,Option_1,Advanced
+What is password hashing?,Converting password to irreversible hash,Encrypting password,Encoding password,Compressing password,Option_1,Intermediate
+What is CORS (Cross-Origin Resource Sharing)?,Mechanism allowing cross-origin requests safely,Same-origin policy,Security protocol,Browser feature,Option_1,Advanced
+What is HTTPS?,Secure HTTP with SSL/TLS encryption,Regular HTTP,Protocol extension,Security standard,Option_1,Intermediate
+What is SSL/TLS?,Encryption protocol securing communication,HTTP protocol,Data transfer protocol,Network protocol,Option_1,Intermediate
+What is version control?,System tracking code changes over time,Code backup,Code storage,Code organization,Option_1,Beginner
+What is Git?,Distributed version control system,Centralized version control,GitHub service,Coding language,Option_1,Beginner
+What is GitHub?,Cloud platform for Git repositories,Version control system,Git alternative,Development tool,Option_1,Beginner
+What is branch in Git?,Parallel development line from main code,Code copy,Repository part,Merge point,Option_1,Intermediate
+What is commit in Git?,Saving changes to repository with message,Publishing code,Uploading code,Pushing code,Option_1,Beginner
+What is merge in Git?,Combining changes from different branches,Deleting branch,Creating branch,Resolving conflict,Option_1,Intermediate
+What is pull request?,Request to merge code changes into main branch,Push request,Download request,Upload request,Option_1,Intermediate
+What is Django?,Python web framework with batteries included,Frontend framework,JavaScript framework,Mobile framework,Option_1,Intermediate
+What is Flask?,Lightweight Python web microframework,Heavy framework,Full-stack framework,Frontend framework,Option_1,Intermediate
+What is MERN stack?,"MongoDB, Express, React, Node.js","MySQL, Express, React, Node","MongoDB, Express, Ruby, Node","MySQL, Express, Vue, Node",Option_1,Intermediate
+What is MEAN stack?,"MongoDB, Express, Angular, Node.js","MySQL, Express, Angular, Node","MongoDB, Express, React, Node","MySQL, Express, Angular, Node",Option_1,Intermediate
+What is LAMP stack?,"Linux, Apache, MySQL, PHP","Linux, Nginx, MongoDB, Python","Linux, Apache, MongoDB, PHP","Linux, Nginx, MySQL, PHP",Option_1,Intermediate
+What is deployment?,Releasing application to production environment,Development stage,Testing stage,Building stage,Option_1,Beginner
+What is Docker?,Containerization platform for applications,Virtual machine,Cloud service,Database,Option_1,Intermediate
+What is container?,Isolated environment with all dependencies,Docker image,Virtual machine,Physical server,Option_1,Intermediate
+What is CI/CD?,Continuous Integration/Continuous Deployment,Code Integration,Continuous Development,Continuous Design,Option_1,Intermediate
+What is testing?,Verifying code works correctly,Code review,Code documentation,Code formatting,Option_1,Beginner
+What is unit testing?,Testing individual functions/components,Integration testing,System testing,Acceptance testing,Option_1,Intermediate
+What is integration testing?,Testing interaction between components,Unit testing,System testing,End-to-end testing,Option_1,Intermediate
+What is end-to-end testing?,Testing complete application workflow,Unit testing,Integration testing,Component testing,Option_1,Intermediate
+What is performance optimization?,Improving application speed and efficiency,Code formatting,Code documentation,Code organization,Option_1,Intermediate
+What is caching?,Storing data for quick access,Data backup,Data encryption,Data compression,Option_1,Intermediate
+What is lazy loading?,Loading resources on demand not upfront,Eager loading,Preloading,Caching,Option_1,Intermediate
+What is code splitting?,Dividing code into chunks loaded when needed,Code concatenation,Code minification,Code bundling,Option_1,Advanced
+What is minification?,Removing unnecessary code for smaller file size,Code optimization,Code compression,Code encryption,Option_1,Intermediate
+What is bundling?,Combining multiple files into fewer bundle files,File compression,File packaging,File organization,Option_1,Intermediate
+What is WebSocket?,Protocol for full-duplex communication,HTTP protocol,TCP protocol,UDP protocol,Option_1,Advanced
+What is Socket.io?,Library enabling real-time bidirectional communication,WebSocket library,HTTP library,Network library,Option_1,Advanced
+What is MVC (Model-View-Controller)?,"Architecture separating data, presentation, logic",Design pattern,UI pattern,Data pattern,Option_1,Intermediate
+What is REST architecture?,Architectural style for web services,Design pattern,Code structure,Naming convention,Option_1,Intermediate
+What is microservices?,Architecture with small independent services,Monolithic architecture,Layered architecture,Event-driven,Option_1,Advanced
+What is monolithic architecture?,Single unified application,Multiple services,Distributed system,Microservices,Option_1,Intermediate
+What is scalability?,Ability to handle increasing load,Performance,Reliability,Availability,Option_1,Advanced
+What is horizontal scaling?,Adding more servers/machines,Upgrading server,Increasing RAM,Increasing storage,Option_1,Advanced
+What is vertical scaling?,"Upgrading server resources (RAM, CPU)",Adding servers,Distributed system,Load balancing,Option_1,Advanced
+What is load balancing?,Distributing requests across servers,Server selection,Traffic routing,Request queuing,Option_1,Advanced
+What is API design?,Designing clear and consistent API endpoints,API documentation,API testing,API deployment,Option_1,Intermediate
+What is endpoint?,Specific URL path for API resource,Server address,Domain name,Port number,Option_1,Beginner
+What is API versioning?,Managing different API versions for compatibility,API documentation,API testing,API design,Option_1,Advanced
+What is rate limiting?,Restricting number of requests per time period,Speed limiting,Bandwidth limiting,Connection limiting,Option_1,Intermediate
+What is logging?,Recording application events and errors,Data backup,Data encryption,Data compression,Option_1,Intermediate
+What is monitoring?,Observing application performance and health,Testing application,Deploying application,Documenting application,Option_1,Intermediate
+What is code review?,Peer examination of code for quality,Code testing,Code compilation,Code documentation,Option_1,Intermediate
+What is linting?,Checking code for style/error issues,Code formatting,Code testing,Code compilation,Option_1,Intermediate
+What is code refactoring?,Improving code structure without changing functionality,Rewriting code,Fixing bugs,Adding features,Option_1,Intermediate
+What is technical debt?,Accumulated costs from shortcuts in development,Actual debt,Financial cost,Development cost,Option_1,Advanced
+What is API documentation?,Detailed description of API usage and endpoints,Code comments,README file,Version history,Option_1,Intermediate
+What is README file?,Documentation explaining project setup/usage,Code file,Configuration file,Environment file,Option_1,Beginner
+What is web accessibility?,Ensuring websites work for all users including disabled,Website design,Website speed,Website security,Option_1,Intermediate
+What is WCAG (Web Content Accessibility Guidelines)?,Standards for accessible web content,Web design standard,Performance standard,Security standard,Option_1,Advanced
+What are environment variables?,Configuration values set outside code,Code variables,Global variables,Local variables,Option_1,Intermediate
+What is .env file?,File storing environment variables,Configuration file,Source file,Build file,Option_1,Intermediate
+What does Full Stack Development refer to?,Development of both frontend and backend of applications,Only frontend development,Only backend development,Mobile app development,Option_1,Beginner
+What is HTML?,Markup language for creating web structure,Programming language,Styling language,Database language,Option_1,Beginner
+What is CSS?,Stylesheet language for web page styling,Programming language,Markup language,Database language,Option_1,Beginner
+What is JavaScript?,Programming language for interactive web functionality,Markup language,Styling language,Database language,Option_1,Beginner
+"What is the difference between HTML, CSS, and JavaScript?","HTML structure, CSS styling, JavaScript behavior",All are same,All are languages,Different versions,Option_1,Beginner
+What is a semantic HTML tag?,"Tags with meaningful context like <header>, <footer>",All tags,Non-standard tags,Deprecated tags,Option_1,Beginner
+What is the difference between <div> and <span>?,"<div> is block-level, <span> is inline",Same element,Different names only,Different behavior,Option_1,Beginner
+What is an HTML form?,User input collection mechanism with <form> element,Text display element,Navigation element,Styling element,Option_1,Beginner
+What is the purpose of alt attribute in <img>?,Provide text alternative for accessibility,Image title,Image styling,Image link,Option_1,Intermediate
+What are HTML5 new features?,"Canvas, Video, Audio, Semantic elements, Geolocation",Only visual elements,Only metadata,Only form elements,Option_1,Intermediate
+What is the CSS box model?,"Margin, Border, Padding, Content",Only width and height,Only colors,Only fonts,Option_1,Beginner
+What is the difference between padding and margin?,"Padding is inside, margin is outside",Same thing,Margin is inside,No difference,Option_1,Beginner
+What is CSS specificity?,Priority of CSS rules applied to elements,CSS performance,CSS file size,CSS syntax,Option_1,Intermediate
+What are CSS selectors?,Patterns for selecting HTML elements to style,CSS properties,CSS values,CSS rules,Option_1,Beginner
+What is Flexbox?,CSS layout model for flexible responsive design,Grid system,Positioning method,Display property,Option_1,Intermediate
+What is CSS Grid?,2D layout system for complex designs,1D layout,Flexbox alternative,Positioning system,Option_1,Intermediate
+What is responsive design?,Design adapting to different screen sizes,Fixed design,Desktop-only design,Mobile-only design,Option_1,Beginner
+What is media query?,CSS technique applying styles based on device features,CSS property,CSS function,CSS variable,Option_1,Intermediate
+What are CSS preprocessors?,"SASS, LESS extending CSS with variables, functions",CSS frameworks,CSS libraries,CSS standards,Option_1,Intermediate
+What is Bootstrap?,CSS framework with pre-built components,JavaScript library,Programming language,Database,Option_1,Beginner
+What is JavaScript?,Programming language for web interactivity,Markup language,Styling language,Database language,Option_1,Beginner
+What are variables in JavaScript?,Containers for storing data values,Data types,Functions,Objects,Option_1,Beginner
+What are JavaScript data types?,"String, Number, Boolean, Object, Array, Null, Undefined",Only String and Number,Only objects,Only primitives,Option_1,Beginner
+"What is the difference between let, const, and var?","var is function-scoped, let/const are block-scoped",All are same,Different naming only,Different performance,Option_1,Intermediate
+What are JavaScript functions?,Reusable blocks of code,Variables,Objects,Data types,Option_1,Beginner
+What is arrow function?,Concise function syntax using => arrow,Regular function,Anonymous function,Named function,Option_1,Intermediate
+What is a callback function?,Function passed as argument to another function,Called back repeatedly,Recursive function,Nested function,Option_1,Intermediate
+What is Promise in JavaScript?,Object handling asynchronous operations,Synchronous operation,Function,Variable,Option_1,Intermediate
+What is async/await?,Syntactic sugar for handling Promises,Promise alternative,Callback replacement,Loop structure,Option_1,Intermediate
+What is the difference between == and ===?,"=== strict equality, == loose equality",Same operator,Different performance,Different use,Option_1,Intermediate
+What is DOM (Document Object Model)?,Tree representation of HTML document,Programming language,Browser feature,Document format,Option_1,Intermediate
+What is DOM manipulation?,Changing HTML structure/content with JavaScript,HTML editing,CSS styling,Browser settings,Option_1,Intermediate
+What is an event in JavaScript?,"User interaction like click, scroll, hover",Program error,Function call,Data type,Option_1,Beginner
+What is event listener?,Function waiting for specific event to occur,Event handler,Event trigger,Event type,Option_1,Intermediate
+What is event delegation?,Single listener handling events for multiple elements,Multiple listeners,Bubbling events,Capturing events,Option_1,Advanced
+What is closure in JavaScript?,Function accessing variables from outer scope,Function scope,Global scope,Block scope,Option_1,Intermediate
+What is this keyword?,Reference to object context,Current value,Previous value,Next value,Option_1,Intermediate
+What is prototype in JavaScript?,Object from which other objects inherit,Class definition,Instance object,Prototype pattern,Option_1,Advanced
+What is prototypal inheritance?,Objects inheriting from prototype object,Class-based inheritance,Interface inheritance,Multiple inheritance,Option_1,Advanced
+What is hoisting?,Variables/functions moved to top of scope during execution,Loading code,Parsing code,Executing code,Option_1,Intermediate
+What is IIFE (Immediately Invoked Function Expression)?,Function executed immediately after definition,Regular function,Anonymous function,Named function,Option_1,Advanced
+What is destructuring?,Extracting values from objects/arrays into variables,Object creation,Array creation,Variable assignment,Option_1,Intermediate
+What is spread operator?,Expanding arrays/objects using ...,Rest parameter,Arrow function,Spread syntax,Option_1,Intermediate
+What is React?,JavaScript library for building UI with components,Frontend framework,Backend framework,Full-stack framework,Option_1,Beginner
+What is Vue.js?,Progressive JavaScript framework for UIs,React competitor,Angular alternative,Svelte replacement,Option_1,Beginner
+What is Angular?,Full-featured JavaScript framework for web apps,Library,Template engine,CSS framework,Option_1,Beginner
+What is component in React?,Reusable piece of UI logic,File type,Folder structure,Naming convention,Option_1,Beginner
+What is JSX?,JavaScript XML syntax allowing HTML-like code in JS,Template language,HTML variant,XML dialect,Option_1,Intermediate
+What is virtual DOM?,In-memory representation of actual DOM,Real DOM,Actual DOM,Browser DOM,Option_1,Intermediate
+What is React hooks?,Functions adding state/lifecycle to functional components,Class components,Component props,Component methods,Option_1,Intermediate
+What is useState hook?,React hook managing component state,useEffect hook,useContext hook,useReducer hook,Option_1,Intermediate
+What is useEffect hook?,React hook for side effects and lifecycle,useState hook,useContext hook,useCallback hook,Option_1,Intermediate
+What is state in React?,Dynamic data that affects component rendering,Static data,Props,Variables,Option_1,Beginner
+What is backend development?,Server-side development handling logic/database,Frontend development,UI development,Styling,Option_1,Beginner
+What is Node.js?,JavaScript runtime for server-side development,Frontend library,Browser feature,CSS preprocessor,Option_1,Beginner
+What is Express.js?,Web application framework for Node.js,Node.js runtime,JavaScript library,Backend language,Option_1,Beginner
+What is API (Application Programming Interface)?,Interface allowing communication between applications,Program interface,User interface,Database interface,Option_1,Beginner
+What is REST API?,"API using HTTP requests (GET, POST, PUT, DELETE)",SOAP API,GraphQL API,WebSocket API,Option_1,Intermediate
+What is HTTP method?,"GET, POST, PUT, DELETE, PATCH operations",URL method,Server method,Client method,Option_1,Intermediate
+What is GET request?,Request retrieving data from server,Request sending data,Request updating data,Request deleting data,Option_1,Beginner
+What is POST request?,Request sending data to server creating resource,Request retrieving data,Request updating data,Request deleting,Option_1,Beginner
+What is PUT request?,Request updating entire existing resource,Request creating resource,Request deleting resource,Request retrieving data,Option_1,Intermediate
+What is DELETE request?,Request removing resource from server,Request creating resource,Request updating resource,Request retrieving data,Option_1,Beginner
+What is database?,Organized collection of structured data,Data file,Excel spreadsheet,Text file,Option_1,Beginner
+What are SQL and NoSQL databases?,"SQL relational, NoSQL non-relational",Both same,SQL is old,NoSQL is old,Option_1,Intermediate
+What is MySQL?,Relational database management system,NoSQL database,Graph database,Search engine,Option_1,Beginner
+What is PostgreSQL?,Advanced relational database system,NoSQL database,Document database,Key-value store,Option_1,Intermediate
+What is MongoDB?,NoSQL document database with JSON-like documents,Relational database,SQL database,Graph database,Option_1,Intermediate
+What is table in relational database?,Collection of rows and columns storing data,Database file,Query result,Data structure,Option_1,Beginner
+What is primary key?,Unique identifier for each record in table,Foreign key,Index,Constraint,Option_1,Beginner
+What is foreign key?,Key referencing primary key in another table,Primary key,Unique key,Index,Option_1,Intermediate
+What is SQL?,Language for querying and managing databases,Programming language,Markup language,Styling language,Option_1,Beginner
+What is normalization?,Organizing database reducing redundancy,Database backup,Data encryption,Query optimization,Option_1,Intermediate
+What is authentication?,Verifying user identity with credentials,Authorization,Encryption,Security protocol,Option_1,Intermediate
+What is authorization?,Determining what authenticated user can access,Authentication,Identification,Encryption,Option_1,Intermediate
+What is JWT (JSON Web Token)?,Token-based authentication mechanism,Session-based auth,Cookie-based auth,OAuth,Option_1,Intermediate
+What is OAuth?,Open authorization standard for delegated access,JWT,Basic auth,Bearer token,Option_1,Advanced
+What is password hashing?,Converting password to irreversible hash,Encrypting password,Encoding password,Compressing password,Option_1,Intermediate
+What is CORS (Cross-Origin Resource Sharing)?,Mechanism allowing cross-origin requests safely,Same-origin policy,Security protocol,Browser feature,Option_1,Advanced
+What is HTTPS?,Secure HTTP with SSL/TLS encryption,Regular HTTP,Protocol extension,Security standard,Option_1,Intermediate
+What is SSL/TLS?,Encryption protocol securing communication,HTTP protocol,Data transfer protocol,Network protocol,Option_1,Intermediate
+What is version control?,System tracking code changes over time,Code backup,Code storage,Code organization,Option_1,Beginner
+What is Git?,Distributed version control system,Centralized version control,GitHub service,Coding language,Option_1,Beginner
+What is GitHub?,Cloud platform for Git repositories,Version control system,Git alternative,Development tool,Option_1,Beginner
+What is branch in Git?,Parallel development line from main code,Code copy,Repository part,Merge point,Option_1,Intermediate
+What is commit in Git?,Saving changes to repository with message,Publishing code,Uploading code,Pushing code,Option_1,Beginner
+What is merge in Git?,Combining changes from different branches,Deleting branch,Creating branch,Resolving conflict,Option_1,Intermediate
+What is pull request?,Request to merge code changes into main branch,Push request,Download request,Upload request,Option_1,Intermediate
+What is Django?,Python web framework with batteries included,Frontend framework,JavaScript framework,Mobile framework,Option_1,Intermediate
+What is Flask?,Lightweight Python web microframework,Heavy framework,Full-stack framework,Frontend framework,Option_1,Intermediate
+What is MERN stack?,"MongoDB, Express, React, Node.js","MySQL, Express, React, Node","MongoDB, Express, Ruby, Node","MySQL, Express, Vue, Node",Option_1,Intermediate
+What is MEAN stack?,"MongoDB, Express, Angular, Node.js","MySQL, Express, Angular, Node","MongoDB, Express, React, Node","MySQL, Express, Angular, Node",Option_1,Intermediate
+What is LAMP stack?,"Linux, Apache, MySQL, PHP","Linux, Nginx, MongoDB, Python","Linux, Apache, MongoDB, PHP","Linux, Nginx, MySQL, PHP",Option_1,Intermediate
+What is deployment?,Releasing application to production environment,Development stage,Testing stage,Building stage,Option_1,Beginner
+What is Docker?,Containerization platform for applications,Virtual machine,Cloud service,Database,Option_1,Intermediate
+What is container?,Isolated environment with all dependencies,Docker image,Virtual machine,Physical server,Option_1,Intermediate
+What is CI/CD?,Continuous Integration/Continuous Deployment,Code Integration,Continuous Development,Continuous Design,Option_1,Intermediate
+What is testing?,Verifying code works correctly,Code review,Code documentation,Code formatting,Option_1,Beginner
+What is unit testing?,Testing individual functions/components,Integration testing,System testing,Acceptance testing,Option_1,Intermediate
+What is integration testing?,Testing interaction between components,Unit testing,System testing,End-to-end testing,Option_1,Intermediate
+What is end-to-end testing?,Testing complete application workflow,Unit testing,Integration testing,Component testing,Option_1,Intermediate
+What is performance optimization?,Improving application speed and efficiency,Code formatting,Code documentation,Code organization,Option_1,Intermediate
+What is caching?,Storing data for quick access,Data backup,Data encryption,Data compression,Option_1,Intermediate
+What is lazy loading?,Loading resources on demand not upfront,Eager loading,Preloading,Caching,Option_1,Intermediate
+What is code splitting?,Dividing code into chunks loaded when needed,Code concatenation,Code minification,Code bundling,Option_1,Advanced
+What is minification?,Removing unnecessary code for smaller file size,Code optimization,Code compression,Code encryption,Option_1,Intermediate
+What is bundling?,Combining multiple files into fewer bundle files,File compression,File packaging,File organization,Option_1,Intermediate
+What is WebSocket?,Protocol for full-duplex communication,HTTP protocol,TCP protocol,UDP protocol,Option_1,Advanced
+What is Socket.io?,Library enabling real-time bidirectional communication,WebSocket library,HTTP library,Network library,Option_1,Advanced
+What is MVC (Model-View-Controller)?,"Architecture separating data, presentation, logic",Design pattern,UI pattern,Data pattern,Option_1,Intermediate
+What is REST architecture?,Architectural style for web services,Design pattern,Code structure,Naming convention,Option_1,Intermediate
+What is microservices?,Architecture with small independent services,Monolithic architecture,Layered architecture,Event-driven,Option_1,Advanced
+What is monolithic architecture?,Single unified application,Multiple services,Distributed system,Microservices,Option_1,Intermediate
+What is scalability?,Ability to handle increasing load,Performance,Reliability,Availability,Option_1,Advanced
+What is horizontal scaling?,Adding more servers/machines,Upgrading server,Increasing RAM,Increasing storage,Option_1,Advanced
+What is vertical scaling?,"Upgrading server resources (RAM, CPU)",Adding servers,Distributed system,Load balancing,Option_1,Advanced
+What is load balancing?,Distributing requests across servers,Server selection,Traffic routing,Request queuing,Option_1,Advanced
+What is API design?,Designing clear and consistent API endpoints,API documentation,API testing,API deployment,Option_1,Intermediate
+What is endpoint?,Specific URL path for API resource,Server address,Domain name,Port number,Option_1,Beginner
+What is API versioning?,Managing different API versions for compatibility,API documentation,API testing,API design,Option_1,Advanced
+What is rate limiting?,Restricting number of requests per time period,Speed limiting,Bandwidth limiting,Connection limiting,Option_1,Intermediate
+What is logging?,Recording application events and errors,Data backup,Data encryption,Data compression,Option_1,Intermediate
+What is monitoring?,Observing application performance and health,Testing application,Deploying application,Documenting application,Option_1,Intermediate
+What is code review?,Peer examination of code for quality,Code testing,Code compilation,Code documentation,Option_1,Intermediate
+What is linting?,Checking code for style/error issues,Code formatting,Code testing,Code compilation,Option_1,Intermediate
+What is code refactoring?,Improving code structure without changing functionality,Rewriting code,Fixing bugs,Adding features,Option_1,Intermediate
+What is technical debt?,Accumulated costs from shortcuts in development,Actual debt,Financial cost,Development cost,Option_1,Advanced
+What is API documentation?,Detailed description of API usage and endpoints,Code comments,README file,Version history,Option_1,Intermediate
+What is README file?,Documentation explaining project setup/usage,Code file,Configuration file,Environment file,Option_1,Beginner
+What is web accessibility?,Ensuring websites work for all users including disabled,Website design,Website speed,Website security,Option_1,Intermediate
+What is WCAG (Web Content Accessibility Guidelines)?,Standards for accessible web content,Web design standard,Performance standard,Security standard,Option_1,Advanced
+What are environment variables?,Configuration values set outside code,Code variables,Global variables,Local variables,Option_1,Intermediate
+What is .env file?,File storing environment variables,Configuration file,Source file,Build file,Option_1,Intermediate
+What does Full Stack Development refer to?,Development of both frontend and backend of applications,Only frontend development,Only backend development,Mobile app development,Option_1,Beginner
+What is HTML?,Markup language for creating web structure,Programming language,Styling language,Database language,Option_1,Beginner
+What is CSS?,Stylesheet language for web page styling,Programming language,Markup language,Database language,Option_1,Beginner
+What is JavaScript?,Programming language for interactive web functionality,Markup language,Styling language,Database language,Option_1,Beginner
+"What is the difference between HTML, CSS, and JavaScript?","HTML structure, CSS styling, JavaScript behavior",All are same,All are languages,Different versions,Option_1,Beginner
+What is a semantic HTML tag?,"Tags with meaningful context like <header>, <footer>",All tags,Non-standard tags,Deprecated tags,Option_1,Beginner
+What is the difference between <div> and <span>?,"<div> is block-level, <span> is inline",Same element,Different names only,Different behavior,Option_1,Beginner
+What is an HTML form?,User input collection mechanism with <form> element,Text display element,Navigation element,Styling element,Option_1,Beginner
+What is the purpose of alt attribute in <img>?,Provide text alternative for accessibility,Image title,Image styling,Image link,Option_1,Intermediate
+What are HTML5 new features?,"Canvas, Video, Audio, Semantic elements, Geolocation",Only visual elements,Only metadata,Only form elements,Option_1,Intermediate
+What is the CSS box model?,"Margin, Border, Padding, Content",Only width and height,Only colors,Only fonts,Option_1,Beginner
+What is the difference between padding and margin?,"Padding is inside, margin is outside",Same thing,Margin is inside,No difference,Option_1,Beginner
+What is CSS specificity?,Priority of CSS rules applied to elements,CSS performance,CSS file size,CSS syntax,Option_1,Intermediate
+What are CSS selectors?,Patterns for selecting HTML elements to style,CSS properties,CSS values,CSS rules,Option_1,Beginner
+What is Flexbox?,CSS layout model for flexible responsive design,Grid system,Positioning method,Display property,Option_1,Intermediate
+What is CSS Grid?,2D layout system for complex designs,1D layout,Flexbox alternative,Positioning system,Option_1,Intermediate
+What is responsive design?,Design adapting to different screen sizes,Fixed design,Desktop-only design,Mobile-only design,Option_1,Beginner
+What is media query?,CSS technique applying styles based on device features,CSS property,CSS function,CSS variable,Option_1,Intermediate
+What are CSS preprocessors?,"SASS, LESS extending CSS with variables, functions",CSS frameworks,CSS libraries,CSS standards,Option_1,Intermediate
+What is Bootstrap?,CSS framework with pre-built components,JavaScript library,Programming language,Database,Option_1,Beginner
+What is JavaScript?,Programming language for web interactivity,Markup language,Styling language,Database language,Option_1,Beginner
+What are variables in JavaScript?,Containers for storing data values,Data types,Functions,Objects,Option_1,Beginner
+What are JavaScript data types?,"String, Number, Boolean, Object, Array, Null, Undefined",Only String and Number,Only objects,Only primitives,Option_1,Beginner
+"What is the difference between let, const, and var?","var is function-scoped, let/const are block-scoped",All are same,Different naming only,Different performance,Option_1,Intermediate
+What are JavaScript functions?,Reusable blocks of code,Variables,Objects,Data types,Option_1,Beginner
+What is arrow function?,Concise function syntax using => arrow,Regular function,Anonymous function,Named function,Option_1,Intermediate
+What is a callback function?,Function passed as argument to another function,Called back repeatedly,Recursive function,Nested function,Option_1,Intermediate
+What is Promise in JavaScript?,Object handling asynchronous operations,Synchronous operation,Function,Variable,Option_1,Intermediate
+What is async/await?,Syntactic sugar for handling Promises,Promise alternative,Callback replacement,Loop structure,Option_1,Intermediate
+What is the difference between == and ===?,"=== strict equality, == loose equality",Same operator,Different performance,Different use,Option_1,Intermediate
+What is DOM (Document Object Model)?,Tree representation of HTML document,Programming language,Browser feature,Document format,Option_1,Intermediate
+What is DOM manipulation?,Changing HTML structure/content with JavaScript,HTML editing,CSS styling,Browser settings,Option_1,Intermediate
+What is an event in JavaScript?,"User interaction like click, scroll, hover",Program error,Function call,Data type,Option_1,Beginner
+What is event listener?,Function waiting for specific event to occur,Event handler,Event trigger,Event type,Option_1,Intermediate
+What is event delegation?,Single listener handling events for multiple elements,Multiple listeners,Bubbling events,Capturing events,Option_1,Advanced
+What is closure in JavaScript?,Function accessing variables from outer scope,Function scope,Global scope,Block scope,Option_1,Intermediate
+What is this keyword?,Reference to object context,Current value,Previous value,Next value,Option_1,Intermediate
+What is prototype in JavaScript?,Object from which other objects inherit,Class definition,Instance object,Prototype pattern,Option_1,Advanced
+What is prototypal inheritance?,Objects inheriting from prototype object,Class-based inheritance,Interface inheritance,Multiple inheritance,Option_1,Advanced
+What is hoisting?,Variables/functions moved to top of scope during execution,Loading code,Parsing code,Executing code,Option_1,Intermediate
+What is IIFE (Immediately Invoked Function Expression)?,Function executed immediately after definition,Regular function,Anonymous function,Named function,Option_1,Advanced
+What is destructuring?,Extracting values from objects/arrays into variables,Object creation,Array creation,Variable assignment,Option_1,Intermediate
+What is spread operator?,Expanding arrays/objects using ...,Rest parameter,Arrow function,Spread syntax,Option_1,Intermediate
+What is React?,JavaScript library for building UI with components,Frontend framework,Backend framework,Full-stack framework,Option_1,Beginner
+What is Vue.js?,Progressive JavaScript framework for UIs,React competitor,Angular alternative,Svelte replacement,Option_1,Beginner
+What is Angular?,Full-featured JavaScript framework for web apps,Library,Template engine,CSS framework,Option_1,Beginner
+What is component in React?,Reusable piece of UI logic,File type,Folder structure,Naming convention,Option_1,Beginner
+What is JSX?,JavaScript XML syntax allowing HTML-like code in JS,Template language,HTML variant,XML dialect,Option_1,Intermediate
+What is virtual DOM?,In-memory representation of actual DOM,Real DOM,Actual DOM,Browser DOM,Option_1,Intermediate
+What is React hooks?,Functions adding state/lifecycle to functional components,Class components,Component props,Component methods,Option_1,Intermediate
+What is useState hook?,React hook managing component state,useEffect hook,useContext hook,useReducer hook,Option_1,Intermediate
+What is useEffect hook?,React hook for side effects and lifecycle,useState hook,useContext hook,useCallback hook,Option_1,Intermediate
+What is state in React?,Dynamic data that affects component rendering,Static data,Props,Variables,Option_1,Beginner
+What is backend development?,Server-side development handling logic/database,Frontend development,UI development,Styling,Option_1,Beginner
+What is Node.js?,JavaScript runtime for server-side development,Frontend library,Browser feature,CSS preprocessor,Option_1,Beginner
+What is Express.js?,Web application framework for Node.js,Node.js runtime,JavaScript library,Backend language,Option_1,Beginner
+What is API (Application Programming Interface)?,Interface allowing communication between applications,Program interface,User interface,Database interface,Option_1,Beginner
+What is REST API?,"API using HTTP requests (GET, POST, PUT, DELETE)",SOAP API,GraphQL API,WebSocket API,Option_1,Intermediate
+What is HTTP method?,"GET, POST, PUT, DELETE, PATCH operations",URL method,Server method,Client method,Option_1,Intermediate
+What is GET request?,Request retrieving data from server,Request sending data,Request updating data,Request deleting data,Option_1,Beginner
+What is POST request?,Request sending data to server creating resource,Request retrieving data,Request updating data,Request deleting,Option_1,Beginner
+What is PUT request?,Request updating entire existing resource,Request creating resource,Request deleting resource,Request retrieving data,Option_1,Intermediate
+What is DELETE request?,Request removing resource from server,Request creating resource,Request updating resource,Request retrieving data,Option_1,Beginner
+What is database?,Organized collection of structured data,Data file,Excel spreadsheet,Text file,Option_1,Beginner
+What are SQL and NoSQL databases?,"SQL relational, NoSQL non-relational",Both same,SQL is old,NoSQL is old,Option_1,Intermediate
+What is MySQL?,Relational database management system,NoSQL database,Graph database,Search engine,Option_1,Beginner
+What is PostgreSQL?,Advanced relational database system,NoSQL database,Document database,Key-value store,Option_1,Intermediate
+What is MongoDB?,NoSQL document database with JSON-like documents,Relational database,SQL database,Graph database,Option_1,Intermediate
+What is table in relational database?,Collection of rows and columns storing data,Database file,Query result,Data structure,Option_1,Beginner
+What is primary key?,Unique identifier for each record in table,Foreign key,Index,Constraint,Option_1,Beginner
+What is foreign key?,Key referencing primary key in another table,Primary key,Unique key,Index,Option_1,Intermediate
+What is SQL?,Language for querying and managing databases,Programming language,Markup language,Styling language,Option_1,Beginner
+What is normalization?,Organizing database reducing redundancy,Database backup,Data encryption,Query optimization,Option_1,Intermediate
+What is authentication?,Verifying user identity with credentials,Authorization,Encryption,Security protocol,Option_1,Intermediate
+What is authorization?,Determining what authenticated user can access,Authentication,Identification,Encryption,Option_1,Intermediate
+What is JWT (JSON Web Token)?,Token-based authentication mechanism,Session-based auth,Cookie-based auth,OAuth,Option_1,Intermediate
+What is OAuth?,Open authorization standard for delegated access,JWT,Basic auth,Bearer token,Option_1,Advanced
+What is password hashing?,Converting password to irreversible hash,Encrypting password,Encoding password,Compressing password,Option_1,Intermediate
+What is CORS (Cross-Origin Resource Sharing)?,Mechanism allowing cross-origin requests safely,Same-origin policy,Security protocol,Browser feature,Option_1,Advanced
+What is HTTPS?,Secure HTTP with SSL/TLS encryption,Regular HTTP,Protocol extension,Security standard,Option_1,Intermediate
+What is SSL/TLS?,Encryption protocol securing communication,HTTP protocol,Data transfer protocol,Network protocol,Option_1,Intermediate
+What is version control?,System tracking code changes over time,Code backup,Code storage,Code organization,Option_1,Beginner
+What is Git?,Distributed version control system,Centralized version control,GitHub service,Coding language,Option_1,Beginner
+What is GitHub?,Cloud platform for Git repositories,Version control system,Git alternative,Development tool,Option_1,Beginner
+What is branch in Git?,Parallel development line from main code,Code copy,Repository part,Merge point,Option_1,Intermediate
+What is commit in Git?,Saving changes to repository with message,Publishing code,Uploading code,Pushing code,Option_1,Beginner
+What is merge in Git?,Combining changes from different branches,Deleting branch,Creating branch,Resolving conflict,Option_1,Intermediate
+What is pull request?,Request to merge code changes into main branch,Push request,Download request,Upload request,Option_1,Intermediate
+What is Django?,Python web framework with batteries included,Frontend framework,JavaScript framework,Mobile framework,Option_1,Intermediate
+What is Flask?,Lightweight Python web microframework,Heavy framework,Full-stack framework,Frontend framework,Option_1,Intermediate
+What is MERN stack?,"MongoDB, Express, React, Node.js","MySQL, Express, React, Node","MongoDB, Express, Ruby, Node","MySQL, Express, Vue, Node",Option_1,Intermediate
+What is MEAN stack?,"MongoDB, Express, Angular, Node.js","MySQL, Express, Angular, Node","MongoDB, Express, React, Node","MySQL, Express, Angular, Node",Option_1,Intermediate
+What is LAMP stack?,"Linux, Apache, MySQL, PHP","Linux, Nginx, MongoDB, Python","Linux, Apache, MongoDB, PHP","Linux, Nginx, MySQL, PHP",Option_1,Intermediate
+What is deployment?,Releasing application to production environment,Development stage,Testing stage,Building stage,Option_1,Beginner
+What is Docker?,Containerization platform for applications,Virtual machine,Cloud service,Database,Option_1,Intermediate
+What is container?,Isolated environment with all dependencies,Docker image,Virtual machine,Physical server,Option_1,Intermediate
+What is CI/CD?,Continuous Integration/Continuous Deployment,Code Integration,Continuous Development,Continuous Design,Option_1,Intermediate
+What is testing?,Verifying code works correctly,Code review,Code documentation,Code formatting,Option_1,Beginner
+What is unit testing?,Testing individual functions/components,Integration testing,System testing,Acceptance testing,Option_1,Intermediate
+What is integration testing?,Testing interaction between components,Unit testing,System testing,End-to-end testing,Option_1,Intermediate
+What is end-to-end testing?,Testing complete application workflow,Unit testing,Integration testing,Component testing,Option_1,Intermediate
+What is performance optimization?,Improving application speed and efficiency,Code formatting,Code documentation,Code organization,Option_1,Intermediate
+What is caching?,Storing data for quick access,Data backup,Data encryption,Data compression,Option_1,Intermediate
+What is lazy loading?,Loading resources on demand not upfront,Eager loading,Preloading,Caching,Option_1,Intermediate
+What is code splitting?,Dividing code into chunks loaded when needed,Code concatenation,Code minification,Code bundling,Option_1,Advanced
+What is minification?,Removing unnecessary code for smaller file size,Code optimization,Code compression,Code encryption,Option_1,Intermediate
+What is bundling?,Combining multiple files into fewer bundle files,File compression,File packaging,File organization,Option_1,Intermediate
+What is WebSocket?,Protocol for full-duplex communication,HTTP protocol,TCP protocol,UDP protocol,Option_1,Advanced
+What is Socket.io?,Library enabling real-time bidirectional communication,WebSocket library,HTTP library,Network library,Option_1,Advanced
+What is MVC (Model-View-Controller)?,"Architecture separating data, presentation, logic",Design pattern,UI pattern,Data pattern,Option_1,Intermediate
+What is REST architecture?,Architectural style for web services,Design pattern,Code structure,Naming convention,Option_1,Intermediate
+What is microservices?,Architecture with small independent services,Monolithic architecture,Layered architecture,Event-driven,Option_1,Advanced
+What is monolithic architecture?,Single unified application,Multiple services,Distributed system,Microservices,Option_1,Intermediate
+What is scalability?,Ability to handle increasing load,Performance,Reliability,Availability,Option_1,Advanced
+What is horizontal scaling?,Adding more servers/machines,Upgrading server,Increasing RAM,Increasing storage,Option_1,Advanced
+What is vertical scaling?,"Upgrading server resources (RAM, CPU)",Adding servers,Distributed system,Load balancing,Option_1,Advanced
+What is load balancing?,Distributing requests across servers,Server selection,Traffic routing,Request queuing,Option_1,Advanced
+What is API design?,Designing clear and consistent API endpoints,API documentation,API testing,API deployment,Option_1,Intermediate
+What is endpoint?,Specific URL path for API resource,Server address,Domain name,Port number,Option_1,Beginner
+What is API versioning?,Managing different API versions for compatibility,API documentation,API testing,API design,Option_1,Advanced
+What is rate limiting?,Restricting number of requests per time period,Speed limiting,Bandwidth limiting,Connection limiting,Option_1,Intermediate
+What is logging?,Recording application events and errors,Data backup,Data encryption,Data compression,Option_1,Intermediate
+What is monitoring?,Observing application performance and health,Testing application,Deploying application,Documenting application,Option_1,Intermediate
+What is code review?,Peer examination of code for quality,Code testing,Code compilation,Code documentation,Option_1,Intermediate
+What is linting?,Checking code for style/error issues,Code formatting,Code testing,Code compilation,Option_1,Intermediate
+What is code refactoring?,Improving code structure without changing functionality,Rewriting code,Fixing bugs,Adding features,Option_1,Intermediate
+What is technical debt?,Accumulated costs from shortcuts in development,Actual debt,Financial cost,Development cost,Option_1,Advanced
+What is API documentation?,Detailed description of API usage and endpoints,Code comments,README file,Version history,Option_1,Intermediate
+What is README file?,Documentation explaining project setup/usage,Code file,Configuration file,Environment file,Option_1,Beginner
+What is web accessibility?,Ensuring websites work for all users including disabled,Website design,Website speed,Website security,Option_1,Intermediate
+What is WCAG (Web Content Accessibility Guidelines)?,Standards for accessible web content,Web design standard,Performance standard,Security standard,Option_1,Advanced
+What are environment variables?,Configuration values set outside code,Code variables,Global variables,Local variables,Option_1,Intermediate
+What is .env file?,File storing environment variables,Configuration file,Source file,Build file,Option_1,Intermediate
+What does Full Stack Development refer to?,Development of both frontend and backend of applications,Only frontend development,Only backend development,Mobile app development,Option_1,Beginner
+What is HTML?,Markup language for creating web structure,Programming language,Styling language,Database language,Option_1,Beginner
+What is CSS?,Stylesheet language for web page styling,Programming language,Markup language,Database language,Option_1,Beginner
+What is JavaScript?,Programming language for interactive web functionality,Markup language,Styling language,Database language,Option_1,Beginner
+"What is the difference between HTML, CSS, and JavaScript?","HTML structure, CSS styling, JavaScript behavior",All are same,All are languages,Different versions,Option_1,Beginner
+What is a semantic HTML tag?,"Tags with meaningful context like <header>, <footer>",All tags,Non-standard tags,Deprecated tags,Option_1,Beginner
+What is the difference between <div> and <span>?,"<div> is block-level, <span> is inline",Same element,Different names only,Different behavior,Option_1,Beginner
+What is an HTML form?,User input collection mechanism with <form> element,Text display element,Navigation element,Styling element,Option_1,Beginner
+What is the purpose of alt attribute in <img>?,Provide text alternative for accessibility,Image title,Image styling,Image link,Option_1,Intermediate
+What are HTML5 new features?,"Canvas, Video, Audio, Semantic elements, Geolocation",Only visual elements,Only metadata,Only form elements,Option_1,Intermediate
+What is the CSS box model?,"Margin, Border, Padding, Content",Only width and height,Only colors,Only fonts,Option_1,Beginner
+What is the difference between padding and margin?,"Padding is inside, margin is outside",Same thing,Margin is inside,No difference,Option_1,Beginner
+What is CSS specificity?,Priority of CSS rules applied to elements,CSS performance,CSS file size,CSS syntax,Option_1,Intermediate
+What are CSS selectors?,Patterns for selecting HTML elements to style,CSS properties,CSS values,CSS rules,Option_1,Beginner
+What is Flexbox?,CSS layout model for flexible responsive design,Grid system,Positioning method,Display property,Option_1,Intermediate
+What is CSS Grid?,2D layout system for complex designs,1D layout,Flexbox alternative,Positioning system,Option_1,Intermediate
+What is responsive design?,Design adapting to different screen sizes,Fixed design,Desktop-only design,Mobile-only design,Option_1,Beginner
+What is media query?,CSS technique applying styles based on device features,CSS property,CSS function,CSS variable,Option_1,Intermediate
+What are CSS preprocessors?,"SASS, LESS extending CSS with variables, functions",CSS frameworks,CSS libraries,CSS standards,Option_1,Intermediate
+What is Bootstrap?,CSS framework with pre-built components,JavaScript library,Programming language,Database,Option_1,Beginner
+What is JavaScript?,Programming language for web interactivity,Markup language,Styling language,Database language,Option_1,Beginner
+What are variables in JavaScript?,Containers for storing data values,Data types,Functions,Objects,Option_1,Beginner
+What are JavaScript data types?,"String, Number, Boolean, Object, Array, Null, Undefined",Only String and Number,Only objects,Only primitives,Option_1,Beginner
+"What is the difference between let, const, and var?","var is function-scoped, let/const are block-scoped",All are same,Different naming only,Different performance,Option_1,Intermediate
+What are JavaScript functions?,Reusable blocks of code,Variables,Objects,Data types,Option_1,Beginner
+What is arrow function?,Concise function syntax using => arrow,Regular function,Anonymous function,Named function,Option_1,Intermediate
+What is a callback function?,Function passed as argument to another function,Called back repeatedly,Recursive function,Nested function,Option_1,Intermediate
+What is Promise in JavaScript?,Object handling asynchronous operations,Synchronous operation,Function,Variable,Option_1,Intermediate
+What is async/await?,Syntactic sugar for handling Promises,Promise alternative,Callback replacement,Loop structure,Option_1,Intermediate
+What is the difference between == and ===?,"=== strict equality, == loose equality",Same operator,Different performance,Different use,Option_1,Intermediate
+What is DOM (Document Object Model)?,Tree representation of HTML document,Programming language,Browser feature,Document format,Option_1,Intermediate
+What is DOM manipulation?,Changing HTML structure/content with JavaScript,HTML editing,CSS styling,Browser settings,Option_1,Intermediate
+What is an event in JavaScript?,"User interaction like click, scroll, hover",Program error,Function call,Data type,Option_1,Beginner
+What is event listener?,Function waiting for specific event to occur,Event handler,Event trigger,Event type,Option_1,Intermediate
+What is event delegation?,Single listener handling events for multiple elements,Multiple listeners,Bubbling events,Capturing events,Option_1,Advanced
+What is closure in JavaScript?,Function accessing variables from outer scope,Function scope,Global scope,Block scope,Option_1,Intermediate
+What is this keyword?,Reference to object context,Current value,Previous value,Next value,Option_1,Intermediate
+What is prototype in JavaScript?,Object from which other objects inherit,Class definition,Instance object,Prototype pattern,Option_1,Advanced
+What is prototypal inheritance?,Objects inheriting from prototype object,Class-based inheritance,Interface inheritance,Multiple inheritance,Option_1,Advanced
+What is hoisting?,Variables/functions moved to top of scope during execution,Loading code,Parsing code,Executing code,Option_1,Intermediate
+What is IIFE (Immediately Invoked Function Expression)?,Function executed immediately after definition,Regular function,Anonymous function,Named function,Option_1,Advanced
+What is destructuring?,Extracting values from objects/arrays into variables,Object creation,Array creation,Variable assignment,Option_1,Intermediate
+What is spread operator?,Expanding arrays/objects using ...,Rest parameter,Arrow function,Spread syntax,Option_1,Intermediate
+What is React?,JavaScript library for building UI with components,Frontend framework,Backend framework,Full-stack framework,Option_1,Beginner
+What is Vue.js?,Progressive JavaScript framework for UIs,React competitor,Angular alternative,Svelte replacement,Option_1,Beginner
+What is Angular?,Full-featured JavaScript framework for web apps,Library,Template engine,CSS framework,Option_1,Beginner
+What is component in React?,Reusable piece of UI logic,File type,Folder structure,Naming convention,Option_1,Beginner
+What is JSX?,JavaScript XML syntax allowing HTML-like code in JS,Template language,HTML variant,XML dialect,Option_1,Intermediate
+What is virtual DOM?,In-memory representation of actual DOM,Real DOM,Actual DOM,Browser DOM,Option_1,Intermediate
+What is React hooks?,Functions adding state/lifecycle to functional components,Class components,Component props,Component methods,Option_1,Intermediate
+What is useState hook?,React hook managing component state,useEffect hook,useContext hook,useReducer hook,Option_1,Intermediate
+What is useEffect hook?,React hook for side effects and lifecycle,useState hook,useContext hook,useCallback hook,Option_1,Intermediate
+What is state in React?,Dynamic data that affects component rendering,Static data,Props,Variables,Option_1,Beginner
+What is backend development?,Server-side development handling logic/database,Frontend development,UI development,Styling,Option_1,Beginner
+What is Node.js?,JavaScript runtime for server-side development,Frontend library,Browser feature,CSS preprocessor,Option_1,Beginner
+What is Express.js?,Web application framework for Node.js,Node.js runtime,JavaScript library,Backend language,Option_1,Beginner
+What is API (Application Programming Interface)?,Interface allowing communication between applications,Program interface,User interface,Database interface,Option_1,Beginner
+What is REST API?,"API using HTTP requests (GET, POST, PUT, DELETE)",SOAP API,GraphQL API,WebSocket API,Option_1,Intermediate
+What is HTTP method?,"GET, POST, PUT, DELETE, PATCH operations",URL method,Server method,Client method,Option_1,Intermediate
+What is GET request?,Request retrieving data from server,Request sending data,Request updating data,Request deleting data,Option_1,Beginner
+What is POST request?,Request sending data to server creating resource,Request retrieving data,Request updating data,Request deleting,Option_1,Beginner
+What is PUT request?,Request updating entire existing resource,Request creating resource,Request deleting resource,Request retrieving data,Option_1,Intermediate
+What is DELETE request?,Request removing resource from server,Request creating resource,Request updating resource,Request retrieving data,Option_1,Beginner
+What is database?,Organized collection of structured data,Data file,Excel spreadsheet,Text file,Option_1,Beginner
+What are SQL and NoSQL databases?,"SQL relational, NoSQL non-relational",Both same,SQL is old,NoSQL is old,Option_1,Intermediate
+What is MySQL?,Relational database management system,NoSQL database,Graph database,Search engine,Option_1,Beginner
+What is PostgreSQL?,Advanced relational database system,NoSQL database,Document database,Key-value store,Option_1,Intermediate
+What is MongoDB?,NoSQL document database with JSON-like documents,Relational database,SQL database,Graph database,Option_1,Intermediate
+What is table in relational database?,Collection of rows and columns storing data,Database file,Query result,Data structure,Option_1,Beginner
+What is primary key?,Unique identifier for each record in table,Foreign key,Index,Constraint,Option_1,Beginner
+What is foreign key?,Key referencing primary key in another table,Primary key,Unique key,Index,Option_1,Intermediate
+What is SQL?,Language for querying and managing databases,Programming language,Markup language,Styling language,Option_1,Beginner
+What is normalization?,Organizing database reducing redundancy,Database backup,Data encryption,Query optimization,Option_1,Intermediate
+What is authentication?,Verifying user identity with credentials,Authorization,Encryption,Security protocol,Option_1,Intermediate
+What is authorization?,Determining what authenticated user can access,Authentication,Identification,Encryption,Option_1,Intermediate
+What is JWT (JSON Web Token)?,Token-based authentication mechanism,Session-based auth,Cookie-based auth,OAuth,Option_1,Intermediate
+What is OAuth?,Open authorization standard for delegated access,JWT,Basic auth,Bearer token,Option_1,Advanced
+What is password hashing?,Converting password to irreversible hash,Encrypting password,Encoding password,Compressing password,Option_1,Intermediate
+What is CORS (Cross-Origin Resource Sharing)?,Mechanism allowing cross-origin requests safely,Same-origin policy,Security protocol,Browser feature,Option_1,Advanced
+What is HTTPS?,Secure HTTP with SSL/TLS encryption,Regular HTTP,Protocol extension,Security standard,Option_1,Intermediate
+What is SSL/TLS?,Encryption protocol securing communication,HTTP protocol,Data transfer protocol,Network protocol,Option_1,Intermediate
+What is version control?,System tracking code changes over time,Code backup,Code storage,Code organization,Option_1,Beginner
+What is Git?,Distributed version control system,Centralized version control,GitHub service,Coding language,Option_1,Beginner
+What is GitHub?,Cloud platform for Git repositories,Version control system,Git alternative,Development tool,Option_1,Beginner
+What is branch in Git?,Parallel development line from main code,Code copy,Repository part,Merge point,Option_1,Intermediate
+What is commit in Git?,Saving changes to repository with message,Publishing code,Uploading code,Pushing code,Option_1,Beginner
+What is merge in Git?,Combining changes from different branches,Deleting branch,Creating branch,Resolving conflict,Option_1,Intermediate
+What is pull request?,Request to merge code changes into main branch,Push request,Download request,Upload request,Option_1,Intermediate
+What is Django?,Python web framework with batteries included,Frontend framework,JavaScript framework,Mobile framework,Option_1,Intermediate
+What is Flask?,Lightweight Python web microframework,Heavy framework,Full-stack framework,Frontend framework,Option_1,Intermediate
+What is MERN stack?,"MongoDB, Express, React, Node.js","MySQL, Express, React, Node","MongoDB, Express, Ruby, Node","MySQL, Express, Vue, Node",Option_1,Intermediate
+What is MEAN stack?,"MongoDB, Express, Angular, Node.js","MySQL, Express, Angular, Node","MongoDB, Express, React, Node","MySQL, Express, Angular, Node",Option_1,Intermediate
+What is LAMP stack?,"Linux, Apache, MySQL, PHP","Linux, Nginx, MongoDB, Python","Linux, Apache, MongoDB, PHP","Linux, Nginx, MySQL, PHP",Option_1,Intermediate
+What is deployment?,Releasing application to production environment,Development stage,Testing stage,Building stage,Option_1,Beginner
+What is Docker?,Containerization platform for applications,Virtual machine,Cloud service,Database,Option_1,Intermediate
+What is container?,Isolated environment with all dependencies,Docker image,Virtual machine,Physical server,Option_1,Intermediate
+What is CI/CD?,Continuous Integration/Continuous Deployment,Code Integration,Continuous Development,Continuous Design,Option_1,Intermediate
+What is testing?,Verifying code works correctly,Code review,Code documentation,Code formatting,Option_1,Beginner
+What is unit testing?,Testing individual functions/components,Integration testing,System testing,Acceptance testing,Option_1,Intermediate
+What is integration testing?,Testing interaction between components,Unit testing,System testing,End-to-end testing,Option_1,Intermediate
+What is end-to-end testing?,Testing complete application workflow,Unit testing,Integration testing,Component testing,Option_1,Intermediate
+What is performance optimization?,Improving application speed and efficiency,Code formatting,Code documentation,Code organization,Option_1,Intermediate
+What is caching?,Storing data for quick access,Data backup,Data encryption,Data compression,Option_1,Intermediate
+What is lazy loading?,Loading resources on demand not upfront,Eager loading,Preloading,Caching,Option_1,Intermediate
+What is code splitting?,Dividing code into chunks loaded when needed,Code concatenation,Code minification,Code bundling,Option_1,Advanced
+What is minification?,Removing unnecessary code for smaller file size,Code optimization,Code compression,Code encryption,Option_1,Intermediate
+What is bundling?,Combining multiple files into fewer bundle files,File compression,File packaging,File organization,Option_1,Intermediate
+What is WebSocket?,Protocol for full-duplex communication,HTTP protocol,TCP protocol,UDP protocol,Option_1,Advanced
+What is Socket.io?,Library enabling real-time bidirectional communication,WebSocket library,HTTP library,Network library,Option_1,Advanced
+What is MVC (Model-View-Controller)?,"Architecture separating data, presentation, logic",Design pattern,UI pattern,Data pattern,Option_1,Intermediate
+What is REST architecture?,Architectural style for web services,Design pattern,Code structure,Naming convention,Option_1,Intermediate
+What is microservices?,Architecture with small independent services,Monolithic architecture,Layered architecture,Event-driven,Option_1,Advanced
+What is monolithic architecture?,Single unified application,Multiple services,Distributed system,Microservices,Option_1,Intermediate
+What is scalability?,Ability to handle increasing load,Performance,Reliability,Availability,Option_1,Advanced
+What is horizontal scaling?,Adding more servers/machines,Upgrading server,Increasing RAM,Increasing storage,Option_1,Advanced
+What is vertical scaling?,"Upgrading server resources (RAM, CPU)",Adding servers,Distributed system,Load balancing,Option_1,Advanced
+What is load balancing?,Distributing requests across servers,Server selection,Traffic routing,Request queuing,Option_1,Advanced
+What is API design?,Designing clear and consistent API endpoints,API documentation,API testing,API deployment,Option_1,Intermediate
+What is endpoint?,Specific URL path for API resource,Server address,Domain name,Port number,Option_1,Beginner
+What is API versioning?,Managing different API versions for compatibility,API documentation,API testing,API design,Option_1,Advanced
+What is rate limiting?,Restricting number of requests per time period,Speed limiting,Bandwidth limiting,Connection limiting,Option_1,Intermediate
+What is logging?,Recording application events and errors,Data backup,Data encryption,Data compression,Option_1,Intermediate
+What is monitoring?,Observing application performance and health,Testing application,Deploying application,Documenting application,Option_1,Intermediate
+What is code review?,Peer examination of code for quality,Code testing,Code compilation,Code documentation,Option_1,Intermediate
+What is linting?,Checking code for style/error issues,Code formatting,Code testing,Code compilation,Option_1,Intermediate
+What is code refactoring?,Improving code structure without changing functionality,Rewriting code,Fixing bugs,Adding features,Option_1,Intermediate
+What is technical debt?,Accumulated costs from shortcuts in development,Actual debt,Financial cost,Development cost,Option_1,Advanced
+What is API documentation?,Detailed description of API usage and endpoints,Code comments,README file,Version history,Option_1,Intermediate
+What is README file?,Documentation explaining project setup/usage,Code file,Configuration file,Environment file,Option_1,Beginner
+What is web accessibility?,Ensuring websites work for all users including disabled,Website design,Website speed,Website security,Option_1,Intermediate
+What is WCAG (Web Content Accessibility Guidelines)?,Standards for accessible web content,Web design standard,Performance standard,Security standard,Option_1,Advanced
+What are environment variables?,Configuration values set outside code,Code variables,Global variables,Local variables,Option_1,Intermediate
+What is .env file?,File storing environment variables,Configuration file,Source file,Build file,Option_1,Intermediate
+What does Full Stack Development refer to?,Development of both frontend and backend of applications,Only frontend development,Only backend development,Mobile app development,Option_1,Beginner
+What is HTML?,Markup language for creating web structure,Programming language,Styling language,Database language,Option_1,Beginner
+What is CSS?,Stylesheet language for web page styling,Programming language,Markup language,Database language,Option_1,Beginner
+What is JavaScript?,Programming language for interactive web functionality,Markup language,Styling language,Database language,Option_1,Beginner
+"What is the difference between HTML, CSS, and JavaScript?","HTML structure, CSS styling, JavaScript behavior",All are same,All are languages,Different versions,Option_1,Beginner
+What is a semantic HTML tag?,"Tags with meaningful context like <header>, <footer>",All tags,Non-standard tags,Deprecated tags,Option_1,Beginner
+What is the difference between <div> and <span>?,"<div> is block-level, <span> is inline",Same element,Different names only,Different behavior,Option_1,Beginner
+What is an HTML form?,User input collection mechanism with <form> element,Text display element,Navigation element,Styling element,Option_1,Beginner
+What is the purpose of alt attribute in <img>?,Provide text alternative for accessibility,Image title,Image styling,Image link,Option_1,Intermediate
+What are HTML5 new features?,"Canvas, Video, Audio, Semantic elements, Geolocation",Only visual elements,Only metadata,Only form elements,Option_1,Intermediate
+What is the CSS box model?,"Margin, Border, Padding, Content",Only width and height,Only colors,Only fonts,Option_1,Beginner
+What is the difference between padding and margin?,"Padding is inside, margin is outside",Same thing,Margin is inside,No difference,Option_1,Beginner
+What is CSS specificity?,Priority of CSS rules applied to elements,CSS performance,CSS file size,CSS syntax,Option_1,Intermediate
+What are CSS selectors?,Patterns for selecting HTML elements to style,CSS properties,CSS values,CSS rules,Option_1,Beginner
+What is Flexbox?,CSS layout model for flexible responsive design,Grid system,Positioning method,Display property,Option_1,Intermediate
+What is CSS Grid?,2D layout system for complex designs,1D layout,Flexbox alternative,Positioning system,Option_1,Intermediate
+What is responsive design?,Design adapting to different screen sizes,Fixed design,Desktop-only design,Mobile-only design,Option_1,Beginner
+What is media query?,CSS technique applying styles based on device features,CSS property,CSS function,CSS variable,Option_1,Intermediate
+What are CSS preprocessors?,"SASS, LESS extending CSS with variables, functions",CSS frameworks,CSS libraries,CSS standards,Option_1,Intermediate
+What is Bootstrap?,CSS framework with pre-built components,JavaScript library,Programming language,Database,Option_1,Beginner
+What is JavaScript?,Programming language for web interactivity,Markup language,Styling language,Database language,Option_1,Beginner
+What are variables in JavaScript?,Containers for storing data values,Data types,Functions,Objects,Option_1,Beginner
+What are JavaScript data types?,"String, Number, Boolean, Object, Array, Null, Undefined",Only String and Number,Only objects,Only primitives,Option_1,Beginner
+"What is the difference between let, const, and var?","var is function-scoped, let/const are block-scoped",All are same,Different naming only,Different performance,Option_1,Intermediate
+What are JavaScript functions?,Reusable blocks of code,Variables,Objects,Data types,Option_1,Beginner
+What is arrow function?,Concise function syntax using => arrow,Regular function,Anonymous function,Named function,Option_1,Intermediate
+What is a callback function?,Function passed as argument to another function,Called back repeatedly,Recursive function,Nested function,Option_1,Intermediate
+What is Promise in JavaScript?,Object handling asynchronous operations,Synchronous operation,Function,Variable,Option_1,Intermediate
+What is async/await?,Syntactic sugar for handling Promises,Promise alternative,Callback replacement,Loop structure,Option_1,Intermediate
+What is the difference between == and ===?,"=== strict equality, == loose equality",Same operator,Different performance,Different use,Option_1,Intermediate
+What is DOM (Document Object Model)?,Tree representation of HTML document,Programming language,Browser feature,Document format,Option_1,Intermediate
+What is DOM manipulation?,Changing HTML structure/content with JavaScript,HTML editing,CSS styling,Browser settings,Option_1,Intermediate
+What is an event in JavaScript?,"User interaction like click, scroll, hover",Program error,Function call,Data type,Option_1,Beginner
+What is event listener?,Function waiting for specific event to occur,Event handler,Event trigger,Event type,Option_1,Intermediate
+What is event delegation?,Single listener handling events for multiple elements,Multiple listeners,Bubbling events,Capturing events,Option_1,Advanced
+What is closure in JavaScript?,Function accessing variables from outer scope,Function scope,Global scope,Block scope,Option_1,Intermediate
+What is this keyword?,Reference to object context,Current value,Previous value,Next value,Option_1,Intermediate
+What is prototype in JavaScript?,Object from which other objects inherit,Class definition,Instance object,Prototype pattern,Option_1,Advanced
+What is prototypal inheritance?,Objects inheriting from prototype object,Class-based inheritance,Interface inheritance,Multiple inheritance,Option_1,Advanced
+What is hoisting?,Variables/functions moved to top of scope during execution,Loading code,Parsing code,Executing code,Option_1,Intermediate
+What is IIFE (Immediately Invoked Function Expression)?,Function executed immediately after definition,Regular function,Anonymous function,Named function,Option_1,Advanced
+What is destructuring?,Extracting values from objects/arrays into variables,Object creation,Array creation,Variable assignment,Option_1,Intermediate
+What is spread operator?,Expanding arrays/objects using ...,Rest parameter,Arrow function,Spread syntax,Option_1,Intermediate
+What is React?,JavaScript library for building UI with components,Frontend framework,Backend framework,Full-stack framework,Option_1,Beginner
+What is Vue.js?,Progressive JavaScript framework for UIs,React competitor,Angular alternative,Svelte replacement,Option_1,Beginner
+What is Angular?,Full-featured JavaScript framework for web apps,Library,Template engine,CSS framework,Option_1,Beginner
+What is component in React?,Reusable piece of UI logic,File type,Folder structure,Naming convention,Option_1,Beginner
+What is JSX?,JavaScript XML syntax allowing HTML-like code in JS,Template language,HTML variant,XML dialect,Option_1,Intermediate
+What is virtual DOM?,In-memory representation of actual DOM,Real DOM,Actual DOM,Browser DOM,Option_1,Intermediate
+What is React hooks?,Functions adding state/lifecycle to functional components,Class components,Component props,Component methods,Option_1,Intermediate
+What is useState hook?,React hook managing component state,useEffect hook,useContext hook,useReducer hook,Option_1,Intermediate
+What is useEffect hook?,React hook for side effects and lifecycle,useState hook,useContext hook,useCallback hook,Option_1,Intermediate
+What is state in React?,Dynamic data that affects component rendering,Static data,Props,Variables,Option_1,Beginner
+What is backend development?,Server-side development handling logic/database,Frontend development,UI development,Styling,Option_1,Beginner
+What is Node.js?,JavaScript runtime for server-side development,Frontend library,Browser feature,CSS preprocessor,Option_1,Beginner
+What is Express.js?,Web application framework for Node.js,Node.js runtime,JavaScript library,Backend language,Option_1,Beginner
+What is API (Application Programming Interface)?,Interface allowing communication between applications,Program interface,User interface,Database interface,Option_1,Beginner
+What is REST API?,"API using HTTP requests (GET, POST, PUT, DELETE)",SOAP API,GraphQL API,WebSocket API,Option_1,Intermediate
+What is HTTP method?,"GET, POST, PUT, DELETE, PATCH operations",URL method,Server method,Client method,Option_1,Intermediate
+What is GET request?,Request retrieving data from server,Request sending data,Request updating data,Request deleting data,Option_1,Beginner
+What is POST request?,Request sending data to server creating resource,Request retrieving data,Request updating data,Request deleting,Option_1,Beginner
+What is PUT request?,Request updating entire existing resource,Request creating resource,Request deleting resource,Request retrieving data,Option_1,Intermediate
+What is DELETE request?,Request removing resource from server,Request creating resource,Request updating resource,Request retrieving data,Option_1,Beginner
+What is database?,Organized collection of structured data,Data file,Excel spreadsheet,Text file,Option_1,Beginner
+What are SQL and NoSQL databases?,"SQL relational, NoSQL non-relational",Both same,SQL is old,NoSQL is old,Option_1,Intermediate
+What is MySQL?,Relational database management system,NoSQL database,Graph database,Search engine,Option_1,Beginner
+What is PostgreSQL?,Advanced relational database system,NoSQL database,Document database,Key-value store,Option_1,Intermediate
+What is MongoDB?,NoSQL document database with JSON-like documents,Relational database,SQL database,Graph database,Option_1,Intermediate
+What is table in relational database?,Collection of rows and columns storing data,Database file,Query result,Data structure,Option_1,Beginner
+What is primary key?,Unique identifier for each record in table,Foreign key,Index,Constraint,Option_1,Beginner
+What is foreign key?,Key referencing primary key in another table,Primary key,Unique key,Index,Option_1,Intermediate
+What is SQL?,Language for querying and managing databases,Programming language,Markup language,Styling language,Option_1,Beginner
+What is normalization?,Organizing database reducing redundancy,Database backup,Data encryption,Query optimization,Option_1,Intermediate
+What is authentication?,Verifying user identity with credentials,Authorization,Encryption,Security protocol,Option_1,Intermediate
+What is authorization?,Determining what authenticated user can access,Authentication,Identification,Encryption,Option_1,Intermediate
+What is JWT (JSON Web Token)?,Token-based authentication mechanism,Session-based auth,Cookie-based auth,OAuth,Option_1,Intermediate
+What is OAuth?,Open authorization standard for delegated access,JWT,Basic auth,Bearer token,Option_1,Advanced
+What is password hashing?,Converting password to irreversible hash,Encrypting password,Encoding password,Compressing password,Option_1,Intermediate
+What is CORS (Cross-Origin Resource Sharing)?,Mechanism allowing cross-origin requests safely,Same-origin policy,Security protocol,Browser feature,Option_1,Advanced
+What is HTTPS?,Secure HTTP with SSL/TLS encryption,Regular HTTP,Protocol extension,Security standard,Option_1,Intermediate
+What is SSL/TLS?,Encryption protocol securing communication,HTTP protocol,Data transfer protocol,Network protocol,Option_1,Intermediate
+What is version control?,System tracking code changes over time,Code backup,Code storage,Code organization,Option_1,Beginner
+What is Git?,Distributed version control system,Centralized version control,GitHub service,Coding language,Option_1,Beginner
+What is GitHub?,Cloud platform for Git repositories,Version control system,Git alternative,Development tool,Option_1,Beginner
+What is branch in Git?,Parallel development line from main code,Code copy,Repository part,Merge point,Option_1,Intermediate
+What is commit in Git?,Saving changes to repository with message,Publishing code,Uploading code,Pushing code,Option_1,Beginner
+What is merge in Git?,Combining changes from different branches,Deleting branch,Creating branch,Resolving conflict,Option_1,Intermediate
+What is pull request?,Request to merge code changes into main branch,Push request,Download request,Upload request,Option_1,Intermediate
+What is Django?,Python web framework with batteries included,Frontend framework,JavaScript framework,Mobile framework,Option_1,Intermediate
+What is Flask?,Lightweight Python web microframework,Heavy framework,Full-stack framework,Frontend framework,Option_1,Intermediate
+What is MERN stack?,"MongoDB, Express, React, Node.js","MySQL, Express, React, Node","MongoDB, Express, Ruby, Node","MySQL, Express, Vue, Node",Option_1,Intermediate
+What is MEAN stack?,"MongoDB, Express, Angular, Node.js","MySQL, Express, Angular, Node","MongoDB, Express, React, Node","MySQL, Express, Angular, Node",Option_1,Intermediate
+What is LAMP stack?,"Linux, Apache, MySQL, PHP","Linux, Nginx, MongoDB, Python","Linux, Apache, MongoDB, PHP","Linux, Nginx, MySQL, PHP",Option_1,Intermediate
+What is deployment?,Releasing application to production environment,Development stage,Testing stage,Building stage,Option_1,Beginner
+What is Docker?,Containerization platform for applications,Virtual machine,Cloud service,Database,Option_1,Intermediate
+What is container?,Isolated environment with all dependencies,Docker image,Virtual machine,Physical server,Option_1,Intermediate
+What is CI/CD?,Continuous Integration/Continuous Deployment,Code Integration,Continuous Development,Continuous Design,Option_1,Intermediate
+What is testing?,Verifying code works correctly,Code review,Code documentation,Code formatting,Option_1,Beginner
+What is unit testing?,Testing individual functions/components,Integration testing,System testing,Acceptance testing,Option_1,Intermediate
+What is integration testing?,Testing interaction between components,Unit testing,System testing,End-to-end testing,Option_1,Intermediate
+What is end-to-end testing?,Testing complete application workflow,Unit testing,Integration testing,Component testing,Option_1,Intermediate
+What is performance optimization?,Improving application speed and efficiency,Code formatting,Code documentation,Code organization,Option_1,Intermediate
+What is caching?,Storing data for quick access,Data backup,Data encryption,Data compression,Option_1,Intermediate
+What is lazy loading?,Loading resources on demand not upfront,Eager loading,Preloading,Caching,Option_1,Intermediate
+What is code splitting?,Dividing code into chunks loaded when needed,Code concatenation,Code minification,Code bundling,Option_1,Advanced
+What is minification?,Removing unnecessary code for smaller file size,Code optimization,Code compression,Code encryption,Option_1,Intermediate
+What is bundling?,Combining multiple files into fewer bundle files,File compression,File packaging,File organization,Option_1,Intermediate
+What is WebSocket?,Protocol for full-duplex communication,HTTP protocol,TCP protocol,UDP protocol,Option_1,Advanced
+What is Socket.io?,Library enabling real-time bidirectional communication,WebSocket library,HTTP library,Network library,Option_1,Advanced
+What is MVC (Model-View-Controller)?,"Architecture separating data, presentation, logic",Design pattern,UI pattern,Data pattern,Option_1,Intermediate
+What is REST architecture?,Architectural style for web services,Design pattern,Code structure,Naming convention,Option_1,Intermediate
+What is microservices?,Architecture with small independent services,Monolithic architecture,Layered architecture,Event-driven,Option_1,Advanced
+What is monolithic architecture?,Single unified application,Multiple services,Distributed system,Microservices,Option_1,Intermediate
+What is scalability?,Ability to handle increasing load,Performance,Reliability,Availability,Option_1,Advanced
+What is horizontal scaling?,Adding more servers/machines,Upgrading server,Increasing RAM,Increasing storage,Option_1,Advanced
+What is vertical scaling?,"Upgrading server resources (RAM, CPU)",Adding servers,Distributed system,Load balancing,Option_1,Advanced
+What is load balancing?,Distributing requests across servers,Server selection,Traffic routing,Request queuing,Option_1,Advanced
+What is API design?,Designing clear and consistent API endpoints,API documentation,API testing,API deployment,Option_1,Intermediate
+What is endpoint?,Specific URL path for API resource,Server address,Domain name,Port number,Option_1,Beginner
+What is API versioning?,Managing different API versions for compatibility,API documentation,API testing,API design,Option_1,Advanced
+What is rate limiting?,Restricting number of requests per time period,Speed limiting,Bandwidth limiting,Connection limiting,Option_1,Intermediate
+What is logging?,Recording application events and errors,Data backup,Data encryption,Data compression,Option_1,Intermediate
+What is monitoring?,Observing application performance and health,Testing application,Deploying application,Documenting application,Option_1,Intermediate
+What is code review?,Peer examination of code for quality,Code testing,Code compilation,Code documentation,Option_1,Intermediate
+What is linting?,Checking code for style/error issues,Code formatting,Code testing,Code compilation,Option_1,Intermediate
+What is code refactoring?,Improving code structure without changing functionality,Rewriting code,Fixing bugs,Adding features,Option_1,Intermediate
+What is technical debt?,Accumulated costs from shortcuts in development,Actual debt,Financial cost,Development cost,Option_1,Advanced
+What is API documentation?,Detailed description of API usage and endpoints,Code comments,README file,Version history,Option_1,Intermediate
+What is README file?,Documentation explaining project setup/usage,Code file,Configuration file,Environment file,Option_1,Beginner
+What is web accessibility?,Ensuring websites work for all users including disabled,Website design,Website speed,Website security,Option_1,Intermediate
+What is WCAG (Web Content Accessibility Guidelines)?,Standards for accessible web content,Web design standard,Performance standard,Security standard,Option_1,Advanced
+What are environment variables?,Configuration values set outside code,Code variables,Global variables,Local variables,Option_1,Intermediate
+What is .env file?,File storing environment variables,Configuration file,Source file,Build file,Option_1,Intermediate
+What does Full Stack Development refer to?,Development of both frontend and backend of applications,Only frontend development,Only backend development,Mobile app development,Option_1,Beginner
+What is HTML?,Markup language for creating web structure,Programming language,Styling language,Database language,Option_1,Beginner
+What is CSS?,Stylesheet language for web page styling,Programming language,Markup language,Database language,Option_1,Beginner
+What is JavaScript?,Programming language for interactive web functionality,Markup language,Styling language,Database language,Option_1,Beginner
+"What is the difference between HTML, CSS, and JavaScript?","HTML structure, CSS styling, JavaScript behavior",All are same,All are languages,Different versions,Option_1,Beginner
+What is a semantic HTML tag?,"Tags with meaningful context like <header>, <footer>",All tags,Non-standard tags,Deprecated tags,Option_1,Beginner
+What is the difference between <div> and <span>?,"<div> is block-level, <span> is inline",Same element,Different names only,Different behavior,Option_1,Beginner
+What is an HTML form?,User input collection mechanism with <form> element,Text display element,Navigation element,Styling element,Option_1,Beginner
+What is the purpose of alt attribute in <img>?,Provide text alternative for accessibility,Image title,Image styling,Image link,Option_1,Intermediate
+What are HTML5 new features?,"Canvas, Video, Audio, Semantic elements, Geolocation",Only visual elements,Only metadata,Only form elements,Option_1,Intermediate
+What is the CSS box model?,"Margin, Border, Padding, Content",Only width and height,Only colors,Only fonts,Option_1,Beginner
+What is the difference between padding and margin?,"Padding is inside, margin is outside",Same thing,Margin is inside,No difference,Option_1,Beginner
+What is CSS specificity?,Priority of CSS rules applied to elements,CSS performance,CSS file size,CSS syntax,Option_1,Intermediate
+What are CSS selectors?,Patterns for selecting HTML elements to style,CSS properties,CSS values,CSS rules,Option_1,Beginner
+What is Flexbox?,CSS layout model for flexible responsive design,Grid system,Positioning method,Display property,Option_1,Intermediate
+What is CSS Grid?,2D layout system for complex designs,1D layout,Flexbox alternative,Positioning system,Option_1,Intermediate
+What is responsive design?,Design adapting to different screen sizes,Fixed design,Desktop-only design,Mobile-only design,Option_1,Beginner
+What is media query?,CSS technique applying styles based on device features,CSS property,CSS function,CSS variable,Option_1,Intermediate
+What are CSS preprocessors?,"SASS, LESS extending CSS with variables, functions",CSS frameworks,CSS libraries,CSS standards,Option_1,Intermediate
+What is Bootstrap?,CSS framework with pre-built components,JavaScript library,Programming language,Database,Option_1,Beginner
+What is JavaScript?,Programming language for web interactivity,Markup language,Styling language,Database language,Option_1,Beginner
+What are variables in JavaScript?,Containers for storing data values,Data types,Functions,Objects,Option_1,Beginner
+What are JavaScript data types?,"String, Number, Boolean, Object, Array, Null, Undefined",Only String and Number,Only objects,Only primitives,Option_1,Beginner
+"What is the difference between let, const, and var?","var is function-scoped, let/const are block-scoped",All are same,Different naming only,Different performance,Option_1,Intermediate
+What are JavaScript functions?,Reusable blocks of code,Variables,Objects,Data types,Option_1,Beginner
+What is arrow function?,Concise function syntax using => arrow,Regular function,Anonymous function,Named function,Option_1,Intermediate
+What is a callback function?,Function passed as argument to another function,Called back repeatedly,Recursive function,Nested function,Option_1,Intermediate
+What is Promise in JavaScript?,Object handling asynchronous operations,Synchronous operation,Function,Variable,Option_1,Intermediate
+What is async/await?,Syntactic sugar for handling Promises,Promise alternative,Callback replacement,Loop structure,Option_1,Intermediate
+What is the difference between == and ===?,"=== strict equality, == loose equality",Same operator,Different performance,Different use,Option_1,Intermediate
+What is DOM (Document Object Model)?,Tree representation of HTML document,Programming language,Browser feature,Document format,Option_1,Intermediate
+What is DOM manipulation?,Changing HTML structure/content with JavaScript,HTML editing,CSS styling,Browser settings,Option_1,Intermediate
+What is an event in JavaScript?,"User interaction like click, scroll, hover",Program error,Function call,Data type,Option_1,Beginner
+What is event listener?,Function waiting for specific event to occur,Event handler,Event trigger,Event type,Option_1,Intermediate
+What is event delegation?,Single listener handling events for multiple elements,Multiple listeners,Bubbling events,Capturing events,Option_1,Advanced
+What is closure in JavaScript?,Function accessing variables from outer scope,Function scope,Global scope,Block scope,Option_1,Intermediate
+What is this keyword?,Reference to object context,Current value,Previous value,Next value,Option_1,Intermediate
+What is prototype in JavaScript?,Object from which other objects inherit,Class definition,Instance object,Prototype pattern,Option_1,Advanced
+What is prototypal inheritance?,Objects inheriting from prototype object,Class-based inheritance,Interface inheritance,Multiple inheritance,Option_1,Advanced
+What is hoisting?,Variables/functions moved to top of scope during execution,Loading code,Parsing code,Executing code,Option_1,Intermediate
+What is IIFE (Immediately Invoked Function Expression)?,Function executed immediately after definition,Regular function,Anonymous function,Named function,Option_1,Advanced
+What is destructuring?,Extracting values from objects/arrays into variables,Object creation,Array creation,Variable assignment,Option_1,Intermediate
+What is spread operator?,Expanding arrays/objects using ...,Rest parameter,Arrow function,Spread syntax,Option_1,Intermediate
+What is React?,JavaScript library for building UI with components,Frontend framework,Backend framework,Full-stack framework,Option_1,Beginner
+What is Vue.js?,Progressive JavaScript framework for UIs,React competitor,Angular alternative,Svelte replacement,Option_1,Beginner
+What is Angular?,Full-featured JavaScript framework for web apps,Library,Template engine,CSS framework,Option_1,Beginner
+What is component in React?,Reusable piece of UI logic,File type,Folder structure,Naming convention,Option_1,Beginner
+What is JSX?,JavaScript XML syntax allowing HTML-like code in JS,Template language,HTML variant,XML dialect,Option_1,Intermediate
+What is virtual DOM?,In-memory representation of actual DOM,Real DOM,Actual DOM,Browser DOM,Option_1,Intermediate
+What is React hooks?,Functions adding state/lifecycle to functional components,Class components,Component props,Component methods,Option_1,Intermediate
+What is useState hook?,React hook managing component state,useEffect hook,useContext hook,useReducer hook,Option_1,Intermediate
+What is useEffect hook?,React hook for side effects and lifecycle,useState hook,useContext hook,useCallback hook,Option_1,Intermediate
+What is state in React?,Dynamic data that affects component rendering,Static data,Props,Variables,Option_1,Beginner
+What is backend development?,Server-side development handling logic/database,Frontend development,UI development,Styling,Option_1,Beginner
+What is Node.js?,JavaScript runtime for server-side development,Frontend library,Browser feature,CSS preprocessor,Option_1,Beginner
+What is Express.js?,Web application framework for Node.js,Node.js runtime,JavaScript library,Backend language,Option_1,Beginner
+What is API (Application Programming Interface)?,Interface allowing communication between applications,Program interface,User interface,Database interface,Option_1,Beginner
+What is REST API?,"API using HTTP requests (GET, POST, PUT, DELETE)",SOAP API,GraphQL API,WebSocket API,Option_1,Intermediate
+What is HTTP method?,"GET, POST, PUT, DELETE, PATCH operations",URL method,Server method,Client method,Option_1,Intermediate
+What is GET request?,Request retrieving data from server,Request sending data,Request updating data,Request deleting data,Option_1,Beginner
+What is POST request?,Request sending data to server creating resource,Request retrieving data,Request updating data,Request deleting,Option_1,Beginner
+What is PUT request?,Request updating entire existing resource,Request creating resource,Request deleting resource,Request retrieving data,Option_1,Intermediate
+What is DELETE request?,Request removing resource from server,Request creating resource,Request updating resource,Request retrieving data,Option_1,Beginner
+What is database?,Organized collection of structured data,Data file,Excel spreadsheet,Text file,Option_1,Beginner
+What are SQL and NoSQL databases?,"SQL relational, NoSQL non-relational",Both same,SQL is old,NoSQL is old,Option_1,Intermediate
+What is MySQL?,Relational database management system,NoSQL database,Graph database,Search engine,Option_1,Beginner
+What is PostgreSQL?,Advanced relational database system,NoSQL database,Document database,Key-value store,Option_1,Intermediate
+What is MongoDB?,NoSQL document database with JSON-like documents,Relational database,SQL database,Graph database,Option_1,Intermediate
+What is table in relational database?,Collection of rows and columns storing data,Database file,Query result,Data structure,Option_1,Beginner
+What is primary key?,Unique identifier for each record in table,Foreign key,Index,Constraint,Option_1,Beginner
+What is foreign key?,Key referencing primary key in another table,Primary key,Unique key,Index,Option_1,Intermediate
+What is SQL?,Language for querying and managing databases,Programming language,Markup language,Styling language,Option_1,Beginner
+What is normalization?,Organizing database reducing redundancy,Database backup,Data encryption,Query optimization,Option_1,Intermediate
+What is authentication?,Verifying user identity with credentials,Authorization,Encryption,Security protocol,Option_1,Intermediate
+What is authorization?,Determining what authenticated user can access,Authentication,Identification,Encryption,Option_1,Intermediate
+What is JWT (JSON Web Token)?,Token-based authentication mechanism,Session-based auth,Cookie-based auth,OAuth,Option_1,Intermediate
+What is OAuth?,Open authorization standard for delegated access,JWT,Basic auth,Bearer token,Option_1,Advanced
+What is password hashing?,Converting password to irreversible hash,Encrypting password,Encoding password,Compressing password,Option_1,Intermediate
+What is CORS (Cross-Origin Resource Sharing)?,Mechanism allowing cross-origin requests safely,Same-origin policy,Security protocol,Browser feature,Option_1,Advanced
+What is HTTPS?,Secure HTTP with SSL/TLS encryption,Regular HTTP,Protocol extension,Security standard,Option_1,Intermediate
+What is SSL/TLS?,Encryption protocol securing communication,HTTP protocol,Data transfer protocol,Network protocol,Option_1,Intermediate
+What is version control?,System tracking code changes over time,Code backup,Code storage,Code organization,Option_1,Beginner
+What is Git?,Distributed version control system,Centralized version control,GitHub service,Coding language,Option_1,Beginner
+What is GitHub?,Cloud platform for Git repositories,Version control system,Git alternative,Development tool,Option_1,Beginner
+What is branch in Git?,Parallel development line from main code,Code copy,Repository part,Merge point,Option_1,Intermediate
+What is commit in Git?,Saving changes to repository with message,Publishing code,Uploading code,Pushing code,Option_1,Beginner
+What is merge in Git?,Combining changes from different branches,Deleting branch,Creating branch,Resolving conflict,Option_1,Intermediate
+What is pull request?,Request to merge code changes into main branch,Push request,Download request,Upload request,Option_1,Intermediate
+What is Django?,Python web framework with batteries included,Frontend framework,JavaScript framework,Mobile framework,Option_1,Intermediate
+What is Flask?,Lightweight Python web microframework,Heavy framework,Full-stack framework,Frontend framework,Option_1,Intermediate
+What is MERN stack?,"MongoDB, Express, React, Node.js","MySQL, Express, React, Node","MongoDB, Express, Ruby, Node","MySQL, Express, Vue, Node",Option_1,Intermediate
+What is MEAN stack?,"MongoDB, Express, Angular, Node.js","MySQL, Express, Angular, Node","MongoDB, Express, React, Node","MySQL, Express, Angular, Node",Option_1,Intermediate
+What is LAMP stack?,"Linux, Apache, MySQL, PHP","Linux, Nginx, MongoDB, Python","Linux, Apache, MongoDB, PHP","Linux, Nginx, MySQL, PHP",Option_1,Intermediate
+What is deployment?,Releasing application to production environment,Development stage,Testing stage,Building stage,Option_1,Beginner
+What is Docker?,Containerization platform for applications,Virtual machine,Cloud service,Database,Option_1,Intermediate
+What is container?,Isolated environment with all dependencies,Docker image,Virtual machine,Physical server,Option_1,Intermediate
+What is CI/CD?,Continuous Integration/Continuous Deployment,Code Integration,Continuous Development,Continuous Design,Option_1,Intermediate
+What is testing?,Verifying code works correctly,Code review,Code documentation,Code formatting,Option_1,Beginner
+What is unit testing?,Testing individual functions/components,Integration testing,System testing,Acceptance testing,Option_1,Intermediate
+What is integration testing?,Testing interaction between components,Unit testing,System testing,End-to-end testing,Option_1,Intermediate
+What is end-to-end testing?,Testing complete application workflow,Unit testing,Integration testing,Component testing,Option_1,Intermediate
+What is performance optimization?,Improving application speed and efficiency,Code formatting,Code documentation,Code organization,Option_1,Intermediate
+What is caching?,Storing data for quick access,Data backup,Data encryption,Data compression,Option_1,Intermediate
+What is lazy loading?,Loading resources on demand not upfront,Eager loading,Preloading,Caching,Option_1,Intermediate
+What is code splitting?,Dividing code into chunks loaded when needed,Code concatenation,Code minification,Code bundling,Option_1,Advanced
+What is minification?,Removing unnecessary code for smaller file size,Code optimization,Code compression,Code encryption,Option_1,Intermediate
+What is bundling?,Combining multiple files into fewer bundle files,File compression,File packaging,File organization,Option_1,Intermediate
+What is WebSocket?,Protocol for full-duplex communication,HTTP protocol,TCP protocol,UDP protocol,Option_1,Advanced
+What is Socket.io?,Library enabling real-time bidirectional communication,WebSocket library,HTTP library,Network library,Option_1,Advanced
+What is MVC (Model-View-Controller)?,"Architecture separating data, presentation, logic",Design pattern,UI pattern,Data pattern,Option_1,Intermediate
+What is REST architecture?,Architectural style for web services,Design pattern,Code structure,Naming convention,Option_1,Intermediate
+What is microservices?,Architecture with small independent services,Monolithic architecture,Layered architecture,Event-driven,Option_1,Advanced
+What is monolithic architecture?,Single unified application,Multiple services,Distributed system,Microservices,Option_1,Intermediate
+What is scalability?,Ability to handle increasing load,Performance,Reliability,Availability,Option_1,Advanced
+What is horizontal scaling?,Adding more servers/machines,Upgrading server,Increasing RAM,Increasing storage,Option_1,Advanced
+What is vertical scaling?,"Upgrading server resources (RAM, CPU)",Adding servers,Distributed system,Load balancing,Option_1,Advanced
+What is load balancing?,Distributing requests across servers,Server selection,Traffic routing,Request queuing,Option_1,Advanced
+What is API design?,Designing clear and consistent API endpoints,API documentation,API testing,API deployment,Option_1,Intermediate
+What is endpoint?,Specific URL path for API resource,Server address,Domain name,Port number,Option_1,Beginner
+What is API versioning?,Managing different API versions for compatibility,API documentation,API testing,API design,Option_1,Advanced
+What is rate limiting?,Restricting number of requests per time period,Speed limiting,Bandwidth limiting,Connection limiting,Option_1,Intermediate
+What is logging?,Recording application events and errors,Data backup,Data encryption,Data compression,Option_1,Intermediate
+What is monitoring?,Observing application performance and health,Testing application,Deploying application,Documenting application,Option_1,Intermediate
+What is code review?,Peer examination of code for quality,Code testing,Code compilation,Code documentation,Option_1,Intermediate
+What is linting?,Checking code for style/error issues,Code formatting,Code testing,Code compilation,Option_1,Intermediate
+What is code refactoring?,Improving code structure without changing functionality,Rewriting code,Fixing bugs,Adding features,Option_1,Intermediate
+What is technical debt?,Accumulated costs from shortcuts in development,Actual debt,Financial cost,Development cost,Option_1,Advanced
+What is API documentation?,Detailed description of API usage and endpoints,Code comments,README file,Version history,Option_1,Intermediate
+What is README file?,Documentation explaining project setup/usage,Code file,Configuration file,Environment file,Option_1,Beginner
+What is web accessibility?,Ensuring websites work for all users including disabled,Website design,Website speed,Website security,Option_1,Intermediate
+What is WCAG (Web Content Accessibility Guidelines)?,Standards for accessible web content,Web design standard,Performance standard,Security standard,Option_1,Advanced
+What are environment variables?,Configuration values set outside code,Code variables,Global variables,Local variables,Option_1,Intermediate
+What is .env file?,File storing environment variables,Configuration file,Source file,Build file,Option_1,Intermediate
+What does Full Stack Development refer to?,Development of both frontend and backend of applications,Only frontend development,Only backend development,Mobile app development,Option_1,Beginner
+What is HTML?,Markup language for creating web structure,Programming language,Styling language,Database language,Option_1,Beginner
+What is CSS?,Stylesheet language for web page styling,Programming language,Markup language,Database language,Option_1,Beginner
+What is JavaScript?,Programming language for interactive web functionality,Markup language,Styling language,Database language,Option_1,Beginner
+"What is the difference between HTML, CSS, and JavaScript?","HTML structure, CSS styling, JavaScript behavior",All are same,All are languages,Different versions,Option_1,Beginner
+What is a semantic HTML tag?,"Tags with meaningful context like <header>, <footer>",All tags,Non-standard tags,Deprecated tags,Option_1,Beginner
+What is the difference between <div> and <span>?,"<div> is block-level, <span> is inline",Same element,Different names only,Different behavior,Option_1,Beginner
+What is an HTML form?,User input collection mechanism with <form> element,Text display element,Navigation element,Styling element,Option_1,Beginner
+What is the purpose of alt attribute in <img>?,Provide text alternative for accessibility,Image title,Image styling,Image link,Option_1,Intermediate
+What are HTML5 new features?,"Canvas, Video, Audio, Semantic elements, Geolocation",Only visual elements,Only metadata,Only form elements,Option_1,Intermediate
+What is the CSS box model?,"Margin, Border, Padding, Content",Only width and height,Only colors,Only fonts,Option_1,Beginner
+What is the difference between padding and margin?,"Padding is inside, margin is outside",Same thing,Margin is inside,No difference,Option_1,Beginner
+What is CSS specificity?,Priority of CSS rules applied to elements,CSS performance,CSS file size,CSS syntax,Option_1,Intermediate
+What are CSS selectors?,Patterns for selecting HTML elements to style,CSS properties,CSS values,CSS rules,Option_1,Beginner
+What is Flexbox?,CSS layout model for flexible responsive design,Grid system,Positioning method,Display property,Option_1,Intermediate
+What is CSS Grid?,2D layout system for complex designs,1D layout,Flexbox alternative,Positioning system,Option_1,Intermediate
+What is responsive design?,Design adapting to different screen sizes,Fixed design,Desktop-only design,Mobile-only design,Option_1,Beginner
+What is media query?,CSS technique applying styles based on device features,CSS property,CSS function,CSS variable,Option_1,Intermediate
+What are CSS preprocessors?,"SASS, LESS extending CSS with variables, functions",CSS frameworks,CSS libraries,CSS standards,Option_1,Intermediate
+What is Bootstrap?,CSS framework with pre-built components,JavaScript library,Programming language,Database,Option_1,Beginner
+What is JavaScript?,Programming language for web interactivity,Markup language,Styling language,Database language,Option_1,Beginner
+What are variables in JavaScript?,Containers for storing data values,Data types,Functions,Objects,Option_1,Beginner
+What are JavaScript data types?,"String, Number, Boolean, Object, Array, Null, Undefined",Only String and Number,Only objects,Only primitives,Option_1,Beginner
+"What is the difference between let, const, and var?","var is function-scoped, let/const are block-scoped",All are same,Different naming only,Different performance,Option_1,Intermediate
+What are JavaScript functions?,Reusable blocks of code,Variables,Objects,Data types,Option_1,Beginner
+What is arrow function?,Concise function syntax using => arrow,Regular function,Anonymous function,Named function,Option_1,Intermediate
+What is a callback function?,Function passed as argument to another function,Called back repeatedly,Recursive function,Nested function,Option_1,Intermediate
+What is Promise in JavaScript?,Object handling asynchronous operations,Synchronous operation,Function,Variable,Option_1,Intermediate
+What is async/await?,Syntactic sugar for handling Promises,Promise alternative,Callback replacement,Loop structure,Option_1,Intermediate
+What is the difference between == and ===?,"=== strict equality, == loose equality",Same operator,Different performance,Different use,Option_1,Intermediate
+What is DOM (Document Object Model)?,Tree representation of HTML document,Programming language,Browser feature,Document format,Option_1,Intermediate
+What is DOM manipulation?,Changing HTML structure/content with JavaScript,HTML editing,CSS styling,Browser settings,Option_1,Intermediate
+What is an event in JavaScript?,"User interaction like click, scroll, hover",Program error,Function call,Data type,Option_1,Beginner
+What is event listener?,Function waiting for specific event to occur,Event handler,Event trigger,Event type,Option_1,Intermediate
+What is event delegation?,Single listener handling events for multiple elements,Multiple listeners,Bubbling events,Capturing events,Option_1,Advanced
+What is closure in JavaScript?,Function accessing variables from outer scope,Function scope,Global scope,Block scope,Option_1,Intermediate
+What is this keyword?,Reference to object context,Current value,Previous value,Next value,Option_1,Intermediate
+What is prototype in JavaScript?,Object from which other objects inherit,Class definition,Instance object,Prototype pattern,Option_1,Advanced
+What is prototypal inheritance?,Objects inheriting from prototype object,Class-based inheritance,Interface inheritance,Multiple inheritance,Option_1,Advanced
+What is hoisting?,Variables/functions moved to top of scope during execution,Loading code,Parsing code,Executing code,Option_1,Intermediate
+What is IIFE (Immediately Invoked Function Expression)?,Function executed immediately after definition,Regular function,Anonymous function,Named function,Option_1,Advanced
+What is destructuring?,Extracting values from objects/arrays into variables,Object creation,Array creation,Variable assignment,Option_1,Intermediate
+What is spread operator?,Expanding arrays/objects using ...,Rest parameter,Arrow function,Spread syntax,Option_1,Intermediate
+What is React?,JavaScript library for building UI with components,Frontend framework,Backend framework,Full-stack framework,Option_1,Beginner
+What is Vue.js?,Progressive JavaScript framework for UIs,React competitor,Angular alternative,Svelte replacement,Option_1,Beginner
+What is Angular?,Full-featured JavaScript framework for web apps,Library,Template engine,CSS framework,Option_1,Beginner
+What is component in React?,Reusable piece of UI logic,File type,Folder structure,Naming convention,Option_1,Beginner
+What is JSX?,JavaScript XML syntax allowing HTML-like code in JS,Template language,HTML variant,XML dialect,Option_1,Intermediate
+What is virtual DOM?,In-memory representation of actual DOM,Real DOM,Actual DOM,Browser DOM,Option_1,Intermediate
+What is React hooks?,Functions adding state/lifecycle to functional components,Class components,Component props,Component methods,Option_1,Intermediate
+What is useState hook?,React hook managing component state,useEffect hook,useContext hook,useReducer hook,Option_1,Intermediate
+What is useEffect hook?,React hook for side effects and lifecycle,useState hook,useContext hook,useCallback hook,Option_1,Intermediate
+What is state in React?,Dynamic data that affects component rendering,Static data,Props,Variables,Option_1,Beginner
+What is backend development?,Server-side development handling logic/database,Frontend development,UI development,Styling,Option_1,Beginner
+What is Node.js?,JavaScript runtime for server-side development,Frontend library,Browser feature,CSS preprocessor,Option_1,Beginner
+What is Express.js?,Web application framework for Node.js,Node.js runtime,JavaScript library,Backend language,Option_1,Beginner
+What is API (Application Programming Interface)?,Interface allowing communication between applications,Program interface,User interface,Database interface,Option_1,Beginner
+What is REST API?,"API using HTTP requests (GET, POST, PUT, DELETE)",SOAP API,GraphQL API,WebSocket API,Option_1,Intermediate
+What is HTTP method?,"GET, POST, PUT, DELETE, PATCH operations",URL method,Server method,Client method,Option_1,Intermediate
+What is GET request?,Request retrieving data from server,Request sending data,Request updating data,Request deleting data,Option_1,Beginner
+What is POST request?,Request sending data to server creating resource,Request retrieving data,Request updating data,Request deleting,Option_1,Beginner
+What is PUT request?,Request updating entire existing resource,Request creating resource,Request deleting resource,Request retrieving data,Option_1,Intermediate
+What is DELETE request?,Request removing resource from server,Request creating resource,Request updating resource,Request retrieving data,Option_1,Beginner
+What is database?,Organized collection of structured data,Data file,Excel spreadsheet,Text file,Option_1,Beginner
+What are SQL and NoSQL databases?,"SQL relational, NoSQL non-relational",Both same,SQL is old,NoSQL is old,Option_1,Intermediate
+What is MySQL?,Relational database management system,NoSQL database,Graph database,Search engine,Option_1,Beginner
+What is PostgreSQL?,Advanced relational database system,NoSQL database,Document database,Key-value store,Option_1,Intermediate
+What is MongoDB?,NoSQL document database with JSON-like documents,Relational database,SQL database,Graph database,Option_1,Intermediate
+What is table in relational database?,Collection of rows and columns storing data,Database file,Query result,Data structure,Option_1,Beginner
+What is primary key?,Unique identifier for each record in table,Foreign key,Index,Constraint,Option_1,Beginner
+What is foreign key?,Key referencing primary key in another table,Primary key,Unique key,Index,Option_1,Intermediate
+What is SQL?,Language for querying and managing databases,Programming language,Markup language,Styling language,Option_1,Beginner
+What is normalization?,Organizing database reducing redundancy,Database backup,Data encryption,Query optimization,Option_1,Intermediate
+What is authentication?,Verifying user identity with credentials,Authorization,Encryption,Security protocol,Option_1,Intermediate
+What is authorization?,Determining what authenticated user can access,Authentication,Identification,Encryption,Option_1,Intermediate
+What is JWT (JSON Web Token)?,Token-based authentication mechanism,Session-based auth,Cookie-based auth,OAuth,Option_1,Intermediate
+What is OAuth?,Open authorization standard for delegated access,JWT,Basic auth,Bearer token,Option_1,Advanced
+What is password hashing?,Converting password to irreversible hash,Encrypting password,Encoding password,Compressing password,Option_1,Intermediate
+What is CORS (Cross-Origin Resource Sharing)?,Mechanism allowing cross-origin requests safely,Same-origin policy,Security protocol,Browser feature,Option_1,Advanced
+What is HTTPS?,Secure HTTP with SSL/TLS encryption,Regular HTTP,Protocol extension,Security standard,Option_1,Intermediate
+What is SSL/TLS?,Encryption protocol securing communication,HTTP protocol,Data transfer protocol,Network protocol,Option_1,Intermediate
+What is version control?,System tracking code changes over time,Code backup,Code storage,Code organization,Option_1,Beginner
+What is Git?,Distributed version control system,Centralized version control,GitHub service,Coding language,Option_1,Beginner
+What is GitHub?,Cloud platform for Git repositories,Version control system,Git alternative,Development tool,Option_1,Beginner
+What is branch in Git?,Parallel development line from main code,Code copy,Repository part,Merge point,Option_1,Intermediate
+What is commit in Git?,Saving changes to repository with message,Publishing code,Uploading code,Pushing code,Option_1,Beginner
+What is merge in Git?,Combining changes from different branches,Deleting branch,Creating branch,Resolving conflict,Option_1,Intermediate
+What is pull request?,Request to merge code changes into main branch,Push request,Download request,Upload request,Option_1,Intermediate
+What is Django?,Python web framework with batteries included,Frontend framework,JavaScript framework,Mobile framework,Option_1,Intermediate
+What is Flask?,Lightweight Python web microframework,Heavy framework,Full-stack framework,Frontend framework,Option_1,Intermediate
+What is MERN stack?,"MongoDB, Express, React, Node.js","MySQL, Express, React, Node","MongoDB, Express, Ruby, Node","MySQL, Express, Vue, Node",Option_1,Intermediate
+What is MEAN stack?,"MongoDB, Express, Angular, Node.js","MySQL, Express, Angular, Node","MongoDB, Express, React, Node","MySQL, Express, Angular, Node",Option_1,Intermediate
+What is LAMP stack?,"Linux, Apache, MySQL, PHP","Linux, Nginx, MongoDB, Python","Linux, Apache, MongoDB, PHP","Linux, Nginx, MySQL, PHP",Option_1,Intermediate
+What is deployment?,Releasing application to production environment,Development stage,Testing stage,Building stage,Option_1,Beginner
+What is Docker?,Containerization platform for applications,Virtual machine,Cloud service,Database,Option_1,Intermediate
+What is container?,Isolated environment with all dependencies,Docker image,Virtual machine,Physical server,Option_1,Intermediate
+What is CI/CD?,Continuous Integration/Continuous Deployment,Code Integration,Continuous Development,Continuous Design,Option_1,Intermediate
+What is testing?,Verifying code works correctly,Code review,Code documentation,Code formatting,Option_1,Beginner
+What is unit testing?,Testing individual functions/components,Integration testing,System testing,Acceptance testing,Option_1,Intermediate
+What is integration testing?,Testing interaction between components,Unit testing,System testing,End-to-end testing,Option_1,Intermediate
+What is end-to-end testing?,Testing complete application workflow,Unit testing,Integration testing,Component testing,Option_1,Intermediate
+What is performance optimization?,Improving application speed and efficiency,Code formatting,Code documentation,Code organization,Option_1,Intermediate
+What is caching?,Storing data for quick access,Data backup,Data encryption,Data compression,Option_1,Intermediate
+What is lazy loading?,Loading resources on demand not upfront,Eager loading,Preloading,Caching,Option_1,Intermediate
+What is code splitting?,Dividing code into chunks loaded when needed,Code concatenation,Code minification,Code bundling,Option_1,Advanced
+What is minification?,Removing unnecessary code for smaller file size,Code optimization,Code compression,Code encryption,Option_1,Intermediate
+What is bundling?,Combining multiple files into fewer bundle files,File compression,File packaging,File organization,Option_1,Intermediate
+What is WebSocket?,Protocol for full-duplex communication,HTTP protocol,TCP protocol,UDP protocol,Option_1,Advanced
+What is Socket.io?,Library enabling real-time bidirectional communication,WebSocket library,HTTP library,Network library,Option_1,Advanced
+What is MVC (Model-View-Controller)?,"Architecture separating data, presentation, logic",Design pattern,UI pattern,Data pattern,Option_1,Intermediate
+What is REST architecture?,Architectural style for web services,Design pattern,Code structure,Naming convention,Option_1,Intermediate
+What is microservices?,Architecture with small independent services,Monolithic architecture,Layered architecture,Event-driven,Option_1,Advanced
+What is monolithic architecture?,Single unified application,Multiple services,Distributed system,Microservices,Option_1,Intermediate
+What is scalability?,Ability to handle increasing load,Performance,Reliability,Availability,Option_1,Advanced
+What is horizontal scaling?,Adding more servers/machines,Upgrading server,Increasing RAM,Increasing storage,Option_1,Advanced
+What is vertical scaling?,"Upgrading server resources (RAM, CPU)",Adding servers,Distributed system,Load balancing,Option_1,Advanced
+What is load balancing?,Distributing requests across servers,Server selection,Traffic routing,Request queuing,Option_1,Advanced
+What is API design?,Designing clear and consistent API endpoints,API documentation,API testing,API deployment,Option_1,Intermediate
+What is endpoint?,Specific URL path for API resource,Server address,Domain name,Port number,Option_1,Beginner
+What is API versioning?,Managing different API versions for compatibility,API documentation,API testing,API design,Option_1,Advanced
+What is rate limiting?,Restricting number of requests per time period,Speed limiting,Bandwidth limiting,Connection limiting,Option_1,Intermediate
+What is logging?,Recording application events and errors,Data backup,Data encryption,Data compression,Option_1,Intermediate
+What is monitoring?,Observing application performance and health,Testing application,Deploying application,Documenting application,Option_1,Intermediate
+What is code review?,Peer examination of code for quality,Code testing,Code compilation,Code documentation,Option_1,Intermediate
+What is linting?,Checking code for style/error issues,Code formatting,Code testing,Code compilation,Option_1,Intermediate
+What is code refactoring?,Improving code structure without changing functionality,Rewriting code,Fixing bugs,Adding features,Option_1,Intermediate
+What is technical debt?,Accumulated costs from shortcuts in development,Actual debt,Financial cost,Development cost,Option_1,Advanced
+What is API documentation?,Detailed description of API usage and endpoints,Code comments,README file,Version history,Option_1,Intermediate
+What is README file?,Documentation explaining project setup/usage,Code file,Configuration file,Environment file,Option_1,Beginner
+What is web accessibility?,Ensuring websites work for all users including disabled,Website design,Website speed,Website security,Option_1,Intermediate
+What is WCAG (Web Content Accessibility Guidelines)?,Standards for accessible web content,Web design standard,Performance standard,Security standard,Option_1,Advanced
+What are environment variables?,Configuration values set outside code,Code variables,Global variables,Local variables,Option_1,Intermediate
+What is .env file?,File storing environment variables,Configuration file,Source file,Build file,Option_1,Intermediate
+What does Full Stack Development refer to?,Development of both frontend and backend of applications,Only frontend development,Only backend development,Mobile app development,Option_1,Beginner
+What is HTML?,Markup language for creating web structure,Programming language,Styling language,Database language,Option_1,Beginner
+What is CSS?,Stylesheet language for web page styling,Programming language,Markup language,Database language,Option_1,Beginner
+What is JavaScript?,Programming language for interactive web functionality,Markup language,Styling language,Database language,Option_1,Beginner
+"What is the difference between HTML, CSS, and JavaScript?","HTML structure, CSS styling, JavaScript behavior",All are same,All are languages,Different versions,Option_1,Beginner
+What is a semantic HTML tag?,"Tags with meaningful context like <header>, <footer>",All tags,Non-standard tags,Deprecated tags,Option_1,Beginner
+What is the difference between <div> and <span>?,"<div> is block-level, <span> is inline",Same element,Different names only,Different behavior,Option_1,Beginner
+What is an HTML form?,User input collection mechanism with <form> element,Text display element,Navigation element,Styling element,Option_1,Beginner
+What is the purpose of alt attribute in <img>?,Provide text alternative for accessibility,Image title,Image styling,Image link,Option_1,Intermediate
+What are HTML5 new features?,"Canvas, Video, Audio, Semantic elements, Geolocation",Only visual elements,Only metadata,Only form elements,Option_1,Intermediate
+What is the CSS box model?,"Margin, Border, Padding, Content",Only width and height,Only colors,Only fonts,Option_1,Beginner
+What is the difference between padding and margin?,"Padding is inside, margin is outside",Same thing,Margin is inside,No difference,Option_1,Beginner
+What is CSS specificity?,Priority of CSS rules applied to elements,CSS performance,CSS file size,CSS syntax,Option_1,Intermediate
+What are CSS selectors?,Patterns for selecting HTML elements to style,CSS properties,CSS values,CSS rules,Option_1,Beginner
+What is Flexbox?,CSS layout model for flexible responsive design,Grid system,Positioning method,Display property,Option_1,Intermediate
+What is CSS Grid?,2D layout system for complex designs,1D layout,Flexbox alternative,Positioning system,Option_1,Intermediate
+What is responsive design?,Design adapting to different screen sizes,Fixed design,Desktop-only design,Mobile-only design,Option_1,Beginner
+What is media query?,CSS technique applying styles based on device features,CSS property,CSS function,CSS variable,Option_1,Intermediate
+What are CSS preprocessors?,"SASS, LESS extending CSS with variables, functions",CSS frameworks,CSS libraries,CSS standards,Option_1,Intermediate
+What is Bootstrap?,CSS framework with pre-built components,JavaScript library,Programming language,Database,Option_1,Beginner
+What is JavaScript?,Programming language for web interactivity,Markup language,Styling language,Database language,Option_1,Beginner
+What are variables in JavaScript?,Containers for storing data values,Data types,Functions,Objects,Option_1,Beginner
+What are JavaScript data types?,"String, Number, Boolean, Object, Array, Null, Undefined",Only String and Number,Only objects,Only primitives,Option_1,Beginner
+"What is the difference between let, const, and var?","var is function-scoped, let/const are block-scoped",All are same,Different naming only,Different performance,Option_1,Intermediate
+What are JavaScript functions?,Reusable blocks of code,Variables,Objects,Data types,Option_1,Beginner
+What is arrow function?,Concise function syntax using => arrow,Regular function,Anonymous function,Named function,Option_1,Intermediate
+What is a callback function?,Function passed as argument to another function,Called back repeatedly,Recursive function,Nested function,Option_1,Intermediate
+What is Promise in JavaScript?,Object handling asynchronous operations,Synchronous operation,Function,Variable,Option_1,Intermediate
+What is async/await?,Syntactic sugar for handling Promises,Promise alternative,Callback replacement,Loop structure,Option_1,Intermediate
+What is the difference between == and ===?,"=== strict equality, == loose equality",Same operator,Different performance,Different use,Option_1,Intermediate
+What is DOM (Document Object Model)?,Tree representation of HTML document,Programming language,Browser feature,Document format,Option_1,Intermediate
+What is DOM manipulation?,Changing HTML structure/content with JavaScript,HTML editing,CSS styling,Browser settings,Option_1,Intermediate
+What is an event in JavaScript?,"User interaction like click, scroll, hover",Program error,Function call,Data type,Option_1,Beginner
+What is event listener?,Function waiting for specific event to occur,Event handler,Event trigger,Event type,Option_1,Intermediate
+What is event delegation?,Single listener handling events for multiple elements,Multiple listeners,Bubbling events,Capturing events,Option_1,Advanced
+What is closure in JavaScript?,Function accessing variables from outer scope,Function scope,Global scope,Block scope,Option_1,Intermediate
+What is this keyword?,Reference to object context,Current value,Previous value,Next value,Option_1,Intermediate
+What is prototype in JavaScript?,Object from which other objects inherit,Class definition,Instance object,Prototype pattern,Option_1,Advanced
+What is prototypal inheritance?,Objects inheriting from prototype object,Class-based inheritance,Interface inheritance,Multiple inheritance,Option_1,Advanced
+What is hoisting?,Variables/functions moved to top of scope during execution,Loading code,Parsing code,Executing code,Option_1,Intermediate
+What is IIFE (Immediately Invoked Function Expression)?,Function executed immediately after definition,Regular function,Anonymous function,Named function,Option_1,Advanced
+What is destructuring?,Extracting values from objects/arrays into variables,Object creation,Array creation,Variable assignment,Option_1,Intermediate
+What is spread operator?,Expanding arrays/objects using ...,Rest parameter,Arrow function,Spread syntax,Option_1,Intermediate
+What is React?,JavaScript library for building UI with components,Frontend framework,Backend framework,Full-stack framework,Option_1,Beginner
+What is Vue.js?,Progressive JavaScript framework for UIs,React competitor,Angular alternative,Svelte replacement,Option_1,Beginner
+What is Angular?,Full-featured JavaScript framework for web apps,Library,Template engine,CSS framework,Option_1,Beginner
+What is component in React?,Reusable piece of UI logic,File type,Folder structure,Naming convention,Option_1,Beginner
+What is JSX?,JavaScript XML syntax allowing HTML-like code in JS,Template language,HTML variant,XML dialect,Option_1,Intermediate
+What is virtual DOM?,In-memory representation of actual DOM,Real DOM,Actual DOM,Browser DOM,Option_1,Intermediate
+What is React hooks?,Functions adding state/lifecycle to functional components,Class components,Component props,Component methods,Option_1,Intermediate
+What is useState hook?,React hook managing component state,useEffect hook,useContext hook,useReducer hook,Option_1,Intermediate
+What is useEffect hook?,React hook for side effects and lifecycle,useState hook,useContext hook,useCallback hook,Option_1,Intermediate
+What is state in React?,Dynamic data that affects component rendering,Static data,Props,Variables,Option_1,Beginner
+What is backend development?,Server-side development handling logic/database,Frontend development,UI development,Styling,Option_1,Beginner
+What is Node.js?,JavaScript runtime for server-side development,Frontend library,Browser feature,CSS preprocessor,Option_1,Beginner
+What is Express.js?,Web application framework for Node.js,Node.js runtime,JavaScript library,Backend language,Option_1,Beginner
+What is API (Application Programming Interface)?,Interface allowing communication between applications,Program interface,User interface,Database interface,Option_1,Beginner
+What is REST API?,"API using HTTP requests (GET, POST, PUT, DELETE)",SOAP API,GraphQL API,WebSocket API,Option_1,Intermediate
+What is HTTP method?,"GET, POST, PUT, DELETE, PATCH operations",URL method,Server method,Client method,Option_1,Intermediate
+What is GET request?,Request retrieving data from server,Request sending data,Request updating data,Request deleting data,Option_1,Beginner
+What is POST request?,Request sending data to server creating resource,Request retrieving data,Request updating data,Request deleting,Option_1,Beginner
+What is PUT request?,Request updating entire existing resource,Request creating resource,Request deleting resource,Request retrieving data,Option_1,Intermediate
+What is DELETE request?,Request removing resource from server,Request creating resource,Request updating resource,Request retrieving data,Option_1,Beginner
+What is database?,Organized collection of structured data,Data file,Excel spreadsheet,Text file,Option_1,Beginner
+What are SQL and NoSQL databases?,"SQL relational, NoSQL non-relational",Both same,SQL is old,NoSQL is old,Option_1,Intermediate
+What is MySQL?,Relational database management system,NoSQL database,Graph database,Search engine,Option_1,Beginner
+What is PostgreSQL?,Advanced relational database system,NoSQL database,Document database,Key-value store,Option_1,Intermediate
+What is MongoDB?,NoSQL document database with JSON-like documents,Relational database,SQL database,Graph database,Option_1,Intermediate
+What is table in relational database?,Collection of rows and columns storing data,Database file,Query result,Data structure,Option_1,Beginner

@@ -1,0 +1,1001 @@
+Question,Option_1,Option_2,Option_3,Option_4,Correct_Answer,Level
+What does ML stand for?,Machine Learning,Mathematical Logic,Memory Load,Module Library,Option_1,Beginner
+What is the primary goal of Machine Learning?,Enable computers to learn from data without explicit programming,Write complex code,Store large datasets,Increase processing power,Option_1,Beginner
+What is a training set?,Data used to train the model,Data used for testing,All available data,Random data sample,Option_1,Beginner
+What is a test set?,Data used to evaluate model performance,Training data,Validation data,Unused data,Option_1,Beginner
+What is the difference between a model and an algorithm?,"Algorithm is procedure, model is learned function",Same thing,Model comes first,Algorithm is output,Option_1,Beginner
+What are the three types of Machine Learning?,"Supervised, Unsupervised, Reinforcement","Regression, Classification, Clustering","Linear, Non-linear, Mixed","Online, Offline, Batch",Option_1,Beginner
+What is supervised learning?,Learning from labeled training data with known outputs,Learning without labels,Self-directed learning,Competitive learning,Option_1,Beginner
+What is unsupervised learning?,Finding patterns in unlabeled data,Learning with labels,Supervised classification,Directed learning,Option_1,Beginner
+What is reinforcement learning?,Agent learns through rewards/penalties from environment,Labeled data learning,Unlabeled data learning,Teacher-guided learning,Option_1,Beginner
+What is semi-supervised learning?,Learning from mix of labeled and unlabeled data,Only labeled data,Only unlabeled data,Reinforcement learning,Option_1,Intermediate
+What is regression?,Predicting continuous numerical values,Categorical classification,Data clustering,Pattern recognition,Option_1,Beginner
+What is Linear Regression?,Modeling linear relationship between input and output,Non-linear relationship,Classification method,Clustering technique,Option_1,Beginner
+What is the difference between Simple and Multiple Linear Regression?,"Simple has one feature, Multiple has many",Simple is faster,Multiple uses classification,No difference,Option_1,Intermediate
+What is the equation of Linear Regression?,y = mx + b,y = x^2,y = sin(x),y = e^x,Option_1,Beginner
+What is the purpose of the cost function?,Measure difference between predicted and actual values,Train the model,Evaluate accuracy,Normalize data,Option_1,Intermediate
+What is Mean Squared Error (MSE)?,Average of squared differences between predicted and actual,Sum of errors,Average absolute error,Maximum error,Option_1,Intermediate
+What is Mean Absolute Error (MAE)?,Average of absolute differences between predicted and actual,Mean squared error,Root mean squared error,Median error,Option_1,Intermediate
+What is polynomial regression?,Fitting polynomial function to data,Linear regression,Multiple regression,Logistic regression,Option_1,Intermediate
+What is overfitting in regression?,Model fits training data too well but poorly on new data,Model not fitting well,Underfitting,Proper fitting,Option_1,Intermediate
+What is underfitting in regression?,Model too simple to capture data patterns,Model too complex,Perfect fit,Overfitting,Option_1,Intermediate
+What is classification?,Predicting categorical class labels,Predicting continuous values,Grouping similar data,Reducing dimensions,Option_1,Beginner
+What is Logistic Regression?,Classification algorithm for binary/multi-class problems,Regression for continuous values,Clustering method,Feature extraction,Option_1,Beginner
+What is the sigmoid function?,Maps any value to range 0-1 for probability,Maps to range -1 to 1,Exponential function,Linear function,Option_1,Intermediate
+What is a Decision Tree?,Tree model making predictions through series of decisions,Regression model,Data structure,Network topology,Option_1,Beginner
+What is entropy in Decision Trees?,Measure of disorder/impurity in data,Information gain,Gini coefficient,Tree depth,Option_1,Intermediate
+What is information gain?,Reduction in entropy after splitting,Increase in tree depth,Node importance,Feature relevance,Option_1,Intermediate
+What is Gini impurity?,Measure of probability of incorrect classification,Tree purity,Information gain,Entropy measure,Option_1,Intermediate
+What is Random Forest?,Ensemble of decision trees voting on prediction,Single decision tree,Linear classifier,Neural network,Option_1,Beginner
+What is bagging?,Training multiple models on random data samples,Boosting method,Stacking ensemble,Voting method,Option_1,Intermediate
+What is feature importance in Random Forest?,Measure of contribution of each feature,Model accuracy,Tree depth,Number of trees,Option_1,Intermediate
+What is SVM (Support Vector Machine)?,Classifier finding optimal boundary between classes,Regression model,Clustering algorithm,Feature selector,Option_1,Intermediate
+What is a support vector?,Data point closest to decision boundary,Random data point,Outlier,Misclassified point,Option_1,Intermediate
+What is kernel trick in SVM?,Transforming data to higher dimension without explicit mapping,Data normalization,Feature scaling,Dimensionality reduction,Option_1,Advanced
+What are common SVM kernels?,"Linear, RBF, Polynomial, Sigmoid","Tanh, ReLU, Sigmoid","Gaussian, Exponential","Logarithmic, Power",Option_1,Intermediate
+What is the margin in SVM?,Distance between support vectors and boundary,Prediction error,Cost parameter,Kernel parameter,Option_1,Intermediate
+What is Naive Bayes?,Probabilistic classifier based on Bayes' theorem,Decision tree,Nearest neighbor,Neural network,Option_1,Intermediate
+Why is it called 'Naive' Bayes?,Assumes features are independent,Simplistic algorithm,Naive approach,Ignores data,Option_1,Intermediate
+What is Bayes' theorem formula?,P(A|B) = P(B|A)P(A)/P(B),P(A|B) = P(A)P(B),P(A|B) = P(A)/P(B),P(A|B) = P(B),Option_1,Intermediate
+What is K-Nearest Neighbors (KNN)?,Instance-based classifier finding K nearest neighbors,Centroid-based clustering,Tree-based classifier,Gradient-based classifier,Option_1,Beginner
+What does K represent in KNN?,Number of nearest neighbors to consider,Feature dimension,Data size,Number of classes,Option_1,Beginner
+What is the disadvantage of large K in KNN?,May ignore local patterns/become too smooth,Overfitting,Underfitting,Computational complexity,Option_1,Intermediate
+What is the disadvantage of small K in KNN?,May be too sensitive to outliers/noisy data,Too much smoothing,Underfitting,Computational cost,Option_1,Intermediate
+What is the curse of dimensionality in KNN?,Distance becomes meaningless in high dimensions,Model becomes too complex,Memory usage increases,Training time increases,Option_1,Advanced
+What is clustering?,Grouping similar data points without labels,Classification,Regression,Dimensionality reduction,Option_1,Beginner
+What is K-Means clustering?,Algorithm partitioning data into K clusters,Hierarchical clustering,Density-based clustering,Spectral clustering,Option_1,Beginner
+What is centroid in K-Means?,Center point of a cluster,Edge point,Random point,Outlier point,Option_1,Beginner
+What is the objective of K-Means?,Minimize within-cluster variance,Maximize cluster size,Minimize between-cluster distance,Maximize purity,Option_1,Intermediate
+What is the elbow method?,Finding optimal K by plotting inertia vs K,Setting K to number of clusters,Using silhouette score,Cross-validation,Option_1,Intermediate
+What is hierarchical clustering?,Building tree of nested clusters,Flat clustering,Overlapping clusters,Soft clustering,Option_1,Intermediate
+What is DBSCAN?,Density-based clustering finding clusters of any shape,K-Means variant,Hierarchical clustering,Spectral clustering,Option_1,Intermediate
+What are core points in DBSCAN?,Points with at least MinPts neighbors within Eps,Boundary points,Outliers,Random points,Option_1,Intermediate
+What is silhouette score?,Measure of cluster quality (-1 to 1),Cluster size,Distance metric,Purity measure,Option_1,Intermediate
+What is dimensionality reduction?,Reducing number of features while preserving information,Increasing features,Feature scaling,Feature encoding,Option_1,Intermediate
+What is Principal Component Analysis (PCA)?,Technique reducing dimensions by finding principal components,Clustering method,Classification method,Regression method,Option_1,Intermediate
+What are principal components?,Directions of maximum variance in data,Feature means,Feature variances,Feature ranges,Option_1,Intermediate
+What is explained variance in PCA?,Percentage of variance captured by components,Component importance,Feature importance,Model accuracy,Option_1,Intermediate
+What is t-SNE?,Non-linear dimensionality reduction for visualization,Linear dimensionality reduction,Feature selection,Clustering method,Option_1,Advanced
+What is UMAP?,Scalable dimensionality reduction preserving structure,Linear method,Clustering algorithm,Classification method,Option_1,Advanced
+What is feature engineering?,Creating new features from raw data,Removing features,Selecting features,Normalizing features,Option_1,Intermediate
+What is feature scaling?,Transforming features to comparable range,Feature selection,Feature creation,Feature extraction,Option_1,Intermediate
+What is normalization?,"Scaling to range [0, 1]",Centering around mean,Dividing by standard deviation,Removing outliers,Option_1,Intermediate
+What is standardization?,Centering with mean 0 and std 1,"Scaling to [0, 1]",Log transformation,Square root transformation,Option_1,Intermediate
+What is feature selection?,Selecting subset of relevant features,Creating new features,Scaling features,Encoding features,Option_1,Intermediate
+What is filter method in feature selection?,Using statistical tests independent of model,Using model performance,Greedy selection,Exhaustive search,Option_1,Intermediate
+What is wrapper method in feature selection?,Using model performance to select features,Statistical tests,Correlation-based,Mutual information,Option_1,Intermediate
+What is embedded method in feature selection?,Feature selection during model training,Post-training selection,Pre-training selection,Manual selection,Option_1,Advanced
+What is accuracy?,Percentage of correct predictions,True positive rate,False positive rate,Precision metric,Option_1,Beginner
+What is precision?,Proportion of positive predictions that are correct,True positive rate,True negative rate,Overall correctness,Option_1,Intermediate
+What is recall (sensitivity)?,Proportion of actual positives correctly identified,Precision metric,Specificity metric,Accuracy metric,Option_1,Intermediate
+What is F1-Score?,Harmonic mean of precision and recall,Sum of precision and recall,Product of precision and recall,Average of metrics,Option_1,Intermediate
+What is specificity?,True negative rate (correctly identified negatives),True positive rate,False positive rate,Precision,Option_1,Intermediate
+What is confusion matrix?,"Table showing TP, TN, FP, FN",Covariance matrix,Correlation matrix,Distance matrix,Option_1,Intermediate
+What is AUC-ROC?,Area under Receiver Operating Characteristic curve,Accuracy measure,Precision metric,F1-score,Option_1,Intermediate
+What is ROC curve?,Plot of TPR vs FPR at different thresholds,Accuracy vs precision,Recall vs specificity,Loss vs epochs,Option_1,Advanced
+What is cross-validation?,Evaluating model using multiple data splits,Single split evaluation,Random sampling,Bootstrap sampling,Option_1,Intermediate
+What is K-fold cross-validation?,Dividing data into K folds for evaluation,K-nearest neighbors,K-Means clustering,K principal components,Option_1,Intermediate
+What is overfitting?,"Model learning training data too well, poor generalization",Model not learning,Underfitting,Proper fitting,Option_1,Intermediate
+What is underfitting?,Model too simple to capture data patterns,Model too complex,Good generalization,Overfitting,Option_1,Intermediate
+What is regularization?,Technique preventing overfitting by penalizing complexity,Data normalization,Feature scaling,Feature selection,Option_1,Intermediate
+What is L1 regularization?,Lasso: adds absolute value of weights as penalty,Ridge regularization,Elastic Net,Early stopping,Option_1,Intermediate
+What is L2 regularization?,Ridge: adds squared weights as penalty,Lasso regularization,Elastic Net,Dropout regularization,Option_1,Intermediate
+What is Elastic Net?,Combines L1 and L2 regularization,Only L1,Only L2,No regularization,Option_1,Intermediate
+What is dropout?,Randomly disabling neurons during training,Removing features,Removing data,Stopping training,Option_1,Intermediate
+What is early stopping?,Stopping training when validation performance stops improving,Stopping at epoch 0,Training longer,Never stopping,Option_1,Intermediate
+What are hyperparameters?,Parameters set before training controlling learning,Parameters learned during training,Layer sizes,Feature values,Option_1,Intermediate
+What is learning rate?,Controls step size in optimization,Training speed,Data size,Model complexity,Option_1,Intermediate
+What is batch size?,Number of samples in each training batch,Total dataset size,Model size,Number of epochs,Option_1,Intermediate
+What is epoch?,One complete pass through entire training dataset,Single sample,Single batch,Learning iteration,Option_1,Beginner
+What is grid search?,Exhaustively searching hyperparameter combinations,Random search,Bayesian optimization,Manual tuning,Option_1,Intermediate
+What is random search?,Randomly sampling hyperparameter combinations,Grid search,Exhaustive search,Sequential search,Option_1,Intermediate
+What is Bayesian optimization?,Probabilistic approach to hyperparameter optimization,Grid search,Random search,Manual search,Option_1,Advanced
+What are ensemble methods?,Combining multiple models for better performance,Single model,Feature selection,Data augmentation,Option_1,Intermediate
+What is bagging?,Training models on random data samples independently,Sequential training,Overlapping data,Shared training,Option_1,Intermediate
+What is boosting?,Sequentially training models focusing on mistakes,Parallel training,Independent training,Random training,Option_1,Intermediate
+What is gradient boosting?,Sequentially building models minimizing loss,Simple boosting,Bagging method,Stacking method,Option_1,Intermediate
+What is AdaBoost?,Adaptive boosting adjusting weights of misclassified samples,Simple boosting,Random forest,Stacking,Option_1,Intermediate
+What is Gradient Boosting Machines (GBM)?,Ensemble using gradient descent to minimize loss,Simple ensemble,Voting ensemble,Averaging ensemble,Option_1,Intermediate
+What is XGBoost?,Optimized gradient boosting with speed/accuracy improvements,Simple boosting,Basic GBM,Random forest,Option_1,Advanced
+What is LightGBM?,Lightweight GBM using leaf-wise tree growth,Standard GBM,XGBoost variant,Sklearn GBM,Option_1,Advanced
+What is stacking?,Training meta-model on predictions of base models,Simple ensemble,Voting ensemble,Averaging ensemble,Option_1,Advanced
+What is voting ensemble?,Multiple models voting for final prediction,Stacking ensemble,Bagging ensemble,Boosting ensemble,Option_1,Intermediate
+What is data preprocessing?,"Preparing data for modeling (cleaning, transforming)",Model training,Model evaluation,Feature engineering,Option_1,Beginner
+What is handling missing values?,"Imputation, deletion, or prediction of missing data",Removing features,Collecting more data,Ignoring gaps,Option_1,Beginner
+What is mean imputation?,Replacing missing values with feature mean,Median imputation,Mode imputation,Forward fill,Option_1,Intermediate
+What is outlier detection?,Identifying unusual data points,Feature selection,Data normalization,Data augmentation,Option_1,Intermediate
+What is Z-score method for outliers?,Using standard deviations to identify outliers,IQR method,Isolation Forest,LOF method,Option_1,Intermediate
+What is IQR method?,Using quartiles to identify outliers,Z-score method,Mean-std method,Percentile method,Option_1,Intermediate
+What is data imbalance?,Unequal distribution of classes,Unequal feature scales,Outliers,Missing values,Option_1,Intermediate
+What is oversampling?,Creating more samples of minority class,Removing samples,Adding features,Scaling features,Option_1,Intermediate
+What is undersampling?,Removing samples from majority class,Adding samples,Feature engineering,Data scaling,Option_1,Intermediate
+What is SMOTE?,Synthetic Minority Oversampling Technique,Simple oversampling,Undersampling method,Data augmentation,Option_1,Advanced
+What is transfer learning?,Using knowledge from source task for target task,Learning from scratch,Retraining entire model,Feature extraction only,Option_1,Intermediate
+What is fine-tuning?,Training pre-trained model on new task,Training from scratch,Feature extraction,Data preprocessing,Option_1,Intermediate
+What is domain adaptation?,Adapting model from source to target domain,Changing hyperparameters,Collecting more data,Retraining,Option_1,Advanced
+What is gradient descent?,Iteratively updating parameters to minimize loss,Ascending parameters,Direct solution,Random search,Option_1,Intermediate
+What is backpropagation?,Computing gradients using chain rule,Forward pass only,Feature extraction,Data preprocessing,Option_1,Intermediate
+What is stochastic gradient descent (SGD)?,Updating parameters using single sample,Batch gradient descent,Full gradient descent,Random descent,Option_1,Intermediate
+What is mini-batch gradient descent?,Updating using small batch of samples,Single sample,Entire dataset,Random sampling,Option_1,Intermediate
+What is momentum in optimization?,Accumulating gradient direction for faster convergence,Single step,Learning rate,Batch size,Option_1,Intermediate
+What is Nesterov momentum?,Momentum with lookahead gradient,Simple momentum,No momentum,Gradient only,Option_1,Advanced
+What is Adam optimizer?,Adaptive moment estimation combining momentum and RMSprop,Simple SGD,Gradient descent,Newton's method,Option_1,Intermediate
+What is RMSprop?,Root Mean Square Propagation for adaptive learning rate,Simple momentum,Gradient descent,Standard SGD,Option_1,Intermediate
+What is loss function?,Measures difference between predicted and actual values,Accuracy metric,Performance measure,Evaluation tool,Option_1,Intermediate
+What is MSE (Mean Squared Error)?,Average of squared differences between predicted and actual,Mean absolute error,Cross-entropy,Hinge loss,Option_1,Intermediate
+What is MAE (Mean Absolute Error)?,Average of absolute differences,Mean squared error,Root mean squared error,Median error,Option_1,Intermediate
+What is cross-entropy loss?,Loss for classification measuring probability distance,Regression loss,Clustering loss,Ranking loss,Option_1,Intermediate
+What is binary cross-entropy?,Cross-entropy for binary classification,Multi-class cross-entropy,Regression loss,Clustering loss,Option_1,Intermediate
+What is categorical cross-entropy?,Cross-entropy for multi-class classification,Binary classification,Regression loss,Unsupervised loss,Option_1,Intermediate
+What is Hinge loss?,Loss for SVM maximizing margin,Regression loss,Classification loss,Clustering loss,Option_1,Intermediate
+What is time series?,Sequence of data points ordered by time,Random data,Categorical data,Image data,Option_1,Intermediate
+What is autocorrelation?,Correlation of time series with its past values,Cross-correlation,Partial correlation,Self-correlation,Option_1,Advanced
+What is stationarity?,Statistical properties don't change over time,Properties change over time,Non-constant mean,Increasing variance,Option_1,Advanced
+What is ARIMA?,AutoRegressive Integrated Moving Average model,Regression model,Classification model,Clustering model,Option_1,Advanced
+What is anomaly detection?,Identifying unusual patterns in data,Classification,Clustering,Feature extraction,Option_1,Intermediate
+What is Isolation Forest?,Isolating anomalies in trees for detection,Random forest,Decision tree,Clustering method,Option_1,Advanced
+What is Local Outlier Factor (LOF)?,Density-based anomaly detection,Statistical method,Distance-based method,Supervised method,Option_1,Advanced
+What is a recommendation system?,System suggesting items users likely prefer,Classification system,Regression system,Clustering system,Option_1,Intermediate
+What is collaborative filtering?,Recommending based on user-item interaction patterns,Content-based filtering,Hybrid approach,Knowledge-based,Option_1,Advanced
+What is content-based filtering?,Recommending similar items to user preferences,Collaborative filtering,Hybrid approach,Context-based,Option_1,Advanced
+What is train-validation-test split?,Dividing data into three sets for proper evaluation,Two-way split,Random sampling,Stratified sampling,Option_1,Intermediate
+What is stratified sampling?,Sampling maintaining class distribution,Random sampling,Cluster sampling,Systematic sampling,Option_1,Intermediate
+What is imbalanced metrics?,Metrics suited for imbalanced data,Standard accuracy,Precision only,Recall only,Option_1,Intermediate
+What is feature leakage?,Information from outside training data leaking in,Feature engineering,Feature selection,Feature scaling,Option_1,Advanced
+What is data drift?,Changes in data distribution over time,Missing data,Outliers,Imbalance,Option_1,Advanced
+What is model monitoring?,Tracking model performance in production,Model training,Model evaluation,Hyperparameter tuning,Option_1,Advanced
+What does ML stand for?,Machine Learning,Mathematical Logic,Memory Load,Module Library,Option_1,Beginner
+What is the primary goal of Machine Learning?,Enable computers to learn from data without explicit programming,Write complex code,Store large datasets,Increase processing power,Option_1,Beginner
+What is a training set?,Data used to train the model,Data used for testing,All available data,Random data sample,Option_1,Beginner
+What is a test set?,Data used to evaluate model performance,Training data,Validation data,Unused data,Option_1,Beginner
+What is the difference between a model and an algorithm?,"Algorithm is procedure, model is learned function",Same thing,Model comes first,Algorithm is output,Option_1,Beginner
+What are the three types of Machine Learning?,"Supervised, Unsupervised, Reinforcement","Regression, Classification, Clustering","Linear, Non-linear, Mixed","Online, Offline, Batch",Option_1,Beginner
+What is supervised learning?,Learning from labeled training data with known outputs,Learning without labels,Self-directed learning,Competitive learning,Option_1,Beginner
+What is unsupervised learning?,Finding patterns in unlabeled data,Learning with labels,Supervised classification,Directed learning,Option_1,Beginner
+What is reinforcement learning?,Agent learns through rewards/penalties from environment,Labeled data learning,Unlabeled data learning,Teacher-guided learning,Option_1,Beginner
+What is semi-supervised learning?,Learning from mix of labeled and unlabeled data,Only labeled data,Only unlabeled data,Reinforcement learning,Option_1,Intermediate
+What is regression?,Predicting continuous numerical values,Categorical classification,Data clustering,Pattern recognition,Option_1,Beginner
+What is Linear Regression?,Modeling linear relationship between input and output,Non-linear relationship,Classification method,Clustering technique,Option_1,Beginner
+What is the difference between Simple and Multiple Linear Regression?,"Simple has one feature, Multiple has many",Simple is faster,Multiple uses classification,No difference,Option_1,Intermediate
+What is the equation of Linear Regression?,y = mx + b,y = x^2,y = sin(x),y = e^x,Option_1,Beginner
+What is the purpose of the cost function?,Measure difference between predicted and actual values,Train the model,Evaluate accuracy,Normalize data,Option_1,Intermediate
+What is Mean Squared Error (MSE)?,Average of squared differences between predicted and actual,Sum of errors,Average absolute error,Maximum error,Option_1,Intermediate
+What is Mean Absolute Error (MAE)?,Average of absolute differences between predicted and actual,Mean squared error,Root mean squared error,Median error,Option_1,Intermediate
+What is polynomial regression?,Fitting polynomial function to data,Linear regression,Multiple regression,Logistic regression,Option_1,Intermediate
+What is overfitting in regression?,Model fits training data too well but poorly on new data,Model not fitting well,Underfitting,Proper fitting,Option_1,Intermediate
+What is underfitting in regression?,Model too simple to capture data patterns,Model too complex,Perfect fit,Overfitting,Option_1,Intermediate
+What is classification?,Predicting categorical class labels,Predicting continuous values,Grouping similar data,Reducing dimensions,Option_1,Beginner
+What is Logistic Regression?,Classification algorithm for binary/multi-class problems,Regression for continuous values,Clustering method,Feature extraction,Option_1,Beginner
+What is the sigmoid function?,Maps any value to range 0-1 for probability,Maps to range -1 to 1,Exponential function,Linear function,Option_1,Intermediate
+What is a Decision Tree?,Tree model making predictions through series of decisions,Regression model,Data structure,Network topology,Option_1,Beginner
+What is entropy in Decision Trees?,Measure of disorder/impurity in data,Information gain,Gini coefficient,Tree depth,Option_1,Intermediate
+What is information gain?,Reduction in entropy after splitting,Increase in tree depth,Node importance,Feature relevance,Option_1,Intermediate
+What is Gini impurity?,Measure of probability of incorrect classification,Tree purity,Information gain,Entropy measure,Option_1,Intermediate
+What is Random Forest?,Ensemble of decision trees voting on prediction,Single decision tree,Linear classifier,Neural network,Option_1,Beginner
+What is bagging?,Training multiple models on random data samples,Boosting method,Stacking ensemble,Voting method,Option_1,Intermediate
+What is feature importance in Random Forest?,Measure of contribution of each feature,Model accuracy,Tree depth,Number of trees,Option_1,Intermediate
+What is SVM (Support Vector Machine)?,Classifier finding optimal boundary between classes,Regression model,Clustering algorithm,Feature selector,Option_1,Intermediate
+What is a support vector?,Data point closest to decision boundary,Random data point,Outlier,Misclassified point,Option_1,Intermediate
+What is kernel trick in SVM?,Transforming data to higher dimension without explicit mapping,Data normalization,Feature scaling,Dimensionality reduction,Option_1,Advanced
+What are common SVM kernels?,"Linear, RBF, Polynomial, Sigmoid","Tanh, ReLU, Sigmoid","Gaussian, Exponential","Logarithmic, Power",Option_1,Intermediate
+What is the margin in SVM?,Distance between support vectors and boundary,Prediction error,Cost parameter,Kernel parameter,Option_1,Intermediate
+What is Naive Bayes?,Probabilistic classifier based on Bayes' theorem,Decision tree,Nearest neighbor,Neural network,Option_1,Intermediate
+Why is it called 'Naive' Bayes?,Assumes features are independent,Simplistic algorithm,Naive approach,Ignores data,Option_1,Intermediate
+What is Bayes' theorem formula?,P(A|B) = P(B|A)P(A)/P(B),P(A|B) = P(A)P(B),P(A|B) = P(A)/P(B),P(A|B) = P(B),Option_1,Intermediate
+What is K-Nearest Neighbors (KNN)?,Instance-based classifier finding K nearest neighbors,Centroid-based clustering,Tree-based classifier,Gradient-based classifier,Option_1,Beginner
+What does K represent in KNN?,Number of nearest neighbors to consider,Feature dimension,Data size,Number of classes,Option_1,Beginner
+What is the disadvantage of large K in KNN?,May ignore local patterns/become too smooth,Overfitting,Underfitting,Computational complexity,Option_1,Intermediate
+What is the disadvantage of small K in KNN?,May be too sensitive to outliers/noisy data,Too much smoothing,Underfitting,Computational cost,Option_1,Intermediate
+What is the curse of dimensionality in KNN?,Distance becomes meaningless in high dimensions,Model becomes too complex,Memory usage increases,Training time increases,Option_1,Advanced
+What is clustering?,Grouping similar data points without labels,Classification,Regression,Dimensionality reduction,Option_1,Beginner
+What is K-Means clustering?,Algorithm partitioning data into K clusters,Hierarchical clustering,Density-based clustering,Spectral clustering,Option_1,Beginner
+What is centroid in K-Means?,Center point of a cluster,Edge point,Random point,Outlier point,Option_1,Beginner
+What is the objective of K-Means?,Minimize within-cluster variance,Maximize cluster size,Minimize between-cluster distance,Maximize purity,Option_1,Intermediate
+What is the elbow method?,Finding optimal K by plotting inertia vs K,Setting K to number of clusters,Using silhouette score,Cross-validation,Option_1,Intermediate
+What is hierarchical clustering?,Building tree of nested clusters,Flat clustering,Overlapping clusters,Soft clustering,Option_1,Intermediate
+What is DBSCAN?,Density-based clustering finding clusters of any shape,K-Means variant,Hierarchical clustering,Spectral clustering,Option_1,Intermediate
+What are core points in DBSCAN?,Points with at least MinPts neighbors within Eps,Boundary points,Outliers,Random points,Option_1,Intermediate
+What is silhouette score?,Measure of cluster quality (-1 to 1),Cluster size,Distance metric,Purity measure,Option_1,Intermediate
+What is dimensionality reduction?,Reducing number of features while preserving information,Increasing features,Feature scaling,Feature encoding,Option_1,Intermediate
+What is Principal Component Analysis (PCA)?,Technique reducing dimensions by finding principal components,Clustering method,Classification method,Regression method,Option_1,Intermediate
+What are principal components?,Directions of maximum variance in data,Feature means,Feature variances,Feature ranges,Option_1,Intermediate
+What is explained variance in PCA?,Percentage of variance captured by components,Component importance,Feature importance,Model accuracy,Option_1,Intermediate
+What is t-SNE?,Non-linear dimensionality reduction for visualization,Linear dimensionality reduction,Feature selection,Clustering method,Option_1,Advanced
+What is UMAP?,Scalable dimensionality reduction preserving structure,Linear method,Clustering algorithm,Classification method,Option_1,Advanced
+What is feature engineering?,Creating new features from raw data,Removing features,Selecting features,Normalizing features,Option_1,Intermediate
+What is feature scaling?,Transforming features to comparable range,Feature selection,Feature creation,Feature extraction,Option_1,Intermediate
+What is normalization?,"Scaling to range [0, 1]",Centering around mean,Dividing by standard deviation,Removing outliers,Option_1,Intermediate
+What is standardization?,Centering with mean 0 and std 1,"Scaling to [0, 1]",Log transformation,Square root transformation,Option_1,Intermediate
+What is feature selection?,Selecting subset of relevant features,Creating new features,Scaling features,Encoding features,Option_1,Intermediate
+What is filter method in feature selection?,Using statistical tests independent of model,Using model performance,Greedy selection,Exhaustive search,Option_1,Intermediate
+What is wrapper method in feature selection?,Using model performance to select features,Statistical tests,Correlation-based,Mutual information,Option_1,Intermediate
+What is embedded method in feature selection?,Feature selection during model training,Post-training selection,Pre-training selection,Manual selection,Option_1,Advanced
+What is accuracy?,Percentage of correct predictions,True positive rate,False positive rate,Precision metric,Option_1,Beginner
+What is precision?,Proportion of positive predictions that are correct,True positive rate,True negative rate,Overall correctness,Option_1,Intermediate
+What is recall (sensitivity)?,Proportion of actual positives correctly identified,Precision metric,Specificity metric,Accuracy metric,Option_1,Intermediate
+What is F1-Score?,Harmonic mean of precision and recall,Sum of precision and recall,Product of precision and recall,Average of metrics,Option_1,Intermediate
+What is specificity?,True negative rate (correctly identified negatives),True positive rate,False positive rate,Precision,Option_1,Intermediate
+What is confusion matrix?,"Table showing TP, TN, FP, FN",Covariance matrix,Correlation matrix,Distance matrix,Option_1,Intermediate
+What is AUC-ROC?,Area under Receiver Operating Characteristic curve,Accuracy measure,Precision metric,F1-score,Option_1,Intermediate
+What is ROC curve?,Plot of TPR vs FPR at different thresholds,Accuracy vs precision,Recall vs specificity,Loss vs epochs,Option_1,Advanced
+What is cross-validation?,Evaluating model using multiple data splits,Single split evaluation,Random sampling,Bootstrap sampling,Option_1,Intermediate
+What is K-fold cross-validation?,Dividing data into K folds for evaluation,K-nearest neighbors,K-Means clustering,K principal components,Option_1,Intermediate
+What is overfitting?,"Model learning training data too well, poor generalization",Model not learning,Underfitting,Proper fitting,Option_1,Intermediate
+What is underfitting?,Model too simple to capture data patterns,Model too complex,Good generalization,Overfitting,Option_1,Intermediate
+What is regularization?,Technique preventing overfitting by penalizing complexity,Data normalization,Feature scaling,Feature selection,Option_1,Intermediate
+What is L1 regularization?,Lasso: adds absolute value of weights as penalty,Ridge regularization,Elastic Net,Early stopping,Option_1,Intermediate
+What is L2 regularization?,Ridge: adds squared weights as penalty,Lasso regularization,Elastic Net,Dropout regularization,Option_1,Intermediate
+What is Elastic Net?,Combines L1 and L2 regularization,Only L1,Only L2,No regularization,Option_1,Intermediate
+What is dropout?,Randomly disabling neurons during training,Removing features,Removing data,Stopping training,Option_1,Intermediate
+What is early stopping?,Stopping training when validation performance stops improving,Stopping at epoch 0,Training longer,Never stopping,Option_1,Intermediate
+What are hyperparameters?,Parameters set before training controlling learning,Parameters learned during training,Layer sizes,Feature values,Option_1,Intermediate
+What is learning rate?,Controls step size in optimization,Training speed,Data size,Model complexity,Option_1,Intermediate
+What is batch size?,Number of samples in each training batch,Total dataset size,Model size,Number of epochs,Option_1,Intermediate
+What is epoch?,One complete pass through entire training dataset,Single sample,Single batch,Learning iteration,Option_1,Beginner
+What is grid search?,Exhaustively searching hyperparameter combinations,Random search,Bayesian optimization,Manual tuning,Option_1,Intermediate
+What is random search?,Randomly sampling hyperparameter combinations,Grid search,Exhaustive search,Sequential search,Option_1,Intermediate
+What is Bayesian optimization?,Probabilistic approach to hyperparameter optimization,Grid search,Random search,Manual search,Option_1,Advanced
+What are ensemble methods?,Combining multiple models for better performance,Single model,Feature selection,Data augmentation,Option_1,Intermediate
+What is bagging?,Training models on random data samples independently,Sequential training,Overlapping data,Shared training,Option_1,Intermediate
+What is boosting?,Sequentially training models focusing on mistakes,Parallel training,Independent training,Random training,Option_1,Intermediate
+What is gradient boosting?,Sequentially building models minimizing loss,Simple boosting,Bagging method,Stacking method,Option_1,Intermediate
+What is AdaBoost?,Adaptive boosting adjusting weights of misclassified samples,Simple boosting,Random forest,Stacking,Option_1,Intermediate
+What is Gradient Boosting Machines (GBM)?,Ensemble using gradient descent to minimize loss,Simple ensemble,Voting ensemble,Averaging ensemble,Option_1,Intermediate
+What is XGBoost?,Optimized gradient boosting with speed/accuracy improvements,Simple boosting,Basic GBM,Random forest,Option_1,Advanced
+What is LightGBM?,Lightweight GBM using leaf-wise tree growth,Standard GBM,XGBoost variant,Sklearn GBM,Option_1,Advanced
+What is stacking?,Training meta-model on predictions of base models,Simple ensemble,Voting ensemble,Averaging ensemble,Option_1,Advanced
+What is voting ensemble?,Multiple models voting for final prediction,Stacking ensemble,Bagging ensemble,Boosting ensemble,Option_1,Intermediate
+What is data preprocessing?,"Preparing data for modeling (cleaning, transforming)",Model training,Model evaluation,Feature engineering,Option_1,Beginner
+What is handling missing values?,"Imputation, deletion, or prediction of missing data",Removing features,Collecting more data,Ignoring gaps,Option_1,Beginner
+What is mean imputation?,Replacing missing values with feature mean,Median imputation,Mode imputation,Forward fill,Option_1,Intermediate
+What is outlier detection?,Identifying unusual data points,Feature selection,Data normalization,Data augmentation,Option_1,Intermediate
+What is Z-score method for outliers?,Using standard deviations to identify outliers,IQR method,Isolation Forest,LOF method,Option_1,Intermediate
+What is IQR method?,Using quartiles to identify outliers,Z-score method,Mean-std method,Percentile method,Option_1,Intermediate
+What is data imbalance?,Unequal distribution of classes,Unequal feature scales,Outliers,Missing values,Option_1,Intermediate
+What is oversampling?,Creating more samples of minority class,Removing samples,Adding features,Scaling features,Option_1,Intermediate
+What is undersampling?,Removing samples from majority class,Adding samples,Feature engineering,Data scaling,Option_1,Intermediate
+What is SMOTE?,Synthetic Minority Oversampling Technique,Simple oversampling,Undersampling method,Data augmentation,Option_1,Advanced
+What is transfer learning?,Using knowledge from source task for target task,Learning from scratch,Retraining entire model,Feature extraction only,Option_1,Intermediate
+What is fine-tuning?,Training pre-trained model on new task,Training from scratch,Feature extraction,Data preprocessing,Option_1,Intermediate
+What is domain adaptation?,Adapting model from source to target domain,Changing hyperparameters,Collecting more data,Retraining,Option_1,Advanced
+What is gradient descent?,Iteratively updating parameters to minimize loss,Ascending parameters,Direct solution,Random search,Option_1,Intermediate
+What is backpropagation?,Computing gradients using chain rule,Forward pass only,Feature extraction,Data preprocessing,Option_1,Intermediate
+What is stochastic gradient descent (SGD)?,Updating parameters using single sample,Batch gradient descent,Full gradient descent,Random descent,Option_1,Intermediate
+What is mini-batch gradient descent?,Updating using small batch of samples,Single sample,Entire dataset,Random sampling,Option_1,Intermediate
+What is momentum in optimization?,Accumulating gradient direction for faster convergence,Single step,Learning rate,Batch size,Option_1,Intermediate
+What is Nesterov momentum?,Momentum with lookahead gradient,Simple momentum,No momentum,Gradient only,Option_1,Advanced
+What is Adam optimizer?,Adaptive moment estimation combining momentum and RMSprop,Simple SGD,Gradient descent,Newton's method,Option_1,Intermediate
+What is RMSprop?,Root Mean Square Propagation for adaptive learning rate,Simple momentum,Gradient descent,Standard SGD,Option_1,Intermediate
+What is loss function?,Measures difference between predicted and actual values,Accuracy metric,Performance measure,Evaluation tool,Option_1,Intermediate
+What is MSE (Mean Squared Error)?,Average of squared differences between predicted and actual,Mean absolute error,Cross-entropy,Hinge loss,Option_1,Intermediate
+What is MAE (Mean Absolute Error)?,Average of absolute differences,Mean squared error,Root mean squared error,Median error,Option_1,Intermediate
+What is cross-entropy loss?,Loss for classification measuring probability distance,Regression loss,Clustering loss,Ranking loss,Option_1,Intermediate
+What is binary cross-entropy?,Cross-entropy for binary classification,Multi-class cross-entropy,Regression loss,Clustering loss,Option_1,Intermediate
+What is categorical cross-entropy?,Cross-entropy for multi-class classification,Binary classification,Regression loss,Unsupervised loss,Option_1,Intermediate
+What is Hinge loss?,Loss for SVM maximizing margin,Regression loss,Classification loss,Clustering loss,Option_1,Intermediate
+What is time series?,Sequence of data points ordered by time,Random data,Categorical data,Image data,Option_1,Intermediate
+What is autocorrelation?,Correlation of time series with its past values,Cross-correlation,Partial correlation,Self-correlation,Option_1,Advanced
+What is stationarity?,Statistical properties don't change over time,Properties change over time,Non-constant mean,Increasing variance,Option_1,Advanced
+What is ARIMA?,AutoRegressive Integrated Moving Average model,Regression model,Classification model,Clustering model,Option_1,Advanced
+What is anomaly detection?,Identifying unusual patterns in data,Classification,Clustering,Feature extraction,Option_1,Intermediate
+What is Isolation Forest?,Isolating anomalies in trees for detection,Random forest,Decision tree,Clustering method,Option_1,Advanced
+What is Local Outlier Factor (LOF)?,Density-based anomaly detection,Statistical method,Distance-based method,Supervised method,Option_1,Advanced
+What is a recommendation system?,System suggesting items users likely prefer,Classification system,Regression system,Clustering system,Option_1,Intermediate
+What is collaborative filtering?,Recommending based on user-item interaction patterns,Content-based filtering,Hybrid approach,Knowledge-based,Option_1,Advanced
+What is content-based filtering?,Recommending similar items to user preferences,Collaborative filtering,Hybrid approach,Context-based,Option_1,Advanced
+What is train-validation-test split?,Dividing data into three sets for proper evaluation,Two-way split,Random sampling,Stratified sampling,Option_1,Intermediate
+What is stratified sampling?,Sampling maintaining class distribution,Random sampling,Cluster sampling,Systematic sampling,Option_1,Intermediate
+What is imbalanced metrics?,Metrics suited for imbalanced data,Standard accuracy,Precision only,Recall only,Option_1,Intermediate
+What is feature leakage?,Information from outside training data leaking in,Feature engineering,Feature selection,Feature scaling,Option_1,Advanced
+What is data drift?,Changes in data distribution over time,Missing data,Outliers,Imbalance,Option_1,Advanced
+What is model monitoring?,Tracking model performance in production,Model training,Model evaluation,Hyperparameter tuning,Option_1,Advanced
+What does ML stand for?,Machine Learning,Mathematical Logic,Memory Load,Module Library,Option_1,Beginner
+What is the primary goal of Machine Learning?,Enable computers to learn from data without explicit programming,Write complex code,Store large datasets,Increase processing power,Option_1,Beginner
+What is a training set?,Data used to train the model,Data used for testing,All available data,Random data sample,Option_1,Beginner
+What is a test set?,Data used to evaluate model performance,Training data,Validation data,Unused data,Option_1,Beginner
+What is the difference between a model and an algorithm?,"Algorithm is procedure, model is learned function",Same thing,Model comes first,Algorithm is output,Option_1,Beginner
+What are the three types of Machine Learning?,"Supervised, Unsupervised, Reinforcement","Regression, Classification, Clustering","Linear, Non-linear, Mixed","Online, Offline, Batch",Option_1,Beginner
+What is supervised learning?,Learning from labeled training data with known outputs,Learning without labels,Self-directed learning,Competitive learning,Option_1,Beginner
+What is unsupervised learning?,Finding patterns in unlabeled data,Learning with labels,Supervised classification,Directed learning,Option_1,Beginner
+What is reinforcement learning?,Agent learns through rewards/penalties from environment,Labeled data learning,Unlabeled data learning,Teacher-guided learning,Option_1,Beginner
+What is semi-supervised learning?,Learning from mix of labeled and unlabeled data,Only labeled data,Only unlabeled data,Reinforcement learning,Option_1,Intermediate
+What is regression?,Predicting continuous numerical values,Categorical classification,Data clustering,Pattern recognition,Option_1,Beginner
+What is Linear Regression?,Modeling linear relationship between input and output,Non-linear relationship,Classification method,Clustering technique,Option_1,Beginner
+What is the difference between Simple and Multiple Linear Regression?,"Simple has one feature, Multiple has many",Simple is faster,Multiple uses classification,No difference,Option_1,Intermediate
+What is the equation of Linear Regression?,y = mx + b,y = x^2,y = sin(x),y = e^x,Option_1,Beginner
+What is the purpose of the cost function?,Measure difference between predicted and actual values,Train the model,Evaluate accuracy,Normalize data,Option_1,Intermediate
+What is Mean Squared Error (MSE)?,Average of squared differences between predicted and actual,Sum of errors,Average absolute error,Maximum error,Option_1,Intermediate
+What is Mean Absolute Error (MAE)?,Average of absolute differences between predicted and actual,Mean squared error,Root mean squared error,Median error,Option_1,Intermediate
+What is polynomial regression?,Fitting polynomial function to data,Linear regression,Multiple regression,Logistic regression,Option_1,Intermediate
+What is overfitting in regression?,Model fits training data too well but poorly on new data,Model not fitting well,Underfitting,Proper fitting,Option_1,Intermediate
+What is underfitting in regression?,Model too simple to capture data patterns,Model too complex,Perfect fit,Overfitting,Option_1,Intermediate
+What is classification?,Predicting categorical class labels,Predicting continuous values,Grouping similar data,Reducing dimensions,Option_1,Beginner
+What is Logistic Regression?,Classification algorithm for binary/multi-class problems,Regression for continuous values,Clustering method,Feature extraction,Option_1,Beginner
+What is the sigmoid function?,Maps any value to range 0-1 for probability,Maps to range -1 to 1,Exponential function,Linear function,Option_1,Intermediate
+What is a Decision Tree?,Tree model making predictions through series of decisions,Regression model,Data structure,Network topology,Option_1,Beginner
+What is entropy in Decision Trees?,Measure of disorder/impurity in data,Information gain,Gini coefficient,Tree depth,Option_1,Intermediate
+What is information gain?,Reduction in entropy after splitting,Increase in tree depth,Node importance,Feature relevance,Option_1,Intermediate
+What is Gini impurity?,Measure of probability of incorrect classification,Tree purity,Information gain,Entropy measure,Option_1,Intermediate
+What is Random Forest?,Ensemble of decision trees voting on prediction,Single decision tree,Linear classifier,Neural network,Option_1,Beginner
+What is bagging?,Training multiple models on random data samples,Boosting method,Stacking ensemble,Voting method,Option_1,Intermediate
+What is feature importance in Random Forest?,Measure of contribution of each feature,Model accuracy,Tree depth,Number of trees,Option_1,Intermediate
+What is SVM (Support Vector Machine)?,Classifier finding optimal boundary between classes,Regression model,Clustering algorithm,Feature selector,Option_1,Intermediate
+What is a support vector?,Data point closest to decision boundary,Random data point,Outlier,Misclassified point,Option_1,Intermediate
+What is kernel trick in SVM?,Transforming data to higher dimension without explicit mapping,Data normalization,Feature scaling,Dimensionality reduction,Option_1,Advanced
+What are common SVM kernels?,"Linear, RBF, Polynomial, Sigmoid","Tanh, ReLU, Sigmoid","Gaussian, Exponential","Logarithmic, Power",Option_1,Intermediate
+What is the margin in SVM?,Distance between support vectors and boundary,Prediction error,Cost parameter,Kernel parameter,Option_1,Intermediate
+What is Naive Bayes?,Probabilistic classifier based on Bayes' theorem,Decision tree,Nearest neighbor,Neural network,Option_1,Intermediate
+Why is it called 'Naive' Bayes?,Assumes features are independent,Simplistic algorithm,Naive approach,Ignores data,Option_1,Intermediate
+What is Bayes' theorem formula?,P(A|B) = P(B|A)P(A)/P(B),P(A|B) = P(A)P(B),P(A|B) = P(A)/P(B),P(A|B) = P(B),Option_1,Intermediate
+What is K-Nearest Neighbors (KNN)?,Instance-based classifier finding K nearest neighbors,Centroid-based clustering,Tree-based classifier,Gradient-based classifier,Option_1,Beginner
+What does K represent in KNN?,Number of nearest neighbors to consider,Feature dimension,Data size,Number of classes,Option_1,Beginner
+What is the disadvantage of large K in KNN?,May ignore local patterns/become too smooth,Overfitting,Underfitting,Computational complexity,Option_1,Intermediate
+What is the disadvantage of small K in KNN?,May be too sensitive to outliers/noisy data,Too much smoothing,Underfitting,Computational cost,Option_1,Intermediate
+What is the curse of dimensionality in KNN?,Distance becomes meaningless in high dimensions,Model becomes too complex,Memory usage increases,Training time increases,Option_1,Advanced
+What is clustering?,Grouping similar data points without labels,Classification,Regression,Dimensionality reduction,Option_1,Beginner
+What is K-Means clustering?,Algorithm partitioning data into K clusters,Hierarchical clustering,Density-based clustering,Spectral clustering,Option_1,Beginner
+What is centroid in K-Means?,Center point of a cluster,Edge point,Random point,Outlier point,Option_1,Beginner
+What is the objective of K-Means?,Minimize within-cluster variance,Maximize cluster size,Minimize between-cluster distance,Maximize purity,Option_1,Intermediate
+What is the elbow method?,Finding optimal K by plotting inertia vs K,Setting K to number of clusters,Using silhouette score,Cross-validation,Option_1,Intermediate
+What is hierarchical clustering?,Building tree of nested clusters,Flat clustering,Overlapping clusters,Soft clustering,Option_1,Intermediate
+What is DBSCAN?,Density-based clustering finding clusters of any shape,K-Means variant,Hierarchical clustering,Spectral clustering,Option_1,Intermediate
+What are core points in DBSCAN?,Points with at least MinPts neighbors within Eps,Boundary points,Outliers,Random points,Option_1,Intermediate
+What is silhouette score?,Measure of cluster quality (-1 to 1),Cluster size,Distance metric,Purity measure,Option_1,Intermediate
+What is dimensionality reduction?,Reducing number of features while preserving information,Increasing features,Feature scaling,Feature encoding,Option_1,Intermediate
+What is Principal Component Analysis (PCA)?,Technique reducing dimensions by finding principal components,Clustering method,Classification method,Regression method,Option_1,Intermediate
+What are principal components?,Directions of maximum variance in data,Feature means,Feature variances,Feature ranges,Option_1,Intermediate
+What is explained variance in PCA?,Percentage of variance captured by components,Component importance,Feature importance,Model accuracy,Option_1,Intermediate
+What is t-SNE?,Non-linear dimensionality reduction for visualization,Linear dimensionality reduction,Feature selection,Clustering method,Option_1,Advanced
+What is UMAP?,Scalable dimensionality reduction preserving structure,Linear method,Clustering algorithm,Classification method,Option_1,Advanced
+What is feature engineering?,Creating new features from raw data,Removing features,Selecting features,Normalizing features,Option_1,Intermediate
+What is feature scaling?,Transforming features to comparable range,Feature selection,Feature creation,Feature extraction,Option_1,Intermediate
+What is normalization?,"Scaling to range [0, 1]",Centering around mean,Dividing by standard deviation,Removing outliers,Option_1,Intermediate
+What is standardization?,Centering with mean 0 and std 1,"Scaling to [0, 1]",Log transformation,Square root transformation,Option_1,Intermediate
+What is feature selection?,Selecting subset of relevant features,Creating new features,Scaling features,Encoding features,Option_1,Intermediate
+What is filter method in feature selection?,Using statistical tests independent of model,Using model performance,Greedy selection,Exhaustive search,Option_1,Intermediate
+What is wrapper method in feature selection?,Using model performance to select features,Statistical tests,Correlation-based,Mutual information,Option_1,Intermediate
+What is embedded method in feature selection?,Feature selection during model training,Post-training selection,Pre-training selection,Manual selection,Option_1,Advanced
+What is accuracy?,Percentage of correct predictions,True positive rate,False positive rate,Precision metric,Option_1,Beginner
+What is precision?,Proportion of positive predictions that are correct,True positive rate,True negative rate,Overall correctness,Option_1,Intermediate
+What is recall (sensitivity)?,Proportion of actual positives correctly identified,Precision metric,Specificity metric,Accuracy metric,Option_1,Intermediate
+What is F1-Score?,Harmonic mean of precision and recall,Sum of precision and recall,Product of precision and recall,Average of metrics,Option_1,Intermediate
+What is specificity?,True negative rate (correctly identified negatives),True positive rate,False positive rate,Precision,Option_1,Intermediate
+What is confusion matrix?,"Table showing TP, TN, FP, FN",Covariance matrix,Correlation matrix,Distance matrix,Option_1,Intermediate
+What is AUC-ROC?,Area under Receiver Operating Characteristic curve,Accuracy measure,Precision metric,F1-score,Option_1,Intermediate
+What is ROC curve?,Plot of TPR vs FPR at different thresholds,Accuracy vs precision,Recall vs specificity,Loss vs epochs,Option_1,Advanced
+What is cross-validation?,Evaluating model using multiple data splits,Single split evaluation,Random sampling,Bootstrap sampling,Option_1,Intermediate
+What is K-fold cross-validation?,Dividing data into K folds for evaluation,K-nearest neighbors,K-Means clustering,K principal components,Option_1,Intermediate
+What is overfitting?,"Model learning training data too well, poor generalization",Model not learning,Underfitting,Proper fitting,Option_1,Intermediate
+What is underfitting?,Model too simple to capture data patterns,Model too complex,Good generalization,Overfitting,Option_1,Intermediate
+What is regularization?,Technique preventing overfitting by penalizing complexity,Data normalization,Feature scaling,Feature selection,Option_1,Intermediate
+What is L1 regularization?,Lasso: adds absolute value of weights as penalty,Ridge regularization,Elastic Net,Early stopping,Option_1,Intermediate
+What is L2 regularization?,Ridge: adds squared weights as penalty,Lasso regularization,Elastic Net,Dropout regularization,Option_1,Intermediate
+What is Elastic Net?,Combines L1 and L2 regularization,Only L1,Only L2,No regularization,Option_1,Intermediate
+What is dropout?,Randomly disabling neurons during training,Removing features,Removing data,Stopping training,Option_1,Intermediate
+What is early stopping?,Stopping training when validation performance stops improving,Stopping at epoch 0,Training longer,Never stopping,Option_1,Intermediate
+What are hyperparameters?,Parameters set before training controlling learning,Parameters learned during training,Layer sizes,Feature values,Option_1,Intermediate
+What is learning rate?,Controls step size in optimization,Training speed,Data size,Model complexity,Option_1,Intermediate
+What is batch size?,Number of samples in each training batch,Total dataset size,Model size,Number of epochs,Option_1,Intermediate
+What is epoch?,One complete pass through entire training dataset,Single sample,Single batch,Learning iteration,Option_1,Beginner
+What is grid search?,Exhaustively searching hyperparameter combinations,Random search,Bayesian optimization,Manual tuning,Option_1,Intermediate
+What is random search?,Randomly sampling hyperparameter combinations,Grid search,Exhaustive search,Sequential search,Option_1,Intermediate
+What is Bayesian optimization?,Probabilistic approach to hyperparameter optimization,Grid search,Random search,Manual search,Option_1,Advanced
+What are ensemble methods?,Combining multiple models for better performance,Single model,Feature selection,Data augmentation,Option_1,Intermediate
+What is bagging?,Training models on random data samples independently,Sequential training,Overlapping data,Shared training,Option_1,Intermediate
+What is boosting?,Sequentially training models focusing on mistakes,Parallel training,Independent training,Random training,Option_1,Intermediate
+What is gradient boosting?,Sequentially building models minimizing loss,Simple boosting,Bagging method,Stacking method,Option_1,Intermediate
+What is AdaBoost?,Adaptive boosting adjusting weights of misclassified samples,Simple boosting,Random forest,Stacking,Option_1,Intermediate
+What is Gradient Boosting Machines (GBM)?,Ensemble using gradient descent to minimize loss,Simple ensemble,Voting ensemble,Averaging ensemble,Option_1,Intermediate
+What is XGBoost?,Optimized gradient boosting with speed/accuracy improvements,Simple boosting,Basic GBM,Random forest,Option_1,Advanced
+What is LightGBM?,Lightweight GBM using leaf-wise tree growth,Standard GBM,XGBoost variant,Sklearn GBM,Option_1,Advanced
+What is stacking?,Training meta-model on predictions of base models,Simple ensemble,Voting ensemble,Averaging ensemble,Option_1,Advanced
+What is voting ensemble?,Multiple models voting for final prediction,Stacking ensemble,Bagging ensemble,Boosting ensemble,Option_1,Intermediate
+What is data preprocessing?,"Preparing data for modeling (cleaning, transforming)",Model training,Model evaluation,Feature engineering,Option_1,Beginner
+What is handling missing values?,"Imputation, deletion, or prediction of missing data",Removing features,Collecting more data,Ignoring gaps,Option_1,Beginner
+What is mean imputation?,Replacing missing values with feature mean,Median imputation,Mode imputation,Forward fill,Option_1,Intermediate
+What is outlier detection?,Identifying unusual data points,Feature selection,Data normalization,Data augmentation,Option_1,Intermediate
+What is Z-score method for outliers?,Using standard deviations to identify outliers,IQR method,Isolation Forest,LOF method,Option_1,Intermediate
+What is IQR method?,Using quartiles to identify outliers,Z-score method,Mean-std method,Percentile method,Option_1,Intermediate
+What is data imbalance?,Unequal distribution of classes,Unequal feature scales,Outliers,Missing values,Option_1,Intermediate
+What is oversampling?,Creating more samples of minority class,Removing samples,Adding features,Scaling features,Option_1,Intermediate
+What is undersampling?,Removing samples from majority class,Adding samples,Feature engineering,Data scaling,Option_1,Intermediate
+What is SMOTE?,Synthetic Minority Oversampling Technique,Simple oversampling,Undersampling method,Data augmentation,Option_1,Advanced
+What is transfer learning?,Using knowledge from source task for target task,Learning from scratch,Retraining entire model,Feature extraction only,Option_1,Intermediate
+What is fine-tuning?,Training pre-trained model on new task,Training from scratch,Feature extraction,Data preprocessing,Option_1,Intermediate
+What is domain adaptation?,Adapting model from source to target domain,Changing hyperparameters,Collecting more data,Retraining,Option_1,Advanced
+What is gradient descent?,Iteratively updating parameters to minimize loss,Ascending parameters,Direct solution,Random search,Option_1,Intermediate
+What is backpropagation?,Computing gradients using chain rule,Forward pass only,Feature extraction,Data preprocessing,Option_1,Intermediate
+What is stochastic gradient descent (SGD)?,Updating parameters using single sample,Batch gradient descent,Full gradient descent,Random descent,Option_1,Intermediate
+What is mini-batch gradient descent?,Updating using small batch of samples,Single sample,Entire dataset,Random sampling,Option_1,Intermediate
+What is momentum in optimization?,Accumulating gradient direction for faster convergence,Single step,Learning rate,Batch size,Option_1,Intermediate
+What is Nesterov momentum?,Momentum with lookahead gradient,Simple momentum,No momentum,Gradient only,Option_1,Advanced
+What is Adam optimizer?,Adaptive moment estimation combining momentum and RMSprop,Simple SGD,Gradient descent,Newton's method,Option_1,Intermediate
+What is RMSprop?,Root Mean Square Propagation for adaptive learning rate,Simple momentum,Gradient descent,Standard SGD,Option_1,Intermediate
+What is loss function?,Measures difference between predicted and actual values,Accuracy metric,Performance measure,Evaluation tool,Option_1,Intermediate
+What is MSE (Mean Squared Error)?,Average of squared differences between predicted and actual,Mean absolute error,Cross-entropy,Hinge loss,Option_1,Intermediate
+What is MAE (Mean Absolute Error)?,Average of absolute differences,Mean squared error,Root mean squared error,Median error,Option_1,Intermediate
+What is cross-entropy loss?,Loss for classification measuring probability distance,Regression loss,Clustering loss,Ranking loss,Option_1,Intermediate
+What is binary cross-entropy?,Cross-entropy for binary classification,Multi-class cross-entropy,Regression loss,Clustering loss,Option_1,Intermediate
+What is categorical cross-entropy?,Cross-entropy for multi-class classification,Binary classification,Regression loss,Unsupervised loss,Option_1,Intermediate
+What is Hinge loss?,Loss for SVM maximizing margin,Regression loss,Classification loss,Clustering loss,Option_1,Intermediate
+What is time series?,Sequence of data points ordered by time,Random data,Categorical data,Image data,Option_1,Intermediate
+What is autocorrelation?,Correlation of time series with its past values,Cross-correlation,Partial correlation,Self-correlation,Option_1,Advanced
+What is stationarity?,Statistical properties don't change over time,Properties change over time,Non-constant mean,Increasing variance,Option_1,Advanced
+What is ARIMA?,AutoRegressive Integrated Moving Average model,Regression model,Classification model,Clustering model,Option_1,Advanced
+What is anomaly detection?,Identifying unusual patterns in data,Classification,Clustering,Feature extraction,Option_1,Intermediate
+What is Isolation Forest?,Isolating anomalies in trees for detection,Random forest,Decision tree,Clustering method,Option_1,Advanced
+What is Local Outlier Factor (LOF)?,Density-based anomaly detection,Statistical method,Distance-based method,Supervised method,Option_1,Advanced
+What is a recommendation system?,System suggesting items users likely prefer,Classification system,Regression system,Clustering system,Option_1,Intermediate
+What is collaborative filtering?,Recommending based on user-item interaction patterns,Content-based filtering,Hybrid approach,Knowledge-based,Option_1,Advanced
+What is content-based filtering?,Recommending similar items to user preferences,Collaborative filtering,Hybrid approach,Context-based,Option_1,Advanced
+What is train-validation-test split?,Dividing data into three sets for proper evaluation,Two-way split,Random sampling,Stratified sampling,Option_1,Intermediate
+What is stratified sampling?,Sampling maintaining class distribution,Random sampling,Cluster sampling,Systematic sampling,Option_1,Intermediate
+What is imbalanced metrics?,Metrics suited for imbalanced data,Standard accuracy,Precision only,Recall only,Option_1,Intermediate
+What is feature leakage?,Information from outside training data leaking in,Feature engineering,Feature selection,Feature scaling,Option_1,Advanced
+What is data drift?,Changes in data distribution over time,Missing data,Outliers,Imbalance,Option_1,Advanced
+What is model monitoring?,Tracking model performance in production,Model training,Model evaluation,Hyperparameter tuning,Option_1,Advanced
+What does ML stand for?,Machine Learning,Mathematical Logic,Memory Load,Module Library,Option_1,Beginner
+What is the primary goal of Machine Learning?,Enable computers to learn from data without explicit programming,Write complex code,Store large datasets,Increase processing power,Option_1,Beginner
+What is a training set?,Data used to train the model,Data used for testing,All available data,Random data sample,Option_1,Beginner
+What is a test set?,Data used to evaluate model performance,Training data,Validation data,Unused data,Option_1,Beginner
+What is the difference between a model and an algorithm?,"Algorithm is procedure, model is learned function",Same thing,Model comes first,Algorithm is output,Option_1,Beginner
+What are the three types of Machine Learning?,"Supervised, Unsupervised, Reinforcement","Regression, Classification, Clustering","Linear, Non-linear, Mixed","Online, Offline, Batch",Option_1,Beginner
+What is supervised learning?,Learning from labeled training data with known outputs,Learning without labels,Self-directed learning,Competitive learning,Option_1,Beginner
+What is unsupervised learning?,Finding patterns in unlabeled data,Learning with labels,Supervised classification,Directed learning,Option_1,Beginner
+What is reinforcement learning?,Agent learns through rewards/penalties from environment,Labeled data learning,Unlabeled data learning,Teacher-guided learning,Option_1,Beginner
+What is semi-supervised learning?,Learning from mix of labeled and unlabeled data,Only labeled data,Only unlabeled data,Reinforcement learning,Option_1,Intermediate
+What is regression?,Predicting continuous numerical values,Categorical classification,Data clustering,Pattern recognition,Option_1,Beginner
+What is Linear Regression?,Modeling linear relationship between input and output,Non-linear relationship,Classification method,Clustering technique,Option_1,Beginner
+What is the difference between Simple and Multiple Linear Regression?,"Simple has one feature, Multiple has many",Simple is faster,Multiple uses classification,No difference,Option_1,Intermediate
+What is the equation of Linear Regression?,y = mx + b,y = x^2,y = sin(x),y = e^x,Option_1,Beginner
+What is the purpose of the cost function?,Measure difference between predicted and actual values,Train the model,Evaluate accuracy,Normalize data,Option_1,Intermediate
+What is Mean Squared Error (MSE)?,Average of squared differences between predicted and actual,Sum of errors,Average absolute error,Maximum error,Option_1,Intermediate
+What is Mean Absolute Error (MAE)?,Average of absolute differences between predicted and actual,Mean squared error,Root mean squared error,Median error,Option_1,Intermediate
+What is polynomial regression?,Fitting polynomial function to data,Linear regression,Multiple regression,Logistic regression,Option_1,Intermediate
+What is overfitting in regression?,Model fits training data too well but poorly on new data,Model not fitting well,Underfitting,Proper fitting,Option_1,Intermediate
+What is underfitting in regression?,Model too simple to capture data patterns,Model too complex,Perfect fit,Overfitting,Option_1,Intermediate
+What is classification?,Predicting categorical class labels,Predicting continuous values,Grouping similar data,Reducing dimensions,Option_1,Beginner
+What is Logistic Regression?,Classification algorithm for binary/multi-class problems,Regression for continuous values,Clustering method,Feature extraction,Option_1,Beginner
+What is the sigmoid function?,Maps any value to range 0-1 for probability,Maps to range -1 to 1,Exponential function,Linear function,Option_1,Intermediate
+What is a Decision Tree?,Tree model making predictions through series of decisions,Regression model,Data structure,Network topology,Option_1,Beginner
+What is entropy in Decision Trees?,Measure of disorder/impurity in data,Information gain,Gini coefficient,Tree depth,Option_1,Intermediate
+What is information gain?,Reduction in entropy after splitting,Increase in tree depth,Node importance,Feature relevance,Option_1,Intermediate
+What is Gini impurity?,Measure of probability of incorrect classification,Tree purity,Information gain,Entropy measure,Option_1,Intermediate
+What is Random Forest?,Ensemble of decision trees voting on prediction,Single decision tree,Linear classifier,Neural network,Option_1,Beginner
+What is bagging?,Training multiple models on random data samples,Boosting method,Stacking ensemble,Voting method,Option_1,Intermediate
+What is feature importance in Random Forest?,Measure of contribution of each feature,Model accuracy,Tree depth,Number of trees,Option_1,Intermediate
+What is SVM (Support Vector Machine)?,Classifier finding optimal boundary between classes,Regression model,Clustering algorithm,Feature selector,Option_1,Intermediate
+What is a support vector?,Data point closest to decision boundary,Random data point,Outlier,Misclassified point,Option_1,Intermediate
+What is kernel trick in SVM?,Transforming data to higher dimension without explicit mapping,Data normalization,Feature scaling,Dimensionality reduction,Option_1,Advanced
+What are common SVM kernels?,"Linear, RBF, Polynomial, Sigmoid","Tanh, ReLU, Sigmoid","Gaussian, Exponential","Logarithmic, Power",Option_1,Intermediate
+What is the margin in SVM?,Distance between support vectors and boundary,Prediction error,Cost parameter,Kernel parameter,Option_1,Intermediate
+What is Naive Bayes?,Probabilistic classifier based on Bayes' theorem,Decision tree,Nearest neighbor,Neural network,Option_1,Intermediate
+Why is it called 'Naive' Bayes?,Assumes features are independent,Simplistic algorithm,Naive approach,Ignores data,Option_1,Intermediate
+What is Bayes' theorem formula?,P(A|B) = P(B|A)P(A)/P(B),P(A|B) = P(A)P(B),P(A|B) = P(A)/P(B),P(A|B) = P(B),Option_1,Intermediate
+What is K-Nearest Neighbors (KNN)?,Instance-based classifier finding K nearest neighbors,Centroid-based clustering,Tree-based classifier,Gradient-based classifier,Option_1,Beginner
+What does K represent in KNN?,Number of nearest neighbors to consider,Feature dimension,Data size,Number of classes,Option_1,Beginner
+What is the disadvantage of large K in KNN?,May ignore local patterns/become too smooth,Overfitting,Underfitting,Computational complexity,Option_1,Intermediate
+What is the disadvantage of small K in KNN?,May be too sensitive to outliers/noisy data,Too much smoothing,Underfitting,Computational cost,Option_1,Intermediate
+What is the curse of dimensionality in KNN?,Distance becomes meaningless in high dimensions,Model becomes too complex,Memory usage increases,Training time increases,Option_1,Advanced
+What is clustering?,Grouping similar data points without labels,Classification,Regression,Dimensionality reduction,Option_1,Beginner
+What is K-Means clustering?,Algorithm partitioning data into K clusters,Hierarchical clustering,Density-based clustering,Spectral clustering,Option_1,Beginner
+What is centroid in K-Means?,Center point of a cluster,Edge point,Random point,Outlier point,Option_1,Beginner
+What is the objective of K-Means?,Minimize within-cluster variance,Maximize cluster size,Minimize between-cluster distance,Maximize purity,Option_1,Intermediate
+What is the elbow method?,Finding optimal K by plotting inertia vs K,Setting K to number of clusters,Using silhouette score,Cross-validation,Option_1,Intermediate
+What is hierarchical clustering?,Building tree of nested clusters,Flat clustering,Overlapping clusters,Soft clustering,Option_1,Intermediate
+What is DBSCAN?,Density-based clustering finding clusters of any shape,K-Means variant,Hierarchical clustering,Spectral clustering,Option_1,Intermediate
+What are core points in DBSCAN?,Points with at least MinPts neighbors within Eps,Boundary points,Outliers,Random points,Option_1,Intermediate
+What is silhouette score?,Measure of cluster quality (-1 to 1),Cluster size,Distance metric,Purity measure,Option_1,Intermediate
+What is dimensionality reduction?,Reducing number of features while preserving information,Increasing features,Feature scaling,Feature encoding,Option_1,Intermediate
+What is Principal Component Analysis (PCA)?,Technique reducing dimensions by finding principal components,Clustering method,Classification method,Regression method,Option_1,Intermediate
+What are principal components?,Directions of maximum variance in data,Feature means,Feature variances,Feature ranges,Option_1,Intermediate
+What is explained variance in PCA?,Percentage of variance captured by components,Component importance,Feature importance,Model accuracy,Option_1,Intermediate
+What is t-SNE?,Non-linear dimensionality reduction for visualization,Linear dimensionality reduction,Feature selection,Clustering method,Option_1,Advanced
+What is UMAP?,Scalable dimensionality reduction preserving structure,Linear method,Clustering algorithm,Classification method,Option_1,Advanced
+What is feature engineering?,Creating new features from raw data,Removing features,Selecting features,Normalizing features,Option_1,Intermediate
+What is feature scaling?,Transforming features to comparable range,Feature selection,Feature creation,Feature extraction,Option_1,Intermediate
+What is normalization?,"Scaling to range [0, 1]",Centering around mean,Dividing by standard deviation,Removing outliers,Option_1,Intermediate
+What is standardization?,Centering with mean 0 and std 1,"Scaling to [0, 1]",Log transformation,Square root transformation,Option_1,Intermediate
+What is feature selection?,Selecting subset of relevant features,Creating new features,Scaling features,Encoding features,Option_1,Intermediate
+What is filter method in feature selection?,Using statistical tests independent of model,Using model performance,Greedy selection,Exhaustive search,Option_1,Intermediate
+What is wrapper method in feature selection?,Using model performance to select features,Statistical tests,Correlation-based,Mutual information,Option_1,Intermediate
+What is embedded method in feature selection?,Feature selection during model training,Post-training selection,Pre-training selection,Manual selection,Option_1,Advanced
+What is accuracy?,Percentage of correct predictions,True positive rate,False positive rate,Precision metric,Option_1,Beginner
+What is precision?,Proportion of positive predictions that are correct,True positive rate,True negative rate,Overall correctness,Option_1,Intermediate
+What is recall (sensitivity)?,Proportion of actual positives correctly identified,Precision metric,Specificity metric,Accuracy metric,Option_1,Intermediate
+What is F1-Score?,Harmonic mean of precision and recall,Sum of precision and recall,Product of precision and recall,Average of metrics,Option_1,Intermediate
+What is specificity?,True negative rate (correctly identified negatives),True positive rate,False positive rate,Precision,Option_1,Intermediate
+What is confusion matrix?,"Table showing TP, TN, FP, FN",Covariance matrix,Correlation matrix,Distance matrix,Option_1,Intermediate
+What is AUC-ROC?,Area under Receiver Operating Characteristic curve,Accuracy measure,Precision metric,F1-score,Option_1,Intermediate
+What is ROC curve?,Plot of TPR vs FPR at different thresholds,Accuracy vs precision,Recall vs specificity,Loss vs epochs,Option_1,Advanced
+What is cross-validation?,Evaluating model using multiple data splits,Single split evaluation,Random sampling,Bootstrap sampling,Option_1,Intermediate
+What is K-fold cross-validation?,Dividing data into K folds for evaluation,K-nearest neighbors,K-Means clustering,K principal components,Option_1,Intermediate
+What is overfitting?,"Model learning training data too well, poor generalization",Model not learning,Underfitting,Proper fitting,Option_1,Intermediate
+What is underfitting?,Model too simple to capture data patterns,Model too complex,Good generalization,Overfitting,Option_1,Intermediate
+What is regularization?,Technique preventing overfitting by penalizing complexity,Data normalization,Feature scaling,Feature selection,Option_1,Intermediate
+What is L1 regularization?,Lasso: adds absolute value of weights as penalty,Ridge regularization,Elastic Net,Early stopping,Option_1,Intermediate
+What is L2 regularization?,Ridge: adds squared weights as penalty,Lasso regularization,Elastic Net,Dropout regularization,Option_1,Intermediate
+What is Elastic Net?,Combines L1 and L2 regularization,Only L1,Only L2,No regularization,Option_1,Intermediate
+What is dropout?,Randomly disabling neurons during training,Removing features,Removing data,Stopping training,Option_1,Intermediate
+What is early stopping?,Stopping training when validation performance stops improving,Stopping at epoch 0,Training longer,Never stopping,Option_1,Intermediate
+What are hyperparameters?,Parameters set before training controlling learning,Parameters learned during training,Layer sizes,Feature values,Option_1,Intermediate
+What is learning rate?,Controls step size in optimization,Training speed,Data size,Model complexity,Option_1,Intermediate
+What is batch size?,Number of samples in each training batch,Total dataset size,Model size,Number of epochs,Option_1,Intermediate
+What is epoch?,One complete pass through entire training dataset,Single sample,Single batch,Learning iteration,Option_1,Beginner
+What is grid search?,Exhaustively searching hyperparameter combinations,Random search,Bayesian optimization,Manual tuning,Option_1,Intermediate
+What is random search?,Randomly sampling hyperparameter combinations,Grid search,Exhaustive search,Sequential search,Option_1,Intermediate
+What is Bayesian optimization?,Probabilistic approach to hyperparameter optimization,Grid search,Random search,Manual search,Option_1,Advanced
+What are ensemble methods?,Combining multiple models for better performance,Single model,Feature selection,Data augmentation,Option_1,Intermediate
+What is bagging?,Training models on random data samples independently,Sequential training,Overlapping data,Shared training,Option_1,Intermediate
+What is boosting?,Sequentially training models focusing on mistakes,Parallel training,Independent training,Random training,Option_1,Intermediate
+What is gradient boosting?,Sequentially building models minimizing loss,Simple boosting,Bagging method,Stacking method,Option_1,Intermediate
+What is AdaBoost?,Adaptive boosting adjusting weights of misclassified samples,Simple boosting,Random forest,Stacking,Option_1,Intermediate
+What is Gradient Boosting Machines (GBM)?,Ensemble using gradient descent to minimize loss,Simple ensemble,Voting ensemble,Averaging ensemble,Option_1,Intermediate
+What is XGBoost?,Optimized gradient boosting with speed/accuracy improvements,Simple boosting,Basic GBM,Random forest,Option_1,Advanced
+What is LightGBM?,Lightweight GBM using leaf-wise tree growth,Standard GBM,XGBoost variant,Sklearn GBM,Option_1,Advanced
+What is stacking?,Training meta-model on predictions of base models,Simple ensemble,Voting ensemble,Averaging ensemble,Option_1,Advanced
+What is voting ensemble?,Multiple models voting for final prediction,Stacking ensemble,Bagging ensemble,Boosting ensemble,Option_1,Intermediate
+What is data preprocessing?,"Preparing data for modeling (cleaning, transforming)",Model training,Model evaluation,Feature engineering,Option_1,Beginner
+What is handling missing values?,"Imputation, deletion, or prediction of missing data",Removing features,Collecting more data,Ignoring gaps,Option_1,Beginner
+What is mean imputation?,Replacing missing values with feature mean,Median imputation,Mode imputation,Forward fill,Option_1,Intermediate
+What is outlier detection?,Identifying unusual data points,Feature selection,Data normalization,Data augmentation,Option_1,Intermediate
+What is Z-score method for outliers?,Using standard deviations to identify outliers,IQR method,Isolation Forest,LOF method,Option_1,Intermediate
+What is IQR method?,Using quartiles to identify outliers,Z-score method,Mean-std method,Percentile method,Option_1,Intermediate
+What is data imbalance?,Unequal distribution of classes,Unequal feature scales,Outliers,Missing values,Option_1,Intermediate
+What is oversampling?,Creating more samples of minority class,Removing samples,Adding features,Scaling features,Option_1,Intermediate
+What is undersampling?,Removing samples from majority class,Adding samples,Feature engineering,Data scaling,Option_1,Intermediate
+What is SMOTE?,Synthetic Minority Oversampling Technique,Simple oversampling,Undersampling method,Data augmentation,Option_1,Advanced
+What is transfer learning?,Using knowledge from source task for target task,Learning from scratch,Retraining entire model,Feature extraction only,Option_1,Intermediate
+What is fine-tuning?,Training pre-trained model on new task,Training from scratch,Feature extraction,Data preprocessing,Option_1,Intermediate
+What is domain adaptation?,Adapting model from source to target domain,Changing hyperparameters,Collecting more data,Retraining,Option_1,Advanced
+What is gradient descent?,Iteratively updating parameters to minimize loss,Ascending parameters,Direct solution,Random search,Option_1,Intermediate
+What is backpropagation?,Computing gradients using chain rule,Forward pass only,Feature extraction,Data preprocessing,Option_1,Intermediate
+What is stochastic gradient descent (SGD)?,Updating parameters using single sample,Batch gradient descent,Full gradient descent,Random descent,Option_1,Intermediate
+What is mini-batch gradient descent?,Updating using small batch of samples,Single sample,Entire dataset,Random sampling,Option_1,Intermediate
+What is momentum in optimization?,Accumulating gradient direction for faster convergence,Single step,Learning rate,Batch size,Option_1,Intermediate
+What is Nesterov momentum?,Momentum with lookahead gradient,Simple momentum,No momentum,Gradient only,Option_1,Advanced
+What is Adam optimizer?,Adaptive moment estimation combining momentum and RMSprop,Simple SGD,Gradient descent,Newton's method,Option_1,Intermediate
+What is RMSprop?,Root Mean Square Propagation for adaptive learning rate,Simple momentum,Gradient descent,Standard SGD,Option_1,Intermediate
+What is loss function?,Measures difference between predicted and actual values,Accuracy metric,Performance measure,Evaluation tool,Option_1,Intermediate
+What is MSE (Mean Squared Error)?,Average of squared differences between predicted and actual,Mean absolute error,Cross-entropy,Hinge loss,Option_1,Intermediate
+What is MAE (Mean Absolute Error)?,Average of absolute differences,Mean squared error,Root mean squared error,Median error,Option_1,Intermediate
+What is cross-entropy loss?,Loss for classification measuring probability distance,Regression loss,Clustering loss,Ranking loss,Option_1,Intermediate
+What is binary cross-entropy?,Cross-entropy for binary classification,Multi-class cross-entropy,Regression loss,Clustering loss,Option_1,Intermediate
+What is categorical cross-entropy?,Cross-entropy for multi-class classification,Binary classification,Regression loss,Unsupervised loss,Option_1,Intermediate
+What is Hinge loss?,Loss for SVM maximizing margin,Regression loss,Classification loss,Clustering loss,Option_1,Intermediate
+What is time series?,Sequence of data points ordered by time,Random data,Categorical data,Image data,Option_1,Intermediate
+What is autocorrelation?,Correlation of time series with its past values,Cross-correlation,Partial correlation,Self-correlation,Option_1,Advanced
+What is stationarity?,Statistical properties don't change over time,Properties change over time,Non-constant mean,Increasing variance,Option_1,Advanced
+What is ARIMA?,AutoRegressive Integrated Moving Average model,Regression model,Classification model,Clustering model,Option_1,Advanced
+What is anomaly detection?,Identifying unusual patterns in data,Classification,Clustering,Feature extraction,Option_1,Intermediate
+What is Isolation Forest?,Isolating anomalies in trees for detection,Random forest,Decision tree,Clustering method,Option_1,Advanced
+What is Local Outlier Factor (LOF)?,Density-based anomaly detection,Statistical method,Distance-based method,Supervised method,Option_1,Advanced
+What is a recommendation system?,System suggesting items users likely prefer,Classification system,Regression system,Clustering system,Option_1,Intermediate
+What is collaborative filtering?,Recommending based on user-item interaction patterns,Content-based filtering,Hybrid approach,Knowledge-based,Option_1,Advanced
+What is content-based filtering?,Recommending similar items to user preferences,Collaborative filtering,Hybrid approach,Context-based,Option_1,Advanced
+What is train-validation-test split?,Dividing data into three sets for proper evaluation,Two-way split,Random sampling,Stratified sampling,Option_1,Intermediate
+What is stratified sampling?,Sampling maintaining class distribution,Random sampling,Cluster sampling,Systematic sampling,Option_1,Intermediate
+What is imbalanced metrics?,Metrics suited for imbalanced data,Standard accuracy,Precision only,Recall only,Option_1,Intermediate
+What is feature leakage?,Information from outside training data leaking in,Feature engineering,Feature selection,Feature scaling,Option_1,Advanced
+What is data drift?,Changes in data distribution over time,Missing data,Outliers,Imbalance,Option_1,Advanced
+What is model monitoring?,Tracking model performance in production,Model training,Model evaluation,Hyperparameter tuning,Option_1,Advanced
+What does ML stand for?,Machine Learning,Mathematical Logic,Memory Load,Module Library,Option_1,Beginner
+What is the primary goal of Machine Learning?,Enable computers to learn from data without explicit programming,Write complex code,Store large datasets,Increase processing power,Option_1,Beginner
+What is a training set?,Data used to train the model,Data used for testing,All available data,Random data sample,Option_1,Beginner
+What is a test set?,Data used to evaluate model performance,Training data,Validation data,Unused data,Option_1,Beginner
+What is the difference between a model and an algorithm?,"Algorithm is procedure, model is learned function",Same thing,Model comes first,Algorithm is output,Option_1,Beginner
+What are the three types of Machine Learning?,"Supervised, Unsupervised, Reinforcement","Regression, Classification, Clustering","Linear, Non-linear, Mixed","Online, Offline, Batch",Option_1,Beginner
+What is supervised learning?,Learning from labeled training data with known outputs,Learning without labels,Self-directed learning,Competitive learning,Option_1,Beginner
+What is unsupervised learning?,Finding patterns in unlabeled data,Learning with labels,Supervised classification,Directed learning,Option_1,Beginner
+What is reinforcement learning?,Agent learns through rewards/penalties from environment,Labeled data learning,Unlabeled data learning,Teacher-guided learning,Option_1,Beginner
+What is semi-supervised learning?,Learning from mix of labeled and unlabeled data,Only labeled data,Only unlabeled data,Reinforcement learning,Option_1,Intermediate
+What is regression?,Predicting continuous numerical values,Categorical classification,Data clustering,Pattern recognition,Option_1,Beginner
+What is Linear Regression?,Modeling linear relationship between input and output,Non-linear relationship,Classification method,Clustering technique,Option_1,Beginner
+What is the difference between Simple and Multiple Linear Regression?,"Simple has one feature, Multiple has many",Simple is faster,Multiple uses classification,No difference,Option_1,Intermediate
+What is the equation of Linear Regression?,y = mx + b,y = x^2,y = sin(x),y = e^x,Option_1,Beginner
+What is the purpose of the cost function?,Measure difference between predicted and actual values,Train the model,Evaluate accuracy,Normalize data,Option_1,Intermediate
+What is Mean Squared Error (MSE)?,Average of squared differences between predicted and actual,Sum of errors,Average absolute error,Maximum error,Option_1,Intermediate
+What is Mean Absolute Error (MAE)?,Average of absolute differences between predicted and actual,Mean squared error,Root mean squared error,Median error,Option_1,Intermediate
+What is polynomial regression?,Fitting polynomial function to data,Linear regression,Multiple regression,Logistic regression,Option_1,Intermediate
+What is overfitting in regression?,Model fits training data too well but poorly on new data,Model not fitting well,Underfitting,Proper fitting,Option_1,Intermediate
+What is underfitting in regression?,Model too simple to capture data patterns,Model too complex,Perfect fit,Overfitting,Option_1,Intermediate
+What is classification?,Predicting categorical class labels,Predicting continuous values,Grouping similar data,Reducing dimensions,Option_1,Beginner
+What is Logistic Regression?,Classification algorithm for binary/multi-class problems,Regression for continuous values,Clustering method,Feature extraction,Option_1,Beginner
+What is the sigmoid function?,Maps any value to range 0-1 for probability,Maps to range -1 to 1,Exponential function,Linear function,Option_1,Intermediate
+What is a Decision Tree?,Tree model making predictions through series of decisions,Regression model,Data structure,Network topology,Option_1,Beginner
+What is entropy in Decision Trees?,Measure of disorder/impurity in data,Information gain,Gini coefficient,Tree depth,Option_1,Intermediate
+What is information gain?,Reduction in entropy after splitting,Increase in tree depth,Node importance,Feature relevance,Option_1,Intermediate
+What is Gini impurity?,Measure of probability of incorrect classification,Tree purity,Information gain,Entropy measure,Option_1,Intermediate
+What is Random Forest?,Ensemble of decision trees voting on prediction,Single decision tree,Linear classifier,Neural network,Option_1,Beginner
+What is bagging?,Training multiple models on random data samples,Boosting method,Stacking ensemble,Voting method,Option_1,Intermediate
+What is feature importance in Random Forest?,Measure of contribution of each feature,Model accuracy,Tree depth,Number of trees,Option_1,Intermediate
+What is SVM (Support Vector Machine)?,Classifier finding optimal boundary between classes,Regression model,Clustering algorithm,Feature selector,Option_1,Intermediate
+What is a support vector?,Data point closest to decision boundary,Random data point,Outlier,Misclassified point,Option_1,Intermediate
+What is kernel trick in SVM?,Transforming data to higher dimension without explicit mapping,Data normalization,Feature scaling,Dimensionality reduction,Option_1,Advanced
+What are common SVM kernels?,"Linear, RBF, Polynomial, Sigmoid","Tanh, ReLU, Sigmoid","Gaussian, Exponential","Logarithmic, Power",Option_1,Intermediate
+What is the margin in SVM?,Distance between support vectors and boundary,Prediction error,Cost parameter,Kernel parameter,Option_1,Intermediate
+What is Naive Bayes?,Probabilistic classifier based on Bayes' theorem,Decision tree,Nearest neighbor,Neural network,Option_1,Intermediate
+Why is it called 'Naive' Bayes?,Assumes features are independent,Simplistic algorithm,Naive approach,Ignores data,Option_1,Intermediate
+What is Bayes' theorem formula?,P(A|B) = P(B|A)P(A)/P(B),P(A|B) = P(A)P(B),P(A|B) = P(A)/P(B),P(A|B) = P(B),Option_1,Intermediate
+What is K-Nearest Neighbors (KNN)?,Instance-based classifier finding K nearest neighbors,Centroid-based clustering,Tree-based classifier,Gradient-based classifier,Option_1,Beginner
+What does K represent in KNN?,Number of nearest neighbors to consider,Feature dimension,Data size,Number of classes,Option_1,Beginner
+What is the disadvantage of large K in KNN?,May ignore local patterns/become too smooth,Overfitting,Underfitting,Computational complexity,Option_1,Intermediate
+What is the disadvantage of small K in KNN?,May be too sensitive to outliers/noisy data,Too much smoothing,Underfitting,Computational cost,Option_1,Intermediate
+What is the curse of dimensionality in KNN?,Distance becomes meaningless in high dimensions,Model becomes too complex,Memory usage increases,Training time increases,Option_1,Advanced
+What is clustering?,Grouping similar data points without labels,Classification,Regression,Dimensionality reduction,Option_1,Beginner
+What is K-Means clustering?,Algorithm partitioning data into K clusters,Hierarchical clustering,Density-based clustering,Spectral clustering,Option_1,Beginner
+What is centroid in K-Means?,Center point of a cluster,Edge point,Random point,Outlier point,Option_1,Beginner
+What is the objective of K-Means?,Minimize within-cluster variance,Maximize cluster size,Minimize between-cluster distance,Maximize purity,Option_1,Intermediate
+What is the elbow method?,Finding optimal K by plotting inertia vs K,Setting K to number of clusters,Using silhouette score,Cross-validation,Option_1,Intermediate
+What is hierarchical clustering?,Building tree of nested clusters,Flat clustering,Overlapping clusters,Soft clustering,Option_1,Intermediate
+What is DBSCAN?,Density-based clustering finding clusters of any shape,K-Means variant,Hierarchical clustering,Spectral clustering,Option_1,Intermediate
+What are core points in DBSCAN?,Points with at least MinPts neighbors within Eps,Boundary points,Outliers,Random points,Option_1,Intermediate
+What is silhouette score?,Measure of cluster quality (-1 to 1),Cluster size,Distance metric,Purity measure,Option_1,Intermediate
+What is dimensionality reduction?,Reducing number of features while preserving information,Increasing features,Feature scaling,Feature encoding,Option_1,Intermediate
+What is Principal Component Analysis (PCA)?,Technique reducing dimensions by finding principal components,Clustering method,Classification method,Regression method,Option_1,Intermediate
+What are principal components?,Directions of maximum variance in data,Feature means,Feature variances,Feature ranges,Option_1,Intermediate
+What is explained variance in PCA?,Percentage of variance captured by components,Component importance,Feature importance,Model accuracy,Option_1,Intermediate
+What is t-SNE?,Non-linear dimensionality reduction for visualization,Linear dimensionality reduction,Feature selection,Clustering method,Option_1,Advanced
+What is UMAP?,Scalable dimensionality reduction preserving structure,Linear method,Clustering algorithm,Classification method,Option_1,Advanced
+What is feature engineering?,Creating new features from raw data,Removing features,Selecting features,Normalizing features,Option_1,Intermediate
+What is feature scaling?,Transforming features to comparable range,Feature selection,Feature creation,Feature extraction,Option_1,Intermediate
+What is normalization?,"Scaling to range [0, 1]",Centering around mean,Dividing by standard deviation,Removing outliers,Option_1,Intermediate
+What is standardization?,Centering with mean 0 and std 1,"Scaling to [0, 1]",Log transformation,Square root transformation,Option_1,Intermediate
+What is feature selection?,Selecting subset of relevant features,Creating new features,Scaling features,Encoding features,Option_1,Intermediate
+What is filter method in feature selection?,Using statistical tests independent of model,Using model performance,Greedy selection,Exhaustive search,Option_1,Intermediate
+What is wrapper method in feature selection?,Using model performance to select features,Statistical tests,Correlation-based,Mutual information,Option_1,Intermediate
+What is embedded method in feature selection?,Feature selection during model training,Post-training selection,Pre-training selection,Manual selection,Option_1,Advanced
+What is accuracy?,Percentage of correct predictions,True positive rate,False positive rate,Precision metric,Option_1,Beginner
+What is precision?,Proportion of positive predictions that are correct,True positive rate,True negative rate,Overall correctness,Option_1,Intermediate
+What is recall (sensitivity)?,Proportion of actual positives correctly identified,Precision metric,Specificity metric,Accuracy metric,Option_1,Intermediate
+What is F1-Score?,Harmonic mean of precision and recall,Sum of precision and recall,Product of precision and recall,Average of metrics,Option_1,Intermediate
+What is specificity?,True negative rate (correctly identified negatives),True positive rate,False positive rate,Precision,Option_1,Intermediate
+What is confusion matrix?,"Table showing TP, TN, FP, FN",Covariance matrix,Correlation matrix,Distance matrix,Option_1,Intermediate
+What is AUC-ROC?,Area under Receiver Operating Characteristic curve,Accuracy measure,Precision metric,F1-score,Option_1,Intermediate
+What is ROC curve?,Plot of TPR vs FPR at different thresholds,Accuracy vs precision,Recall vs specificity,Loss vs epochs,Option_1,Advanced
+What is cross-validation?,Evaluating model using multiple data splits,Single split evaluation,Random sampling,Bootstrap sampling,Option_1,Intermediate
+What is K-fold cross-validation?,Dividing data into K folds for evaluation,K-nearest neighbors,K-Means clustering,K principal components,Option_1,Intermediate
+What is overfitting?,"Model learning training data too well, poor generalization",Model not learning,Underfitting,Proper fitting,Option_1,Intermediate
+What is underfitting?,Model too simple to capture data patterns,Model too complex,Good generalization,Overfitting,Option_1,Intermediate
+What is regularization?,Technique preventing overfitting by penalizing complexity,Data normalization,Feature scaling,Feature selection,Option_1,Intermediate
+What is L1 regularization?,Lasso: adds absolute value of weights as penalty,Ridge regularization,Elastic Net,Early stopping,Option_1,Intermediate
+What is L2 regularization?,Ridge: adds squared weights as penalty,Lasso regularization,Elastic Net,Dropout regularization,Option_1,Intermediate
+What is Elastic Net?,Combines L1 and L2 regularization,Only L1,Only L2,No regularization,Option_1,Intermediate
+What is dropout?,Randomly disabling neurons during training,Removing features,Removing data,Stopping training,Option_1,Intermediate
+What is early stopping?,Stopping training when validation performance stops improving,Stopping at epoch 0,Training longer,Never stopping,Option_1,Intermediate
+What are hyperparameters?,Parameters set before training controlling learning,Parameters learned during training,Layer sizes,Feature values,Option_1,Intermediate
+What is learning rate?,Controls step size in optimization,Training speed,Data size,Model complexity,Option_1,Intermediate
+What is batch size?,Number of samples in each training batch,Total dataset size,Model size,Number of epochs,Option_1,Intermediate
+What is epoch?,One complete pass through entire training dataset,Single sample,Single batch,Learning iteration,Option_1,Beginner
+What is grid search?,Exhaustively searching hyperparameter combinations,Random search,Bayesian optimization,Manual tuning,Option_1,Intermediate
+What is random search?,Randomly sampling hyperparameter combinations,Grid search,Exhaustive search,Sequential search,Option_1,Intermediate
+What is Bayesian optimization?,Probabilistic approach to hyperparameter optimization,Grid search,Random search,Manual search,Option_1,Advanced
+What are ensemble methods?,Combining multiple models for better performance,Single model,Feature selection,Data augmentation,Option_1,Intermediate
+What is bagging?,Training models on random data samples independently,Sequential training,Overlapping data,Shared training,Option_1,Intermediate
+What is boosting?,Sequentially training models focusing on mistakes,Parallel training,Independent training,Random training,Option_1,Intermediate
+What is gradient boosting?,Sequentially building models minimizing loss,Simple boosting,Bagging method,Stacking method,Option_1,Intermediate
+What is AdaBoost?,Adaptive boosting adjusting weights of misclassified samples,Simple boosting,Random forest,Stacking,Option_1,Intermediate
+What is Gradient Boosting Machines (GBM)?,Ensemble using gradient descent to minimize loss,Simple ensemble,Voting ensemble,Averaging ensemble,Option_1,Intermediate
+What is XGBoost?,Optimized gradient boosting with speed/accuracy improvements,Simple boosting,Basic GBM,Random forest,Option_1,Advanced
+What is LightGBM?,Lightweight GBM using leaf-wise tree growth,Standard GBM,XGBoost variant,Sklearn GBM,Option_1,Advanced
+What is stacking?,Training meta-model on predictions of base models,Simple ensemble,Voting ensemble,Averaging ensemble,Option_1,Advanced
+What is voting ensemble?,Multiple models voting for final prediction,Stacking ensemble,Bagging ensemble,Boosting ensemble,Option_1,Intermediate
+What is data preprocessing?,"Preparing data for modeling (cleaning, transforming)",Model training,Model evaluation,Feature engineering,Option_1,Beginner
+What is handling missing values?,"Imputation, deletion, or prediction of missing data",Removing features,Collecting more data,Ignoring gaps,Option_1,Beginner
+What is mean imputation?,Replacing missing values with feature mean,Median imputation,Mode imputation,Forward fill,Option_1,Intermediate
+What is outlier detection?,Identifying unusual data points,Feature selection,Data normalization,Data augmentation,Option_1,Intermediate
+What is Z-score method for outliers?,Using standard deviations to identify outliers,IQR method,Isolation Forest,LOF method,Option_1,Intermediate
+What is IQR method?,Using quartiles to identify outliers,Z-score method,Mean-std method,Percentile method,Option_1,Intermediate
+What is data imbalance?,Unequal distribution of classes,Unequal feature scales,Outliers,Missing values,Option_1,Intermediate
+What is oversampling?,Creating more samples of minority class,Removing samples,Adding features,Scaling features,Option_1,Intermediate
+What is undersampling?,Removing samples from majority class,Adding samples,Feature engineering,Data scaling,Option_1,Intermediate
+What is SMOTE?,Synthetic Minority Oversampling Technique,Simple oversampling,Undersampling method,Data augmentation,Option_1,Advanced
+What is transfer learning?,Using knowledge from source task for target task,Learning from scratch,Retraining entire model,Feature extraction only,Option_1,Intermediate
+What is fine-tuning?,Training pre-trained model on new task,Training from scratch,Feature extraction,Data preprocessing,Option_1,Intermediate
+What is domain adaptation?,Adapting model from source to target domain,Changing hyperparameters,Collecting more data,Retraining,Option_1,Advanced
+What is gradient descent?,Iteratively updating parameters to minimize loss,Ascending parameters,Direct solution,Random search,Option_1,Intermediate
+What is backpropagation?,Computing gradients using chain rule,Forward pass only,Feature extraction,Data preprocessing,Option_1,Intermediate
+What is stochastic gradient descent (SGD)?,Updating parameters using single sample,Batch gradient descent,Full gradient descent,Random descent,Option_1,Intermediate
+What is mini-batch gradient descent?,Updating using small batch of samples,Single sample,Entire dataset,Random sampling,Option_1,Intermediate
+What is momentum in optimization?,Accumulating gradient direction for faster convergence,Single step,Learning rate,Batch size,Option_1,Intermediate
+What is Nesterov momentum?,Momentum with lookahead gradient,Simple momentum,No momentum,Gradient only,Option_1,Advanced
+What is Adam optimizer?,Adaptive moment estimation combining momentum and RMSprop,Simple SGD,Gradient descent,Newton's method,Option_1,Intermediate
+What is RMSprop?,Root Mean Square Propagation for adaptive learning rate,Simple momentum,Gradient descent,Standard SGD,Option_1,Intermediate
+What is loss function?,Measures difference between predicted and actual values,Accuracy metric,Performance measure,Evaluation tool,Option_1,Intermediate
+What is MSE (Mean Squared Error)?,Average of squared differences between predicted and actual,Mean absolute error,Cross-entropy,Hinge loss,Option_1,Intermediate
+What is MAE (Mean Absolute Error)?,Average of absolute differences,Mean squared error,Root mean squared error,Median error,Option_1,Intermediate
+What is cross-entropy loss?,Loss for classification measuring probability distance,Regression loss,Clustering loss,Ranking loss,Option_1,Intermediate
+What is binary cross-entropy?,Cross-entropy for binary classification,Multi-class cross-entropy,Regression loss,Clustering loss,Option_1,Intermediate
+What is categorical cross-entropy?,Cross-entropy for multi-class classification,Binary classification,Regression loss,Unsupervised loss,Option_1,Intermediate
+What is Hinge loss?,Loss for SVM maximizing margin,Regression loss,Classification loss,Clustering loss,Option_1,Intermediate
+What is time series?,Sequence of data points ordered by time,Random data,Categorical data,Image data,Option_1,Intermediate
+What is autocorrelation?,Correlation of time series with its past values,Cross-correlation,Partial correlation,Self-correlation,Option_1,Advanced
+What is stationarity?,Statistical properties don't change over time,Properties change over time,Non-constant mean,Increasing variance,Option_1,Advanced
+What is ARIMA?,AutoRegressive Integrated Moving Average model,Regression model,Classification model,Clustering model,Option_1,Advanced
+What is anomaly detection?,Identifying unusual patterns in data,Classification,Clustering,Feature extraction,Option_1,Intermediate
+What is Isolation Forest?,Isolating anomalies in trees for detection,Random forest,Decision tree,Clustering method,Option_1,Advanced
+What is Local Outlier Factor (LOF)?,Density-based anomaly detection,Statistical method,Distance-based method,Supervised method,Option_1,Advanced
+What is a recommendation system?,System suggesting items users likely prefer,Classification system,Regression system,Clustering system,Option_1,Intermediate
+What is collaborative filtering?,Recommending based on user-item interaction patterns,Content-based filtering,Hybrid approach,Knowledge-based,Option_1,Advanced
+What is content-based filtering?,Recommending similar items to user preferences,Collaborative filtering,Hybrid approach,Context-based,Option_1,Advanced
+What is train-validation-test split?,Dividing data into three sets for proper evaluation,Two-way split,Random sampling,Stratified sampling,Option_1,Intermediate
+What is stratified sampling?,Sampling maintaining class distribution,Random sampling,Cluster sampling,Systematic sampling,Option_1,Intermediate
+What is imbalanced metrics?,Metrics suited for imbalanced data,Standard accuracy,Precision only,Recall only,Option_1,Intermediate
+What is feature leakage?,Information from outside training data leaking in,Feature engineering,Feature selection,Feature scaling,Option_1,Advanced
+What is data drift?,Changes in data distribution over time,Missing data,Outliers,Imbalance,Option_1,Advanced
+What is model monitoring?,Tracking model performance in production,Model training,Model evaluation,Hyperparameter tuning,Option_1,Advanced
+What does ML stand for?,Machine Learning,Mathematical Logic,Memory Load,Module Library,Option_1,Beginner
+What is the primary goal of Machine Learning?,Enable computers to learn from data without explicit programming,Write complex code,Store large datasets,Increase processing power,Option_1,Beginner
+What is a training set?,Data used to train the model,Data used for testing,All available data,Random data sample,Option_1,Beginner
+What is a test set?,Data used to evaluate model performance,Training data,Validation data,Unused data,Option_1,Beginner
+What is the difference between a model and an algorithm?,"Algorithm is procedure, model is learned function",Same thing,Model comes first,Algorithm is output,Option_1,Beginner
+What are the three types of Machine Learning?,"Supervised, Unsupervised, Reinforcement","Regression, Classification, Clustering","Linear, Non-linear, Mixed","Online, Offline, Batch",Option_1,Beginner
+What is supervised learning?,Learning from labeled training data with known outputs,Learning without labels,Self-directed learning,Competitive learning,Option_1,Beginner
+What is unsupervised learning?,Finding patterns in unlabeled data,Learning with labels,Supervised classification,Directed learning,Option_1,Beginner
+What is reinforcement learning?,Agent learns through rewards/penalties from environment,Labeled data learning,Unlabeled data learning,Teacher-guided learning,Option_1,Beginner
+What is semi-supervised learning?,Learning from mix of labeled and unlabeled data,Only labeled data,Only unlabeled data,Reinforcement learning,Option_1,Intermediate
+What is regression?,Predicting continuous numerical values,Categorical classification,Data clustering,Pattern recognition,Option_1,Beginner
+What is Linear Regression?,Modeling linear relationship between input and output,Non-linear relationship,Classification method,Clustering technique,Option_1,Beginner
+What is the difference between Simple and Multiple Linear Regression?,"Simple has one feature, Multiple has many",Simple is faster,Multiple uses classification,No difference,Option_1,Intermediate
+What is the equation of Linear Regression?,y = mx + b,y = x^2,y = sin(x),y = e^x,Option_1,Beginner
+What is the purpose of the cost function?,Measure difference between predicted and actual values,Train the model,Evaluate accuracy,Normalize data,Option_1,Intermediate
+What is Mean Squared Error (MSE)?,Average of squared differences between predicted and actual,Sum of errors,Average absolute error,Maximum error,Option_1,Intermediate
+What is Mean Absolute Error (MAE)?,Average of absolute differences between predicted and actual,Mean squared error,Root mean squared error,Median error,Option_1,Intermediate
+What is polynomial regression?,Fitting polynomial function to data,Linear regression,Multiple regression,Logistic regression,Option_1,Intermediate
+What is overfitting in regression?,Model fits training data too well but poorly on new data,Model not fitting well,Underfitting,Proper fitting,Option_1,Intermediate
+What is underfitting in regression?,Model too simple to capture data patterns,Model too complex,Perfect fit,Overfitting,Option_1,Intermediate
+What is classification?,Predicting categorical class labels,Predicting continuous values,Grouping similar data,Reducing dimensions,Option_1,Beginner
+What is Logistic Regression?,Classification algorithm for binary/multi-class problems,Regression for continuous values,Clustering method,Feature extraction,Option_1,Beginner
+What is the sigmoid function?,Maps any value to range 0-1 for probability,Maps to range -1 to 1,Exponential function,Linear function,Option_1,Intermediate
+What is a Decision Tree?,Tree model making predictions through series of decisions,Regression model,Data structure,Network topology,Option_1,Beginner
+What is entropy in Decision Trees?,Measure of disorder/impurity in data,Information gain,Gini coefficient,Tree depth,Option_1,Intermediate
+What is information gain?,Reduction in entropy after splitting,Increase in tree depth,Node importance,Feature relevance,Option_1,Intermediate
+What is Gini impurity?,Measure of probability of incorrect classification,Tree purity,Information gain,Entropy measure,Option_1,Intermediate
+What is Random Forest?,Ensemble of decision trees voting on prediction,Single decision tree,Linear classifier,Neural network,Option_1,Beginner
+What is bagging?,Training multiple models on random data samples,Boosting method,Stacking ensemble,Voting method,Option_1,Intermediate
+What is feature importance in Random Forest?,Measure of contribution of each feature,Model accuracy,Tree depth,Number of trees,Option_1,Intermediate
+What is SVM (Support Vector Machine)?,Classifier finding optimal boundary between classes,Regression model,Clustering algorithm,Feature selector,Option_1,Intermediate
+What is a support vector?,Data point closest to decision boundary,Random data point,Outlier,Misclassified point,Option_1,Intermediate
+What is kernel trick in SVM?,Transforming data to higher dimension without explicit mapping,Data normalization,Feature scaling,Dimensionality reduction,Option_1,Advanced
+What are common SVM kernels?,"Linear, RBF, Polynomial, Sigmoid","Tanh, ReLU, Sigmoid","Gaussian, Exponential","Logarithmic, Power",Option_1,Intermediate
+What is the margin in SVM?,Distance between support vectors and boundary,Prediction error,Cost parameter,Kernel parameter,Option_1,Intermediate
+What is Naive Bayes?,Probabilistic classifier based on Bayes' theorem,Decision tree,Nearest neighbor,Neural network,Option_1,Intermediate
+Why is it called 'Naive' Bayes?,Assumes features are independent,Simplistic algorithm,Naive approach,Ignores data,Option_1,Intermediate
+What is Bayes' theorem formula?,P(A|B) = P(B|A)P(A)/P(B),P(A|B) = P(A)P(B),P(A|B) = P(A)/P(B),P(A|B) = P(B),Option_1,Intermediate
+What is K-Nearest Neighbors (KNN)?,Instance-based classifier finding K nearest neighbors,Centroid-based clustering,Tree-based classifier,Gradient-based classifier,Option_1,Beginner
+What does K represent in KNN?,Number of nearest neighbors to consider,Feature dimension,Data size,Number of classes,Option_1,Beginner
+What is the disadvantage of large K in KNN?,May ignore local patterns/become too smooth,Overfitting,Underfitting,Computational complexity,Option_1,Intermediate
+What is the disadvantage of small K in KNN?,May be too sensitive to outliers/noisy data,Too much smoothing,Underfitting,Computational cost,Option_1,Intermediate
+What is the curse of dimensionality in KNN?,Distance becomes meaningless in high dimensions,Model becomes too complex,Memory usage increases,Training time increases,Option_1,Advanced
+What is clustering?,Grouping similar data points without labels,Classification,Regression,Dimensionality reduction,Option_1,Beginner
+What is K-Means clustering?,Algorithm partitioning data into K clusters,Hierarchical clustering,Density-based clustering,Spectral clustering,Option_1,Beginner
+What is centroid in K-Means?,Center point of a cluster,Edge point,Random point,Outlier point,Option_1,Beginner
+What is the objective of K-Means?,Minimize within-cluster variance,Maximize cluster size,Minimize between-cluster distance,Maximize purity,Option_1,Intermediate
+What is the elbow method?,Finding optimal K by plotting inertia vs K,Setting K to number of clusters,Using silhouette score,Cross-validation,Option_1,Intermediate
+What is hierarchical clustering?,Building tree of nested clusters,Flat clustering,Overlapping clusters,Soft clustering,Option_1,Intermediate
+What is DBSCAN?,Density-based clustering finding clusters of any shape,K-Means variant,Hierarchical clustering,Spectral clustering,Option_1,Intermediate
+What are core points in DBSCAN?,Points with at least MinPts neighbors within Eps,Boundary points,Outliers,Random points,Option_1,Intermediate
+What is silhouette score?,Measure of cluster quality (-1 to 1),Cluster size,Distance metric,Purity measure,Option_1,Intermediate
+What is dimensionality reduction?,Reducing number of features while preserving information,Increasing features,Feature scaling,Feature encoding,Option_1,Intermediate
+What is Principal Component Analysis (PCA)?,Technique reducing dimensions by finding principal components,Clustering method,Classification method,Regression method,Option_1,Intermediate
+What are principal components?,Directions of maximum variance in data,Feature means,Feature variances,Feature ranges,Option_1,Intermediate
+What is explained variance in PCA?,Percentage of variance captured by components,Component importance,Feature importance,Model accuracy,Option_1,Intermediate
+What is t-SNE?,Non-linear dimensionality reduction for visualization,Linear dimensionality reduction,Feature selection,Clustering method,Option_1,Advanced
+What is UMAP?,Scalable dimensionality reduction preserving structure,Linear method,Clustering algorithm,Classification method,Option_1,Advanced
+What is feature engineering?,Creating new features from raw data,Removing features,Selecting features,Normalizing features,Option_1,Intermediate
+What is feature scaling?,Transforming features to comparable range,Feature selection,Feature creation,Feature extraction,Option_1,Intermediate
+What is normalization?,"Scaling to range [0, 1]",Centering around mean,Dividing by standard deviation,Removing outliers,Option_1,Intermediate
+What is standardization?,Centering with mean 0 and std 1,"Scaling to [0, 1]",Log transformation,Square root transformation,Option_1,Intermediate
+What is feature selection?,Selecting subset of relevant features,Creating new features,Scaling features,Encoding features,Option_1,Intermediate
+What is filter method in feature selection?,Using statistical tests independent of model,Using model performance,Greedy selection,Exhaustive search,Option_1,Intermediate
+What is wrapper method in feature selection?,Using model performance to select features,Statistical tests,Correlation-based,Mutual information,Option_1,Intermediate
+What is embedded method in feature selection?,Feature selection during model training,Post-training selection,Pre-training selection,Manual selection,Option_1,Advanced
+What is accuracy?,Percentage of correct predictions,True positive rate,False positive rate,Precision metric,Option_1,Beginner
+What is precision?,Proportion of positive predictions that are correct,True positive rate,True negative rate,Overall correctness,Option_1,Intermediate
+What is recall (sensitivity)?,Proportion of actual positives correctly identified,Precision metric,Specificity metric,Accuracy metric,Option_1,Intermediate
+What is F1-Score?,Harmonic mean of precision and recall,Sum of precision and recall,Product of precision and recall,Average of metrics,Option_1,Intermediate
+What is specificity?,True negative rate (correctly identified negatives),True positive rate,False positive rate,Precision,Option_1,Intermediate
+What is confusion matrix?,"Table showing TP, TN, FP, FN",Covariance matrix,Correlation matrix,Distance matrix,Option_1,Intermediate
+What is AUC-ROC?,Area under Receiver Operating Characteristic curve,Accuracy measure,Precision metric,F1-score,Option_1,Intermediate
+What is ROC curve?,Plot of TPR vs FPR at different thresholds,Accuracy vs precision,Recall vs specificity,Loss vs epochs,Option_1,Advanced
+What is cross-validation?,Evaluating model using multiple data splits,Single split evaluation,Random sampling,Bootstrap sampling,Option_1,Intermediate
+What is K-fold cross-validation?,Dividing data into K folds for evaluation,K-nearest neighbors,K-Means clustering,K principal components,Option_1,Intermediate
+What is overfitting?,"Model learning training data too well, poor generalization",Model not learning,Underfitting,Proper fitting,Option_1,Intermediate
+What is underfitting?,Model too simple to capture data patterns,Model too complex,Good generalization,Overfitting,Option_1,Intermediate
+What is regularization?,Technique preventing overfitting by penalizing complexity,Data normalization,Feature scaling,Feature selection,Option_1,Intermediate
+What is L1 regularization?,Lasso: adds absolute value of weights as penalty,Ridge regularization,Elastic Net,Early stopping,Option_1,Intermediate
+What is L2 regularization?,Ridge: adds squared weights as penalty,Lasso regularization,Elastic Net,Dropout regularization,Option_1,Intermediate
+What is Elastic Net?,Combines L1 and L2 regularization,Only L1,Only L2,No regularization,Option_1,Intermediate
+What is dropout?,Randomly disabling neurons during training,Removing features,Removing data,Stopping training,Option_1,Intermediate
+What is early stopping?,Stopping training when validation performance stops improving,Stopping at epoch 0,Training longer,Never stopping,Option_1,Intermediate
+What are hyperparameters?,Parameters set before training controlling learning,Parameters learned during training,Layer sizes,Feature values,Option_1,Intermediate
+What is learning rate?,Controls step size in optimization,Training speed,Data size,Model complexity,Option_1,Intermediate
+What is batch size?,Number of samples in each training batch,Total dataset size,Model size,Number of epochs,Option_1,Intermediate
+What is epoch?,One complete pass through entire training dataset,Single sample,Single batch,Learning iteration,Option_1,Beginner
+What is grid search?,Exhaustively searching hyperparameter combinations,Random search,Bayesian optimization,Manual tuning,Option_1,Intermediate
+What is random search?,Randomly sampling hyperparameter combinations,Grid search,Exhaustive search,Sequential search,Option_1,Intermediate
+What is Bayesian optimization?,Probabilistic approach to hyperparameter optimization,Grid search,Random search,Manual search,Option_1,Advanced
+What are ensemble methods?,Combining multiple models for better performance,Single model,Feature selection,Data augmentation,Option_1,Intermediate
+What is bagging?,Training models on random data samples independently,Sequential training,Overlapping data,Shared training,Option_1,Intermediate
+What is boosting?,Sequentially training models focusing on mistakes,Parallel training,Independent training,Random training,Option_1,Intermediate
+What is gradient boosting?,Sequentially building models minimizing loss,Simple boosting,Bagging method,Stacking method,Option_1,Intermediate
+What is AdaBoost?,Adaptive boosting adjusting weights of misclassified samples,Simple boosting,Random forest,Stacking,Option_1,Intermediate
+What is Gradient Boosting Machines (GBM)?,Ensemble using gradient descent to minimize loss,Simple ensemble,Voting ensemble,Averaging ensemble,Option_1,Intermediate
+What is XGBoost?,Optimized gradient boosting with speed/accuracy improvements,Simple boosting,Basic GBM,Random forest,Option_1,Advanced
+What is LightGBM?,Lightweight GBM using leaf-wise tree growth,Standard GBM,XGBoost variant,Sklearn GBM,Option_1,Advanced
+What is stacking?,Training meta-model on predictions of base models,Simple ensemble,Voting ensemble,Averaging ensemble,Option_1,Advanced
+What is voting ensemble?,Multiple models voting for final prediction,Stacking ensemble,Bagging ensemble,Boosting ensemble,Option_1,Intermediate
+What is data preprocessing?,"Preparing data for modeling (cleaning, transforming)",Model training,Model evaluation,Feature engineering,Option_1,Beginner
+What is handling missing values?,"Imputation, deletion, or prediction of missing data",Removing features,Collecting more data,Ignoring gaps,Option_1,Beginner
+What is mean imputation?,Replacing missing values with feature mean,Median imputation,Mode imputation,Forward fill,Option_1,Intermediate
+What is outlier detection?,Identifying unusual data points,Feature selection,Data normalization,Data augmentation,Option_1,Intermediate
+What is Z-score method for outliers?,Using standard deviations to identify outliers,IQR method,Isolation Forest,LOF method,Option_1,Intermediate
+What is IQR method?,Using quartiles to identify outliers,Z-score method,Mean-std method,Percentile method,Option_1,Intermediate
+What is data imbalance?,Unequal distribution of classes,Unequal feature scales,Outliers,Missing values,Option_1,Intermediate
+What is oversampling?,Creating more samples of minority class,Removing samples,Adding features,Scaling features,Option_1,Intermediate
+What is undersampling?,Removing samples from majority class,Adding samples,Feature engineering,Data scaling,Option_1,Intermediate
+What is SMOTE?,Synthetic Minority Oversampling Technique,Simple oversampling,Undersampling method,Data augmentation,Option_1,Advanced
+What is transfer learning?,Using knowledge from source task for target task,Learning from scratch,Retraining entire model,Feature extraction only,Option_1,Intermediate
+What is fine-tuning?,Training pre-trained model on new task,Training from scratch,Feature extraction,Data preprocessing,Option_1,Intermediate
+What is domain adaptation?,Adapting model from source to target domain,Changing hyperparameters,Collecting more data,Retraining,Option_1,Advanced
+What is gradient descent?,Iteratively updating parameters to minimize loss,Ascending parameters,Direct solution,Random search,Option_1,Intermediate
+What is backpropagation?,Computing gradients using chain rule,Forward pass only,Feature extraction,Data preprocessing,Option_1,Intermediate
+What is stochastic gradient descent (SGD)?,Updating parameters using single sample,Batch gradient descent,Full gradient descent,Random descent,Option_1,Intermediate
+What is mini-batch gradient descent?,Updating using small batch of samples,Single sample,Entire dataset,Random sampling,Option_1,Intermediate
+What is momentum in optimization?,Accumulating gradient direction for faster convergence,Single step,Learning rate,Batch size,Option_1,Intermediate
+What is Nesterov momentum?,Momentum with lookahead gradient,Simple momentum,No momentum,Gradient only,Option_1,Advanced
+What is Adam optimizer?,Adaptive moment estimation combining momentum and RMSprop,Simple SGD,Gradient descent,Newton's method,Option_1,Intermediate
+What is RMSprop?,Root Mean Square Propagation for adaptive learning rate,Simple momentum,Gradient descent,Standard SGD,Option_1,Intermediate
+What is loss function?,Measures difference between predicted and actual values,Accuracy metric,Performance measure,Evaluation tool,Option_1,Intermediate
+What is MSE (Mean Squared Error)?,Average of squared differences between predicted and actual,Mean absolute error,Cross-entropy,Hinge loss,Option_1,Intermediate
+What is MAE (Mean Absolute Error)?,Average of absolute differences,Mean squared error,Root mean squared error,Median error,Option_1,Intermediate
+What is cross-entropy loss?,Loss for classification measuring probability distance,Regression loss,Clustering loss,Ranking loss,Option_1,Intermediate
+What is binary cross-entropy?,Cross-entropy for binary classification,Multi-class cross-entropy,Regression loss,Clustering loss,Option_1,Intermediate
+What is categorical cross-entropy?,Cross-entropy for multi-class classification,Binary classification,Regression loss,Unsupervised loss,Option_1,Intermediate
+What is Hinge loss?,Loss for SVM maximizing margin,Regression loss,Classification loss,Clustering loss,Option_1,Intermediate
+What is time series?,Sequence of data points ordered by time,Random data,Categorical data,Image data,Option_1,Intermediate
+What is autocorrelation?,Correlation of time series with its past values,Cross-correlation,Partial correlation,Self-correlation,Option_1,Advanced
+What is stationarity?,Statistical properties don't change over time,Properties change over time,Non-constant mean,Increasing variance,Option_1,Advanced
+What is ARIMA?,AutoRegressive Integrated Moving Average model,Regression model,Classification model,Clustering model,Option_1,Advanced
+What is anomaly detection?,Identifying unusual patterns in data,Classification,Clustering,Feature extraction,Option_1,Intermediate
+What is Isolation Forest?,Isolating anomalies in trees for detection,Random forest,Decision tree,Clustering method,Option_1,Advanced
+What is Local Outlier Factor (LOF)?,Density-based anomaly detection,Statistical method,Distance-based method,Supervised method,Option_1,Advanced
+What is a recommendation system?,System suggesting items users likely prefer,Classification system,Regression system,Clustering system,Option_1,Intermediate
+What is collaborative filtering?,Recommending based on user-item interaction patterns,Content-based filtering,Hybrid approach,Knowledge-based,Option_1,Advanced
+What is content-based filtering?,Recommending similar items to user preferences,Collaborative filtering,Hybrid approach,Context-based,Option_1,Advanced
+What is train-validation-test split?,Dividing data into three sets for proper evaluation,Two-way split,Random sampling,Stratified sampling,Option_1,Intermediate
+What is stratified sampling?,Sampling maintaining class distribution,Random sampling,Cluster sampling,Systematic sampling,Option_1,Intermediate
+What is imbalanced metrics?,Metrics suited for imbalanced data,Standard accuracy,Precision only,Recall only,Option_1,Intermediate
+What is feature leakage?,Information from outside training data leaking in,Feature engineering,Feature selection,Feature scaling,Option_1,Advanced
+What is data drift?,Changes in data distribution over time,Missing data,Outliers,Imbalance,Option_1,Advanced
+What is model monitoring?,Tracking model performance in production,Model training,Model evaluation,Hyperparameter tuning,Option_1,Advanced
+What does ML stand for?,Machine Learning,Mathematical Logic,Memory Load,Module Library,Option_1,Beginner
+What is the primary goal of Machine Learning?,Enable computers to learn from data without explicit programming,Write complex code,Store large datasets,Increase processing power,Option_1,Beginner
+What is a training set?,Data used to train the model,Data used for testing,All available data,Random data sample,Option_1,Beginner
+What is a test set?,Data used to evaluate model performance,Training data,Validation data,Unused data,Option_1,Beginner
+What is the difference between a model and an algorithm?,"Algorithm is procedure, model is learned function",Same thing,Model comes first,Algorithm is output,Option_1,Beginner
+What are the three types of Machine Learning?,"Supervised, Unsupervised, Reinforcement","Regression, Classification, Clustering","Linear, Non-linear, Mixed","Online, Offline, Batch",Option_1,Beginner
+What is supervised learning?,Learning from labeled training data with known outputs,Learning without labels,Self-directed learning,Competitive learning,Option_1,Beginner
+What is unsupervised learning?,Finding patterns in unlabeled data,Learning with labels,Supervised classification,Directed learning,Option_1,Beginner
+What is reinforcement learning?,Agent learns through rewards/penalties from environment,Labeled data learning,Unlabeled data learning,Teacher-guided learning,Option_1,Beginner
+What is semi-supervised learning?,Learning from mix of labeled and unlabeled data,Only labeled data,Only unlabeled data,Reinforcement learning,Option_1,Intermediate
+What is regression?,Predicting continuous numerical values,Categorical classification,Data clustering,Pattern recognition,Option_1,Beginner
+What is Linear Regression?,Modeling linear relationship between input and output,Non-linear relationship,Classification method,Clustering technique,Option_1,Beginner
+What is the difference between Simple and Multiple Linear Regression?,"Simple has one feature, Multiple has many",Simple is faster,Multiple uses classification,No difference,Option_1,Intermediate
+What is the equation of Linear Regression?,y = mx + b,y = x^2,y = sin(x),y = e^x,Option_1,Beginner
+What is the purpose of the cost function?,Measure difference between predicted and actual values,Train the model,Evaluate accuracy,Normalize data,Option_1,Intermediate
+What is Mean Squared Error (MSE)?,Average of squared differences between predicted and actual,Sum of errors,Average absolute error,Maximum error,Option_1,Intermediate
+What is Mean Absolute Error (MAE)?,Average of absolute differences between predicted and actual,Mean squared error,Root mean squared error,Median error,Option_1,Intermediate
+What is polynomial regression?,Fitting polynomial function to data,Linear regression,Multiple regression,Logistic regression,Option_1,Intermediate
+What is overfitting in regression?,Model fits training data too well but poorly on new data,Model not fitting well,Underfitting,Proper fitting,Option_1,Intermediate
+What is underfitting in regression?,Model too simple to capture data patterns,Model too complex,Perfect fit,Overfitting,Option_1,Intermediate
+What is classification?,Predicting categorical class labels,Predicting continuous values,Grouping similar data,Reducing dimensions,Option_1,Beginner
+What is Logistic Regression?,Classification algorithm for binary/multi-class problems,Regression for continuous values,Clustering method,Feature extraction,Option_1,Beginner
+What is the sigmoid function?,Maps any value to range 0-1 for probability,Maps to range -1 to 1,Exponential function,Linear function,Option_1,Intermediate
+What is a Decision Tree?,Tree model making predictions through series of decisions,Regression model,Data structure,Network topology,Option_1,Beginner
+What is entropy in Decision Trees?,Measure of disorder/impurity in data,Information gain,Gini coefficient,Tree depth,Option_1,Intermediate
+What is information gain?,Reduction in entropy after splitting,Increase in tree depth,Node importance,Feature relevance,Option_1,Intermediate
+What is Gini impurity?,Measure of probability of incorrect classification,Tree purity,Information gain,Entropy measure,Option_1,Intermediate
+What is Random Forest?,Ensemble of decision trees voting on prediction,Single decision tree,Linear classifier,Neural network,Option_1,Beginner
+What is bagging?,Training multiple models on random data samples,Boosting method,Stacking ensemble,Voting method,Option_1,Intermediate
+What is feature importance in Random Forest?,Measure of contribution of each feature,Model accuracy,Tree depth,Number of trees,Option_1,Intermediate
+What is SVM (Support Vector Machine)?,Classifier finding optimal boundary between classes,Regression model,Clustering algorithm,Feature selector,Option_1,Intermediate
+What is a support vector?,Data point closest to decision boundary,Random data point,Outlier,Misclassified point,Option_1,Intermediate
+What is kernel trick in SVM?,Transforming data to higher dimension without explicit mapping,Data normalization,Feature scaling,Dimensionality reduction,Option_1,Advanced
+What are common SVM kernels?,"Linear, RBF, Polynomial, Sigmoid","Tanh, ReLU, Sigmoid","Gaussian, Exponential","Logarithmic, Power",Option_1,Intermediate
+What is the margin in SVM?,Distance between support vectors and boundary,Prediction error,Cost parameter,Kernel parameter,Option_1,Intermediate
+What is Naive Bayes?,Probabilistic classifier based on Bayes' theorem,Decision tree,Nearest neighbor,Neural network,Option_1,Intermediate
+Why is it called 'Naive' Bayes?,Assumes features are independent,Simplistic algorithm,Naive approach,Ignores data,Option_1,Intermediate
+What is Bayes' theorem formula?,P(A|B) = P(B|A)P(A)/P(B),P(A|B) = P(A)P(B),P(A|B) = P(A)/P(B),P(A|B) = P(B),Option_1,Intermediate
+What is K-Nearest Neighbors (KNN)?,Instance-based classifier finding K nearest neighbors,Centroid-based clustering,Tree-based classifier,Gradient-based classifier,Option_1,Beginner
+What does K represent in KNN?,Number of nearest neighbors to consider,Feature dimension,Data size,Number of classes,Option_1,Beginner
+What is the disadvantage of large K in KNN?,May ignore local patterns/become too smooth,Overfitting,Underfitting,Computational complexity,Option_1,Intermediate
+What is the disadvantage of small K in KNN?,May be too sensitive to outliers/noisy data,Too much smoothing,Underfitting,Computational cost,Option_1,Intermediate
+What is the curse of dimensionality in KNN?,Distance becomes meaningless in high dimensions,Model becomes too complex,Memory usage increases,Training time increases,Option_1,Advanced
+What is clustering?,Grouping similar data points without labels,Classification,Regression,Dimensionality reduction,Option_1,Beginner
+What is K-Means clustering?,Algorithm partitioning data into K clusters,Hierarchical clustering,Density-based clustering,Spectral clustering,Option_1,Beginner
+What is centroid in K-Means?,Center point of a cluster,Edge point,Random point,Outlier point,Option_1,Beginner
+What is the objective of K-Means?,Minimize within-cluster variance,Maximize cluster size,Minimize between-cluster distance,Maximize purity,Option_1,Intermediate
+What is the elbow method?,Finding optimal K by plotting inertia vs K,Setting K to number of clusters,Using silhouette score,Cross-validation,Option_1,Intermediate
+What is hierarchical clustering?,Building tree of nested clusters,Flat clustering,Overlapping clusters,Soft clustering,Option_1,Intermediate
+What is DBSCAN?,Density-based clustering finding clusters of any shape,K-Means variant,Hierarchical clustering,Spectral clustering,Option_1,Intermediate
+What are core points in DBSCAN?,Points with at least MinPts neighbors within Eps,Boundary points,Outliers,Random points,Option_1,Intermediate
+What is silhouette score?,Measure of cluster quality (-1 to 1),Cluster size,Distance metric,Purity measure,Option_1,Intermediate
+What is dimensionality reduction?,Reducing number of features while preserving information,Increasing features,Feature scaling,Feature encoding,Option_1,Intermediate
+What is Principal Component Analysis (PCA)?,Technique reducing dimensions by finding principal components,Clustering method,Classification method,Regression method,Option_1,Intermediate
+What are principal components?,Directions of maximum variance in data,Feature means,Feature variances,Feature ranges,Option_1,Intermediate
+What is explained variance in PCA?,Percentage of variance captured by components,Component importance,Feature importance,Model accuracy,Option_1,Intermediate
+What is t-SNE?,Non-linear dimensionality reduction for visualization,Linear dimensionality reduction,Feature selection,Clustering method,Option_1,Advanced
+What is UMAP?,Scalable dimensionality reduction preserving structure,Linear method,Clustering algorithm,Classification method,Option_1,Advanced
+What is feature engineering?,Creating new features from raw data,Removing features,Selecting features,Normalizing features,Option_1,Intermediate
+What is feature scaling?,Transforming features to comparable range,Feature selection,Feature creation,Feature extraction,Option_1,Intermediate
+What is normalization?,"Scaling to range [0, 1]",Centering around mean,Dividing by standard deviation,Removing outliers,Option_1,Intermediate
+What is standardization?,Centering with mean 0 and std 1,"Scaling to [0, 1]",Log transformation,Square root transformation,Option_1,Intermediate
+What is feature selection?,Selecting subset of relevant features,Creating new features,Scaling features,Encoding features,Option_1,Intermediate
+What is filter method in feature selection?,Using statistical tests independent of model,Using model performance,Greedy selection,Exhaustive search,Option_1,Intermediate
+What is wrapper method in feature selection?,Using model performance to select features,Statistical tests,Correlation-based,Mutual information,Option_1,Intermediate
+What is embedded method in feature selection?,Feature selection during model training,Post-training selection,Pre-training selection,Manual selection,Option_1,Advanced
+What is accuracy?,Percentage of correct predictions,True positive rate,False positive rate,Precision metric,Option_1,Beginner
+What is precision?,Proportion of positive predictions that are correct,True positive rate,True negative rate,Overall correctness,Option_1,Intermediate
+What is recall (sensitivity)?,Proportion of actual positives correctly identified,Precision metric,Specificity metric,Accuracy metric,Option_1,Intermediate
+What is F1-Score?,Harmonic mean of precision and recall,Sum of precision and recall,Product of precision and recall,Average of metrics,Option_1,Intermediate
+What is specificity?,True negative rate (correctly identified negatives),True positive rate,False positive rate,Precision,Option_1,Intermediate
+What is confusion matrix?,"Table showing TP, TN, FP, FN",Covariance matrix,Correlation matrix,Distance matrix,Option_1,Intermediate
+What is AUC-ROC?,Area under Receiver Operating Characteristic curve,Accuracy measure,Precision metric,F1-score,Option_1,Intermediate
+What is ROC curve?,Plot of TPR vs FPR at different thresholds,Accuracy vs precision,Recall vs specificity,Loss vs epochs,Option_1,Advanced
+What is cross-validation?,Evaluating model using multiple data splits,Single split evaluation,Random sampling,Bootstrap sampling,Option_1,Intermediate
+What is K-fold cross-validation?,Dividing data into K folds for evaluation,K-nearest neighbors,K-Means clustering,K principal components,Option_1,Intermediate
+What is overfitting?,"Model learning training data too well, poor generalization",Model not learning,Underfitting,Proper fitting,Option_1,Intermediate
+What is underfitting?,Model too simple to capture data patterns,Model too complex,Good generalization,Overfitting,Option_1,Intermediate
+What is regularization?,Technique preventing overfitting by penalizing complexity,Data normalization,Feature scaling,Feature selection,Option_1,Intermediate
+What is L1 regularization?,Lasso: adds absolute value of weights as penalty,Ridge regularization,Elastic Net,Early stopping,Option_1,Intermediate
+What is L2 regularization?,Ridge: adds squared weights as penalty,Lasso regularization,Elastic Net,Dropout regularization,Option_1,Intermediate
+What is Elastic Net?,Combines L1 and L2 regularization,Only L1,Only L2,No regularization,Option_1,Intermediate
+What is dropout?,Randomly disabling neurons during training,Removing features,Removing data,Stopping training,Option_1,Intermediate
+What is early stopping?,Stopping training when validation performance stops improving,Stopping at epoch 0,Training longer,Never stopping,Option_1,Intermediate
+What are hyperparameters?,Parameters set before training controlling learning,Parameters learned during training,Layer sizes,Feature values,Option_1,Intermediate
+What is learning rate?,Controls step size in optimization,Training speed,Data size,Model complexity,Option_1,Intermediate
+What is batch size?,Number of samples in each training batch,Total dataset size,Model size,Number of epochs,Option_1,Intermediate
+What is epoch?,One complete pass through entire training dataset,Single sample,Single batch,Learning iteration,Option_1,Beginner
+What is grid search?,Exhaustively searching hyperparameter combinations,Random search,Bayesian optimization,Manual tuning,Option_1,Intermediate
+What is random search?,Randomly sampling hyperparameter combinations,Grid search,Exhaustive search,Sequential search,Option_1,Intermediate
+What is Bayesian optimization?,Probabilistic approach to hyperparameter optimization,Grid search,Random search,Manual search,Option_1,Advanced
+What are ensemble methods?,Combining multiple models for better performance,Single model,Feature selection,Data augmentation,Option_1,Intermediate
+What is bagging?,Training models on random data samples independently,Sequential training,Overlapping data,Shared training,Option_1,Intermediate
+What is boosting?,Sequentially training models focusing on mistakes,Parallel training,Independent training,Random training,Option_1,Intermediate
+What is gradient boosting?,Sequentially building models minimizing loss,Simple boosting,Bagging method,Stacking method,Option_1,Intermediate
+What is AdaBoost?,Adaptive boosting adjusting weights of misclassified samples,Simple boosting,Random forest,Stacking,Option_1,Intermediate
+What is Gradient Boosting Machines (GBM)?,Ensemble using gradient descent to minimize loss,Simple ensemble,Voting ensemble,Averaging ensemble,Option_1,Intermediate
+What is XGBoost?,Optimized gradient boosting with speed/accuracy improvements,Simple boosting,Basic GBM,Random forest,Option_1,Advanced
+What is LightGBM?,Lightweight GBM using leaf-wise tree growth,Standard GBM,XGBoost variant,Sklearn GBM,Option_1,Advanced
+What is stacking?,Training meta-model on predictions of base models,Simple ensemble,Voting ensemble,Averaging ensemble,Option_1,Advanced
+What is voting ensemble?,Multiple models voting for final prediction,Stacking ensemble,Bagging ensemble,Boosting ensemble,Option_1,Intermediate
+What is data preprocessing?,"Preparing data for modeling (cleaning, transforming)",Model training,Model evaluation,Feature engineering,Option_1,Beginner
+What is handling missing values?,"Imputation, deletion, or prediction of missing data",Removing features,Collecting more data,Ignoring gaps,Option_1,Beginner
+What is mean imputation?,Replacing missing values with feature mean,Median imputation,Mode imputation,Forward fill,Option_1,Intermediate
+What is outlier detection?,Identifying unusual data points,Feature selection,Data normalization,Data augmentation,Option_1,Intermediate
+What is Z-score method for outliers?,Using standard deviations to identify outliers,IQR method,Isolation Forest,LOF method,Option_1,Intermediate
+What is IQR method?,Using quartiles to identify outliers,Z-score method,Mean-std method,Percentile method,Option_1,Intermediate
+What is data imbalance?,Unequal distribution of classes,Unequal feature scales,Outliers,Missing values,Option_1,Intermediate
+What is oversampling?,Creating more samples of minority class,Removing samples,Adding features,Scaling features,Option_1,Intermediate
+What is undersampling?,Removing samples from majority class,Adding samples,Feature engineering,Data scaling,Option_1,Intermediate
+What is SMOTE?,Synthetic Minority Oversampling Technique,Simple oversampling,Undersampling method,Data augmentation,Option_1,Advanced
+What is transfer learning?,Using knowledge from source task for target task,Learning from scratch,Retraining entire model,Feature extraction only,Option_1,Intermediate
+What is fine-tuning?,Training pre-trained model on new task,Training from scratch,Feature extraction,Data preprocessing,Option_1,Intermediate
+What is domain adaptation?,Adapting model from source to target domain,Changing hyperparameters,Collecting more data,Retraining,Option_1,Advanced
+What is gradient descent?,Iteratively updating parameters to minimize loss,Ascending parameters,Direct solution,Random search,Option_1,Intermediate
+What is backpropagation?,Computing gradients using chain rule,Forward pass only,Feature extraction,Data preprocessing,Option_1,Intermediate
+What is stochastic gradient descent (SGD)?,Updating parameters using single sample,Batch gradient descent,Full gradient descent,Random descent,Option_1,Intermediate
+What is mini-batch gradient descent?,Updating using small batch of samples,Single sample,Entire dataset,Random sampling,Option_1,Intermediate
+What is momentum in optimization?,Accumulating gradient direction for faster convergence,Single step,Learning rate,Batch size,Option_1,Intermediate
+What is Nesterov momentum?,Momentum with lookahead gradient,Simple momentum,No momentum,Gradient only,Option_1,Advanced
+What is Adam optimizer?,Adaptive moment estimation combining momentum and RMSprop,Simple SGD,Gradient descent,Newton's method,Option_1,Intermediate
+What is RMSprop?,Root Mean Square Propagation for adaptive learning rate,Simple momentum,Gradient descent,Standard SGD,Option_1,Intermediate
+What is loss function?,Measures difference between predicted and actual values,Accuracy metric,Performance measure,Evaluation tool,Option_1,Intermediate
+What is MSE (Mean Squared Error)?,Average of squared differences between predicted and actual,Mean absolute error,Cross-entropy,Hinge loss,Option_1,Intermediate
+What is MAE (Mean Absolute Error)?,Average of absolute differences,Mean squared error,Root mean squared error,Median error,Option_1,Intermediate
+What is cross-entropy loss?,Loss for classification measuring probability distance,Regression loss,Clustering loss,Ranking loss,Option_1,Intermediate
+What is binary cross-entropy?,Cross-entropy for binary classification,Multi-class cross-entropy,Regression loss,Clustering loss,Option_1,Intermediate
+What is categorical cross-entropy?,Cross-entropy for multi-class classification,Binary classification,Regression loss,Unsupervised loss,Option_1,Intermediate
+What is Hinge loss?,Loss for SVM maximizing margin,Regression loss,Classification loss,Clustering loss,Option_1,Intermediate
+What is time series?,Sequence of data points ordered by time,Random data,Categorical data,Image data,Option_1,Intermediate

@@ -1,0 +1,1001 @@
+Question,Option_1,Option_2,Option_3,Option_4,Correct_Answer,Level
+What is mobile app development?,Creating applications for smartphones and tablets,Web development only,Desktop application creation,Server-side programming,Option_1,Beginner
+What are the main mobile platforms?,iOS and Android,Windows only,Linux only,Mac only,Option_1,Beginner
+What is native app development?,Apps built specifically for one platform using native language,Cross-platform apps,Web apps,Hybrid apps,Option_1,Beginner
+What is cross-platform app development?,Building apps for multiple platforms from single codebase,Platform-specific development,Native development,Web-only development,Option_1,Beginner
+What is hybrid app development?,Using web technologies inside native shell,Pure native development,Pure web development,Desktop development,Option_1,Beginner
+What is iOS?,Apple's operating system for iPhones and iPads,Android OS,Windows OS,Linux OS,Option_1,Beginner
+What is Swift?,Apple's modern programming language for iOS,Objective-C replacement,Java-like language,Python variant,Option_1,Beginner
+What is Objective-C?,Older programming language for iOS development,Modern language,Web language,Backend language,Option_1,Intermediate
+What is Xcode?,Apple's integrated development environment for iOS,Text editor,Web browser,Database manager,Option_1,Beginner
+What is UIKit?,Framework for building iOS user interfaces,Testing framework,Networking framework,Database framework,Option_1,Intermediate
+What is SwiftUI?,Modern declarative UI framework for iOS,UIKit replacement,Backend framework,Networking library,Option_1,Intermediate
+What is Storyboard?,Visual design tool for iOS UI,Code-based UI,Web design tool,Animation tool,Option_1,Intermediate
+What is auto layout?,System for creating responsive UI layouts,Manual layout,Fixed positioning,CSS layouts,Option_1,Intermediate
+What is segue in iOS?,Transition between view controllers,User action,Data model,Network request,Option_1,Intermediate
+What is view controller?,Object managing view hierarchy and user interactions,Data model,Network service,File manager,Option_1,Intermediate
+What is Android?,Google's operating system for mobile devices,Apple OS,Windows OS,Linux distribution,Option_1,Beginner
+What is Java in Android?,Primary language for Android development,Kotlin language,C++ language,Python language,Option_1,Beginner
+What is Kotlin?,Modern language for Android officially supported by Google,Java replacement,JavaScript variant,Objective-C alternative,Option_1,Beginner
+What is Android Studio?,Official IDE for Android development,Text editor,Web IDE,Database tool,Option_1,Beginner
+What is Android SDK?,Software development kit with tools and libraries,Emulator only,Documentation only,Testing framework,Option_1,Intermediate
+What is Android Virtual Device (AVD)?,Emulator simulating Android device,Physical device,Debugging tool,Testing framework,Option_1,Intermediate
+What is Activity in Android?,Component providing single screen UI,Background service,Data storage,Network service,Option_1,Beginner
+What is Fragment in Android?,Reusable UI component within activity,Full-screen component,Service component,Content provider,Option_1,Intermediate
+What is Service in Android?,Component for background tasks,User interface,Data storage,Network protocol,Option_1,Intermediate
+What is Intent in Android?,Message for requesting action from another component,User input,Data storage,Network request,Option_1,Intermediate
+What is AndroidManifest.xml?,Configuration file declaring app components,Layout file,Resource file,Code file,Option_1,Intermediate
+What is R.java in Android?,Auto-generated file containing resource IDs,User class,Data model,Network interface,Option_1,Intermediate
+What is ViewGroup in Android?,Container holding multiple views,Single view,Activity,Fragment,Option_1,Intermediate
+What is LinearLayout?,Layout arranging views in single column/row,Grid layout,Frame layout,Constraint layout,Option_1,Intermediate
+What is GridLayout?,Layout arranging views in grid,Linear layout,Frame layout,Relative layout,Option_1,Intermediate
+What is RecyclerView?,Component for efficiently displaying lists/grids,ListView only,GridView only,ScrollView,Option_1,Intermediate
+What is Adapter in Android?,Bridge between data and UI components,Activity,Service,Intent,Option_1,Intermediate
+What is SharedPreferences?,Lightweight storage for key-value pairs,SQL database,File storage,Network storage,Option_1,Intermediate
+What is SQLite?,Lightweight embedded relational database,Cloud database,NoSQL database,Remote database,Option_1,Intermediate
+What is Room database?,Abstraction layer over SQLite,SQLite directly,Cloud database,Shared preferences,Option_1,Intermediate
+What is ContentProvider?,Component sharing data between apps,Data storage,User interface,Background service,Option_1,Advanced
+What is Realm?,Mobile database alternative to SQLite,SQLite only,SQL database,NoSQL only,Option_1,Advanced
+What is HTTP request in mobile?,Network communication protocol,Local communication,File transfer,Bluetooth communication,Option_1,Intermediate
+What is REST API?,API using HTTP methods for operations,SOAP API,GraphQL,WebSocket,Option_1,Intermediate
+What is Retrofit?,HTTP client library for Android,Database library,UI framework,Testing framework,Option_1,Intermediate
+What is Okhttp?,HTTP client with advanced features,Web framework,Networking library,Request library,Option_1,Intermediate
+What is Volley?,Networking library for Android,HTTP client,Data storage,UI framework,Option_1,Intermediate
+What is JSON?,Data format for exchanging structured data,XML format,HTML format,CSS format,Option_1,Beginner
+What is Gson library?,JSON serialization/deserialization library,Networking library,UI framework,Database,Option_1,Intermediate
+What is threading in mobile?,Parallel execution of code,Sequential execution,Single-threaded,Synchronous execution,Option_1,Intermediate
+What is AsyncTask?,Class for background processing with UI updates,UI component,Data storage,Networking library,Option_1,Intermediate
+What is RxJava?,Reactive programming library for Android,HTTP library,UI framework,Database,Option_1,Advanced
+What is Coroutine in Kotlin?,Lightweight concurrency for asynchronous tasks,Threading mechanism,Async only,Callback system,Option_1,Advanced
+What is LiveData?,Observable data holder for lifecycle-aware updates,Regular variable,SharedPreferences,Static variable,Option_1,Advanced
+What is MVC in mobile?,Model-View-Controller architecture,Model-View-ViewModel,Model-View-Presenter,Other pattern,Option_1,Intermediate
+What is MVP in mobile?,Model-View-Presenter architecture,Model-View-Controller,Model-View-ViewModel,Other pattern,Option_1,Intermediate
+What is MVVM in mobile?,Model-View-ViewModel architecture,Model-View-Controller,Model-View-Presenter,Other pattern,Option_1,Intermediate
+What is clean architecture?,Layered architecture for scalable apps,Simple architecture,Monolithic architecture,No architecture,Option_1,Advanced
+What is dependency injection?,Providing dependencies to objects from outside,Hard-coded dependencies,Global variables,Static imports,Option_1,Advanced
+What is Dagger?,Dependency injection framework for Android,Networking library,UI framework,Database library,Option_1,Advanced
+What is Hilt?,DI framework built on Dagger for Android,Simple DI,Manual injection,Dependency binding,Option_1,Advanced
+What is unit testing?,Testing individual functions/components,Integration testing,UI testing,System testing,Option_1,Intermediate
+What is JUnit?,Testing framework for Java/Android,UI testing,Integration testing,Performance testing,Option_1,Intermediate
+What is Espresso?,UI testing framework for Android,Unit testing,Integration testing,API testing,Option_1,Intermediate
+What is Mockito?,Mocking framework for unit testing,UI testing,Integration testing,Testing runner,Option_1,Advanced
+What is instrumented test?,Test running on Android device/emulator,Local unit test,Static test,Compilation test,Option_1,Advanced
+What is ANR (Application Not Responding)?,App freeze lasting more than 5 seconds,App crash,App update,App termination,Option_1,Intermediate
+What is battery optimization?,Reducing power consumption in apps,Processing speed,Memory usage,Storage usage,Option_1,Intermediate
+What is memory leak?,Unreleased memory causing waste,Crash condition,Performance issue,Network issue,Option_1,Intermediate
+What is profiler?,Tool analyzing performance metrics,Compiler,Debugger,Version control,Option_1,Intermediate
+What is Systrace?,Tool analyzing system performance,Memory profiler,CPU profiler,Network monitor,Option_1,Advanced
+What is ProGuard?,Tool for code obfuscation and optimization,Compiler,Debugger,Testing tool,Option_1,Advanced
+What is Android security?,Protection mechanisms for user data,Data encryption,Permission system,All mechanisms,Option_1,Intermediate
+What is permission system?,Restricting app access to device features,User authentication,Encryption method,Data storage,Option_1,Intermediate
+What is keystore?,Storage for cryptographic keys,Password storage,Data encryption,User credentials,Option_1,Advanced
+What is SSL pinning?,Validating server certificate for security,Encryption method,Key storage,Data compression,Option_1,Advanced
+What is ProGuard minification?,Removing unused code reducing app size,Code optimization,Performance improvement,Memory reduction,Option_1,Advanced
+What is Flutter?,Cross-platform framework by Google using Dart,Android framework,iOS framework,Web framework,Option_1,Intermediate
+What is Dart?,Programming language for Flutter apps,Java,Swift,Kotlin,Option_1,Intermediate
+What is React Native?,Cross-platform framework using JavaScript/React,Flutter alternative,Native development,Web framework,Option_1,Intermediate
+What is Xamarin?,Cross-platform framework using C# and .NET,Java framework,JavaScript framework,Python framework,Option_1,Intermediate
+What is Ionic?,Hybrid mobile framework using web technologies,Native framework,Cross-platform SDK,Backend framework,Option_1,Intermediate
+What is Cordova?,Framework running web apps as mobile apps,Native framework,SDK,Build tool,Option_1,Intermediate
+What is state in mobile apps?,Data affecting UI rendering,User input,Network response,App initialization,Option_1,Intermediate
+What is ViewModel in Android?,Stores and manages UI-related data,UI component,Service,Intent,Option_1,Intermediate
+What is Redux?,Predictable state management for apps,Navigation library,UI framework,Testing tool,Option_1,Advanced
+What is BLoC pattern?,Business Logic Component pattern for state,Architectural pattern,Design pattern,Testing pattern,Option_1,Advanced
+What is MobX?,Reactive state management library,Redux alternative,Redux extension,Angular package,Option_1,Advanced
+What is navigation in mobile?,Moving between screens/fragments,App flow,User interaction,Activity lifecycle,Option_1,Beginner
+What is Navigation Component?,Android framework for managing in-app navigation,Activity manager,Fragment transaction,Intent routing,Option_1,Intermediate
+What is deep linking?,Direct linking to specific app content,Web linking,External linking,Bookmark,Option_1,Intermediate
+What is back stack?,Stack maintaining activity/fragment history,Memory management,Cache system,Data structure,Option_1,Intermediate
+What is caching?,Storing data for quick access,Memory management,Storage optimization,Speed improvement,Option_1,Intermediate
+What is disk caching?,Storing data on device storage,Memory caching,Network caching,CPU cache,Option_1,Intermediate
+What is API response caching?,Caching API responses locally,Server caching,Network caching,Memory cache,Option_1,Advanced
+What is WorkManager?,Scheduling deferrable background tasks,Foreground service,Regular service,AsyncTask,Option_1,Advanced
+What is Camera API?,Interface for accessing device camera,Photo library,Video player,Image processor,Option_1,Intermediate
+What is MediaPlayer?,Component for playing audio/video,Camera control,Image editor,Sound recorder,Option_1,Intermediate
+What is Glide?,Image loading and caching library,Video player,Image editor,Camera API,Option_1,Intermediate
+What is Picasso?,Image loading library for Android,Glide alternative,Camera API,Media player,Option_1,Intermediate
+What is Location API?,Accessing device GPS and location services,Sensor data,Movement tracking,Map integration,Option_1,Intermediate
+What is geofencing?,Triggering actions based on location boundaries,GPS tracking,Map display,Location caching,Option_1,Advanced
+What is sensor in mobile?,"Hardware like accelerometer, gyroscope, compass",GPS only,Camera only,Microphone only,Option_1,Intermediate
+What is SensorManager?,Framework for accessing device sensors,Location manager,Camera manager,Audio manager,Option_1,Advanced
+What are push notifications?,Messages sent to app from server,User notifications,Local notifications,System notifications,Option_1,Intermediate
+What is FCM (Firebase Cloud Messaging)?,Google service for sending push notifications,Email service,SMS service,Local notification,Option_1,Intermediate
+What is APNs (Apple Push Notification)?,Apple service for iOS push notifications,Android service,Email service,SMS service,Option_1,Intermediate
+What is Logcat?,Android logging system showing app/system logs,IDE feature,Build tool,Testing framework,Option_1,Intermediate
+What is Android Debugger?,Tool for debugging running apps,Compiler,Build system,Testing tool,Option_1,Intermediate
+What is Breakpoint debugging?,Pausing execution at specific code line,Log-based debugging,Static analysis,Testing,Option_1,Intermediate
+What is APK?,Android app package file format,iOS app format,Web application,Universal package,Option_1,Beginner
+What is AAB (Android App Bundle)?,Modern format for app distribution on Play Store,Legacy APK,Web format,iOS format,Option_1,Intermediate
+What is Google Play Store?,Official Android app marketplace,iOS App Store,Web store,Direct distribution,Option_1,Beginner
+What is App Store (iOS)?,Official Apple app marketplace for iOS,Google Play,Android store,Web store,Option_1,Beginner
+What is signing an app?,Using certificate to authenticate app author,Compilation,Testing,Publishing,Option_1,Intermediate
+What is alpha testing?,Internal testing by developers,Beta testing,User testing,Production release,Option_1,Intermediate
+What is beta testing?,Testing with limited external users,Alpha testing,Final release,Internal testing,Option_1,Intermediate
+What is accessibility in mobile?,Making apps usable for people with disabilities,UI design,Performance optimization,Security,Option_1,Intermediate
+What is screen reader?,Tool reading screen content aloud,Text editor,Code editor,Documentation tool,Option_1,Intermediate
+What is TalkBack?,Android's built-in screen reader,iOS feature,Browser extension,Testing tool,Option_1,Advanced
+What is VoiceOver?,iOS's built-in screen reader,Android feature,Windows tool,Browser feature,Option_1,Advanced
+What is localization?,Adapting app for different languages/regions,Translation only,Language support,Regional settings,Option_1,Intermediate
+What is internationalization?,Designing app to support multiple languages,Translation process,Localization,Language switching,Option_1,Advanced
+What is string resources?,External text strings for easy translation,Hard-coded strings,Database strings,API strings,Option_1,Intermediate
+What is WebSocket?,Protocol for real-time bidirectional communication,HTTP protocol,REST API,TCP protocol,Option_1,Advanced
+What is Firebase Realtime Database?,NoSQL cloud database with real-time sync,SQL database,Local database,Offline database,Option_1,Advanced
+What is Firestore?,Cloud NoSQL database with real-time features,Realtime database only,SQL database,Local storage,Option_1,Intermediate
+What is foreground service?,Service showing persistent notification,Background service,Regular service,Intent service,Option_1,Intermediate
+What is background execution limits?,Restrictions on background tasks,Battery optimization,Memory management,Processing limits,Option_1,Advanced
+What is JobScheduler?,System for scheduling background jobs,AsyncTask,WorkManager,Coroutines,Option_1,Intermediate
+What is FPS (Frames Per Second)?,Frame rate in animations and scrolling,Network speed,Download speed,Processing speed,Option_1,Intermediate
+What is janky frame?,Frame taking too long to render,Dropped frame,Skipped frame,Slow rendering,Option_1,Advanced
+What is overdraw?,Pixels painted multiple times per frame,Background color,Shadow rendering,Transparency,Option_1,Advanced
+What is mobile app development?,Creating applications for smartphones and tablets,Web development only,Desktop application creation,Server-side programming,Option_1,Beginner
+What are the main mobile platforms?,iOS and Android,Windows only,Linux only,Mac only,Option_1,Beginner
+What is native app development?,Apps built specifically for one platform using native language,Cross-platform apps,Web apps,Hybrid apps,Option_1,Beginner
+What is cross-platform app development?,Building apps for multiple platforms from single codebase,Platform-specific development,Native development,Web-only development,Option_1,Beginner
+What is hybrid app development?,Using web technologies inside native shell,Pure native development,Pure web development,Desktop development,Option_1,Beginner
+What is iOS?,Apple's operating system for iPhones and iPads,Android OS,Windows OS,Linux OS,Option_1,Beginner
+What is Swift?,Apple's modern programming language for iOS,Objective-C replacement,Java-like language,Python variant,Option_1,Beginner
+What is Objective-C?,Older programming language for iOS development,Modern language,Web language,Backend language,Option_1,Intermediate
+What is Xcode?,Apple's integrated development environment for iOS,Text editor,Web browser,Database manager,Option_1,Beginner
+What is UIKit?,Framework for building iOS user interfaces,Testing framework,Networking framework,Database framework,Option_1,Intermediate
+What is SwiftUI?,Modern declarative UI framework for iOS,UIKit replacement,Backend framework,Networking library,Option_1,Intermediate
+What is Storyboard?,Visual design tool for iOS UI,Code-based UI,Web design tool,Animation tool,Option_1,Intermediate
+What is auto layout?,System for creating responsive UI layouts,Manual layout,Fixed positioning,CSS layouts,Option_1,Intermediate
+What is segue in iOS?,Transition between view controllers,User action,Data model,Network request,Option_1,Intermediate
+What is view controller?,Object managing view hierarchy and user interactions,Data model,Network service,File manager,Option_1,Intermediate
+What is Android?,Google's operating system for mobile devices,Apple OS,Windows OS,Linux distribution,Option_1,Beginner
+What is Java in Android?,Primary language for Android development,Kotlin language,C++ language,Python language,Option_1,Beginner
+What is Kotlin?,Modern language for Android officially supported by Google,Java replacement,JavaScript variant,Objective-C alternative,Option_1,Beginner
+What is Android Studio?,Official IDE for Android development,Text editor,Web IDE,Database tool,Option_1,Beginner
+What is Android SDK?,Software development kit with tools and libraries,Emulator only,Documentation only,Testing framework,Option_1,Intermediate
+What is Android Virtual Device (AVD)?,Emulator simulating Android device,Physical device,Debugging tool,Testing framework,Option_1,Intermediate
+What is Activity in Android?,Component providing single screen UI,Background service,Data storage,Network service,Option_1,Beginner
+What is Fragment in Android?,Reusable UI component within activity,Full-screen component,Service component,Content provider,Option_1,Intermediate
+What is Service in Android?,Component for background tasks,User interface,Data storage,Network protocol,Option_1,Intermediate
+What is Intent in Android?,Message for requesting action from another component,User input,Data storage,Network request,Option_1,Intermediate
+What is AndroidManifest.xml?,Configuration file declaring app components,Layout file,Resource file,Code file,Option_1,Intermediate
+What is R.java in Android?,Auto-generated file containing resource IDs,User class,Data model,Network interface,Option_1,Intermediate
+What is ViewGroup in Android?,Container holding multiple views,Single view,Activity,Fragment,Option_1,Intermediate
+What is LinearLayout?,Layout arranging views in single column/row,Grid layout,Frame layout,Constraint layout,Option_1,Intermediate
+What is GridLayout?,Layout arranging views in grid,Linear layout,Frame layout,Relative layout,Option_1,Intermediate
+What is RecyclerView?,Component for efficiently displaying lists/grids,ListView only,GridView only,ScrollView,Option_1,Intermediate
+What is Adapter in Android?,Bridge between data and UI components,Activity,Service,Intent,Option_1,Intermediate
+What is SharedPreferences?,Lightweight storage for key-value pairs,SQL database,File storage,Network storage,Option_1,Intermediate
+What is SQLite?,Lightweight embedded relational database,Cloud database,NoSQL database,Remote database,Option_1,Intermediate
+What is Room database?,Abstraction layer over SQLite,SQLite directly,Cloud database,Shared preferences,Option_1,Intermediate
+What is ContentProvider?,Component sharing data between apps,Data storage,User interface,Background service,Option_1,Advanced
+What is Realm?,Mobile database alternative to SQLite,SQLite only,SQL database,NoSQL only,Option_1,Advanced
+What is HTTP request in mobile?,Network communication protocol,Local communication,File transfer,Bluetooth communication,Option_1,Intermediate
+What is REST API?,API using HTTP methods for operations,SOAP API,GraphQL,WebSocket,Option_1,Intermediate
+What is Retrofit?,HTTP client library for Android,Database library,UI framework,Testing framework,Option_1,Intermediate
+What is Okhttp?,HTTP client with advanced features,Web framework,Networking library,Request library,Option_1,Intermediate
+What is Volley?,Networking library for Android,HTTP client,Data storage,UI framework,Option_1,Intermediate
+What is JSON?,Data format for exchanging structured data,XML format,HTML format,CSS format,Option_1,Beginner
+What is Gson library?,JSON serialization/deserialization library,Networking library,UI framework,Database,Option_1,Intermediate
+What is threading in mobile?,Parallel execution of code,Sequential execution,Single-threaded,Synchronous execution,Option_1,Intermediate
+What is AsyncTask?,Class for background processing with UI updates,UI component,Data storage,Networking library,Option_1,Intermediate
+What is RxJava?,Reactive programming library for Android,HTTP library,UI framework,Database,Option_1,Advanced
+What is Coroutine in Kotlin?,Lightweight concurrency for asynchronous tasks,Threading mechanism,Async only,Callback system,Option_1,Advanced
+What is LiveData?,Observable data holder for lifecycle-aware updates,Regular variable,SharedPreferences,Static variable,Option_1,Advanced
+What is MVC in mobile?,Model-View-Controller architecture,Model-View-ViewModel,Model-View-Presenter,Other pattern,Option_1,Intermediate
+What is MVP in mobile?,Model-View-Presenter architecture,Model-View-Controller,Model-View-ViewModel,Other pattern,Option_1,Intermediate
+What is MVVM in mobile?,Model-View-ViewModel architecture,Model-View-Controller,Model-View-Presenter,Other pattern,Option_1,Intermediate
+What is clean architecture?,Layered architecture for scalable apps,Simple architecture,Monolithic architecture,No architecture,Option_1,Advanced
+What is dependency injection?,Providing dependencies to objects from outside,Hard-coded dependencies,Global variables,Static imports,Option_1,Advanced
+What is Dagger?,Dependency injection framework for Android,Networking library,UI framework,Database library,Option_1,Advanced
+What is Hilt?,DI framework built on Dagger for Android,Simple DI,Manual injection,Dependency binding,Option_1,Advanced
+What is unit testing?,Testing individual functions/components,Integration testing,UI testing,System testing,Option_1,Intermediate
+What is JUnit?,Testing framework for Java/Android,UI testing,Integration testing,Performance testing,Option_1,Intermediate
+What is Espresso?,UI testing framework for Android,Unit testing,Integration testing,API testing,Option_1,Intermediate
+What is Mockito?,Mocking framework for unit testing,UI testing,Integration testing,Testing runner,Option_1,Advanced
+What is instrumented test?,Test running on Android device/emulator,Local unit test,Static test,Compilation test,Option_1,Advanced
+What is ANR (Application Not Responding)?,App freeze lasting more than 5 seconds,App crash,App update,App termination,Option_1,Intermediate
+What is battery optimization?,Reducing power consumption in apps,Processing speed,Memory usage,Storage usage,Option_1,Intermediate
+What is memory leak?,Unreleased memory causing waste,Crash condition,Performance issue,Network issue,Option_1,Intermediate
+What is profiler?,Tool analyzing performance metrics,Compiler,Debugger,Version control,Option_1,Intermediate
+What is Systrace?,Tool analyzing system performance,Memory profiler,CPU profiler,Network monitor,Option_1,Advanced
+What is ProGuard?,Tool for code obfuscation and optimization,Compiler,Debugger,Testing tool,Option_1,Advanced
+What is Android security?,Protection mechanisms for user data,Data encryption,Permission system,All mechanisms,Option_1,Intermediate
+What is permission system?,Restricting app access to device features,User authentication,Encryption method,Data storage,Option_1,Intermediate
+What is keystore?,Storage for cryptographic keys,Password storage,Data encryption,User credentials,Option_1,Advanced
+What is SSL pinning?,Validating server certificate for security,Encryption method,Key storage,Data compression,Option_1,Advanced
+What is ProGuard minification?,Removing unused code reducing app size,Code optimization,Performance improvement,Memory reduction,Option_1,Advanced
+What is Flutter?,Cross-platform framework by Google using Dart,Android framework,iOS framework,Web framework,Option_1,Intermediate
+What is Dart?,Programming language for Flutter apps,Java,Swift,Kotlin,Option_1,Intermediate
+What is React Native?,Cross-platform framework using JavaScript/React,Flutter alternative,Native development,Web framework,Option_1,Intermediate
+What is Xamarin?,Cross-platform framework using C# and .NET,Java framework,JavaScript framework,Python framework,Option_1,Intermediate
+What is Ionic?,Hybrid mobile framework using web technologies,Native framework,Cross-platform SDK,Backend framework,Option_1,Intermediate
+What is Cordova?,Framework running web apps as mobile apps,Native framework,SDK,Build tool,Option_1,Intermediate
+What is state in mobile apps?,Data affecting UI rendering,User input,Network response,App initialization,Option_1,Intermediate
+What is ViewModel in Android?,Stores and manages UI-related data,UI component,Service,Intent,Option_1,Intermediate
+What is Redux?,Predictable state management for apps,Navigation library,UI framework,Testing tool,Option_1,Advanced
+What is BLoC pattern?,Business Logic Component pattern for state,Architectural pattern,Design pattern,Testing pattern,Option_1,Advanced
+What is MobX?,Reactive state management library,Redux alternative,Redux extension,Angular package,Option_1,Advanced
+What is navigation in mobile?,Moving between screens/fragments,App flow,User interaction,Activity lifecycle,Option_1,Beginner
+What is Navigation Component?,Android framework for managing in-app navigation,Activity manager,Fragment transaction,Intent routing,Option_1,Intermediate
+What is deep linking?,Direct linking to specific app content,Web linking,External linking,Bookmark,Option_1,Intermediate
+What is back stack?,Stack maintaining activity/fragment history,Memory management,Cache system,Data structure,Option_1,Intermediate
+What is caching?,Storing data for quick access,Memory management,Storage optimization,Speed improvement,Option_1,Intermediate
+What is disk caching?,Storing data on device storage,Memory caching,Network caching,CPU cache,Option_1,Intermediate
+What is API response caching?,Caching API responses locally,Server caching,Network caching,Memory cache,Option_1,Advanced
+What is WorkManager?,Scheduling deferrable background tasks,Foreground service,Regular service,AsyncTask,Option_1,Advanced
+What is Camera API?,Interface for accessing device camera,Photo library,Video player,Image processor,Option_1,Intermediate
+What is MediaPlayer?,Component for playing audio/video,Camera control,Image editor,Sound recorder,Option_1,Intermediate
+What is Glide?,Image loading and caching library,Video player,Image editor,Camera API,Option_1,Intermediate
+What is Picasso?,Image loading library for Android,Glide alternative,Camera API,Media player,Option_1,Intermediate
+What is Location API?,Accessing device GPS and location services,Sensor data,Movement tracking,Map integration,Option_1,Intermediate
+What is geofencing?,Triggering actions based on location boundaries,GPS tracking,Map display,Location caching,Option_1,Advanced
+What is sensor in mobile?,"Hardware like accelerometer, gyroscope, compass",GPS only,Camera only,Microphone only,Option_1,Intermediate
+What is SensorManager?,Framework for accessing device sensors,Location manager,Camera manager,Audio manager,Option_1,Advanced
+What are push notifications?,Messages sent to app from server,User notifications,Local notifications,System notifications,Option_1,Intermediate
+What is FCM (Firebase Cloud Messaging)?,Google service for sending push notifications,Email service,SMS service,Local notification,Option_1,Intermediate
+What is APNs (Apple Push Notification)?,Apple service for iOS push notifications,Android service,Email service,SMS service,Option_1,Intermediate
+What is Logcat?,Android logging system showing app/system logs,IDE feature,Build tool,Testing framework,Option_1,Intermediate
+What is Android Debugger?,Tool for debugging running apps,Compiler,Build system,Testing tool,Option_1,Intermediate
+What is Breakpoint debugging?,Pausing execution at specific code line,Log-based debugging,Static analysis,Testing,Option_1,Intermediate
+What is APK?,Android app package file format,iOS app format,Web application,Universal package,Option_1,Beginner
+What is AAB (Android App Bundle)?,Modern format for app distribution on Play Store,Legacy APK,Web format,iOS format,Option_1,Intermediate
+What is Google Play Store?,Official Android app marketplace,iOS App Store,Web store,Direct distribution,Option_1,Beginner
+What is App Store (iOS)?,Official Apple app marketplace for iOS,Google Play,Android store,Web store,Option_1,Beginner
+What is signing an app?,Using certificate to authenticate app author,Compilation,Testing,Publishing,Option_1,Intermediate
+What is alpha testing?,Internal testing by developers,Beta testing,User testing,Production release,Option_1,Intermediate
+What is beta testing?,Testing with limited external users,Alpha testing,Final release,Internal testing,Option_1,Intermediate
+What is accessibility in mobile?,Making apps usable for people with disabilities,UI design,Performance optimization,Security,Option_1,Intermediate
+What is screen reader?,Tool reading screen content aloud,Text editor,Code editor,Documentation tool,Option_1,Intermediate
+What is TalkBack?,Android's built-in screen reader,iOS feature,Browser extension,Testing tool,Option_1,Advanced
+What is VoiceOver?,iOS's built-in screen reader,Android feature,Windows tool,Browser feature,Option_1,Advanced
+What is localization?,Adapting app for different languages/regions,Translation only,Language support,Regional settings,Option_1,Intermediate
+What is internationalization?,Designing app to support multiple languages,Translation process,Localization,Language switching,Option_1,Advanced
+What is string resources?,External text strings for easy translation,Hard-coded strings,Database strings,API strings,Option_1,Intermediate
+What is WebSocket?,Protocol for real-time bidirectional communication,HTTP protocol,REST API,TCP protocol,Option_1,Advanced
+What is Firebase Realtime Database?,NoSQL cloud database with real-time sync,SQL database,Local database,Offline database,Option_1,Advanced
+What is Firestore?,Cloud NoSQL database with real-time features,Realtime database only,SQL database,Local storage,Option_1,Intermediate
+What is foreground service?,Service showing persistent notification,Background service,Regular service,Intent service,Option_1,Intermediate
+What is background execution limits?,Restrictions on background tasks,Battery optimization,Memory management,Processing limits,Option_1,Advanced
+What is JobScheduler?,System for scheduling background jobs,AsyncTask,WorkManager,Coroutines,Option_1,Intermediate
+What is FPS (Frames Per Second)?,Frame rate in animations and scrolling,Network speed,Download speed,Processing speed,Option_1,Intermediate
+What is janky frame?,Frame taking too long to render,Dropped frame,Skipped frame,Slow rendering,Option_1,Advanced
+What is overdraw?,Pixels painted multiple times per frame,Background color,Shadow rendering,Transparency,Option_1,Advanced
+What is mobile app development?,Creating applications for smartphones and tablets,Web development only,Desktop application creation,Server-side programming,Option_1,Beginner
+What are the main mobile platforms?,iOS and Android,Windows only,Linux only,Mac only,Option_1,Beginner
+What is native app development?,Apps built specifically for one platform using native language,Cross-platform apps,Web apps,Hybrid apps,Option_1,Beginner
+What is cross-platform app development?,Building apps for multiple platforms from single codebase,Platform-specific development,Native development,Web-only development,Option_1,Beginner
+What is hybrid app development?,Using web technologies inside native shell,Pure native development,Pure web development,Desktop development,Option_1,Beginner
+What is iOS?,Apple's operating system for iPhones and iPads,Android OS,Windows OS,Linux OS,Option_1,Beginner
+What is Swift?,Apple's modern programming language for iOS,Objective-C replacement,Java-like language,Python variant,Option_1,Beginner
+What is Objective-C?,Older programming language for iOS development,Modern language,Web language,Backend language,Option_1,Intermediate
+What is Xcode?,Apple's integrated development environment for iOS,Text editor,Web browser,Database manager,Option_1,Beginner
+What is UIKit?,Framework for building iOS user interfaces,Testing framework,Networking framework,Database framework,Option_1,Intermediate
+What is SwiftUI?,Modern declarative UI framework for iOS,UIKit replacement,Backend framework,Networking library,Option_1,Intermediate
+What is Storyboard?,Visual design tool for iOS UI,Code-based UI,Web design tool,Animation tool,Option_1,Intermediate
+What is auto layout?,System for creating responsive UI layouts,Manual layout,Fixed positioning,CSS layouts,Option_1,Intermediate
+What is segue in iOS?,Transition between view controllers,User action,Data model,Network request,Option_1,Intermediate
+What is view controller?,Object managing view hierarchy and user interactions,Data model,Network service,File manager,Option_1,Intermediate
+What is Android?,Google's operating system for mobile devices,Apple OS,Windows OS,Linux distribution,Option_1,Beginner
+What is Java in Android?,Primary language for Android development,Kotlin language,C++ language,Python language,Option_1,Beginner
+What is Kotlin?,Modern language for Android officially supported by Google,Java replacement,JavaScript variant,Objective-C alternative,Option_1,Beginner
+What is Android Studio?,Official IDE for Android development,Text editor,Web IDE,Database tool,Option_1,Beginner
+What is Android SDK?,Software development kit with tools and libraries,Emulator only,Documentation only,Testing framework,Option_1,Intermediate
+What is Android Virtual Device (AVD)?,Emulator simulating Android device,Physical device,Debugging tool,Testing framework,Option_1,Intermediate
+What is Activity in Android?,Component providing single screen UI,Background service,Data storage,Network service,Option_1,Beginner
+What is Fragment in Android?,Reusable UI component within activity,Full-screen component,Service component,Content provider,Option_1,Intermediate
+What is Service in Android?,Component for background tasks,User interface,Data storage,Network protocol,Option_1,Intermediate
+What is Intent in Android?,Message for requesting action from another component,User input,Data storage,Network request,Option_1,Intermediate
+What is AndroidManifest.xml?,Configuration file declaring app components,Layout file,Resource file,Code file,Option_1,Intermediate
+What is R.java in Android?,Auto-generated file containing resource IDs,User class,Data model,Network interface,Option_1,Intermediate
+What is ViewGroup in Android?,Container holding multiple views,Single view,Activity,Fragment,Option_1,Intermediate
+What is LinearLayout?,Layout arranging views in single column/row,Grid layout,Frame layout,Constraint layout,Option_1,Intermediate
+What is GridLayout?,Layout arranging views in grid,Linear layout,Frame layout,Relative layout,Option_1,Intermediate
+What is RecyclerView?,Component for efficiently displaying lists/grids,ListView only,GridView only,ScrollView,Option_1,Intermediate
+What is Adapter in Android?,Bridge between data and UI components,Activity,Service,Intent,Option_1,Intermediate
+What is SharedPreferences?,Lightweight storage for key-value pairs,SQL database,File storage,Network storage,Option_1,Intermediate
+What is SQLite?,Lightweight embedded relational database,Cloud database,NoSQL database,Remote database,Option_1,Intermediate
+What is Room database?,Abstraction layer over SQLite,SQLite directly,Cloud database,Shared preferences,Option_1,Intermediate
+What is ContentProvider?,Component sharing data between apps,Data storage,User interface,Background service,Option_1,Advanced
+What is Realm?,Mobile database alternative to SQLite,SQLite only,SQL database,NoSQL only,Option_1,Advanced
+What is HTTP request in mobile?,Network communication protocol,Local communication,File transfer,Bluetooth communication,Option_1,Intermediate
+What is REST API?,API using HTTP methods for operations,SOAP API,GraphQL,WebSocket,Option_1,Intermediate
+What is Retrofit?,HTTP client library for Android,Database library,UI framework,Testing framework,Option_1,Intermediate
+What is Okhttp?,HTTP client with advanced features,Web framework,Networking library,Request library,Option_1,Intermediate
+What is Volley?,Networking library for Android,HTTP client,Data storage,UI framework,Option_1,Intermediate
+What is JSON?,Data format for exchanging structured data,XML format,HTML format,CSS format,Option_1,Beginner
+What is Gson library?,JSON serialization/deserialization library,Networking library,UI framework,Database,Option_1,Intermediate
+What is threading in mobile?,Parallel execution of code,Sequential execution,Single-threaded,Synchronous execution,Option_1,Intermediate
+What is AsyncTask?,Class for background processing with UI updates,UI component,Data storage,Networking library,Option_1,Intermediate
+What is RxJava?,Reactive programming library for Android,HTTP library,UI framework,Database,Option_1,Advanced
+What is Coroutine in Kotlin?,Lightweight concurrency for asynchronous tasks,Threading mechanism,Async only,Callback system,Option_1,Advanced
+What is LiveData?,Observable data holder for lifecycle-aware updates,Regular variable,SharedPreferences,Static variable,Option_1,Advanced
+What is MVC in mobile?,Model-View-Controller architecture,Model-View-ViewModel,Model-View-Presenter,Other pattern,Option_1,Intermediate
+What is MVP in mobile?,Model-View-Presenter architecture,Model-View-Controller,Model-View-ViewModel,Other pattern,Option_1,Intermediate
+What is MVVM in mobile?,Model-View-ViewModel architecture,Model-View-Controller,Model-View-Presenter,Other pattern,Option_1,Intermediate
+What is clean architecture?,Layered architecture for scalable apps,Simple architecture,Monolithic architecture,No architecture,Option_1,Advanced
+What is dependency injection?,Providing dependencies to objects from outside,Hard-coded dependencies,Global variables,Static imports,Option_1,Advanced
+What is Dagger?,Dependency injection framework for Android,Networking library,UI framework,Database library,Option_1,Advanced
+What is Hilt?,DI framework built on Dagger for Android,Simple DI,Manual injection,Dependency binding,Option_1,Advanced
+What is unit testing?,Testing individual functions/components,Integration testing,UI testing,System testing,Option_1,Intermediate
+What is JUnit?,Testing framework for Java/Android,UI testing,Integration testing,Performance testing,Option_1,Intermediate
+What is Espresso?,UI testing framework for Android,Unit testing,Integration testing,API testing,Option_1,Intermediate
+What is Mockito?,Mocking framework for unit testing,UI testing,Integration testing,Testing runner,Option_1,Advanced
+What is instrumented test?,Test running on Android device/emulator,Local unit test,Static test,Compilation test,Option_1,Advanced
+What is ANR (Application Not Responding)?,App freeze lasting more than 5 seconds,App crash,App update,App termination,Option_1,Intermediate
+What is battery optimization?,Reducing power consumption in apps,Processing speed,Memory usage,Storage usage,Option_1,Intermediate
+What is memory leak?,Unreleased memory causing waste,Crash condition,Performance issue,Network issue,Option_1,Intermediate
+What is profiler?,Tool analyzing performance metrics,Compiler,Debugger,Version control,Option_1,Intermediate
+What is Systrace?,Tool analyzing system performance,Memory profiler,CPU profiler,Network monitor,Option_1,Advanced
+What is ProGuard?,Tool for code obfuscation and optimization,Compiler,Debugger,Testing tool,Option_1,Advanced
+What is Android security?,Protection mechanisms for user data,Data encryption,Permission system,All mechanisms,Option_1,Intermediate
+What is permission system?,Restricting app access to device features,User authentication,Encryption method,Data storage,Option_1,Intermediate
+What is keystore?,Storage for cryptographic keys,Password storage,Data encryption,User credentials,Option_1,Advanced
+What is SSL pinning?,Validating server certificate for security,Encryption method,Key storage,Data compression,Option_1,Advanced
+What is ProGuard minification?,Removing unused code reducing app size,Code optimization,Performance improvement,Memory reduction,Option_1,Advanced
+What is Flutter?,Cross-platform framework by Google using Dart,Android framework,iOS framework,Web framework,Option_1,Intermediate
+What is Dart?,Programming language for Flutter apps,Java,Swift,Kotlin,Option_1,Intermediate
+What is React Native?,Cross-platform framework using JavaScript/React,Flutter alternative,Native development,Web framework,Option_1,Intermediate
+What is Xamarin?,Cross-platform framework using C# and .NET,Java framework,JavaScript framework,Python framework,Option_1,Intermediate
+What is Ionic?,Hybrid mobile framework using web technologies,Native framework,Cross-platform SDK,Backend framework,Option_1,Intermediate
+What is Cordova?,Framework running web apps as mobile apps,Native framework,SDK,Build tool,Option_1,Intermediate
+What is state in mobile apps?,Data affecting UI rendering,User input,Network response,App initialization,Option_1,Intermediate
+What is ViewModel in Android?,Stores and manages UI-related data,UI component,Service,Intent,Option_1,Intermediate
+What is Redux?,Predictable state management for apps,Navigation library,UI framework,Testing tool,Option_1,Advanced
+What is BLoC pattern?,Business Logic Component pattern for state,Architectural pattern,Design pattern,Testing pattern,Option_1,Advanced
+What is MobX?,Reactive state management library,Redux alternative,Redux extension,Angular package,Option_1,Advanced
+What is navigation in mobile?,Moving between screens/fragments,App flow,User interaction,Activity lifecycle,Option_1,Beginner
+What is Navigation Component?,Android framework for managing in-app navigation,Activity manager,Fragment transaction,Intent routing,Option_1,Intermediate
+What is deep linking?,Direct linking to specific app content,Web linking,External linking,Bookmark,Option_1,Intermediate
+What is back stack?,Stack maintaining activity/fragment history,Memory management,Cache system,Data structure,Option_1,Intermediate
+What is caching?,Storing data for quick access,Memory management,Storage optimization,Speed improvement,Option_1,Intermediate
+What is disk caching?,Storing data on device storage,Memory caching,Network caching,CPU cache,Option_1,Intermediate
+What is API response caching?,Caching API responses locally,Server caching,Network caching,Memory cache,Option_1,Advanced
+What is WorkManager?,Scheduling deferrable background tasks,Foreground service,Regular service,AsyncTask,Option_1,Advanced
+What is Camera API?,Interface for accessing device camera,Photo library,Video player,Image processor,Option_1,Intermediate
+What is MediaPlayer?,Component for playing audio/video,Camera control,Image editor,Sound recorder,Option_1,Intermediate
+What is Glide?,Image loading and caching library,Video player,Image editor,Camera API,Option_1,Intermediate
+What is Picasso?,Image loading library for Android,Glide alternative,Camera API,Media player,Option_1,Intermediate
+What is Location API?,Accessing device GPS and location services,Sensor data,Movement tracking,Map integration,Option_1,Intermediate
+What is geofencing?,Triggering actions based on location boundaries,GPS tracking,Map display,Location caching,Option_1,Advanced
+What is sensor in mobile?,"Hardware like accelerometer, gyroscope, compass",GPS only,Camera only,Microphone only,Option_1,Intermediate
+What is SensorManager?,Framework for accessing device sensors,Location manager,Camera manager,Audio manager,Option_1,Advanced
+What are push notifications?,Messages sent to app from server,User notifications,Local notifications,System notifications,Option_1,Intermediate
+What is FCM (Firebase Cloud Messaging)?,Google service for sending push notifications,Email service,SMS service,Local notification,Option_1,Intermediate
+What is APNs (Apple Push Notification)?,Apple service for iOS push notifications,Android service,Email service,SMS service,Option_1,Intermediate
+What is Logcat?,Android logging system showing app/system logs,IDE feature,Build tool,Testing framework,Option_1,Intermediate
+What is Android Debugger?,Tool for debugging running apps,Compiler,Build system,Testing tool,Option_1,Intermediate
+What is Breakpoint debugging?,Pausing execution at specific code line,Log-based debugging,Static analysis,Testing,Option_1,Intermediate
+What is APK?,Android app package file format,iOS app format,Web application,Universal package,Option_1,Beginner
+What is AAB (Android App Bundle)?,Modern format for app distribution on Play Store,Legacy APK,Web format,iOS format,Option_1,Intermediate
+What is Google Play Store?,Official Android app marketplace,iOS App Store,Web store,Direct distribution,Option_1,Beginner
+What is App Store (iOS)?,Official Apple app marketplace for iOS,Google Play,Android store,Web store,Option_1,Beginner
+What is signing an app?,Using certificate to authenticate app author,Compilation,Testing,Publishing,Option_1,Intermediate
+What is alpha testing?,Internal testing by developers,Beta testing,User testing,Production release,Option_1,Intermediate
+What is beta testing?,Testing with limited external users,Alpha testing,Final release,Internal testing,Option_1,Intermediate
+What is accessibility in mobile?,Making apps usable for people with disabilities,UI design,Performance optimization,Security,Option_1,Intermediate
+What is screen reader?,Tool reading screen content aloud,Text editor,Code editor,Documentation tool,Option_1,Intermediate
+What is TalkBack?,Android's built-in screen reader,iOS feature,Browser extension,Testing tool,Option_1,Advanced
+What is VoiceOver?,iOS's built-in screen reader,Android feature,Windows tool,Browser feature,Option_1,Advanced
+What is localization?,Adapting app for different languages/regions,Translation only,Language support,Regional settings,Option_1,Intermediate
+What is internationalization?,Designing app to support multiple languages,Translation process,Localization,Language switching,Option_1,Advanced
+What is string resources?,External text strings for easy translation,Hard-coded strings,Database strings,API strings,Option_1,Intermediate
+What is WebSocket?,Protocol for real-time bidirectional communication,HTTP protocol,REST API,TCP protocol,Option_1,Advanced
+What is Firebase Realtime Database?,NoSQL cloud database with real-time sync,SQL database,Local database,Offline database,Option_1,Advanced
+What is Firestore?,Cloud NoSQL database with real-time features,Realtime database only,SQL database,Local storage,Option_1,Intermediate
+What is foreground service?,Service showing persistent notification,Background service,Regular service,Intent service,Option_1,Intermediate
+What is background execution limits?,Restrictions on background tasks,Battery optimization,Memory management,Processing limits,Option_1,Advanced
+What is JobScheduler?,System for scheduling background jobs,AsyncTask,WorkManager,Coroutines,Option_1,Intermediate
+What is FPS (Frames Per Second)?,Frame rate in animations and scrolling,Network speed,Download speed,Processing speed,Option_1,Intermediate
+What is janky frame?,Frame taking too long to render,Dropped frame,Skipped frame,Slow rendering,Option_1,Advanced
+What is overdraw?,Pixels painted multiple times per frame,Background color,Shadow rendering,Transparency,Option_1,Advanced
+What is mobile app development?,Creating applications for smartphones and tablets,Web development only,Desktop application creation,Server-side programming,Option_1,Beginner
+What are the main mobile platforms?,iOS and Android,Windows only,Linux only,Mac only,Option_1,Beginner
+What is native app development?,Apps built specifically for one platform using native language,Cross-platform apps,Web apps,Hybrid apps,Option_1,Beginner
+What is cross-platform app development?,Building apps for multiple platforms from single codebase,Platform-specific development,Native development,Web-only development,Option_1,Beginner
+What is hybrid app development?,Using web technologies inside native shell,Pure native development,Pure web development,Desktop development,Option_1,Beginner
+What is iOS?,Apple's operating system for iPhones and iPads,Android OS,Windows OS,Linux OS,Option_1,Beginner
+What is Swift?,Apple's modern programming language for iOS,Objective-C replacement,Java-like language,Python variant,Option_1,Beginner
+What is Objective-C?,Older programming language for iOS development,Modern language,Web language,Backend language,Option_1,Intermediate
+What is Xcode?,Apple's integrated development environment for iOS,Text editor,Web browser,Database manager,Option_1,Beginner
+What is UIKit?,Framework for building iOS user interfaces,Testing framework,Networking framework,Database framework,Option_1,Intermediate
+What is SwiftUI?,Modern declarative UI framework for iOS,UIKit replacement,Backend framework,Networking library,Option_1,Intermediate
+What is Storyboard?,Visual design tool for iOS UI,Code-based UI,Web design tool,Animation tool,Option_1,Intermediate
+What is auto layout?,System for creating responsive UI layouts,Manual layout,Fixed positioning,CSS layouts,Option_1,Intermediate
+What is segue in iOS?,Transition between view controllers,User action,Data model,Network request,Option_1,Intermediate
+What is view controller?,Object managing view hierarchy and user interactions,Data model,Network service,File manager,Option_1,Intermediate
+What is Android?,Google's operating system for mobile devices,Apple OS,Windows OS,Linux distribution,Option_1,Beginner
+What is Java in Android?,Primary language for Android development,Kotlin language,C++ language,Python language,Option_1,Beginner
+What is Kotlin?,Modern language for Android officially supported by Google,Java replacement,JavaScript variant,Objective-C alternative,Option_1,Beginner
+What is Android Studio?,Official IDE for Android development,Text editor,Web IDE,Database tool,Option_1,Beginner
+What is Android SDK?,Software development kit with tools and libraries,Emulator only,Documentation only,Testing framework,Option_1,Intermediate
+What is Android Virtual Device (AVD)?,Emulator simulating Android device,Physical device,Debugging tool,Testing framework,Option_1,Intermediate
+What is Activity in Android?,Component providing single screen UI,Background service,Data storage,Network service,Option_1,Beginner
+What is Fragment in Android?,Reusable UI component within activity,Full-screen component,Service component,Content provider,Option_1,Intermediate
+What is Service in Android?,Component for background tasks,User interface,Data storage,Network protocol,Option_1,Intermediate
+What is Intent in Android?,Message for requesting action from another component,User input,Data storage,Network request,Option_1,Intermediate
+What is AndroidManifest.xml?,Configuration file declaring app components,Layout file,Resource file,Code file,Option_1,Intermediate
+What is R.java in Android?,Auto-generated file containing resource IDs,User class,Data model,Network interface,Option_1,Intermediate
+What is ViewGroup in Android?,Container holding multiple views,Single view,Activity,Fragment,Option_1,Intermediate
+What is LinearLayout?,Layout arranging views in single column/row,Grid layout,Frame layout,Constraint layout,Option_1,Intermediate
+What is GridLayout?,Layout arranging views in grid,Linear layout,Frame layout,Relative layout,Option_1,Intermediate
+What is RecyclerView?,Component for efficiently displaying lists/grids,ListView only,GridView only,ScrollView,Option_1,Intermediate
+What is Adapter in Android?,Bridge between data and UI components,Activity,Service,Intent,Option_1,Intermediate
+What is SharedPreferences?,Lightweight storage for key-value pairs,SQL database,File storage,Network storage,Option_1,Intermediate
+What is SQLite?,Lightweight embedded relational database,Cloud database,NoSQL database,Remote database,Option_1,Intermediate
+What is Room database?,Abstraction layer over SQLite,SQLite directly,Cloud database,Shared preferences,Option_1,Intermediate
+What is ContentProvider?,Component sharing data between apps,Data storage,User interface,Background service,Option_1,Advanced
+What is Realm?,Mobile database alternative to SQLite,SQLite only,SQL database,NoSQL only,Option_1,Advanced
+What is HTTP request in mobile?,Network communication protocol,Local communication,File transfer,Bluetooth communication,Option_1,Intermediate
+What is REST API?,API using HTTP methods for operations,SOAP API,GraphQL,WebSocket,Option_1,Intermediate
+What is Retrofit?,HTTP client library for Android,Database library,UI framework,Testing framework,Option_1,Intermediate
+What is Okhttp?,HTTP client with advanced features,Web framework,Networking library,Request library,Option_1,Intermediate
+What is Volley?,Networking library for Android,HTTP client,Data storage,UI framework,Option_1,Intermediate
+What is JSON?,Data format for exchanging structured data,XML format,HTML format,CSS format,Option_1,Beginner
+What is Gson library?,JSON serialization/deserialization library,Networking library,UI framework,Database,Option_1,Intermediate
+What is threading in mobile?,Parallel execution of code,Sequential execution,Single-threaded,Synchronous execution,Option_1,Intermediate
+What is AsyncTask?,Class for background processing with UI updates,UI component,Data storage,Networking library,Option_1,Intermediate
+What is RxJava?,Reactive programming library for Android,HTTP library,UI framework,Database,Option_1,Advanced
+What is Coroutine in Kotlin?,Lightweight concurrency for asynchronous tasks,Threading mechanism,Async only,Callback system,Option_1,Advanced
+What is LiveData?,Observable data holder for lifecycle-aware updates,Regular variable,SharedPreferences,Static variable,Option_1,Advanced
+What is MVC in mobile?,Model-View-Controller architecture,Model-View-ViewModel,Model-View-Presenter,Other pattern,Option_1,Intermediate
+What is MVP in mobile?,Model-View-Presenter architecture,Model-View-Controller,Model-View-ViewModel,Other pattern,Option_1,Intermediate
+What is MVVM in mobile?,Model-View-ViewModel architecture,Model-View-Controller,Model-View-Presenter,Other pattern,Option_1,Intermediate
+What is clean architecture?,Layered architecture for scalable apps,Simple architecture,Monolithic architecture,No architecture,Option_1,Advanced
+What is dependency injection?,Providing dependencies to objects from outside,Hard-coded dependencies,Global variables,Static imports,Option_1,Advanced
+What is Dagger?,Dependency injection framework for Android,Networking library,UI framework,Database library,Option_1,Advanced
+What is Hilt?,DI framework built on Dagger for Android,Simple DI,Manual injection,Dependency binding,Option_1,Advanced
+What is unit testing?,Testing individual functions/components,Integration testing,UI testing,System testing,Option_1,Intermediate
+What is JUnit?,Testing framework for Java/Android,UI testing,Integration testing,Performance testing,Option_1,Intermediate
+What is Espresso?,UI testing framework for Android,Unit testing,Integration testing,API testing,Option_1,Intermediate
+What is Mockito?,Mocking framework for unit testing,UI testing,Integration testing,Testing runner,Option_1,Advanced
+What is instrumented test?,Test running on Android device/emulator,Local unit test,Static test,Compilation test,Option_1,Advanced
+What is ANR (Application Not Responding)?,App freeze lasting more than 5 seconds,App crash,App update,App termination,Option_1,Intermediate
+What is battery optimization?,Reducing power consumption in apps,Processing speed,Memory usage,Storage usage,Option_1,Intermediate
+What is memory leak?,Unreleased memory causing waste,Crash condition,Performance issue,Network issue,Option_1,Intermediate
+What is profiler?,Tool analyzing performance metrics,Compiler,Debugger,Version control,Option_1,Intermediate
+What is Systrace?,Tool analyzing system performance,Memory profiler,CPU profiler,Network monitor,Option_1,Advanced
+What is ProGuard?,Tool for code obfuscation and optimization,Compiler,Debugger,Testing tool,Option_1,Advanced
+What is Android security?,Protection mechanisms for user data,Data encryption,Permission system,All mechanisms,Option_1,Intermediate
+What is permission system?,Restricting app access to device features,User authentication,Encryption method,Data storage,Option_1,Intermediate
+What is keystore?,Storage for cryptographic keys,Password storage,Data encryption,User credentials,Option_1,Advanced
+What is SSL pinning?,Validating server certificate for security,Encryption method,Key storage,Data compression,Option_1,Advanced
+What is ProGuard minification?,Removing unused code reducing app size,Code optimization,Performance improvement,Memory reduction,Option_1,Advanced
+What is Flutter?,Cross-platform framework by Google using Dart,Android framework,iOS framework,Web framework,Option_1,Intermediate
+What is Dart?,Programming language for Flutter apps,Java,Swift,Kotlin,Option_1,Intermediate
+What is React Native?,Cross-platform framework using JavaScript/React,Flutter alternative,Native development,Web framework,Option_1,Intermediate
+What is Xamarin?,Cross-platform framework using C# and .NET,Java framework,JavaScript framework,Python framework,Option_1,Intermediate
+What is Ionic?,Hybrid mobile framework using web technologies,Native framework,Cross-platform SDK,Backend framework,Option_1,Intermediate
+What is Cordova?,Framework running web apps as mobile apps,Native framework,SDK,Build tool,Option_1,Intermediate
+What is state in mobile apps?,Data affecting UI rendering,User input,Network response,App initialization,Option_1,Intermediate
+What is ViewModel in Android?,Stores and manages UI-related data,UI component,Service,Intent,Option_1,Intermediate
+What is Redux?,Predictable state management for apps,Navigation library,UI framework,Testing tool,Option_1,Advanced
+What is BLoC pattern?,Business Logic Component pattern for state,Architectural pattern,Design pattern,Testing pattern,Option_1,Advanced
+What is MobX?,Reactive state management library,Redux alternative,Redux extension,Angular package,Option_1,Advanced
+What is navigation in mobile?,Moving between screens/fragments,App flow,User interaction,Activity lifecycle,Option_1,Beginner
+What is Navigation Component?,Android framework for managing in-app navigation,Activity manager,Fragment transaction,Intent routing,Option_1,Intermediate
+What is deep linking?,Direct linking to specific app content,Web linking,External linking,Bookmark,Option_1,Intermediate
+What is back stack?,Stack maintaining activity/fragment history,Memory management,Cache system,Data structure,Option_1,Intermediate
+What is caching?,Storing data for quick access,Memory management,Storage optimization,Speed improvement,Option_1,Intermediate
+What is disk caching?,Storing data on device storage,Memory caching,Network caching,CPU cache,Option_1,Intermediate
+What is API response caching?,Caching API responses locally,Server caching,Network caching,Memory cache,Option_1,Advanced
+What is WorkManager?,Scheduling deferrable background tasks,Foreground service,Regular service,AsyncTask,Option_1,Advanced
+What is Camera API?,Interface for accessing device camera,Photo library,Video player,Image processor,Option_1,Intermediate
+What is MediaPlayer?,Component for playing audio/video,Camera control,Image editor,Sound recorder,Option_1,Intermediate
+What is Glide?,Image loading and caching library,Video player,Image editor,Camera API,Option_1,Intermediate
+What is Picasso?,Image loading library for Android,Glide alternative,Camera API,Media player,Option_1,Intermediate
+What is Location API?,Accessing device GPS and location services,Sensor data,Movement tracking,Map integration,Option_1,Intermediate
+What is geofencing?,Triggering actions based on location boundaries,GPS tracking,Map display,Location caching,Option_1,Advanced
+What is sensor in mobile?,"Hardware like accelerometer, gyroscope, compass",GPS only,Camera only,Microphone only,Option_1,Intermediate
+What is SensorManager?,Framework for accessing device sensors,Location manager,Camera manager,Audio manager,Option_1,Advanced
+What are push notifications?,Messages sent to app from server,User notifications,Local notifications,System notifications,Option_1,Intermediate
+What is FCM (Firebase Cloud Messaging)?,Google service for sending push notifications,Email service,SMS service,Local notification,Option_1,Intermediate
+What is APNs (Apple Push Notification)?,Apple service for iOS push notifications,Android service,Email service,SMS service,Option_1,Intermediate
+What is Logcat?,Android logging system showing app/system logs,IDE feature,Build tool,Testing framework,Option_1,Intermediate
+What is Android Debugger?,Tool for debugging running apps,Compiler,Build system,Testing tool,Option_1,Intermediate
+What is Breakpoint debugging?,Pausing execution at specific code line,Log-based debugging,Static analysis,Testing,Option_1,Intermediate
+What is APK?,Android app package file format,iOS app format,Web application,Universal package,Option_1,Beginner
+What is AAB (Android App Bundle)?,Modern format for app distribution on Play Store,Legacy APK,Web format,iOS format,Option_1,Intermediate
+What is Google Play Store?,Official Android app marketplace,iOS App Store,Web store,Direct distribution,Option_1,Beginner
+What is App Store (iOS)?,Official Apple app marketplace for iOS,Google Play,Android store,Web store,Option_1,Beginner
+What is signing an app?,Using certificate to authenticate app author,Compilation,Testing,Publishing,Option_1,Intermediate
+What is alpha testing?,Internal testing by developers,Beta testing,User testing,Production release,Option_1,Intermediate
+What is beta testing?,Testing with limited external users,Alpha testing,Final release,Internal testing,Option_1,Intermediate
+What is accessibility in mobile?,Making apps usable for people with disabilities,UI design,Performance optimization,Security,Option_1,Intermediate
+What is screen reader?,Tool reading screen content aloud,Text editor,Code editor,Documentation tool,Option_1,Intermediate
+What is TalkBack?,Android's built-in screen reader,iOS feature,Browser extension,Testing tool,Option_1,Advanced
+What is VoiceOver?,iOS's built-in screen reader,Android feature,Windows tool,Browser feature,Option_1,Advanced
+What is localization?,Adapting app for different languages/regions,Translation only,Language support,Regional settings,Option_1,Intermediate
+What is internationalization?,Designing app to support multiple languages,Translation process,Localization,Language switching,Option_1,Advanced
+What is string resources?,External text strings for easy translation,Hard-coded strings,Database strings,API strings,Option_1,Intermediate
+What is WebSocket?,Protocol for real-time bidirectional communication,HTTP protocol,REST API,TCP protocol,Option_1,Advanced
+What is Firebase Realtime Database?,NoSQL cloud database with real-time sync,SQL database,Local database,Offline database,Option_1,Advanced
+What is Firestore?,Cloud NoSQL database with real-time features,Realtime database only,SQL database,Local storage,Option_1,Intermediate
+What is foreground service?,Service showing persistent notification,Background service,Regular service,Intent service,Option_1,Intermediate
+What is background execution limits?,Restrictions on background tasks,Battery optimization,Memory management,Processing limits,Option_1,Advanced
+What is JobScheduler?,System for scheduling background jobs,AsyncTask,WorkManager,Coroutines,Option_1,Intermediate
+What is FPS (Frames Per Second)?,Frame rate in animations and scrolling,Network speed,Download speed,Processing speed,Option_1,Intermediate
+What is janky frame?,Frame taking too long to render,Dropped frame,Skipped frame,Slow rendering,Option_1,Advanced
+What is overdraw?,Pixels painted multiple times per frame,Background color,Shadow rendering,Transparency,Option_1,Advanced
+What is mobile app development?,Creating applications for smartphones and tablets,Web development only,Desktop application creation,Server-side programming,Option_1,Beginner
+What are the main mobile platforms?,iOS and Android,Windows only,Linux only,Mac only,Option_1,Beginner
+What is native app development?,Apps built specifically for one platform using native language,Cross-platform apps,Web apps,Hybrid apps,Option_1,Beginner
+What is cross-platform app development?,Building apps for multiple platforms from single codebase,Platform-specific development,Native development,Web-only development,Option_1,Beginner
+What is hybrid app development?,Using web technologies inside native shell,Pure native development,Pure web development,Desktop development,Option_1,Beginner
+What is iOS?,Apple's operating system for iPhones and iPads,Android OS,Windows OS,Linux OS,Option_1,Beginner
+What is Swift?,Apple's modern programming language for iOS,Objective-C replacement,Java-like language,Python variant,Option_1,Beginner
+What is Objective-C?,Older programming language for iOS development,Modern language,Web language,Backend language,Option_1,Intermediate
+What is Xcode?,Apple's integrated development environment for iOS,Text editor,Web browser,Database manager,Option_1,Beginner
+What is UIKit?,Framework for building iOS user interfaces,Testing framework,Networking framework,Database framework,Option_1,Intermediate
+What is SwiftUI?,Modern declarative UI framework for iOS,UIKit replacement,Backend framework,Networking library,Option_1,Intermediate
+What is Storyboard?,Visual design tool for iOS UI,Code-based UI,Web design tool,Animation tool,Option_1,Intermediate
+What is auto layout?,System for creating responsive UI layouts,Manual layout,Fixed positioning,CSS layouts,Option_1,Intermediate
+What is segue in iOS?,Transition between view controllers,User action,Data model,Network request,Option_1,Intermediate
+What is view controller?,Object managing view hierarchy and user interactions,Data model,Network service,File manager,Option_1,Intermediate
+What is Android?,Google's operating system for mobile devices,Apple OS,Windows OS,Linux distribution,Option_1,Beginner
+What is Java in Android?,Primary language for Android development,Kotlin language,C++ language,Python language,Option_1,Beginner
+What is Kotlin?,Modern language for Android officially supported by Google,Java replacement,JavaScript variant,Objective-C alternative,Option_1,Beginner
+What is Android Studio?,Official IDE for Android development,Text editor,Web IDE,Database tool,Option_1,Beginner
+What is Android SDK?,Software development kit with tools and libraries,Emulator only,Documentation only,Testing framework,Option_1,Intermediate
+What is Android Virtual Device (AVD)?,Emulator simulating Android device,Physical device,Debugging tool,Testing framework,Option_1,Intermediate
+What is Activity in Android?,Component providing single screen UI,Background service,Data storage,Network service,Option_1,Beginner
+What is Fragment in Android?,Reusable UI component within activity,Full-screen component,Service component,Content provider,Option_1,Intermediate
+What is Service in Android?,Component for background tasks,User interface,Data storage,Network protocol,Option_1,Intermediate
+What is Intent in Android?,Message for requesting action from another component,User input,Data storage,Network request,Option_1,Intermediate
+What is AndroidManifest.xml?,Configuration file declaring app components,Layout file,Resource file,Code file,Option_1,Intermediate
+What is R.java in Android?,Auto-generated file containing resource IDs,User class,Data model,Network interface,Option_1,Intermediate
+What is ViewGroup in Android?,Container holding multiple views,Single view,Activity,Fragment,Option_1,Intermediate
+What is LinearLayout?,Layout arranging views in single column/row,Grid layout,Frame layout,Constraint layout,Option_1,Intermediate
+What is GridLayout?,Layout arranging views in grid,Linear layout,Frame layout,Relative layout,Option_1,Intermediate
+What is RecyclerView?,Component for efficiently displaying lists/grids,ListView only,GridView only,ScrollView,Option_1,Intermediate
+What is Adapter in Android?,Bridge between data and UI components,Activity,Service,Intent,Option_1,Intermediate
+What is SharedPreferences?,Lightweight storage for key-value pairs,SQL database,File storage,Network storage,Option_1,Intermediate
+What is SQLite?,Lightweight embedded relational database,Cloud database,NoSQL database,Remote database,Option_1,Intermediate
+What is Room database?,Abstraction layer over SQLite,SQLite directly,Cloud database,Shared preferences,Option_1,Intermediate
+What is ContentProvider?,Component sharing data between apps,Data storage,User interface,Background service,Option_1,Advanced
+What is Realm?,Mobile database alternative to SQLite,SQLite only,SQL database,NoSQL only,Option_1,Advanced
+What is HTTP request in mobile?,Network communication protocol,Local communication,File transfer,Bluetooth communication,Option_1,Intermediate
+What is REST API?,API using HTTP methods for operations,SOAP API,GraphQL,WebSocket,Option_1,Intermediate
+What is Retrofit?,HTTP client library for Android,Database library,UI framework,Testing framework,Option_1,Intermediate
+What is Okhttp?,HTTP client with advanced features,Web framework,Networking library,Request library,Option_1,Intermediate
+What is Volley?,Networking library for Android,HTTP client,Data storage,UI framework,Option_1,Intermediate
+What is JSON?,Data format for exchanging structured data,XML format,HTML format,CSS format,Option_1,Beginner
+What is Gson library?,JSON serialization/deserialization library,Networking library,UI framework,Database,Option_1,Intermediate
+What is threading in mobile?,Parallel execution of code,Sequential execution,Single-threaded,Synchronous execution,Option_1,Intermediate
+What is AsyncTask?,Class for background processing with UI updates,UI component,Data storage,Networking library,Option_1,Intermediate
+What is RxJava?,Reactive programming library for Android,HTTP library,UI framework,Database,Option_1,Advanced
+What is Coroutine in Kotlin?,Lightweight concurrency for asynchronous tasks,Threading mechanism,Async only,Callback system,Option_1,Advanced
+What is LiveData?,Observable data holder for lifecycle-aware updates,Regular variable,SharedPreferences,Static variable,Option_1,Advanced
+What is MVC in mobile?,Model-View-Controller architecture,Model-View-ViewModel,Model-View-Presenter,Other pattern,Option_1,Intermediate
+What is MVP in mobile?,Model-View-Presenter architecture,Model-View-Controller,Model-View-ViewModel,Other pattern,Option_1,Intermediate
+What is MVVM in mobile?,Model-View-ViewModel architecture,Model-View-Controller,Model-View-Presenter,Other pattern,Option_1,Intermediate
+What is clean architecture?,Layered architecture for scalable apps,Simple architecture,Monolithic architecture,No architecture,Option_1,Advanced
+What is dependency injection?,Providing dependencies to objects from outside,Hard-coded dependencies,Global variables,Static imports,Option_1,Advanced
+What is Dagger?,Dependency injection framework for Android,Networking library,UI framework,Database library,Option_1,Advanced
+What is Hilt?,DI framework built on Dagger for Android,Simple DI,Manual injection,Dependency binding,Option_1,Advanced
+What is unit testing?,Testing individual functions/components,Integration testing,UI testing,System testing,Option_1,Intermediate
+What is JUnit?,Testing framework for Java/Android,UI testing,Integration testing,Performance testing,Option_1,Intermediate
+What is Espresso?,UI testing framework for Android,Unit testing,Integration testing,API testing,Option_1,Intermediate
+What is Mockito?,Mocking framework for unit testing,UI testing,Integration testing,Testing runner,Option_1,Advanced
+What is instrumented test?,Test running on Android device/emulator,Local unit test,Static test,Compilation test,Option_1,Advanced
+What is ANR (Application Not Responding)?,App freeze lasting more than 5 seconds,App crash,App update,App termination,Option_1,Intermediate
+What is battery optimization?,Reducing power consumption in apps,Processing speed,Memory usage,Storage usage,Option_1,Intermediate
+What is memory leak?,Unreleased memory causing waste,Crash condition,Performance issue,Network issue,Option_1,Intermediate
+What is profiler?,Tool analyzing performance metrics,Compiler,Debugger,Version control,Option_1,Intermediate
+What is Systrace?,Tool analyzing system performance,Memory profiler,CPU profiler,Network monitor,Option_1,Advanced
+What is ProGuard?,Tool for code obfuscation and optimization,Compiler,Debugger,Testing tool,Option_1,Advanced
+What is Android security?,Protection mechanisms for user data,Data encryption,Permission system,All mechanisms,Option_1,Intermediate
+What is permission system?,Restricting app access to device features,User authentication,Encryption method,Data storage,Option_1,Intermediate
+What is keystore?,Storage for cryptographic keys,Password storage,Data encryption,User credentials,Option_1,Advanced
+What is SSL pinning?,Validating server certificate for security,Encryption method,Key storage,Data compression,Option_1,Advanced
+What is ProGuard minification?,Removing unused code reducing app size,Code optimization,Performance improvement,Memory reduction,Option_1,Advanced
+What is Flutter?,Cross-platform framework by Google using Dart,Android framework,iOS framework,Web framework,Option_1,Intermediate
+What is Dart?,Programming language for Flutter apps,Java,Swift,Kotlin,Option_1,Intermediate
+What is React Native?,Cross-platform framework using JavaScript/React,Flutter alternative,Native development,Web framework,Option_1,Intermediate
+What is Xamarin?,Cross-platform framework using C# and .NET,Java framework,JavaScript framework,Python framework,Option_1,Intermediate
+What is Ionic?,Hybrid mobile framework using web technologies,Native framework,Cross-platform SDK,Backend framework,Option_1,Intermediate
+What is Cordova?,Framework running web apps as mobile apps,Native framework,SDK,Build tool,Option_1,Intermediate
+What is state in mobile apps?,Data affecting UI rendering,User input,Network response,App initialization,Option_1,Intermediate
+What is ViewModel in Android?,Stores and manages UI-related data,UI component,Service,Intent,Option_1,Intermediate
+What is Redux?,Predictable state management for apps,Navigation library,UI framework,Testing tool,Option_1,Advanced
+What is BLoC pattern?,Business Logic Component pattern for state,Architectural pattern,Design pattern,Testing pattern,Option_1,Advanced
+What is MobX?,Reactive state management library,Redux alternative,Redux extension,Angular package,Option_1,Advanced
+What is navigation in mobile?,Moving between screens/fragments,App flow,User interaction,Activity lifecycle,Option_1,Beginner
+What is Navigation Component?,Android framework for managing in-app navigation,Activity manager,Fragment transaction,Intent routing,Option_1,Intermediate
+What is deep linking?,Direct linking to specific app content,Web linking,External linking,Bookmark,Option_1,Intermediate
+What is back stack?,Stack maintaining activity/fragment history,Memory management,Cache system,Data structure,Option_1,Intermediate
+What is caching?,Storing data for quick access,Memory management,Storage optimization,Speed improvement,Option_1,Intermediate
+What is disk caching?,Storing data on device storage,Memory caching,Network caching,CPU cache,Option_1,Intermediate
+What is API response caching?,Caching API responses locally,Server caching,Network caching,Memory cache,Option_1,Advanced
+What is WorkManager?,Scheduling deferrable background tasks,Foreground service,Regular service,AsyncTask,Option_1,Advanced
+What is Camera API?,Interface for accessing device camera,Photo library,Video player,Image processor,Option_1,Intermediate
+What is MediaPlayer?,Component for playing audio/video,Camera control,Image editor,Sound recorder,Option_1,Intermediate
+What is Glide?,Image loading and caching library,Video player,Image editor,Camera API,Option_1,Intermediate
+What is Picasso?,Image loading library for Android,Glide alternative,Camera API,Media player,Option_1,Intermediate
+What is Location API?,Accessing device GPS and location services,Sensor data,Movement tracking,Map integration,Option_1,Intermediate
+What is geofencing?,Triggering actions based on location boundaries,GPS tracking,Map display,Location caching,Option_1,Advanced
+What is sensor in mobile?,"Hardware like accelerometer, gyroscope, compass",GPS only,Camera only,Microphone only,Option_1,Intermediate
+What is SensorManager?,Framework for accessing device sensors,Location manager,Camera manager,Audio manager,Option_1,Advanced
+What are push notifications?,Messages sent to app from server,User notifications,Local notifications,System notifications,Option_1,Intermediate
+What is FCM (Firebase Cloud Messaging)?,Google service for sending push notifications,Email service,SMS service,Local notification,Option_1,Intermediate
+What is APNs (Apple Push Notification)?,Apple service for iOS push notifications,Android service,Email service,SMS service,Option_1,Intermediate
+What is Logcat?,Android logging system showing app/system logs,IDE feature,Build tool,Testing framework,Option_1,Intermediate
+What is Android Debugger?,Tool for debugging running apps,Compiler,Build system,Testing tool,Option_1,Intermediate
+What is Breakpoint debugging?,Pausing execution at specific code line,Log-based debugging,Static analysis,Testing,Option_1,Intermediate
+What is APK?,Android app package file format,iOS app format,Web application,Universal package,Option_1,Beginner
+What is AAB (Android App Bundle)?,Modern format for app distribution on Play Store,Legacy APK,Web format,iOS format,Option_1,Intermediate
+What is Google Play Store?,Official Android app marketplace,iOS App Store,Web store,Direct distribution,Option_1,Beginner
+What is App Store (iOS)?,Official Apple app marketplace for iOS,Google Play,Android store,Web store,Option_1,Beginner
+What is signing an app?,Using certificate to authenticate app author,Compilation,Testing,Publishing,Option_1,Intermediate
+What is alpha testing?,Internal testing by developers,Beta testing,User testing,Production release,Option_1,Intermediate
+What is beta testing?,Testing with limited external users,Alpha testing,Final release,Internal testing,Option_1,Intermediate
+What is accessibility in mobile?,Making apps usable for people with disabilities,UI design,Performance optimization,Security,Option_1,Intermediate
+What is screen reader?,Tool reading screen content aloud,Text editor,Code editor,Documentation tool,Option_1,Intermediate
+What is TalkBack?,Android's built-in screen reader,iOS feature,Browser extension,Testing tool,Option_1,Advanced
+What is VoiceOver?,iOS's built-in screen reader,Android feature,Windows tool,Browser feature,Option_1,Advanced
+What is localization?,Adapting app for different languages/regions,Translation only,Language support,Regional settings,Option_1,Intermediate
+What is internationalization?,Designing app to support multiple languages,Translation process,Localization,Language switching,Option_1,Advanced
+What is string resources?,External text strings for easy translation,Hard-coded strings,Database strings,API strings,Option_1,Intermediate
+What is WebSocket?,Protocol for real-time bidirectional communication,HTTP protocol,REST API,TCP protocol,Option_1,Advanced
+What is Firebase Realtime Database?,NoSQL cloud database with real-time sync,SQL database,Local database,Offline database,Option_1,Advanced
+What is Firestore?,Cloud NoSQL database with real-time features,Realtime database only,SQL database,Local storage,Option_1,Intermediate
+What is foreground service?,Service showing persistent notification,Background service,Regular service,Intent service,Option_1,Intermediate
+What is background execution limits?,Restrictions on background tasks,Battery optimization,Memory management,Processing limits,Option_1,Advanced
+What is JobScheduler?,System for scheduling background jobs,AsyncTask,WorkManager,Coroutines,Option_1,Intermediate
+What is FPS (Frames Per Second)?,Frame rate in animations and scrolling,Network speed,Download speed,Processing speed,Option_1,Intermediate
+What is janky frame?,Frame taking too long to render,Dropped frame,Skipped frame,Slow rendering,Option_1,Advanced
+What is overdraw?,Pixels painted multiple times per frame,Background color,Shadow rendering,Transparency,Option_1,Advanced
+What is mobile app development?,Creating applications for smartphones and tablets,Web development only,Desktop application creation,Server-side programming,Option_1,Beginner
+What are the main mobile platforms?,iOS and Android,Windows only,Linux only,Mac only,Option_1,Beginner
+What is native app development?,Apps built specifically for one platform using native language,Cross-platform apps,Web apps,Hybrid apps,Option_1,Beginner
+What is cross-platform app development?,Building apps for multiple platforms from single codebase,Platform-specific development,Native development,Web-only development,Option_1,Beginner
+What is hybrid app development?,Using web technologies inside native shell,Pure native development,Pure web development,Desktop development,Option_1,Beginner
+What is iOS?,Apple's operating system for iPhones and iPads,Android OS,Windows OS,Linux OS,Option_1,Beginner
+What is Swift?,Apple's modern programming language for iOS,Objective-C replacement,Java-like language,Python variant,Option_1,Beginner
+What is Objective-C?,Older programming language for iOS development,Modern language,Web language,Backend language,Option_1,Intermediate
+What is Xcode?,Apple's integrated development environment for iOS,Text editor,Web browser,Database manager,Option_1,Beginner
+What is UIKit?,Framework for building iOS user interfaces,Testing framework,Networking framework,Database framework,Option_1,Intermediate
+What is SwiftUI?,Modern declarative UI framework for iOS,UIKit replacement,Backend framework,Networking library,Option_1,Intermediate
+What is Storyboard?,Visual design tool for iOS UI,Code-based UI,Web design tool,Animation tool,Option_1,Intermediate
+What is auto layout?,System for creating responsive UI layouts,Manual layout,Fixed positioning,CSS layouts,Option_1,Intermediate
+What is segue in iOS?,Transition between view controllers,User action,Data model,Network request,Option_1,Intermediate
+What is view controller?,Object managing view hierarchy and user interactions,Data model,Network service,File manager,Option_1,Intermediate
+What is Android?,Google's operating system for mobile devices,Apple OS,Windows OS,Linux distribution,Option_1,Beginner
+What is Java in Android?,Primary language for Android development,Kotlin language,C++ language,Python language,Option_1,Beginner
+What is Kotlin?,Modern language for Android officially supported by Google,Java replacement,JavaScript variant,Objective-C alternative,Option_1,Beginner
+What is Android Studio?,Official IDE for Android development,Text editor,Web IDE,Database tool,Option_1,Beginner
+What is Android SDK?,Software development kit with tools and libraries,Emulator only,Documentation only,Testing framework,Option_1,Intermediate
+What is Android Virtual Device (AVD)?,Emulator simulating Android device,Physical device,Debugging tool,Testing framework,Option_1,Intermediate
+What is Activity in Android?,Component providing single screen UI,Background service,Data storage,Network service,Option_1,Beginner
+What is Fragment in Android?,Reusable UI component within activity,Full-screen component,Service component,Content provider,Option_1,Intermediate
+What is Service in Android?,Component for background tasks,User interface,Data storage,Network protocol,Option_1,Intermediate
+What is Intent in Android?,Message for requesting action from another component,User input,Data storage,Network request,Option_1,Intermediate
+What is AndroidManifest.xml?,Configuration file declaring app components,Layout file,Resource file,Code file,Option_1,Intermediate
+What is R.java in Android?,Auto-generated file containing resource IDs,User class,Data model,Network interface,Option_1,Intermediate
+What is ViewGroup in Android?,Container holding multiple views,Single view,Activity,Fragment,Option_1,Intermediate
+What is LinearLayout?,Layout arranging views in single column/row,Grid layout,Frame layout,Constraint layout,Option_1,Intermediate
+What is GridLayout?,Layout arranging views in grid,Linear layout,Frame layout,Relative layout,Option_1,Intermediate
+What is RecyclerView?,Component for efficiently displaying lists/grids,ListView only,GridView only,ScrollView,Option_1,Intermediate
+What is Adapter in Android?,Bridge between data and UI components,Activity,Service,Intent,Option_1,Intermediate
+What is SharedPreferences?,Lightweight storage for key-value pairs,SQL database,File storage,Network storage,Option_1,Intermediate
+What is SQLite?,Lightweight embedded relational database,Cloud database,NoSQL database,Remote database,Option_1,Intermediate
+What is Room database?,Abstraction layer over SQLite,SQLite directly,Cloud database,Shared preferences,Option_1,Intermediate
+What is ContentProvider?,Component sharing data between apps,Data storage,User interface,Background service,Option_1,Advanced
+What is Realm?,Mobile database alternative to SQLite,SQLite only,SQL database,NoSQL only,Option_1,Advanced
+What is HTTP request in mobile?,Network communication protocol,Local communication,File transfer,Bluetooth communication,Option_1,Intermediate
+What is REST API?,API using HTTP methods for operations,SOAP API,GraphQL,WebSocket,Option_1,Intermediate
+What is Retrofit?,HTTP client library for Android,Database library,UI framework,Testing framework,Option_1,Intermediate
+What is Okhttp?,HTTP client with advanced features,Web framework,Networking library,Request library,Option_1,Intermediate
+What is Volley?,Networking library for Android,HTTP client,Data storage,UI framework,Option_1,Intermediate
+What is JSON?,Data format for exchanging structured data,XML format,HTML format,CSS format,Option_1,Beginner
+What is Gson library?,JSON serialization/deserialization library,Networking library,UI framework,Database,Option_1,Intermediate
+What is threading in mobile?,Parallel execution of code,Sequential execution,Single-threaded,Synchronous execution,Option_1,Intermediate
+What is AsyncTask?,Class for background processing with UI updates,UI component,Data storage,Networking library,Option_1,Intermediate
+What is RxJava?,Reactive programming library for Android,HTTP library,UI framework,Database,Option_1,Advanced
+What is Coroutine in Kotlin?,Lightweight concurrency for asynchronous tasks,Threading mechanism,Async only,Callback system,Option_1,Advanced
+What is LiveData?,Observable data holder for lifecycle-aware updates,Regular variable,SharedPreferences,Static variable,Option_1,Advanced
+What is MVC in mobile?,Model-View-Controller architecture,Model-View-ViewModel,Model-View-Presenter,Other pattern,Option_1,Intermediate
+What is MVP in mobile?,Model-View-Presenter architecture,Model-View-Controller,Model-View-ViewModel,Other pattern,Option_1,Intermediate
+What is MVVM in mobile?,Model-View-ViewModel architecture,Model-View-Controller,Model-View-Presenter,Other pattern,Option_1,Intermediate
+What is clean architecture?,Layered architecture for scalable apps,Simple architecture,Monolithic architecture,No architecture,Option_1,Advanced
+What is dependency injection?,Providing dependencies to objects from outside,Hard-coded dependencies,Global variables,Static imports,Option_1,Advanced
+What is Dagger?,Dependency injection framework for Android,Networking library,UI framework,Database library,Option_1,Advanced
+What is Hilt?,DI framework built on Dagger for Android,Simple DI,Manual injection,Dependency binding,Option_1,Advanced
+What is unit testing?,Testing individual functions/components,Integration testing,UI testing,System testing,Option_1,Intermediate
+What is JUnit?,Testing framework for Java/Android,UI testing,Integration testing,Performance testing,Option_1,Intermediate
+What is Espresso?,UI testing framework for Android,Unit testing,Integration testing,API testing,Option_1,Intermediate
+What is Mockito?,Mocking framework for unit testing,UI testing,Integration testing,Testing runner,Option_1,Advanced
+What is instrumented test?,Test running on Android device/emulator,Local unit test,Static test,Compilation test,Option_1,Advanced
+What is ANR (Application Not Responding)?,App freeze lasting more than 5 seconds,App crash,App update,App termination,Option_1,Intermediate
+What is battery optimization?,Reducing power consumption in apps,Processing speed,Memory usage,Storage usage,Option_1,Intermediate
+What is memory leak?,Unreleased memory causing waste,Crash condition,Performance issue,Network issue,Option_1,Intermediate
+What is profiler?,Tool analyzing performance metrics,Compiler,Debugger,Version control,Option_1,Intermediate
+What is Systrace?,Tool analyzing system performance,Memory profiler,CPU profiler,Network monitor,Option_1,Advanced
+What is ProGuard?,Tool for code obfuscation and optimization,Compiler,Debugger,Testing tool,Option_1,Advanced
+What is Android security?,Protection mechanisms for user data,Data encryption,Permission system,All mechanisms,Option_1,Intermediate
+What is permission system?,Restricting app access to device features,User authentication,Encryption method,Data storage,Option_1,Intermediate
+What is keystore?,Storage for cryptographic keys,Password storage,Data encryption,User credentials,Option_1,Advanced
+What is SSL pinning?,Validating server certificate for security,Encryption method,Key storage,Data compression,Option_1,Advanced
+What is ProGuard minification?,Removing unused code reducing app size,Code optimization,Performance improvement,Memory reduction,Option_1,Advanced
+What is Flutter?,Cross-platform framework by Google using Dart,Android framework,iOS framework,Web framework,Option_1,Intermediate
+What is Dart?,Programming language for Flutter apps,Java,Swift,Kotlin,Option_1,Intermediate
+What is React Native?,Cross-platform framework using JavaScript/React,Flutter alternative,Native development,Web framework,Option_1,Intermediate
+What is Xamarin?,Cross-platform framework using C# and .NET,Java framework,JavaScript framework,Python framework,Option_1,Intermediate
+What is Ionic?,Hybrid mobile framework using web technologies,Native framework,Cross-platform SDK,Backend framework,Option_1,Intermediate
+What is Cordova?,Framework running web apps as mobile apps,Native framework,SDK,Build tool,Option_1,Intermediate
+What is state in mobile apps?,Data affecting UI rendering,User input,Network response,App initialization,Option_1,Intermediate
+What is ViewModel in Android?,Stores and manages UI-related data,UI component,Service,Intent,Option_1,Intermediate
+What is Redux?,Predictable state management for apps,Navigation library,UI framework,Testing tool,Option_1,Advanced
+What is BLoC pattern?,Business Logic Component pattern for state,Architectural pattern,Design pattern,Testing pattern,Option_1,Advanced
+What is MobX?,Reactive state management library,Redux alternative,Redux extension,Angular package,Option_1,Advanced
+What is navigation in mobile?,Moving between screens/fragments,App flow,User interaction,Activity lifecycle,Option_1,Beginner
+What is Navigation Component?,Android framework for managing in-app navigation,Activity manager,Fragment transaction,Intent routing,Option_1,Intermediate
+What is deep linking?,Direct linking to specific app content,Web linking,External linking,Bookmark,Option_1,Intermediate
+What is back stack?,Stack maintaining activity/fragment history,Memory management,Cache system,Data structure,Option_1,Intermediate
+What is caching?,Storing data for quick access,Memory management,Storage optimization,Speed improvement,Option_1,Intermediate
+What is disk caching?,Storing data on device storage,Memory caching,Network caching,CPU cache,Option_1,Intermediate
+What is API response caching?,Caching API responses locally,Server caching,Network caching,Memory cache,Option_1,Advanced
+What is WorkManager?,Scheduling deferrable background tasks,Foreground service,Regular service,AsyncTask,Option_1,Advanced
+What is Camera API?,Interface for accessing device camera,Photo library,Video player,Image processor,Option_1,Intermediate
+What is MediaPlayer?,Component for playing audio/video,Camera control,Image editor,Sound recorder,Option_1,Intermediate
+What is Glide?,Image loading and caching library,Video player,Image editor,Camera API,Option_1,Intermediate
+What is Picasso?,Image loading library for Android,Glide alternative,Camera API,Media player,Option_1,Intermediate
+What is Location API?,Accessing device GPS and location services,Sensor data,Movement tracking,Map integration,Option_1,Intermediate
+What is geofencing?,Triggering actions based on location boundaries,GPS tracking,Map display,Location caching,Option_1,Advanced
+What is sensor in mobile?,"Hardware like accelerometer, gyroscope, compass",GPS only,Camera only,Microphone only,Option_1,Intermediate
+What is SensorManager?,Framework for accessing device sensors,Location manager,Camera manager,Audio manager,Option_1,Advanced
+What are push notifications?,Messages sent to app from server,User notifications,Local notifications,System notifications,Option_1,Intermediate
+What is FCM (Firebase Cloud Messaging)?,Google service for sending push notifications,Email service,SMS service,Local notification,Option_1,Intermediate
+What is APNs (Apple Push Notification)?,Apple service for iOS push notifications,Android service,Email service,SMS service,Option_1,Intermediate
+What is Logcat?,Android logging system showing app/system logs,IDE feature,Build tool,Testing framework,Option_1,Intermediate
+What is Android Debugger?,Tool for debugging running apps,Compiler,Build system,Testing tool,Option_1,Intermediate
+What is Breakpoint debugging?,Pausing execution at specific code line,Log-based debugging,Static analysis,Testing,Option_1,Intermediate
+What is APK?,Android app package file format,iOS app format,Web application,Universal package,Option_1,Beginner
+What is AAB (Android App Bundle)?,Modern format for app distribution on Play Store,Legacy APK,Web format,iOS format,Option_1,Intermediate
+What is Google Play Store?,Official Android app marketplace,iOS App Store,Web store,Direct distribution,Option_1,Beginner
+What is App Store (iOS)?,Official Apple app marketplace for iOS,Google Play,Android store,Web store,Option_1,Beginner
+What is signing an app?,Using certificate to authenticate app author,Compilation,Testing,Publishing,Option_1,Intermediate
+What is alpha testing?,Internal testing by developers,Beta testing,User testing,Production release,Option_1,Intermediate
+What is beta testing?,Testing with limited external users,Alpha testing,Final release,Internal testing,Option_1,Intermediate
+What is accessibility in mobile?,Making apps usable for people with disabilities,UI design,Performance optimization,Security,Option_1,Intermediate
+What is screen reader?,Tool reading screen content aloud,Text editor,Code editor,Documentation tool,Option_1,Intermediate
+What is TalkBack?,Android's built-in screen reader,iOS feature,Browser extension,Testing tool,Option_1,Advanced
+What is VoiceOver?,iOS's built-in screen reader,Android feature,Windows tool,Browser feature,Option_1,Advanced
+What is localization?,Adapting app for different languages/regions,Translation only,Language support,Regional settings,Option_1,Intermediate
+What is internationalization?,Designing app to support multiple languages,Translation process,Localization,Language switching,Option_1,Advanced
+What is string resources?,External text strings for easy translation,Hard-coded strings,Database strings,API strings,Option_1,Intermediate
+What is WebSocket?,Protocol for real-time bidirectional communication,HTTP protocol,REST API,TCP protocol,Option_1,Advanced
+What is Firebase Realtime Database?,NoSQL cloud database with real-time sync,SQL database,Local database,Offline database,Option_1,Advanced
+What is Firestore?,Cloud NoSQL database with real-time features,Realtime database only,SQL database,Local storage,Option_1,Intermediate
+What is foreground service?,Service showing persistent notification,Background service,Regular service,Intent service,Option_1,Intermediate
+What is background execution limits?,Restrictions on background tasks,Battery optimization,Memory management,Processing limits,Option_1,Advanced
+What is JobScheduler?,System for scheduling background jobs,AsyncTask,WorkManager,Coroutines,Option_1,Intermediate
+What is FPS (Frames Per Second)?,Frame rate in animations and scrolling,Network speed,Download speed,Processing speed,Option_1,Intermediate
+What is janky frame?,Frame taking too long to render,Dropped frame,Skipped frame,Slow rendering,Option_1,Advanced
+What is overdraw?,Pixels painted multiple times per frame,Background color,Shadow rendering,Transparency,Option_1,Advanced
+What is mobile app development?,Creating applications for smartphones and tablets,Web development only,Desktop application creation,Server-side programming,Option_1,Beginner
+What are the main mobile platforms?,iOS and Android,Windows only,Linux only,Mac only,Option_1,Beginner
+What is native app development?,Apps built specifically for one platform using native language,Cross-platform apps,Web apps,Hybrid apps,Option_1,Beginner
+What is cross-platform app development?,Building apps for multiple platforms from single codebase,Platform-specific development,Native development,Web-only development,Option_1,Beginner
+What is hybrid app development?,Using web technologies inside native shell,Pure native development,Pure web development,Desktop development,Option_1,Beginner
+What is iOS?,Apple's operating system for iPhones and iPads,Android OS,Windows OS,Linux OS,Option_1,Beginner
+What is Swift?,Apple's modern programming language for iOS,Objective-C replacement,Java-like language,Python variant,Option_1,Beginner
+What is Objective-C?,Older programming language for iOS development,Modern language,Web language,Backend language,Option_1,Intermediate
+What is Xcode?,Apple's integrated development environment for iOS,Text editor,Web browser,Database manager,Option_1,Beginner
+What is UIKit?,Framework for building iOS user interfaces,Testing framework,Networking framework,Database framework,Option_1,Intermediate
+What is SwiftUI?,Modern declarative UI framework for iOS,UIKit replacement,Backend framework,Networking library,Option_1,Intermediate
+What is Storyboard?,Visual design tool for iOS UI,Code-based UI,Web design tool,Animation tool,Option_1,Intermediate
+What is auto layout?,System for creating responsive UI layouts,Manual layout,Fixed positioning,CSS layouts,Option_1,Intermediate
+What is segue in iOS?,Transition between view controllers,User action,Data model,Network request,Option_1,Intermediate
+What is view controller?,Object managing view hierarchy and user interactions,Data model,Network service,File manager,Option_1,Intermediate
+What is Android?,Google's operating system for mobile devices,Apple OS,Windows OS,Linux distribution,Option_1,Beginner
+What is Java in Android?,Primary language for Android development,Kotlin language,C++ language,Python language,Option_1,Beginner
+What is Kotlin?,Modern language for Android officially supported by Google,Java replacement,JavaScript variant,Objective-C alternative,Option_1,Beginner
+What is Android Studio?,Official IDE for Android development,Text editor,Web IDE,Database tool,Option_1,Beginner
+What is Android SDK?,Software development kit with tools and libraries,Emulator only,Documentation only,Testing framework,Option_1,Intermediate
+What is Android Virtual Device (AVD)?,Emulator simulating Android device,Physical device,Debugging tool,Testing framework,Option_1,Intermediate
+What is Activity in Android?,Component providing single screen UI,Background service,Data storage,Network service,Option_1,Beginner
+What is Fragment in Android?,Reusable UI component within activity,Full-screen component,Service component,Content provider,Option_1,Intermediate
+What is Service in Android?,Component for background tasks,User interface,Data storage,Network protocol,Option_1,Intermediate
+What is Intent in Android?,Message for requesting action from another component,User input,Data storage,Network request,Option_1,Intermediate
+What is AndroidManifest.xml?,Configuration file declaring app components,Layout file,Resource file,Code file,Option_1,Intermediate
+What is R.java in Android?,Auto-generated file containing resource IDs,User class,Data model,Network interface,Option_1,Intermediate
+What is ViewGroup in Android?,Container holding multiple views,Single view,Activity,Fragment,Option_1,Intermediate
+What is LinearLayout?,Layout arranging views in single column/row,Grid layout,Frame layout,Constraint layout,Option_1,Intermediate
+What is GridLayout?,Layout arranging views in grid,Linear layout,Frame layout,Relative layout,Option_1,Intermediate
+What is RecyclerView?,Component for efficiently displaying lists/grids,ListView only,GridView only,ScrollView,Option_1,Intermediate
+What is Adapter in Android?,Bridge between data and UI components,Activity,Service,Intent,Option_1,Intermediate
+What is SharedPreferences?,Lightweight storage for key-value pairs,SQL database,File storage,Network storage,Option_1,Intermediate
+What is SQLite?,Lightweight embedded relational database,Cloud database,NoSQL database,Remote database,Option_1,Intermediate
+What is Room database?,Abstraction layer over SQLite,SQLite directly,Cloud database,Shared preferences,Option_1,Intermediate
+What is ContentProvider?,Component sharing data between apps,Data storage,User interface,Background service,Option_1,Advanced
+What is Realm?,Mobile database alternative to SQLite,SQLite only,SQL database,NoSQL only,Option_1,Advanced
+What is HTTP request in mobile?,Network communication protocol,Local communication,File transfer,Bluetooth communication,Option_1,Intermediate
+What is REST API?,API using HTTP methods for operations,SOAP API,GraphQL,WebSocket,Option_1,Intermediate
+What is Retrofit?,HTTP client library for Android,Database library,UI framework,Testing framework,Option_1,Intermediate
+What is Okhttp?,HTTP client with advanced features,Web framework,Networking library,Request library,Option_1,Intermediate
+What is Volley?,Networking library for Android,HTTP client,Data storage,UI framework,Option_1,Intermediate
+What is JSON?,Data format for exchanging structured data,XML format,HTML format,CSS format,Option_1,Beginner
+What is Gson library?,JSON serialization/deserialization library,Networking library,UI framework,Database,Option_1,Intermediate
+What is threading in mobile?,Parallel execution of code,Sequential execution,Single-threaded,Synchronous execution,Option_1,Intermediate
+What is AsyncTask?,Class for background processing with UI updates,UI component,Data storage,Networking library,Option_1,Intermediate
+What is RxJava?,Reactive programming library for Android,HTTP library,UI framework,Database,Option_1,Advanced
+What is Coroutine in Kotlin?,Lightweight concurrency for asynchronous tasks,Threading mechanism,Async only,Callback system,Option_1,Advanced
+What is LiveData?,Observable data holder for lifecycle-aware updates,Regular variable,SharedPreferences,Static variable,Option_1,Advanced
+What is MVC in mobile?,Model-View-Controller architecture,Model-View-ViewModel,Model-View-Presenter,Other pattern,Option_1,Intermediate
+What is MVP in mobile?,Model-View-Presenter architecture,Model-View-Controller,Model-View-ViewModel,Other pattern,Option_1,Intermediate
+What is MVVM in mobile?,Model-View-ViewModel architecture,Model-View-Controller,Model-View-Presenter,Other pattern,Option_1,Intermediate
+What is clean architecture?,Layered architecture for scalable apps,Simple architecture,Monolithic architecture,No architecture,Option_1,Advanced
+What is dependency injection?,Providing dependencies to objects from outside,Hard-coded dependencies,Global variables,Static imports,Option_1,Advanced
+What is Dagger?,Dependency injection framework for Android,Networking library,UI framework,Database library,Option_1,Advanced
+What is Hilt?,DI framework built on Dagger for Android,Simple DI,Manual injection,Dependency binding,Option_1,Advanced
+What is unit testing?,Testing individual functions/components,Integration testing,UI testing,System testing,Option_1,Intermediate
+What is JUnit?,Testing framework for Java/Android,UI testing,Integration testing,Performance testing,Option_1,Intermediate
+What is Espresso?,UI testing framework for Android,Unit testing,Integration testing,API testing,Option_1,Intermediate
+What is Mockito?,Mocking framework for unit testing,UI testing,Integration testing,Testing runner,Option_1,Advanced
+What is instrumented test?,Test running on Android device/emulator,Local unit test,Static test,Compilation test,Option_1,Advanced
+What is ANR (Application Not Responding)?,App freeze lasting more than 5 seconds,App crash,App update,App termination,Option_1,Intermediate
+What is battery optimization?,Reducing power consumption in apps,Processing speed,Memory usage,Storage usage,Option_1,Intermediate
+What is memory leak?,Unreleased memory causing waste,Crash condition,Performance issue,Network issue,Option_1,Intermediate
+What is profiler?,Tool analyzing performance metrics,Compiler,Debugger,Version control,Option_1,Intermediate
+What is Systrace?,Tool analyzing system performance,Memory profiler,CPU profiler,Network monitor,Option_1,Advanced
+What is ProGuard?,Tool for code obfuscation and optimization,Compiler,Debugger,Testing tool,Option_1,Advanced
+What is Android security?,Protection mechanisms for user data,Data encryption,Permission system,All mechanisms,Option_1,Intermediate
+What is permission system?,Restricting app access to device features,User authentication,Encryption method,Data storage,Option_1,Intermediate
+What is keystore?,Storage for cryptographic keys,Password storage,Data encryption,User credentials,Option_1,Advanced
+What is SSL pinning?,Validating server certificate for security,Encryption method,Key storage,Data compression,Option_1,Advanced
+What is ProGuard minification?,Removing unused code reducing app size,Code optimization,Performance improvement,Memory reduction,Option_1,Advanced
+What is Flutter?,Cross-platform framework by Google using Dart,Android framework,iOS framework,Web framework,Option_1,Intermediate
+What is Dart?,Programming language for Flutter apps,Java,Swift,Kotlin,Option_1,Intermediate
+What is React Native?,Cross-platform framework using JavaScript/React,Flutter alternative,Native development,Web framework,Option_1,Intermediate
+What is Xamarin?,Cross-platform framework using C# and .NET,Java framework,JavaScript framework,Python framework,Option_1,Intermediate
+What is Ionic?,Hybrid mobile framework using web technologies,Native framework,Cross-platform SDK,Backend framework,Option_1,Intermediate
+What is Cordova?,Framework running web apps as mobile apps,Native framework,SDK,Build tool,Option_1,Intermediate
+What is state in mobile apps?,Data affecting UI rendering,User input,Network response,App initialization,Option_1,Intermediate
+What is ViewModel in Android?,Stores and manages UI-related data,UI component,Service,Intent,Option_1,Intermediate
+What is Redux?,Predictable state management for apps,Navigation library,UI framework,Testing tool,Option_1,Advanced
+What is BLoC pattern?,Business Logic Component pattern for state,Architectural pattern,Design pattern,Testing pattern,Option_1,Advanced
+What is MobX?,Reactive state management library,Redux alternative,Redux extension,Angular package,Option_1,Advanced
+What is navigation in mobile?,Moving between screens/fragments,App flow,User interaction,Activity lifecycle,Option_1,Beginner
+What is Navigation Component?,Android framework for managing in-app navigation,Activity manager,Fragment transaction,Intent routing,Option_1,Intermediate
+What is deep linking?,Direct linking to specific app content,Web linking,External linking,Bookmark,Option_1,Intermediate
+What is back stack?,Stack maintaining activity/fragment history,Memory management,Cache system,Data structure,Option_1,Intermediate
+What is caching?,Storing data for quick access,Memory management,Storage optimization,Speed improvement,Option_1,Intermediate
+What is disk caching?,Storing data on device storage,Memory caching,Network caching,CPU cache,Option_1,Intermediate
+What is API response caching?,Caching API responses locally,Server caching,Network caching,Memory cache,Option_1,Advanced
+What is WorkManager?,Scheduling deferrable background tasks,Foreground service,Regular service,AsyncTask,Option_1,Advanced
+What is Camera API?,Interface for accessing device camera,Photo library,Video player,Image processor,Option_1,Intermediate
+What is MediaPlayer?,Component for playing audio/video,Camera control,Image editor,Sound recorder,Option_1,Intermediate
+What is Glide?,Image loading and caching library,Video player,Image editor,Camera API,Option_1,Intermediate
+What is Picasso?,Image loading library for Android,Glide alternative,Camera API,Media player,Option_1,Intermediate
+What is Location API?,Accessing device GPS and location services,Sensor data,Movement tracking,Map integration,Option_1,Intermediate
+What is geofencing?,Triggering actions based on location boundaries,GPS tracking,Map display,Location caching,Option_1,Advanced
+What is sensor in mobile?,"Hardware like accelerometer, gyroscope, compass",GPS only,Camera only,Microphone only,Option_1,Intermediate
+What is SensorManager?,Framework for accessing device sensors,Location manager,Camera manager,Audio manager,Option_1,Advanced
+What are push notifications?,Messages sent to app from server,User notifications,Local notifications,System notifications,Option_1,Intermediate
+What is FCM (Firebase Cloud Messaging)?,Google service for sending push notifications,Email service,SMS service,Local notification,Option_1,Intermediate
+What is APNs (Apple Push Notification)?,Apple service for iOS push notifications,Android service,Email service,SMS service,Option_1,Intermediate
+What is Logcat?,Android logging system showing app/system logs,IDE feature,Build tool,Testing framework,Option_1,Intermediate
+What is Android Debugger?,Tool for debugging running apps,Compiler,Build system,Testing tool,Option_1,Intermediate
+What is Breakpoint debugging?,Pausing execution at specific code line,Log-based debugging,Static analysis,Testing,Option_1,Intermediate
+What is APK?,Android app package file format,iOS app format,Web application,Universal package,Option_1,Beginner
+What is AAB (Android App Bundle)?,Modern format for app distribution on Play Store,Legacy APK,Web format,iOS format,Option_1,Intermediate
+What is Google Play Store?,Official Android app marketplace,iOS App Store,Web store,Direct distribution,Option_1,Beginner
+What is App Store (iOS)?,Official Apple app marketplace for iOS,Google Play,Android store,Web store,Option_1,Beginner
+What is signing an app?,Using certificate to authenticate app author,Compilation,Testing,Publishing,Option_1,Intermediate
+What is alpha testing?,Internal testing by developers,Beta testing,User testing,Production release,Option_1,Intermediate
+What is beta testing?,Testing with limited external users,Alpha testing,Final release,Internal testing,Option_1,Intermediate
+What is accessibility in mobile?,Making apps usable for people with disabilities,UI design,Performance optimization,Security,Option_1,Intermediate
+What is screen reader?,Tool reading screen content aloud,Text editor,Code editor,Documentation tool,Option_1,Intermediate
+What is TalkBack?,Android's built-in screen reader,iOS feature,Browser extension,Testing tool,Option_1,Advanced
+What is VoiceOver?,iOS's built-in screen reader,Android feature,Windows tool,Browser feature,Option_1,Advanced
+What is localization?,Adapting app for different languages/regions,Translation only,Language support,Regional settings,Option_1,Intermediate
+What is internationalization?,Designing app to support multiple languages,Translation process,Localization,Language switching,Option_1,Advanced
+What is string resources?,External text strings for easy translation,Hard-coded strings,Database strings,API strings,Option_1,Intermediate
+What is WebSocket?,Protocol for real-time bidirectional communication,HTTP protocol,REST API,TCP protocol,Option_1,Advanced
+What is Firebase Realtime Database?,NoSQL cloud database with real-time sync,SQL database,Local database,Offline database,Option_1,Advanced
+What is Firestore?,Cloud NoSQL database with real-time features,Realtime database only,SQL database,Local storage,Option_1,Intermediate
+What is foreground service?,Service showing persistent notification,Background service,Regular service,Intent service,Option_1,Intermediate
+What is background execution limits?,Restrictions on background tasks,Battery optimization,Memory management,Processing limits,Option_1,Advanced
+What is JobScheduler?,System for scheduling background jobs,AsyncTask,WorkManager,Coroutines,Option_1,Intermediate
+What is FPS (Frames Per Second)?,Frame rate in animations and scrolling,Network speed,Download speed,Processing speed,Option_1,Intermediate
+What is janky frame?,Frame taking too long to render,Dropped frame,Skipped frame,Slow rendering,Option_1,Advanced
+What is overdraw?,Pixels painted multiple times per frame,Background color,Shadow rendering,Transparency,Option_1,Advanced
+What is mobile app development?,Creating applications for smartphones and tablets,Web development only,Desktop application creation,Server-side programming,Option_1,Beginner
+What are the main mobile platforms?,iOS and Android,Windows only,Linux only,Mac only,Option_1,Beginner
+What is native app development?,Apps built specifically for one platform using native language,Cross-platform apps,Web apps,Hybrid apps,Option_1,Beginner
+What is cross-platform app development?,Building apps for multiple platforms from single codebase,Platform-specific development,Native development,Web-only development,Option_1,Beginner
+What is hybrid app development?,Using web technologies inside native shell,Pure native development,Pure web development,Desktop development,Option_1,Beginner
+What is iOS?,Apple's operating system for iPhones and iPads,Android OS,Windows OS,Linux OS,Option_1,Beginner
+What is Swift?,Apple's modern programming language for iOS,Objective-C replacement,Java-like language,Python variant,Option_1,Beginner
+What is Objective-C?,Older programming language for iOS development,Modern language,Web language,Backend language,Option_1,Intermediate
+What is Xcode?,Apple's integrated development environment for iOS,Text editor,Web browser,Database manager,Option_1,Beginner
+What is UIKit?,Framework for building iOS user interfaces,Testing framework,Networking framework,Database framework,Option_1,Intermediate
+What is SwiftUI?,Modern declarative UI framework for iOS,UIKit replacement,Backend framework,Networking library,Option_1,Intermediate
+What is Storyboard?,Visual design tool for iOS UI,Code-based UI,Web design tool,Animation tool,Option_1,Intermediate
+What is auto layout?,System for creating responsive UI layouts,Manual layout,Fixed positioning,CSS layouts,Option_1,Intermediate
+What is segue in iOS?,Transition between view controllers,User action,Data model,Network request,Option_1,Intermediate
+What is view controller?,Object managing view hierarchy and user interactions,Data model,Network service,File manager,Option_1,Intermediate
+What is Android?,Google's operating system for mobile devices,Apple OS,Windows OS,Linux distribution,Option_1,Beginner
+What is Java in Android?,Primary language for Android development,Kotlin language,C++ language,Python language,Option_1,Beginner
+What is Kotlin?,Modern language for Android officially supported by Google,Java replacement,JavaScript variant,Objective-C alternative,Option_1,Beginner
+What is Android Studio?,Official IDE for Android development,Text editor,Web IDE,Database tool,Option_1,Beginner
+What is Android SDK?,Software development kit with tools and libraries,Emulator only,Documentation only,Testing framework,Option_1,Intermediate
+What is Android Virtual Device (AVD)?,Emulator simulating Android device,Physical device,Debugging tool,Testing framework,Option_1,Intermediate
+What is Activity in Android?,Component providing single screen UI,Background service,Data storage,Network service,Option_1,Beginner
+What is Fragment in Android?,Reusable UI component within activity,Full-screen component,Service component,Content provider,Option_1,Intermediate
+What is Service in Android?,Component for background tasks,User interface,Data storage,Network protocol,Option_1,Intermediate
+What is Intent in Android?,Message for requesting action from another component,User input,Data storage,Network request,Option_1,Intermediate
+What is AndroidManifest.xml?,Configuration file declaring app components,Layout file,Resource file,Code file,Option_1,Intermediate
+What is R.java in Android?,Auto-generated file containing resource IDs,User class,Data model,Network interface,Option_1,Intermediate
+What is ViewGroup in Android?,Container holding multiple views,Single view,Activity,Fragment,Option_1,Intermediate
+What is LinearLayout?,Layout arranging views in single column/row,Grid layout,Frame layout,Constraint layout,Option_1,Intermediate
+What is GridLayout?,Layout arranging views in grid,Linear layout,Frame layout,Relative layout,Option_1,Intermediate
+What is RecyclerView?,Component for efficiently displaying lists/grids,ListView only,GridView only,ScrollView,Option_1,Intermediate
+What is Adapter in Android?,Bridge between data and UI components,Activity,Service,Intent,Option_1,Intermediate
+What is SharedPreferences?,Lightweight storage for key-value pairs,SQL database,File storage,Network storage,Option_1,Intermediate
+What is SQLite?,Lightweight embedded relational database,Cloud database,NoSQL database,Remote database,Option_1,Intermediate
+What is Room database?,Abstraction layer over SQLite,SQLite directly,Cloud database,Shared preferences,Option_1,Intermediate
+What is ContentProvider?,Component sharing data between apps,Data storage,User interface,Background service,Option_1,Advanced
+What is Realm?,Mobile database alternative to SQLite,SQLite only,SQL database,NoSQL only,Option_1,Advanced
+What is HTTP request in mobile?,Network communication protocol,Local communication,File transfer,Bluetooth communication,Option_1,Intermediate
+What is REST API?,API using HTTP methods for operations,SOAP API,GraphQL,WebSocket,Option_1,Intermediate
+What is Retrofit?,HTTP client library for Android,Database library,UI framework,Testing framework,Option_1,Intermediate
+What is Okhttp?,HTTP client with advanced features,Web framework,Networking library,Request library,Option_1,Intermediate
+What is Volley?,Networking library for Android,HTTP client,Data storage,UI framework,Option_1,Intermediate
+What is JSON?,Data format for exchanging structured data,XML format,HTML format,CSS format,Option_1,Beginner
+What is Gson library?,JSON serialization/deserialization library,Networking library,UI framework,Database,Option_1,Intermediate
+What is threading in mobile?,Parallel execution of code,Sequential execution,Single-threaded,Synchronous execution,Option_1,Intermediate
+What is AsyncTask?,Class for background processing with UI updates,UI component,Data storage,Networking library,Option_1,Intermediate
+What is RxJava?,Reactive programming library for Android,HTTP library,UI framework,Database,Option_1,Advanced
+What is Coroutine in Kotlin?,Lightweight concurrency for asynchronous tasks,Threading mechanism,Async only,Callback system,Option_1,Advanced
+What is LiveData?,Observable data holder for lifecycle-aware updates,Regular variable,SharedPreferences,Static variable,Option_1,Advanced
+What is MVC in mobile?,Model-View-Controller architecture,Model-View-ViewModel,Model-View-Presenter,Other pattern,Option_1,Intermediate
+What is MVP in mobile?,Model-View-Presenter architecture,Model-View-Controller,Model-View-ViewModel,Other pattern,Option_1,Intermediate
+What is MVVM in mobile?,Model-View-ViewModel architecture,Model-View-Controller,Model-View-Presenter,Other pattern,Option_1,Intermediate
+What is clean architecture?,Layered architecture for scalable apps,Simple architecture,Monolithic architecture,No architecture,Option_1,Advanced
+What is dependency injection?,Providing dependencies to objects from outside,Hard-coded dependencies,Global variables,Static imports,Option_1,Advanced
+What is Dagger?,Dependency injection framework for Android,Networking library,UI framework,Database library,Option_1,Advanced
+What is Hilt?,DI framework built on Dagger for Android,Simple DI,Manual injection,Dependency binding,Option_1,Advanced
+What is unit testing?,Testing individual functions/components,Integration testing,UI testing,System testing,Option_1,Intermediate
+What is JUnit?,Testing framework for Java/Android,UI testing,Integration testing,Performance testing,Option_1,Intermediate
+What is Espresso?,UI testing framework for Android,Unit testing,Integration testing,API testing,Option_1,Intermediate
+What is Mockito?,Mocking framework for unit testing,UI testing,Integration testing,Testing runner,Option_1,Advanced
+What is instrumented test?,Test running on Android device/emulator,Local unit test,Static test,Compilation test,Option_1,Advanced
+What is ANR (Application Not Responding)?,App freeze lasting more than 5 seconds,App crash,App update,App termination,Option_1,Intermediate
+What is battery optimization?,Reducing power consumption in apps,Processing speed,Memory usage,Storage usage,Option_1,Intermediate
+What is memory leak?,Unreleased memory causing waste,Crash condition,Performance issue,Network issue,Option_1,Intermediate
+What is profiler?,Tool analyzing performance metrics,Compiler,Debugger,Version control,Option_1,Intermediate
+What is Systrace?,Tool analyzing system performance,Memory profiler,CPU profiler,Network monitor,Option_1,Advanced
+What is ProGuard?,Tool for code obfuscation and optimization,Compiler,Debugger,Testing tool,Option_1,Advanced
+What is Android security?,Protection mechanisms for user data,Data encryption,Permission system,All mechanisms,Option_1,Intermediate
+What is permission system?,Restricting app access to device features,User authentication,Encryption method,Data storage,Option_1,Intermediate
+What is keystore?,Storage for cryptographic keys,Password storage,Data encryption,User credentials,Option_1,Advanced
+What is SSL pinning?,Validating server certificate for security,Encryption method,Key storage,Data compression,Option_1,Advanced
+What is ProGuard minification?,Removing unused code reducing app size,Code optimization,Performance improvement,Memory reduction,Option_1,Advanced
+What is Flutter?,Cross-platform framework by Google using Dart,Android framework,iOS framework,Web framework,Option_1,Intermediate
+What is Dart?,Programming language for Flutter apps,Java,Swift,Kotlin,Option_1,Intermediate
+What is React Native?,Cross-platform framework using JavaScript/React,Flutter alternative,Native development,Web framework,Option_1,Intermediate
+What is Xamarin?,Cross-platform framework using C# and .NET,Java framework,JavaScript framework,Python framework,Option_1,Intermediate
+What is Ionic?,Hybrid mobile framework using web technologies,Native framework,Cross-platform SDK,Backend framework,Option_1,Intermediate
+What is Cordova?,Framework running web apps as mobile apps,Native framework,SDK,Build tool,Option_1,Intermediate
+What is state in mobile apps?,Data affecting UI rendering,User input,Network response,App initialization,Option_1,Intermediate
+What is ViewModel in Android?,Stores and manages UI-related data,UI component,Service,Intent,Option_1,Intermediate
+What is Redux?,Predictable state management for apps,Navigation library,UI framework,Testing tool,Option_1,Advanced
+What is BLoC pattern?,Business Logic Component pattern for state,Architectural pattern,Design pattern,Testing pattern,Option_1,Advanced
+What is MobX?,Reactive state management library,Redux alternative,Redux extension,Angular package,Option_1,Advanced
+What is navigation in mobile?,Moving between screens/fragments,App flow,User interaction,Activity lifecycle,Option_1,Beginner
+What is Navigation Component?,Android framework for managing in-app navigation,Activity manager,Fragment transaction,Intent routing,Option_1,Intermediate
+What is deep linking?,Direct linking to specific app content,Web linking,External linking,Bookmark,Option_1,Intermediate
+What is back stack?,Stack maintaining activity/fragment history,Memory management,Cache system,Data structure,Option_1,Intermediate
+What is caching?,Storing data for quick access,Memory management,Storage optimization,Speed improvement,Option_1,Intermediate
+What is disk caching?,Storing data on device storage,Memory caching,Network caching,CPU cache,Option_1,Intermediate
+What is API response caching?,Caching API responses locally,Server caching,Network caching,Memory cache,Option_1,Advanced
+What is WorkManager?,Scheduling deferrable background tasks,Foreground service,Regular service,AsyncTask,Option_1,Advanced
+What is Camera API?,Interface for accessing device camera,Photo library,Video player,Image processor,Option_1,Intermediate
+What is MediaPlayer?,Component for playing audio/video,Camera control,Image editor,Sound recorder,Option_1,Intermediate
+What is Glide?,Image loading and caching library,Video player,Image editor,Camera API,Option_1,Intermediate
+What is Picasso?,Image loading library for Android,Glide alternative,Camera API,Media player,Option_1,Intermediate
+What is Location API?,Accessing device GPS and location services,Sensor data,Movement tracking,Map integration,Option_1,Intermediate
+What is geofencing?,Triggering actions based on location boundaries,GPS tracking,Map display,Location caching,Option_1,Advanced
+What is sensor in mobile?,"Hardware like accelerometer, gyroscope, compass",GPS only,Camera only,Microphone only,Option_1,Intermediate
+What is SensorManager?,Framework for accessing device sensors,Location manager,Camera manager,Audio manager,Option_1,Advanced
+What are push notifications?,Messages sent to app from server,User notifications,Local notifications,System notifications,Option_1,Intermediate
+What is FCM (Firebase Cloud Messaging)?,Google service for sending push notifications,Email service,SMS service,Local notification,Option_1,Intermediate
+What is APNs (Apple Push Notification)?,Apple service for iOS push notifications,Android service,Email service,SMS service,Option_1,Intermediate
+What is Logcat?,Android logging system showing app/system logs,IDE feature,Build tool,Testing framework,Option_1,Intermediate
+What is Android Debugger?,Tool for debugging running apps,Compiler,Build system,Testing tool,Option_1,Intermediate

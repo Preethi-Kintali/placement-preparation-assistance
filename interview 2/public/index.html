@@ -1,0 +1,864 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#0b1020" />
+  <title>MAANG Interview Simulator</title>
+  <link rel="manifest" href="/manifest.webmanifest" />
+  <style>
+    :root {
+      --bg: #090d1a;
+      --bg2: #0f162d;
+      --panel: rgba(22, 31, 58, 0.78);
+      --text: #e8ecff;
+      --muted: #aeb8db;
+      --accent: #6ea8ff;
+      --good: #4dd19a;
+      --warn: #ffd166;
+      --danger: #ff7a90;
+      --border: rgba(163, 188, 255, 0.22);
+      --glow: 0 0 0 1px rgba(110, 168, 255, 0.45), 0 0 25px rgba(110, 168, 255, 0.22);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, Segoe UI, Roboto, sans-serif;
+      background: radial-gradient(circle at 20% -5%, #1d2a57 0%, transparent 35%), var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+    }
+    .app {
+      max-width: 1100px;
+      margin: 0 auto;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      padding: 12px;
+      gap: 10px;
+    }
+    .glass {
+      border: 1px solid var(--border);
+      background: var(--panel);
+      backdrop-filter: blur(12px);
+      border-radius: 16px;
+    }
+    .hidden { display: none !important; }
+    .header {
+      padding: 14px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 8px;
+      font-weight: 600;
+      box-shadow: var(--glow);
+    }
+    .main {
+      flex: 1;
+      display: grid;
+      grid-template-rows: 1fr auto;
+      gap: 10px;
+      min-height: 0;
+    }
+    .chat {
+      overflow: auto;
+      padding: 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .bubble {
+      padding: 12px;
+      border-radius: 14px;
+      max-width: min(88%, 850px);
+      line-height: 1.45;
+      border: 1px solid transparent;
+      white-space: pre-wrap;
+    }
+    .ai {
+      align-self: flex-start;
+      background: rgba(120, 152, 255, 0.14);
+      border-color: rgba(120, 152, 255, 0.35);
+    }
+    .user {
+      align-self: flex-end;
+      background: rgba(77, 209, 154, 0.16);
+      border-color: rgba(77, 209, 154, 0.4);
+    }
+    .meta { color: var(--muted); font-size: 13px; margin-bottom: 6px; }
+    .controls {
+      padding: 12px;
+      display: grid;
+      gap: 8px;
+    }
+    .topic-input {
+      width: 100%;
+      min-height: 48px;
+      border-radius: 12px;
+      border: 1px solid rgba(110, 168, 255, 0.5);
+      background: rgba(8, 13, 29, 0.88);
+      color: var(--text);
+      padding: 12px;
+      font: inherit;
+      box-shadow: var(--glow);
+      outline: none;
+      margin: 10px 0 14px;
+    }
+    textarea {
+      width: 100%;
+      min-height: 110px;
+      max-height: 240px;
+      resize: vertical;
+      border-radius: 12px;
+      border: 1px solid rgba(110, 168, 255, 0.5);
+      background: rgba(8, 13, 29, 0.88);
+      color: var(--text);
+      padding: 12px;
+      font: inherit;
+      box-shadow: var(--glow);
+      outline: none;
+    }
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 8px;
+      justify-content: space-between;
+    }
+    button {
+      border: 1px solid rgba(110, 168, 255, 0.6);
+      background: linear-gradient(180deg, #2858c5, #1f3f93);
+      color: #f4f7ff;
+      padding: 10px 16px;
+      border-radius: 999px;
+      font-weight: 700;
+      cursor: pointer;
+      box-shadow: var(--glow);
+    }
+    button:disabled { opacity: 0.55; cursor: not-allowed; }
+    .ghost { background: transparent; }
+    .recording {
+      border-color: rgba(255, 122, 144, 0.9);
+      box-shadow: 0 0 0 1px rgba(255, 122, 144, 0.6), 0 0 25px rgba(255, 122, 144, 0.35);
+    }
+    .mic-status {
+      font-size: 12px;
+      color: var(--muted);
+    }
+    .bar {
+      width: 100%;
+      height: 9px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.08);
+      overflow: hidden;
+    }
+    .bar > span {
+      display: block;
+      height: 100%;
+      width: 0;
+      background: linear-gradient(90deg, #6ea8ff, #75e8ff);
+      transition: width 0.3s ease;
+    }
+    .start, .final {
+      min-height: calc(100vh - 24px);
+      display: grid;
+      place-items: center;
+      text-align: center;
+      padding: 20px;
+    }
+    .card {
+      max-width: 760px;
+      padding: 24px;
+      box-shadow: var(--glow);
+    }
+    .typing::after {
+      content: "";
+      display: inline-block;
+      width: 24px;
+      text-align: left;
+      animation: dots 1s infinite steps(3);
+      overflow: hidden;
+      vertical-align: bottom;
+    }
+    @keyframes dots { from { width: 0; } to { width: 24px; } }
+    .score-good { color: var(--good); }
+    .score-mid { color: var(--warn); }
+    .score-low { color: var(--danger); }
+    .report { text-align: left; margin-top: 12px; color: var(--muted); }
+    .pill {
+      display: inline-block;
+      padding: 4px 10px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      margin: 3px;
+      font-size: 12px;
+    }
+    @media (max-width: 640px) {
+      .header { font-size: 13px; }
+      .bubble { max-width: 100%; }
+      button { width: 100%; }
+      .row { flex-direction: column; align-items: stretch; }
+    }
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js"></script>
+</head>
+<body>
+  <div class="app">
+    <section id="startScreen" class="start">
+      <div class="card glass">
+        <h1>Ready for MAANG Interview? 👨‍💼</h1>
+        <p style="color: var(--muted)">4 rounds • 12 questions • Real-time feedback • MAANG scoring</p>
+        <input id="topicInput" class="topic-input" placeholder="Enter interview topics (e.g. DSA graphs, communication clarity, Node.js scaling)" />
+        <button id="startBtn">START</button>
+      </div>
+    </section>
+
+    <section id="interviewScreen" class="hidden">
+      <header class="header glass">
+        <div>MAANG Mock Interview</div>
+        <div id="roundMeta">Round 1/4 • Q 1/3</div>
+      </header>
+      <div class="main">
+        <main id="chat" class="chat glass"></main>
+        <div class="controls glass">
+          <label class="meta" for="answerInput">👨‍💼 You:</label>
+          <textarea id="answerInput" placeholder="Type your answer... Press Enter to submit, Shift+Enter for newline"></textarea>
+          <div class="row">
+            <button id="submitBtn">Submit Answer →</button>
+            <button id="micBtn" class="ghost hidden" type="button">Start Voice 🎤</button>
+            <button id="speakBtn" class="ghost hidden" type="button">Read AI Prompt 🔊</button>
+            <button id="installBtn" class="ghost hidden" type="button">Install App</button>
+          </div>
+          <div id="micStatus" class="mic-status">Auto voice mode: AI speaks and microphone listens automatically.</div>
+          <div class="meta" id="progressText">Progress: 0/12 Questions</div>
+          <div class="bar"><span id="progressBar"></span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="finalScreen" class="final hidden">
+      <div class="card glass">
+        <h1>INTERVIEW FINISHED! 🎉</h1>
+        <h2 id="finalScore"></h2>
+        <p id="finalBand"></p>
+        <div id="report" class="report"></div>
+        <div class="row" style="margin-top: 14px;">
+          <button id="downloadPdfBtn">DOWNLOAD PDF REPORT</button>
+          <button id="restartBtn" class="ghost">Restart Interview</button>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    const ROUND_DATA = [
+      {
+        role: 'Sr Frontend Engineer',
+        company: 'Google',
+        intro: "Hi! I'm Sr Frontend Engineer @Google. Let's start.",
+        questions: []
+      },
+      {
+        role: 'Backend Architect',
+        company: 'Amazon',
+        intro: 'Backend Architect @Amazon here. Let us dive in.',
+        questions: []
+      },
+      {
+        role: 'DSA Expert',
+        company: 'MAANG',
+        intro: 'DSA Expert here. Think out loud and reason clearly.',
+        questions: []
+      },
+      {
+        role: 'System Design Lead',
+        company: 'MAANG',
+        intro: 'System Design Lead joining now. We are in the architecture round.',
+        questions: []
+      }
+    ];
+
+    const FALLBACK_ROUND_QUESTIONS = [
+      [
+        'Explain useEffect dependency array? Give example.',
+        'How to prevent memory leaks in React apps?',
+        'Build custom hook for movie API + caching'
+      ],
+      [
+        'Difference between JWT and Session auth?',
+        'How Node.js handles 10K concurrent users?',
+        'Design e-commerce cart with inventory locks'
+      ],
+      [
+        'Reverse a linked list - write code',
+        'Find duplicate in array O(n) time O(1) space',
+        'Implement LRU Cache get/put O(1)'
+      ],
+      [
+        'Design URL shortener like bit.ly',
+        'Twitter timeline for 300M users',
+        'WhatsApp chat system 1B msg/day'
+      ]
+    ];
+
+    const STATE_KEY = 'maang-interview-state-v1';
+    const TOTAL_QUESTIONS = 12;
+
+    const startScreen = document.getElementById('startScreen');
+    const interviewScreen = document.getElementById('interviewScreen');
+    const finalScreen = document.getElementById('finalScreen');
+    const roundMeta = document.getElementById('roundMeta');
+    const chat = document.getElementById('chat');
+    const answerInput = document.getElementById('answerInput');
+    const submitBtn = document.getElementById('submitBtn');
+    const progressText = document.getElementById('progressText');
+    const progressBar = document.getElementById('progressBar');
+    const finalScore = document.getElementById('finalScore');
+    const finalBand = document.getElementById('finalBand');
+    const report = document.getElementById('report');
+    const installBtn = document.getElementById('installBtn');
+    const speakBtn = document.getElementById('speakBtn');
+    const micBtn = document.getElementById('micBtn');
+    const micStatus = document.getElementById('micStatus');
+    const topicInput = document.getElementById('topicInput');
+
+    let deferredPrompt = null;
+    let recognition = null;
+    let isListening = false;
+    let manualStop = false;
+    let speechSupported = false;
+    let micPermissionGranted = false;
+    let awaitingAnswer = false;
+    let suppressSubmitOnEnd = false;
+    let speechSilenceTimer = null;
+    let isSpeaking = false;
+    let autoRestartTimer = null;
+
+    const state = {
+      roundIndex: 0,
+      questionIndex: 0,
+      answers: [],
+      completed: false,
+      inFlight: false,
+      topicPreference: ''
+    };
+
+    function saveState() {
+      localStorage.setItem(STATE_KEY, JSON.stringify(state));
+    }
+
+    function loadState() {
+      try {
+        const saved = JSON.parse(localStorage.getItem(STATE_KEY) || 'null');
+        if (saved && typeof saved.roundIndex === 'number') Object.assign(state, saved);
+      } catch {}
+    }
+
+    function addMessage(sender, text) {
+      const bubble = document.createElement('div');
+      bubble.className = `bubble ${sender === 'AI' ? 'ai' : 'user'}`;
+      bubble.innerHTML = `<div class="meta">${sender === 'AI' ? '👨‍💼 AI' : '👨‍💼 You'}</div>${escapeHtml(text)}`;
+      chat.appendChild(bubble);
+      chat.scrollTop = chat.scrollHeight;
+      return bubble;
+    }
+
+    function escapeHtml(input) {
+      return String(input)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#039;')
+        .replace(/\n/g, '<br/>');
+    }
+
+    function updateHeaderAndProgress() {
+      const r = state.roundIndex + 1;
+      const q = state.questionIndex + 1;
+      roundMeta.textContent = `Round ${r}/4 • Q ${q}/3`;
+      const done = state.answers.length;
+      progressText.textContent = `Progress: ${done}/${TOTAL_QUESTIONS} Questions`;
+      progressBar.style.width = `${(done / TOTAL_QUESTIONS) * 100}%`;
+    }
+
+    function currentRound() { return ROUND_DATA[state.roundIndex]; }
+    function currentQuestion() { return currentRound().questions[state.questionIndex]; }
+
+    async function sleep(ms) { return new Promise((r) => setTimeout(r, ms)); }
+
+    async function fetchRoundQuestions(roundIndex) {
+      const topics = (state.topicPreference || '').trim();
+      try {
+        const query = new URLSearchParams({ roundIndex: String(roundIndex) });
+        if (topics) query.set('topics', topics);
+        const res = await fetch(`/api/round-questions?${query.toString()}`);
+        if (!res.ok) throw new Error('Failed');
+        const data = await res.json();
+        if (Array.isArray(data.questions) && data.questions.length === 3) {
+          ROUND_DATA[roundIndex].questions = data.questions;
+          return;
+        }
+      } catch {}
+
+      if (!topics) {
+        ROUND_DATA[roundIndex].questions = [...FALLBACK_ROUND_QUESTIONS[roundIndex]];
+      } else {
+        const roundLabel = ['frontend', 'backend', 'dsa', 'system design'][roundIndex] || 'technical';
+        ROUND_DATA[roundIndex].questions = [
+          `Basic ${roundLabel} question on ${topics}: explain fundamentals with one example.`,
+          `Medium ${roundLabel} challenge on ${topics}: solve with trade-offs and complexity.`,
+          `Hard ${roundLabel} scenario on ${topics}: propose production-level design and edge cases.`
+        ];
+      }
+    }
+
+    async function askAI(answer) {
+      const payload = {
+        roundIndex: state.roundIndex,
+        questionIndex: state.questionIndex,
+        answer,
+        question: currentQuestion(),
+        topics: state.topicPreference || ''
+      };
+
+      let res;
+      try {
+        res = await fetch('/api/ask', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+      } catch {
+        return {
+          score: 6.8,
+          feedback: `Score: 6.8/10. Good direction on \"${payload.question}\". Be more structured: assumptions → core approach → trade-offs. Quick tip: mention edge cases and complexity. Ready for the next question?`,
+          source: 'offline-fallback'
+        };
+      }
+
+      if (!res.ok) {
+        return {
+          score: 6.6,
+          feedback: `Score: 6.6/10. Nice try. Your core idea is visible, but depth can improve with concrete examples and constraints. Ready for the next question?`,
+          source: 'error-fallback'
+        };
+      }
+      return res.json();
+    }
+
+    async function showTypingThenReplace(finalText) {
+      const typ = addMessage('AI', 'Typing');
+      typ.classList.add('typing');
+      await sleep(500);
+      typ.classList.remove('typing');
+      typ.innerHTML = `<div class="meta">👨‍💼 AI</div>${escapeHtml(finalText)}`;
+      chat.scrollTop = chat.scrollHeight;
+      await speakText(finalText);
+      return typ;
+    }
+
+    function speakText(text) {
+      if (!('speechSynthesis' in window) || !text) return Promise.resolve();
+      return new Promise((resolve) => {
+        clearTimeout(autoRestartTimer);
+        if (recognition && isListening) {
+          manualStop = true;
+          suppressSubmitOnEnd = true;
+          recognition.stop();
+        }
+        window.speechSynthesis.cancel();
+        isSpeaking = true;
+        const utter = new SpeechSynthesisUtterance(String(text).replace(/\s+/g, ' ').trim());
+        utter.rate = 0.95;
+        utter.pitch = 1;
+        utter.onend = () => {
+          isSpeaking = false;
+          resolve();
+        };
+        utter.onerror = () => {
+          isSpeaking = false;
+          resolve();
+        };
+        window.speechSynthesis.speak(utter);
+      });
+    }
+
+    function setMicUi(listening, status) {
+      isListening = listening;
+      micBtn.textContent = listening ? 'Stop Voice ⏹️' : 'Start Voice 🎤';
+      micBtn.classList.toggle('recording', listening);
+      micStatus.textContent = status;
+    }
+
+    async function ensureMicPermission() {
+      if (micPermissionGranted) return true;
+      if (!navigator.mediaDevices?.getUserMedia) {
+        setMicUi(false, 'Microphone API not supported in this browser.');
+        return false;
+      }
+
+      try {
+        const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+        stream.getTracks().forEach((track) => track.stop());
+        micPermissionGranted = true;
+        return true;
+      } catch {
+        setMicUi(false, 'Microphone permission denied. Allow mic in browser site settings.');
+        return false;
+      }
+    }
+
+    function initSpeechRecognition() {
+      const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+      if (!SR) {
+        speechSupported = false;
+        micBtn.disabled = true;
+        setMicUi(false, 'Voice input not supported in this browser. Use Chrome/Edge.');
+        return;
+      }
+
+      speechSupported = true;
+      micBtn.disabled = false;
+
+      recognition = new SR();
+      recognition.lang = 'en-US';
+      recognition.continuous = true;
+      recognition.interimResults = true;
+      recognition.maxAlternatives = 1;
+
+      recognition.onstart = () => {
+        setMicUi(true, 'Listening... speak your answer.');
+      };
+
+      recognition.onresult = (event) => {
+        let interim = '';
+        let finalText = '';
+        for (let i = 0; i < event.results.length; i += 1) {
+          const piece = event.results[i][0]?.transcript || '';
+          if (event.results[i].isFinal) finalText += piece;
+          else interim += piece;
+        }
+        answerInput.value = `${finalText} ${interim}`.trim();
+        setMicUi(true, answerInput.value ? 'Listening... transcript captured.' : 'Listening... speak your answer.');
+
+        clearTimeout(speechSilenceTimer);
+        speechSilenceTimer = setTimeout(() => {
+          if (isListening && recognition) recognition.stop();
+        }, 1700);
+      };
+
+      recognition.onerror = (event) => {
+        const code = event?.error || 'unknown';
+        if (code === 'not-allowed' || code === 'service-not-allowed') {
+          setMicUi(false, 'Microphone blocked. Allow permission in browser settings.');
+          return;
+        }
+        if (code === 'no-speech') {
+          setMicUi(false, 'No speech detected. Try again and speak clearly.');
+          return;
+        }
+        setMicUi(false, `Mic error (${code}). Try again.`);
+      };
+
+      recognition.onend = () => {
+        clearTimeout(speechSilenceTimer);
+        const shouldSubmit = awaitingAnswer && !manualStop && !suppressSubmitOnEnd && answerInput.value.trim().length > 0;
+        manualStop = false;
+        suppressSubmitOnEnd = false;
+        setMicUi(false, shouldSubmit ? 'Voice captured. Submitting...' : 'Voice stopped.');
+        if (shouldSubmit) {
+          submitAnswer();
+          return;
+        }
+
+        const shouldRestart = awaitingAnswer && !state.inFlight && !isSpeaking;
+        if (shouldRestart) {
+          setMicUi(false, 'Listening paused. Restarting microphone...');
+          clearTimeout(autoRestartTimer);
+          autoRestartTimer = setTimeout(async () => {
+            if (!awaitingAnswer || state.inFlight || isSpeaking) return;
+            try {
+              recognition.start();
+            } catch {
+              setMicUi(false, 'Mic restart failed. Please refresh once.');
+            }
+          }, 500);
+        }
+      };
+    }
+
+    async function startAutoListening() {
+      if (!recognition) initSpeechRecognition();
+      if (!recognition) return;
+      if (isSpeaking) return;
+      const hasPermission = await ensureMicPermission();
+      if (!hasPermission) return;
+      awaitingAnswer = true;
+      answerInput.value = '';
+      clearTimeout(autoRestartTimer);
+      try {
+        recognition.start();
+      } catch {
+        setMicUi(false, 'Could not start mic. Retrying...');
+        autoRestartTimer = setTimeout(() => {
+          if (!awaitingAnswer || state.inFlight || isSpeaking) return;
+          try {
+            recognition.start();
+          } catch {
+            setMicUi(false, 'Mic start failed. Please refresh once.');
+          }
+        }, 500);
+      }
+    }
+
+    async function toggleVoiceInput() {
+      if (!recognition) {
+        initSpeechRecognition();
+        if (!recognition) return;
+      }
+
+      if (!speechSupported) return;
+
+      if (isListening) {
+        manualStop = true;
+        recognition.stop();
+        return;
+      }
+
+      const hasPermission = await ensureMicPermission();
+      if (!hasPermission) return;
+
+      answerInput.focus();
+      answerInput.value = '';
+      try {
+        recognition.start();
+      } catch {
+        setMicUi(false, 'Could not start mic. Please try again.');
+      }
+    }
+
+    async function openRound(roundIndex, questionIndex = 0) {
+      if (!ROUND_DATA[roundIndex].questions.length) {
+        await fetchRoundQuestions(roundIndex);
+      }
+      state.roundIndex = roundIndex;
+      state.questionIndex = questionIndex;
+      updateHeaderAndProgress();
+      await showTypingThenReplace(`${currentRound().intro}\n❓ Q${state.questionIndex + 1}: ${currentQuestion()}`);
+      await startAutoListening();
+    }
+
+    function getBand(avg) {
+      if (avg >= 9) return 'Amazon ready! 🎯 Apply now';
+      if (avg >= 8) return 'Strong candidate 💎 Polish DSA';
+      if (avg >= 7) return 'Good foundation 🛠️ Build projects';
+      return 'Solid basics 📚 Practice daily';
+    }
+
+    function scoreClass(value) {
+      if (value >= 8) return 'score-good';
+      if (value >= 7) return 'score-mid';
+      return 'score-low';
+    }
+
+    function finalize() {
+      state.completed = true;
+      saveState();
+      interviewScreen.classList.add('hidden');
+      finalScreen.classList.remove('hidden');
+
+      const avg = +(state.answers.reduce((s, a) => s + a.score, 0) / state.answers.length).toFixed(2);
+      finalScore.innerHTML = `Your MAANG Score: <span class="${scoreClass(avg)}">${avg}/10</span>`;
+      finalBand.textContent = getBand(avg);
+
+      const roundSummaries = ROUND_DATA.map((r, idx) => {
+        const list = state.answers.filter((a) => a.roundIndex === idx);
+        const rAvg = +(list.reduce((s, a) => s + a.score, 0) / list.length).toFixed(2);
+        return `${idx + 1}. ${r.role} (${r.company}) — ${rAvg}/10`;
+      });
+
+      const weak = state.answers
+        .slice()
+        .sort((a, b) => a.score - b.score)
+        .slice(0, 3)
+        .map((a) => `<span class="pill">Improve: ${escapeHtml(a.question)}</span>`)
+        .join('');
+
+      report.innerHTML = `
+        <strong>Round-wise breakdown</strong><br/>
+        ${roundSummaries.map((x) => `• ${escapeHtml(x)}`).join('<br/>')}
+        <br/><br/><strong>Improvement Areas</strong><br/>
+        ${weak}
+      `;
+    }
+
+    async function submitAnswer() {
+      if (state.inFlight) return;
+      const answer = answerInput.value.trim();
+      if (!answer) return;
+      awaitingAnswer = false;
+
+      state.inFlight = true;
+      submitBtn.disabled = true;
+      try {
+        addMessage('You', answer);
+        answerInput.value = '';
+
+        const ai = await askAI(answer);
+        await showTypingThenReplace(`${ai.feedback}`);
+
+        state.answers.push({
+          roundIndex: state.roundIndex,
+          questionIndex: state.questionIndex,
+          question: currentQuestion(),
+          answer,
+          score: Number(ai.score) || 0
+        });
+
+        const atLastQuestion = state.questionIndex === 2;
+        const atLastRound = state.roundIndex === 3;
+
+        if (atLastQuestion && atLastRound) {
+          updateHeaderAndProgress();
+          finalize();
+        } else if (atLastQuestion) {
+          await showTypingThenReplace(`Round ${state.roundIndex + 1} complete ✅`);
+          await openRound(state.roundIndex + 1, 0);
+        } else {
+          state.questionIndex += 1;
+          updateHeaderAndProgress();
+          await showTypingThenReplace(`❓ Q${state.questionIndex + 1}: ${currentQuestion()}`);
+          await startAutoListening();
+        }
+
+        saveState();
+      } finally {
+        state.inFlight = false;
+        submitBtn.disabled = false;
+        answerInput.focus();
+      }
+    }
+
+    function resetAll() {
+      if (recognition && isListening) {
+        manualStop = true;
+        recognition.stop();
+      }
+      localStorage.removeItem(STATE_KEY);
+      Object.assign(state, {
+        roundIndex: 0,
+        questionIndex: 0,
+        answers: [],
+        completed: false,
+        inFlight: false,
+        topicPreference: ''
+      });
+      topicInput.value = '';
+      chat.innerHTML = '';
+      finalScreen.classList.add('hidden');
+      startScreen.classList.remove('hidden');
+    }
+
+    async function startInterview() {
+      const topics = (topicInput.value || '').trim();
+      startScreen.classList.add('hidden');
+      finalScreen.classList.add('hidden');
+      interviewScreen.classList.remove('hidden');
+      chat.innerHTML = '';
+
+      Object.assign(state, {
+        roundIndex: 0,
+        questionIndex: 0,
+        answers: [],
+        completed: false,
+        inFlight: false,
+        topicPreference: topics
+      });
+
+      for (let i = 0; i < ROUND_DATA.length; i += 1) {
+        ROUND_DATA[i].questions = [];
+      }
+
+      updateHeaderAndProgress();
+      saveState();
+      await openRound(0);
+      answerInput.focus();
+      initSpeechRecognition();
+      setMicUi(false, 'Auto voice mode active. AI will speak, then mic listens automatically.');
+    }
+
+    document.getElementById('startBtn').addEventListener('click', startInterview);
+    document.getElementById('restartBtn').addEventListener('click', resetAll);
+    document.getElementById('downloadPdfBtn').addEventListener('click', () => {
+      const avg = +(state.answers.reduce((s, a) => s + a.score, 0) / (state.answers.length || 1)).toFixed(2);
+      const lines = [
+        'MAANG Interview Report',
+        `Date: ${new Date().toLocaleString()}`,
+        `Overall Score: ${avg}/10`,
+        `Verdict: ${getBand(avg)}`,
+        '',
+        'Round Breakdown:'
+      ];
+      ROUND_DATA.forEach((r, idx) => {
+        const list = state.answers.filter((a) => a.roundIndex === idx);
+        const roundAvg = +(list.reduce((s, a) => s + a.score, 0) / (list.length || 1)).toFixed(2);
+        lines.push(`${idx + 1}. ${r.role} (${r.company}) - ${roundAvg}/10`);
+      });
+
+      if (window.jspdf?.jsPDF) {
+        const doc = new window.jspdf.jsPDF();
+        let y = 15;
+        lines.forEach((line) => {
+          doc.text(line, 12, y);
+          y += 8;
+          if (y > 275) { doc.addPage(); y = 15; }
+        });
+        doc.save('maang-interview-report.pdf');
+      } else {
+        window.print();
+      }
+    });
+
+    submitBtn.addEventListener('click', submitAnswer);
+    micBtn.addEventListener('click', toggleVoiceInput);
+    answerInput.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' && !e.shiftKey) {
+        e.preventDefault();
+        submitAnswer();
+      }
+    });
+
+    speakBtn.addEventListener('click', () => {
+      const text = currentQuestion();
+      speakText(text);
+    });
+
+    window.addEventListener('beforeinstallprompt', (event) => {
+      event.preventDefault();
+      deferredPrompt = event;
+      installBtn.classList.remove('hidden');
+    });
+
+    installBtn.addEventListener('click', async () => {
+      if (!deferredPrompt) return;
+      deferredPrompt.prompt();
+      await deferredPrompt.userChoice;
+      deferredPrompt = null;
+      installBtn.classList.add('hidden');
+    });
+
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/service-worker.js');
+    }
+
+    loadState();
+    topicInput.value = state.topicPreference || '';
+    if (state.completed) {
+      startScreen.classList.add('hidden');
+      finalScreen.classList.remove('hidden');
+      finalize();
+    }
+  </script>
+</body>
+</html>

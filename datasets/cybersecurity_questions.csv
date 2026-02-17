@@ -1,0 +1,1001 @@
+Question,Option_1,Option_2,Option_3,Option_4,Correct_Answer,Level
+What does CIA stand for in cybersecurity?,"Confidentiality, Integrity, Availability",Central Intelligence Agency,Computer Information Architecture,Cyber Incident Analysis,Option_1,Beginner
+Which of the following is NOT a type of cyber attack?,Phishing,DDoS,Encryption,Malware,Option_3,Beginner
+What is the primary goal of a firewall?,Monitor and control incoming/outgoing network traffic,Encrypt all data,Delete viruses,Block all internet access,Option_1,Beginner
+Which protocol is used for secure web communication?,HTTP,HTTPS,FTP,SMTP,Option_2,Beginner
+What is a password salt?,Random data added to password before hashing,A type of firewall,An encryption algorithm,A network protocol,Option_1,Beginner
+What does VPN stand for?,Virtual Private Network,Virtual Public Network,Verified Personal Network,Virtual Protection Network,Option_1,Beginner
+Which port is typically used for SSH?,22,80,443,3306,Option_1,Beginner
+What is the purpose of a DMZ?,To isolate internal networks from untrusted networks,To encrypt all traffic,To block all external connections,To speed up internet,Option_1,Beginner
+Which of the following is a symmetric encryption algorithm?,RSA,AES,ECC,DSA,Option_2,Intermediate
+What is SSL/TLS used for?,Securing web communications,Protecting databases,Blocking malware,Managing users,Option_1,Beginner
+What is a zero-day vulnerability?,A vulnerability unknown to vendors before exploit,A bug found after one day,A vulnerability in legacy systems,A type of malware,Option_1,Intermediate
+Which type of attack floods a server with requests to make it unavailable?,Phishing,DDoS,SQL Injection,XSS,Option_2,Intermediate
+What is SQL Injection?,Inserting malicious SQL code into input fields,Injecting vaccines into SQL database,A type of firewall,A backup method,Option_1,Intermediate
+What does XSS stand for?,Cross-Site Scripting,Cross Server Security,Cross-Sector Systems,Critical Security Service,Option_1,Intermediate
+What is a man-in-the-middle attack?,Attacker intercepts communication between two parties,An attack on middle managers,A type of malware,A network configuration,Option_1,Intermediate
+What is the main difference between symmetric and asymmetric encryption?,"Symmetric uses one key, asymmetric uses two keys",Symmetric is faster,Asymmetric is older,No difference,Option_1,Intermediate
+Which algorithm is used for digital signatures?,AES,SHA-256,RSA,MD5,Option_3,Intermediate
+What is a hash function's primary characteristic?,Deterministic output for same input,Reversible,Slower processing,Uses public key,Option_1,Intermediate
+Which of the following is NOT a type of authentication?,Something you know,Something you are,Something you have,Something you like,Option_4,Intermediate
+What is multi-factor authentication (MFA)?,Using more than one method to verify identity,Multiple passwords,Backup authentication,Network security,Option_1,Beginner
+What is the difference between a virus and a worm?,"Virus needs host program, worm is independent",Same thing,Worm is older,Virus is network-based,Option_1,Intermediate
+What is ransomware?,Malware that encrypts data and demands payment,A type of firewall,A backup solution,An antivirus program,Option_1,Intermediate
+What is a trojan horse in cybersecurity?,Malware disguised as legitimate software,A type of network,A firewall configuration,An encryption method,Option_1,Intermediate
+What is a rootkit?,Malware with administrative/root access,A toolkit for developers,A type of password,A security protocol,Option_1,Intermediate
+What is the primary purpose of an antivirus?,Detect and remove malware,Encrypt data,Block all downloads,Monitor passwords,Option_1,Beginner
+What does RBAC stand for?,Role-Based Access Control,Remote Basic Authentication Code,Rapid Byte Access Control,Resource Block Access Code,Option_1,Intermediate
+What is the principle of least privilege?,Users should have minimum access needed for their role,Everyone has same access,Admin controls everything,No access controls needed,Option_1,Intermediate
+What is an ACL (Access Control List)?,A list defining which users can access resources,A type of malware,A network protocol,A firewall rule,Option_1,Intermediate
+What is OAuth used for?,Secure delegated access/authentication,Encrypting passwords,Blocking websites,Managing firewalls,Option_1,Intermediate
+What is SSO (Single Sign-On)?,Users log in once to access multiple systems,Single server operation,Secure socket operation,Software security option,Option_1,Intermediate
+What is the first step in a penetration test?,Reconnaissance and information gathering,Exploitation,Data exfiltration,Covering tracks,Option_1,Advanced
+What is a vulnerability assessment?,Systematic review to identify security weaknesses,A type of attack,Network monitoring,Firewall configuration,Option_1,Intermediate
+What does OWASP stand for?,Open Web Application Security Project,Online Web Architecture and Software Protocol,Operational Web Application Security Platform,Organized Worldwide Application Systems Protocol,Option_1,Intermediate
+What are the OWASP Top 10?,10 most critical web application security risks,10 firewalls,10 antivirus programs,10 protocols,Option_1,Intermediate
+What is social engineering?,Manipulating people to divulge confidential information,Building social networks,A network protocol,A type of firewall,Option_1,Intermediate
+What are the phases of incident response?,"Preparation, Detection, Analysis, Containment, Eradication, Recovery","Attack, Defense, Response","Alert, React, Solve","Start, Middle, End",Option_1,Advanced
+What is the purpose of an IDS (Intrusion Detection System)?,Monitor network traffic for malicious activity,Block all traffic,Encrypt data,Manage users,Option_1,Intermediate
+What is an IPS (Intrusion Prevention System)?,Active system that detects and blocks attacks,Passive monitoring system,A type of firewall,A backup solution,Option_1,Intermediate
+What is forensics in cybersecurity?,Investigation and analysis of cyber incidents,Firewall configuration,Password management,Network monitoring,Option_1,Advanced
+What is a security information and event management (SIEM) system?,Collects and analyzes security data from multiple sources,A type of malware,A backup system,A network protocol,Option_1,Advanced
+What is a cloud security group?,Virtual firewall controlling inbound/outbound traffic,A team of security experts,A type of malware,A backup service,Option_1,Intermediate
+What does IAM stand for in cloud?,Identity and Access Management,Internal Architecture Management,Internet Access Module,Integrated Authentication Method,Option_1,Intermediate
+What is encryption at rest?,Encrypting data stored on devices,Encrypting data in transit,Temporary encryption,Network encryption,Option_1,Intermediate
+What is encryption in transit?,Encrypting data being transmitted over networks,Data at rest,Temporary encryption,Local encryption,Option_1,Intermediate
+What is a cloud access security broker (CASB)?,Security tool monitoring cloud service usage,A type of cloud service,Cloud firewall,Backup solution,Option_1,Advanced
+What does GDPR stand for?,General Data Protection Regulation,Global Data Processing Rule,Government Digital Privacy Regulation,General Digital Protection Requirement,Option_1,Intermediate
+What is the primary focus of HIPAA?,Protecting healthcare data privacy,Banking security,Education data,Government data,Option_1,Intermediate
+What does PCI-DSS stand for?,Payment Card Industry Data Security Standard,Personal Computer Industry Security,Protected Card Industry Data,Public Card Information Security Standard,Option_1,Intermediate
+What is ISO/IEC 27001?,Information security management standard,Network security protocol,Firewall standard,Encryption standard,Option_1,Intermediate
+What is SOC 2?,Security and operational control compliance,System organization control,Software operation compliance,Security operation center,Option_1,Intermediate
+What is WPA2?,Wi-Fi Protected Access 2 for wireless security,Web Protocol Authentication,Wireless Privacy Algorithm,Web Protection Architecture,Option_1,Intermediate
+What is the difference between WPA2 and WPA3?,WPA3 is newer with stronger encryption,No difference,WPA2 is newer,Different frequency,Option_1,Intermediate
+What is a rogue access point?,Unauthorized WiFi access point mimicking legitimate one,A malfunctioning router,A type of malware,A network protocol,Option_1,Intermediate
+What is evil twin attack?,Fake WiFi network with legitimate name,Network duplication,A type of virus,Router malfunction,Option_1,Intermediate
+What does WEP stand for?,Wired Equivalent Privacy,Wireless Exchange Protocol,Web Encryption Protocol,Wireless Encryption Program,Option_1,Beginner
+What is SAST?,Static Application Security Testing,Security application software tool,Secure analysis scanning tool,System application security testing,Option_1,Advanced
+What is DAST?,Dynamic Application Security Testing,Database application security testing,Defensive application security tool,Distributed application security testing,Option_1,Advanced
+What is a security patch?,Software update fixing security vulnerabilities,A type of firewall,Temporary security measure,Backup file,Option_1,Intermediate
+What is a security update vs patch?,"Update is broader, patch is specific fix",Same thing,Patch is hardware,Update is permanent,Option_1,Intermediate
+What is secure code review?,Manual/automated inspection of code for vulnerabilities,Proofreading code,Testing code functionality,Code optimization,Option_1,Advanced
+What is a digital certificate?,Binds identity to public key for authentication,A type of password,Firewall rule,Backup file,Option_1,Advanced
+What is PKI (Public Key Infrastructure)?,System for managing public/private keys,Protected Key Information,Public knowledge integration,Private key issuance,Option_1,Advanced
+What is a Certificate Authority (CA)?,Entity issuing digital certificates,A type of malware,Network monitoring tool,Firewall component,Option_1,Intermediate
+What is a CRL (Certificate Revocation List)?,List of revoked digital certificates,Central Resource Library,Cryptographic Resource List,Certificate Resource Library,Option_1,Advanced
+What is a CSR (Certificate Signing Request)?,Request to CA to issue a digital certificate,Client-server request,Certificate storage request,Cryptographic signing response,Option_1,Advanced
+What is DNS spoofing?,Fraudulent DNS response directing to malicious site,DNS server failure,Network congestion,Firewall misconfiguration,Option_1,Intermediate
+What is ARP spoofing?,Sending false ARP messages to associate IP with wrong MAC,Address resolution protocol failure,Network routing issue,Firewall blocking,Option_1,Intermediate
+What is BGP hijacking?,Announcing false BGP routes to redirect traffic,Border gateway protocol failure,Network routing error,Connection timeout,Option_1,Advanced
+What is the difference between TCP and UDP security?,"TCP is connection-oriented (more secure), UDP is connectionless",Same security level,UDP is more secure,TCP is faster,Option_1,Intermediate
+What is DNSSEC?,Securing DNS using digital signatures,DNS firewall,DNS encryption,DNS backup,Option_1,Intermediate
+What is mobile device management (MDM)?,System for managing mobile devices and apps,Mobile development method,Mobile data monitoring,Mobile encryption standard,Option_1,Intermediate
+What are Android permissions?,Capabilities granted to apps on Android,Android firewall rules,System administrator access,Password requirements,Option_1,Beginner
+What is jailbreaking a device?,Removing OS restrictions to gain elevated access,Fixing a broken phone,Factory reset,Updating software,Option_1,Intermediate
+What is mobile app sandboxing?,Isolating apps to prevent unauthorized access,App storage location,App backup method,App testing environment,Option_1,Intermediate
+What is app signing?,Digitally signing app to verify authenticity,App activation,License key,Version number,Option_1,Intermediate
+What is badge access control?,Using ID cards to control physical entry,Security alarm system,Video surveillance,Cybersecurity term,Option_1,Beginner
+What is the purpose of a server room lock?,Prevent unauthorized physical access to servers,Cool servers,Organize cables,Backup systems,Option_1,Beginner
+What is tailgating in security?,Following an authorized person into restricted area,Vehicle security,Network monitoring,Firewall rule,Option_1,Beginner
+What is dumpster diving?,Searching discarded materials for sensitive information,Garbage removal,Waste management,Recycling process,Option_1,Beginner
+What is a Faraday cage?,Enclosure that blocks electromagnetic signals,Physical barrier,Network security tool,Firewall component,Option_1,Intermediate
+What is threat modeling?,Process of identifying and prioritizing potential threats,Creating security threats,Predicting attacks,Network mapping,Option_1,Advanced
+What does STRIDE stand for?,"Spoofing, Tampering, Repudiation, Information Disclosure, DoS, Elevation",Security threats identification,Risk assessment,Vulnerability types,Option_1,Advanced
+What is DREAD methodology?,"Damage, Reproducibility, Exploitability, Affected users, Discoverability",Threat assessment,Risk calculation,Security framework,Option_1,Advanced
+What is attack surface analysis?,Identifying all potential entry points for attacks,Network topology,Firewall rules,Security policies,Option_1,Advanced
+What is a threat actor?,Individual or group capable of conducting attacks,Network administrator,Security software,Firewall rule,Option_1,Intermediate
+What is a SOC (Security Operations Center)?,Centralized team monitoring security 24/7,Security software,Firewall system,Backup location,Option_1,Advanced
+What is a playbook in security?,Documented procedure for responding to incidents,Security software manual,User guide,Training document,Option_1,Intermediate
+What is continuous monitoring?,Ongoing observation of systems for anomalies,Periodic security checks,Annual audits,Quarterly reviews,Option_1,Intermediate
+What is a baseline in security?,Established standard of normal system behavior,Starting point of project,Initial configuration,Default settings,Option_1,Intermediate
+What is anomaly detection?,Identifying unusual patterns deviating from baseline,Finding bugs,Testing systems,Monitoring networks,Option_1,Intermediate
+What does CIA stand for in cybersecurity?,"Confidentiality, Integrity, Availability",Central Intelligence Agency,Computer Information Architecture,Cyber Incident Analysis,Option_1,Beginner
+Which of the following is NOT a type of cyber attack?,Phishing,DDoS,Encryption,Malware,Option_3,Beginner
+What is the primary goal of a firewall?,Monitor and control incoming/outgoing network traffic,Encrypt all data,Delete viruses,Block all internet access,Option_1,Beginner
+Which protocol is used for secure web communication?,HTTP,HTTPS,FTP,SMTP,Option_2,Beginner
+What is a password salt?,Random data added to password before hashing,A type of firewall,An encryption algorithm,A network protocol,Option_1,Beginner
+What does VPN stand for?,Virtual Private Network,Virtual Public Network,Verified Personal Network,Virtual Protection Network,Option_1,Beginner
+Which port is typically used for SSH?,22,80,443,3306,Option_1,Beginner
+What is the purpose of a DMZ?,To isolate internal networks from untrusted networks,To encrypt all traffic,To block all external connections,To speed up internet,Option_1,Beginner
+Which of the following is a symmetric encryption algorithm?,RSA,AES,ECC,DSA,Option_2,Intermediate
+What is SSL/TLS used for?,Securing web communications,Protecting databases,Blocking malware,Managing users,Option_1,Beginner
+What is a zero-day vulnerability?,A vulnerability unknown to vendors before exploit,A bug found after one day,A vulnerability in legacy systems,A type of malware,Option_1,Intermediate
+Which type of attack floods a server with requests to make it unavailable?,Phishing,DDoS,SQL Injection,XSS,Option_2,Intermediate
+What is SQL Injection?,Inserting malicious SQL code into input fields,Injecting vaccines into SQL database,A type of firewall,A backup method,Option_1,Intermediate
+What does XSS stand for?,Cross-Site Scripting,Cross Server Security,Cross-Sector Systems,Critical Security Service,Option_1,Intermediate
+What is a man-in-the-middle attack?,Attacker intercepts communication between two parties,An attack on middle managers,A type of malware,A network configuration,Option_1,Intermediate
+What is the main difference between symmetric and asymmetric encryption?,"Symmetric uses one key, asymmetric uses two keys",Symmetric is faster,Asymmetric is older,No difference,Option_1,Intermediate
+Which algorithm is used for digital signatures?,AES,SHA-256,RSA,MD5,Option_3,Intermediate
+What is a hash function's primary characteristic?,Deterministic output for same input,Reversible,Slower processing,Uses public key,Option_1,Intermediate
+Which of the following is NOT a type of authentication?,Something you know,Something you are,Something you have,Something you like,Option_4,Intermediate
+What is multi-factor authentication (MFA)?,Using more than one method to verify identity,Multiple passwords,Backup authentication,Network security,Option_1,Beginner
+What is the difference between a virus and a worm?,"Virus needs host program, worm is independent",Same thing,Worm is older,Virus is network-based,Option_1,Intermediate
+What is ransomware?,Malware that encrypts data and demands payment,A type of firewall,A backup solution,An antivirus program,Option_1,Intermediate
+What is a trojan horse in cybersecurity?,Malware disguised as legitimate software,A type of network,A firewall configuration,An encryption method,Option_1,Intermediate
+What is a rootkit?,Malware with administrative/root access,A toolkit for developers,A type of password,A security protocol,Option_1,Intermediate
+What is the primary purpose of an antivirus?,Detect and remove malware,Encrypt data,Block all downloads,Monitor passwords,Option_1,Beginner
+What does RBAC stand for?,Role-Based Access Control,Remote Basic Authentication Code,Rapid Byte Access Control,Resource Block Access Code,Option_1,Intermediate
+What is the principle of least privilege?,Users should have minimum access needed for their role,Everyone has same access,Admin controls everything,No access controls needed,Option_1,Intermediate
+What is an ACL (Access Control List)?,A list defining which users can access resources,A type of malware,A network protocol,A firewall rule,Option_1,Intermediate
+What is OAuth used for?,Secure delegated access/authentication,Encrypting passwords,Blocking websites,Managing firewalls,Option_1,Intermediate
+What is SSO (Single Sign-On)?,Users log in once to access multiple systems,Single server operation,Secure socket operation,Software security option,Option_1,Intermediate
+What is the first step in a penetration test?,Reconnaissance and information gathering,Exploitation,Data exfiltration,Covering tracks,Option_1,Advanced
+What is a vulnerability assessment?,Systematic review to identify security weaknesses,A type of attack,Network monitoring,Firewall configuration,Option_1,Intermediate
+What does OWASP stand for?,Open Web Application Security Project,Online Web Architecture and Software Protocol,Operational Web Application Security Platform,Organized Worldwide Application Systems Protocol,Option_1,Intermediate
+What are the OWASP Top 10?,10 most critical web application security risks,10 firewalls,10 antivirus programs,10 protocols,Option_1,Intermediate
+What is social engineering?,Manipulating people to divulge confidential information,Building social networks,A network protocol,A type of firewall,Option_1,Intermediate
+What are the phases of incident response?,"Preparation, Detection, Analysis, Containment, Eradication, Recovery","Attack, Defense, Response","Alert, React, Solve","Start, Middle, End",Option_1,Advanced
+What is the purpose of an IDS (Intrusion Detection System)?,Monitor network traffic for malicious activity,Block all traffic,Encrypt data,Manage users,Option_1,Intermediate
+What is an IPS (Intrusion Prevention System)?,Active system that detects and blocks attacks,Passive monitoring system,A type of firewall,A backup solution,Option_1,Intermediate
+What is forensics in cybersecurity?,Investigation and analysis of cyber incidents,Firewall configuration,Password management,Network monitoring,Option_1,Advanced
+What is a security information and event management (SIEM) system?,Collects and analyzes security data from multiple sources,A type of malware,A backup system,A network protocol,Option_1,Advanced
+What is a cloud security group?,Virtual firewall controlling inbound/outbound traffic,A team of security experts,A type of malware,A backup service,Option_1,Intermediate
+What does IAM stand for in cloud?,Identity and Access Management,Internal Architecture Management,Internet Access Module,Integrated Authentication Method,Option_1,Intermediate
+What is encryption at rest?,Encrypting data stored on devices,Encrypting data in transit,Temporary encryption,Network encryption,Option_1,Intermediate
+What is encryption in transit?,Encrypting data being transmitted over networks,Data at rest,Temporary encryption,Local encryption,Option_1,Intermediate
+What is a cloud access security broker (CASB)?,Security tool monitoring cloud service usage,A type of cloud service,Cloud firewall,Backup solution,Option_1,Advanced
+What does GDPR stand for?,General Data Protection Regulation,Global Data Processing Rule,Government Digital Privacy Regulation,General Digital Protection Requirement,Option_1,Intermediate
+What is the primary focus of HIPAA?,Protecting healthcare data privacy,Banking security,Education data,Government data,Option_1,Intermediate
+What does PCI-DSS stand for?,Payment Card Industry Data Security Standard,Personal Computer Industry Security,Protected Card Industry Data,Public Card Information Security Standard,Option_1,Intermediate
+What is ISO/IEC 27001?,Information security management standard,Network security protocol,Firewall standard,Encryption standard,Option_1,Intermediate
+What is SOC 2?,Security and operational control compliance,System organization control,Software operation compliance,Security operation center,Option_1,Intermediate
+What is WPA2?,Wi-Fi Protected Access 2 for wireless security,Web Protocol Authentication,Wireless Privacy Algorithm,Web Protection Architecture,Option_1,Intermediate
+What is the difference between WPA2 and WPA3?,WPA3 is newer with stronger encryption,No difference,WPA2 is newer,Different frequency,Option_1,Intermediate
+What is a rogue access point?,Unauthorized WiFi access point mimicking legitimate one,A malfunctioning router,A type of malware,A network protocol,Option_1,Intermediate
+What is evil twin attack?,Fake WiFi network with legitimate name,Network duplication,A type of virus,Router malfunction,Option_1,Intermediate
+What does WEP stand for?,Wired Equivalent Privacy,Wireless Exchange Protocol,Web Encryption Protocol,Wireless Encryption Program,Option_1,Beginner
+What is SAST?,Static Application Security Testing,Security application software tool,Secure analysis scanning tool,System application security testing,Option_1,Advanced
+What is DAST?,Dynamic Application Security Testing,Database application security testing,Defensive application security tool,Distributed application security testing,Option_1,Advanced
+What is a security patch?,Software update fixing security vulnerabilities,A type of firewall,Temporary security measure,Backup file,Option_1,Intermediate
+What is a security update vs patch?,"Update is broader, patch is specific fix",Same thing,Patch is hardware,Update is permanent,Option_1,Intermediate
+What is secure code review?,Manual/automated inspection of code for vulnerabilities,Proofreading code,Testing code functionality,Code optimization,Option_1,Advanced
+What is a digital certificate?,Binds identity to public key for authentication,A type of password,Firewall rule,Backup file,Option_1,Advanced
+What is PKI (Public Key Infrastructure)?,System for managing public/private keys,Protected Key Information,Public knowledge integration,Private key issuance,Option_1,Advanced
+What is a Certificate Authority (CA)?,Entity issuing digital certificates,A type of malware,Network monitoring tool,Firewall component,Option_1,Intermediate
+What is a CRL (Certificate Revocation List)?,List of revoked digital certificates,Central Resource Library,Cryptographic Resource List,Certificate Resource Library,Option_1,Advanced
+What is a CSR (Certificate Signing Request)?,Request to CA to issue a digital certificate,Client-server request,Certificate storage request,Cryptographic signing response,Option_1,Advanced
+What is DNS spoofing?,Fraudulent DNS response directing to malicious site,DNS server failure,Network congestion,Firewall misconfiguration,Option_1,Intermediate
+What is ARP spoofing?,Sending false ARP messages to associate IP with wrong MAC,Address resolution protocol failure,Network routing issue,Firewall blocking,Option_1,Intermediate
+What is BGP hijacking?,Announcing false BGP routes to redirect traffic,Border gateway protocol failure,Network routing error,Connection timeout,Option_1,Advanced
+What is the difference between TCP and UDP security?,"TCP is connection-oriented (more secure), UDP is connectionless",Same security level,UDP is more secure,TCP is faster,Option_1,Intermediate
+What is DNSSEC?,Securing DNS using digital signatures,DNS firewall,DNS encryption,DNS backup,Option_1,Intermediate
+What is mobile device management (MDM)?,System for managing mobile devices and apps,Mobile development method,Mobile data monitoring,Mobile encryption standard,Option_1,Intermediate
+What are Android permissions?,Capabilities granted to apps on Android,Android firewall rules,System administrator access,Password requirements,Option_1,Beginner
+What is jailbreaking a device?,Removing OS restrictions to gain elevated access,Fixing a broken phone,Factory reset,Updating software,Option_1,Intermediate
+What is mobile app sandboxing?,Isolating apps to prevent unauthorized access,App storage location,App backup method,App testing environment,Option_1,Intermediate
+What is app signing?,Digitally signing app to verify authenticity,App activation,License key,Version number,Option_1,Intermediate
+What is badge access control?,Using ID cards to control physical entry,Security alarm system,Video surveillance,Cybersecurity term,Option_1,Beginner
+What is the purpose of a server room lock?,Prevent unauthorized physical access to servers,Cool servers,Organize cables,Backup systems,Option_1,Beginner
+What is tailgating in security?,Following an authorized person into restricted area,Vehicle security,Network monitoring,Firewall rule,Option_1,Beginner
+What is dumpster diving?,Searching discarded materials for sensitive information,Garbage removal,Waste management,Recycling process,Option_1,Beginner
+What is a Faraday cage?,Enclosure that blocks electromagnetic signals,Physical barrier,Network security tool,Firewall component,Option_1,Intermediate
+What is threat modeling?,Process of identifying and prioritizing potential threats,Creating security threats,Predicting attacks,Network mapping,Option_1,Advanced
+What does STRIDE stand for?,"Spoofing, Tampering, Repudiation, Information Disclosure, DoS, Elevation",Security threats identification,Risk assessment,Vulnerability types,Option_1,Advanced
+What is DREAD methodology?,"Damage, Reproducibility, Exploitability, Affected users, Discoverability",Threat assessment,Risk calculation,Security framework,Option_1,Advanced
+What is attack surface analysis?,Identifying all potential entry points for attacks,Network topology,Firewall rules,Security policies,Option_1,Advanced
+What is a threat actor?,Individual or group capable of conducting attacks,Network administrator,Security software,Firewall rule,Option_1,Intermediate
+What is a SOC (Security Operations Center)?,Centralized team monitoring security 24/7,Security software,Firewall system,Backup location,Option_1,Advanced
+What is a playbook in security?,Documented procedure for responding to incidents,Security software manual,User guide,Training document,Option_1,Intermediate
+What is continuous monitoring?,Ongoing observation of systems for anomalies,Periodic security checks,Annual audits,Quarterly reviews,Option_1,Intermediate
+What is a baseline in security?,Established standard of normal system behavior,Starting point of project,Initial configuration,Default settings,Option_1,Intermediate
+What is anomaly detection?,Identifying unusual patterns deviating from baseline,Finding bugs,Testing systems,Monitoring networks,Option_1,Intermediate
+What does CIA stand for in cybersecurity?,"Confidentiality, Integrity, Availability",Central Intelligence Agency,Computer Information Architecture,Cyber Incident Analysis,Option_1,Beginner
+Which of the following is NOT a type of cyber attack?,Phishing,DDoS,Encryption,Malware,Option_3,Beginner
+What is the primary goal of a firewall?,Monitor and control incoming/outgoing network traffic,Encrypt all data,Delete viruses,Block all internet access,Option_1,Beginner
+Which protocol is used for secure web communication?,HTTP,HTTPS,FTP,SMTP,Option_2,Beginner
+What is a password salt?,Random data added to password before hashing,A type of firewall,An encryption algorithm,A network protocol,Option_1,Beginner
+What does VPN stand for?,Virtual Private Network,Virtual Public Network,Verified Personal Network,Virtual Protection Network,Option_1,Beginner
+Which port is typically used for SSH?,22,80,443,3306,Option_1,Beginner
+What is the purpose of a DMZ?,To isolate internal networks from untrusted networks,To encrypt all traffic,To block all external connections,To speed up internet,Option_1,Beginner
+Which of the following is a symmetric encryption algorithm?,RSA,AES,ECC,DSA,Option_2,Intermediate
+What is SSL/TLS used for?,Securing web communications,Protecting databases,Blocking malware,Managing users,Option_1,Beginner
+What is a zero-day vulnerability?,A vulnerability unknown to vendors before exploit,A bug found after one day,A vulnerability in legacy systems,A type of malware,Option_1,Intermediate
+Which type of attack floods a server with requests to make it unavailable?,Phishing,DDoS,SQL Injection,XSS,Option_2,Intermediate
+What is SQL Injection?,Inserting malicious SQL code into input fields,Injecting vaccines into SQL database,A type of firewall,A backup method,Option_1,Intermediate
+What does XSS stand for?,Cross-Site Scripting,Cross Server Security,Cross-Sector Systems,Critical Security Service,Option_1,Intermediate
+What is a man-in-the-middle attack?,Attacker intercepts communication between two parties,An attack on middle managers,A type of malware,A network configuration,Option_1,Intermediate
+What is the main difference between symmetric and asymmetric encryption?,"Symmetric uses one key, asymmetric uses two keys",Symmetric is faster,Asymmetric is older,No difference,Option_1,Intermediate
+Which algorithm is used for digital signatures?,AES,SHA-256,RSA,MD5,Option_3,Intermediate
+What is a hash function's primary characteristic?,Deterministic output for same input,Reversible,Slower processing,Uses public key,Option_1,Intermediate
+Which of the following is NOT a type of authentication?,Something you know,Something you are,Something you have,Something you like,Option_4,Intermediate
+What is multi-factor authentication (MFA)?,Using more than one method to verify identity,Multiple passwords,Backup authentication,Network security,Option_1,Beginner
+What is the difference between a virus and a worm?,"Virus needs host program, worm is independent",Same thing,Worm is older,Virus is network-based,Option_1,Intermediate
+What is ransomware?,Malware that encrypts data and demands payment,A type of firewall,A backup solution,An antivirus program,Option_1,Intermediate
+What is a trojan horse in cybersecurity?,Malware disguised as legitimate software,A type of network,A firewall configuration,An encryption method,Option_1,Intermediate
+What is a rootkit?,Malware with administrative/root access,A toolkit for developers,A type of password,A security protocol,Option_1,Intermediate
+What is the primary purpose of an antivirus?,Detect and remove malware,Encrypt data,Block all downloads,Monitor passwords,Option_1,Beginner
+What does RBAC stand for?,Role-Based Access Control,Remote Basic Authentication Code,Rapid Byte Access Control,Resource Block Access Code,Option_1,Intermediate
+What is the principle of least privilege?,Users should have minimum access needed for their role,Everyone has same access,Admin controls everything,No access controls needed,Option_1,Intermediate
+What is an ACL (Access Control List)?,A list defining which users can access resources,A type of malware,A network protocol,A firewall rule,Option_1,Intermediate
+What is OAuth used for?,Secure delegated access/authentication,Encrypting passwords,Blocking websites,Managing firewalls,Option_1,Intermediate
+What is SSO (Single Sign-On)?,Users log in once to access multiple systems,Single server operation,Secure socket operation,Software security option,Option_1,Intermediate
+What is the first step in a penetration test?,Reconnaissance and information gathering,Exploitation,Data exfiltration,Covering tracks,Option_1,Advanced
+What is a vulnerability assessment?,Systematic review to identify security weaknesses,A type of attack,Network monitoring,Firewall configuration,Option_1,Intermediate
+What does OWASP stand for?,Open Web Application Security Project,Online Web Architecture and Software Protocol,Operational Web Application Security Platform,Organized Worldwide Application Systems Protocol,Option_1,Intermediate
+What are the OWASP Top 10?,10 most critical web application security risks,10 firewalls,10 antivirus programs,10 protocols,Option_1,Intermediate
+What is social engineering?,Manipulating people to divulge confidential information,Building social networks,A network protocol,A type of firewall,Option_1,Intermediate
+What are the phases of incident response?,"Preparation, Detection, Analysis, Containment, Eradication, Recovery","Attack, Defense, Response","Alert, React, Solve","Start, Middle, End",Option_1,Advanced
+What is the purpose of an IDS (Intrusion Detection System)?,Monitor network traffic for malicious activity,Block all traffic,Encrypt data,Manage users,Option_1,Intermediate
+What is an IPS (Intrusion Prevention System)?,Active system that detects and blocks attacks,Passive monitoring system,A type of firewall,A backup solution,Option_1,Intermediate
+What is forensics in cybersecurity?,Investigation and analysis of cyber incidents,Firewall configuration,Password management,Network monitoring,Option_1,Advanced
+What is a security information and event management (SIEM) system?,Collects and analyzes security data from multiple sources,A type of malware,A backup system,A network protocol,Option_1,Advanced
+What is a cloud security group?,Virtual firewall controlling inbound/outbound traffic,A team of security experts,A type of malware,A backup service,Option_1,Intermediate
+What does IAM stand for in cloud?,Identity and Access Management,Internal Architecture Management,Internet Access Module,Integrated Authentication Method,Option_1,Intermediate
+What is encryption at rest?,Encrypting data stored on devices,Encrypting data in transit,Temporary encryption,Network encryption,Option_1,Intermediate
+What is encryption in transit?,Encrypting data being transmitted over networks,Data at rest,Temporary encryption,Local encryption,Option_1,Intermediate
+What is a cloud access security broker (CASB)?,Security tool monitoring cloud service usage,A type of cloud service,Cloud firewall,Backup solution,Option_1,Advanced
+What does GDPR stand for?,General Data Protection Regulation,Global Data Processing Rule,Government Digital Privacy Regulation,General Digital Protection Requirement,Option_1,Intermediate
+What is the primary focus of HIPAA?,Protecting healthcare data privacy,Banking security,Education data,Government data,Option_1,Intermediate
+What does PCI-DSS stand for?,Payment Card Industry Data Security Standard,Personal Computer Industry Security,Protected Card Industry Data,Public Card Information Security Standard,Option_1,Intermediate
+What is ISO/IEC 27001?,Information security management standard,Network security protocol,Firewall standard,Encryption standard,Option_1,Intermediate
+What is SOC 2?,Security and operational control compliance,System organization control,Software operation compliance,Security operation center,Option_1,Intermediate
+What is WPA2?,Wi-Fi Protected Access 2 for wireless security,Web Protocol Authentication,Wireless Privacy Algorithm,Web Protection Architecture,Option_1,Intermediate
+What is the difference between WPA2 and WPA3?,WPA3 is newer with stronger encryption,No difference,WPA2 is newer,Different frequency,Option_1,Intermediate
+What is a rogue access point?,Unauthorized WiFi access point mimicking legitimate one,A malfunctioning router,A type of malware,A network protocol,Option_1,Intermediate
+What is evil twin attack?,Fake WiFi network with legitimate name,Network duplication,A type of virus,Router malfunction,Option_1,Intermediate
+What does WEP stand for?,Wired Equivalent Privacy,Wireless Exchange Protocol,Web Encryption Protocol,Wireless Encryption Program,Option_1,Beginner
+What is SAST?,Static Application Security Testing,Security application software tool,Secure analysis scanning tool,System application security testing,Option_1,Advanced
+What is DAST?,Dynamic Application Security Testing,Database application security testing,Defensive application security tool,Distributed application security testing,Option_1,Advanced
+What is a security patch?,Software update fixing security vulnerabilities,A type of firewall,Temporary security measure,Backup file,Option_1,Intermediate
+What is a security update vs patch?,"Update is broader, patch is specific fix",Same thing,Patch is hardware,Update is permanent,Option_1,Intermediate
+What is secure code review?,Manual/automated inspection of code for vulnerabilities,Proofreading code,Testing code functionality,Code optimization,Option_1,Advanced
+What is a digital certificate?,Binds identity to public key for authentication,A type of password,Firewall rule,Backup file,Option_1,Advanced
+What is PKI (Public Key Infrastructure)?,System for managing public/private keys,Protected Key Information,Public knowledge integration,Private key issuance,Option_1,Advanced
+What is a Certificate Authority (CA)?,Entity issuing digital certificates,A type of malware,Network monitoring tool,Firewall component,Option_1,Intermediate
+What is a CRL (Certificate Revocation List)?,List of revoked digital certificates,Central Resource Library,Cryptographic Resource List,Certificate Resource Library,Option_1,Advanced
+What is a CSR (Certificate Signing Request)?,Request to CA to issue a digital certificate,Client-server request,Certificate storage request,Cryptographic signing response,Option_1,Advanced
+What is DNS spoofing?,Fraudulent DNS response directing to malicious site,DNS server failure,Network congestion,Firewall misconfiguration,Option_1,Intermediate
+What is ARP spoofing?,Sending false ARP messages to associate IP with wrong MAC,Address resolution protocol failure,Network routing issue,Firewall blocking,Option_1,Intermediate
+What is BGP hijacking?,Announcing false BGP routes to redirect traffic,Border gateway protocol failure,Network routing error,Connection timeout,Option_1,Advanced
+What is the difference between TCP and UDP security?,"TCP is connection-oriented (more secure), UDP is connectionless",Same security level,UDP is more secure,TCP is faster,Option_1,Intermediate
+What is DNSSEC?,Securing DNS using digital signatures,DNS firewall,DNS encryption,DNS backup,Option_1,Intermediate
+What is mobile device management (MDM)?,System for managing mobile devices and apps,Mobile development method,Mobile data monitoring,Mobile encryption standard,Option_1,Intermediate
+What are Android permissions?,Capabilities granted to apps on Android,Android firewall rules,System administrator access,Password requirements,Option_1,Beginner
+What is jailbreaking a device?,Removing OS restrictions to gain elevated access,Fixing a broken phone,Factory reset,Updating software,Option_1,Intermediate
+What is mobile app sandboxing?,Isolating apps to prevent unauthorized access,App storage location,App backup method,App testing environment,Option_1,Intermediate
+What is app signing?,Digitally signing app to verify authenticity,App activation,License key,Version number,Option_1,Intermediate
+What is badge access control?,Using ID cards to control physical entry,Security alarm system,Video surveillance,Cybersecurity term,Option_1,Beginner
+What is the purpose of a server room lock?,Prevent unauthorized physical access to servers,Cool servers,Organize cables,Backup systems,Option_1,Beginner
+What is tailgating in security?,Following an authorized person into restricted area,Vehicle security,Network monitoring,Firewall rule,Option_1,Beginner
+What is dumpster diving?,Searching discarded materials for sensitive information,Garbage removal,Waste management,Recycling process,Option_1,Beginner
+What is a Faraday cage?,Enclosure that blocks electromagnetic signals,Physical barrier,Network security tool,Firewall component,Option_1,Intermediate
+What is threat modeling?,Process of identifying and prioritizing potential threats,Creating security threats,Predicting attacks,Network mapping,Option_1,Advanced
+What does STRIDE stand for?,"Spoofing, Tampering, Repudiation, Information Disclosure, DoS, Elevation",Security threats identification,Risk assessment,Vulnerability types,Option_1,Advanced
+What is DREAD methodology?,"Damage, Reproducibility, Exploitability, Affected users, Discoverability",Threat assessment,Risk calculation,Security framework,Option_1,Advanced
+What is attack surface analysis?,Identifying all potential entry points for attacks,Network topology,Firewall rules,Security policies,Option_1,Advanced
+What is a threat actor?,Individual or group capable of conducting attacks,Network administrator,Security software,Firewall rule,Option_1,Intermediate
+What is a SOC (Security Operations Center)?,Centralized team monitoring security 24/7,Security software,Firewall system,Backup location,Option_1,Advanced
+What is a playbook in security?,Documented procedure for responding to incidents,Security software manual,User guide,Training document,Option_1,Intermediate
+What is continuous monitoring?,Ongoing observation of systems for anomalies,Periodic security checks,Annual audits,Quarterly reviews,Option_1,Intermediate
+What is a baseline in security?,Established standard of normal system behavior,Starting point of project,Initial configuration,Default settings,Option_1,Intermediate
+What is anomaly detection?,Identifying unusual patterns deviating from baseline,Finding bugs,Testing systems,Monitoring networks,Option_1,Intermediate
+What does CIA stand for in cybersecurity?,"Confidentiality, Integrity, Availability",Central Intelligence Agency,Computer Information Architecture,Cyber Incident Analysis,Option_1,Beginner
+Which of the following is NOT a type of cyber attack?,Phishing,DDoS,Encryption,Malware,Option_3,Beginner
+What is the primary goal of a firewall?,Monitor and control incoming/outgoing network traffic,Encrypt all data,Delete viruses,Block all internet access,Option_1,Beginner
+Which protocol is used for secure web communication?,HTTP,HTTPS,FTP,SMTP,Option_2,Beginner
+What is a password salt?,Random data added to password before hashing,A type of firewall,An encryption algorithm,A network protocol,Option_1,Beginner
+What does VPN stand for?,Virtual Private Network,Virtual Public Network,Verified Personal Network,Virtual Protection Network,Option_1,Beginner
+Which port is typically used for SSH?,22,80,443,3306,Option_1,Beginner
+What is the purpose of a DMZ?,To isolate internal networks from untrusted networks,To encrypt all traffic,To block all external connections,To speed up internet,Option_1,Beginner
+Which of the following is a symmetric encryption algorithm?,RSA,AES,ECC,DSA,Option_2,Intermediate
+What is SSL/TLS used for?,Securing web communications,Protecting databases,Blocking malware,Managing users,Option_1,Beginner
+What is a zero-day vulnerability?,A vulnerability unknown to vendors before exploit,A bug found after one day,A vulnerability in legacy systems,A type of malware,Option_1,Intermediate
+Which type of attack floods a server with requests to make it unavailable?,Phishing,DDoS,SQL Injection,XSS,Option_2,Intermediate
+What is SQL Injection?,Inserting malicious SQL code into input fields,Injecting vaccines into SQL database,A type of firewall,A backup method,Option_1,Intermediate
+What does XSS stand for?,Cross-Site Scripting,Cross Server Security,Cross-Sector Systems,Critical Security Service,Option_1,Intermediate
+What is a man-in-the-middle attack?,Attacker intercepts communication between two parties,An attack on middle managers,A type of malware,A network configuration,Option_1,Intermediate
+What is the main difference between symmetric and asymmetric encryption?,"Symmetric uses one key, asymmetric uses two keys",Symmetric is faster,Asymmetric is older,No difference,Option_1,Intermediate
+Which algorithm is used for digital signatures?,AES,SHA-256,RSA,MD5,Option_3,Intermediate
+What is a hash function's primary characteristic?,Deterministic output for same input,Reversible,Slower processing,Uses public key,Option_1,Intermediate
+Which of the following is NOT a type of authentication?,Something you know,Something you are,Something you have,Something you like,Option_4,Intermediate
+What is multi-factor authentication (MFA)?,Using more than one method to verify identity,Multiple passwords,Backup authentication,Network security,Option_1,Beginner
+What is the difference between a virus and a worm?,"Virus needs host program, worm is independent",Same thing,Worm is older,Virus is network-based,Option_1,Intermediate
+What is ransomware?,Malware that encrypts data and demands payment,A type of firewall,A backup solution,An antivirus program,Option_1,Intermediate
+What is a trojan horse in cybersecurity?,Malware disguised as legitimate software,A type of network,A firewall configuration,An encryption method,Option_1,Intermediate
+What is a rootkit?,Malware with administrative/root access,A toolkit for developers,A type of password,A security protocol,Option_1,Intermediate
+What is the primary purpose of an antivirus?,Detect and remove malware,Encrypt data,Block all downloads,Monitor passwords,Option_1,Beginner
+What does RBAC stand for?,Role-Based Access Control,Remote Basic Authentication Code,Rapid Byte Access Control,Resource Block Access Code,Option_1,Intermediate
+What is the principle of least privilege?,Users should have minimum access needed for their role,Everyone has same access,Admin controls everything,No access controls needed,Option_1,Intermediate
+What is an ACL (Access Control List)?,A list defining which users can access resources,A type of malware,A network protocol,A firewall rule,Option_1,Intermediate
+What is OAuth used for?,Secure delegated access/authentication,Encrypting passwords,Blocking websites,Managing firewalls,Option_1,Intermediate
+What is SSO (Single Sign-On)?,Users log in once to access multiple systems,Single server operation,Secure socket operation,Software security option,Option_1,Intermediate
+What is the first step in a penetration test?,Reconnaissance and information gathering,Exploitation,Data exfiltration,Covering tracks,Option_1,Advanced
+What is a vulnerability assessment?,Systematic review to identify security weaknesses,A type of attack,Network monitoring,Firewall configuration,Option_1,Intermediate
+What does OWASP stand for?,Open Web Application Security Project,Online Web Architecture and Software Protocol,Operational Web Application Security Platform,Organized Worldwide Application Systems Protocol,Option_1,Intermediate
+What are the OWASP Top 10?,10 most critical web application security risks,10 firewalls,10 antivirus programs,10 protocols,Option_1,Intermediate
+What is social engineering?,Manipulating people to divulge confidential information,Building social networks,A network protocol,A type of firewall,Option_1,Intermediate
+What are the phases of incident response?,"Preparation, Detection, Analysis, Containment, Eradication, Recovery","Attack, Defense, Response","Alert, React, Solve","Start, Middle, End",Option_1,Advanced
+What is the purpose of an IDS (Intrusion Detection System)?,Monitor network traffic for malicious activity,Block all traffic,Encrypt data,Manage users,Option_1,Intermediate
+What is an IPS (Intrusion Prevention System)?,Active system that detects and blocks attacks,Passive monitoring system,A type of firewall,A backup solution,Option_1,Intermediate
+What is forensics in cybersecurity?,Investigation and analysis of cyber incidents,Firewall configuration,Password management,Network monitoring,Option_1,Advanced
+What is a security information and event management (SIEM) system?,Collects and analyzes security data from multiple sources,A type of malware,A backup system,A network protocol,Option_1,Advanced
+What is a cloud security group?,Virtual firewall controlling inbound/outbound traffic,A team of security experts,A type of malware,A backup service,Option_1,Intermediate
+What does IAM stand for in cloud?,Identity and Access Management,Internal Architecture Management,Internet Access Module,Integrated Authentication Method,Option_1,Intermediate
+What is encryption at rest?,Encrypting data stored on devices,Encrypting data in transit,Temporary encryption,Network encryption,Option_1,Intermediate
+What is encryption in transit?,Encrypting data being transmitted over networks,Data at rest,Temporary encryption,Local encryption,Option_1,Intermediate
+What is a cloud access security broker (CASB)?,Security tool monitoring cloud service usage,A type of cloud service,Cloud firewall,Backup solution,Option_1,Advanced
+What does GDPR stand for?,General Data Protection Regulation,Global Data Processing Rule,Government Digital Privacy Regulation,General Digital Protection Requirement,Option_1,Intermediate
+What is the primary focus of HIPAA?,Protecting healthcare data privacy,Banking security,Education data,Government data,Option_1,Intermediate
+What does PCI-DSS stand for?,Payment Card Industry Data Security Standard,Personal Computer Industry Security,Protected Card Industry Data,Public Card Information Security Standard,Option_1,Intermediate
+What is ISO/IEC 27001?,Information security management standard,Network security protocol,Firewall standard,Encryption standard,Option_1,Intermediate
+What is SOC 2?,Security and operational control compliance,System organization control,Software operation compliance,Security operation center,Option_1,Intermediate
+What is WPA2?,Wi-Fi Protected Access 2 for wireless security,Web Protocol Authentication,Wireless Privacy Algorithm,Web Protection Architecture,Option_1,Intermediate
+What is the difference between WPA2 and WPA3?,WPA3 is newer with stronger encryption,No difference,WPA2 is newer,Different frequency,Option_1,Intermediate
+What is a rogue access point?,Unauthorized WiFi access point mimicking legitimate one,A malfunctioning router,A type of malware,A network protocol,Option_1,Intermediate
+What is evil twin attack?,Fake WiFi network with legitimate name,Network duplication,A type of virus,Router malfunction,Option_1,Intermediate
+What does WEP stand for?,Wired Equivalent Privacy,Wireless Exchange Protocol,Web Encryption Protocol,Wireless Encryption Program,Option_1,Beginner
+What is SAST?,Static Application Security Testing,Security application software tool,Secure analysis scanning tool,System application security testing,Option_1,Advanced
+What is DAST?,Dynamic Application Security Testing,Database application security testing,Defensive application security tool,Distributed application security testing,Option_1,Advanced
+What is a security patch?,Software update fixing security vulnerabilities,A type of firewall,Temporary security measure,Backup file,Option_1,Intermediate
+What is a security update vs patch?,"Update is broader, patch is specific fix",Same thing,Patch is hardware,Update is permanent,Option_1,Intermediate
+What is secure code review?,Manual/automated inspection of code for vulnerabilities,Proofreading code,Testing code functionality,Code optimization,Option_1,Advanced
+What is a digital certificate?,Binds identity to public key for authentication,A type of password,Firewall rule,Backup file,Option_1,Advanced
+What is PKI (Public Key Infrastructure)?,System for managing public/private keys,Protected Key Information,Public knowledge integration,Private key issuance,Option_1,Advanced
+What is a Certificate Authority (CA)?,Entity issuing digital certificates,A type of malware,Network monitoring tool,Firewall component,Option_1,Intermediate
+What is a CRL (Certificate Revocation List)?,List of revoked digital certificates,Central Resource Library,Cryptographic Resource List,Certificate Resource Library,Option_1,Advanced
+What is a CSR (Certificate Signing Request)?,Request to CA to issue a digital certificate,Client-server request,Certificate storage request,Cryptographic signing response,Option_1,Advanced
+What is DNS spoofing?,Fraudulent DNS response directing to malicious site,DNS server failure,Network congestion,Firewall misconfiguration,Option_1,Intermediate
+What is ARP spoofing?,Sending false ARP messages to associate IP with wrong MAC,Address resolution protocol failure,Network routing issue,Firewall blocking,Option_1,Intermediate
+What is BGP hijacking?,Announcing false BGP routes to redirect traffic,Border gateway protocol failure,Network routing error,Connection timeout,Option_1,Advanced
+What is the difference between TCP and UDP security?,"TCP is connection-oriented (more secure), UDP is connectionless",Same security level,UDP is more secure,TCP is faster,Option_1,Intermediate
+What is DNSSEC?,Securing DNS using digital signatures,DNS firewall,DNS encryption,DNS backup,Option_1,Intermediate
+What is mobile device management (MDM)?,System for managing mobile devices and apps,Mobile development method,Mobile data monitoring,Mobile encryption standard,Option_1,Intermediate
+What are Android permissions?,Capabilities granted to apps on Android,Android firewall rules,System administrator access,Password requirements,Option_1,Beginner
+What is jailbreaking a device?,Removing OS restrictions to gain elevated access,Fixing a broken phone,Factory reset,Updating software,Option_1,Intermediate
+What is mobile app sandboxing?,Isolating apps to prevent unauthorized access,App storage location,App backup method,App testing environment,Option_1,Intermediate
+What is app signing?,Digitally signing app to verify authenticity,App activation,License key,Version number,Option_1,Intermediate
+What is badge access control?,Using ID cards to control physical entry,Security alarm system,Video surveillance,Cybersecurity term,Option_1,Beginner
+What is the purpose of a server room lock?,Prevent unauthorized physical access to servers,Cool servers,Organize cables,Backup systems,Option_1,Beginner
+What is tailgating in security?,Following an authorized person into restricted area,Vehicle security,Network monitoring,Firewall rule,Option_1,Beginner
+What is dumpster diving?,Searching discarded materials for sensitive information,Garbage removal,Waste management,Recycling process,Option_1,Beginner
+What is a Faraday cage?,Enclosure that blocks electromagnetic signals,Physical barrier,Network security tool,Firewall component,Option_1,Intermediate
+What is threat modeling?,Process of identifying and prioritizing potential threats,Creating security threats,Predicting attacks,Network mapping,Option_1,Advanced
+What does STRIDE stand for?,"Spoofing, Tampering, Repudiation, Information Disclosure, DoS, Elevation",Security threats identification,Risk assessment,Vulnerability types,Option_1,Advanced
+What is DREAD methodology?,"Damage, Reproducibility, Exploitability, Affected users, Discoverability",Threat assessment,Risk calculation,Security framework,Option_1,Advanced
+What is attack surface analysis?,Identifying all potential entry points for attacks,Network topology,Firewall rules,Security policies,Option_1,Advanced
+What is a threat actor?,Individual or group capable of conducting attacks,Network administrator,Security software,Firewall rule,Option_1,Intermediate
+What is a SOC (Security Operations Center)?,Centralized team monitoring security 24/7,Security software,Firewall system,Backup location,Option_1,Advanced
+What is a playbook in security?,Documented procedure for responding to incidents,Security software manual,User guide,Training document,Option_1,Intermediate
+What is continuous monitoring?,Ongoing observation of systems for anomalies,Periodic security checks,Annual audits,Quarterly reviews,Option_1,Intermediate
+What is a baseline in security?,Established standard of normal system behavior,Starting point of project,Initial configuration,Default settings,Option_1,Intermediate
+What is anomaly detection?,Identifying unusual patterns deviating from baseline,Finding bugs,Testing systems,Monitoring networks,Option_1,Intermediate
+What does CIA stand for in cybersecurity?,"Confidentiality, Integrity, Availability",Central Intelligence Agency,Computer Information Architecture,Cyber Incident Analysis,Option_1,Beginner
+Which of the following is NOT a type of cyber attack?,Phishing,DDoS,Encryption,Malware,Option_3,Beginner
+What is the primary goal of a firewall?,Monitor and control incoming/outgoing network traffic,Encrypt all data,Delete viruses,Block all internet access,Option_1,Beginner
+Which protocol is used for secure web communication?,HTTP,HTTPS,FTP,SMTP,Option_2,Beginner
+What is a password salt?,Random data added to password before hashing,A type of firewall,An encryption algorithm,A network protocol,Option_1,Beginner
+What does VPN stand for?,Virtual Private Network,Virtual Public Network,Verified Personal Network,Virtual Protection Network,Option_1,Beginner
+Which port is typically used for SSH?,22,80,443,3306,Option_1,Beginner
+What is the purpose of a DMZ?,To isolate internal networks from untrusted networks,To encrypt all traffic,To block all external connections,To speed up internet,Option_1,Beginner
+Which of the following is a symmetric encryption algorithm?,RSA,AES,ECC,DSA,Option_2,Intermediate
+What is SSL/TLS used for?,Securing web communications,Protecting databases,Blocking malware,Managing users,Option_1,Beginner
+What is a zero-day vulnerability?,A vulnerability unknown to vendors before exploit,A bug found after one day,A vulnerability in legacy systems,A type of malware,Option_1,Intermediate
+Which type of attack floods a server with requests to make it unavailable?,Phishing,DDoS,SQL Injection,XSS,Option_2,Intermediate
+What is SQL Injection?,Inserting malicious SQL code into input fields,Injecting vaccines into SQL database,A type of firewall,A backup method,Option_1,Intermediate
+What does XSS stand for?,Cross-Site Scripting,Cross Server Security,Cross-Sector Systems,Critical Security Service,Option_1,Intermediate
+What is a man-in-the-middle attack?,Attacker intercepts communication between two parties,An attack on middle managers,A type of malware,A network configuration,Option_1,Intermediate
+What is the main difference between symmetric and asymmetric encryption?,"Symmetric uses one key, asymmetric uses two keys",Symmetric is faster,Asymmetric is older,No difference,Option_1,Intermediate
+Which algorithm is used for digital signatures?,AES,SHA-256,RSA,MD5,Option_3,Intermediate
+What is a hash function's primary characteristic?,Deterministic output for same input,Reversible,Slower processing,Uses public key,Option_1,Intermediate
+Which of the following is NOT a type of authentication?,Something you know,Something you are,Something you have,Something you like,Option_4,Intermediate
+What is multi-factor authentication (MFA)?,Using more than one method to verify identity,Multiple passwords,Backup authentication,Network security,Option_1,Beginner
+What is the difference between a virus and a worm?,"Virus needs host program, worm is independent",Same thing,Worm is older,Virus is network-based,Option_1,Intermediate
+What is ransomware?,Malware that encrypts data and demands payment,A type of firewall,A backup solution,An antivirus program,Option_1,Intermediate
+What is a trojan horse in cybersecurity?,Malware disguised as legitimate software,A type of network,A firewall configuration,An encryption method,Option_1,Intermediate
+What is a rootkit?,Malware with administrative/root access,A toolkit for developers,A type of password,A security protocol,Option_1,Intermediate
+What is the primary purpose of an antivirus?,Detect and remove malware,Encrypt data,Block all downloads,Monitor passwords,Option_1,Beginner
+What does RBAC stand for?,Role-Based Access Control,Remote Basic Authentication Code,Rapid Byte Access Control,Resource Block Access Code,Option_1,Intermediate
+What is the principle of least privilege?,Users should have minimum access needed for their role,Everyone has same access,Admin controls everything,No access controls needed,Option_1,Intermediate
+What is an ACL (Access Control List)?,A list defining which users can access resources,A type of malware,A network protocol,A firewall rule,Option_1,Intermediate
+What is OAuth used for?,Secure delegated access/authentication,Encrypting passwords,Blocking websites,Managing firewalls,Option_1,Intermediate
+What is SSO (Single Sign-On)?,Users log in once to access multiple systems,Single server operation,Secure socket operation,Software security option,Option_1,Intermediate
+What is the first step in a penetration test?,Reconnaissance and information gathering,Exploitation,Data exfiltration,Covering tracks,Option_1,Advanced
+What is a vulnerability assessment?,Systematic review to identify security weaknesses,A type of attack,Network monitoring,Firewall configuration,Option_1,Intermediate
+What does OWASP stand for?,Open Web Application Security Project,Online Web Architecture and Software Protocol,Operational Web Application Security Platform,Organized Worldwide Application Systems Protocol,Option_1,Intermediate
+What are the OWASP Top 10?,10 most critical web application security risks,10 firewalls,10 antivirus programs,10 protocols,Option_1,Intermediate
+What is social engineering?,Manipulating people to divulge confidential information,Building social networks,A network protocol,A type of firewall,Option_1,Intermediate
+What are the phases of incident response?,"Preparation, Detection, Analysis, Containment, Eradication, Recovery","Attack, Defense, Response","Alert, React, Solve","Start, Middle, End",Option_1,Advanced
+What is the purpose of an IDS (Intrusion Detection System)?,Monitor network traffic for malicious activity,Block all traffic,Encrypt data,Manage users,Option_1,Intermediate
+What is an IPS (Intrusion Prevention System)?,Active system that detects and blocks attacks,Passive monitoring system,A type of firewall,A backup solution,Option_1,Intermediate
+What is forensics in cybersecurity?,Investigation and analysis of cyber incidents,Firewall configuration,Password management,Network monitoring,Option_1,Advanced
+What is a security information and event management (SIEM) system?,Collects and analyzes security data from multiple sources,A type of malware,A backup system,A network protocol,Option_1,Advanced
+What is a cloud security group?,Virtual firewall controlling inbound/outbound traffic,A team of security experts,A type of malware,A backup service,Option_1,Intermediate
+What does IAM stand for in cloud?,Identity and Access Management,Internal Architecture Management,Internet Access Module,Integrated Authentication Method,Option_1,Intermediate
+What is encryption at rest?,Encrypting data stored on devices,Encrypting data in transit,Temporary encryption,Network encryption,Option_1,Intermediate
+What is encryption in transit?,Encrypting data being transmitted over networks,Data at rest,Temporary encryption,Local encryption,Option_1,Intermediate
+What is a cloud access security broker (CASB)?,Security tool monitoring cloud service usage,A type of cloud service,Cloud firewall,Backup solution,Option_1,Advanced
+What does GDPR stand for?,General Data Protection Regulation,Global Data Processing Rule,Government Digital Privacy Regulation,General Digital Protection Requirement,Option_1,Intermediate
+What is the primary focus of HIPAA?,Protecting healthcare data privacy,Banking security,Education data,Government data,Option_1,Intermediate
+What does PCI-DSS stand for?,Payment Card Industry Data Security Standard,Personal Computer Industry Security,Protected Card Industry Data,Public Card Information Security Standard,Option_1,Intermediate
+What is ISO/IEC 27001?,Information security management standard,Network security protocol,Firewall standard,Encryption standard,Option_1,Intermediate
+What is SOC 2?,Security and operational control compliance,System organization control,Software operation compliance,Security operation center,Option_1,Intermediate
+What is WPA2?,Wi-Fi Protected Access 2 for wireless security,Web Protocol Authentication,Wireless Privacy Algorithm,Web Protection Architecture,Option_1,Intermediate
+What is the difference between WPA2 and WPA3?,WPA3 is newer with stronger encryption,No difference,WPA2 is newer,Different frequency,Option_1,Intermediate
+What is a rogue access point?,Unauthorized WiFi access point mimicking legitimate one,A malfunctioning router,A type of malware,A network protocol,Option_1,Intermediate
+What is evil twin attack?,Fake WiFi network with legitimate name,Network duplication,A type of virus,Router malfunction,Option_1,Intermediate
+What does WEP stand for?,Wired Equivalent Privacy,Wireless Exchange Protocol,Web Encryption Protocol,Wireless Encryption Program,Option_1,Beginner
+What is SAST?,Static Application Security Testing,Security application software tool,Secure analysis scanning tool,System application security testing,Option_1,Advanced
+What is DAST?,Dynamic Application Security Testing,Database application security testing,Defensive application security tool,Distributed application security testing,Option_1,Advanced
+What is a security patch?,Software update fixing security vulnerabilities,A type of firewall,Temporary security measure,Backup file,Option_1,Intermediate
+What is a security update vs patch?,"Update is broader, patch is specific fix",Same thing,Patch is hardware,Update is permanent,Option_1,Intermediate
+What is secure code review?,Manual/automated inspection of code for vulnerabilities,Proofreading code,Testing code functionality,Code optimization,Option_1,Advanced
+What is a digital certificate?,Binds identity to public key for authentication,A type of password,Firewall rule,Backup file,Option_1,Advanced
+What is PKI (Public Key Infrastructure)?,System for managing public/private keys,Protected Key Information,Public knowledge integration,Private key issuance,Option_1,Advanced
+What is a Certificate Authority (CA)?,Entity issuing digital certificates,A type of malware,Network monitoring tool,Firewall component,Option_1,Intermediate
+What is a CRL (Certificate Revocation List)?,List of revoked digital certificates,Central Resource Library,Cryptographic Resource List,Certificate Resource Library,Option_1,Advanced
+What is a CSR (Certificate Signing Request)?,Request to CA to issue a digital certificate,Client-server request,Certificate storage request,Cryptographic signing response,Option_1,Advanced
+What is DNS spoofing?,Fraudulent DNS response directing to malicious site,DNS server failure,Network congestion,Firewall misconfiguration,Option_1,Intermediate
+What is ARP spoofing?,Sending false ARP messages to associate IP with wrong MAC,Address resolution protocol failure,Network routing issue,Firewall blocking,Option_1,Intermediate
+What is BGP hijacking?,Announcing false BGP routes to redirect traffic,Border gateway protocol failure,Network routing error,Connection timeout,Option_1,Advanced
+What is the difference between TCP and UDP security?,"TCP is connection-oriented (more secure), UDP is connectionless",Same security level,UDP is more secure,TCP is faster,Option_1,Intermediate
+What is DNSSEC?,Securing DNS using digital signatures,DNS firewall,DNS encryption,DNS backup,Option_1,Intermediate
+What is mobile device management (MDM)?,System for managing mobile devices and apps,Mobile development method,Mobile data monitoring,Mobile encryption standard,Option_1,Intermediate
+What are Android permissions?,Capabilities granted to apps on Android,Android firewall rules,System administrator access,Password requirements,Option_1,Beginner
+What is jailbreaking a device?,Removing OS restrictions to gain elevated access,Fixing a broken phone,Factory reset,Updating software,Option_1,Intermediate
+What is mobile app sandboxing?,Isolating apps to prevent unauthorized access,App storage location,App backup method,App testing environment,Option_1,Intermediate
+What is app signing?,Digitally signing app to verify authenticity,App activation,License key,Version number,Option_1,Intermediate
+What is badge access control?,Using ID cards to control physical entry,Security alarm system,Video surveillance,Cybersecurity term,Option_1,Beginner
+What is the purpose of a server room lock?,Prevent unauthorized physical access to servers,Cool servers,Organize cables,Backup systems,Option_1,Beginner
+What is tailgating in security?,Following an authorized person into restricted area,Vehicle security,Network monitoring,Firewall rule,Option_1,Beginner
+What is dumpster diving?,Searching discarded materials for sensitive information,Garbage removal,Waste management,Recycling process,Option_1,Beginner
+What is a Faraday cage?,Enclosure that blocks electromagnetic signals,Physical barrier,Network security tool,Firewall component,Option_1,Intermediate
+What is threat modeling?,Process of identifying and prioritizing potential threats,Creating security threats,Predicting attacks,Network mapping,Option_1,Advanced
+What does STRIDE stand for?,"Spoofing, Tampering, Repudiation, Information Disclosure, DoS, Elevation",Security threats identification,Risk assessment,Vulnerability types,Option_1,Advanced
+What is DREAD methodology?,"Damage, Reproducibility, Exploitability, Affected users, Discoverability",Threat assessment,Risk calculation,Security framework,Option_1,Advanced
+What is attack surface analysis?,Identifying all potential entry points for attacks,Network topology,Firewall rules,Security policies,Option_1,Advanced
+What is a threat actor?,Individual or group capable of conducting attacks,Network administrator,Security software,Firewall rule,Option_1,Intermediate
+What is a SOC (Security Operations Center)?,Centralized team monitoring security 24/7,Security software,Firewall system,Backup location,Option_1,Advanced
+What is a playbook in security?,Documented procedure for responding to incidents,Security software manual,User guide,Training document,Option_1,Intermediate
+What is continuous monitoring?,Ongoing observation of systems for anomalies,Periodic security checks,Annual audits,Quarterly reviews,Option_1,Intermediate
+What is a baseline in security?,Established standard of normal system behavior,Starting point of project,Initial configuration,Default settings,Option_1,Intermediate
+What is anomaly detection?,Identifying unusual patterns deviating from baseline,Finding bugs,Testing systems,Monitoring networks,Option_1,Intermediate
+What does CIA stand for in cybersecurity?,"Confidentiality, Integrity, Availability",Central Intelligence Agency,Computer Information Architecture,Cyber Incident Analysis,Option_1,Beginner
+Which of the following is NOT a type of cyber attack?,Phishing,DDoS,Encryption,Malware,Option_3,Beginner
+What is the primary goal of a firewall?,Monitor and control incoming/outgoing network traffic,Encrypt all data,Delete viruses,Block all internet access,Option_1,Beginner
+Which protocol is used for secure web communication?,HTTP,HTTPS,FTP,SMTP,Option_2,Beginner
+What is a password salt?,Random data added to password before hashing,A type of firewall,An encryption algorithm,A network protocol,Option_1,Beginner
+What does VPN stand for?,Virtual Private Network,Virtual Public Network,Verified Personal Network,Virtual Protection Network,Option_1,Beginner
+Which port is typically used for SSH?,22,80,443,3306,Option_1,Beginner
+What is the purpose of a DMZ?,To isolate internal networks from untrusted networks,To encrypt all traffic,To block all external connections,To speed up internet,Option_1,Beginner
+Which of the following is a symmetric encryption algorithm?,RSA,AES,ECC,DSA,Option_2,Intermediate
+What is SSL/TLS used for?,Securing web communications,Protecting databases,Blocking malware,Managing users,Option_1,Beginner
+What is a zero-day vulnerability?,A vulnerability unknown to vendors before exploit,A bug found after one day,A vulnerability in legacy systems,A type of malware,Option_1,Intermediate
+Which type of attack floods a server with requests to make it unavailable?,Phishing,DDoS,SQL Injection,XSS,Option_2,Intermediate
+What is SQL Injection?,Inserting malicious SQL code into input fields,Injecting vaccines into SQL database,A type of firewall,A backup method,Option_1,Intermediate
+What does XSS stand for?,Cross-Site Scripting,Cross Server Security,Cross-Sector Systems,Critical Security Service,Option_1,Intermediate
+What is a man-in-the-middle attack?,Attacker intercepts communication between two parties,An attack on middle managers,A type of malware,A network configuration,Option_1,Intermediate
+What is the main difference between symmetric and asymmetric encryption?,"Symmetric uses one key, asymmetric uses two keys",Symmetric is faster,Asymmetric is older,No difference,Option_1,Intermediate
+Which algorithm is used for digital signatures?,AES,SHA-256,RSA,MD5,Option_3,Intermediate
+What is a hash function's primary characteristic?,Deterministic output for same input,Reversible,Slower processing,Uses public key,Option_1,Intermediate
+Which of the following is NOT a type of authentication?,Something you know,Something you are,Something you have,Something you like,Option_4,Intermediate
+What is multi-factor authentication (MFA)?,Using more than one method to verify identity,Multiple passwords,Backup authentication,Network security,Option_1,Beginner
+What is the difference between a virus and a worm?,"Virus needs host program, worm is independent",Same thing,Worm is older,Virus is network-based,Option_1,Intermediate
+What is ransomware?,Malware that encrypts data and demands payment,A type of firewall,A backup solution,An antivirus program,Option_1,Intermediate
+What is a trojan horse in cybersecurity?,Malware disguised as legitimate software,A type of network,A firewall configuration,An encryption method,Option_1,Intermediate
+What is a rootkit?,Malware with administrative/root access,A toolkit for developers,A type of password,A security protocol,Option_1,Intermediate
+What is the primary purpose of an antivirus?,Detect and remove malware,Encrypt data,Block all downloads,Monitor passwords,Option_1,Beginner
+What does RBAC stand for?,Role-Based Access Control,Remote Basic Authentication Code,Rapid Byte Access Control,Resource Block Access Code,Option_1,Intermediate
+What is the principle of least privilege?,Users should have minimum access needed for their role,Everyone has same access,Admin controls everything,No access controls needed,Option_1,Intermediate
+What is an ACL (Access Control List)?,A list defining which users can access resources,A type of malware,A network protocol,A firewall rule,Option_1,Intermediate
+What is OAuth used for?,Secure delegated access/authentication,Encrypting passwords,Blocking websites,Managing firewalls,Option_1,Intermediate
+What is SSO (Single Sign-On)?,Users log in once to access multiple systems,Single server operation,Secure socket operation,Software security option,Option_1,Intermediate
+What is the first step in a penetration test?,Reconnaissance and information gathering,Exploitation,Data exfiltration,Covering tracks,Option_1,Advanced
+What is a vulnerability assessment?,Systematic review to identify security weaknesses,A type of attack,Network monitoring,Firewall configuration,Option_1,Intermediate
+What does OWASP stand for?,Open Web Application Security Project,Online Web Architecture and Software Protocol,Operational Web Application Security Platform,Organized Worldwide Application Systems Protocol,Option_1,Intermediate
+What are the OWASP Top 10?,10 most critical web application security risks,10 firewalls,10 antivirus programs,10 protocols,Option_1,Intermediate
+What is social engineering?,Manipulating people to divulge confidential information,Building social networks,A network protocol,A type of firewall,Option_1,Intermediate
+What are the phases of incident response?,"Preparation, Detection, Analysis, Containment, Eradication, Recovery","Attack, Defense, Response","Alert, React, Solve","Start, Middle, End",Option_1,Advanced
+What is the purpose of an IDS (Intrusion Detection System)?,Monitor network traffic for malicious activity,Block all traffic,Encrypt data,Manage users,Option_1,Intermediate
+What is an IPS (Intrusion Prevention System)?,Active system that detects and blocks attacks,Passive monitoring system,A type of firewall,A backup solution,Option_1,Intermediate
+What is forensics in cybersecurity?,Investigation and analysis of cyber incidents,Firewall configuration,Password management,Network monitoring,Option_1,Advanced
+What is a security information and event management (SIEM) system?,Collects and analyzes security data from multiple sources,A type of malware,A backup system,A network protocol,Option_1,Advanced
+What is a cloud security group?,Virtual firewall controlling inbound/outbound traffic,A team of security experts,A type of malware,A backup service,Option_1,Intermediate
+What does IAM stand for in cloud?,Identity and Access Management,Internal Architecture Management,Internet Access Module,Integrated Authentication Method,Option_1,Intermediate
+What is encryption at rest?,Encrypting data stored on devices,Encrypting data in transit,Temporary encryption,Network encryption,Option_1,Intermediate
+What is encryption in transit?,Encrypting data being transmitted over networks,Data at rest,Temporary encryption,Local encryption,Option_1,Intermediate
+What is a cloud access security broker (CASB)?,Security tool monitoring cloud service usage,A type of cloud service,Cloud firewall,Backup solution,Option_1,Advanced
+What does GDPR stand for?,General Data Protection Regulation,Global Data Processing Rule,Government Digital Privacy Regulation,General Digital Protection Requirement,Option_1,Intermediate
+What is the primary focus of HIPAA?,Protecting healthcare data privacy,Banking security,Education data,Government data,Option_1,Intermediate
+What does PCI-DSS stand for?,Payment Card Industry Data Security Standard,Personal Computer Industry Security,Protected Card Industry Data,Public Card Information Security Standard,Option_1,Intermediate
+What is ISO/IEC 27001?,Information security management standard,Network security protocol,Firewall standard,Encryption standard,Option_1,Intermediate
+What is SOC 2?,Security and operational control compliance,System organization control,Software operation compliance,Security operation center,Option_1,Intermediate
+What is WPA2?,Wi-Fi Protected Access 2 for wireless security,Web Protocol Authentication,Wireless Privacy Algorithm,Web Protection Architecture,Option_1,Intermediate
+What is the difference between WPA2 and WPA3?,WPA3 is newer with stronger encryption,No difference,WPA2 is newer,Different frequency,Option_1,Intermediate
+What is a rogue access point?,Unauthorized WiFi access point mimicking legitimate one,A malfunctioning router,A type of malware,A network protocol,Option_1,Intermediate
+What is evil twin attack?,Fake WiFi network with legitimate name,Network duplication,A type of virus,Router malfunction,Option_1,Intermediate
+What does WEP stand for?,Wired Equivalent Privacy,Wireless Exchange Protocol,Web Encryption Protocol,Wireless Encryption Program,Option_1,Beginner
+What is SAST?,Static Application Security Testing,Security application software tool,Secure analysis scanning tool,System application security testing,Option_1,Advanced
+What is DAST?,Dynamic Application Security Testing,Database application security testing,Defensive application security tool,Distributed application security testing,Option_1,Advanced
+What is a security patch?,Software update fixing security vulnerabilities,A type of firewall,Temporary security measure,Backup file,Option_1,Intermediate
+What is a security update vs patch?,"Update is broader, patch is specific fix",Same thing,Patch is hardware,Update is permanent,Option_1,Intermediate
+What is secure code review?,Manual/automated inspection of code for vulnerabilities,Proofreading code,Testing code functionality,Code optimization,Option_1,Advanced
+What is a digital certificate?,Binds identity to public key for authentication,A type of password,Firewall rule,Backup file,Option_1,Advanced
+What is PKI (Public Key Infrastructure)?,System for managing public/private keys,Protected Key Information,Public knowledge integration,Private key issuance,Option_1,Advanced
+What is a Certificate Authority (CA)?,Entity issuing digital certificates,A type of malware,Network monitoring tool,Firewall component,Option_1,Intermediate
+What is a CRL (Certificate Revocation List)?,List of revoked digital certificates,Central Resource Library,Cryptographic Resource List,Certificate Resource Library,Option_1,Advanced
+What is a CSR (Certificate Signing Request)?,Request to CA to issue a digital certificate,Client-server request,Certificate storage request,Cryptographic signing response,Option_1,Advanced
+What is DNS spoofing?,Fraudulent DNS response directing to malicious site,DNS server failure,Network congestion,Firewall misconfiguration,Option_1,Intermediate
+What is ARP spoofing?,Sending false ARP messages to associate IP with wrong MAC,Address resolution protocol failure,Network routing issue,Firewall blocking,Option_1,Intermediate
+What is BGP hijacking?,Announcing false BGP routes to redirect traffic,Border gateway protocol failure,Network routing error,Connection timeout,Option_1,Advanced
+What is the difference between TCP and UDP security?,"TCP is connection-oriented (more secure), UDP is connectionless",Same security level,UDP is more secure,TCP is faster,Option_1,Intermediate
+What is DNSSEC?,Securing DNS using digital signatures,DNS firewall,DNS encryption,DNS backup,Option_1,Intermediate
+What is mobile device management (MDM)?,System for managing mobile devices and apps,Mobile development method,Mobile data monitoring,Mobile encryption standard,Option_1,Intermediate
+What are Android permissions?,Capabilities granted to apps on Android,Android firewall rules,System administrator access,Password requirements,Option_1,Beginner
+What is jailbreaking a device?,Removing OS restrictions to gain elevated access,Fixing a broken phone,Factory reset,Updating software,Option_1,Intermediate
+What is mobile app sandboxing?,Isolating apps to prevent unauthorized access,App storage location,App backup method,App testing environment,Option_1,Intermediate
+What is app signing?,Digitally signing app to verify authenticity,App activation,License key,Version number,Option_1,Intermediate
+What is badge access control?,Using ID cards to control physical entry,Security alarm system,Video surveillance,Cybersecurity term,Option_1,Beginner
+What is the purpose of a server room lock?,Prevent unauthorized physical access to servers,Cool servers,Organize cables,Backup systems,Option_1,Beginner
+What is tailgating in security?,Following an authorized person into restricted area,Vehicle security,Network monitoring,Firewall rule,Option_1,Beginner
+What is dumpster diving?,Searching discarded materials for sensitive information,Garbage removal,Waste management,Recycling process,Option_1,Beginner
+What is a Faraday cage?,Enclosure that blocks electromagnetic signals,Physical barrier,Network security tool,Firewall component,Option_1,Intermediate
+What is threat modeling?,Process of identifying and prioritizing potential threats,Creating security threats,Predicting attacks,Network mapping,Option_1,Advanced
+What does STRIDE stand for?,"Spoofing, Tampering, Repudiation, Information Disclosure, DoS, Elevation",Security threats identification,Risk assessment,Vulnerability types,Option_1,Advanced
+What is DREAD methodology?,"Damage, Reproducibility, Exploitability, Affected users, Discoverability",Threat assessment,Risk calculation,Security framework,Option_1,Advanced
+What is attack surface analysis?,Identifying all potential entry points for attacks,Network topology,Firewall rules,Security policies,Option_1,Advanced
+What is a threat actor?,Individual or group capable of conducting attacks,Network administrator,Security software,Firewall rule,Option_1,Intermediate
+What is a SOC (Security Operations Center)?,Centralized team monitoring security 24/7,Security software,Firewall system,Backup location,Option_1,Advanced
+What is a playbook in security?,Documented procedure for responding to incidents,Security software manual,User guide,Training document,Option_1,Intermediate
+What is continuous monitoring?,Ongoing observation of systems for anomalies,Periodic security checks,Annual audits,Quarterly reviews,Option_1,Intermediate
+What is a baseline in security?,Established standard of normal system behavior,Starting point of project,Initial configuration,Default settings,Option_1,Intermediate
+What is anomaly detection?,Identifying unusual patterns deviating from baseline,Finding bugs,Testing systems,Monitoring networks,Option_1,Intermediate
+What does CIA stand for in cybersecurity?,"Confidentiality, Integrity, Availability",Central Intelligence Agency,Computer Information Architecture,Cyber Incident Analysis,Option_1,Beginner
+Which of the following is NOT a type of cyber attack?,Phishing,DDoS,Encryption,Malware,Option_3,Beginner
+What is the primary goal of a firewall?,Monitor and control incoming/outgoing network traffic,Encrypt all data,Delete viruses,Block all internet access,Option_1,Beginner
+Which protocol is used for secure web communication?,HTTP,HTTPS,FTP,SMTP,Option_2,Beginner
+What is a password salt?,Random data added to password before hashing,A type of firewall,An encryption algorithm,A network protocol,Option_1,Beginner
+What does VPN stand for?,Virtual Private Network,Virtual Public Network,Verified Personal Network,Virtual Protection Network,Option_1,Beginner
+Which port is typically used for SSH?,22,80,443,3306,Option_1,Beginner
+What is the purpose of a DMZ?,To isolate internal networks from untrusted networks,To encrypt all traffic,To block all external connections,To speed up internet,Option_1,Beginner
+Which of the following is a symmetric encryption algorithm?,RSA,AES,ECC,DSA,Option_2,Intermediate
+What is SSL/TLS used for?,Securing web communications,Protecting databases,Blocking malware,Managing users,Option_1,Beginner
+What is a zero-day vulnerability?,A vulnerability unknown to vendors before exploit,A bug found after one day,A vulnerability in legacy systems,A type of malware,Option_1,Intermediate
+Which type of attack floods a server with requests to make it unavailable?,Phishing,DDoS,SQL Injection,XSS,Option_2,Intermediate
+What is SQL Injection?,Inserting malicious SQL code into input fields,Injecting vaccines into SQL database,A type of firewall,A backup method,Option_1,Intermediate
+What does XSS stand for?,Cross-Site Scripting,Cross Server Security,Cross-Sector Systems,Critical Security Service,Option_1,Intermediate
+What is a man-in-the-middle attack?,Attacker intercepts communication between two parties,An attack on middle managers,A type of malware,A network configuration,Option_1,Intermediate
+What is the main difference between symmetric and asymmetric encryption?,"Symmetric uses one key, asymmetric uses two keys",Symmetric is faster,Asymmetric is older,No difference,Option_1,Intermediate
+Which algorithm is used for digital signatures?,AES,SHA-256,RSA,MD5,Option_3,Intermediate
+What is a hash function's primary characteristic?,Deterministic output for same input,Reversible,Slower processing,Uses public key,Option_1,Intermediate
+Which of the following is NOT a type of authentication?,Something you know,Something you are,Something you have,Something you like,Option_4,Intermediate
+What is multi-factor authentication (MFA)?,Using more than one method to verify identity,Multiple passwords,Backup authentication,Network security,Option_1,Beginner
+What is the difference between a virus and a worm?,"Virus needs host program, worm is independent",Same thing,Worm is older,Virus is network-based,Option_1,Intermediate
+What is ransomware?,Malware that encrypts data and demands payment,A type of firewall,A backup solution,An antivirus program,Option_1,Intermediate
+What is a trojan horse in cybersecurity?,Malware disguised as legitimate software,A type of network,A firewall configuration,An encryption method,Option_1,Intermediate
+What is a rootkit?,Malware with administrative/root access,A toolkit for developers,A type of password,A security protocol,Option_1,Intermediate
+What is the primary purpose of an antivirus?,Detect and remove malware,Encrypt data,Block all downloads,Monitor passwords,Option_1,Beginner
+What does RBAC stand for?,Role-Based Access Control,Remote Basic Authentication Code,Rapid Byte Access Control,Resource Block Access Code,Option_1,Intermediate
+What is the principle of least privilege?,Users should have minimum access needed for their role,Everyone has same access,Admin controls everything,No access controls needed,Option_1,Intermediate
+What is an ACL (Access Control List)?,A list defining which users can access resources,A type of malware,A network protocol,A firewall rule,Option_1,Intermediate
+What is OAuth used for?,Secure delegated access/authentication,Encrypting passwords,Blocking websites,Managing firewalls,Option_1,Intermediate
+What is SSO (Single Sign-On)?,Users log in once to access multiple systems,Single server operation,Secure socket operation,Software security option,Option_1,Intermediate
+What is the first step in a penetration test?,Reconnaissance and information gathering,Exploitation,Data exfiltration,Covering tracks,Option_1,Advanced
+What is a vulnerability assessment?,Systematic review to identify security weaknesses,A type of attack,Network monitoring,Firewall configuration,Option_1,Intermediate
+What does OWASP stand for?,Open Web Application Security Project,Online Web Architecture and Software Protocol,Operational Web Application Security Platform,Organized Worldwide Application Systems Protocol,Option_1,Intermediate
+What are the OWASP Top 10?,10 most critical web application security risks,10 firewalls,10 antivirus programs,10 protocols,Option_1,Intermediate
+What is social engineering?,Manipulating people to divulge confidential information,Building social networks,A network protocol,A type of firewall,Option_1,Intermediate
+What are the phases of incident response?,"Preparation, Detection, Analysis, Containment, Eradication, Recovery","Attack, Defense, Response","Alert, React, Solve","Start, Middle, End",Option_1,Advanced
+What is the purpose of an IDS (Intrusion Detection System)?,Monitor network traffic for malicious activity,Block all traffic,Encrypt data,Manage users,Option_1,Intermediate
+What is an IPS (Intrusion Prevention System)?,Active system that detects and blocks attacks,Passive monitoring system,A type of firewall,A backup solution,Option_1,Intermediate
+What is forensics in cybersecurity?,Investigation and analysis of cyber incidents,Firewall configuration,Password management,Network monitoring,Option_1,Advanced
+What is a security information and event management (SIEM) system?,Collects and analyzes security data from multiple sources,A type of malware,A backup system,A network protocol,Option_1,Advanced
+What is a cloud security group?,Virtual firewall controlling inbound/outbound traffic,A team of security experts,A type of malware,A backup service,Option_1,Intermediate
+What does IAM stand for in cloud?,Identity and Access Management,Internal Architecture Management,Internet Access Module,Integrated Authentication Method,Option_1,Intermediate
+What is encryption at rest?,Encrypting data stored on devices,Encrypting data in transit,Temporary encryption,Network encryption,Option_1,Intermediate
+What is encryption in transit?,Encrypting data being transmitted over networks,Data at rest,Temporary encryption,Local encryption,Option_1,Intermediate
+What is a cloud access security broker (CASB)?,Security tool monitoring cloud service usage,A type of cloud service,Cloud firewall,Backup solution,Option_1,Advanced
+What does GDPR stand for?,General Data Protection Regulation,Global Data Processing Rule,Government Digital Privacy Regulation,General Digital Protection Requirement,Option_1,Intermediate
+What is the primary focus of HIPAA?,Protecting healthcare data privacy,Banking security,Education data,Government data,Option_1,Intermediate
+What does PCI-DSS stand for?,Payment Card Industry Data Security Standard,Personal Computer Industry Security,Protected Card Industry Data,Public Card Information Security Standard,Option_1,Intermediate
+What is ISO/IEC 27001?,Information security management standard,Network security protocol,Firewall standard,Encryption standard,Option_1,Intermediate
+What is SOC 2?,Security and operational control compliance,System organization control,Software operation compliance,Security operation center,Option_1,Intermediate
+What is WPA2?,Wi-Fi Protected Access 2 for wireless security,Web Protocol Authentication,Wireless Privacy Algorithm,Web Protection Architecture,Option_1,Intermediate
+What is the difference between WPA2 and WPA3?,WPA3 is newer with stronger encryption,No difference,WPA2 is newer,Different frequency,Option_1,Intermediate
+What is a rogue access point?,Unauthorized WiFi access point mimicking legitimate one,A malfunctioning router,A type of malware,A network protocol,Option_1,Intermediate
+What is evil twin attack?,Fake WiFi network with legitimate name,Network duplication,A type of virus,Router malfunction,Option_1,Intermediate
+What does WEP stand for?,Wired Equivalent Privacy,Wireless Exchange Protocol,Web Encryption Protocol,Wireless Encryption Program,Option_1,Beginner
+What is SAST?,Static Application Security Testing,Security application software tool,Secure analysis scanning tool,System application security testing,Option_1,Advanced
+What is DAST?,Dynamic Application Security Testing,Database application security testing,Defensive application security tool,Distributed application security testing,Option_1,Advanced
+What is a security patch?,Software update fixing security vulnerabilities,A type of firewall,Temporary security measure,Backup file,Option_1,Intermediate
+What is a security update vs patch?,"Update is broader, patch is specific fix",Same thing,Patch is hardware,Update is permanent,Option_1,Intermediate
+What is secure code review?,Manual/automated inspection of code for vulnerabilities,Proofreading code,Testing code functionality,Code optimization,Option_1,Advanced
+What is a digital certificate?,Binds identity to public key for authentication,A type of password,Firewall rule,Backup file,Option_1,Advanced
+What is PKI (Public Key Infrastructure)?,System for managing public/private keys,Protected Key Information,Public knowledge integration,Private key issuance,Option_1,Advanced
+What is a Certificate Authority (CA)?,Entity issuing digital certificates,A type of malware,Network monitoring tool,Firewall component,Option_1,Intermediate
+What is a CRL (Certificate Revocation List)?,List of revoked digital certificates,Central Resource Library,Cryptographic Resource List,Certificate Resource Library,Option_1,Advanced
+What is a CSR (Certificate Signing Request)?,Request to CA to issue a digital certificate,Client-server request,Certificate storage request,Cryptographic signing response,Option_1,Advanced
+What is DNS spoofing?,Fraudulent DNS response directing to malicious site,DNS server failure,Network congestion,Firewall misconfiguration,Option_1,Intermediate
+What is ARP spoofing?,Sending false ARP messages to associate IP with wrong MAC,Address resolution protocol failure,Network routing issue,Firewall blocking,Option_1,Intermediate
+What is BGP hijacking?,Announcing false BGP routes to redirect traffic,Border gateway protocol failure,Network routing error,Connection timeout,Option_1,Advanced
+What is the difference between TCP and UDP security?,"TCP is connection-oriented (more secure), UDP is connectionless",Same security level,UDP is more secure,TCP is faster,Option_1,Intermediate
+What is DNSSEC?,Securing DNS using digital signatures,DNS firewall,DNS encryption,DNS backup,Option_1,Intermediate
+What is mobile device management (MDM)?,System for managing mobile devices and apps,Mobile development method,Mobile data monitoring,Mobile encryption standard,Option_1,Intermediate
+What are Android permissions?,Capabilities granted to apps on Android,Android firewall rules,System administrator access,Password requirements,Option_1,Beginner
+What is jailbreaking a device?,Removing OS restrictions to gain elevated access,Fixing a broken phone,Factory reset,Updating software,Option_1,Intermediate
+What is mobile app sandboxing?,Isolating apps to prevent unauthorized access,App storage location,App backup method,App testing environment,Option_1,Intermediate
+What is app signing?,Digitally signing app to verify authenticity,App activation,License key,Version number,Option_1,Intermediate
+What is badge access control?,Using ID cards to control physical entry,Security alarm system,Video surveillance,Cybersecurity term,Option_1,Beginner
+What is the purpose of a server room lock?,Prevent unauthorized physical access to servers,Cool servers,Organize cables,Backup systems,Option_1,Beginner
+What is tailgating in security?,Following an authorized person into restricted area,Vehicle security,Network monitoring,Firewall rule,Option_1,Beginner
+What is dumpster diving?,Searching discarded materials for sensitive information,Garbage removal,Waste management,Recycling process,Option_1,Beginner
+What is a Faraday cage?,Enclosure that blocks electromagnetic signals,Physical barrier,Network security tool,Firewall component,Option_1,Intermediate
+What is threat modeling?,Process of identifying and prioritizing potential threats,Creating security threats,Predicting attacks,Network mapping,Option_1,Advanced
+What does STRIDE stand for?,"Spoofing, Tampering, Repudiation, Information Disclosure, DoS, Elevation",Security threats identification,Risk assessment,Vulnerability types,Option_1,Advanced
+What is DREAD methodology?,"Damage, Reproducibility, Exploitability, Affected users, Discoverability",Threat assessment,Risk calculation,Security framework,Option_1,Advanced
+What is attack surface analysis?,Identifying all potential entry points for attacks,Network topology,Firewall rules,Security policies,Option_1,Advanced
+What is a threat actor?,Individual or group capable of conducting attacks,Network administrator,Security software,Firewall rule,Option_1,Intermediate
+What is a SOC (Security Operations Center)?,Centralized team monitoring security 24/7,Security software,Firewall system,Backup location,Option_1,Advanced
+What is a playbook in security?,Documented procedure for responding to incidents,Security software manual,User guide,Training document,Option_1,Intermediate
+What is continuous monitoring?,Ongoing observation of systems for anomalies,Periodic security checks,Annual audits,Quarterly reviews,Option_1,Intermediate
+What is a baseline in security?,Established standard of normal system behavior,Starting point of project,Initial configuration,Default settings,Option_1,Intermediate
+What is anomaly detection?,Identifying unusual patterns deviating from baseline,Finding bugs,Testing systems,Monitoring networks,Option_1,Intermediate
+What does CIA stand for in cybersecurity?,"Confidentiality, Integrity, Availability",Central Intelligence Agency,Computer Information Architecture,Cyber Incident Analysis,Option_1,Beginner
+Which of the following is NOT a type of cyber attack?,Phishing,DDoS,Encryption,Malware,Option_3,Beginner
+What is the primary goal of a firewall?,Monitor and control incoming/outgoing network traffic,Encrypt all data,Delete viruses,Block all internet access,Option_1,Beginner
+Which protocol is used for secure web communication?,HTTP,HTTPS,FTP,SMTP,Option_2,Beginner
+What is a password salt?,Random data added to password before hashing,A type of firewall,An encryption algorithm,A network protocol,Option_1,Beginner
+What does VPN stand for?,Virtual Private Network,Virtual Public Network,Verified Personal Network,Virtual Protection Network,Option_1,Beginner
+Which port is typically used for SSH?,22,80,443,3306,Option_1,Beginner
+What is the purpose of a DMZ?,To isolate internal networks from untrusted networks,To encrypt all traffic,To block all external connections,To speed up internet,Option_1,Beginner
+Which of the following is a symmetric encryption algorithm?,RSA,AES,ECC,DSA,Option_2,Intermediate
+What is SSL/TLS used for?,Securing web communications,Protecting databases,Blocking malware,Managing users,Option_1,Beginner
+What is a zero-day vulnerability?,A vulnerability unknown to vendors before exploit,A bug found after one day,A vulnerability in legacy systems,A type of malware,Option_1,Intermediate
+Which type of attack floods a server with requests to make it unavailable?,Phishing,DDoS,SQL Injection,XSS,Option_2,Intermediate
+What is SQL Injection?,Inserting malicious SQL code into input fields,Injecting vaccines into SQL database,A type of firewall,A backup method,Option_1,Intermediate
+What does XSS stand for?,Cross-Site Scripting,Cross Server Security,Cross-Sector Systems,Critical Security Service,Option_1,Intermediate
+What is a man-in-the-middle attack?,Attacker intercepts communication between two parties,An attack on middle managers,A type of malware,A network configuration,Option_1,Intermediate
+What is the main difference between symmetric and asymmetric encryption?,"Symmetric uses one key, asymmetric uses two keys",Symmetric is faster,Asymmetric is older,No difference,Option_1,Intermediate
+Which algorithm is used for digital signatures?,AES,SHA-256,RSA,MD5,Option_3,Intermediate
+What is a hash function's primary characteristic?,Deterministic output for same input,Reversible,Slower processing,Uses public key,Option_1,Intermediate
+Which of the following is NOT a type of authentication?,Something you know,Something you are,Something you have,Something you like,Option_4,Intermediate
+What is multi-factor authentication (MFA)?,Using more than one method to verify identity,Multiple passwords,Backup authentication,Network security,Option_1,Beginner
+What is the difference between a virus and a worm?,"Virus needs host program, worm is independent",Same thing,Worm is older,Virus is network-based,Option_1,Intermediate
+What is ransomware?,Malware that encrypts data and demands payment,A type of firewall,A backup solution,An antivirus program,Option_1,Intermediate
+What is a trojan horse in cybersecurity?,Malware disguised as legitimate software,A type of network,A firewall configuration,An encryption method,Option_1,Intermediate
+What is a rootkit?,Malware with administrative/root access,A toolkit for developers,A type of password,A security protocol,Option_1,Intermediate
+What is the primary purpose of an antivirus?,Detect and remove malware,Encrypt data,Block all downloads,Monitor passwords,Option_1,Beginner
+What does RBAC stand for?,Role-Based Access Control,Remote Basic Authentication Code,Rapid Byte Access Control,Resource Block Access Code,Option_1,Intermediate
+What is the principle of least privilege?,Users should have minimum access needed for their role,Everyone has same access,Admin controls everything,No access controls needed,Option_1,Intermediate
+What is an ACL (Access Control List)?,A list defining which users can access resources,A type of malware,A network protocol,A firewall rule,Option_1,Intermediate
+What is OAuth used for?,Secure delegated access/authentication,Encrypting passwords,Blocking websites,Managing firewalls,Option_1,Intermediate
+What is SSO (Single Sign-On)?,Users log in once to access multiple systems,Single server operation,Secure socket operation,Software security option,Option_1,Intermediate
+What is the first step in a penetration test?,Reconnaissance and information gathering,Exploitation,Data exfiltration,Covering tracks,Option_1,Advanced
+What is a vulnerability assessment?,Systematic review to identify security weaknesses,A type of attack,Network monitoring,Firewall configuration,Option_1,Intermediate
+What does OWASP stand for?,Open Web Application Security Project,Online Web Architecture and Software Protocol,Operational Web Application Security Platform,Organized Worldwide Application Systems Protocol,Option_1,Intermediate
+What are the OWASP Top 10?,10 most critical web application security risks,10 firewalls,10 antivirus programs,10 protocols,Option_1,Intermediate
+What is social engineering?,Manipulating people to divulge confidential information,Building social networks,A network protocol,A type of firewall,Option_1,Intermediate
+What are the phases of incident response?,"Preparation, Detection, Analysis, Containment, Eradication, Recovery","Attack, Defense, Response","Alert, React, Solve","Start, Middle, End",Option_1,Advanced
+What is the purpose of an IDS (Intrusion Detection System)?,Monitor network traffic for malicious activity,Block all traffic,Encrypt data,Manage users,Option_1,Intermediate
+What is an IPS (Intrusion Prevention System)?,Active system that detects and blocks attacks,Passive monitoring system,A type of firewall,A backup solution,Option_1,Intermediate
+What is forensics in cybersecurity?,Investigation and analysis of cyber incidents,Firewall configuration,Password management,Network monitoring,Option_1,Advanced
+What is a security information and event management (SIEM) system?,Collects and analyzes security data from multiple sources,A type of malware,A backup system,A network protocol,Option_1,Advanced
+What is a cloud security group?,Virtual firewall controlling inbound/outbound traffic,A team of security experts,A type of malware,A backup service,Option_1,Intermediate
+What does IAM stand for in cloud?,Identity and Access Management,Internal Architecture Management,Internet Access Module,Integrated Authentication Method,Option_1,Intermediate
+What is encryption at rest?,Encrypting data stored on devices,Encrypting data in transit,Temporary encryption,Network encryption,Option_1,Intermediate
+What is encryption in transit?,Encrypting data being transmitted over networks,Data at rest,Temporary encryption,Local encryption,Option_1,Intermediate
+What is a cloud access security broker (CASB)?,Security tool monitoring cloud service usage,A type of cloud service,Cloud firewall,Backup solution,Option_1,Advanced
+What does GDPR stand for?,General Data Protection Regulation,Global Data Processing Rule,Government Digital Privacy Regulation,General Digital Protection Requirement,Option_1,Intermediate
+What is the primary focus of HIPAA?,Protecting healthcare data privacy,Banking security,Education data,Government data,Option_1,Intermediate
+What does PCI-DSS stand for?,Payment Card Industry Data Security Standard,Personal Computer Industry Security,Protected Card Industry Data,Public Card Information Security Standard,Option_1,Intermediate
+What is ISO/IEC 27001?,Information security management standard,Network security protocol,Firewall standard,Encryption standard,Option_1,Intermediate
+What is SOC 2?,Security and operational control compliance,System organization control,Software operation compliance,Security operation center,Option_1,Intermediate
+What is WPA2?,Wi-Fi Protected Access 2 for wireless security,Web Protocol Authentication,Wireless Privacy Algorithm,Web Protection Architecture,Option_1,Intermediate
+What is the difference between WPA2 and WPA3?,WPA3 is newer with stronger encryption,No difference,WPA2 is newer,Different frequency,Option_1,Intermediate
+What is a rogue access point?,Unauthorized WiFi access point mimicking legitimate one,A malfunctioning router,A type of malware,A network protocol,Option_1,Intermediate
+What is evil twin attack?,Fake WiFi network with legitimate name,Network duplication,A type of virus,Router malfunction,Option_1,Intermediate
+What does WEP stand for?,Wired Equivalent Privacy,Wireless Exchange Protocol,Web Encryption Protocol,Wireless Encryption Program,Option_1,Beginner
+What is SAST?,Static Application Security Testing,Security application software tool,Secure analysis scanning tool,System application security testing,Option_1,Advanced
+What is DAST?,Dynamic Application Security Testing,Database application security testing,Defensive application security tool,Distributed application security testing,Option_1,Advanced
+What is a security patch?,Software update fixing security vulnerabilities,A type of firewall,Temporary security measure,Backup file,Option_1,Intermediate
+What is a security update vs patch?,"Update is broader, patch is specific fix",Same thing,Patch is hardware,Update is permanent,Option_1,Intermediate
+What is secure code review?,Manual/automated inspection of code for vulnerabilities,Proofreading code,Testing code functionality,Code optimization,Option_1,Advanced
+What is a digital certificate?,Binds identity to public key for authentication,A type of password,Firewall rule,Backup file,Option_1,Advanced
+What is PKI (Public Key Infrastructure)?,System for managing public/private keys,Protected Key Information,Public knowledge integration,Private key issuance,Option_1,Advanced
+What is a Certificate Authority (CA)?,Entity issuing digital certificates,A type of malware,Network monitoring tool,Firewall component,Option_1,Intermediate
+What is a CRL (Certificate Revocation List)?,List of revoked digital certificates,Central Resource Library,Cryptographic Resource List,Certificate Resource Library,Option_1,Advanced
+What is a CSR (Certificate Signing Request)?,Request to CA to issue a digital certificate,Client-server request,Certificate storage request,Cryptographic signing response,Option_1,Advanced
+What is DNS spoofing?,Fraudulent DNS response directing to malicious site,DNS server failure,Network congestion,Firewall misconfiguration,Option_1,Intermediate
+What is ARP spoofing?,Sending false ARP messages to associate IP with wrong MAC,Address resolution protocol failure,Network routing issue,Firewall blocking,Option_1,Intermediate
+What is BGP hijacking?,Announcing false BGP routes to redirect traffic,Border gateway protocol failure,Network routing error,Connection timeout,Option_1,Advanced
+What is the difference between TCP and UDP security?,"TCP is connection-oriented (more secure), UDP is connectionless",Same security level,UDP is more secure,TCP is faster,Option_1,Intermediate
+What is DNSSEC?,Securing DNS using digital signatures,DNS firewall,DNS encryption,DNS backup,Option_1,Intermediate
+What is mobile device management (MDM)?,System for managing mobile devices and apps,Mobile development method,Mobile data monitoring,Mobile encryption standard,Option_1,Intermediate
+What are Android permissions?,Capabilities granted to apps on Android,Android firewall rules,System administrator access,Password requirements,Option_1,Beginner
+What is jailbreaking a device?,Removing OS restrictions to gain elevated access,Fixing a broken phone,Factory reset,Updating software,Option_1,Intermediate
+What is mobile app sandboxing?,Isolating apps to prevent unauthorized access,App storage location,App backup method,App testing environment,Option_1,Intermediate
+What is app signing?,Digitally signing app to verify authenticity,App activation,License key,Version number,Option_1,Intermediate
+What is badge access control?,Using ID cards to control physical entry,Security alarm system,Video surveillance,Cybersecurity term,Option_1,Beginner
+What is the purpose of a server room lock?,Prevent unauthorized physical access to servers,Cool servers,Organize cables,Backup systems,Option_1,Beginner
+What is tailgating in security?,Following an authorized person into restricted area,Vehicle security,Network monitoring,Firewall rule,Option_1,Beginner
+What is dumpster diving?,Searching discarded materials for sensitive information,Garbage removal,Waste management,Recycling process,Option_1,Beginner
+What is a Faraday cage?,Enclosure that blocks electromagnetic signals,Physical barrier,Network security tool,Firewall component,Option_1,Intermediate
+What is threat modeling?,Process of identifying and prioritizing potential threats,Creating security threats,Predicting attacks,Network mapping,Option_1,Advanced
+What does STRIDE stand for?,"Spoofing, Tampering, Repudiation, Information Disclosure, DoS, Elevation",Security threats identification,Risk assessment,Vulnerability types,Option_1,Advanced
+What is DREAD methodology?,"Damage, Reproducibility, Exploitability, Affected users, Discoverability",Threat assessment,Risk calculation,Security framework,Option_1,Advanced
+What is attack surface analysis?,Identifying all potential entry points for attacks,Network topology,Firewall rules,Security policies,Option_1,Advanced
+What is a threat actor?,Individual or group capable of conducting attacks,Network administrator,Security software,Firewall rule,Option_1,Intermediate
+What is a SOC (Security Operations Center)?,Centralized team monitoring security 24/7,Security software,Firewall system,Backup location,Option_1,Advanced
+What is a playbook in security?,Documented procedure for responding to incidents,Security software manual,User guide,Training document,Option_1,Intermediate
+What is continuous monitoring?,Ongoing observation of systems for anomalies,Periodic security checks,Annual audits,Quarterly reviews,Option_1,Intermediate
+What is a baseline in security?,Established standard of normal system behavior,Starting point of project,Initial configuration,Default settings,Option_1,Intermediate
+What is anomaly detection?,Identifying unusual patterns deviating from baseline,Finding bugs,Testing systems,Monitoring networks,Option_1,Intermediate
+What does CIA stand for in cybersecurity?,"Confidentiality, Integrity, Availability",Central Intelligence Agency,Computer Information Architecture,Cyber Incident Analysis,Option_1,Beginner
+Which of the following is NOT a type of cyber attack?,Phishing,DDoS,Encryption,Malware,Option_3,Beginner
+What is the primary goal of a firewall?,Monitor and control incoming/outgoing network traffic,Encrypt all data,Delete viruses,Block all internet access,Option_1,Beginner
+Which protocol is used for secure web communication?,HTTP,HTTPS,FTP,SMTP,Option_2,Beginner
+What is a password salt?,Random data added to password before hashing,A type of firewall,An encryption algorithm,A network protocol,Option_1,Beginner
+What does VPN stand for?,Virtual Private Network,Virtual Public Network,Verified Personal Network,Virtual Protection Network,Option_1,Beginner
+Which port is typically used for SSH?,22,80,443,3306,Option_1,Beginner
+What is the purpose of a DMZ?,To isolate internal networks from untrusted networks,To encrypt all traffic,To block all external connections,To speed up internet,Option_1,Beginner
+Which of the following is a symmetric encryption algorithm?,RSA,AES,ECC,DSA,Option_2,Intermediate
+What is SSL/TLS used for?,Securing web communications,Protecting databases,Blocking malware,Managing users,Option_1,Beginner
+What is a zero-day vulnerability?,A vulnerability unknown to vendors before exploit,A bug found after one day,A vulnerability in legacy systems,A type of malware,Option_1,Intermediate
+Which type of attack floods a server with requests to make it unavailable?,Phishing,DDoS,SQL Injection,XSS,Option_2,Intermediate
+What is SQL Injection?,Inserting malicious SQL code into input fields,Injecting vaccines into SQL database,A type of firewall,A backup method,Option_1,Intermediate
+What does XSS stand for?,Cross-Site Scripting,Cross Server Security,Cross-Sector Systems,Critical Security Service,Option_1,Intermediate
+What is a man-in-the-middle attack?,Attacker intercepts communication between two parties,An attack on middle managers,A type of malware,A network configuration,Option_1,Intermediate
+What is the main difference between symmetric and asymmetric encryption?,"Symmetric uses one key, asymmetric uses two keys",Symmetric is faster,Asymmetric is older,No difference,Option_1,Intermediate
+Which algorithm is used for digital signatures?,AES,SHA-256,RSA,MD5,Option_3,Intermediate
+What is a hash function's primary characteristic?,Deterministic output for same input,Reversible,Slower processing,Uses public key,Option_1,Intermediate
+Which of the following is NOT a type of authentication?,Something you know,Something you are,Something you have,Something you like,Option_4,Intermediate
+What is multi-factor authentication (MFA)?,Using more than one method to verify identity,Multiple passwords,Backup authentication,Network security,Option_1,Beginner
+What is the difference between a virus and a worm?,"Virus needs host program, worm is independent",Same thing,Worm is older,Virus is network-based,Option_1,Intermediate
+What is ransomware?,Malware that encrypts data and demands payment,A type of firewall,A backup solution,An antivirus program,Option_1,Intermediate
+What is a trojan horse in cybersecurity?,Malware disguised as legitimate software,A type of network,A firewall configuration,An encryption method,Option_1,Intermediate
+What is a rootkit?,Malware with administrative/root access,A toolkit for developers,A type of password,A security protocol,Option_1,Intermediate
+What is the primary purpose of an antivirus?,Detect and remove malware,Encrypt data,Block all downloads,Monitor passwords,Option_1,Beginner
+What does RBAC stand for?,Role-Based Access Control,Remote Basic Authentication Code,Rapid Byte Access Control,Resource Block Access Code,Option_1,Intermediate
+What is the principle of least privilege?,Users should have minimum access needed for their role,Everyone has same access,Admin controls everything,No access controls needed,Option_1,Intermediate
+What is an ACL (Access Control List)?,A list defining which users can access resources,A type of malware,A network protocol,A firewall rule,Option_1,Intermediate
+What is OAuth used for?,Secure delegated access/authentication,Encrypting passwords,Blocking websites,Managing firewalls,Option_1,Intermediate
+What is SSO (Single Sign-On)?,Users log in once to access multiple systems,Single server operation,Secure socket operation,Software security option,Option_1,Intermediate
+What is the first step in a penetration test?,Reconnaissance and information gathering,Exploitation,Data exfiltration,Covering tracks,Option_1,Advanced
+What is a vulnerability assessment?,Systematic review to identify security weaknesses,A type of attack,Network monitoring,Firewall configuration,Option_1,Intermediate
+What does OWASP stand for?,Open Web Application Security Project,Online Web Architecture and Software Protocol,Operational Web Application Security Platform,Organized Worldwide Application Systems Protocol,Option_1,Intermediate
+What are the OWASP Top 10?,10 most critical web application security risks,10 firewalls,10 antivirus programs,10 protocols,Option_1,Intermediate
+What is social engineering?,Manipulating people to divulge confidential information,Building social networks,A network protocol,A type of firewall,Option_1,Intermediate
+What are the phases of incident response?,"Preparation, Detection, Analysis, Containment, Eradication, Recovery","Attack, Defense, Response","Alert, React, Solve","Start, Middle, End",Option_1,Advanced
+What is the purpose of an IDS (Intrusion Detection System)?,Monitor network traffic for malicious activity,Block all traffic,Encrypt data,Manage users,Option_1,Intermediate
+What is an IPS (Intrusion Prevention System)?,Active system that detects and blocks attacks,Passive monitoring system,A type of firewall,A backup solution,Option_1,Intermediate
+What is forensics in cybersecurity?,Investigation and analysis of cyber incidents,Firewall configuration,Password management,Network monitoring,Option_1,Advanced
+What is a security information and event management (SIEM) system?,Collects and analyzes security data from multiple sources,A type of malware,A backup system,A network protocol,Option_1,Advanced
+What is a cloud security group?,Virtual firewall controlling inbound/outbound traffic,A team of security experts,A type of malware,A backup service,Option_1,Intermediate
+What does IAM stand for in cloud?,Identity and Access Management,Internal Architecture Management,Internet Access Module,Integrated Authentication Method,Option_1,Intermediate
+What is encryption at rest?,Encrypting data stored on devices,Encrypting data in transit,Temporary encryption,Network encryption,Option_1,Intermediate
+What is encryption in transit?,Encrypting data being transmitted over networks,Data at rest,Temporary encryption,Local encryption,Option_1,Intermediate
+What is a cloud access security broker (CASB)?,Security tool monitoring cloud service usage,A type of cloud service,Cloud firewall,Backup solution,Option_1,Advanced
+What does GDPR stand for?,General Data Protection Regulation,Global Data Processing Rule,Government Digital Privacy Regulation,General Digital Protection Requirement,Option_1,Intermediate
+What is the primary focus of HIPAA?,Protecting healthcare data privacy,Banking security,Education data,Government data,Option_1,Intermediate
+What does PCI-DSS stand for?,Payment Card Industry Data Security Standard,Personal Computer Industry Security,Protected Card Industry Data,Public Card Information Security Standard,Option_1,Intermediate
+What is ISO/IEC 27001?,Information security management standard,Network security protocol,Firewall standard,Encryption standard,Option_1,Intermediate
+What is SOC 2?,Security and operational control compliance,System organization control,Software operation compliance,Security operation center,Option_1,Intermediate
+What is WPA2?,Wi-Fi Protected Access 2 for wireless security,Web Protocol Authentication,Wireless Privacy Algorithm,Web Protection Architecture,Option_1,Intermediate
+What is the difference between WPA2 and WPA3?,WPA3 is newer with stronger encryption,No difference,WPA2 is newer,Different frequency,Option_1,Intermediate
+What is a rogue access point?,Unauthorized WiFi access point mimicking legitimate one,A malfunctioning router,A type of malware,A network protocol,Option_1,Intermediate
+What is evil twin attack?,Fake WiFi network with legitimate name,Network duplication,A type of virus,Router malfunction,Option_1,Intermediate
+What does WEP stand for?,Wired Equivalent Privacy,Wireless Exchange Protocol,Web Encryption Protocol,Wireless Encryption Program,Option_1,Beginner
+What is SAST?,Static Application Security Testing,Security application software tool,Secure analysis scanning tool,System application security testing,Option_1,Advanced
+What is DAST?,Dynamic Application Security Testing,Database application security testing,Defensive application security tool,Distributed application security testing,Option_1,Advanced
+What is a security patch?,Software update fixing security vulnerabilities,A type of firewall,Temporary security measure,Backup file,Option_1,Intermediate
+What is a security update vs patch?,"Update is broader, patch is specific fix",Same thing,Patch is hardware,Update is permanent,Option_1,Intermediate
+What is secure code review?,Manual/automated inspection of code for vulnerabilities,Proofreading code,Testing code functionality,Code optimization,Option_1,Advanced
+What is a digital certificate?,Binds identity to public key for authentication,A type of password,Firewall rule,Backup file,Option_1,Advanced
+What is PKI (Public Key Infrastructure)?,System for managing public/private keys,Protected Key Information,Public knowledge integration,Private key issuance,Option_1,Advanced
+What is a Certificate Authority (CA)?,Entity issuing digital certificates,A type of malware,Network monitoring tool,Firewall component,Option_1,Intermediate
+What is a CRL (Certificate Revocation List)?,List of revoked digital certificates,Central Resource Library,Cryptographic Resource List,Certificate Resource Library,Option_1,Advanced
+What is a CSR (Certificate Signing Request)?,Request to CA to issue a digital certificate,Client-server request,Certificate storage request,Cryptographic signing response,Option_1,Advanced
+What is DNS spoofing?,Fraudulent DNS response directing to malicious site,DNS server failure,Network congestion,Firewall misconfiguration,Option_1,Intermediate
+What is ARP spoofing?,Sending false ARP messages to associate IP with wrong MAC,Address resolution protocol failure,Network routing issue,Firewall blocking,Option_1,Intermediate
+What is BGP hijacking?,Announcing false BGP routes to redirect traffic,Border gateway protocol failure,Network routing error,Connection timeout,Option_1,Advanced
+What is the difference between TCP and UDP security?,"TCP is connection-oriented (more secure), UDP is connectionless",Same security level,UDP is more secure,TCP is faster,Option_1,Intermediate
+What is DNSSEC?,Securing DNS using digital signatures,DNS firewall,DNS encryption,DNS backup,Option_1,Intermediate
+What is mobile device management (MDM)?,System for managing mobile devices and apps,Mobile development method,Mobile data monitoring,Mobile encryption standard,Option_1,Intermediate
+What are Android permissions?,Capabilities granted to apps on Android,Android firewall rules,System administrator access,Password requirements,Option_1,Beginner
+What is jailbreaking a device?,Removing OS restrictions to gain elevated access,Fixing a broken phone,Factory reset,Updating software,Option_1,Intermediate
+What is mobile app sandboxing?,Isolating apps to prevent unauthorized access,App storage location,App backup method,App testing environment,Option_1,Intermediate
+What is app signing?,Digitally signing app to verify authenticity,App activation,License key,Version number,Option_1,Intermediate
+What is badge access control?,Using ID cards to control physical entry,Security alarm system,Video surveillance,Cybersecurity term,Option_1,Beginner
+What is the purpose of a server room lock?,Prevent unauthorized physical access to servers,Cool servers,Organize cables,Backup systems,Option_1,Beginner
+What is tailgating in security?,Following an authorized person into restricted area,Vehicle security,Network monitoring,Firewall rule,Option_1,Beginner
+What is dumpster diving?,Searching discarded materials for sensitive information,Garbage removal,Waste management,Recycling process,Option_1,Beginner
+What is a Faraday cage?,Enclosure that blocks electromagnetic signals,Physical barrier,Network security tool,Firewall component,Option_1,Intermediate
+What is threat modeling?,Process of identifying and prioritizing potential threats,Creating security threats,Predicting attacks,Network mapping,Option_1,Advanced
+What does STRIDE stand for?,"Spoofing, Tampering, Repudiation, Information Disclosure, DoS, Elevation",Security threats identification,Risk assessment,Vulnerability types,Option_1,Advanced
+What is DREAD methodology?,"Damage, Reproducibility, Exploitability, Affected users, Discoverability",Threat assessment,Risk calculation,Security framework,Option_1,Advanced
+What is attack surface analysis?,Identifying all potential entry points for attacks,Network topology,Firewall rules,Security policies,Option_1,Advanced
+What is a threat actor?,Individual or group capable of conducting attacks,Network administrator,Security software,Firewall rule,Option_1,Intermediate
+What is a SOC (Security Operations Center)?,Centralized team monitoring security 24/7,Security software,Firewall system,Backup location,Option_1,Advanced
+What is a playbook in security?,Documented procedure for responding to incidents,Security software manual,User guide,Training document,Option_1,Intermediate
+What is continuous monitoring?,Ongoing observation of systems for anomalies,Periodic security checks,Annual audits,Quarterly reviews,Option_1,Intermediate
+What is a baseline in security?,Established standard of normal system behavior,Starting point of project,Initial configuration,Default settings,Option_1,Intermediate
+What is anomaly detection?,Identifying unusual patterns deviating from baseline,Finding bugs,Testing systems,Monitoring networks,Option_1,Intermediate
+What does CIA stand for in cybersecurity?,"Confidentiality, Integrity, Availability",Central Intelligence Agency,Computer Information Architecture,Cyber Incident Analysis,Option_1,Beginner
+Which of the following is NOT a type of cyber attack?,Phishing,DDoS,Encryption,Malware,Option_3,Beginner
+What is the primary goal of a firewall?,Monitor and control incoming/outgoing network traffic,Encrypt all data,Delete viruses,Block all internet access,Option_1,Beginner
+Which protocol is used for secure web communication?,HTTP,HTTPS,FTP,SMTP,Option_2,Beginner
+What is a password salt?,Random data added to password before hashing,A type of firewall,An encryption algorithm,A network protocol,Option_1,Beginner
+What does VPN stand for?,Virtual Private Network,Virtual Public Network,Verified Personal Network,Virtual Protection Network,Option_1,Beginner
+Which port is typically used for SSH?,22,80,443,3306,Option_1,Beginner
+What is the purpose of a DMZ?,To isolate internal networks from untrusted networks,To encrypt all traffic,To block all external connections,To speed up internet,Option_1,Beginner
+Which of the following is a symmetric encryption algorithm?,RSA,AES,ECC,DSA,Option_2,Intermediate
+What is SSL/TLS used for?,Securing web communications,Protecting databases,Blocking malware,Managing users,Option_1,Beginner
+What is a zero-day vulnerability?,A vulnerability unknown to vendors before exploit,A bug found after one day,A vulnerability in legacy systems,A type of malware,Option_1,Intermediate
+Which type of attack floods a server with requests to make it unavailable?,Phishing,DDoS,SQL Injection,XSS,Option_2,Intermediate
+What is SQL Injection?,Inserting malicious SQL code into input fields,Injecting vaccines into SQL database,A type of firewall,A backup method,Option_1,Intermediate
+What does XSS stand for?,Cross-Site Scripting,Cross Server Security,Cross-Sector Systems,Critical Security Service,Option_1,Intermediate
+What is a man-in-the-middle attack?,Attacker intercepts communication between two parties,An attack on middle managers,A type of malware,A network configuration,Option_1,Intermediate
+What is the main difference between symmetric and asymmetric encryption?,"Symmetric uses one key, asymmetric uses two keys",Symmetric is faster,Asymmetric is older,No difference,Option_1,Intermediate
+Which algorithm is used for digital signatures?,AES,SHA-256,RSA,MD5,Option_3,Intermediate
+What is a hash function's primary characteristic?,Deterministic output for same input,Reversible,Slower processing,Uses public key,Option_1,Intermediate
+Which of the following is NOT a type of authentication?,Something you know,Something you are,Something you have,Something you like,Option_4,Intermediate
+What is multi-factor authentication (MFA)?,Using more than one method to verify identity,Multiple passwords,Backup authentication,Network security,Option_1,Beginner
+What is the difference between a virus and a worm?,"Virus needs host program, worm is independent",Same thing,Worm is older,Virus is network-based,Option_1,Intermediate
+What is ransomware?,Malware that encrypts data and demands payment,A type of firewall,A backup solution,An antivirus program,Option_1,Intermediate
+What is a trojan horse in cybersecurity?,Malware disguised as legitimate software,A type of network,A firewall configuration,An encryption method,Option_1,Intermediate
+What is a rootkit?,Malware with administrative/root access,A toolkit for developers,A type of password,A security protocol,Option_1,Intermediate
+What is the primary purpose of an antivirus?,Detect and remove malware,Encrypt data,Block all downloads,Monitor passwords,Option_1,Beginner
+What does RBAC stand for?,Role-Based Access Control,Remote Basic Authentication Code,Rapid Byte Access Control,Resource Block Access Code,Option_1,Intermediate
+What is the principle of least privilege?,Users should have minimum access needed for their role,Everyone has same access,Admin controls everything,No access controls needed,Option_1,Intermediate
+What is an ACL (Access Control List)?,A list defining which users can access resources,A type of malware,A network protocol,A firewall rule,Option_1,Intermediate
+What is OAuth used for?,Secure delegated access/authentication,Encrypting passwords,Blocking websites,Managing firewalls,Option_1,Intermediate
+What is SSO (Single Sign-On)?,Users log in once to access multiple systems,Single server operation,Secure socket operation,Software security option,Option_1,Intermediate
+What is the first step in a penetration test?,Reconnaissance and information gathering,Exploitation,Data exfiltration,Covering tracks,Option_1,Advanced
+What is a vulnerability assessment?,Systematic review to identify security weaknesses,A type of attack,Network monitoring,Firewall configuration,Option_1,Intermediate
+What does OWASP stand for?,Open Web Application Security Project,Online Web Architecture and Software Protocol,Operational Web Application Security Platform,Organized Worldwide Application Systems Protocol,Option_1,Intermediate
+What are the OWASP Top 10?,10 most critical web application security risks,10 firewalls,10 antivirus programs,10 protocols,Option_1,Intermediate
+What is social engineering?,Manipulating people to divulge confidential information,Building social networks,A network protocol,A type of firewall,Option_1,Intermediate
+What are the phases of incident response?,"Preparation, Detection, Analysis, Containment, Eradication, Recovery","Attack, Defense, Response","Alert, React, Solve","Start, Middle, End",Option_1,Advanced
+What is the purpose of an IDS (Intrusion Detection System)?,Monitor network traffic for malicious activity,Block all traffic,Encrypt data,Manage users,Option_1,Intermediate
+What is an IPS (Intrusion Prevention System)?,Active system that detects and blocks attacks,Passive monitoring system,A type of firewall,A backup solution,Option_1,Intermediate
+What is forensics in cybersecurity?,Investigation and analysis of cyber incidents,Firewall configuration,Password management,Network monitoring,Option_1,Advanced
+What is a security information and event management (SIEM) system?,Collects and analyzes security data from multiple sources,A type of malware,A backup system,A network protocol,Option_1,Advanced
+What is a cloud security group?,Virtual firewall controlling inbound/outbound traffic,A team of security experts,A type of malware,A backup service,Option_1,Intermediate
+What does IAM stand for in cloud?,Identity and Access Management,Internal Architecture Management,Internet Access Module,Integrated Authentication Method,Option_1,Intermediate
+What is encryption at rest?,Encrypting data stored on devices,Encrypting data in transit,Temporary encryption,Network encryption,Option_1,Intermediate
+What is encryption in transit?,Encrypting data being transmitted over networks,Data at rest,Temporary encryption,Local encryption,Option_1,Intermediate
+What is a cloud access security broker (CASB)?,Security tool monitoring cloud service usage,A type of cloud service,Cloud firewall,Backup solution,Option_1,Advanced
+What does GDPR stand for?,General Data Protection Regulation,Global Data Processing Rule,Government Digital Privacy Regulation,General Digital Protection Requirement,Option_1,Intermediate
+What is the primary focus of HIPAA?,Protecting healthcare data privacy,Banking security,Education data,Government data,Option_1,Intermediate
+What does PCI-DSS stand for?,Payment Card Industry Data Security Standard,Personal Computer Industry Security,Protected Card Industry Data,Public Card Information Security Standard,Option_1,Intermediate
+What is ISO/IEC 27001?,Information security management standard,Network security protocol,Firewall standard,Encryption standard,Option_1,Intermediate
+What is SOC 2?,Security and operational control compliance,System organization control,Software operation compliance,Security operation center,Option_1,Intermediate
+What is WPA2?,Wi-Fi Protected Access 2 for wireless security,Web Protocol Authentication,Wireless Privacy Algorithm,Web Protection Architecture,Option_1,Intermediate
+What is the difference between WPA2 and WPA3?,WPA3 is newer with stronger encryption,No difference,WPA2 is newer,Different frequency,Option_1,Intermediate
+What is a rogue access point?,Unauthorized WiFi access point mimicking legitimate one,A malfunctioning router,A type of malware,A network protocol,Option_1,Intermediate
+What is evil twin attack?,Fake WiFi network with legitimate name,Network duplication,A type of virus,Router malfunction,Option_1,Intermediate
+What does WEP stand for?,Wired Equivalent Privacy,Wireless Exchange Protocol,Web Encryption Protocol,Wireless Encryption Program,Option_1,Beginner
+What is SAST?,Static Application Security Testing,Security application software tool,Secure analysis scanning tool,System application security testing,Option_1,Advanced
+What is DAST?,Dynamic Application Security Testing,Database application security testing,Defensive application security tool,Distributed application security testing,Option_1,Advanced
+What is a security patch?,Software update fixing security vulnerabilities,A type of firewall,Temporary security measure,Backup file,Option_1,Intermediate
+What is a security update vs patch?,"Update is broader, patch is specific fix",Same thing,Patch is hardware,Update is permanent,Option_1,Intermediate
+What is secure code review?,Manual/automated inspection of code for vulnerabilities,Proofreading code,Testing code functionality,Code optimization,Option_1,Advanced
+What is a digital certificate?,Binds identity to public key for authentication,A type of password,Firewall rule,Backup file,Option_1,Advanced
+What is PKI (Public Key Infrastructure)?,System for managing public/private keys,Protected Key Information,Public knowledge integration,Private key issuance,Option_1,Advanced
+What is a Certificate Authority (CA)?,Entity issuing digital certificates,A type of malware,Network monitoring tool,Firewall component,Option_1,Intermediate
+What is a CRL (Certificate Revocation List)?,List of revoked digital certificates,Central Resource Library,Cryptographic Resource List,Certificate Resource Library,Option_1,Advanced
+What is a CSR (Certificate Signing Request)?,Request to CA to issue a digital certificate,Client-server request,Certificate storage request,Cryptographic signing response,Option_1,Advanced
+What is DNS spoofing?,Fraudulent DNS response directing to malicious site,DNS server failure,Network congestion,Firewall misconfiguration,Option_1,Intermediate
+What is ARP spoofing?,Sending false ARP messages to associate IP with wrong MAC,Address resolution protocol failure,Network routing issue,Firewall blocking,Option_1,Intermediate
+What is BGP hijacking?,Announcing false BGP routes to redirect traffic,Border gateway protocol failure,Network routing error,Connection timeout,Option_1,Advanced
+What is the difference between TCP and UDP security?,"TCP is connection-oriented (more secure), UDP is connectionless",Same security level,UDP is more secure,TCP is faster,Option_1,Intermediate
+What is DNSSEC?,Securing DNS using digital signatures,DNS firewall,DNS encryption,DNS backup,Option_1,Intermediate
+What is mobile device management (MDM)?,System for managing mobile devices and apps,Mobile development method,Mobile data monitoring,Mobile encryption standard,Option_1,Intermediate
+What are Android permissions?,Capabilities granted to apps on Android,Android firewall rules,System administrator access,Password requirements,Option_1,Beginner
+What is jailbreaking a device?,Removing OS restrictions to gain elevated access,Fixing a broken phone,Factory reset,Updating software,Option_1,Intermediate
+What is mobile app sandboxing?,Isolating apps to prevent unauthorized access,App storage location,App backup method,App testing environment,Option_1,Intermediate
+What is app signing?,Digitally signing app to verify authenticity,App activation,License key,Version number,Option_1,Intermediate
+What is badge access control?,Using ID cards to control physical entry,Security alarm system,Video surveillance,Cybersecurity term,Option_1,Beginner
+What is the purpose of a server room lock?,Prevent unauthorized physical access to servers,Cool servers,Organize cables,Backup systems,Option_1,Beginner
+What is tailgating in security?,Following an authorized person into restricted area,Vehicle security,Network monitoring,Firewall rule,Option_1,Beginner
+What is dumpster diving?,Searching discarded materials for sensitive information,Garbage removal,Waste management,Recycling process,Option_1,Beginner
+What is a Faraday cage?,Enclosure that blocks electromagnetic signals,Physical barrier,Network security tool,Firewall component,Option_1,Intermediate
+What is threat modeling?,Process of identifying and prioritizing potential threats,Creating security threats,Predicting attacks,Network mapping,Option_1,Advanced
+What does STRIDE stand for?,"Spoofing, Tampering, Repudiation, Information Disclosure, DoS, Elevation",Security threats identification,Risk assessment,Vulnerability types,Option_1,Advanced
+What is DREAD methodology?,"Damage, Reproducibility, Exploitability, Affected users, Discoverability",Threat assessment,Risk calculation,Security framework,Option_1,Advanced
+What is attack surface analysis?,Identifying all potential entry points for attacks,Network topology,Firewall rules,Security policies,Option_1,Advanced
+What is a threat actor?,Individual or group capable of conducting attacks,Network administrator,Security software,Firewall rule,Option_1,Intermediate
+What is a SOC (Security Operations Center)?,Centralized team monitoring security 24/7,Security software,Firewall system,Backup location,Option_1,Advanced
+What is a playbook in security?,Documented procedure for responding to incidents,Security software manual,User guide,Training document,Option_1,Intermediate
+What is continuous monitoring?,Ongoing observation of systems for anomalies,Periodic security checks,Annual audits,Quarterly reviews,Option_1,Intermediate
+What is a baseline in security?,Established standard of normal system behavior,Starting point of project,Initial configuration,Default settings,Option_1,Intermediate
+What is anomaly detection?,Identifying unusual patterns deviating from baseline,Finding bugs,Testing systems,Monitoring networks,Option_1,Intermediate
+What does CIA stand for in cybersecurity?,"Confidentiality, Integrity, Availability",Central Intelligence Agency,Computer Information Architecture,Cyber Incident Analysis,Option_1,Beginner
+Which of the following is NOT a type of cyber attack?,Phishing,DDoS,Encryption,Malware,Option_3,Beginner
+What is the primary goal of a firewall?,Monitor and control incoming/outgoing network traffic,Encrypt all data,Delete viruses,Block all internet access,Option_1,Beginner
+Which protocol is used for secure web communication?,HTTP,HTTPS,FTP,SMTP,Option_2,Beginner
+What is a password salt?,Random data added to password before hashing,A type of firewall,An encryption algorithm,A network protocol,Option_1,Beginner
+What does VPN stand for?,Virtual Private Network,Virtual Public Network,Verified Personal Network,Virtual Protection Network,Option_1,Beginner
+Which port is typically used for SSH?,22,80,443,3306,Option_1,Beginner
+What is the purpose of a DMZ?,To isolate internal networks from untrusted networks,To encrypt all traffic,To block all external connections,To speed up internet,Option_1,Beginner
+Which of the following is a symmetric encryption algorithm?,RSA,AES,ECC,DSA,Option_2,Intermediate
+What is SSL/TLS used for?,Securing web communications,Protecting databases,Blocking malware,Managing users,Option_1,Beginner
+What is a zero-day vulnerability?,A vulnerability unknown to vendors before exploit,A bug found after one day,A vulnerability in legacy systems,A type of malware,Option_1,Intermediate
+Which type of attack floods a server with requests to make it unavailable?,Phishing,DDoS,SQL Injection,XSS,Option_2,Intermediate
+What is SQL Injection?,Inserting malicious SQL code into input fields,Injecting vaccines into SQL database,A type of firewall,A backup method,Option_1,Intermediate
+What does XSS stand for?,Cross-Site Scripting,Cross Server Security,Cross-Sector Systems,Critical Security Service,Option_1,Intermediate
+What is a man-in-the-middle attack?,Attacker intercepts communication between two parties,An attack on middle managers,A type of malware,A network configuration,Option_1,Intermediate
+What is the main difference between symmetric and asymmetric encryption?,"Symmetric uses one key, asymmetric uses two keys",Symmetric is faster,Asymmetric is older,No difference,Option_1,Intermediate
+Which algorithm is used for digital signatures?,AES,SHA-256,RSA,MD5,Option_3,Intermediate
+What is a hash function's primary characteristic?,Deterministic output for same input,Reversible,Slower processing,Uses public key,Option_1,Intermediate
+Which of the following is NOT a type of authentication?,Something you know,Something you are,Something you have,Something you like,Option_4,Intermediate
+What is multi-factor authentication (MFA)?,Using more than one method to verify identity,Multiple passwords,Backup authentication,Network security,Option_1,Beginner
+What is the difference between a virus and a worm?,"Virus needs host program, worm is independent",Same thing,Worm is older,Virus is network-based,Option_1,Intermediate
+What is ransomware?,Malware that encrypts data and demands payment,A type of firewall,A backup solution,An antivirus program,Option_1,Intermediate
+What is a trojan horse in cybersecurity?,Malware disguised as legitimate software,A type of network,A firewall configuration,An encryption method,Option_1,Intermediate
+What is a rootkit?,Malware with administrative/root access,A toolkit for developers,A type of password,A security protocol,Option_1,Intermediate
+What is the primary purpose of an antivirus?,Detect and remove malware,Encrypt data,Block all downloads,Monitor passwords,Option_1,Beginner
+What does RBAC stand for?,Role-Based Access Control,Remote Basic Authentication Code,Rapid Byte Access Control,Resource Block Access Code,Option_1,Intermediate
+What is the principle of least privilege?,Users should have minimum access needed for their role,Everyone has same access,Admin controls everything,No access controls needed,Option_1,Intermediate
+What is an ACL (Access Control List)?,A list defining which users can access resources,A type of malware,A network protocol,A firewall rule,Option_1,Intermediate
+What is OAuth used for?,Secure delegated access/authentication,Encrypting passwords,Blocking websites,Managing firewalls,Option_1,Intermediate
+What is SSO (Single Sign-On)?,Users log in once to access multiple systems,Single server operation,Secure socket operation,Software security option,Option_1,Intermediate
+What is the first step in a penetration test?,Reconnaissance and information gathering,Exploitation,Data exfiltration,Covering tracks,Option_1,Advanced
+What is a vulnerability assessment?,Systematic review to identify security weaknesses,A type of attack,Network monitoring,Firewall configuration,Option_1,Intermediate
+What does OWASP stand for?,Open Web Application Security Project,Online Web Architecture and Software Protocol,Operational Web Application Security Platform,Organized Worldwide Application Systems Protocol,Option_1,Intermediate
+What are the OWASP Top 10?,10 most critical web application security risks,10 firewalls,10 antivirus programs,10 protocols,Option_1,Intermediate
+What is social engineering?,Manipulating people to divulge confidential information,Building social networks,A network protocol,A type of firewall,Option_1,Intermediate
+What are the phases of incident response?,"Preparation, Detection, Analysis, Containment, Eradication, Recovery","Attack, Defense, Response","Alert, React, Solve","Start, Middle, End",Option_1,Advanced
+What is the purpose of an IDS (Intrusion Detection System)?,Monitor network traffic for malicious activity,Block all traffic,Encrypt data,Manage users,Option_1,Intermediate
+What is an IPS (Intrusion Prevention System)?,Active system that detects and blocks attacks,Passive monitoring system,A type of firewall,A backup solution,Option_1,Intermediate
+What is forensics in cybersecurity?,Investigation and analysis of cyber incidents,Firewall configuration,Password management,Network monitoring,Option_1,Advanced
+What is a security information and event management (SIEM) system?,Collects and analyzes security data from multiple sources,A type of malware,A backup system,A network protocol,Option_1,Advanced
+What is a cloud security group?,Virtual firewall controlling inbound/outbound traffic,A team of security experts,A type of malware,A backup service,Option_1,Intermediate
+What does IAM stand for in cloud?,Identity and Access Management,Internal Architecture Management,Internet Access Module,Integrated Authentication Method,Option_1,Intermediate
+What is encryption at rest?,Encrypting data stored on devices,Encrypting data in transit,Temporary encryption,Network encryption,Option_1,Intermediate
+What is encryption in transit?,Encrypting data being transmitted over networks,Data at rest,Temporary encryption,Local encryption,Option_1,Intermediate
+What is a cloud access security broker (CASB)?,Security tool monitoring cloud service usage,A type of cloud service,Cloud firewall,Backup solution,Option_1,Advanced
+What does GDPR stand for?,General Data Protection Regulation,Global Data Processing Rule,Government Digital Privacy Regulation,General Digital Protection Requirement,Option_1,Intermediate
+What is the primary focus of HIPAA?,Protecting healthcare data privacy,Banking security,Education data,Government data,Option_1,Intermediate
+What does PCI-DSS stand for?,Payment Card Industry Data Security Standard,Personal Computer Industry Security,Protected Card Industry Data,Public Card Information Security Standard,Option_1,Intermediate
+What is ISO/IEC 27001?,Information security management standard,Network security protocol,Firewall standard,Encryption standard,Option_1,Intermediate
+What is SOC 2?,Security and operational control compliance,System organization control,Software operation compliance,Security operation center,Option_1,Intermediate
+What is WPA2?,Wi-Fi Protected Access 2 for wireless security,Web Protocol Authentication,Wireless Privacy Algorithm,Web Protection Architecture,Option_1,Intermediate
+What is the difference between WPA2 and WPA3?,WPA3 is newer with stronger encryption,No difference,WPA2 is newer,Different frequency,Option_1,Intermediate
+What is a rogue access point?,Unauthorized WiFi access point mimicking legitimate one,A malfunctioning router,A type of malware,A network protocol,Option_1,Intermediate
+What is evil twin attack?,Fake WiFi network with legitimate name,Network duplication,A type of virus,Router malfunction,Option_1,Intermediate
+What does WEP stand for?,Wired Equivalent Privacy,Wireless Exchange Protocol,Web Encryption Protocol,Wireless Encryption Program,Option_1,Beginner
+What is SAST?,Static Application Security Testing,Security application software tool,Secure analysis scanning tool,System application security testing,Option_1,Advanced
+What is DAST?,Dynamic Application Security Testing,Database application security testing,Defensive application security tool,Distributed application security testing,Option_1,Advanced
+What is a security patch?,Software update fixing security vulnerabilities,A type of firewall,Temporary security measure,Backup file,Option_1,Intermediate
+What is a security update vs patch?,"Update is broader, patch is specific fix",Same thing,Patch is hardware,Update is permanent,Option_1,Intermediate
+What is secure code review?,Manual/automated inspection of code for vulnerabilities,Proofreading code,Testing code functionality,Code optimization,Option_1,Advanced
+What is a digital certificate?,Binds identity to public key for authentication,A type of password,Firewall rule,Backup file,Option_1,Advanced
+What is PKI (Public Key Infrastructure)?,System for managing public/private keys,Protected Key Information,Public knowledge integration,Private key issuance,Option_1,Advanced
+What is a Certificate Authority (CA)?,Entity issuing digital certificates,A type of malware,Network monitoring tool,Firewall component,Option_1,Intermediate
+What is a CRL (Certificate Revocation List)?,List of revoked digital certificates,Central Resource Library,Cryptographic Resource List,Certificate Resource Library,Option_1,Advanced
+What is a CSR (Certificate Signing Request)?,Request to CA to issue a digital certificate,Client-server request,Certificate storage request,Cryptographic signing response,Option_1,Advanced
+What is DNS spoofing?,Fraudulent DNS response directing to malicious site,DNS server failure,Network congestion,Firewall misconfiguration,Option_1,Intermediate
+What is ARP spoofing?,Sending false ARP messages to associate IP with wrong MAC,Address resolution protocol failure,Network routing issue,Firewall blocking,Option_1,Intermediate
+What is BGP hijacking?,Announcing false BGP routes to redirect traffic,Border gateway protocol failure,Network routing error,Connection timeout,Option_1,Advanced
+What is the difference between TCP and UDP security?,"TCP is connection-oriented (more secure), UDP is connectionless",Same security level,UDP is more secure,TCP is faster,Option_1,Intermediate
+What is DNSSEC?,Securing DNS using digital signatures,DNS firewall,DNS encryption,DNS backup,Option_1,Intermediate
+What is mobile device management (MDM)?,System for managing mobile devices and apps,Mobile development method,Mobile data monitoring,Mobile encryption standard,Option_1,Intermediate
+What are Android permissions?,Capabilities granted to apps on Android,Android firewall rules,System administrator access,Password requirements,Option_1,Beginner
+What is jailbreaking a device?,Removing OS restrictions to gain elevated access,Fixing a broken phone,Factory reset,Updating software,Option_1,Intermediate
+What is mobile app sandboxing?,Isolating apps to prevent unauthorized access,App storage location,App backup method,App testing environment,Option_1,Intermediate
+What is app signing?,Digitally signing app to verify authenticity,App activation,License key,Version number,Option_1,Intermediate
+What is badge access control?,Using ID cards to control physical entry,Security alarm system,Video surveillance,Cybersecurity term,Option_1,Beginner
+What is the purpose of a server room lock?,Prevent unauthorized physical access to servers,Cool servers,Organize cables,Backup systems,Option_1,Beginner
+What is tailgating in security?,Following an authorized person into restricted area,Vehicle security,Network monitoring,Firewall rule,Option_1,Beginner
+What is dumpster diving?,Searching discarded materials for sensitive information,Garbage removal,Waste management,Recycling process,Option_1,Beginner
+What is a Faraday cage?,Enclosure that blocks electromagnetic signals,Physical barrier,Network security tool,Firewall component,Option_1,Intermediate
+What is threat modeling?,Process of identifying and prioritizing potential threats,Creating security threats,Predicting attacks,Network mapping,Option_1,Advanced
+What does STRIDE stand for?,"Spoofing, Tampering, Repudiation, Information Disclosure, DoS, Elevation",Security threats identification,Risk assessment,Vulnerability types,Option_1,Advanced
+What is DREAD methodology?,"Damage, Reproducibility, Exploitability, Affected users, Discoverability",Threat assessment,Risk calculation,Security framework,Option_1,Advanced
+What is attack surface analysis?,Identifying all potential entry points for attacks,Network topology,Firewall rules,Security policies,Option_1,Advanced
+What is a threat actor?,Individual or group capable of conducting attacks,Network administrator,Security software,Firewall rule,Option_1,Intermediate
+What is a SOC (Security Operations Center)?,Centralized team monitoring security 24/7,Security software,Firewall system,Backup location,Option_1,Advanced
+What is a playbook in security?,Documented procedure for responding to incidents,Security software manual,User guide,Training document,Option_1,Intermediate
+What is continuous monitoring?,Ongoing observation of systems for anomalies,Periodic security checks,Annual audits,Quarterly reviews,Option_1,Intermediate
+What is a baseline in security?,Established standard of normal system behavior,Starting point of project,Initial configuration,Default settings,Option_1,Intermediate
+What is anomaly detection?,Identifying unusual patterns deviating from baseline,Finding bugs,Testing systems,Monitoring networks,Option_1,Intermediate
+What does CIA stand for in cybersecurity?,"Confidentiality, Integrity, Availability",Central Intelligence Agency,Computer Information Architecture,Cyber Incident Analysis,Option_1,Beginner
+Which of the following is NOT a type of cyber attack?,Phishing,DDoS,Encryption,Malware,Option_3,Beginner
+What is the primary goal of a firewall?,Monitor and control incoming/outgoing network traffic,Encrypt all data,Delete viruses,Block all internet access,Option_1,Beginner
+Which protocol is used for secure web communication?,HTTP,HTTPS,FTP,SMTP,Option_2,Beginner
+What is a password salt?,Random data added to password before hashing,A type of firewall,An encryption algorithm,A network protocol,Option_1,Beginner
+What does VPN stand for?,Virtual Private Network,Virtual Public Network,Verified Personal Network,Virtual Protection Network,Option_1,Beginner
+Which port is typically used for SSH?,22,80,443,3306,Option_1,Beginner
+What is the purpose of a DMZ?,To isolate internal networks from untrusted networks,To encrypt all traffic,To block all external connections,To speed up internet,Option_1,Beginner
+Which of the following is a symmetric encryption algorithm?,RSA,AES,ECC,DSA,Option_2,Intermediate
+What is SSL/TLS used for?,Securing web communications,Protecting databases,Blocking malware,Managing users,Option_1,Beginner

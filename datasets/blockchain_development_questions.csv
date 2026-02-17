@@ -1,0 +1,1001 @@
+Question,Option_1,Option_2,Option_3,Option_4,Correct_Answer,Level
+What is blockchain?,Distributed ledger technology recording transactions,Database technology,Encryption method,Network protocol,Option_1,Beginner
+What are the main characteristics of blockchain?,"Decentralized, transparent, immutable, secure",Centralized,Opaque,Mutable,Option_1,Beginner
+What is a block in blockchain?,Unit containing transactions and cryptographic hash,Single transaction,Network node,Smart contract,Option_1,Beginner
+What is a chain in blockchain?,Connected blocks linked by cryptographic hashes,Linked list,Database table,Transaction log,Option_1,Beginner
+What is decentralization in blockchain?,No single authority controlling the network,Single server,Centralized database,Admin control,Option_1,Beginner
+What is immutability in blockchain?,"Once recorded, data cannot be changed",Data can be modified,Temporary records,Editable ledger,Option_1,Beginner
+What is transparency in blockchain?,All transactions visible to network participants,Hidden transactions,Private ledger,Secret records,Option_1,Beginner
+What is a cryptocurrency?,Digital currency secured by cryptography,Physical money,Bank notes,Commodity,Option_1,Beginner
+What is Bitcoin?,First decentralized cryptocurrency using blockchain,Digital coin,Electronic money,Virtual currency,Option_1,Beginner
+What is Ethereum?,Blockchain platform enabling smart contracts,Cryptocurrency only,Bitcoin alternative,Payment system,Option_1,Beginner
+What is cryptography?,Technique securing communication through codes,Encoding method,Encryption algorithm,Security protocol,Option_1,Beginner
+What is hash function?,Converting input to fixed-length hash output,Encryption function,Random number,Sorting algorithm,Option_1,Intermediate
+What is SHA-256?,Secure Hash Algorithm producing 256-bit hash,Encryption algorithm,Random generator,Compression function,Option_1,Intermediate
+What is public key cryptography?,Using public and private key pairs,Single key system,Password-based,Shared secret,Option_1,Intermediate
+What is digital signature?,Proving identity and authenticity of message,Electronic signature,Image signature,Written signature,Option_1,Intermediate
+What is ECDSA?,Elliptic Curve Digital Signature Algorithm,RSA algorithm,AES encryption,DES encryption,Option_1,Intermediate
+What is Merkle tree?,Tree of hashes allowing efficient verification,Binary tree,Database structure,File system,Option_1,Intermediate
+What is Merkle root?,Top hash representing all transactions in block,Tree root,First hash,Main hash,Option_1,Intermediate
+What is Bitcoin mining?,Process validating transactions and creating blocks,Gold mining,Data extraction,Resource harvesting,Option_1,Intermediate
+What is proof of work?,Consensus mechanism requiring computational work,Work proof,Validation method,Authentication,Option_1,Intermediate
+What is a Bitcoin transaction?,Transfer of bitcoins from one address to another,Bitcoin creation,Mining process,Wallet operation,Option_1,Beginner
+What is a Bitcoin address?,Identifier receiving or sending bitcoins,Account number,User ID,Transaction ID,Option_1,Beginner
+What is a Bitcoin wallet?,Software storing private and public keys,Physical wallet,Digital account,Bank account,Option_1,Beginner
+What is private key?,Secret key for signing transactions,Public key,Shared secret,Access token,Option_1,Intermediate
+What is public key?,Key derived from private key for receiving funds,Private key,Shared key,Master key,Option_1,Intermediate
+What is a Bitcoin address format?,Base58Check encoded hash of public key,Random string,User input,System generated,Option_1,Intermediate
+What is double spending?,Spending same bitcoin twice - prevented by blockchain,Spending twice,Multiple transactions,Concurrent spending,Option_1,Intermediate
+What is Bitcoin supply limit?,21 million bitcoins maximum,Unlimited,Variable amount,Government controlled,Option_1,Beginner
+What is consensus mechanism?,Method validating transactions and creating blocks,Validation protocol,Security method,Network rule,Option_1,Intermediate
+What is proof of work (PoW)?,Miners solve puzzles to validate blocks,Stake requirement,Coin requirement,Network speed,Option_1,Intermediate
+What is proof of stake (PoS)?,Validators chosen based on stake ownership,Computational work,Mining process,Hash calculation,Option_1,Intermediate
+What is delegated proof of stake (DPoS)?,Token holders delegate to validators,Direct stake,Proof of work,Proof of authority,Option_1,Advanced
+What is proof of authority (PoA)?,Approved validators sign blocks,Computational work,Stake-based,Proof of work,Option_1,Advanced
+What is byzantine fault tolerance?,Consensus despite some nodes being faulty,Fault detection,Error correction,Network failure,Option_1,Advanced
+What is practical Byzantine fault tolerance (PBFT)?,Consensus algorithm for network with bad nodes,Simple consensus,Basic algorithm,Voting system,Option_1,Advanced
+What is block time?,Average time between block creation,Mining time,Transaction time,Processing time,Option_1,Intermediate
+What is mining reward?,Incentive for miners to validate blocks,Transaction fee,Mining cost,Block subsidy,Option_1,Beginner
+What is difficulty in mining?,Target hash difficulty requiring more computational work,Mining complexity,Puzzle difficulty,Hash rate,Option_1,Intermediate
+What is Ethereum?,Blockchain platform for smart contracts,Cryptocurrency,Payment system,Database,Option_1,Beginner
+What is a smart contract?,Self-executing code running on blockchain,Regular contract,Legal agreement,Written document,Option_1,Intermediate
+What is Solidity?,Programming language for Ethereum smart contracts,Scripting language,Backend language,Web language,Option_1,Intermediate
+What is EVM (Ethereum Virtual Machine)?,Executes smart contracts code,Virtual computer,Emulator,Simulator,Option_1,Intermediate
+What is gas in Ethereum?,Unit of computational cost for operations,Fuel cost,Transaction fee,Mining reward,Option_1,Intermediate
+What is gas limit?,Maximum gas allowed per transaction,Minimum gas,Total gas,Average gas,Option_1,Intermediate
+What is gas price?,Price per unit of gas in wei/gwei,Total gas cost,Transaction fee,Block reward,Option_1,Intermediate
+What is wei?,Smallest unit of ether,Ether unit,Gwei,Ethereum token,Option_1,Intermediate
+What is gwei?,"Billion wei, used for gas prices",Million wei,Thousand wei,Ether subunit,Option_1,Intermediate
+What is ether (ETH)?,Native cryptocurrency of Ethereum,Token,Smart contract,Ethereum address,Option_1,Beginner
+What is account in Ethereum?,Entity with ether balance and nonce,User account,Wallet account,Bank account,Option_1,Intermediate
+What is EOA (Externally Owned Account)?,Account controlled by private key,Smart contract account,Contract,Application,Option_1,Intermediate
+What is contract account?,Account containing smart contract code,EOA account,User account,External account,Option_1,Intermediate
+What is nonce in Ethereum?,Counter preventing replay attacks,Random number,Account ID,Transaction ID,Option_1,Advanced
+What is reentrancy attack?,Exploit calling function recursively draining funds,Security feature,Validation mechanism,Protection method,Option_1,Advanced
+What is ERC-20?,Standard for fungible tokens on Ethereum,Ethereum version,Blockchain standard,Protocol specification,Option_1,Intermediate
+What is ERC-721?,Standard for non-fungible tokens (NFTs),Fungible token,ERC-20 variant,Ethereum standard,Option_1,Intermediate
+What is ERC-1155?,Standard for multi-token contracts,Single token,ERC-721 variant,ERC-20 upgrade,Option_1,Advanced
+What is a token?,Digital representation of value on blockchain,Cryptocurrency,Coin,Asset,Option_1,Beginner
+What is fungible token?,Interchangeable tokens of equal value,Unique token,Special token,Rare token,Option_1,Intermediate
+What is non-fungible token (NFT)?,Unique tokens with distinct properties,Identical tokens,Interchangeable tokens,Duplicate tokens,Option_1,Beginner
+What is a stablecoin?,Cryptocurrency pegged to stable asset,Volatile coin,Speculative token,Risk token,Option_1,Intermediate
+What is USDC?,Stablecoin pegged to US dollar,Utility coin,Native token,Bitcoin variant,Option_1,Intermediate
+What is Tether (USDT)?,Stablecoin pegged to US dollar,ETH stablecoin,BTC variant,Altcoin,Option_1,Intermediate
+What is DeFi?,Financial services using blockchain without intermediaries,Centralized finance,Traditional banking,Regular finance,Option_1,Intermediate
+What is DEX (Decentralized Exchange)?,Peer-to-peer trading without central authority,Centralized exchange,Stock exchange,Bank,Option_1,Intermediate
+What is AMM (Automated Market Maker)?,Protocol using pools for token swaps,Manual market making,Order matching,Price discovery,Option_1,Advanced
+What is liquidity pool?,Collection of tokens locked for trading,Individual wallet,Token reserve,Vault storage,Option_1,Intermediate
+What is liquidity provider (LP)?,User supplying tokens to liquidity pool,Exchange operator,Market maker,Trader,Option_1,Intermediate
+What is slippage?,Price difference between quote and execution,Transaction fee,Gas cost,Spread,Option_1,Advanced
+What is impermanent loss?,Loss from price divergence in LP pools,Trading loss,Permanent loss,Fixed loss,Option_1,Advanced
+What is yield farming?,Earning returns by providing liquidity,Traditional farming,Agriculture,Staking,Option_1,Intermediate
+What is lending protocol?,Platform for borrowing/lending crypto assets,Peer-to-peer lending,Traditional loan,Bank lending,Option_1,Intermediate
+What is collateral?,Asset securing a loan,Loan amount,Interest payment,Insurance,Option_1,Beginner
+What is liquidation?,Forced sale of collateral when price drops,Asset sale,Portfolio closure,Trading exit,Option_1,Advanced
+What is governance token?,Token granting voting rights in protocol,Utility token,Payment token,Asset token,Option_1,Intermediate
+What is layer 2 (L2)?,Secondary blockchain improving scalability,Main blockchain,Side chain,Test network,Option_1,Intermediate
+What is rollup?,Layer 2 solution batching transactions,Blockchain fork,Network upgrade,Protocol change,Option_1,Advanced
+What is optimistic rollup?,L2 assuming transactions valid unless challenged,Pessimistic rollup,Zero-knowledge rollup,Simple rollup,Option_1,Advanced
+What is zero-knowledge rollup (ZK-rollup)?,L2 using cryptographic proofs for validity,Optimistic rollup,Plasma,Side chain,Option_1,Advanced
+What is Plasma?,Layer 2 scalability solution,Main chain,Side chain,Test network,Option_1,Advanced
+What is state channel?,Scaling solution enabling off-chain transactions,Payment channel,Main chain,Smart contract,Option_1,Advanced
+What is sidechain?,Separate blockchain connected to mainchain,Layer 2,Main network,Test network,Option_1,Intermediate
+What is sharding?,Dividing blockchain data across many nodes,Data compression,Network optimization,Block structure,Option_1,Advanced
+What is 51% attack?,Controlling majority hash power to manipulate chain,Network attack,Smart contract exploit,Data breach,Option_1,Intermediate
+What is eclipse attack?,Isolating node from rest of network,Network attack,Consensus attack,Individual node attack,Option_1,Advanced
+What is sybil attack?,Single attacker creating fake identities,Network attack,51% attack,Data attack,Option_1,Advanced
+What is front-running?,Ordering transactions to gain advantage,Transaction manipulation,Price prediction,Market timing,Option_1,Advanced
+What is MEV (Maximum Extractable Value)?,Profit from reordering transactions,Network reward,Mining reward,Block subsidy,Option_1,Advanced
+What is sandwich attack?,Placing transactions before/after victim's transaction,Network attack,Double spend,Revert attack,Option_1,Advanced
+What is signature verification?,Confirming transaction authenticity using keys,Transaction validation,Block verification,Network check,Option_1,Intermediate
+What is key management?,Securing and storing cryptographic keys,Password management,Access control,Authentication,Option_1,Intermediate
+What is multi-sig (multisignature)?,Transaction requiring multiple signatures,Single signature,One-time signature,Group signature,Option_1,Advanced
+What is hardware wallet?,Device storing private keys offline,Software wallet,Paper wallet,Brain wallet,Option_1,Intermediate
+What is Solana?,High-speed blockchain using proof of history,Ethereum alternative,Bitcoin fork,Ethereum layer 2,Option_1,Intermediate
+What is Cardano?,Blockchain platform with academic approach,Bitcoin alternative,Ethereum clone,Testnet,Option_1,Intermediate
+What is Polygon?,Layer 2 scaling solution for Ethereum,Ethereum competitor,Bitcoin layer 2,Independent blockchain,Option_1,Intermediate
+What is Polkadot?,Multi-chain platform with relay chain,Single blockchain,Layer 2 solution,Sidechain,Option_1,Intermediate
+What is Cosmos?,Interoperable blockchain network,Single blockchain,Token protocol,Smart contract,Option_1,Intermediate
+What is Bitcoin Cash?,Bitcoin fork with larger block size,Bitcoin upgrade,Bitcoin layer 2,Bitcoin variant,Option_1,Intermediate
+What is Litecoin?,Bitcoin fork with faster block time,Bitcoin alternative,Bitcoin upgrade,Bitcoin layer 2,Option_1,Beginner
+What is Dogecoin?,Cryptocurrency started as meme coin,Serious coin,Stablecoin,Enterprise coin,Option_1,Beginner
+What is Web3?,Decentralized internet using blockchain,Internet upgrade,Web standard,Network protocol,Option_1,Intermediate
+What is dApp (Decentralized Application)?,Application running on blockchain,Traditional app,Web application,Mobile app,Option_1,Intermediate
+What is wallet in Web3?,Software managing keys and tokens,Physical storage,Bank account,Crypto exchange,Option_1,Beginner
+What is MetaMask?,Browser extension wallet for Ethereum,Hardware wallet,Cold storage,Bank wallet,Option_1,Intermediate
+What is seed phrase?,12-24 word phrase recovering wallet,Password,Private key,Public key,Option_1,Intermediate
+What is mnemonic?,Word-based key derivation method,Cryptographic hash,Encryption method,Encoding scheme,Option_1,Advanced
+What is NFT (Non-Fungible Token)?,Unique digital asset on blockchain,Cryptocurrency,Token,Digital file,Option_1,Beginner
+What is NFT minting?,Creating NFT on blockchain,Buying NFT,Selling NFT,Trading NFT,Option_1,Intermediate
+What is NFT marketplace?,Platform for trading NFTs,Art gallery,Auction house,Store,Option_1,Beginner
+What is OpenSea?,Largest NFT marketplace,NFT creator,NFT minter,Art platform,Option_1,Beginner
+What is Rarible?,NFT marketplace and creator platform,NFT auction,Digital gallery,Collectibles store,Option_1,Intermediate
+What is metadata in NFT?,Data describing NFT properties and attributes,NFT file,Blockchain data,Smart contract,Option_1,Intermediate
+What is royalty in NFT?,Creator receiving percentage from secondary sales,Initial price,Listing fee,Transaction cost,Option_1,Intermediate
+What is Truffle Suite?,Development environment for Ethereum,Programming language,Blockchain platform,Testing tool,Option_1,Advanced
+What is Hardhat?,Ethereum development environment,Compilation tool,Testing framework,Deployment tool,Option_1,Advanced
+What is Remix IDE?,Browser-based IDE for Solidity development,Code editor,Compilation tool,Testing framework,Option_1,Advanced
+What is Web3.js?,JavaScript library interacting with Ethereum,Web framework,Frontend library,Backend library,Option_1,Advanced
+What is Ethers.js?,Lightweight Ethereum JavaScript library,Web3 alternative,Testing library,Backend tool,Option_1,Advanced
+What is contract deployment?,Publishing smart contract to blockchain,Contract testing,Contract writing,Contract interaction,Option_1,Intermediate
+What is ABI (Application Binary Interface)?,JSON describing contract functions and data,Source code,Binary file,Compiled code,Option_1,Advanced
+What is contract interaction?,Calling functions and reading state from contract,Contract deployment,Contract writing,Contract testing,Option_1,Intermediate
+What is tokenomics?,Study of token supply and incentives,Economic system,Finance model,Business plan,Option_1,Intermediate
+What is inflation in blockchain?,New tokens issued as rewards,Economic inflation,Price increase,Value decrease,Option_1,Intermediate
+What is deflation in blockchain?,Burning tokens reducing supply,Economic deflation,Price decrease,Value increase,Option_1,Intermediate
+What is token distribution?,Allocation of tokens to stakeholders,Token sale,Token airdrop,Token swap,Option_1,Intermediate
+What is airdrop?,Free distribution of tokens to users,Paid distribution,Token sale,ICO,Option_1,Beginner
+What is ICO (Initial Coin Offering)?,Crowdfunding new cryptocurrency tokens,Stock IPO,Equity fundraising,Debt financing,Option_1,Intermediate
+What is IDO (Initial DEX Offering)?,Token launch on decentralized exchange,Centralized exchange,Direct sale,Auction,Option_1,Advanced
+What is blockchain governance?,Decision-making process for protocol changes,Technical management,Network operation,Consensus rules,Option_1,Advanced
+What is DAO (Decentralized Autonomous Organization)?,Organization governed by smart contracts,Traditional company,Centralized entity,Legal entity,Option_1,Intermediate
+What is proposal in governance?,Suggestion for protocol changes voted by community,Technical change,Update release,Bug fix,Option_1,Advanced
+What is voting in governance?,Token holders voting on proposals,CEO decision,Board decision,Developer choice,Option_1,Advanced
+What is GDPR compliance in blockchain?,Meeting data privacy regulations,Blockchain feature,Smart contract,Network rule,Option_1,Advanced
+What is KYC (Know Your Customer)?,Verification process identifying users,Blockchain feature,Network requirement,Protocol rule,Option_1,Intermediate
+What is AML (Anti-Money Laundering)?,Compliance preventing illegal fund transfer,Network feature,Protocol rule,Technical standard,Option_1,Advanced
+What is crypto regulation?,Government rules governing blockchain/crypto,Network governance,Protocol changes,Community rules,Option_1,Intermediate
+What is Bitcoin Lightning Network?,Layer 2 payment channel for Bitcoin,Main blockchain,Side chain,Test network,Option_1,Advanced
+What is atomic swap?,Cross-chain token exchange without intermediary,Token swap,Liquidity swap,Asset exchange,Option_1,Advanced
+What is cross-chain bridge?,Protocol connecting different blockchains,Side chain,Layer 2,Test network,Option_1,Advanced
+What is oracle?,Service providing external data to smart contracts,Smart contract,Blockchain node,Network peer,Option_1,Intermediate
+What is Chainlink?,Decentralized oracle network,Smart contract platform,Blockchain network,Payment system,Option_1,Intermediate
+What is proof of burn?,Consensus destroying coins to validate blocks,Proof of work,Proof of stake,Proof of history,Option_1,Advanced
+What is proof of history (PoH)?,Consensus using historical record of events,Proof of work,Proof of stake,Timestamp proof,Option_1,Advanced
+What is proof of capacity?,Consensus using hard drive storage,Proof of work,Proof of stake,Network capacity,Option_1,Advanced
+What is finality in blockchain?,Guarantee transaction is irreversible,Transaction confirmation,Block creation,Consensus agreement,Option_1,Advanced
+What is supply chain blockchain?,Tracking products from production to consumer,Inventory management,Logistics,Delivery,Option_1,Intermediate
+What is healthcare blockchain?,Using blockchain for medical records,Hospital system,Medical database,Health tracking,Option_1,Intermediate
+What is identity blockchain?,Self-sovereign identity on blockchain,Personal identity,Identification system,Authentication,Option_1,Intermediate
+What is voting blockchain?,Secure voting using blockchain,Electronic voting,Paper voting,Poll system,Option_1,Intermediate
+What is blockchain?,Distributed ledger technology recording transactions,Database technology,Encryption method,Network protocol,Option_1,Beginner
+What are the main characteristics of blockchain?,"Decentralized, transparent, immutable, secure",Centralized,Opaque,Mutable,Option_1,Beginner
+What is a block in blockchain?,Unit containing transactions and cryptographic hash,Single transaction,Network node,Smart contract,Option_1,Beginner
+What is a chain in blockchain?,Connected blocks linked by cryptographic hashes,Linked list,Database table,Transaction log,Option_1,Beginner
+What is decentralization in blockchain?,No single authority controlling the network,Single server,Centralized database,Admin control,Option_1,Beginner
+What is immutability in blockchain?,"Once recorded, data cannot be changed",Data can be modified,Temporary records,Editable ledger,Option_1,Beginner
+What is transparency in blockchain?,All transactions visible to network participants,Hidden transactions,Private ledger,Secret records,Option_1,Beginner
+What is a cryptocurrency?,Digital currency secured by cryptography,Physical money,Bank notes,Commodity,Option_1,Beginner
+What is Bitcoin?,First decentralized cryptocurrency using blockchain,Digital coin,Electronic money,Virtual currency,Option_1,Beginner
+What is Ethereum?,Blockchain platform enabling smart contracts,Cryptocurrency only,Bitcoin alternative,Payment system,Option_1,Beginner
+What is cryptography?,Technique securing communication through codes,Encoding method,Encryption algorithm,Security protocol,Option_1,Beginner
+What is hash function?,Converting input to fixed-length hash output,Encryption function,Random number,Sorting algorithm,Option_1,Intermediate
+What is SHA-256?,Secure Hash Algorithm producing 256-bit hash,Encryption algorithm,Random generator,Compression function,Option_1,Intermediate
+What is public key cryptography?,Using public and private key pairs,Single key system,Password-based,Shared secret,Option_1,Intermediate
+What is digital signature?,Proving identity and authenticity of message,Electronic signature,Image signature,Written signature,Option_1,Intermediate
+What is ECDSA?,Elliptic Curve Digital Signature Algorithm,RSA algorithm,AES encryption,DES encryption,Option_1,Intermediate
+What is Merkle tree?,Tree of hashes allowing efficient verification,Binary tree,Database structure,File system,Option_1,Intermediate
+What is Merkle root?,Top hash representing all transactions in block,Tree root,First hash,Main hash,Option_1,Intermediate
+What is Bitcoin mining?,Process validating transactions and creating blocks,Gold mining,Data extraction,Resource harvesting,Option_1,Intermediate
+What is proof of work?,Consensus mechanism requiring computational work,Work proof,Validation method,Authentication,Option_1,Intermediate
+What is a Bitcoin transaction?,Transfer of bitcoins from one address to another,Bitcoin creation,Mining process,Wallet operation,Option_1,Beginner
+What is a Bitcoin address?,Identifier receiving or sending bitcoins,Account number,User ID,Transaction ID,Option_1,Beginner
+What is a Bitcoin wallet?,Software storing private and public keys,Physical wallet,Digital account,Bank account,Option_1,Beginner
+What is private key?,Secret key for signing transactions,Public key,Shared secret,Access token,Option_1,Intermediate
+What is public key?,Key derived from private key for receiving funds,Private key,Shared key,Master key,Option_1,Intermediate
+What is a Bitcoin address format?,Base58Check encoded hash of public key,Random string,User input,System generated,Option_1,Intermediate
+What is double spending?,Spending same bitcoin twice - prevented by blockchain,Spending twice,Multiple transactions,Concurrent spending,Option_1,Intermediate
+What is Bitcoin supply limit?,21 million bitcoins maximum,Unlimited,Variable amount,Government controlled,Option_1,Beginner
+What is consensus mechanism?,Method validating transactions and creating blocks,Validation protocol,Security method,Network rule,Option_1,Intermediate
+What is proof of work (PoW)?,Miners solve puzzles to validate blocks,Stake requirement,Coin requirement,Network speed,Option_1,Intermediate
+What is proof of stake (PoS)?,Validators chosen based on stake ownership,Computational work,Mining process,Hash calculation,Option_1,Intermediate
+What is delegated proof of stake (DPoS)?,Token holders delegate to validators,Direct stake,Proof of work,Proof of authority,Option_1,Advanced
+What is proof of authority (PoA)?,Approved validators sign blocks,Computational work,Stake-based,Proof of work,Option_1,Advanced
+What is byzantine fault tolerance?,Consensus despite some nodes being faulty,Fault detection,Error correction,Network failure,Option_1,Advanced
+What is practical Byzantine fault tolerance (PBFT)?,Consensus algorithm for network with bad nodes,Simple consensus,Basic algorithm,Voting system,Option_1,Advanced
+What is block time?,Average time between block creation,Mining time,Transaction time,Processing time,Option_1,Intermediate
+What is mining reward?,Incentive for miners to validate blocks,Transaction fee,Mining cost,Block subsidy,Option_1,Beginner
+What is difficulty in mining?,Target hash difficulty requiring more computational work,Mining complexity,Puzzle difficulty,Hash rate,Option_1,Intermediate
+What is Ethereum?,Blockchain platform for smart contracts,Cryptocurrency,Payment system,Database,Option_1,Beginner
+What is a smart contract?,Self-executing code running on blockchain,Regular contract,Legal agreement,Written document,Option_1,Intermediate
+What is Solidity?,Programming language for Ethereum smart contracts,Scripting language,Backend language,Web language,Option_1,Intermediate
+What is EVM (Ethereum Virtual Machine)?,Executes smart contracts code,Virtual computer,Emulator,Simulator,Option_1,Intermediate
+What is gas in Ethereum?,Unit of computational cost for operations,Fuel cost,Transaction fee,Mining reward,Option_1,Intermediate
+What is gas limit?,Maximum gas allowed per transaction,Minimum gas,Total gas,Average gas,Option_1,Intermediate
+What is gas price?,Price per unit of gas in wei/gwei,Total gas cost,Transaction fee,Block reward,Option_1,Intermediate
+What is wei?,Smallest unit of ether,Ether unit,Gwei,Ethereum token,Option_1,Intermediate
+What is gwei?,"Billion wei, used for gas prices",Million wei,Thousand wei,Ether subunit,Option_1,Intermediate
+What is ether (ETH)?,Native cryptocurrency of Ethereum,Token,Smart contract,Ethereum address,Option_1,Beginner
+What is account in Ethereum?,Entity with ether balance and nonce,User account,Wallet account,Bank account,Option_1,Intermediate
+What is EOA (Externally Owned Account)?,Account controlled by private key,Smart contract account,Contract,Application,Option_1,Intermediate
+What is contract account?,Account containing smart contract code,EOA account,User account,External account,Option_1,Intermediate
+What is nonce in Ethereum?,Counter preventing replay attacks,Random number,Account ID,Transaction ID,Option_1,Advanced
+What is reentrancy attack?,Exploit calling function recursively draining funds,Security feature,Validation mechanism,Protection method,Option_1,Advanced
+What is ERC-20?,Standard for fungible tokens on Ethereum,Ethereum version,Blockchain standard,Protocol specification,Option_1,Intermediate
+What is ERC-721?,Standard for non-fungible tokens (NFTs),Fungible token,ERC-20 variant,Ethereum standard,Option_1,Intermediate
+What is ERC-1155?,Standard for multi-token contracts,Single token,ERC-721 variant,ERC-20 upgrade,Option_1,Advanced
+What is a token?,Digital representation of value on blockchain,Cryptocurrency,Coin,Asset,Option_1,Beginner
+What is fungible token?,Interchangeable tokens of equal value,Unique token,Special token,Rare token,Option_1,Intermediate
+What is non-fungible token (NFT)?,Unique tokens with distinct properties,Identical tokens,Interchangeable tokens,Duplicate tokens,Option_1,Beginner
+What is a stablecoin?,Cryptocurrency pegged to stable asset,Volatile coin,Speculative token,Risk token,Option_1,Intermediate
+What is USDC?,Stablecoin pegged to US dollar,Utility coin,Native token,Bitcoin variant,Option_1,Intermediate
+What is Tether (USDT)?,Stablecoin pegged to US dollar,ETH stablecoin,BTC variant,Altcoin,Option_1,Intermediate
+What is DeFi?,Financial services using blockchain without intermediaries,Centralized finance,Traditional banking,Regular finance,Option_1,Intermediate
+What is DEX (Decentralized Exchange)?,Peer-to-peer trading without central authority,Centralized exchange,Stock exchange,Bank,Option_1,Intermediate
+What is AMM (Automated Market Maker)?,Protocol using pools for token swaps,Manual market making,Order matching,Price discovery,Option_1,Advanced
+What is liquidity pool?,Collection of tokens locked for trading,Individual wallet,Token reserve,Vault storage,Option_1,Intermediate
+What is liquidity provider (LP)?,User supplying tokens to liquidity pool,Exchange operator,Market maker,Trader,Option_1,Intermediate
+What is slippage?,Price difference between quote and execution,Transaction fee,Gas cost,Spread,Option_1,Advanced
+What is impermanent loss?,Loss from price divergence in LP pools,Trading loss,Permanent loss,Fixed loss,Option_1,Advanced
+What is yield farming?,Earning returns by providing liquidity,Traditional farming,Agriculture,Staking,Option_1,Intermediate
+What is lending protocol?,Platform for borrowing/lending crypto assets,Peer-to-peer lending,Traditional loan,Bank lending,Option_1,Intermediate
+What is collateral?,Asset securing a loan,Loan amount,Interest payment,Insurance,Option_1,Beginner
+What is liquidation?,Forced sale of collateral when price drops,Asset sale,Portfolio closure,Trading exit,Option_1,Advanced
+What is governance token?,Token granting voting rights in protocol,Utility token,Payment token,Asset token,Option_1,Intermediate
+What is layer 2 (L2)?,Secondary blockchain improving scalability,Main blockchain,Side chain,Test network,Option_1,Intermediate
+What is rollup?,Layer 2 solution batching transactions,Blockchain fork,Network upgrade,Protocol change,Option_1,Advanced
+What is optimistic rollup?,L2 assuming transactions valid unless challenged,Pessimistic rollup,Zero-knowledge rollup,Simple rollup,Option_1,Advanced
+What is zero-knowledge rollup (ZK-rollup)?,L2 using cryptographic proofs for validity,Optimistic rollup,Plasma,Side chain,Option_1,Advanced
+What is Plasma?,Layer 2 scalability solution,Main chain,Side chain,Test network,Option_1,Advanced
+What is state channel?,Scaling solution enabling off-chain transactions,Payment channel,Main chain,Smart contract,Option_1,Advanced
+What is sidechain?,Separate blockchain connected to mainchain,Layer 2,Main network,Test network,Option_1,Intermediate
+What is sharding?,Dividing blockchain data across many nodes,Data compression,Network optimization,Block structure,Option_1,Advanced
+What is 51% attack?,Controlling majority hash power to manipulate chain,Network attack,Smart contract exploit,Data breach,Option_1,Intermediate
+What is eclipse attack?,Isolating node from rest of network,Network attack,Consensus attack,Individual node attack,Option_1,Advanced
+What is sybil attack?,Single attacker creating fake identities,Network attack,51% attack,Data attack,Option_1,Advanced
+What is front-running?,Ordering transactions to gain advantage,Transaction manipulation,Price prediction,Market timing,Option_1,Advanced
+What is MEV (Maximum Extractable Value)?,Profit from reordering transactions,Network reward,Mining reward,Block subsidy,Option_1,Advanced
+What is sandwich attack?,Placing transactions before/after victim's transaction,Network attack,Double spend,Revert attack,Option_1,Advanced
+What is signature verification?,Confirming transaction authenticity using keys,Transaction validation,Block verification,Network check,Option_1,Intermediate
+What is key management?,Securing and storing cryptographic keys,Password management,Access control,Authentication,Option_1,Intermediate
+What is multi-sig (multisignature)?,Transaction requiring multiple signatures,Single signature,One-time signature,Group signature,Option_1,Advanced
+What is hardware wallet?,Device storing private keys offline,Software wallet,Paper wallet,Brain wallet,Option_1,Intermediate
+What is Solana?,High-speed blockchain using proof of history,Ethereum alternative,Bitcoin fork,Ethereum layer 2,Option_1,Intermediate
+What is Cardano?,Blockchain platform with academic approach,Bitcoin alternative,Ethereum clone,Testnet,Option_1,Intermediate
+What is Polygon?,Layer 2 scaling solution for Ethereum,Ethereum competitor,Bitcoin layer 2,Independent blockchain,Option_1,Intermediate
+What is Polkadot?,Multi-chain platform with relay chain,Single blockchain,Layer 2 solution,Sidechain,Option_1,Intermediate
+What is Cosmos?,Interoperable blockchain network,Single blockchain,Token protocol,Smart contract,Option_1,Intermediate
+What is Bitcoin Cash?,Bitcoin fork with larger block size,Bitcoin upgrade,Bitcoin layer 2,Bitcoin variant,Option_1,Intermediate
+What is Litecoin?,Bitcoin fork with faster block time,Bitcoin alternative,Bitcoin upgrade,Bitcoin layer 2,Option_1,Beginner
+What is Dogecoin?,Cryptocurrency started as meme coin,Serious coin,Stablecoin,Enterprise coin,Option_1,Beginner
+What is Web3?,Decentralized internet using blockchain,Internet upgrade,Web standard,Network protocol,Option_1,Intermediate
+What is dApp (Decentralized Application)?,Application running on blockchain,Traditional app,Web application,Mobile app,Option_1,Intermediate
+What is wallet in Web3?,Software managing keys and tokens,Physical storage,Bank account,Crypto exchange,Option_1,Beginner
+What is MetaMask?,Browser extension wallet for Ethereum,Hardware wallet,Cold storage,Bank wallet,Option_1,Intermediate
+What is seed phrase?,12-24 word phrase recovering wallet,Password,Private key,Public key,Option_1,Intermediate
+What is mnemonic?,Word-based key derivation method,Cryptographic hash,Encryption method,Encoding scheme,Option_1,Advanced
+What is NFT (Non-Fungible Token)?,Unique digital asset on blockchain,Cryptocurrency,Token,Digital file,Option_1,Beginner
+What is NFT minting?,Creating NFT on blockchain,Buying NFT,Selling NFT,Trading NFT,Option_1,Intermediate
+What is NFT marketplace?,Platform for trading NFTs,Art gallery,Auction house,Store,Option_1,Beginner
+What is OpenSea?,Largest NFT marketplace,NFT creator,NFT minter,Art platform,Option_1,Beginner
+What is Rarible?,NFT marketplace and creator platform,NFT auction,Digital gallery,Collectibles store,Option_1,Intermediate
+What is metadata in NFT?,Data describing NFT properties and attributes,NFT file,Blockchain data,Smart contract,Option_1,Intermediate
+What is royalty in NFT?,Creator receiving percentage from secondary sales,Initial price,Listing fee,Transaction cost,Option_1,Intermediate
+What is Truffle Suite?,Development environment for Ethereum,Programming language,Blockchain platform,Testing tool,Option_1,Advanced
+What is Hardhat?,Ethereum development environment,Compilation tool,Testing framework,Deployment tool,Option_1,Advanced
+What is Remix IDE?,Browser-based IDE for Solidity development,Code editor,Compilation tool,Testing framework,Option_1,Advanced
+What is Web3.js?,JavaScript library interacting with Ethereum,Web framework,Frontend library,Backend library,Option_1,Advanced
+What is Ethers.js?,Lightweight Ethereum JavaScript library,Web3 alternative,Testing library,Backend tool,Option_1,Advanced
+What is contract deployment?,Publishing smart contract to blockchain,Contract testing,Contract writing,Contract interaction,Option_1,Intermediate
+What is ABI (Application Binary Interface)?,JSON describing contract functions and data,Source code,Binary file,Compiled code,Option_1,Advanced
+What is contract interaction?,Calling functions and reading state from contract,Contract deployment,Contract writing,Contract testing,Option_1,Intermediate
+What is tokenomics?,Study of token supply and incentives,Economic system,Finance model,Business plan,Option_1,Intermediate
+What is inflation in blockchain?,New tokens issued as rewards,Economic inflation,Price increase,Value decrease,Option_1,Intermediate
+What is deflation in blockchain?,Burning tokens reducing supply,Economic deflation,Price decrease,Value increase,Option_1,Intermediate
+What is token distribution?,Allocation of tokens to stakeholders,Token sale,Token airdrop,Token swap,Option_1,Intermediate
+What is airdrop?,Free distribution of tokens to users,Paid distribution,Token sale,ICO,Option_1,Beginner
+What is ICO (Initial Coin Offering)?,Crowdfunding new cryptocurrency tokens,Stock IPO,Equity fundraising,Debt financing,Option_1,Intermediate
+What is IDO (Initial DEX Offering)?,Token launch on decentralized exchange,Centralized exchange,Direct sale,Auction,Option_1,Advanced
+What is blockchain governance?,Decision-making process for protocol changes,Technical management,Network operation,Consensus rules,Option_1,Advanced
+What is DAO (Decentralized Autonomous Organization)?,Organization governed by smart contracts,Traditional company,Centralized entity,Legal entity,Option_1,Intermediate
+What is proposal in governance?,Suggestion for protocol changes voted by community,Technical change,Update release,Bug fix,Option_1,Advanced
+What is voting in governance?,Token holders voting on proposals,CEO decision,Board decision,Developer choice,Option_1,Advanced
+What is GDPR compliance in blockchain?,Meeting data privacy regulations,Blockchain feature,Smart contract,Network rule,Option_1,Advanced
+What is KYC (Know Your Customer)?,Verification process identifying users,Blockchain feature,Network requirement,Protocol rule,Option_1,Intermediate
+What is AML (Anti-Money Laundering)?,Compliance preventing illegal fund transfer,Network feature,Protocol rule,Technical standard,Option_1,Advanced
+What is crypto regulation?,Government rules governing blockchain/crypto,Network governance,Protocol changes,Community rules,Option_1,Intermediate
+What is Bitcoin Lightning Network?,Layer 2 payment channel for Bitcoin,Main blockchain,Side chain,Test network,Option_1,Advanced
+What is atomic swap?,Cross-chain token exchange without intermediary,Token swap,Liquidity swap,Asset exchange,Option_1,Advanced
+What is cross-chain bridge?,Protocol connecting different blockchains,Side chain,Layer 2,Test network,Option_1,Advanced
+What is oracle?,Service providing external data to smart contracts,Smart contract,Blockchain node,Network peer,Option_1,Intermediate
+What is Chainlink?,Decentralized oracle network,Smart contract platform,Blockchain network,Payment system,Option_1,Intermediate
+What is proof of burn?,Consensus destroying coins to validate blocks,Proof of work,Proof of stake,Proof of history,Option_1,Advanced
+What is proof of history (PoH)?,Consensus using historical record of events,Proof of work,Proof of stake,Timestamp proof,Option_1,Advanced
+What is proof of capacity?,Consensus using hard drive storage,Proof of work,Proof of stake,Network capacity,Option_1,Advanced
+What is finality in blockchain?,Guarantee transaction is irreversible,Transaction confirmation,Block creation,Consensus agreement,Option_1,Advanced
+What is supply chain blockchain?,Tracking products from production to consumer,Inventory management,Logistics,Delivery,Option_1,Intermediate
+What is healthcare blockchain?,Using blockchain for medical records,Hospital system,Medical database,Health tracking,Option_1,Intermediate
+What is identity blockchain?,Self-sovereign identity on blockchain,Personal identity,Identification system,Authentication,Option_1,Intermediate
+What is voting blockchain?,Secure voting using blockchain,Electronic voting,Paper voting,Poll system,Option_1,Intermediate
+What is blockchain?,Distributed ledger technology recording transactions,Database technology,Encryption method,Network protocol,Option_1,Beginner
+What are the main characteristics of blockchain?,"Decentralized, transparent, immutable, secure",Centralized,Opaque,Mutable,Option_1,Beginner
+What is a block in blockchain?,Unit containing transactions and cryptographic hash,Single transaction,Network node,Smart contract,Option_1,Beginner
+What is a chain in blockchain?,Connected blocks linked by cryptographic hashes,Linked list,Database table,Transaction log,Option_1,Beginner
+What is decentralization in blockchain?,No single authority controlling the network,Single server,Centralized database,Admin control,Option_1,Beginner
+What is immutability in blockchain?,"Once recorded, data cannot be changed",Data can be modified,Temporary records,Editable ledger,Option_1,Beginner
+What is transparency in blockchain?,All transactions visible to network participants,Hidden transactions,Private ledger,Secret records,Option_1,Beginner
+What is a cryptocurrency?,Digital currency secured by cryptography,Physical money,Bank notes,Commodity,Option_1,Beginner
+What is Bitcoin?,First decentralized cryptocurrency using blockchain,Digital coin,Electronic money,Virtual currency,Option_1,Beginner
+What is Ethereum?,Blockchain platform enabling smart contracts,Cryptocurrency only,Bitcoin alternative,Payment system,Option_1,Beginner
+What is cryptography?,Technique securing communication through codes,Encoding method,Encryption algorithm,Security protocol,Option_1,Beginner
+What is hash function?,Converting input to fixed-length hash output,Encryption function,Random number,Sorting algorithm,Option_1,Intermediate
+What is SHA-256?,Secure Hash Algorithm producing 256-bit hash,Encryption algorithm,Random generator,Compression function,Option_1,Intermediate
+What is public key cryptography?,Using public and private key pairs,Single key system,Password-based,Shared secret,Option_1,Intermediate
+What is digital signature?,Proving identity and authenticity of message,Electronic signature,Image signature,Written signature,Option_1,Intermediate
+What is ECDSA?,Elliptic Curve Digital Signature Algorithm,RSA algorithm,AES encryption,DES encryption,Option_1,Intermediate
+What is Merkle tree?,Tree of hashes allowing efficient verification,Binary tree,Database structure,File system,Option_1,Intermediate
+What is Merkle root?,Top hash representing all transactions in block,Tree root,First hash,Main hash,Option_1,Intermediate
+What is Bitcoin mining?,Process validating transactions and creating blocks,Gold mining,Data extraction,Resource harvesting,Option_1,Intermediate
+What is proof of work?,Consensus mechanism requiring computational work,Work proof,Validation method,Authentication,Option_1,Intermediate
+What is a Bitcoin transaction?,Transfer of bitcoins from one address to another,Bitcoin creation,Mining process,Wallet operation,Option_1,Beginner
+What is a Bitcoin address?,Identifier receiving or sending bitcoins,Account number,User ID,Transaction ID,Option_1,Beginner
+What is a Bitcoin wallet?,Software storing private and public keys,Physical wallet,Digital account,Bank account,Option_1,Beginner
+What is private key?,Secret key for signing transactions,Public key,Shared secret,Access token,Option_1,Intermediate
+What is public key?,Key derived from private key for receiving funds,Private key,Shared key,Master key,Option_1,Intermediate
+What is a Bitcoin address format?,Base58Check encoded hash of public key,Random string,User input,System generated,Option_1,Intermediate
+What is double spending?,Spending same bitcoin twice - prevented by blockchain,Spending twice,Multiple transactions,Concurrent spending,Option_1,Intermediate
+What is Bitcoin supply limit?,21 million bitcoins maximum,Unlimited,Variable amount,Government controlled,Option_1,Beginner
+What is consensus mechanism?,Method validating transactions and creating blocks,Validation protocol,Security method,Network rule,Option_1,Intermediate
+What is proof of work (PoW)?,Miners solve puzzles to validate blocks,Stake requirement,Coin requirement,Network speed,Option_1,Intermediate
+What is proof of stake (PoS)?,Validators chosen based on stake ownership,Computational work,Mining process,Hash calculation,Option_1,Intermediate
+What is delegated proof of stake (DPoS)?,Token holders delegate to validators,Direct stake,Proof of work,Proof of authority,Option_1,Advanced
+What is proof of authority (PoA)?,Approved validators sign blocks,Computational work,Stake-based,Proof of work,Option_1,Advanced
+What is byzantine fault tolerance?,Consensus despite some nodes being faulty,Fault detection,Error correction,Network failure,Option_1,Advanced
+What is practical Byzantine fault tolerance (PBFT)?,Consensus algorithm for network with bad nodes,Simple consensus,Basic algorithm,Voting system,Option_1,Advanced
+What is block time?,Average time between block creation,Mining time,Transaction time,Processing time,Option_1,Intermediate
+What is mining reward?,Incentive for miners to validate blocks,Transaction fee,Mining cost,Block subsidy,Option_1,Beginner
+What is difficulty in mining?,Target hash difficulty requiring more computational work,Mining complexity,Puzzle difficulty,Hash rate,Option_1,Intermediate
+What is Ethereum?,Blockchain platform for smart contracts,Cryptocurrency,Payment system,Database,Option_1,Beginner
+What is a smart contract?,Self-executing code running on blockchain,Regular contract,Legal agreement,Written document,Option_1,Intermediate
+What is Solidity?,Programming language for Ethereum smart contracts,Scripting language,Backend language,Web language,Option_1,Intermediate
+What is EVM (Ethereum Virtual Machine)?,Executes smart contracts code,Virtual computer,Emulator,Simulator,Option_1,Intermediate
+What is gas in Ethereum?,Unit of computational cost for operations,Fuel cost,Transaction fee,Mining reward,Option_1,Intermediate
+What is gas limit?,Maximum gas allowed per transaction,Minimum gas,Total gas,Average gas,Option_1,Intermediate
+What is gas price?,Price per unit of gas in wei/gwei,Total gas cost,Transaction fee,Block reward,Option_1,Intermediate
+What is wei?,Smallest unit of ether,Ether unit,Gwei,Ethereum token,Option_1,Intermediate
+What is gwei?,"Billion wei, used for gas prices",Million wei,Thousand wei,Ether subunit,Option_1,Intermediate
+What is ether (ETH)?,Native cryptocurrency of Ethereum,Token,Smart contract,Ethereum address,Option_1,Beginner
+What is account in Ethereum?,Entity with ether balance and nonce,User account,Wallet account,Bank account,Option_1,Intermediate
+What is EOA (Externally Owned Account)?,Account controlled by private key,Smart contract account,Contract,Application,Option_1,Intermediate
+What is contract account?,Account containing smart contract code,EOA account,User account,External account,Option_1,Intermediate
+What is nonce in Ethereum?,Counter preventing replay attacks,Random number,Account ID,Transaction ID,Option_1,Advanced
+What is reentrancy attack?,Exploit calling function recursively draining funds,Security feature,Validation mechanism,Protection method,Option_1,Advanced
+What is ERC-20?,Standard for fungible tokens on Ethereum,Ethereum version,Blockchain standard,Protocol specification,Option_1,Intermediate
+What is ERC-721?,Standard for non-fungible tokens (NFTs),Fungible token,ERC-20 variant,Ethereum standard,Option_1,Intermediate
+What is ERC-1155?,Standard for multi-token contracts,Single token,ERC-721 variant,ERC-20 upgrade,Option_1,Advanced
+What is a token?,Digital representation of value on blockchain,Cryptocurrency,Coin,Asset,Option_1,Beginner
+What is fungible token?,Interchangeable tokens of equal value,Unique token,Special token,Rare token,Option_1,Intermediate
+What is non-fungible token (NFT)?,Unique tokens with distinct properties,Identical tokens,Interchangeable tokens,Duplicate tokens,Option_1,Beginner
+What is a stablecoin?,Cryptocurrency pegged to stable asset,Volatile coin,Speculative token,Risk token,Option_1,Intermediate
+What is USDC?,Stablecoin pegged to US dollar,Utility coin,Native token,Bitcoin variant,Option_1,Intermediate
+What is Tether (USDT)?,Stablecoin pegged to US dollar,ETH stablecoin,BTC variant,Altcoin,Option_1,Intermediate
+What is DeFi?,Financial services using blockchain without intermediaries,Centralized finance,Traditional banking,Regular finance,Option_1,Intermediate
+What is DEX (Decentralized Exchange)?,Peer-to-peer trading without central authority,Centralized exchange,Stock exchange,Bank,Option_1,Intermediate
+What is AMM (Automated Market Maker)?,Protocol using pools for token swaps,Manual market making,Order matching,Price discovery,Option_1,Advanced
+What is liquidity pool?,Collection of tokens locked for trading,Individual wallet,Token reserve,Vault storage,Option_1,Intermediate
+What is liquidity provider (LP)?,User supplying tokens to liquidity pool,Exchange operator,Market maker,Trader,Option_1,Intermediate
+What is slippage?,Price difference between quote and execution,Transaction fee,Gas cost,Spread,Option_1,Advanced
+What is impermanent loss?,Loss from price divergence in LP pools,Trading loss,Permanent loss,Fixed loss,Option_1,Advanced
+What is yield farming?,Earning returns by providing liquidity,Traditional farming,Agriculture,Staking,Option_1,Intermediate
+What is lending protocol?,Platform for borrowing/lending crypto assets,Peer-to-peer lending,Traditional loan,Bank lending,Option_1,Intermediate
+What is collateral?,Asset securing a loan,Loan amount,Interest payment,Insurance,Option_1,Beginner
+What is liquidation?,Forced sale of collateral when price drops,Asset sale,Portfolio closure,Trading exit,Option_1,Advanced
+What is governance token?,Token granting voting rights in protocol,Utility token,Payment token,Asset token,Option_1,Intermediate
+What is layer 2 (L2)?,Secondary blockchain improving scalability,Main blockchain,Side chain,Test network,Option_1,Intermediate
+What is rollup?,Layer 2 solution batching transactions,Blockchain fork,Network upgrade,Protocol change,Option_1,Advanced
+What is optimistic rollup?,L2 assuming transactions valid unless challenged,Pessimistic rollup,Zero-knowledge rollup,Simple rollup,Option_1,Advanced
+What is zero-knowledge rollup (ZK-rollup)?,L2 using cryptographic proofs for validity,Optimistic rollup,Plasma,Side chain,Option_1,Advanced
+What is Plasma?,Layer 2 scalability solution,Main chain,Side chain,Test network,Option_1,Advanced
+What is state channel?,Scaling solution enabling off-chain transactions,Payment channel,Main chain,Smart contract,Option_1,Advanced
+What is sidechain?,Separate blockchain connected to mainchain,Layer 2,Main network,Test network,Option_1,Intermediate
+What is sharding?,Dividing blockchain data across many nodes,Data compression,Network optimization,Block structure,Option_1,Advanced
+What is 51% attack?,Controlling majority hash power to manipulate chain,Network attack,Smart contract exploit,Data breach,Option_1,Intermediate
+What is eclipse attack?,Isolating node from rest of network,Network attack,Consensus attack,Individual node attack,Option_1,Advanced
+What is sybil attack?,Single attacker creating fake identities,Network attack,51% attack,Data attack,Option_1,Advanced
+What is front-running?,Ordering transactions to gain advantage,Transaction manipulation,Price prediction,Market timing,Option_1,Advanced
+What is MEV (Maximum Extractable Value)?,Profit from reordering transactions,Network reward,Mining reward,Block subsidy,Option_1,Advanced
+What is sandwich attack?,Placing transactions before/after victim's transaction,Network attack,Double spend,Revert attack,Option_1,Advanced
+What is signature verification?,Confirming transaction authenticity using keys,Transaction validation,Block verification,Network check,Option_1,Intermediate
+What is key management?,Securing and storing cryptographic keys,Password management,Access control,Authentication,Option_1,Intermediate
+What is multi-sig (multisignature)?,Transaction requiring multiple signatures,Single signature,One-time signature,Group signature,Option_1,Advanced
+What is hardware wallet?,Device storing private keys offline,Software wallet,Paper wallet,Brain wallet,Option_1,Intermediate
+What is Solana?,High-speed blockchain using proof of history,Ethereum alternative,Bitcoin fork,Ethereum layer 2,Option_1,Intermediate
+What is Cardano?,Blockchain platform with academic approach,Bitcoin alternative,Ethereum clone,Testnet,Option_1,Intermediate
+What is Polygon?,Layer 2 scaling solution for Ethereum,Ethereum competitor,Bitcoin layer 2,Independent blockchain,Option_1,Intermediate
+What is Polkadot?,Multi-chain platform with relay chain,Single blockchain,Layer 2 solution,Sidechain,Option_1,Intermediate
+What is Cosmos?,Interoperable blockchain network,Single blockchain,Token protocol,Smart contract,Option_1,Intermediate
+What is Bitcoin Cash?,Bitcoin fork with larger block size,Bitcoin upgrade,Bitcoin layer 2,Bitcoin variant,Option_1,Intermediate
+What is Litecoin?,Bitcoin fork with faster block time,Bitcoin alternative,Bitcoin upgrade,Bitcoin layer 2,Option_1,Beginner
+What is Dogecoin?,Cryptocurrency started as meme coin,Serious coin,Stablecoin,Enterprise coin,Option_1,Beginner
+What is Web3?,Decentralized internet using blockchain,Internet upgrade,Web standard,Network protocol,Option_1,Intermediate
+What is dApp (Decentralized Application)?,Application running on blockchain,Traditional app,Web application,Mobile app,Option_1,Intermediate
+What is wallet in Web3?,Software managing keys and tokens,Physical storage,Bank account,Crypto exchange,Option_1,Beginner
+What is MetaMask?,Browser extension wallet for Ethereum,Hardware wallet,Cold storage,Bank wallet,Option_1,Intermediate
+What is seed phrase?,12-24 word phrase recovering wallet,Password,Private key,Public key,Option_1,Intermediate
+What is mnemonic?,Word-based key derivation method,Cryptographic hash,Encryption method,Encoding scheme,Option_1,Advanced
+What is NFT (Non-Fungible Token)?,Unique digital asset on blockchain,Cryptocurrency,Token,Digital file,Option_1,Beginner
+What is NFT minting?,Creating NFT on blockchain,Buying NFT,Selling NFT,Trading NFT,Option_1,Intermediate
+What is NFT marketplace?,Platform for trading NFTs,Art gallery,Auction house,Store,Option_1,Beginner
+What is OpenSea?,Largest NFT marketplace,NFT creator,NFT minter,Art platform,Option_1,Beginner
+What is Rarible?,NFT marketplace and creator platform,NFT auction,Digital gallery,Collectibles store,Option_1,Intermediate
+What is metadata in NFT?,Data describing NFT properties and attributes,NFT file,Blockchain data,Smart contract,Option_1,Intermediate
+What is royalty in NFT?,Creator receiving percentage from secondary sales,Initial price,Listing fee,Transaction cost,Option_1,Intermediate
+What is Truffle Suite?,Development environment for Ethereum,Programming language,Blockchain platform,Testing tool,Option_1,Advanced
+What is Hardhat?,Ethereum development environment,Compilation tool,Testing framework,Deployment tool,Option_1,Advanced
+What is Remix IDE?,Browser-based IDE for Solidity development,Code editor,Compilation tool,Testing framework,Option_1,Advanced
+What is Web3.js?,JavaScript library interacting with Ethereum,Web framework,Frontend library,Backend library,Option_1,Advanced
+What is Ethers.js?,Lightweight Ethereum JavaScript library,Web3 alternative,Testing library,Backend tool,Option_1,Advanced
+What is contract deployment?,Publishing smart contract to blockchain,Contract testing,Contract writing,Contract interaction,Option_1,Intermediate
+What is ABI (Application Binary Interface)?,JSON describing contract functions and data,Source code,Binary file,Compiled code,Option_1,Advanced
+What is contract interaction?,Calling functions and reading state from contract,Contract deployment,Contract writing,Contract testing,Option_1,Intermediate
+What is tokenomics?,Study of token supply and incentives,Economic system,Finance model,Business plan,Option_1,Intermediate
+What is inflation in blockchain?,New tokens issued as rewards,Economic inflation,Price increase,Value decrease,Option_1,Intermediate
+What is deflation in blockchain?,Burning tokens reducing supply,Economic deflation,Price decrease,Value increase,Option_1,Intermediate
+What is token distribution?,Allocation of tokens to stakeholders,Token sale,Token airdrop,Token swap,Option_1,Intermediate
+What is airdrop?,Free distribution of tokens to users,Paid distribution,Token sale,ICO,Option_1,Beginner
+What is ICO (Initial Coin Offering)?,Crowdfunding new cryptocurrency tokens,Stock IPO,Equity fundraising,Debt financing,Option_1,Intermediate
+What is IDO (Initial DEX Offering)?,Token launch on decentralized exchange,Centralized exchange,Direct sale,Auction,Option_1,Advanced
+What is blockchain governance?,Decision-making process for protocol changes,Technical management,Network operation,Consensus rules,Option_1,Advanced
+What is DAO (Decentralized Autonomous Organization)?,Organization governed by smart contracts,Traditional company,Centralized entity,Legal entity,Option_1,Intermediate
+What is proposal in governance?,Suggestion for protocol changes voted by community,Technical change,Update release,Bug fix,Option_1,Advanced
+What is voting in governance?,Token holders voting on proposals,CEO decision,Board decision,Developer choice,Option_1,Advanced
+What is GDPR compliance in blockchain?,Meeting data privacy regulations,Blockchain feature,Smart contract,Network rule,Option_1,Advanced
+What is KYC (Know Your Customer)?,Verification process identifying users,Blockchain feature,Network requirement,Protocol rule,Option_1,Intermediate
+What is AML (Anti-Money Laundering)?,Compliance preventing illegal fund transfer,Network feature,Protocol rule,Technical standard,Option_1,Advanced
+What is crypto regulation?,Government rules governing blockchain/crypto,Network governance,Protocol changes,Community rules,Option_1,Intermediate
+What is Bitcoin Lightning Network?,Layer 2 payment channel for Bitcoin,Main blockchain,Side chain,Test network,Option_1,Advanced
+What is atomic swap?,Cross-chain token exchange without intermediary,Token swap,Liquidity swap,Asset exchange,Option_1,Advanced
+What is cross-chain bridge?,Protocol connecting different blockchains,Side chain,Layer 2,Test network,Option_1,Advanced
+What is oracle?,Service providing external data to smart contracts,Smart contract,Blockchain node,Network peer,Option_1,Intermediate
+What is Chainlink?,Decentralized oracle network,Smart contract platform,Blockchain network,Payment system,Option_1,Intermediate
+What is proof of burn?,Consensus destroying coins to validate blocks,Proof of work,Proof of stake,Proof of history,Option_1,Advanced
+What is proof of history (PoH)?,Consensus using historical record of events,Proof of work,Proof of stake,Timestamp proof,Option_1,Advanced
+What is proof of capacity?,Consensus using hard drive storage,Proof of work,Proof of stake,Network capacity,Option_1,Advanced
+What is finality in blockchain?,Guarantee transaction is irreversible,Transaction confirmation,Block creation,Consensus agreement,Option_1,Advanced
+What is supply chain blockchain?,Tracking products from production to consumer,Inventory management,Logistics,Delivery,Option_1,Intermediate
+What is healthcare blockchain?,Using blockchain for medical records,Hospital system,Medical database,Health tracking,Option_1,Intermediate
+What is identity blockchain?,Self-sovereign identity on blockchain,Personal identity,Identification system,Authentication,Option_1,Intermediate
+What is voting blockchain?,Secure voting using blockchain,Electronic voting,Paper voting,Poll system,Option_1,Intermediate
+What is blockchain?,Distributed ledger technology recording transactions,Database technology,Encryption method,Network protocol,Option_1,Beginner
+What are the main characteristics of blockchain?,"Decentralized, transparent, immutable, secure",Centralized,Opaque,Mutable,Option_1,Beginner
+What is a block in blockchain?,Unit containing transactions and cryptographic hash,Single transaction,Network node,Smart contract,Option_1,Beginner
+What is a chain in blockchain?,Connected blocks linked by cryptographic hashes,Linked list,Database table,Transaction log,Option_1,Beginner
+What is decentralization in blockchain?,No single authority controlling the network,Single server,Centralized database,Admin control,Option_1,Beginner
+What is immutability in blockchain?,"Once recorded, data cannot be changed",Data can be modified,Temporary records,Editable ledger,Option_1,Beginner
+What is transparency in blockchain?,All transactions visible to network participants,Hidden transactions,Private ledger,Secret records,Option_1,Beginner
+What is a cryptocurrency?,Digital currency secured by cryptography,Physical money,Bank notes,Commodity,Option_1,Beginner
+What is Bitcoin?,First decentralized cryptocurrency using blockchain,Digital coin,Electronic money,Virtual currency,Option_1,Beginner
+What is Ethereum?,Blockchain platform enabling smart contracts,Cryptocurrency only,Bitcoin alternative,Payment system,Option_1,Beginner
+What is cryptography?,Technique securing communication through codes,Encoding method,Encryption algorithm,Security protocol,Option_1,Beginner
+What is hash function?,Converting input to fixed-length hash output,Encryption function,Random number,Sorting algorithm,Option_1,Intermediate
+What is SHA-256?,Secure Hash Algorithm producing 256-bit hash,Encryption algorithm,Random generator,Compression function,Option_1,Intermediate
+What is public key cryptography?,Using public and private key pairs,Single key system,Password-based,Shared secret,Option_1,Intermediate
+What is digital signature?,Proving identity and authenticity of message,Electronic signature,Image signature,Written signature,Option_1,Intermediate
+What is ECDSA?,Elliptic Curve Digital Signature Algorithm,RSA algorithm,AES encryption,DES encryption,Option_1,Intermediate
+What is Merkle tree?,Tree of hashes allowing efficient verification,Binary tree,Database structure,File system,Option_1,Intermediate
+What is Merkle root?,Top hash representing all transactions in block,Tree root,First hash,Main hash,Option_1,Intermediate
+What is Bitcoin mining?,Process validating transactions and creating blocks,Gold mining,Data extraction,Resource harvesting,Option_1,Intermediate
+What is proof of work?,Consensus mechanism requiring computational work,Work proof,Validation method,Authentication,Option_1,Intermediate
+What is a Bitcoin transaction?,Transfer of bitcoins from one address to another,Bitcoin creation,Mining process,Wallet operation,Option_1,Beginner
+What is a Bitcoin address?,Identifier receiving or sending bitcoins,Account number,User ID,Transaction ID,Option_1,Beginner
+What is a Bitcoin wallet?,Software storing private and public keys,Physical wallet,Digital account,Bank account,Option_1,Beginner
+What is private key?,Secret key for signing transactions,Public key,Shared secret,Access token,Option_1,Intermediate
+What is public key?,Key derived from private key for receiving funds,Private key,Shared key,Master key,Option_1,Intermediate
+What is a Bitcoin address format?,Base58Check encoded hash of public key,Random string,User input,System generated,Option_1,Intermediate
+What is double spending?,Spending same bitcoin twice - prevented by blockchain,Spending twice,Multiple transactions,Concurrent spending,Option_1,Intermediate
+What is Bitcoin supply limit?,21 million bitcoins maximum,Unlimited,Variable amount,Government controlled,Option_1,Beginner
+What is consensus mechanism?,Method validating transactions and creating blocks,Validation protocol,Security method,Network rule,Option_1,Intermediate
+What is proof of work (PoW)?,Miners solve puzzles to validate blocks,Stake requirement,Coin requirement,Network speed,Option_1,Intermediate
+What is proof of stake (PoS)?,Validators chosen based on stake ownership,Computational work,Mining process,Hash calculation,Option_1,Intermediate
+What is delegated proof of stake (DPoS)?,Token holders delegate to validators,Direct stake,Proof of work,Proof of authority,Option_1,Advanced
+What is proof of authority (PoA)?,Approved validators sign blocks,Computational work,Stake-based,Proof of work,Option_1,Advanced
+What is byzantine fault tolerance?,Consensus despite some nodes being faulty,Fault detection,Error correction,Network failure,Option_1,Advanced
+What is practical Byzantine fault tolerance (PBFT)?,Consensus algorithm for network with bad nodes,Simple consensus,Basic algorithm,Voting system,Option_1,Advanced
+What is block time?,Average time between block creation,Mining time,Transaction time,Processing time,Option_1,Intermediate
+What is mining reward?,Incentive for miners to validate blocks,Transaction fee,Mining cost,Block subsidy,Option_1,Beginner
+What is difficulty in mining?,Target hash difficulty requiring more computational work,Mining complexity,Puzzle difficulty,Hash rate,Option_1,Intermediate
+What is Ethereum?,Blockchain platform for smart contracts,Cryptocurrency,Payment system,Database,Option_1,Beginner
+What is a smart contract?,Self-executing code running on blockchain,Regular contract,Legal agreement,Written document,Option_1,Intermediate
+What is Solidity?,Programming language for Ethereum smart contracts,Scripting language,Backend language,Web language,Option_1,Intermediate
+What is EVM (Ethereum Virtual Machine)?,Executes smart contracts code,Virtual computer,Emulator,Simulator,Option_1,Intermediate
+What is gas in Ethereum?,Unit of computational cost for operations,Fuel cost,Transaction fee,Mining reward,Option_1,Intermediate
+What is gas limit?,Maximum gas allowed per transaction,Minimum gas,Total gas,Average gas,Option_1,Intermediate
+What is gas price?,Price per unit of gas in wei/gwei,Total gas cost,Transaction fee,Block reward,Option_1,Intermediate
+What is wei?,Smallest unit of ether,Ether unit,Gwei,Ethereum token,Option_1,Intermediate
+What is gwei?,"Billion wei, used for gas prices",Million wei,Thousand wei,Ether subunit,Option_1,Intermediate
+What is ether (ETH)?,Native cryptocurrency of Ethereum,Token,Smart contract,Ethereum address,Option_1,Beginner
+What is account in Ethereum?,Entity with ether balance and nonce,User account,Wallet account,Bank account,Option_1,Intermediate
+What is EOA (Externally Owned Account)?,Account controlled by private key,Smart contract account,Contract,Application,Option_1,Intermediate
+What is contract account?,Account containing smart contract code,EOA account,User account,External account,Option_1,Intermediate
+What is nonce in Ethereum?,Counter preventing replay attacks,Random number,Account ID,Transaction ID,Option_1,Advanced
+What is reentrancy attack?,Exploit calling function recursively draining funds,Security feature,Validation mechanism,Protection method,Option_1,Advanced
+What is ERC-20?,Standard for fungible tokens on Ethereum,Ethereum version,Blockchain standard,Protocol specification,Option_1,Intermediate
+What is ERC-721?,Standard for non-fungible tokens (NFTs),Fungible token,ERC-20 variant,Ethereum standard,Option_1,Intermediate
+What is ERC-1155?,Standard for multi-token contracts,Single token,ERC-721 variant,ERC-20 upgrade,Option_1,Advanced
+What is a token?,Digital representation of value on blockchain,Cryptocurrency,Coin,Asset,Option_1,Beginner
+What is fungible token?,Interchangeable tokens of equal value,Unique token,Special token,Rare token,Option_1,Intermediate
+What is non-fungible token (NFT)?,Unique tokens with distinct properties,Identical tokens,Interchangeable tokens,Duplicate tokens,Option_1,Beginner
+What is a stablecoin?,Cryptocurrency pegged to stable asset,Volatile coin,Speculative token,Risk token,Option_1,Intermediate
+What is USDC?,Stablecoin pegged to US dollar,Utility coin,Native token,Bitcoin variant,Option_1,Intermediate
+What is Tether (USDT)?,Stablecoin pegged to US dollar,ETH stablecoin,BTC variant,Altcoin,Option_1,Intermediate
+What is DeFi?,Financial services using blockchain without intermediaries,Centralized finance,Traditional banking,Regular finance,Option_1,Intermediate
+What is DEX (Decentralized Exchange)?,Peer-to-peer trading without central authority,Centralized exchange,Stock exchange,Bank,Option_1,Intermediate
+What is AMM (Automated Market Maker)?,Protocol using pools for token swaps,Manual market making,Order matching,Price discovery,Option_1,Advanced
+What is liquidity pool?,Collection of tokens locked for trading,Individual wallet,Token reserve,Vault storage,Option_1,Intermediate
+What is liquidity provider (LP)?,User supplying tokens to liquidity pool,Exchange operator,Market maker,Trader,Option_1,Intermediate
+What is slippage?,Price difference between quote and execution,Transaction fee,Gas cost,Spread,Option_1,Advanced
+What is impermanent loss?,Loss from price divergence in LP pools,Trading loss,Permanent loss,Fixed loss,Option_1,Advanced
+What is yield farming?,Earning returns by providing liquidity,Traditional farming,Agriculture,Staking,Option_1,Intermediate
+What is lending protocol?,Platform for borrowing/lending crypto assets,Peer-to-peer lending,Traditional loan,Bank lending,Option_1,Intermediate
+What is collateral?,Asset securing a loan,Loan amount,Interest payment,Insurance,Option_1,Beginner
+What is liquidation?,Forced sale of collateral when price drops,Asset sale,Portfolio closure,Trading exit,Option_1,Advanced
+What is governance token?,Token granting voting rights in protocol,Utility token,Payment token,Asset token,Option_1,Intermediate
+What is layer 2 (L2)?,Secondary blockchain improving scalability,Main blockchain,Side chain,Test network,Option_1,Intermediate
+What is rollup?,Layer 2 solution batching transactions,Blockchain fork,Network upgrade,Protocol change,Option_1,Advanced
+What is optimistic rollup?,L2 assuming transactions valid unless challenged,Pessimistic rollup,Zero-knowledge rollup,Simple rollup,Option_1,Advanced
+What is zero-knowledge rollup (ZK-rollup)?,L2 using cryptographic proofs for validity,Optimistic rollup,Plasma,Side chain,Option_1,Advanced
+What is Plasma?,Layer 2 scalability solution,Main chain,Side chain,Test network,Option_1,Advanced
+What is state channel?,Scaling solution enabling off-chain transactions,Payment channel,Main chain,Smart contract,Option_1,Advanced
+What is sidechain?,Separate blockchain connected to mainchain,Layer 2,Main network,Test network,Option_1,Intermediate
+What is sharding?,Dividing blockchain data across many nodes,Data compression,Network optimization,Block structure,Option_1,Advanced
+What is 51% attack?,Controlling majority hash power to manipulate chain,Network attack,Smart contract exploit,Data breach,Option_1,Intermediate
+What is eclipse attack?,Isolating node from rest of network,Network attack,Consensus attack,Individual node attack,Option_1,Advanced
+What is sybil attack?,Single attacker creating fake identities,Network attack,51% attack,Data attack,Option_1,Advanced
+What is front-running?,Ordering transactions to gain advantage,Transaction manipulation,Price prediction,Market timing,Option_1,Advanced
+What is MEV (Maximum Extractable Value)?,Profit from reordering transactions,Network reward,Mining reward,Block subsidy,Option_1,Advanced
+What is sandwich attack?,Placing transactions before/after victim's transaction,Network attack,Double spend,Revert attack,Option_1,Advanced
+What is signature verification?,Confirming transaction authenticity using keys,Transaction validation,Block verification,Network check,Option_1,Intermediate
+What is key management?,Securing and storing cryptographic keys,Password management,Access control,Authentication,Option_1,Intermediate
+What is multi-sig (multisignature)?,Transaction requiring multiple signatures,Single signature,One-time signature,Group signature,Option_1,Advanced
+What is hardware wallet?,Device storing private keys offline,Software wallet,Paper wallet,Brain wallet,Option_1,Intermediate
+What is Solana?,High-speed blockchain using proof of history,Ethereum alternative,Bitcoin fork,Ethereum layer 2,Option_1,Intermediate
+What is Cardano?,Blockchain platform with academic approach,Bitcoin alternative,Ethereum clone,Testnet,Option_1,Intermediate
+What is Polygon?,Layer 2 scaling solution for Ethereum,Ethereum competitor,Bitcoin layer 2,Independent blockchain,Option_1,Intermediate
+What is Polkadot?,Multi-chain platform with relay chain,Single blockchain,Layer 2 solution,Sidechain,Option_1,Intermediate
+What is Cosmos?,Interoperable blockchain network,Single blockchain,Token protocol,Smart contract,Option_1,Intermediate
+What is Bitcoin Cash?,Bitcoin fork with larger block size,Bitcoin upgrade,Bitcoin layer 2,Bitcoin variant,Option_1,Intermediate
+What is Litecoin?,Bitcoin fork with faster block time,Bitcoin alternative,Bitcoin upgrade,Bitcoin layer 2,Option_1,Beginner
+What is Dogecoin?,Cryptocurrency started as meme coin,Serious coin,Stablecoin,Enterprise coin,Option_1,Beginner
+What is Web3?,Decentralized internet using blockchain,Internet upgrade,Web standard,Network protocol,Option_1,Intermediate
+What is dApp (Decentralized Application)?,Application running on blockchain,Traditional app,Web application,Mobile app,Option_1,Intermediate
+What is wallet in Web3?,Software managing keys and tokens,Physical storage,Bank account,Crypto exchange,Option_1,Beginner
+What is MetaMask?,Browser extension wallet for Ethereum,Hardware wallet,Cold storage,Bank wallet,Option_1,Intermediate
+What is seed phrase?,12-24 word phrase recovering wallet,Password,Private key,Public key,Option_1,Intermediate
+What is mnemonic?,Word-based key derivation method,Cryptographic hash,Encryption method,Encoding scheme,Option_1,Advanced
+What is NFT (Non-Fungible Token)?,Unique digital asset on blockchain,Cryptocurrency,Token,Digital file,Option_1,Beginner
+What is NFT minting?,Creating NFT on blockchain,Buying NFT,Selling NFT,Trading NFT,Option_1,Intermediate
+What is NFT marketplace?,Platform for trading NFTs,Art gallery,Auction house,Store,Option_1,Beginner
+What is OpenSea?,Largest NFT marketplace,NFT creator,NFT minter,Art platform,Option_1,Beginner
+What is Rarible?,NFT marketplace and creator platform,NFT auction,Digital gallery,Collectibles store,Option_1,Intermediate
+What is metadata in NFT?,Data describing NFT properties and attributes,NFT file,Blockchain data,Smart contract,Option_1,Intermediate
+What is royalty in NFT?,Creator receiving percentage from secondary sales,Initial price,Listing fee,Transaction cost,Option_1,Intermediate
+What is Truffle Suite?,Development environment for Ethereum,Programming language,Blockchain platform,Testing tool,Option_1,Advanced
+What is Hardhat?,Ethereum development environment,Compilation tool,Testing framework,Deployment tool,Option_1,Advanced
+What is Remix IDE?,Browser-based IDE for Solidity development,Code editor,Compilation tool,Testing framework,Option_1,Advanced
+What is Web3.js?,JavaScript library interacting with Ethereum,Web framework,Frontend library,Backend library,Option_1,Advanced
+What is Ethers.js?,Lightweight Ethereum JavaScript library,Web3 alternative,Testing library,Backend tool,Option_1,Advanced
+What is contract deployment?,Publishing smart contract to blockchain,Contract testing,Contract writing,Contract interaction,Option_1,Intermediate
+What is ABI (Application Binary Interface)?,JSON describing contract functions and data,Source code,Binary file,Compiled code,Option_1,Advanced
+What is contract interaction?,Calling functions and reading state from contract,Contract deployment,Contract writing,Contract testing,Option_1,Intermediate
+What is tokenomics?,Study of token supply and incentives,Economic system,Finance model,Business plan,Option_1,Intermediate
+What is inflation in blockchain?,New tokens issued as rewards,Economic inflation,Price increase,Value decrease,Option_1,Intermediate
+What is deflation in blockchain?,Burning tokens reducing supply,Economic deflation,Price decrease,Value increase,Option_1,Intermediate
+What is token distribution?,Allocation of tokens to stakeholders,Token sale,Token airdrop,Token swap,Option_1,Intermediate
+What is airdrop?,Free distribution of tokens to users,Paid distribution,Token sale,ICO,Option_1,Beginner
+What is ICO (Initial Coin Offering)?,Crowdfunding new cryptocurrency tokens,Stock IPO,Equity fundraising,Debt financing,Option_1,Intermediate
+What is IDO (Initial DEX Offering)?,Token launch on decentralized exchange,Centralized exchange,Direct sale,Auction,Option_1,Advanced
+What is blockchain governance?,Decision-making process for protocol changes,Technical management,Network operation,Consensus rules,Option_1,Advanced
+What is DAO (Decentralized Autonomous Organization)?,Organization governed by smart contracts,Traditional company,Centralized entity,Legal entity,Option_1,Intermediate
+What is proposal in governance?,Suggestion for protocol changes voted by community,Technical change,Update release,Bug fix,Option_1,Advanced
+What is voting in governance?,Token holders voting on proposals,CEO decision,Board decision,Developer choice,Option_1,Advanced
+What is GDPR compliance in blockchain?,Meeting data privacy regulations,Blockchain feature,Smart contract,Network rule,Option_1,Advanced
+What is KYC (Know Your Customer)?,Verification process identifying users,Blockchain feature,Network requirement,Protocol rule,Option_1,Intermediate
+What is AML (Anti-Money Laundering)?,Compliance preventing illegal fund transfer,Network feature,Protocol rule,Technical standard,Option_1,Advanced
+What is crypto regulation?,Government rules governing blockchain/crypto,Network governance,Protocol changes,Community rules,Option_1,Intermediate
+What is Bitcoin Lightning Network?,Layer 2 payment channel for Bitcoin,Main blockchain,Side chain,Test network,Option_1,Advanced
+What is atomic swap?,Cross-chain token exchange without intermediary,Token swap,Liquidity swap,Asset exchange,Option_1,Advanced
+What is cross-chain bridge?,Protocol connecting different blockchains,Side chain,Layer 2,Test network,Option_1,Advanced
+What is oracle?,Service providing external data to smart contracts,Smart contract,Blockchain node,Network peer,Option_1,Intermediate
+What is Chainlink?,Decentralized oracle network,Smart contract platform,Blockchain network,Payment system,Option_1,Intermediate
+What is proof of burn?,Consensus destroying coins to validate blocks,Proof of work,Proof of stake,Proof of history,Option_1,Advanced
+What is proof of history (PoH)?,Consensus using historical record of events,Proof of work,Proof of stake,Timestamp proof,Option_1,Advanced
+What is proof of capacity?,Consensus using hard drive storage,Proof of work,Proof of stake,Network capacity,Option_1,Advanced
+What is finality in blockchain?,Guarantee transaction is irreversible,Transaction confirmation,Block creation,Consensus agreement,Option_1,Advanced
+What is supply chain blockchain?,Tracking products from production to consumer,Inventory management,Logistics,Delivery,Option_1,Intermediate
+What is healthcare blockchain?,Using blockchain for medical records,Hospital system,Medical database,Health tracking,Option_1,Intermediate
+What is identity blockchain?,Self-sovereign identity on blockchain,Personal identity,Identification system,Authentication,Option_1,Intermediate
+What is voting blockchain?,Secure voting using blockchain,Electronic voting,Paper voting,Poll system,Option_1,Intermediate
+What is blockchain?,Distributed ledger technology recording transactions,Database technology,Encryption method,Network protocol,Option_1,Beginner
+What are the main characteristics of blockchain?,"Decentralized, transparent, immutable, secure",Centralized,Opaque,Mutable,Option_1,Beginner
+What is a block in blockchain?,Unit containing transactions and cryptographic hash,Single transaction,Network node,Smart contract,Option_1,Beginner
+What is a chain in blockchain?,Connected blocks linked by cryptographic hashes,Linked list,Database table,Transaction log,Option_1,Beginner
+What is decentralization in blockchain?,No single authority controlling the network,Single server,Centralized database,Admin control,Option_1,Beginner
+What is immutability in blockchain?,"Once recorded, data cannot be changed",Data can be modified,Temporary records,Editable ledger,Option_1,Beginner
+What is transparency in blockchain?,All transactions visible to network participants,Hidden transactions,Private ledger,Secret records,Option_1,Beginner
+What is a cryptocurrency?,Digital currency secured by cryptography,Physical money,Bank notes,Commodity,Option_1,Beginner
+What is Bitcoin?,First decentralized cryptocurrency using blockchain,Digital coin,Electronic money,Virtual currency,Option_1,Beginner
+What is Ethereum?,Blockchain platform enabling smart contracts,Cryptocurrency only,Bitcoin alternative,Payment system,Option_1,Beginner
+What is cryptography?,Technique securing communication through codes,Encoding method,Encryption algorithm,Security protocol,Option_1,Beginner
+What is hash function?,Converting input to fixed-length hash output,Encryption function,Random number,Sorting algorithm,Option_1,Intermediate
+What is SHA-256?,Secure Hash Algorithm producing 256-bit hash,Encryption algorithm,Random generator,Compression function,Option_1,Intermediate
+What is public key cryptography?,Using public and private key pairs,Single key system,Password-based,Shared secret,Option_1,Intermediate
+What is digital signature?,Proving identity and authenticity of message,Electronic signature,Image signature,Written signature,Option_1,Intermediate
+What is ECDSA?,Elliptic Curve Digital Signature Algorithm,RSA algorithm,AES encryption,DES encryption,Option_1,Intermediate
+What is Merkle tree?,Tree of hashes allowing efficient verification,Binary tree,Database structure,File system,Option_1,Intermediate
+What is Merkle root?,Top hash representing all transactions in block,Tree root,First hash,Main hash,Option_1,Intermediate
+What is Bitcoin mining?,Process validating transactions and creating blocks,Gold mining,Data extraction,Resource harvesting,Option_1,Intermediate
+What is proof of work?,Consensus mechanism requiring computational work,Work proof,Validation method,Authentication,Option_1,Intermediate
+What is a Bitcoin transaction?,Transfer of bitcoins from one address to another,Bitcoin creation,Mining process,Wallet operation,Option_1,Beginner
+What is a Bitcoin address?,Identifier receiving or sending bitcoins,Account number,User ID,Transaction ID,Option_1,Beginner
+What is a Bitcoin wallet?,Software storing private and public keys,Physical wallet,Digital account,Bank account,Option_1,Beginner
+What is private key?,Secret key for signing transactions,Public key,Shared secret,Access token,Option_1,Intermediate
+What is public key?,Key derived from private key for receiving funds,Private key,Shared key,Master key,Option_1,Intermediate
+What is a Bitcoin address format?,Base58Check encoded hash of public key,Random string,User input,System generated,Option_1,Intermediate
+What is double spending?,Spending same bitcoin twice - prevented by blockchain,Spending twice,Multiple transactions,Concurrent spending,Option_1,Intermediate
+What is Bitcoin supply limit?,21 million bitcoins maximum,Unlimited,Variable amount,Government controlled,Option_1,Beginner
+What is consensus mechanism?,Method validating transactions and creating blocks,Validation protocol,Security method,Network rule,Option_1,Intermediate
+What is proof of work (PoW)?,Miners solve puzzles to validate blocks,Stake requirement,Coin requirement,Network speed,Option_1,Intermediate
+What is proof of stake (PoS)?,Validators chosen based on stake ownership,Computational work,Mining process,Hash calculation,Option_1,Intermediate
+What is delegated proof of stake (DPoS)?,Token holders delegate to validators,Direct stake,Proof of work,Proof of authority,Option_1,Advanced
+What is proof of authority (PoA)?,Approved validators sign blocks,Computational work,Stake-based,Proof of work,Option_1,Advanced
+What is byzantine fault tolerance?,Consensus despite some nodes being faulty,Fault detection,Error correction,Network failure,Option_1,Advanced
+What is practical Byzantine fault tolerance (PBFT)?,Consensus algorithm for network with bad nodes,Simple consensus,Basic algorithm,Voting system,Option_1,Advanced
+What is block time?,Average time between block creation,Mining time,Transaction time,Processing time,Option_1,Intermediate
+What is mining reward?,Incentive for miners to validate blocks,Transaction fee,Mining cost,Block subsidy,Option_1,Beginner
+What is difficulty in mining?,Target hash difficulty requiring more computational work,Mining complexity,Puzzle difficulty,Hash rate,Option_1,Intermediate
+What is Ethereum?,Blockchain platform for smart contracts,Cryptocurrency,Payment system,Database,Option_1,Beginner
+What is a smart contract?,Self-executing code running on blockchain,Regular contract,Legal agreement,Written document,Option_1,Intermediate
+What is Solidity?,Programming language for Ethereum smart contracts,Scripting language,Backend language,Web language,Option_1,Intermediate
+What is EVM (Ethereum Virtual Machine)?,Executes smart contracts code,Virtual computer,Emulator,Simulator,Option_1,Intermediate
+What is gas in Ethereum?,Unit of computational cost for operations,Fuel cost,Transaction fee,Mining reward,Option_1,Intermediate
+What is gas limit?,Maximum gas allowed per transaction,Minimum gas,Total gas,Average gas,Option_1,Intermediate
+What is gas price?,Price per unit of gas in wei/gwei,Total gas cost,Transaction fee,Block reward,Option_1,Intermediate
+What is wei?,Smallest unit of ether,Ether unit,Gwei,Ethereum token,Option_1,Intermediate
+What is gwei?,"Billion wei, used for gas prices",Million wei,Thousand wei,Ether subunit,Option_1,Intermediate
+What is ether (ETH)?,Native cryptocurrency of Ethereum,Token,Smart contract,Ethereum address,Option_1,Beginner
+What is account in Ethereum?,Entity with ether balance and nonce,User account,Wallet account,Bank account,Option_1,Intermediate
+What is EOA (Externally Owned Account)?,Account controlled by private key,Smart contract account,Contract,Application,Option_1,Intermediate
+What is contract account?,Account containing smart contract code,EOA account,User account,External account,Option_1,Intermediate
+What is nonce in Ethereum?,Counter preventing replay attacks,Random number,Account ID,Transaction ID,Option_1,Advanced
+What is reentrancy attack?,Exploit calling function recursively draining funds,Security feature,Validation mechanism,Protection method,Option_1,Advanced
+What is ERC-20?,Standard for fungible tokens on Ethereum,Ethereum version,Blockchain standard,Protocol specification,Option_1,Intermediate
+What is ERC-721?,Standard for non-fungible tokens (NFTs),Fungible token,ERC-20 variant,Ethereum standard,Option_1,Intermediate
+What is ERC-1155?,Standard for multi-token contracts,Single token,ERC-721 variant,ERC-20 upgrade,Option_1,Advanced
+What is a token?,Digital representation of value on blockchain,Cryptocurrency,Coin,Asset,Option_1,Beginner
+What is fungible token?,Interchangeable tokens of equal value,Unique token,Special token,Rare token,Option_1,Intermediate
+What is non-fungible token (NFT)?,Unique tokens with distinct properties,Identical tokens,Interchangeable tokens,Duplicate tokens,Option_1,Beginner
+What is a stablecoin?,Cryptocurrency pegged to stable asset,Volatile coin,Speculative token,Risk token,Option_1,Intermediate
+What is USDC?,Stablecoin pegged to US dollar,Utility coin,Native token,Bitcoin variant,Option_1,Intermediate
+What is Tether (USDT)?,Stablecoin pegged to US dollar,ETH stablecoin,BTC variant,Altcoin,Option_1,Intermediate
+What is DeFi?,Financial services using blockchain without intermediaries,Centralized finance,Traditional banking,Regular finance,Option_1,Intermediate
+What is DEX (Decentralized Exchange)?,Peer-to-peer trading without central authority,Centralized exchange,Stock exchange,Bank,Option_1,Intermediate
+What is AMM (Automated Market Maker)?,Protocol using pools for token swaps,Manual market making,Order matching,Price discovery,Option_1,Advanced
+What is liquidity pool?,Collection of tokens locked for trading,Individual wallet,Token reserve,Vault storage,Option_1,Intermediate
+What is liquidity provider (LP)?,User supplying tokens to liquidity pool,Exchange operator,Market maker,Trader,Option_1,Intermediate
+What is slippage?,Price difference between quote and execution,Transaction fee,Gas cost,Spread,Option_1,Advanced
+What is impermanent loss?,Loss from price divergence in LP pools,Trading loss,Permanent loss,Fixed loss,Option_1,Advanced
+What is yield farming?,Earning returns by providing liquidity,Traditional farming,Agriculture,Staking,Option_1,Intermediate
+What is lending protocol?,Platform for borrowing/lending crypto assets,Peer-to-peer lending,Traditional loan,Bank lending,Option_1,Intermediate
+What is collateral?,Asset securing a loan,Loan amount,Interest payment,Insurance,Option_1,Beginner
+What is liquidation?,Forced sale of collateral when price drops,Asset sale,Portfolio closure,Trading exit,Option_1,Advanced
+What is governance token?,Token granting voting rights in protocol,Utility token,Payment token,Asset token,Option_1,Intermediate
+What is layer 2 (L2)?,Secondary blockchain improving scalability,Main blockchain,Side chain,Test network,Option_1,Intermediate
+What is rollup?,Layer 2 solution batching transactions,Blockchain fork,Network upgrade,Protocol change,Option_1,Advanced
+What is optimistic rollup?,L2 assuming transactions valid unless challenged,Pessimistic rollup,Zero-knowledge rollup,Simple rollup,Option_1,Advanced
+What is zero-knowledge rollup (ZK-rollup)?,L2 using cryptographic proofs for validity,Optimistic rollup,Plasma,Side chain,Option_1,Advanced
+What is Plasma?,Layer 2 scalability solution,Main chain,Side chain,Test network,Option_1,Advanced
+What is state channel?,Scaling solution enabling off-chain transactions,Payment channel,Main chain,Smart contract,Option_1,Advanced
+What is sidechain?,Separate blockchain connected to mainchain,Layer 2,Main network,Test network,Option_1,Intermediate
+What is sharding?,Dividing blockchain data across many nodes,Data compression,Network optimization,Block structure,Option_1,Advanced
+What is 51% attack?,Controlling majority hash power to manipulate chain,Network attack,Smart contract exploit,Data breach,Option_1,Intermediate
+What is eclipse attack?,Isolating node from rest of network,Network attack,Consensus attack,Individual node attack,Option_1,Advanced
+What is sybil attack?,Single attacker creating fake identities,Network attack,51% attack,Data attack,Option_1,Advanced
+What is front-running?,Ordering transactions to gain advantage,Transaction manipulation,Price prediction,Market timing,Option_1,Advanced
+What is MEV (Maximum Extractable Value)?,Profit from reordering transactions,Network reward,Mining reward,Block subsidy,Option_1,Advanced
+What is sandwich attack?,Placing transactions before/after victim's transaction,Network attack,Double spend,Revert attack,Option_1,Advanced
+What is signature verification?,Confirming transaction authenticity using keys,Transaction validation,Block verification,Network check,Option_1,Intermediate
+What is key management?,Securing and storing cryptographic keys,Password management,Access control,Authentication,Option_1,Intermediate
+What is multi-sig (multisignature)?,Transaction requiring multiple signatures,Single signature,One-time signature,Group signature,Option_1,Advanced
+What is hardware wallet?,Device storing private keys offline,Software wallet,Paper wallet,Brain wallet,Option_1,Intermediate
+What is Solana?,High-speed blockchain using proof of history,Ethereum alternative,Bitcoin fork,Ethereum layer 2,Option_1,Intermediate
+What is Cardano?,Blockchain platform with academic approach,Bitcoin alternative,Ethereum clone,Testnet,Option_1,Intermediate
+What is Polygon?,Layer 2 scaling solution for Ethereum,Ethereum competitor,Bitcoin layer 2,Independent blockchain,Option_1,Intermediate
+What is Polkadot?,Multi-chain platform with relay chain,Single blockchain,Layer 2 solution,Sidechain,Option_1,Intermediate
+What is Cosmos?,Interoperable blockchain network,Single blockchain,Token protocol,Smart contract,Option_1,Intermediate
+What is Bitcoin Cash?,Bitcoin fork with larger block size,Bitcoin upgrade,Bitcoin layer 2,Bitcoin variant,Option_1,Intermediate
+What is Litecoin?,Bitcoin fork with faster block time,Bitcoin alternative,Bitcoin upgrade,Bitcoin layer 2,Option_1,Beginner
+What is Dogecoin?,Cryptocurrency started as meme coin,Serious coin,Stablecoin,Enterprise coin,Option_1,Beginner
+What is Web3?,Decentralized internet using blockchain,Internet upgrade,Web standard,Network protocol,Option_1,Intermediate
+What is dApp (Decentralized Application)?,Application running on blockchain,Traditional app,Web application,Mobile app,Option_1,Intermediate
+What is wallet in Web3?,Software managing keys and tokens,Physical storage,Bank account,Crypto exchange,Option_1,Beginner
+What is MetaMask?,Browser extension wallet for Ethereum,Hardware wallet,Cold storage,Bank wallet,Option_1,Intermediate
+What is seed phrase?,12-24 word phrase recovering wallet,Password,Private key,Public key,Option_1,Intermediate
+What is mnemonic?,Word-based key derivation method,Cryptographic hash,Encryption method,Encoding scheme,Option_1,Advanced
+What is NFT (Non-Fungible Token)?,Unique digital asset on blockchain,Cryptocurrency,Token,Digital file,Option_1,Beginner
+What is NFT minting?,Creating NFT on blockchain,Buying NFT,Selling NFT,Trading NFT,Option_1,Intermediate
+What is NFT marketplace?,Platform for trading NFTs,Art gallery,Auction house,Store,Option_1,Beginner
+What is OpenSea?,Largest NFT marketplace,NFT creator,NFT minter,Art platform,Option_1,Beginner
+What is Rarible?,NFT marketplace and creator platform,NFT auction,Digital gallery,Collectibles store,Option_1,Intermediate
+What is metadata in NFT?,Data describing NFT properties and attributes,NFT file,Blockchain data,Smart contract,Option_1,Intermediate
+What is royalty in NFT?,Creator receiving percentage from secondary sales,Initial price,Listing fee,Transaction cost,Option_1,Intermediate
+What is Truffle Suite?,Development environment for Ethereum,Programming language,Blockchain platform,Testing tool,Option_1,Advanced
+What is Hardhat?,Ethereum development environment,Compilation tool,Testing framework,Deployment tool,Option_1,Advanced
+What is Remix IDE?,Browser-based IDE for Solidity development,Code editor,Compilation tool,Testing framework,Option_1,Advanced
+What is Web3.js?,JavaScript library interacting with Ethereum,Web framework,Frontend library,Backend library,Option_1,Advanced
+What is Ethers.js?,Lightweight Ethereum JavaScript library,Web3 alternative,Testing library,Backend tool,Option_1,Advanced
+What is contract deployment?,Publishing smart contract to blockchain,Contract testing,Contract writing,Contract interaction,Option_1,Intermediate
+What is ABI (Application Binary Interface)?,JSON describing contract functions and data,Source code,Binary file,Compiled code,Option_1,Advanced
+What is contract interaction?,Calling functions and reading state from contract,Contract deployment,Contract writing,Contract testing,Option_1,Intermediate
+What is tokenomics?,Study of token supply and incentives,Economic system,Finance model,Business plan,Option_1,Intermediate
+What is inflation in blockchain?,New tokens issued as rewards,Economic inflation,Price increase,Value decrease,Option_1,Intermediate
+What is deflation in blockchain?,Burning tokens reducing supply,Economic deflation,Price decrease,Value increase,Option_1,Intermediate
+What is token distribution?,Allocation of tokens to stakeholders,Token sale,Token airdrop,Token swap,Option_1,Intermediate
+What is airdrop?,Free distribution of tokens to users,Paid distribution,Token sale,ICO,Option_1,Beginner
+What is ICO (Initial Coin Offering)?,Crowdfunding new cryptocurrency tokens,Stock IPO,Equity fundraising,Debt financing,Option_1,Intermediate
+What is IDO (Initial DEX Offering)?,Token launch on decentralized exchange,Centralized exchange,Direct sale,Auction,Option_1,Advanced
+What is blockchain governance?,Decision-making process for protocol changes,Technical management,Network operation,Consensus rules,Option_1,Advanced
+What is DAO (Decentralized Autonomous Organization)?,Organization governed by smart contracts,Traditional company,Centralized entity,Legal entity,Option_1,Intermediate
+What is proposal in governance?,Suggestion for protocol changes voted by community,Technical change,Update release,Bug fix,Option_1,Advanced
+What is voting in governance?,Token holders voting on proposals,CEO decision,Board decision,Developer choice,Option_1,Advanced
+What is GDPR compliance in blockchain?,Meeting data privacy regulations,Blockchain feature,Smart contract,Network rule,Option_1,Advanced
+What is KYC (Know Your Customer)?,Verification process identifying users,Blockchain feature,Network requirement,Protocol rule,Option_1,Intermediate
+What is AML (Anti-Money Laundering)?,Compliance preventing illegal fund transfer,Network feature,Protocol rule,Technical standard,Option_1,Advanced
+What is crypto regulation?,Government rules governing blockchain/crypto,Network governance,Protocol changes,Community rules,Option_1,Intermediate
+What is Bitcoin Lightning Network?,Layer 2 payment channel for Bitcoin,Main blockchain,Side chain,Test network,Option_1,Advanced
+What is atomic swap?,Cross-chain token exchange without intermediary,Token swap,Liquidity swap,Asset exchange,Option_1,Advanced
+What is cross-chain bridge?,Protocol connecting different blockchains,Side chain,Layer 2,Test network,Option_1,Advanced
+What is oracle?,Service providing external data to smart contracts,Smart contract,Blockchain node,Network peer,Option_1,Intermediate
+What is Chainlink?,Decentralized oracle network,Smart contract platform,Blockchain network,Payment system,Option_1,Intermediate
+What is proof of burn?,Consensus destroying coins to validate blocks,Proof of work,Proof of stake,Proof of history,Option_1,Advanced
+What is proof of history (PoH)?,Consensus using historical record of events,Proof of work,Proof of stake,Timestamp proof,Option_1,Advanced
+What is proof of capacity?,Consensus using hard drive storage,Proof of work,Proof of stake,Network capacity,Option_1,Advanced
+What is finality in blockchain?,Guarantee transaction is irreversible,Transaction confirmation,Block creation,Consensus agreement,Option_1,Advanced
+What is supply chain blockchain?,Tracking products from production to consumer,Inventory management,Logistics,Delivery,Option_1,Intermediate
+What is healthcare blockchain?,Using blockchain for medical records,Hospital system,Medical database,Health tracking,Option_1,Intermediate
+What is identity blockchain?,Self-sovereign identity on blockchain,Personal identity,Identification system,Authentication,Option_1,Intermediate
+What is voting blockchain?,Secure voting using blockchain,Electronic voting,Paper voting,Poll system,Option_1,Intermediate
+What is blockchain?,Distributed ledger technology recording transactions,Database technology,Encryption method,Network protocol,Option_1,Beginner
+What are the main characteristics of blockchain?,"Decentralized, transparent, immutable, secure",Centralized,Opaque,Mutable,Option_1,Beginner
+What is a block in blockchain?,Unit containing transactions and cryptographic hash,Single transaction,Network node,Smart contract,Option_1,Beginner
+What is a chain in blockchain?,Connected blocks linked by cryptographic hashes,Linked list,Database table,Transaction log,Option_1,Beginner
+What is decentralization in blockchain?,No single authority controlling the network,Single server,Centralized database,Admin control,Option_1,Beginner
+What is immutability in blockchain?,"Once recorded, data cannot be changed",Data can be modified,Temporary records,Editable ledger,Option_1,Beginner
+What is transparency in blockchain?,All transactions visible to network participants,Hidden transactions,Private ledger,Secret records,Option_1,Beginner
+What is a cryptocurrency?,Digital currency secured by cryptography,Physical money,Bank notes,Commodity,Option_1,Beginner
+What is Bitcoin?,First decentralized cryptocurrency using blockchain,Digital coin,Electronic money,Virtual currency,Option_1,Beginner
+What is Ethereum?,Blockchain platform enabling smart contracts,Cryptocurrency only,Bitcoin alternative,Payment system,Option_1,Beginner
+What is cryptography?,Technique securing communication through codes,Encoding method,Encryption algorithm,Security protocol,Option_1,Beginner
+What is hash function?,Converting input to fixed-length hash output,Encryption function,Random number,Sorting algorithm,Option_1,Intermediate
+What is SHA-256?,Secure Hash Algorithm producing 256-bit hash,Encryption algorithm,Random generator,Compression function,Option_1,Intermediate
+What is public key cryptography?,Using public and private key pairs,Single key system,Password-based,Shared secret,Option_1,Intermediate
+What is digital signature?,Proving identity and authenticity of message,Electronic signature,Image signature,Written signature,Option_1,Intermediate
+What is ECDSA?,Elliptic Curve Digital Signature Algorithm,RSA algorithm,AES encryption,DES encryption,Option_1,Intermediate
+What is Merkle tree?,Tree of hashes allowing efficient verification,Binary tree,Database structure,File system,Option_1,Intermediate
+What is Merkle root?,Top hash representing all transactions in block,Tree root,First hash,Main hash,Option_1,Intermediate
+What is Bitcoin mining?,Process validating transactions and creating blocks,Gold mining,Data extraction,Resource harvesting,Option_1,Intermediate
+What is proof of work?,Consensus mechanism requiring computational work,Work proof,Validation method,Authentication,Option_1,Intermediate
+What is a Bitcoin transaction?,Transfer of bitcoins from one address to another,Bitcoin creation,Mining process,Wallet operation,Option_1,Beginner
+What is a Bitcoin address?,Identifier receiving or sending bitcoins,Account number,User ID,Transaction ID,Option_1,Beginner
+What is a Bitcoin wallet?,Software storing private and public keys,Physical wallet,Digital account,Bank account,Option_1,Beginner
+What is private key?,Secret key for signing transactions,Public key,Shared secret,Access token,Option_1,Intermediate
+What is public key?,Key derived from private key for receiving funds,Private key,Shared key,Master key,Option_1,Intermediate
+What is a Bitcoin address format?,Base58Check encoded hash of public key,Random string,User input,System generated,Option_1,Intermediate
+What is double spending?,Spending same bitcoin twice - prevented by blockchain,Spending twice,Multiple transactions,Concurrent spending,Option_1,Intermediate
+What is Bitcoin supply limit?,21 million bitcoins maximum,Unlimited,Variable amount,Government controlled,Option_1,Beginner
+What is consensus mechanism?,Method validating transactions and creating blocks,Validation protocol,Security method,Network rule,Option_1,Intermediate
+What is proof of work (PoW)?,Miners solve puzzles to validate blocks,Stake requirement,Coin requirement,Network speed,Option_1,Intermediate
+What is proof of stake (PoS)?,Validators chosen based on stake ownership,Computational work,Mining process,Hash calculation,Option_1,Intermediate
+What is delegated proof of stake (DPoS)?,Token holders delegate to validators,Direct stake,Proof of work,Proof of authority,Option_1,Advanced
+What is proof of authority (PoA)?,Approved validators sign blocks,Computational work,Stake-based,Proof of work,Option_1,Advanced
+What is byzantine fault tolerance?,Consensus despite some nodes being faulty,Fault detection,Error correction,Network failure,Option_1,Advanced
+What is practical Byzantine fault tolerance (PBFT)?,Consensus algorithm for network with bad nodes,Simple consensus,Basic algorithm,Voting system,Option_1,Advanced
+What is block time?,Average time between block creation,Mining time,Transaction time,Processing time,Option_1,Intermediate
+What is mining reward?,Incentive for miners to validate blocks,Transaction fee,Mining cost,Block subsidy,Option_1,Beginner
+What is difficulty in mining?,Target hash difficulty requiring more computational work,Mining complexity,Puzzle difficulty,Hash rate,Option_1,Intermediate
+What is Ethereum?,Blockchain platform for smart contracts,Cryptocurrency,Payment system,Database,Option_1,Beginner
+What is a smart contract?,Self-executing code running on blockchain,Regular contract,Legal agreement,Written document,Option_1,Intermediate
+What is Solidity?,Programming language for Ethereum smart contracts,Scripting language,Backend language,Web language,Option_1,Intermediate
+What is EVM (Ethereum Virtual Machine)?,Executes smart contracts code,Virtual computer,Emulator,Simulator,Option_1,Intermediate
+What is gas in Ethereum?,Unit of computational cost for operations,Fuel cost,Transaction fee,Mining reward,Option_1,Intermediate
+What is gas limit?,Maximum gas allowed per transaction,Minimum gas,Total gas,Average gas,Option_1,Intermediate
+What is gas price?,Price per unit of gas in wei/gwei,Total gas cost,Transaction fee,Block reward,Option_1,Intermediate
+What is wei?,Smallest unit of ether,Ether unit,Gwei,Ethereum token,Option_1,Intermediate
+What is gwei?,"Billion wei, used for gas prices",Million wei,Thousand wei,Ether subunit,Option_1,Intermediate
+What is ether (ETH)?,Native cryptocurrency of Ethereum,Token,Smart contract,Ethereum address,Option_1,Beginner
+What is account in Ethereum?,Entity with ether balance and nonce,User account,Wallet account,Bank account,Option_1,Intermediate
+What is EOA (Externally Owned Account)?,Account controlled by private key,Smart contract account,Contract,Application,Option_1,Intermediate
+What is contract account?,Account containing smart contract code,EOA account,User account,External account,Option_1,Intermediate
+What is nonce in Ethereum?,Counter preventing replay attacks,Random number,Account ID,Transaction ID,Option_1,Advanced
+What is reentrancy attack?,Exploit calling function recursively draining funds,Security feature,Validation mechanism,Protection method,Option_1,Advanced
+What is ERC-20?,Standard for fungible tokens on Ethereum,Ethereum version,Blockchain standard,Protocol specification,Option_1,Intermediate
+What is ERC-721?,Standard for non-fungible tokens (NFTs),Fungible token,ERC-20 variant,Ethereum standard,Option_1,Intermediate
+What is ERC-1155?,Standard for multi-token contracts,Single token,ERC-721 variant,ERC-20 upgrade,Option_1,Advanced
+What is a token?,Digital representation of value on blockchain,Cryptocurrency,Coin,Asset,Option_1,Beginner
+What is fungible token?,Interchangeable tokens of equal value,Unique token,Special token,Rare token,Option_1,Intermediate
+What is non-fungible token (NFT)?,Unique tokens with distinct properties,Identical tokens,Interchangeable tokens,Duplicate tokens,Option_1,Beginner
+What is a stablecoin?,Cryptocurrency pegged to stable asset,Volatile coin,Speculative token,Risk token,Option_1,Intermediate
+What is USDC?,Stablecoin pegged to US dollar,Utility coin,Native token,Bitcoin variant,Option_1,Intermediate
+What is Tether (USDT)?,Stablecoin pegged to US dollar,ETH stablecoin,BTC variant,Altcoin,Option_1,Intermediate
+What is DeFi?,Financial services using blockchain without intermediaries,Centralized finance,Traditional banking,Regular finance,Option_1,Intermediate
+What is DEX (Decentralized Exchange)?,Peer-to-peer trading without central authority,Centralized exchange,Stock exchange,Bank,Option_1,Intermediate
+What is AMM (Automated Market Maker)?,Protocol using pools for token swaps,Manual market making,Order matching,Price discovery,Option_1,Advanced
+What is liquidity pool?,Collection of tokens locked for trading,Individual wallet,Token reserve,Vault storage,Option_1,Intermediate
+What is liquidity provider (LP)?,User supplying tokens to liquidity pool,Exchange operator,Market maker,Trader,Option_1,Intermediate
+What is slippage?,Price difference between quote and execution,Transaction fee,Gas cost,Spread,Option_1,Advanced
+What is impermanent loss?,Loss from price divergence in LP pools,Trading loss,Permanent loss,Fixed loss,Option_1,Advanced
+What is yield farming?,Earning returns by providing liquidity,Traditional farming,Agriculture,Staking,Option_1,Intermediate
+What is lending protocol?,Platform for borrowing/lending crypto assets,Peer-to-peer lending,Traditional loan,Bank lending,Option_1,Intermediate
+What is collateral?,Asset securing a loan,Loan amount,Interest payment,Insurance,Option_1,Beginner
+What is liquidation?,Forced sale of collateral when price drops,Asset sale,Portfolio closure,Trading exit,Option_1,Advanced
+What is governance token?,Token granting voting rights in protocol,Utility token,Payment token,Asset token,Option_1,Intermediate
+What is layer 2 (L2)?,Secondary blockchain improving scalability,Main blockchain,Side chain,Test network,Option_1,Intermediate
+What is rollup?,Layer 2 solution batching transactions,Blockchain fork,Network upgrade,Protocol change,Option_1,Advanced
+What is optimistic rollup?,L2 assuming transactions valid unless challenged,Pessimistic rollup,Zero-knowledge rollup,Simple rollup,Option_1,Advanced
+What is zero-knowledge rollup (ZK-rollup)?,L2 using cryptographic proofs for validity,Optimistic rollup,Plasma,Side chain,Option_1,Advanced
+What is Plasma?,Layer 2 scalability solution,Main chain,Side chain,Test network,Option_1,Advanced
+What is state channel?,Scaling solution enabling off-chain transactions,Payment channel,Main chain,Smart contract,Option_1,Advanced
+What is sidechain?,Separate blockchain connected to mainchain,Layer 2,Main network,Test network,Option_1,Intermediate
+What is sharding?,Dividing blockchain data across many nodes,Data compression,Network optimization,Block structure,Option_1,Advanced
+What is 51% attack?,Controlling majority hash power to manipulate chain,Network attack,Smart contract exploit,Data breach,Option_1,Intermediate
+What is eclipse attack?,Isolating node from rest of network,Network attack,Consensus attack,Individual node attack,Option_1,Advanced
+What is sybil attack?,Single attacker creating fake identities,Network attack,51% attack,Data attack,Option_1,Advanced
+What is front-running?,Ordering transactions to gain advantage,Transaction manipulation,Price prediction,Market timing,Option_1,Advanced
+What is MEV (Maximum Extractable Value)?,Profit from reordering transactions,Network reward,Mining reward,Block subsidy,Option_1,Advanced
+What is sandwich attack?,Placing transactions before/after victim's transaction,Network attack,Double spend,Revert attack,Option_1,Advanced
+What is signature verification?,Confirming transaction authenticity using keys,Transaction validation,Block verification,Network check,Option_1,Intermediate
+What is key management?,Securing and storing cryptographic keys,Password management,Access control,Authentication,Option_1,Intermediate
+What is multi-sig (multisignature)?,Transaction requiring multiple signatures,Single signature,One-time signature,Group signature,Option_1,Advanced
+What is hardware wallet?,Device storing private keys offline,Software wallet,Paper wallet,Brain wallet,Option_1,Intermediate
+What is Solana?,High-speed blockchain using proof of history,Ethereum alternative,Bitcoin fork,Ethereum layer 2,Option_1,Intermediate
+What is Cardano?,Blockchain platform with academic approach,Bitcoin alternative,Ethereum clone,Testnet,Option_1,Intermediate
+What is Polygon?,Layer 2 scaling solution for Ethereum,Ethereum competitor,Bitcoin layer 2,Independent blockchain,Option_1,Intermediate
+What is Polkadot?,Multi-chain platform with relay chain,Single blockchain,Layer 2 solution,Sidechain,Option_1,Intermediate
+What is Cosmos?,Interoperable blockchain network,Single blockchain,Token protocol,Smart contract,Option_1,Intermediate
+What is Bitcoin Cash?,Bitcoin fork with larger block size,Bitcoin upgrade,Bitcoin layer 2,Bitcoin variant,Option_1,Intermediate
+What is Litecoin?,Bitcoin fork with faster block time,Bitcoin alternative,Bitcoin upgrade,Bitcoin layer 2,Option_1,Beginner
+What is Dogecoin?,Cryptocurrency started as meme coin,Serious coin,Stablecoin,Enterprise coin,Option_1,Beginner
+What is Web3?,Decentralized internet using blockchain,Internet upgrade,Web standard,Network protocol,Option_1,Intermediate
+What is dApp (Decentralized Application)?,Application running on blockchain,Traditional app,Web application,Mobile app,Option_1,Intermediate
+What is wallet in Web3?,Software managing keys and tokens,Physical storage,Bank account,Crypto exchange,Option_1,Beginner
+What is MetaMask?,Browser extension wallet for Ethereum,Hardware wallet,Cold storage,Bank wallet,Option_1,Intermediate
+What is seed phrase?,12-24 word phrase recovering wallet,Password,Private key,Public key,Option_1,Intermediate
+What is mnemonic?,Word-based key derivation method,Cryptographic hash,Encryption method,Encoding scheme,Option_1,Advanced
+What is NFT (Non-Fungible Token)?,Unique digital asset on blockchain,Cryptocurrency,Token,Digital file,Option_1,Beginner
+What is NFT minting?,Creating NFT on blockchain,Buying NFT,Selling NFT,Trading NFT,Option_1,Intermediate
+What is NFT marketplace?,Platform for trading NFTs,Art gallery,Auction house,Store,Option_1,Beginner
+What is OpenSea?,Largest NFT marketplace,NFT creator,NFT minter,Art platform,Option_1,Beginner
+What is Rarible?,NFT marketplace and creator platform,NFT auction,Digital gallery,Collectibles store,Option_1,Intermediate
+What is metadata in NFT?,Data describing NFT properties and attributes,NFT file,Blockchain data,Smart contract,Option_1,Intermediate
+What is royalty in NFT?,Creator receiving percentage from secondary sales,Initial price,Listing fee,Transaction cost,Option_1,Intermediate
+What is Truffle Suite?,Development environment for Ethereum,Programming language,Blockchain platform,Testing tool,Option_1,Advanced
+What is Hardhat?,Ethereum development environment,Compilation tool,Testing framework,Deployment tool,Option_1,Advanced
+What is Remix IDE?,Browser-based IDE for Solidity development,Code editor,Compilation tool,Testing framework,Option_1,Advanced
+What is Web3.js?,JavaScript library interacting with Ethereum,Web framework,Frontend library,Backend library,Option_1,Advanced
+What is Ethers.js?,Lightweight Ethereum JavaScript library,Web3 alternative,Testing library,Backend tool,Option_1,Advanced
+What is contract deployment?,Publishing smart contract to blockchain,Contract testing,Contract writing,Contract interaction,Option_1,Intermediate
+What is ABI (Application Binary Interface)?,JSON describing contract functions and data,Source code,Binary file,Compiled code,Option_1,Advanced
+What is contract interaction?,Calling functions and reading state from contract,Contract deployment,Contract writing,Contract testing,Option_1,Intermediate
+What is tokenomics?,Study of token supply and incentives,Economic system,Finance model,Business plan,Option_1,Intermediate
+What is inflation in blockchain?,New tokens issued as rewards,Economic inflation,Price increase,Value decrease,Option_1,Intermediate
+What is deflation in blockchain?,Burning tokens reducing supply,Economic deflation,Price decrease,Value increase,Option_1,Intermediate
+What is token distribution?,Allocation of tokens to stakeholders,Token sale,Token airdrop,Token swap,Option_1,Intermediate
+What is airdrop?,Free distribution of tokens to users,Paid distribution,Token sale,ICO,Option_1,Beginner
+What is ICO (Initial Coin Offering)?,Crowdfunding new cryptocurrency tokens,Stock IPO,Equity fundraising,Debt financing,Option_1,Intermediate
+What is IDO (Initial DEX Offering)?,Token launch on decentralized exchange,Centralized exchange,Direct sale,Auction,Option_1,Advanced
+What is blockchain governance?,Decision-making process for protocol changes,Technical management,Network operation,Consensus rules,Option_1,Advanced
+What is DAO (Decentralized Autonomous Organization)?,Organization governed by smart contracts,Traditional company,Centralized entity,Legal entity,Option_1,Intermediate
+What is proposal in governance?,Suggestion for protocol changes voted by community,Technical change,Update release,Bug fix,Option_1,Advanced
+What is voting in governance?,Token holders voting on proposals,CEO decision,Board decision,Developer choice,Option_1,Advanced
+What is GDPR compliance in blockchain?,Meeting data privacy regulations,Blockchain feature,Smart contract,Network rule,Option_1,Advanced
+What is KYC (Know Your Customer)?,Verification process identifying users,Blockchain feature,Network requirement,Protocol rule,Option_1,Intermediate
+What is AML (Anti-Money Laundering)?,Compliance preventing illegal fund transfer,Network feature,Protocol rule,Technical standard,Option_1,Advanced
+What is crypto regulation?,Government rules governing blockchain/crypto,Network governance,Protocol changes,Community rules,Option_1,Intermediate
+What is Bitcoin Lightning Network?,Layer 2 payment channel for Bitcoin,Main blockchain,Side chain,Test network,Option_1,Advanced
+What is atomic swap?,Cross-chain token exchange without intermediary,Token swap,Liquidity swap,Asset exchange,Option_1,Advanced
+What is cross-chain bridge?,Protocol connecting different blockchains,Side chain,Layer 2,Test network,Option_1,Advanced
+What is oracle?,Service providing external data to smart contracts,Smart contract,Blockchain node,Network peer,Option_1,Intermediate
+What is Chainlink?,Decentralized oracle network,Smart contract platform,Blockchain network,Payment system,Option_1,Intermediate
+What is proof of burn?,Consensus destroying coins to validate blocks,Proof of work,Proof of stake,Proof of history,Option_1,Advanced
+What is proof of history (PoH)?,Consensus using historical record of events,Proof of work,Proof of stake,Timestamp proof,Option_1,Advanced
+What is proof of capacity?,Consensus using hard drive storage,Proof of work,Proof of stake,Network capacity,Option_1,Advanced
+What is finality in blockchain?,Guarantee transaction is irreversible,Transaction confirmation,Block creation,Consensus agreement,Option_1,Advanced
+What is supply chain blockchain?,Tracking products from production to consumer,Inventory management,Logistics,Delivery,Option_1,Intermediate
+What is healthcare blockchain?,Using blockchain for medical records,Hospital system,Medical database,Health tracking,Option_1,Intermediate
+What is identity blockchain?,Self-sovereign identity on blockchain,Personal identity,Identification system,Authentication,Option_1,Intermediate
+What is voting blockchain?,Secure voting using blockchain,Electronic voting,Paper voting,Poll system,Option_1,Intermediate
+What is blockchain?,Distributed ledger technology recording transactions,Database technology,Encryption method,Network protocol,Option_1,Beginner
+What are the main characteristics of blockchain?,"Decentralized, transparent, immutable, secure",Centralized,Opaque,Mutable,Option_1,Beginner
+What is a block in blockchain?,Unit containing transactions and cryptographic hash,Single transaction,Network node,Smart contract,Option_1,Beginner
+What is a chain in blockchain?,Connected blocks linked by cryptographic hashes,Linked list,Database table,Transaction log,Option_1,Beginner
+What is decentralization in blockchain?,No single authority controlling the network,Single server,Centralized database,Admin control,Option_1,Beginner
+What is immutability in blockchain?,"Once recorded, data cannot be changed",Data can be modified,Temporary records,Editable ledger,Option_1,Beginner
+What is transparency in blockchain?,All transactions visible to network participants,Hidden transactions,Private ledger,Secret records,Option_1,Beginner
+What is a cryptocurrency?,Digital currency secured by cryptography,Physical money,Bank notes,Commodity,Option_1,Beginner
+What is Bitcoin?,First decentralized cryptocurrency using blockchain,Digital coin,Electronic money,Virtual currency,Option_1,Beginner
+What is Ethereum?,Blockchain platform enabling smart contracts,Cryptocurrency only,Bitcoin alternative,Payment system,Option_1,Beginner
+What is cryptography?,Technique securing communication through codes,Encoding method,Encryption algorithm,Security protocol,Option_1,Beginner
+What is hash function?,Converting input to fixed-length hash output,Encryption function,Random number,Sorting algorithm,Option_1,Intermediate
+What is SHA-256?,Secure Hash Algorithm producing 256-bit hash,Encryption algorithm,Random generator,Compression function,Option_1,Intermediate
+What is public key cryptography?,Using public and private key pairs,Single key system,Password-based,Shared secret,Option_1,Intermediate
+What is digital signature?,Proving identity and authenticity of message,Electronic signature,Image signature,Written signature,Option_1,Intermediate
+What is ECDSA?,Elliptic Curve Digital Signature Algorithm,RSA algorithm,AES encryption,DES encryption,Option_1,Intermediate
+What is Merkle tree?,Tree of hashes allowing efficient verification,Binary tree,Database structure,File system,Option_1,Intermediate
+What is Merkle root?,Top hash representing all transactions in block,Tree root,First hash,Main hash,Option_1,Intermediate
+What is Bitcoin mining?,Process validating transactions and creating blocks,Gold mining,Data extraction,Resource harvesting,Option_1,Intermediate
+What is proof of work?,Consensus mechanism requiring computational work,Work proof,Validation method,Authentication,Option_1,Intermediate
+What is a Bitcoin transaction?,Transfer of bitcoins from one address to another,Bitcoin creation,Mining process,Wallet operation,Option_1,Beginner
+What is a Bitcoin address?,Identifier receiving or sending bitcoins,Account number,User ID,Transaction ID,Option_1,Beginner
+What is a Bitcoin wallet?,Software storing private and public keys,Physical wallet,Digital account,Bank account,Option_1,Beginner
+What is private key?,Secret key for signing transactions,Public key,Shared secret,Access token,Option_1,Intermediate
+What is public key?,Key derived from private key for receiving funds,Private key,Shared key,Master key,Option_1,Intermediate
+What is a Bitcoin address format?,Base58Check encoded hash of public key,Random string,User input,System generated,Option_1,Intermediate
+What is double spending?,Spending same bitcoin twice - prevented by blockchain,Spending twice,Multiple transactions,Concurrent spending,Option_1,Intermediate
+What is Bitcoin supply limit?,21 million bitcoins maximum,Unlimited,Variable amount,Government controlled,Option_1,Beginner
+What is consensus mechanism?,Method validating transactions and creating blocks,Validation protocol,Security method,Network rule,Option_1,Intermediate
+What is proof of work (PoW)?,Miners solve puzzles to validate blocks,Stake requirement,Coin requirement,Network speed,Option_1,Intermediate
+What is proof of stake (PoS)?,Validators chosen based on stake ownership,Computational work,Mining process,Hash calculation,Option_1,Intermediate
+What is delegated proof of stake (DPoS)?,Token holders delegate to validators,Direct stake,Proof of work,Proof of authority,Option_1,Advanced
+What is proof of authority (PoA)?,Approved validators sign blocks,Computational work,Stake-based,Proof of work,Option_1,Advanced
+What is byzantine fault tolerance?,Consensus despite some nodes being faulty,Fault detection,Error correction,Network failure,Option_1,Advanced
+What is practical Byzantine fault tolerance (PBFT)?,Consensus algorithm for network with bad nodes,Simple consensus,Basic algorithm,Voting system,Option_1,Advanced
+What is block time?,Average time between block creation,Mining time,Transaction time,Processing time,Option_1,Intermediate
+What is mining reward?,Incentive for miners to validate blocks,Transaction fee,Mining cost,Block subsidy,Option_1,Beginner
+What is difficulty in mining?,Target hash difficulty requiring more computational work,Mining complexity,Puzzle difficulty,Hash rate,Option_1,Intermediate
+What is Ethereum?,Blockchain platform for smart contracts,Cryptocurrency,Payment system,Database,Option_1,Beginner
+What is a smart contract?,Self-executing code running on blockchain,Regular contract,Legal agreement,Written document,Option_1,Intermediate
+What is Solidity?,Programming language for Ethereum smart contracts,Scripting language,Backend language,Web language,Option_1,Intermediate
+What is EVM (Ethereum Virtual Machine)?,Executes smart contracts code,Virtual computer,Emulator,Simulator,Option_1,Intermediate
+What is gas in Ethereum?,Unit of computational cost for operations,Fuel cost,Transaction fee,Mining reward,Option_1,Intermediate
+What is gas limit?,Maximum gas allowed per transaction,Minimum gas,Total gas,Average gas,Option_1,Intermediate
+What is gas price?,Price per unit of gas in wei/gwei,Total gas cost,Transaction fee,Block reward,Option_1,Intermediate
+What is wei?,Smallest unit of ether,Ether unit,Gwei,Ethereum token,Option_1,Intermediate
+What is gwei?,"Billion wei, used for gas prices",Million wei,Thousand wei,Ether subunit,Option_1,Intermediate
+What is ether (ETH)?,Native cryptocurrency of Ethereum,Token,Smart contract,Ethereum address,Option_1,Beginner
+What is account in Ethereum?,Entity with ether balance and nonce,User account,Wallet account,Bank account,Option_1,Intermediate
+What is EOA (Externally Owned Account)?,Account controlled by private key,Smart contract account,Contract,Application,Option_1,Intermediate
+What is contract account?,Account containing smart contract code,EOA account,User account,External account,Option_1,Intermediate
+What is nonce in Ethereum?,Counter preventing replay attacks,Random number,Account ID,Transaction ID,Option_1,Advanced
+What is reentrancy attack?,Exploit calling function recursively draining funds,Security feature,Validation mechanism,Protection method,Option_1,Advanced
+What is ERC-20?,Standard for fungible tokens on Ethereum,Ethereum version,Blockchain standard,Protocol specification,Option_1,Intermediate
+What is ERC-721?,Standard for non-fungible tokens (NFTs),Fungible token,ERC-20 variant,Ethereum standard,Option_1,Intermediate
+What is ERC-1155?,Standard for multi-token contracts,Single token,ERC-721 variant,ERC-20 upgrade,Option_1,Advanced
+What is a token?,Digital representation of value on blockchain,Cryptocurrency,Coin,Asset,Option_1,Beginner
+What is fungible token?,Interchangeable tokens of equal value,Unique token,Special token,Rare token,Option_1,Intermediate
+What is non-fungible token (NFT)?,Unique tokens with distinct properties,Identical tokens,Interchangeable tokens,Duplicate tokens,Option_1,Beginner
+What is a stablecoin?,Cryptocurrency pegged to stable asset,Volatile coin,Speculative token,Risk token,Option_1,Intermediate
+What is USDC?,Stablecoin pegged to US dollar,Utility coin,Native token,Bitcoin variant,Option_1,Intermediate
+What is Tether (USDT)?,Stablecoin pegged to US dollar,ETH stablecoin,BTC variant,Altcoin,Option_1,Intermediate
+What is DeFi?,Financial services using blockchain without intermediaries,Centralized finance,Traditional banking,Regular finance,Option_1,Intermediate
+What is DEX (Decentralized Exchange)?,Peer-to-peer trading without central authority,Centralized exchange,Stock exchange,Bank,Option_1,Intermediate
+What is AMM (Automated Market Maker)?,Protocol using pools for token swaps,Manual market making,Order matching,Price discovery,Option_1,Advanced
+What is liquidity pool?,Collection of tokens locked for trading,Individual wallet,Token reserve,Vault storage,Option_1,Intermediate
+What is liquidity provider (LP)?,User supplying tokens to liquidity pool,Exchange operator,Market maker,Trader,Option_1,Intermediate
+What is slippage?,Price difference between quote and execution,Transaction fee,Gas cost,Spread,Option_1,Advanced
+What is impermanent loss?,Loss from price divergence in LP pools,Trading loss,Permanent loss,Fixed loss,Option_1,Advanced
+What is yield farming?,Earning returns by providing liquidity,Traditional farming,Agriculture,Staking,Option_1,Intermediate
+What is lending protocol?,Platform for borrowing/lending crypto assets,Peer-to-peer lending,Traditional loan,Bank lending,Option_1,Intermediate
+What is collateral?,Asset securing a loan,Loan amount,Interest payment,Insurance,Option_1,Beginner
+What is liquidation?,Forced sale of collateral when price drops,Asset sale,Portfolio closure,Trading exit,Option_1,Advanced
+What is governance token?,Token granting voting rights in protocol,Utility token,Payment token,Asset token,Option_1,Intermediate
+What is layer 2 (L2)?,Secondary blockchain improving scalability,Main blockchain,Side chain,Test network,Option_1,Intermediate
+What is rollup?,Layer 2 solution batching transactions,Blockchain fork,Network upgrade,Protocol change,Option_1,Advanced
+What is optimistic rollup?,L2 assuming transactions valid unless challenged,Pessimistic rollup,Zero-knowledge rollup,Simple rollup,Option_1,Advanced
+What is zero-knowledge rollup (ZK-rollup)?,L2 using cryptographic proofs for validity,Optimistic rollup,Plasma,Side chain,Option_1,Advanced
+What is Plasma?,Layer 2 scalability solution,Main chain,Side chain,Test network,Option_1,Advanced
+What is state channel?,Scaling solution enabling off-chain transactions,Payment channel,Main chain,Smart contract,Option_1,Advanced
+What is sidechain?,Separate blockchain connected to mainchain,Layer 2,Main network,Test network,Option_1,Intermediate
+What is sharding?,Dividing blockchain data across many nodes,Data compression,Network optimization,Block structure,Option_1,Advanced
+What is 51% attack?,Controlling majority hash power to manipulate chain,Network attack,Smart contract exploit,Data breach,Option_1,Intermediate
+What is eclipse attack?,Isolating node from rest of network,Network attack,Consensus attack,Individual node attack,Option_1,Advanced
+What is sybil attack?,Single attacker creating fake identities,Network attack,51% attack,Data attack,Option_1,Advanced
+What is front-running?,Ordering transactions to gain advantage,Transaction manipulation,Price prediction,Market timing,Option_1,Advanced
+What is MEV (Maximum Extractable Value)?,Profit from reordering transactions,Network reward,Mining reward,Block subsidy,Option_1,Advanced
+What is sandwich attack?,Placing transactions before/after victim's transaction,Network attack,Double spend,Revert attack,Option_1,Advanced
+What is signature verification?,Confirming transaction authenticity using keys,Transaction validation,Block verification,Network check,Option_1,Intermediate
+What is key management?,Securing and storing cryptographic keys,Password management,Access control,Authentication,Option_1,Intermediate
+What is multi-sig (multisignature)?,Transaction requiring multiple signatures,Single signature,One-time signature,Group signature,Option_1,Advanced
+What is hardware wallet?,Device storing private keys offline,Software wallet,Paper wallet,Brain wallet,Option_1,Intermediate
+What is Solana?,High-speed blockchain using proof of history,Ethereum alternative,Bitcoin fork,Ethereum layer 2,Option_1,Intermediate
+What is Cardano?,Blockchain platform with academic approach,Bitcoin alternative,Ethereum clone,Testnet,Option_1,Intermediate
+What is Polygon?,Layer 2 scaling solution for Ethereum,Ethereum competitor,Bitcoin layer 2,Independent blockchain,Option_1,Intermediate
+What is Polkadot?,Multi-chain platform with relay chain,Single blockchain,Layer 2 solution,Sidechain,Option_1,Intermediate
+What is Cosmos?,Interoperable blockchain network,Single blockchain,Token protocol,Smart contract,Option_1,Intermediate
+What is Bitcoin Cash?,Bitcoin fork with larger block size,Bitcoin upgrade,Bitcoin layer 2,Bitcoin variant,Option_1,Intermediate
+What is Litecoin?,Bitcoin fork with faster block time,Bitcoin alternative,Bitcoin upgrade,Bitcoin layer 2,Option_1,Beginner
+What is Dogecoin?,Cryptocurrency started as meme coin,Serious coin,Stablecoin,Enterprise coin,Option_1,Beginner
+What is Web3?,Decentralized internet using blockchain,Internet upgrade,Web standard,Network protocol,Option_1,Intermediate
+What is dApp (Decentralized Application)?,Application running on blockchain,Traditional app,Web application,Mobile app,Option_1,Intermediate
+What is wallet in Web3?,Software managing keys and tokens,Physical storage,Bank account,Crypto exchange,Option_1,Beginner
+What is MetaMask?,Browser extension wallet for Ethereum,Hardware wallet,Cold storage,Bank wallet,Option_1,Intermediate
+What is seed phrase?,12-24 word phrase recovering wallet,Password,Private key,Public key,Option_1,Intermediate
+What is mnemonic?,Word-based key derivation method,Cryptographic hash,Encryption method,Encoding scheme,Option_1,Advanced

@@ -1,0 +1,1001 @@
+Question,Option_1,Option_2,Option_3,Option_4,Correct_Answer,Level
+What is IoT (Internet of Things)?,Network of physical devices connected to internet,Computer network,Internet connection,Data storage,Option_1,Beginner
+What are the main components of IoT?,"Sensors, connectivity, data processing, user interface",Only sensors,Only connectivity,Only processing,Option_1,Beginner
+What is a sensor in IoT?,Device detecting physical properties and converting to signals,Actuator,Controller,Gateway,Option_1,Beginner
+What is an actuator in IoT?,Device that performs physical action based on commands,Sensor,Processor,Network device,Option_1,Beginner
+What is a microcontroller?,Small computer on single chip controlling IoT device,Laptop,Server,Phone,Option_1,Beginner
+What is Arduino?,Open-source microcontroller platform for IoT projects,Microchip brand,Programming language,Operating system,Option_1,Beginner
+What is Raspberry Pi?,Single-board computer for IoT and embedded systems,Microcontroller,Sensor device,Network device,Option_1,Beginner
+What is IoT gateway?,Device connecting IoT network to internet,Firewall,Router,Switch,Option_1,Intermediate
+What are IoT applications?,"Smart homes, healthcare, agriculture, industrial automation",Only smart homes,Only healthcare,Only industrial,Option_1,Beginner
+What is edge computing in IoT?,Processing data locally on edge devices,Cloud processing,Server processing,Remote processing,Option_1,Intermediate
+What is WiFi in IoT?,Wireless technology for local network connectivity,Cellular technology,Satellite technology,Bluetooth,Option_1,Beginner
+What is Bluetooth in IoT?,Short-range wireless technology for device communication,Long-range wireless,WiFi technology,Cellular,Option_1,Beginner
+What is BLE (Bluetooth Low Energy)?,Low-power Bluetooth for IoT devices,Regular Bluetooth,WiFi variant,Cellular technology,Option_1,Intermediate
+What is Zigbee?,Low-power wireless technology for mesh networks,WiFi,Cellular,Bluetooth,Option_1,Intermediate
+What is LoRaWAN?,Long-range wide-area network for IoT,Short-range network,WiFi network,Cellular network,Option_1,Intermediate
+What is NB-IoT?,Narrowband cellular technology for IoT,Broadband,WiFi,Bluetooth,Option_1,Intermediate
+What is LTE-M (Cat-M)?,Cellular technology optimized for IoT,WiFi variant,Bluetooth variant,Satellite technology,Option_1,Intermediate
+What is 5G in IoT?,Fifth generation wireless with low latency,Fourth generation,Previous standard,WiFi technology,Option_1,Intermediate
+What is MQTT?,Lightweight messaging protocol for IoT,HTTP protocol,FTP protocol,Bluetooth protocol,Option_1,Intermediate
+What is CoAP?,Constrained Application Protocol for IoT,HTTP protocol,MQTT protocol,REST protocol,Option_1,Advanced
+What is ATmega328P?,Microcontroller used in Arduino Uno,Raspberry Pi processor,STM32 variant,ARM processor,Option_1,Intermediate
+What is STM32?,ARM-based microcontroller for IoT,AVR microcontroller,Arduino chip,Raspberry Pi,Option_1,Intermediate
+What is ARM Cortex?,Processor architecture for embedded systems,AVR architecture,MIPS architecture,x86 architecture,Option_1,Intermediate
+What is PWM (Pulse Width Modulation)?,Technique controlling device power and behavior,Digital signal,Analog signal,Data encoding,Option_1,Intermediate
+What is ADC (Analog to Digital Converter)?,Converting analog signals to digital values,Digital to analog,Signal amplifier,Signal filter,Option_1,Intermediate
+What is DAC (Digital to Analog Converter)?,Converting digital signals to analog values,Analog to digital,Signal processing,Signal filtering,Option_1,Advanced
+What is interrupt in microcontroller?,Signal causing processor to halt and handle event,Synchronous call,Function call,Loop control,Option_1,Intermediate
+What is timer in microcontroller?,Hardware counting events or delays,Software counter,Loop variable,Function call,Option_1,Intermediate
+What is serial communication?,Transmitting data one bit at a time,Parallel communication,Multi-bit transmission,Wireless communication,Option_1,Intermediate
+What is UART (Universal Asynchronous Receiver Transmitter)?,Serial communication protocol,Parallel protocol,Network protocol,Wireless protocol,Option_1,Intermediate
+What is Arduino IDE?,Integrated development environment for Arduino,Text editor,Compiler only,Debugger only,Option_1,Beginner
+What is sketch in Arduino?,Code program running on Arduino,Circuit diagram,Hardware design,Configuration file,Option_1,Beginner
+What is setup() function in Arduino?,Runs once when board powers on,Runs repeatedly,Library function,Helper function,Option_1,Beginner
+What is loop() function in Arduino?,Runs repeatedly after setup,Runs once,Setup function,Configuration,Option_1,Beginner
+What is pinMode() in Arduino?,Configures pin as input or output,Reads analog value,Writes digital value,Sets frequency,Option_1,Intermediate
+What is digitalWrite() in Arduino?,Sets digital pin to HIGH or LOW,Reads digital input,Sets analog value,Reads analog input,Option_1,Intermediate
+What is analogRead() in Arduino?,Reads analog value from pin (0-1023),Writes analog value,Reads digital value,Sets PWM,Option_1,Intermediate
+What is analogWrite() in Arduino?,Outputs PWM signal on pin,Reads analog,Reads digital,Sets frequency,Option_1,Intermediate
+What is C++ in embedded systems?,Language for IoT and embedded development,Python,JavaScript,Java,Option_1,Intermediate
+What is MicroPython?,Python implementation for microcontrollers,Full Python,Circuit Python,Language variant,Option_1,Intermediate
+What is temperature sensor?,Measures temperature and outputs signal,Humidity sensor,Pressure sensor,Light sensor,Option_1,Beginner
+What is DHT11 sensor?,Temperature and humidity sensor,Pressure sensor,Gas sensor,Motion sensor,Option_1,Intermediate
+What is BME280 sensor?,"Measures temperature, humidity, pressure",DHT sensor,Motion sensor,Gas sensor,Option_1,Intermediate
+What is accelerometer?,Measures acceleration and motion,Gyroscope,Magnetometer,Barometer,Option_1,Intermediate
+What is gyroscope?,Measures rotation rate and angular velocity,Accelerometer,Magnetometer,Thermometer,Option_1,Intermediate
+What is magnetometer?,Measures magnetic field strength,Accelerometer,Gyroscope,Thermometer,Option_1,Intermediate
+What is IMU (Inertial Measurement Unit)?,"Combines accelerometer, gyroscope, magnetometer",Single sensor,Temperature sensor,Pressure sensor,Option_1,Advanced
+What is pressure sensor?,Measures atmospheric or fluid pressure,Temperature sensor,Humidity sensor,Gas sensor,Option_1,Intermediate
+What is motion sensor (PIR)?,Detects infrared radiation from movement,Pressure sensor,Temperature sensor,Light sensor,Option_1,Intermediate
+What is ultrasonic sensor?,Measures distance using sound waves,Motion sensor,Temperature sensor,Light sensor,Option_1,Intermediate
+What is gas sensor?,Detects presence of specific gases,Smoke detector,Motion sensor,Temperature sensor,Option_1,Intermediate
+What is soil moisture sensor?,Measures water content in soil,Temperature sensor,Humidity sensor,Pressure sensor,Option_1,Intermediate
+What is I2C (Inter-Integrated Circuit)?,Two-wire serial communication protocol,SPI protocol,UART protocol,Wireless protocol,Option_1,Intermediate
+What is SPI (Serial Peripheral Interface)?,Synchronous serial communication protocol,Asynchronous protocol,I2C protocol,UART protocol,Option_1,Intermediate
+What is RS-485?,Industrial serial communication protocol,RS-232,USB protocol,Ethernet,Option_1,Advanced
+What is CAN bus?,Controller Area Network for vehicle communication,Ethernet,WiFi,Bluetooth,Option_1,Advanced
+What is HTTP in IoT?,Protocol for client-server communication,Serial protocol,Wireless protocol,Network protocol,Option_1,Beginner
+What is REST API in IoT?,API using HTTP for device communication,MQTT protocol,CoAP protocol,WebSocket,Option_1,Intermediate
+What is JSON in IoT?,Data format for exchanging information,XML format,CSV format,Binary format,Option_1,Beginner
+What is Protocol Buffer?,Compact serialization format for data,JSON format,XML format,Text format,Option_1,Advanced
+What is Azure IoT Hub?,Microsoft cloud platform for IoT,AWS IoT service,Google Cloud IoT,Raspberry Pi,Option_1,Intermediate
+What is AWS IoT Core?,Amazon cloud service for IoT devices,Azure IoT,Google IoT,IBM Watson,Option_1,Intermediate
+What is Google Cloud IoT?,Google cloud platform for IoT,AWS IoT,Azure IoT,IBM service,Option_1,Intermediate
+What is IBM Watson IoT?,IBM platform for IoT analytics,AWS service,Azure service,Google service,Option_1,Intermediate
+What is ThingSpeak?,IoT analytics platform for data collection,AWS service,Cloud platform,Edge device,Option_1,Intermediate
+What is Blynk?,IoT platform with mobile app integration,Cloud service,Device platform,Network protocol,Option_1,Intermediate
+What is Node-RED?,Visual IoT application development tool,Programming language,Operating system,Hardware platform,Option_1,Intermediate
+What is Home Assistant?,Open-source home automation platform,Commercial platform,Cloud service,Hardware device,Option_1,Intermediate
+What is time-series database?,Database optimized for timestamped data,Relational database,NoSQL database,Graph database,Option_1,Intermediate
+What is InfluxDB?,Time-series database for IoT data,Relational database,Document database,Graph database,Option_1,Intermediate
+What is Prometheus?,Monitoring system collecting time-series metrics,Database,Cloud service,Programming language,Option_1,Advanced
+What is data compression in IoT?,Reducing data size for transmission,Data encryption,Data encoding,Data formatting,Option_1,Intermediate
+What is data aggregation?,Combining data from multiple sources,Data collection,Data transmission,Data storage,Option_1,Intermediate
+What is IoT security?,Protecting devices and data from attacks,Data privacy,Network security,Device management,Option_1,Intermediate
+What is authentication in IoT?,Verifying device or user identity,Authorization,Encryption,Data protection,Option_1,Intermediate
+What is device certificate?,Digital certificate identifying IoT device,User certificate,CA certificate,Self-signed certificate,Option_1,Advanced
+What is SSL/TLS in IoT?,Encryption protocol for secure communication,Wireless protocol,Serial protocol,Network protocol,Option_1,Intermediate
+What is end-to-end encryption?,Encrypting data from source to destination,Point-to-point encryption,Network encryption,Device encryption,Option_1,Advanced
+What is firmware update?,Updating device software after deployment,Software installation,Application update,Configuration change,Option_1,Intermediate
+What is OTA (Over-The-Air) update?,Remotely updating device firmware wirelessly,Physical update,Manual update,Wired update,Option_1,Intermediate
+What is secure boot?,Verifying firmware integrity during startup,Fast boot,Boot optimization,Boot loader,Option_1,Advanced
+What is power consumption in IoT?,Energy used by device during operation,Performance metric,Processing power,Network speed,Option_1,Intermediate
+What is low-power design?,Minimizing energy consumption in IoT devices,Performance optimization,Speed optimization,Memory reduction,Option_1,Intermediate
+What is sleep mode?,Power-saving state reducing energy consumption,Idle state,Active state,Running state,Option_1,Intermediate
+What is battery optimization?,Techniques extending device battery life,Hardware design,Software design,Power management,Option_1,Intermediate
+What is energy harvesting?,Collecting energy from environment,Power generation,Battery charging,Solar power,Option_1,Advanced
+What is duty cycle?,Ratio of active time to total time,Operating time,Battery life,Processing time,Option_1,Advanced
+What is real-time processing?,Processing data with minimal delay,Batch processing,Scheduled processing,Offline processing,Option_1,Intermediate
+What is edge analytics?,Analyzing data locally on edge devices,Cloud analytics,Remote analysis,Server analytics,Option_1,Advanced
+What is stream processing?,Processing continuous data streams,Batch processing,File processing,Database processing,Option_1,Advanced
+What is latency in IoT?,Delay between input and output,Processing speed,Network speed,Data transfer rate,Option_1,Intermediate
+What is throughput in IoT?,Amount of data processed per unit time,Speed,Bandwidth,Frequency,Option_1,Intermediate
+What is smart home?,Home with automated and connected devices,Modern home,High-tech home,Connected devices,Option_1,Beginner
+What is smart city?,Urban area using IoT for services,Modern city,Technology city,Connected infrastructure,Option_1,Beginner
+What is smart agriculture?,Using IoT in farming and crop management,Modern farming,Precision farming,Automated farming,Option_1,Intermediate
+What is industrial IoT (IIoT)?,IoT applications in manufacturing and industry,Factory automation,Manufacturing,Production,Option_1,Intermediate
+What is predictive maintenance?,Using data to predict equipment failures,Preventive maintenance,Scheduled maintenance,Corrective maintenance,Option_1,Advanced
+What is healthcare IoT?,IoT devices and systems in healthcare,Medical devices,Patient monitoring,Health tracking,Option_1,Intermediate
+What is wearable device?,IoT device worn on body for monitoring,Smart device,Mobile device,Connected device,Option_1,Beginner
+What is connected vehicle?,Vehicle with IoT connectivity,Self-driving car,Autonomous vehicle,Electric vehicle,Option_1,Intermediate
+What is mesh network?,Network where each node relays data,Star topology,Tree topology,Linear topology,Option_1,Intermediate
+What is star topology?,Network with central hub/point,Mesh network,Tree network,Ring network,Option_1,Intermediate
+What is client-server architecture?,Devices requesting services from server,Peer-to-peer,Distributed,Decentralized,Option_1,Intermediate
+What is peer-to-peer (P2P) in IoT?,Devices communicating directly without server,Client-server,Star topology,Mesh network,Option_1,Intermediate
+What is fog computing?,Computing between cloud and edge devices,Cloud computing,Edge computing,Local computing,Option_1,Advanced
+What is cloud computing in IoT?,Using cloud services for IoT data,Local computing,Edge computing,Fog computing,Option_1,Intermediate
+What is unit testing in IoT?,Testing individual components,Integration testing,System testing,Acceptance testing,Option_1,Intermediate
+What is integration testing?,Testing interaction between components,Unit testing,System testing,Field testing,Option_1,Intermediate
+What is field testing?,Testing device in real-world environment,Lab testing,Simulation,Bench testing,Option_1,Intermediate
+What is serial monitor in Arduino?,Tool for debugging via serial communication,IDE feature,Programming tool,Development tool,Option_1,Intermediate
+What is debugging in IoT?,Identifying and fixing device issues,Testing,Monitoring,Analysis,Option_1,Beginner
+What is bandwidth in IoT?,Maximum data transmission rate,Network speed,Processing speed,Memory capacity,Option_1,Intermediate
+What is reliability in IoT?,Device performing consistently without failure,Performance,Accuracy,Availability,Option_1,Intermediate
+What is availability in IoT?,Percentage of time system is operational,Uptime,System status,Service availability,Option_1,Intermediate
+What is accuracy in IoT?,Correctness of sensor measurements,Precision,Resolution,Sensitivity,Option_1,Intermediate
+What is precision in sensors?,Consistency of repeated measurements,Accuracy,Resolution,Sensitivity,Option_1,Advanced
+What is 802.11 (WiFi)?,Wireless LAN standard,Cellular standard,Bluetooth standard,Wireless protocol,Option_1,Intermediate
+What is 802.15.4 (Zigbee)?,Wireless standard for low-power devices,WiFi standard,Cellular standard,Bluetooth,Option_1,Intermediate
+What is OpenStack?,Open-source cloud computing platform,IoT platform,Operating system,Hardware platform,Option_1,Advanced
+What is MQTT protocol?,Machine-to-Machine messaging protocol,HTTP protocol,FTP protocol,TCP protocol,Option_1,Intermediate
+What is publish-subscribe model?,Publishers send messages to subscribers,Request-response model,Client-server,Peer-to-peer,Option_1,Advanced
+What is machine learning in IoT?,Applying ML algorithms to IoT data,Data collection,Data storage,Data transmission,Option_1,Advanced
+What is anomaly detection in IoT?,Identifying unusual patterns in data,Data analysis,Data filtering,Data compression,Option_1,Advanced
+What is digital twin?,Virtual replica of physical device,Backup device,Test device,Shadow device,Option_1,Advanced
+What is virtualization in IoT?,Running multiple systems on single hardware,Container technology,Emulation,Abstraction,Option_1,Advanced
+What is container technology?,Lightweight virtualization for applications,Virtual machine,Hypervisor,Operating system,Option_1,Advanced
+What is Docker in IoT?,Container platform for IoT applications,Virtual machine,Operating system,Hardware platform,Option_1,Advanced
+What is Kubernetes in IoT?,Container orchestration platform,Container runtime,Container registry,Container networking,Option_1,Advanced
+What is IoT (Internet of Things)?,Network of physical devices connected to internet,Computer network,Internet connection,Data storage,Option_1,Beginner
+What are the main components of IoT?,"Sensors, connectivity, data processing, user interface",Only sensors,Only connectivity,Only processing,Option_1,Beginner
+What is a sensor in IoT?,Device detecting physical properties and converting to signals,Actuator,Controller,Gateway,Option_1,Beginner
+What is an actuator in IoT?,Device that performs physical action based on commands,Sensor,Processor,Network device,Option_1,Beginner
+What is a microcontroller?,Small computer on single chip controlling IoT device,Laptop,Server,Phone,Option_1,Beginner
+What is Arduino?,Open-source microcontroller platform for IoT projects,Microchip brand,Programming language,Operating system,Option_1,Beginner
+What is Raspberry Pi?,Single-board computer for IoT and embedded systems,Microcontroller,Sensor device,Network device,Option_1,Beginner
+What is IoT gateway?,Device connecting IoT network to internet,Firewall,Router,Switch,Option_1,Intermediate
+What are IoT applications?,"Smart homes, healthcare, agriculture, industrial automation",Only smart homes,Only healthcare,Only industrial,Option_1,Beginner
+What is edge computing in IoT?,Processing data locally on edge devices,Cloud processing,Server processing,Remote processing,Option_1,Intermediate
+What is WiFi in IoT?,Wireless technology for local network connectivity,Cellular technology,Satellite technology,Bluetooth,Option_1,Beginner
+What is Bluetooth in IoT?,Short-range wireless technology for device communication,Long-range wireless,WiFi technology,Cellular,Option_1,Beginner
+What is BLE (Bluetooth Low Energy)?,Low-power Bluetooth for IoT devices,Regular Bluetooth,WiFi variant,Cellular technology,Option_1,Intermediate
+What is Zigbee?,Low-power wireless technology for mesh networks,WiFi,Cellular,Bluetooth,Option_1,Intermediate
+What is LoRaWAN?,Long-range wide-area network for IoT,Short-range network,WiFi network,Cellular network,Option_1,Intermediate
+What is NB-IoT?,Narrowband cellular technology for IoT,Broadband,WiFi,Bluetooth,Option_1,Intermediate
+What is LTE-M (Cat-M)?,Cellular technology optimized for IoT,WiFi variant,Bluetooth variant,Satellite technology,Option_1,Intermediate
+What is 5G in IoT?,Fifth generation wireless with low latency,Fourth generation,Previous standard,WiFi technology,Option_1,Intermediate
+What is MQTT?,Lightweight messaging protocol for IoT,HTTP protocol,FTP protocol,Bluetooth protocol,Option_1,Intermediate
+What is CoAP?,Constrained Application Protocol for IoT,HTTP protocol,MQTT protocol,REST protocol,Option_1,Advanced
+What is ATmega328P?,Microcontroller used in Arduino Uno,Raspberry Pi processor,STM32 variant,ARM processor,Option_1,Intermediate
+What is STM32?,ARM-based microcontroller for IoT,AVR microcontroller,Arduino chip,Raspberry Pi,Option_1,Intermediate
+What is ARM Cortex?,Processor architecture for embedded systems,AVR architecture,MIPS architecture,x86 architecture,Option_1,Intermediate
+What is PWM (Pulse Width Modulation)?,Technique controlling device power and behavior,Digital signal,Analog signal,Data encoding,Option_1,Intermediate
+What is ADC (Analog to Digital Converter)?,Converting analog signals to digital values,Digital to analog,Signal amplifier,Signal filter,Option_1,Intermediate
+What is DAC (Digital to Analog Converter)?,Converting digital signals to analog values,Analog to digital,Signal processing,Signal filtering,Option_1,Advanced
+What is interrupt in microcontroller?,Signal causing processor to halt and handle event,Synchronous call,Function call,Loop control,Option_1,Intermediate
+What is timer in microcontroller?,Hardware counting events or delays,Software counter,Loop variable,Function call,Option_1,Intermediate
+What is serial communication?,Transmitting data one bit at a time,Parallel communication,Multi-bit transmission,Wireless communication,Option_1,Intermediate
+What is UART (Universal Asynchronous Receiver Transmitter)?,Serial communication protocol,Parallel protocol,Network protocol,Wireless protocol,Option_1,Intermediate
+What is Arduino IDE?,Integrated development environment for Arduino,Text editor,Compiler only,Debugger only,Option_1,Beginner
+What is sketch in Arduino?,Code program running on Arduino,Circuit diagram,Hardware design,Configuration file,Option_1,Beginner
+What is setup() function in Arduino?,Runs once when board powers on,Runs repeatedly,Library function,Helper function,Option_1,Beginner
+What is loop() function in Arduino?,Runs repeatedly after setup,Runs once,Setup function,Configuration,Option_1,Beginner
+What is pinMode() in Arduino?,Configures pin as input or output,Reads analog value,Writes digital value,Sets frequency,Option_1,Intermediate
+What is digitalWrite() in Arduino?,Sets digital pin to HIGH or LOW,Reads digital input,Sets analog value,Reads analog input,Option_1,Intermediate
+What is analogRead() in Arduino?,Reads analog value from pin (0-1023),Writes analog value,Reads digital value,Sets PWM,Option_1,Intermediate
+What is analogWrite() in Arduino?,Outputs PWM signal on pin,Reads analog,Reads digital,Sets frequency,Option_1,Intermediate
+What is C++ in embedded systems?,Language for IoT and embedded development,Python,JavaScript,Java,Option_1,Intermediate
+What is MicroPython?,Python implementation for microcontrollers,Full Python,Circuit Python,Language variant,Option_1,Intermediate
+What is temperature sensor?,Measures temperature and outputs signal,Humidity sensor,Pressure sensor,Light sensor,Option_1,Beginner
+What is DHT11 sensor?,Temperature and humidity sensor,Pressure sensor,Gas sensor,Motion sensor,Option_1,Intermediate
+What is BME280 sensor?,"Measures temperature, humidity, pressure",DHT sensor,Motion sensor,Gas sensor,Option_1,Intermediate
+What is accelerometer?,Measures acceleration and motion,Gyroscope,Magnetometer,Barometer,Option_1,Intermediate
+What is gyroscope?,Measures rotation rate and angular velocity,Accelerometer,Magnetometer,Thermometer,Option_1,Intermediate
+What is magnetometer?,Measures magnetic field strength,Accelerometer,Gyroscope,Thermometer,Option_1,Intermediate
+What is IMU (Inertial Measurement Unit)?,"Combines accelerometer, gyroscope, magnetometer",Single sensor,Temperature sensor,Pressure sensor,Option_1,Advanced
+What is pressure sensor?,Measures atmospheric or fluid pressure,Temperature sensor,Humidity sensor,Gas sensor,Option_1,Intermediate
+What is motion sensor (PIR)?,Detects infrared radiation from movement,Pressure sensor,Temperature sensor,Light sensor,Option_1,Intermediate
+What is ultrasonic sensor?,Measures distance using sound waves,Motion sensor,Temperature sensor,Light sensor,Option_1,Intermediate
+What is gas sensor?,Detects presence of specific gases,Smoke detector,Motion sensor,Temperature sensor,Option_1,Intermediate
+What is soil moisture sensor?,Measures water content in soil,Temperature sensor,Humidity sensor,Pressure sensor,Option_1,Intermediate
+What is I2C (Inter-Integrated Circuit)?,Two-wire serial communication protocol,SPI protocol,UART protocol,Wireless protocol,Option_1,Intermediate
+What is SPI (Serial Peripheral Interface)?,Synchronous serial communication protocol,Asynchronous protocol,I2C protocol,UART protocol,Option_1,Intermediate
+What is RS-485?,Industrial serial communication protocol,RS-232,USB protocol,Ethernet,Option_1,Advanced
+What is CAN bus?,Controller Area Network for vehicle communication,Ethernet,WiFi,Bluetooth,Option_1,Advanced
+What is HTTP in IoT?,Protocol for client-server communication,Serial protocol,Wireless protocol,Network protocol,Option_1,Beginner
+What is REST API in IoT?,API using HTTP for device communication,MQTT protocol,CoAP protocol,WebSocket,Option_1,Intermediate
+What is JSON in IoT?,Data format for exchanging information,XML format,CSV format,Binary format,Option_1,Beginner
+What is Protocol Buffer?,Compact serialization format for data,JSON format,XML format,Text format,Option_1,Advanced
+What is Azure IoT Hub?,Microsoft cloud platform for IoT,AWS IoT service,Google Cloud IoT,Raspberry Pi,Option_1,Intermediate
+What is AWS IoT Core?,Amazon cloud service for IoT devices,Azure IoT,Google IoT,IBM Watson,Option_1,Intermediate
+What is Google Cloud IoT?,Google cloud platform for IoT,AWS IoT,Azure IoT,IBM service,Option_1,Intermediate
+What is IBM Watson IoT?,IBM platform for IoT analytics,AWS service,Azure service,Google service,Option_1,Intermediate
+What is ThingSpeak?,IoT analytics platform for data collection,AWS service,Cloud platform,Edge device,Option_1,Intermediate
+What is Blynk?,IoT platform with mobile app integration,Cloud service,Device platform,Network protocol,Option_1,Intermediate
+What is Node-RED?,Visual IoT application development tool,Programming language,Operating system,Hardware platform,Option_1,Intermediate
+What is Home Assistant?,Open-source home automation platform,Commercial platform,Cloud service,Hardware device,Option_1,Intermediate
+What is time-series database?,Database optimized for timestamped data,Relational database,NoSQL database,Graph database,Option_1,Intermediate
+What is InfluxDB?,Time-series database for IoT data,Relational database,Document database,Graph database,Option_1,Intermediate
+What is Prometheus?,Monitoring system collecting time-series metrics,Database,Cloud service,Programming language,Option_1,Advanced
+What is data compression in IoT?,Reducing data size for transmission,Data encryption,Data encoding,Data formatting,Option_1,Intermediate
+What is data aggregation?,Combining data from multiple sources,Data collection,Data transmission,Data storage,Option_1,Intermediate
+What is IoT security?,Protecting devices and data from attacks,Data privacy,Network security,Device management,Option_1,Intermediate
+What is authentication in IoT?,Verifying device or user identity,Authorization,Encryption,Data protection,Option_1,Intermediate
+What is device certificate?,Digital certificate identifying IoT device,User certificate,CA certificate,Self-signed certificate,Option_1,Advanced
+What is SSL/TLS in IoT?,Encryption protocol for secure communication,Wireless protocol,Serial protocol,Network protocol,Option_1,Intermediate
+What is end-to-end encryption?,Encrypting data from source to destination,Point-to-point encryption,Network encryption,Device encryption,Option_1,Advanced
+What is firmware update?,Updating device software after deployment,Software installation,Application update,Configuration change,Option_1,Intermediate
+What is OTA (Over-The-Air) update?,Remotely updating device firmware wirelessly,Physical update,Manual update,Wired update,Option_1,Intermediate
+What is secure boot?,Verifying firmware integrity during startup,Fast boot,Boot optimization,Boot loader,Option_1,Advanced
+What is power consumption in IoT?,Energy used by device during operation,Performance metric,Processing power,Network speed,Option_1,Intermediate
+What is low-power design?,Minimizing energy consumption in IoT devices,Performance optimization,Speed optimization,Memory reduction,Option_1,Intermediate
+What is sleep mode?,Power-saving state reducing energy consumption,Idle state,Active state,Running state,Option_1,Intermediate
+What is battery optimization?,Techniques extending device battery life,Hardware design,Software design,Power management,Option_1,Intermediate
+What is energy harvesting?,Collecting energy from environment,Power generation,Battery charging,Solar power,Option_1,Advanced
+What is duty cycle?,Ratio of active time to total time,Operating time,Battery life,Processing time,Option_1,Advanced
+What is real-time processing?,Processing data with minimal delay,Batch processing,Scheduled processing,Offline processing,Option_1,Intermediate
+What is edge analytics?,Analyzing data locally on edge devices,Cloud analytics,Remote analysis,Server analytics,Option_1,Advanced
+What is stream processing?,Processing continuous data streams,Batch processing,File processing,Database processing,Option_1,Advanced
+What is latency in IoT?,Delay between input and output,Processing speed,Network speed,Data transfer rate,Option_1,Intermediate
+What is throughput in IoT?,Amount of data processed per unit time,Speed,Bandwidth,Frequency,Option_1,Intermediate
+What is smart home?,Home with automated and connected devices,Modern home,High-tech home,Connected devices,Option_1,Beginner
+What is smart city?,Urban area using IoT for services,Modern city,Technology city,Connected infrastructure,Option_1,Beginner
+What is smart agriculture?,Using IoT in farming and crop management,Modern farming,Precision farming,Automated farming,Option_1,Intermediate
+What is industrial IoT (IIoT)?,IoT applications in manufacturing and industry,Factory automation,Manufacturing,Production,Option_1,Intermediate
+What is predictive maintenance?,Using data to predict equipment failures,Preventive maintenance,Scheduled maintenance,Corrective maintenance,Option_1,Advanced
+What is healthcare IoT?,IoT devices and systems in healthcare,Medical devices,Patient monitoring,Health tracking,Option_1,Intermediate
+What is wearable device?,IoT device worn on body for monitoring,Smart device,Mobile device,Connected device,Option_1,Beginner
+What is connected vehicle?,Vehicle with IoT connectivity,Self-driving car,Autonomous vehicle,Electric vehicle,Option_1,Intermediate
+What is mesh network?,Network where each node relays data,Star topology,Tree topology,Linear topology,Option_1,Intermediate
+What is star topology?,Network with central hub/point,Mesh network,Tree network,Ring network,Option_1,Intermediate
+What is client-server architecture?,Devices requesting services from server,Peer-to-peer,Distributed,Decentralized,Option_1,Intermediate
+What is peer-to-peer (P2P) in IoT?,Devices communicating directly without server,Client-server,Star topology,Mesh network,Option_1,Intermediate
+What is fog computing?,Computing between cloud and edge devices,Cloud computing,Edge computing,Local computing,Option_1,Advanced
+What is cloud computing in IoT?,Using cloud services for IoT data,Local computing,Edge computing,Fog computing,Option_1,Intermediate
+What is unit testing in IoT?,Testing individual components,Integration testing,System testing,Acceptance testing,Option_1,Intermediate
+What is integration testing?,Testing interaction between components,Unit testing,System testing,Field testing,Option_1,Intermediate
+What is field testing?,Testing device in real-world environment,Lab testing,Simulation,Bench testing,Option_1,Intermediate
+What is serial monitor in Arduino?,Tool for debugging via serial communication,IDE feature,Programming tool,Development tool,Option_1,Intermediate
+What is debugging in IoT?,Identifying and fixing device issues,Testing,Monitoring,Analysis,Option_1,Beginner
+What is bandwidth in IoT?,Maximum data transmission rate,Network speed,Processing speed,Memory capacity,Option_1,Intermediate
+What is reliability in IoT?,Device performing consistently without failure,Performance,Accuracy,Availability,Option_1,Intermediate
+What is availability in IoT?,Percentage of time system is operational,Uptime,System status,Service availability,Option_1,Intermediate
+What is accuracy in IoT?,Correctness of sensor measurements,Precision,Resolution,Sensitivity,Option_1,Intermediate
+What is precision in sensors?,Consistency of repeated measurements,Accuracy,Resolution,Sensitivity,Option_1,Advanced
+What is 802.11 (WiFi)?,Wireless LAN standard,Cellular standard,Bluetooth standard,Wireless protocol,Option_1,Intermediate
+What is 802.15.4 (Zigbee)?,Wireless standard for low-power devices,WiFi standard,Cellular standard,Bluetooth,Option_1,Intermediate
+What is OpenStack?,Open-source cloud computing platform,IoT platform,Operating system,Hardware platform,Option_1,Advanced
+What is MQTT protocol?,Machine-to-Machine messaging protocol,HTTP protocol,FTP protocol,TCP protocol,Option_1,Intermediate
+What is publish-subscribe model?,Publishers send messages to subscribers,Request-response model,Client-server,Peer-to-peer,Option_1,Advanced
+What is machine learning in IoT?,Applying ML algorithms to IoT data,Data collection,Data storage,Data transmission,Option_1,Advanced
+What is anomaly detection in IoT?,Identifying unusual patterns in data,Data analysis,Data filtering,Data compression,Option_1,Advanced
+What is digital twin?,Virtual replica of physical device,Backup device,Test device,Shadow device,Option_1,Advanced
+What is virtualization in IoT?,Running multiple systems on single hardware,Container technology,Emulation,Abstraction,Option_1,Advanced
+What is container technology?,Lightweight virtualization for applications,Virtual machine,Hypervisor,Operating system,Option_1,Advanced
+What is Docker in IoT?,Container platform for IoT applications,Virtual machine,Operating system,Hardware platform,Option_1,Advanced
+What is Kubernetes in IoT?,Container orchestration platform,Container runtime,Container registry,Container networking,Option_1,Advanced
+What is IoT (Internet of Things)?,Network of physical devices connected to internet,Computer network,Internet connection,Data storage,Option_1,Beginner
+What are the main components of IoT?,"Sensors, connectivity, data processing, user interface",Only sensors,Only connectivity,Only processing,Option_1,Beginner
+What is a sensor in IoT?,Device detecting physical properties and converting to signals,Actuator,Controller,Gateway,Option_1,Beginner
+What is an actuator in IoT?,Device that performs physical action based on commands,Sensor,Processor,Network device,Option_1,Beginner
+What is a microcontroller?,Small computer on single chip controlling IoT device,Laptop,Server,Phone,Option_1,Beginner
+What is Arduino?,Open-source microcontroller platform for IoT projects,Microchip brand,Programming language,Operating system,Option_1,Beginner
+What is Raspberry Pi?,Single-board computer for IoT and embedded systems,Microcontroller,Sensor device,Network device,Option_1,Beginner
+What is IoT gateway?,Device connecting IoT network to internet,Firewall,Router,Switch,Option_1,Intermediate
+What are IoT applications?,"Smart homes, healthcare, agriculture, industrial automation",Only smart homes,Only healthcare,Only industrial,Option_1,Beginner
+What is edge computing in IoT?,Processing data locally on edge devices,Cloud processing,Server processing,Remote processing,Option_1,Intermediate
+What is WiFi in IoT?,Wireless technology for local network connectivity,Cellular technology,Satellite technology,Bluetooth,Option_1,Beginner
+What is Bluetooth in IoT?,Short-range wireless technology for device communication,Long-range wireless,WiFi technology,Cellular,Option_1,Beginner
+What is BLE (Bluetooth Low Energy)?,Low-power Bluetooth for IoT devices,Regular Bluetooth,WiFi variant,Cellular technology,Option_1,Intermediate
+What is Zigbee?,Low-power wireless technology for mesh networks,WiFi,Cellular,Bluetooth,Option_1,Intermediate
+What is LoRaWAN?,Long-range wide-area network for IoT,Short-range network,WiFi network,Cellular network,Option_1,Intermediate
+What is NB-IoT?,Narrowband cellular technology for IoT,Broadband,WiFi,Bluetooth,Option_1,Intermediate
+What is LTE-M (Cat-M)?,Cellular technology optimized for IoT,WiFi variant,Bluetooth variant,Satellite technology,Option_1,Intermediate
+What is 5G in IoT?,Fifth generation wireless with low latency,Fourth generation,Previous standard,WiFi technology,Option_1,Intermediate
+What is MQTT?,Lightweight messaging protocol for IoT,HTTP protocol,FTP protocol,Bluetooth protocol,Option_1,Intermediate
+What is CoAP?,Constrained Application Protocol for IoT,HTTP protocol,MQTT protocol,REST protocol,Option_1,Advanced
+What is ATmega328P?,Microcontroller used in Arduino Uno,Raspberry Pi processor,STM32 variant,ARM processor,Option_1,Intermediate
+What is STM32?,ARM-based microcontroller for IoT,AVR microcontroller,Arduino chip,Raspberry Pi,Option_1,Intermediate
+What is ARM Cortex?,Processor architecture for embedded systems,AVR architecture,MIPS architecture,x86 architecture,Option_1,Intermediate
+What is PWM (Pulse Width Modulation)?,Technique controlling device power and behavior,Digital signal,Analog signal,Data encoding,Option_1,Intermediate
+What is ADC (Analog to Digital Converter)?,Converting analog signals to digital values,Digital to analog,Signal amplifier,Signal filter,Option_1,Intermediate
+What is DAC (Digital to Analog Converter)?,Converting digital signals to analog values,Analog to digital,Signal processing,Signal filtering,Option_1,Advanced
+What is interrupt in microcontroller?,Signal causing processor to halt and handle event,Synchronous call,Function call,Loop control,Option_1,Intermediate
+What is timer in microcontroller?,Hardware counting events or delays,Software counter,Loop variable,Function call,Option_1,Intermediate
+What is serial communication?,Transmitting data one bit at a time,Parallel communication,Multi-bit transmission,Wireless communication,Option_1,Intermediate
+What is UART (Universal Asynchronous Receiver Transmitter)?,Serial communication protocol,Parallel protocol,Network protocol,Wireless protocol,Option_1,Intermediate
+What is Arduino IDE?,Integrated development environment for Arduino,Text editor,Compiler only,Debugger only,Option_1,Beginner
+What is sketch in Arduino?,Code program running on Arduino,Circuit diagram,Hardware design,Configuration file,Option_1,Beginner
+What is setup() function in Arduino?,Runs once when board powers on,Runs repeatedly,Library function,Helper function,Option_1,Beginner
+What is loop() function in Arduino?,Runs repeatedly after setup,Runs once,Setup function,Configuration,Option_1,Beginner
+What is pinMode() in Arduino?,Configures pin as input or output,Reads analog value,Writes digital value,Sets frequency,Option_1,Intermediate
+What is digitalWrite() in Arduino?,Sets digital pin to HIGH or LOW,Reads digital input,Sets analog value,Reads analog input,Option_1,Intermediate
+What is analogRead() in Arduino?,Reads analog value from pin (0-1023),Writes analog value,Reads digital value,Sets PWM,Option_1,Intermediate
+What is analogWrite() in Arduino?,Outputs PWM signal on pin,Reads analog,Reads digital,Sets frequency,Option_1,Intermediate
+What is C++ in embedded systems?,Language for IoT and embedded development,Python,JavaScript,Java,Option_1,Intermediate
+What is MicroPython?,Python implementation for microcontrollers,Full Python,Circuit Python,Language variant,Option_1,Intermediate
+What is temperature sensor?,Measures temperature and outputs signal,Humidity sensor,Pressure sensor,Light sensor,Option_1,Beginner
+What is DHT11 sensor?,Temperature and humidity sensor,Pressure sensor,Gas sensor,Motion sensor,Option_1,Intermediate
+What is BME280 sensor?,"Measures temperature, humidity, pressure",DHT sensor,Motion sensor,Gas sensor,Option_1,Intermediate
+What is accelerometer?,Measures acceleration and motion,Gyroscope,Magnetometer,Barometer,Option_1,Intermediate
+What is gyroscope?,Measures rotation rate and angular velocity,Accelerometer,Magnetometer,Thermometer,Option_1,Intermediate
+What is magnetometer?,Measures magnetic field strength,Accelerometer,Gyroscope,Thermometer,Option_1,Intermediate
+What is IMU (Inertial Measurement Unit)?,"Combines accelerometer, gyroscope, magnetometer",Single sensor,Temperature sensor,Pressure sensor,Option_1,Advanced
+What is pressure sensor?,Measures atmospheric or fluid pressure,Temperature sensor,Humidity sensor,Gas sensor,Option_1,Intermediate
+What is motion sensor (PIR)?,Detects infrared radiation from movement,Pressure sensor,Temperature sensor,Light sensor,Option_1,Intermediate
+What is ultrasonic sensor?,Measures distance using sound waves,Motion sensor,Temperature sensor,Light sensor,Option_1,Intermediate
+What is gas sensor?,Detects presence of specific gases,Smoke detector,Motion sensor,Temperature sensor,Option_1,Intermediate
+What is soil moisture sensor?,Measures water content in soil,Temperature sensor,Humidity sensor,Pressure sensor,Option_1,Intermediate
+What is I2C (Inter-Integrated Circuit)?,Two-wire serial communication protocol,SPI protocol,UART protocol,Wireless protocol,Option_1,Intermediate
+What is SPI (Serial Peripheral Interface)?,Synchronous serial communication protocol,Asynchronous protocol,I2C protocol,UART protocol,Option_1,Intermediate
+What is RS-485?,Industrial serial communication protocol,RS-232,USB protocol,Ethernet,Option_1,Advanced
+What is CAN bus?,Controller Area Network for vehicle communication,Ethernet,WiFi,Bluetooth,Option_1,Advanced
+What is HTTP in IoT?,Protocol for client-server communication,Serial protocol,Wireless protocol,Network protocol,Option_1,Beginner
+What is REST API in IoT?,API using HTTP for device communication,MQTT protocol,CoAP protocol,WebSocket,Option_1,Intermediate
+What is JSON in IoT?,Data format for exchanging information,XML format,CSV format,Binary format,Option_1,Beginner
+What is Protocol Buffer?,Compact serialization format for data,JSON format,XML format,Text format,Option_1,Advanced
+What is Azure IoT Hub?,Microsoft cloud platform for IoT,AWS IoT service,Google Cloud IoT,Raspberry Pi,Option_1,Intermediate
+What is AWS IoT Core?,Amazon cloud service for IoT devices,Azure IoT,Google IoT,IBM Watson,Option_1,Intermediate
+What is Google Cloud IoT?,Google cloud platform for IoT,AWS IoT,Azure IoT,IBM service,Option_1,Intermediate
+What is IBM Watson IoT?,IBM platform for IoT analytics,AWS service,Azure service,Google service,Option_1,Intermediate
+What is ThingSpeak?,IoT analytics platform for data collection,AWS service,Cloud platform,Edge device,Option_1,Intermediate
+What is Blynk?,IoT platform with mobile app integration,Cloud service,Device platform,Network protocol,Option_1,Intermediate
+What is Node-RED?,Visual IoT application development tool,Programming language,Operating system,Hardware platform,Option_1,Intermediate
+What is Home Assistant?,Open-source home automation platform,Commercial platform,Cloud service,Hardware device,Option_1,Intermediate
+What is time-series database?,Database optimized for timestamped data,Relational database,NoSQL database,Graph database,Option_1,Intermediate
+What is InfluxDB?,Time-series database for IoT data,Relational database,Document database,Graph database,Option_1,Intermediate
+What is Prometheus?,Monitoring system collecting time-series metrics,Database,Cloud service,Programming language,Option_1,Advanced
+What is data compression in IoT?,Reducing data size for transmission,Data encryption,Data encoding,Data formatting,Option_1,Intermediate
+What is data aggregation?,Combining data from multiple sources,Data collection,Data transmission,Data storage,Option_1,Intermediate
+What is IoT security?,Protecting devices and data from attacks,Data privacy,Network security,Device management,Option_1,Intermediate
+What is authentication in IoT?,Verifying device or user identity,Authorization,Encryption,Data protection,Option_1,Intermediate
+What is device certificate?,Digital certificate identifying IoT device,User certificate,CA certificate,Self-signed certificate,Option_1,Advanced
+What is SSL/TLS in IoT?,Encryption protocol for secure communication,Wireless protocol,Serial protocol,Network protocol,Option_1,Intermediate
+What is end-to-end encryption?,Encrypting data from source to destination,Point-to-point encryption,Network encryption,Device encryption,Option_1,Advanced
+What is firmware update?,Updating device software after deployment,Software installation,Application update,Configuration change,Option_1,Intermediate
+What is OTA (Over-The-Air) update?,Remotely updating device firmware wirelessly,Physical update,Manual update,Wired update,Option_1,Intermediate
+What is secure boot?,Verifying firmware integrity during startup,Fast boot,Boot optimization,Boot loader,Option_1,Advanced
+What is power consumption in IoT?,Energy used by device during operation,Performance metric,Processing power,Network speed,Option_1,Intermediate
+What is low-power design?,Minimizing energy consumption in IoT devices,Performance optimization,Speed optimization,Memory reduction,Option_1,Intermediate
+What is sleep mode?,Power-saving state reducing energy consumption,Idle state,Active state,Running state,Option_1,Intermediate
+What is battery optimization?,Techniques extending device battery life,Hardware design,Software design,Power management,Option_1,Intermediate
+What is energy harvesting?,Collecting energy from environment,Power generation,Battery charging,Solar power,Option_1,Advanced
+What is duty cycle?,Ratio of active time to total time,Operating time,Battery life,Processing time,Option_1,Advanced
+What is real-time processing?,Processing data with minimal delay,Batch processing,Scheduled processing,Offline processing,Option_1,Intermediate
+What is edge analytics?,Analyzing data locally on edge devices,Cloud analytics,Remote analysis,Server analytics,Option_1,Advanced
+What is stream processing?,Processing continuous data streams,Batch processing,File processing,Database processing,Option_1,Advanced
+What is latency in IoT?,Delay between input and output,Processing speed,Network speed,Data transfer rate,Option_1,Intermediate
+What is throughput in IoT?,Amount of data processed per unit time,Speed,Bandwidth,Frequency,Option_1,Intermediate
+What is smart home?,Home with automated and connected devices,Modern home,High-tech home,Connected devices,Option_1,Beginner
+What is smart city?,Urban area using IoT for services,Modern city,Technology city,Connected infrastructure,Option_1,Beginner
+What is smart agriculture?,Using IoT in farming and crop management,Modern farming,Precision farming,Automated farming,Option_1,Intermediate
+What is industrial IoT (IIoT)?,IoT applications in manufacturing and industry,Factory automation,Manufacturing,Production,Option_1,Intermediate
+What is predictive maintenance?,Using data to predict equipment failures,Preventive maintenance,Scheduled maintenance,Corrective maintenance,Option_1,Advanced
+What is healthcare IoT?,IoT devices and systems in healthcare,Medical devices,Patient monitoring,Health tracking,Option_1,Intermediate
+What is wearable device?,IoT device worn on body for monitoring,Smart device,Mobile device,Connected device,Option_1,Beginner
+What is connected vehicle?,Vehicle with IoT connectivity,Self-driving car,Autonomous vehicle,Electric vehicle,Option_1,Intermediate
+What is mesh network?,Network where each node relays data,Star topology,Tree topology,Linear topology,Option_1,Intermediate
+What is star topology?,Network with central hub/point,Mesh network,Tree network,Ring network,Option_1,Intermediate
+What is client-server architecture?,Devices requesting services from server,Peer-to-peer,Distributed,Decentralized,Option_1,Intermediate
+What is peer-to-peer (P2P) in IoT?,Devices communicating directly without server,Client-server,Star topology,Mesh network,Option_1,Intermediate
+What is fog computing?,Computing between cloud and edge devices,Cloud computing,Edge computing,Local computing,Option_1,Advanced
+What is cloud computing in IoT?,Using cloud services for IoT data,Local computing,Edge computing,Fog computing,Option_1,Intermediate
+What is unit testing in IoT?,Testing individual components,Integration testing,System testing,Acceptance testing,Option_1,Intermediate
+What is integration testing?,Testing interaction between components,Unit testing,System testing,Field testing,Option_1,Intermediate
+What is field testing?,Testing device in real-world environment,Lab testing,Simulation,Bench testing,Option_1,Intermediate
+What is serial monitor in Arduino?,Tool for debugging via serial communication,IDE feature,Programming tool,Development tool,Option_1,Intermediate
+What is debugging in IoT?,Identifying and fixing device issues,Testing,Monitoring,Analysis,Option_1,Beginner
+What is bandwidth in IoT?,Maximum data transmission rate,Network speed,Processing speed,Memory capacity,Option_1,Intermediate
+What is reliability in IoT?,Device performing consistently without failure,Performance,Accuracy,Availability,Option_1,Intermediate
+What is availability in IoT?,Percentage of time system is operational,Uptime,System status,Service availability,Option_1,Intermediate
+What is accuracy in IoT?,Correctness of sensor measurements,Precision,Resolution,Sensitivity,Option_1,Intermediate
+What is precision in sensors?,Consistency of repeated measurements,Accuracy,Resolution,Sensitivity,Option_1,Advanced
+What is 802.11 (WiFi)?,Wireless LAN standard,Cellular standard,Bluetooth standard,Wireless protocol,Option_1,Intermediate
+What is 802.15.4 (Zigbee)?,Wireless standard for low-power devices,WiFi standard,Cellular standard,Bluetooth,Option_1,Intermediate
+What is OpenStack?,Open-source cloud computing platform,IoT platform,Operating system,Hardware platform,Option_1,Advanced
+What is MQTT protocol?,Machine-to-Machine messaging protocol,HTTP protocol,FTP protocol,TCP protocol,Option_1,Intermediate
+What is publish-subscribe model?,Publishers send messages to subscribers,Request-response model,Client-server,Peer-to-peer,Option_1,Advanced
+What is machine learning in IoT?,Applying ML algorithms to IoT data,Data collection,Data storage,Data transmission,Option_1,Advanced
+What is anomaly detection in IoT?,Identifying unusual patterns in data,Data analysis,Data filtering,Data compression,Option_1,Advanced
+What is digital twin?,Virtual replica of physical device,Backup device,Test device,Shadow device,Option_1,Advanced
+What is virtualization in IoT?,Running multiple systems on single hardware,Container technology,Emulation,Abstraction,Option_1,Advanced
+What is container technology?,Lightweight virtualization for applications,Virtual machine,Hypervisor,Operating system,Option_1,Advanced
+What is Docker in IoT?,Container platform for IoT applications,Virtual machine,Operating system,Hardware platform,Option_1,Advanced
+What is Kubernetes in IoT?,Container orchestration platform,Container runtime,Container registry,Container networking,Option_1,Advanced
+What is IoT (Internet of Things)?,Network of physical devices connected to internet,Computer network,Internet connection,Data storage,Option_1,Beginner
+What are the main components of IoT?,"Sensors, connectivity, data processing, user interface",Only sensors,Only connectivity,Only processing,Option_1,Beginner
+What is a sensor in IoT?,Device detecting physical properties and converting to signals,Actuator,Controller,Gateway,Option_1,Beginner
+What is an actuator in IoT?,Device that performs physical action based on commands,Sensor,Processor,Network device,Option_1,Beginner
+What is a microcontroller?,Small computer on single chip controlling IoT device,Laptop,Server,Phone,Option_1,Beginner
+What is Arduino?,Open-source microcontroller platform for IoT projects,Microchip brand,Programming language,Operating system,Option_1,Beginner
+What is Raspberry Pi?,Single-board computer for IoT and embedded systems,Microcontroller,Sensor device,Network device,Option_1,Beginner
+What is IoT gateway?,Device connecting IoT network to internet,Firewall,Router,Switch,Option_1,Intermediate
+What are IoT applications?,"Smart homes, healthcare, agriculture, industrial automation",Only smart homes,Only healthcare,Only industrial,Option_1,Beginner
+What is edge computing in IoT?,Processing data locally on edge devices,Cloud processing,Server processing,Remote processing,Option_1,Intermediate
+What is WiFi in IoT?,Wireless technology for local network connectivity,Cellular technology,Satellite technology,Bluetooth,Option_1,Beginner
+What is Bluetooth in IoT?,Short-range wireless technology for device communication,Long-range wireless,WiFi technology,Cellular,Option_1,Beginner
+What is BLE (Bluetooth Low Energy)?,Low-power Bluetooth for IoT devices,Regular Bluetooth,WiFi variant,Cellular technology,Option_1,Intermediate
+What is Zigbee?,Low-power wireless technology for mesh networks,WiFi,Cellular,Bluetooth,Option_1,Intermediate
+What is LoRaWAN?,Long-range wide-area network for IoT,Short-range network,WiFi network,Cellular network,Option_1,Intermediate
+What is NB-IoT?,Narrowband cellular technology for IoT,Broadband,WiFi,Bluetooth,Option_1,Intermediate
+What is LTE-M (Cat-M)?,Cellular technology optimized for IoT,WiFi variant,Bluetooth variant,Satellite technology,Option_1,Intermediate
+What is 5G in IoT?,Fifth generation wireless with low latency,Fourth generation,Previous standard,WiFi technology,Option_1,Intermediate
+What is MQTT?,Lightweight messaging protocol for IoT,HTTP protocol,FTP protocol,Bluetooth protocol,Option_1,Intermediate
+What is CoAP?,Constrained Application Protocol for IoT,HTTP protocol,MQTT protocol,REST protocol,Option_1,Advanced
+What is ATmega328P?,Microcontroller used in Arduino Uno,Raspberry Pi processor,STM32 variant,ARM processor,Option_1,Intermediate
+What is STM32?,ARM-based microcontroller for IoT,AVR microcontroller,Arduino chip,Raspberry Pi,Option_1,Intermediate
+What is ARM Cortex?,Processor architecture for embedded systems,AVR architecture,MIPS architecture,x86 architecture,Option_1,Intermediate
+What is PWM (Pulse Width Modulation)?,Technique controlling device power and behavior,Digital signal,Analog signal,Data encoding,Option_1,Intermediate
+What is ADC (Analog to Digital Converter)?,Converting analog signals to digital values,Digital to analog,Signal amplifier,Signal filter,Option_1,Intermediate
+What is DAC (Digital to Analog Converter)?,Converting digital signals to analog values,Analog to digital,Signal processing,Signal filtering,Option_1,Advanced
+What is interrupt in microcontroller?,Signal causing processor to halt and handle event,Synchronous call,Function call,Loop control,Option_1,Intermediate
+What is timer in microcontroller?,Hardware counting events or delays,Software counter,Loop variable,Function call,Option_1,Intermediate
+What is serial communication?,Transmitting data one bit at a time,Parallel communication,Multi-bit transmission,Wireless communication,Option_1,Intermediate
+What is UART (Universal Asynchronous Receiver Transmitter)?,Serial communication protocol,Parallel protocol,Network protocol,Wireless protocol,Option_1,Intermediate
+What is Arduino IDE?,Integrated development environment for Arduino,Text editor,Compiler only,Debugger only,Option_1,Beginner
+What is sketch in Arduino?,Code program running on Arduino,Circuit diagram,Hardware design,Configuration file,Option_1,Beginner
+What is setup() function in Arduino?,Runs once when board powers on,Runs repeatedly,Library function,Helper function,Option_1,Beginner
+What is loop() function in Arduino?,Runs repeatedly after setup,Runs once,Setup function,Configuration,Option_1,Beginner
+What is pinMode() in Arduino?,Configures pin as input or output,Reads analog value,Writes digital value,Sets frequency,Option_1,Intermediate
+What is digitalWrite() in Arduino?,Sets digital pin to HIGH or LOW,Reads digital input,Sets analog value,Reads analog input,Option_1,Intermediate
+What is analogRead() in Arduino?,Reads analog value from pin (0-1023),Writes analog value,Reads digital value,Sets PWM,Option_1,Intermediate
+What is analogWrite() in Arduino?,Outputs PWM signal on pin,Reads analog,Reads digital,Sets frequency,Option_1,Intermediate
+What is C++ in embedded systems?,Language for IoT and embedded development,Python,JavaScript,Java,Option_1,Intermediate
+What is MicroPython?,Python implementation for microcontrollers,Full Python,Circuit Python,Language variant,Option_1,Intermediate
+What is temperature sensor?,Measures temperature and outputs signal,Humidity sensor,Pressure sensor,Light sensor,Option_1,Beginner
+What is DHT11 sensor?,Temperature and humidity sensor,Pressure sensor,Gas sensor,Motion sensor,Option_1,Intermediate
+What is BME280 sensor?,"Measures temperature, humidity, pressure",DHT sensor,Motion sensor,Gas sensor,Option_1,Intermediate
+What is accelerometer?,Measures acceleration and motion,Gyroscope,Magnetometer,Barometer,Option_1,Intermediate
+What is gyroscope?,Measures rotation rate and angular velocity,Accelerometer,Magnetometer,Thermometer,Option_1,Intermediate
+What is magnetometer?,Measures magnetic field strength,Accelerometer,Gyroscope,Thermometer,Option_1,Intermediate
+What is IMU (Inertial Measurement Unit)?,"Combines accelerometer, gyroscope, magnetometer",Single sensor,Temperature sensor,Pressure sensor,Option_1,Advanced
+What is pressure sensor?,Measures atmospheric or fluid pressure,Temperature sensor,Humidity sensor,Gas sensor,Option_1,Intermediate
+What is motion sensor (PIR)?,Detects infrared radiation from movement,Pressure sensor,Temperature sensor,Light sensor,Option_1,Intermediate
+What is ultrasonic sensor?,Measures distance using sound waves,Motion sensor,Temperature sensor,Light sensor,Option_1,Intermediate
+What is gas sensor?,Detects presence of specific gases,Smoke detector,Motion sensor,Temperature sensor,Option_1,Intermediate
+What is soil moisture sensor?,Measures water content in soil,Temperature sensor,Humidity sensor,Pressure sensor,Option_1,Intermediate
+What is I2C (Inter-Integrated Circuit)?,Two-wire serial communication protocol,SPI protocol,UART protocol,Wireless protocol,Option_1,Intermediate
+What is SPI (Serial Peripheral Interface)?,Synchronous serial communication protocol,Asynchronous protocol,I2C protocol,UART protocol,Option_1,Intermediate
+What is RS-485?,Industrial serial communication protocol,RS-232,USB protocol,Ethernet,Option_1,Advanced
+What is CAN bus?,Controller Area Network for vehicle communication,Ethernet,WiFi,Bluetooth,Option_1,Advanced
+What is HTTP in IoT?,Protocol for client-server communication,Serial protocol,Wireless protocol,Network protocol,Option_1,Beginner
+What is REST API in IoT?,API using HTTP for device communication,MQTT protocol,CoAP protocol,WebSocket,Option_1,Intermediate
+What is JSON in IoT?,Data format for exchanging information,XML format,CSV format,Binary format,Option_1,Beginner
+What is Protocol Buffer?,Compact serialization format for data,JSON format,XML format,Text format,Option_1,Advanced
+What is Azure IoT Hub?,Microsoft cloud platform for IoT,AWS IoT service,Google Cloud IoT,Raspberry Pi,Option_1,Intermediate
+What is AWS IoT Core?,Amazon cloud service for IoT devices,Azure IoT,Google IoT,IBM Watson,Option_1,Intermediate
+What is Google Cloud IoT?,Google cloud platform for IoT,AWS IoT,Azure IoT,IBM service,Option_1,Intermediate
+What is IBM Watson IoT?,IBM platform for IoT analytics,AWS service,Azure service,Google service,Option_1,Intermediate
+What is ThingSpeak?,IoT analytics platform for data collection,AWS service,Cloud platform,Edge device,Option_1,Intermediate
+What is Blynk?,IoT platform with mobile app integration,Cloud service,Device platform,Network protocol,Option_1,Intermediate
+What is Node-RED?,Visual IoT application development tool,Programming language,Operating system,Hardware platform,Option_1,Intermediate
+What is Home Assistant?,Open-source home automation platform,Commercial platform,Cloud service,Hardware device,Option_1,Intermediate
+What is time-series database?,Database optimized for timestamped data,Relational database,NoSQL database,Graph database,Option_1,Intermediate
+What is InfluxDB?,Time-series database for IoT data,Relational database,Document database,Graph database,Option_1,Intermediate
+What is Prometheus?,Monitoring system collecting time-series metrics,Database,Cloud service,Programming language,Option_1,Advanced
+What is data compression in IoT?,Reducing data size for transmission,Data encryption,Data encoding,Data formatting,Option_1,Intermediate
+What is data aggregation?,Combining data from multiple sources,Data collection,Data transmission,Data storage,Option_1,Intermediate
+What is IoT security?,Protecting devices and data from attacks,Data privacy,Network security,Device management,Option_1,Intermediate
+What is authentication in IoT?,Verifying device or user identity,Authorization,Encryption,Data protection,Option_1,Intermediate
+What is device certificate?,Digital certificate identifying IoT device,User certificate,CA certificate,Self-signed certificate,Option_1,Advanced
+What is SSL/TLS in IoT?,Encryption protocol for secure communication,Wireless protocol,Serial protocol,Network protocol,Option_1,Intermediate
+What is end-to-end encryption?,Encrypting data from source to destination,Point-to-point encryption,Network encryption,Device encryption,Option_1,Advanced
+What is firmware update?,Updating device software after deployment,Software installation,Application update,Configuration change,Option_1,Intermediate
+What is OTA (Over-The-Air) update?,Remotely updating device firmware wirelessly,Physical update,Manual update,Wired update,Option_1,Intermediate
+What is secure boot?,Verifying firmware integrity during startup,Fast boot,Boot optimization,Boot loader,Option_1,Advanced
+What is power consumption in IoT?,Energy used by device during operation,Performance metric,Processing power,Network speed,Option_1,Intermediate
+What is low-power design?,Minimizing energy consumption in IoT devices,Performance optimization,Speed optimization,Memory reduction,Option_1,Intermediate
+What is sleep mode?,Power-saving state reducing energy consumption,Idle state,Active state,Running state,Option_1,Intermediate
+What is battery optimization?,Techniques extending device battery life,Hardware design,Software design,Power management,Option_1,Intermediate
+What is energy harvesting?,Collecting energy from environment,Power generation,Battery charging,Solar power,Option_1,Advanced
+What is duty cycle?,Ratio of active time to total time,Operating time,Battery life,Processing time,Option_1,Advanced
+What is real-time processing?,Processing data with minimal delay,Batch processing,Scheduled processing,Offline processing,Option_1,Intermediate
+What is edge analytics?,Analyzing data locally on edge devices,Cloud analytics,Remote analysis,Server analytics,Option_1,Advanced
+What is stream processing?,Processing continuous data streams,Batch processing,File processing,Database processing,Option_1,Advanced
+What is latency in IoT?,Delay between input and output,Processing speed,Network speed,Data transfer rate,Option_1,Intermediate
+What is throughput in IoT?,Amount of data processed per unit time,Speed,Bandwidth,Frequency,Option_1,Intermediate
+What is smart home?,Home with automated and connected devices,Modern home,High-tech home,Connected devices,Option_1,Beginner
+What is smart city?,Urban area using IoT for services,Modern city,Technology city,Connected infrastructure,Option_1,Beginner
+What is smart agriculture?,Using IoT in farming and crop management,Modern farming,Precision farming,Automated farming,Option_1,Intermediate
+What is industrial IoT (IIoT)?,IoT applications in manufacturing and industry,Factory automation,Manufacturing,Production,Option_1,Intermediate
+What is predictive maintenance?,Using data to predict equipment failures,Preventive maintenance,Scheduled maintenance,Corrective maintenance,Option_1,Advanced
+What is healthcare IoT?,IoT devices and systems in healthcare,Medical devices,Patient monitoring,Health tracking,Option_1,Intermediate
+What is wearable device?,IoT device worn on body for monitoring,Smart device,Mobile device,Connected device,Option_1,Beginner
+What is connected vehicle?,Vehicle with IoT connectivity,Self-driving car,Autonomous vehicle,Electric vehicle,Option_1,Intermediate
+What is mesh network?,Network where each node relays data,Star topology,Tree topology,Linear topology,Option_1,Intermediate
+What is star topology?,Network with central hub/point,Mesh network,Tree network,Ring network,Option_1,Intermediate
+What is client-server architecture?,Devices requesting services from server,Peer-to-peer,Distributed,Decentralized,Option_1,Intermediate
+What is peer-to-peer (P2P) in IoT?,Devices communicating directly without server,Client-server,Star topology,Mesh network,Option_1,Intermediate
+What is fog computing?,Computing between cloud and edge devices,Cloud computing,Edge computing,Local computing,Option_1,Advanced
+What is cloud computing in IoT?,Using cloud services for IoT data,Local computing,Edge computing,Fog computing,Option_1,Intermediate
+What is unit testing in IoT?,Testing individual components,Integration testing,System testing,Acceptance testing,Option_1,Intermediate
+What is integration testing?,Testing interaction between components,Unit testing,System testing,Field testing,Option_1,Intermediate
+What is field testing?,Testing device in real-world environment,Lab testing,Simulation,Bench testing,Option_1,Intermediate
+What is serial monitor in Arduino?,Tool for debugging via serial communication,IDE feature,Programming tool,Development tool,Option_1,Intermediate
+What is debugging in IoT?,Identifying and fixing device issues,Testing,Monitoring,Analysis,Option_1,Beginner
+What is bandwidth in IoT?,Maximum data transmission rate,Network speed,Processing speed,Memory capacity,Option_1,Intermediate
+What is reliability in IoT?,Device performing consistently without failure,Performance,Accuracy,Availability,Option_1,Intermediate
+What is availability in IoT?,Percentage of time system is operational,Uptime,System status,Service availability,Option_1,Intermediate
+What is accuracy in IoT?,Correctness of sensor measurements,Precision,Resolution,Sensitivity,Option_1,Intermediate
+What is precision in sensors?,Consistency of repeated measurements,Accuracy,Resolution,Sensitivity,Option_1,Advanced
+What is 802.11 (WiFi)?,Wireless LAN standard,Cellular standard,Bluetooth standard,Wireless protocol,Option_1,Intermediate
+What is 802.15.4 (Zigbee)?,Wireless standard for low-power devices,WiFi standard,Cellular standard,Bluetooth,Option_1,Intermediate
+What is OpenStack?,Open-source cloud computing platform,IoT platform,Operating system,Hardware platform,Option_1,Advanced
+What is MQTT protocol?,Machine-to-Machine messaging protocol,HTTP protocol,FTP protocol,TCP protocol,Option_1,Intermediate
+What is publish-subscribe model?,Publishers send messages to subscribers,Request-response model,Client-server,Peer-to-peer,Option_1,Advanced
+What is machine learning in IoT?,Applying ML algorithms to IoT data,Data collection,Data storage,Data transmission,Option_1,Advanced
+What is anomaly detection in IoT?,Identifying unusual patterns in data,Data analysis,Data filtering,Data compression,Option_1,Advanced
+What is digital twin?,Virtual replica of physical device,Backup device,Test device,Shadow device,Option_1,Advanced
+What is virtualization in IoT?,Running multiple systems on single hardware,Container technology,Emulation,Abstraction,Option_1,Advanced
+What is container technology?,Lightweight virtualization for applications,Virtual machine,Hypervisor,Operating system,Option_1,Advanced
+What is Docker in IoT?,Container platform for IoT applications,Virtual machine,Operating system,Hardware platform,Option_1,Advanced
+What is Kubernetes in IoT?,Container orchestration platform,Container runtime,Container registry,Container networking,Option_1,Advanced
+What is IoT (Internet of Things)?,Network of physical devices connected to internet,Computer network,Internet connection,Data storage,Option_1,Beginner
+What are the main components of IoT?,"Sensors, connectivity, data processing, user interface",Only sensors,Only connectivity,Only processing,Option_1,Beginner
+What is a sensor in IoT?,Device detecting physical properties and converting to signals,Actuator,Controller,Gateway,Option_1,Beginner
+What is an actuator in IoT?,Device that performs physical action based on commands,Sensor,Processor,Network device,Option_1,Beginner
+What is a microcontroller?,Small computer on single chip controlling IoT device,Laptop,Server,Phone,Option_1,Beginner
+What is Arduino?,Open-source microcontroller platform for IoT projects,Microchip brand,Programming language,Operating system,Option_1,Beginner
+What is Raspberry Pi?,Single-board computer for IoT and embedded systems,Microcontroller,Sensor device,Network device,Option_1,Beginner
+What is IoT gateway?,Device connecting IoT network to internet,Firewall,Router,Switch,Option_1,Intermediate
+What are IoT applications?,"Smart homes, healthcare, agriculture, industrial automation",Only smart homes,Only healthcare,Only industrial,Option_1,Beginner
+What is edge computing in IoT?,Processing data locally on edge devices,Cloud processing,Server processing,Remote processing,Option_1,Intermediate
+What is WiFi in IoT?,Wireless technology for local network connectivity,Cellular technology,Satellite technology,Bluetooth,Option_1,Beginner
+What is Bluetooth in IoT?,Short-range wireless technology for device communication,Long-range wireless,WiFi technology,Cellular,Option_1,Beginner
+What is BLE (Bluetooth Low Energy)?,Low-power Bluetooth for IoT devices,Regular Bluetooth,WiFi variant,Cellular technology,Option_1,Intermediate
+What is Zigbee?,Low-power wireless technology for mesh networks,WiFi,Cellular,Bluetooth,Option_1,Intermediate
+What is LoRaWAN?,Long-range wide-area network for IoT,Short-range network,WiFi network,Cellular network,Option_1,Intermediate
+What is NB-IoT?,Narrowband cellular technology for IoT,Broadband,WiFi,Bluetooth,Option_1,Intermediate
+What is LTE-M (Cat-M)?,Cellular technology optimized for IoT,WiFi variant,Bluetooth variant,Satellite technology,Option_1,Intermediate
+What is 5G in IoT?,Fifth generation wireless with low latency,Fourth generation,Previous standard,WiFi technology,Option_1,Intermediate
+What is MQTT?,Lightweight messaging protocol for IoT,HTTP protocol,FTP protocol,Bluetooth protocol,Option_1,Intermediate
+What is CoAP?,Constrained Application Protocol for IoT,HTTP protocol,MQTT protocol,REST protocol,Option_1,Advanced
+What is ATmega328P?,Microcontroller used in Arduino Uno,Raspberry Pi processor,STM32 variant,ARM processor,Option_1,Intermediate
+What is STM32?,ARM-based microcontroller for IoT,AVR microcontroller,Arduino chip,Raspberry Pi,Option_1,Intermediate
+What is ARM Cortex?,Processor architecture for embedded systems,AVR architecture,MIPS architecture,x86 architecture,Option_1,Intermediate
+What is PWM (Pulse Width Modulation)?,Technique controlling device power and behavior,Digital signal,Analog signal,Data encoding,Option_1,Intermediate
+What is ADC (Analog to Digital Converter)?,Converting analog signals to digital values,Digital to analog,Signal amplifier,Signal filter,Option_1,Intermediate
+What is DAC (Digital to Analog Converter)?,Converting digital signals to analog values,Analog to digital,Signal processing,Signal filtering,Option_1,Advanced
+What is interrupt in microcontroller?,Signal causing processor to halt and handle event,Synchronous call,Function call,Loop control,Option_1,Intermediate
+What is timer in microcontroller?,Hardware counting events or delays,Software counter,Loop variable,Function call,Option_1,Intermediate
+What is serial communication?,Transmitting data one bit at a time,Parallel communication,Multi-bit transmission,Wireless communication,Option_1,Intermediate
+What is UART (Universal Asynchronous Receiver Transmitter)?,Serial communication protocol,Parallel protocol,Network protocol,Wireless protocol,Option_1,Intermediate
+What is Arduino IDE?,Integrated development environment for Arduino,Text editor,Compiler only,Debugger only,Option_1,Beginner
+What is sketch in Arduino?,Code program running on Arduino,Circuit diagram,Hardware design,Configuration file,Option_1,Beginner
+What is setup() function in Arduino?,Runs once when board powers on,Runs repeatedly,Library function,Helper function,Option_1,Beginner
+What is loop() function in Arduino?,Runs repeatedly after setup,Runs once,Setup function,Configuration,Option_1,Beginner
+What is pinMode() in Arduino?,Configures pin as input or output,Reads analog value,Writes digital value,Sets frequency,Option_1,Intermediate
+What is digitalWrite() in Arduino?,Sets digital pin to HIGH or LOW,Reads digital input,Sets analog value,Reads analog input,Option_1,Intermediate
+What is analogRead() in Arduino?,Reads analog value from pin (0-1023),Writes analog value,Reads digital value,Sets PWM,Option_1,Intermediate
+What is analogWrite() in Arduino?,Outputs PWM signal on pin,Reads analog,Reads digital,Sets frequency,Option_1,Intermediate
+What is C++ in embedded systems?,Language for IoT and embedded development,Python,JavaScript,Java,Option_1,Intermediate
+What is MicroPython?,Python implementation for microcontrollers,Full Python,Circuit Python,Language variant,Option_1,Intermediate
+What is temperature sensor?,Measures temperature and outputs signal,Humidity sensor,Pressure sensor,Light sensor,Option_1,Beginner
+What is DHT11 sensor?,Temperature and humidity sensor,Pressure sensor,Gas sensor,Motion sensor,Option_1,Intermediate
+What is BME280 sensor?,"Measures temperature, humidity, pressure",DHT sensor,Motion sensor,Gas sensor,Option_1,Intermediate
+What is accelerometer?,Measures acceleration and motion,Gyroscope,Magnetometer,Barometer,Option_1,Intermediate
+What is gyroscope?,Measures rotation rate and angular velocity,Accelerometer,Magnetometer,Thermometer,Option_1,Intermediate
+What is magnetometer?,Measures magnetic field strength,Accelerometer,Gyroscope,Thermometer,Option_1,Intermediate
+What is IMU (Inertial Measurement Unit)?,"Combines accelerometer, gyroscope, magnetometer",Single sensor,Temperature sensor,Pressure sensor,Option_1,Advanced
+What is pressure sensor?,Measures atmospheric or fluid pressure,Temperature sensor,Humidity sensor,Gas sensor,Option_1,Intermediate
+What is motion sensor (PIR)?,Detects infrared radiation from movement,Pressure sensor,Temperature sensor,Light sensor,Option_1,Intermediate
+What is ultrasonic sensor?,Measures distance using sound waves,Motion sensor,Temperature sensor,Light sensor,Option_1,Intermediate
+What is gas sensor?,Detects presence of specific gases,Smoke detector,Motion sensor,Temperature sensor,Option_1,Intermediate
+What is soil moisture sensor?,Measures water content in soil,Temperature sensor,Humidity sensor,Pressure sensor,Option_1,Intermediate
+What is I2C (Inter-Integrated Circuit)?,Two-wire serial communication protocol,SPI protocol,UART protocol,Wireless protocol,Option_1,Intermediate
+What is SPI (Serial Peripheral Interface)?,Synchronous serial communication protocol,Asynchronous protocol,I2C protocol,UART protocol,Option_1,Intermediate
+What is RS-485?,Industrial serial communication protocol,RS-232,USB protocol,Ethernet,Option_1,Advanced
+What is CAN bus?,Controller Area Network for vehicle communication,Ethernet,WiFi,Bluetooth,Option_1,Advanced
+What is HTTP in IoT?,Protocol for client-server communication,Serial protocol,Wireless protocol,Network protocol,Option_1,Beginner
+What is REST API in IoT?,API using HTTP for device communication,MQTT protocol,CoAP protocol,WebSocket,Option_1,Intermediate
+What is JSON in IoT?,Data format for exchanging information,XML format,CSV format,Binary format,Option_1,Beginner
+What is Protocol Buffer?,Compact serialization format for data,JSON format,XML format,Text format,Option_1,Advanced
+What is Azure IoT Hub?,Microsoft cloud platform for IoT,AWS IoT service,Google Cloud IoT,Raspberry Pi,Option_1,Intermediate
+What is AWS IoT Core?,Amazon cloud service for IoT devices,Azure IoT,Google IoT,IBM Watson,Option_1,Intermediate
+What is Google Cloud IoT?,Google cloud platform for IoT,AWS IoT,Azure IoT,IBM service,Option_1,Intermediate
+What is IBM Watson IoT?,IBM platform for IoT analytics,AWS service,Azure service,Google service,Option_1,Intermediate
+What is ThingSpeak?,IoT analytics platform for data collection,AWS service,Cloud platform,Edge device,Option_1,Intermediate
+What is Blynk?,IoT platform with mobile app integration,Cloud service,Device platform,Network protocol,Option_1,Intermediate
+What is Node-RED?,Visual IoT application development tool,Programming language,Operating system,Hardware platform,Option_1,Intermediate
+What is Home Assistant?,Open-source home automation platform,Commercial platform,Cloud service,Hardware device,Option_1,Intermediate
+What is time-series database?,Database optimized for timestamped data,Relational database,NoSQL database,Graph database,Option_1,Intermediate
+What is InfluxDB?,Time-series database for IoT data,Relational database,Document database,Graph database,Option_1,Intermediate
+What is Prometheus?,Monitoring system collecting time-series metrics,Database,Cloud service,Programming language,Option_1,Advanced
+What is data compression in IoT?,Reducing data size for transmission,Data encryption,Data encoding,Data formatting,Option_1,Intermediate
+What is data aggregation?,Combining data from multiple sources,Data collection,Data transmission,Data storage,Option_1,Intermediate
+What is IoT security?,Protecting devices and data from attacks,Data privacy,Network security,Device management,Option_1,Intermediate
+What is authentication in IoT?,Verifying device or user identity,Authorization,Encryption,Data protection,Option_1,Intermediate
+What is device certificate?,Digital certificate identifying IoT device,User certificate,CA certificate,Self-signed certificate,Option_1,Advanced
+What is SSL/TLS in IoT?,Encryption protocol for secure communication,Wireless protocol,Serial protocol,Network protocol,Option_1,Intermediate
+What is end-to-end encryption?,Encrypting data from source to destination,Point-to-point encryption,Network encryption,Device encryption,Option_1,Advanced
+What is firmware update?,Updating device software after deployment,Software installation,Application update,Configuration change,Option_1,Intermediate
+What is OTA (Over-The-Air) update?,Remotely updating device firmware wirelessly,Physical update,Manual update,Wired update,Option_1,Intermediate
+What is secure boot?,Verifying firmware integrity during startup,Fast boot,Boot optimization,Boot loader,Option_1,Advanced
+What is power consumption in IoT?,Energy used by device during operation,Performance metric,Processing power,Network speed,Option_1,Intermediate
+What is low-power design?,Minimizing energy consumption in IoT devices,Performance optimization,Speed optimization,Memory reduction,Option_1,Intermediate
+What is sleep mode?,Power-saving state reducing energy consumption,Idle state,Active state,Running state,Option_1,Intermediate
+What is battery optimization?,Techniques extending device battery life,Hardware design,Software design,Power management,Option_1,Intermediate
+What is energy harvesting?,Collecting energy from environment,Power generation,Battery charging,Solar power,Option_1,Advanced
+What is duty cycle?,Ratio of active time to total time,Operating time,Battery life,Processing time,Option_1,Advanced
+What is real-time processing?,Processing data with minimal delay,Batch processing,Scheduled processing,Offline processing,Option_1,Intermediate
+What is edge analytics?,Analyzing data locally on edge devices,Cloud analytics,Remote analysis,Server analytics,Option_1,Advanced
+What is stream processing?,Processing continuous data streams,Batch processing,File processing,Database processing,Option_1,Advanced
+What is latency in IoT?,Delay between input and output,Processing speed,Network speed,Data transfer rate,Option_1,Intermediate
+What is throughput in IoT?,Amount of data processed per unit time,Speed,Bandwidth,Frequency,Option_1,Intermediate
+What is smart home?,Home with automated and connected devices,Modern home,High-tech home,Connected devices,Option_1,Beginner
+What is smart city?,Urban area using IoT for services,Modern city,Technology city,Connected infrastructure,Option_1,Beginner
+What is smart agriculture?,Using IoT in farming and crop management,Modern farming,Precision farming,Automated farming,Option_1,Intermediate
+What is industrial IoT (IIoT)?,IoT applications in manufacturing and industry,Factory automation,Manufacturing,Production,Option_1,Intermediate
+What is predictive maintenance?,Using data to predict equipment failures,Preventive maintenance,Scheduled maintenance,Corrective maintenance,Option_1,Advanced
+What is healthcare IoT?,IoT devices and systems in healthcare,Medical devices,Patient monitoring,Health tracking,Option_1,Intermediate
+What is wearable device?,IoT device worn on body for monitoring,Smart device,Mobile device,Connected device,Option_1,Beginner
+What is connected vehicle?,Vehicle with IoT connectivity,Self-driving car,Autonomous vehicle,Electric vehicle,Option_1,Intermediate
+What is mesh network?,Network where each node relays data,Star topology,Tree topology,Linear topology,Option_1,Intermediate
+What is star topology?,Network with central hub/point,Mesh network,Tree network,Ring network,Option_1,Intermediate
+What is client-server architecture?,Devices requesting services from server,Peer-to-peer,Distributed,Decentralized,Option_1,Intermediate
+What is peer-to-peer (P2P) in IoT?,Devices communicating directly without server,Client-server,Star topology,Mesh network,Option_1,Intermediate
+What is fog computing?,Computing between cloud and edge devices,Cloud computing,Edge computing,Local computing,Option_1,Advanced
+What is cloud computing in IoT?,Using cloud services for IoT data,Local computing,Edge computing,Fog computing,Option_1,Intermediate
+What is unit testing in IoT?,Testing individual components,Integration testing,System testing,Acceptance testing,Option_1,Intermediate
+What is integration testing?,Testing interaction between components,Unit testing,System testing,Field testing,Option_1,Intermediate
+What is field testing?,Testing device in real-world environment,Lab testing,Simulation,Bench testing,Option_1,Intermediate
+What is serial monitor in Arduino?,Tool for debugging via serial communication,IDE feature,Programming tool,Development tool,Option_1,Intermediate
+What is debugging in IoT?,Identifying and fixing device issues,Testing,Monitoring,Analysis,Option_1,Beginner
+What is bandwidth in IoT?,Maximum data transmission rate,Network speed,Processing speed,Memory capacity,Option_1,Intermediate
+What is reliability in IoT?,Device performing consistently without failure,Performance,Accuracy,Availability,Option_1,Intermediate
+What is availability in IoT?,Percentage of time system is operational,Uptime,System status,Service availability,Option_1,Intermediate
+What is accuracy in IoT?,Correctness of sensor measurements,Precision,Resolution,Sensitivity,Option_1,Intermediate
+What is precision in sensors?,Consistency of repeated measurements,Accuracy,Resolution,Sensitivity,Option_1,Advanced
+What is 802.11 (WiFi)?,Wireless LAN standard,Cellular standard,Bluetooth standard,Wireless protocol,Option_1,Intermediate
+What is 802.15.4 (Zigbee)?,Wireless standard for low-power devices,WiFi standard,Cellular standard,Bluetooth,Option_1,Intermediate
+What is OpenStack?,Open-source cloud computing platform,IoT platform,Operating system,Hardware platform,Option_1,Advanced
+What is MQTT protocol?,Machine-to-Machine messaging protocol,HTTP protocol,FTP protocol,TCP protocol,Option_1,Intermediate
+What is publish-subscribe model?,Publishers send messages to subscribers,Request-response model,Client-server,Peer-to-peer,Option_1,Advanced
+What is machine learning in IoT?,Applying ML algorithms to IoT data,Data collection,Data storage,Data transmission,Option_1,Advanced
+What is anomaly detection in IoT?,Identifying unusual patterns in data,Data analysis,Data filtering,Data compression,Option_1,Advanced
+What is digital twin?,Virtual replica of physical device,Backup device,Test device,Shadow device,Option_1,Advanced
+What is virtualization in IoT?,Running multiple systems on single hardware,Container technology,Emulation,Abstraction,Option_1,Advanced
+What is container technology?,Lightweight virtualization for applications,Virtual machine,Hypervisor,Operating system,Option_1,Advanced
+What is Docker in IoT?,Container platform for IoT applications,Virtual machine,Operating system,Hardware platform,Option_1,Advanced
+What is Kubernetes in IoT?,Container orchestration platform,Container runtime,Container registry,Container networking,Option_1,Advanced
+What is IoT (Internet of Things)?,Network of physical devices connected to internet,Computer network,Internet connection,Data storage,Option_1,Beginner
+What are the main components of IoT?,"Sensors, connectivity, data processing, user interface",Only sensors,Only connectivity,Only processing,Option_1,Beginner
+What is a sensor in IoT?,Device detecting physical properties and converting to signals,Actuator,Controller,Gateway,Option_1,Beginner
+What is an actuator in IoT?,Device that performs physical action based on commands,Sensor,Processor,Network device,Option_1,Beginner
+What is a microcontroller?,Small computer on single chip controlling IoT device,Laptop,Server,Phone,Option_1,Beginner
+What is Arduino?,Open-source microcontroller platform for IoT projects,Microchip brand,Programming language,Operating system,Option_1,Beginner
+What is Raspberry Pi?,Single-board computer for IoT and embedded systems,Microcontroller,Sensor device,Network device,Option_1,Beginner
+What is IoT gateway?,Device connecting IoT network to internet,Firewall,Router,Switch,Option_1,Intermediate
+What are IoT applications?,"Smart homes, healthcare, agriculture, industrial automation",Only smart homes,Only healthcare,Only industrial,Option_1,Beginner
+What is edge computing in IoT?,Processing data locally on edge devices,Cloud processing,Server processing,Remote processing,Option_1,Intermediate
+What is WiFi in IoT?,Wireless technology for local network connectivity,Cellular technology,Satellite technology,Bluetooth,Option_1,Beginner
+What is Bluetooth in IoT?,Short-range wireless technology for device communication,Long-range wireless,WiFi technology,Cellular,Option_1,Beginner
+What is BLE (Bluetooth Low Energy)?,Low-power Bluetooth for IoT devices,Regular Bluetooth,WiFi variant,Cellular technology,Option_1,Intermediate
+What is Zigbee?,Low-power wireless technology for mesh networks,WiFi,Cellular,Bluetooth,Option_1,Intermediate
+What is LoRaWAN?,Long-range wide-area network for IoT,Short-range network,WiFi network,Cellular network,Option_1,Intermediate
+What is NB-IoT?,Narrowband cellular technology for IoT,Broadband,WiFi,Bluetooth,Option_1,Intermediate
+What is LTE-M (Cat-M)?,Cellular technology optimized for IoT,WiFi variant,Bluetooth variant,Satellite technology,Option_1,Intermediate
+What is 5G in IoT?,Fifth generation wireless with low latency,Fourth generation,Previous standard,WiFi technology,Option_1,Intermediate
+What is MQTT?,Lightweight messaging protocol for IoT,HTTP protocol,FTP protocol,Bluetooth protocol,Option_1,Intermediate
+What is CoAP?,Constrained Application Protocol for IoT,HTTP protocol,MQTT protocol,REST protocol,Option_1,Advanced
+What is ATmega328P?,Microcontroller used in Arduino Uno,Raspberry Pi processor,STM32 variant,ARM processor,Option_1,Intermediate
+What is STM32?,ARM-based microcontroller for IoT,AVR microcontroller,Arduino chip,Raspberry Pi,Option_1,Intermediate
+What is ARM Cortex?,Processor architecture for embedded systems,AVR architecture,MIPS architecture,x86 architecture,Option_1,Intermediate
+What is PWM (Pulse Width Modulation)?,Technique controlling device power and behavior,Digital signal,Analog signal,Data encoding,Option_1,Intermediate
+What is ADC (Analog to Digital Converter)?,Converting analog signals to digital values,Digital to analog,Signal amplifier,Signal filter,Option_1,Intermediate
+What is DAC (Digital to Analog Converter)?,Converting digital signals to analog values,Analog to digital,Signal processing,Signal filtering,Option_1,Advanced
+What is interrupt in microcontroller?,Signal causing processor to halt and handle event,Synchronous call,Function call,Loop control,Option_1,Intermediate
+What is timer in microcontroller?,Hardware counting events or delays,Software counter,Loop variable,Function call,Option_1,Intermediate
+What is serial communication?,Transmitting data one bit at a time,Parallel communication,Multi-bit transmission,Wireless communication,Option_1,Intermediate
+What is UART (Universal Asynchronous Receiver Transmitter)?,Serial communication protocol,Parallel protocol,Network protocol,Wireless protocol,Option_1,Intermediate
+What is Arduino IDE?,Integrated development environment for Arduino,Text editor,Compiler only,Debugger only,Option_1,Beginner
+What is sketch in Arduino?,Code program running on Arduino,Circuit diagram,Hardware design,Configuration file,Option_1,Beginner
+What is setup() function in Arduino?,Runs once when board powers on,Runs repeatedly,Library function,Helper function,Option_1,Beginner
+What is loop() function in Arduino?,Runs repeatedly after setup,Runs once,Setup function,Configuration,Option_1,Beginner
+What is pinMode() in Arduino?,Configures pin as input or output,Reads analog value,Writes digital value,Sets frequency,Option_1,Intermediate
+What is digitalWrite() in Arduino?,Sets digital pin to HIGH or LOW,Reads digital input,Sets analog value,Reads analog input,Option_1,Intermediate
+What is analogRead() in Arduino?,Reads analog value from pin (0-1023),Writes analog value,Reads digital value,Sets PWM,Option_1,Intermediate
+What is analogWrite() in Arduino?,Outputs PWM signal on pin,Reads analog,Reads digital,Sets frequency,Option_1,Intermediate
+What is C++ in embedded systems?,Language for IoT and embedded development,Python,JavaScript,Java,Option_1,Intermediate
+What is MicroPython?,Python implementation for microcontrollers,Full Python,Circuit Python,Language variant,Option_1,Intermediate
+What is temperature sensor?,Measures temperature and outputs signal,Humidity sensor,Pressure sensor,Light sensor,Option_1,Beginner
+What is DHT11 sensor?,Temperature and humidity sensor,Pressure sensor,Gas sensor,Motion sensor,Option_1,Intermediate
+What is BME280 sensor?,"Measures temperature, humidity, pressure",DHT sensor,Motion sensor,Gas sensor,Option_1,Intermediate
+What is accelerometer?,Measures acceleration and motion,Gyroscope,Magnetometer,Barometer,Option_1,Intermediate
+What is gyroscope?,Measures rotation rate and angular velocity,Accelerometer,Magnetometer,Thermometer,Option_1,Intermediate
+What is magnetometer?,Measures magnetic field strength,Accelerometer,Gyroscope,Thermometer,Option_1,Intermediate
+What is IMU (Inertial Measurement Unit)?,"Combines accelerometer, gyroscope, magnetometer",Single sensor,Temperature sensor,Pressure sensor,Option_1,Advanced
+What is pressure sensor?,Measures atmospheric or fluid pressure,Temperature sensor,Humidity sensor,Gas sensor,Option_1,Intermediate
+What is motion sensor (PIR)?,Detects infrared radiation from movement,Pressure sensor,Temperature sensor,Light sensor,Option_1,Intermediate
+What is ultrasonic sensor?,Measures distance using sound waves,Motion sensor,Temperature sensor,Light sensor,Option_1,Intermediate
+What is gas sensor?,Detects presence of specific gases,Smoke detector,Motion sensor,Temperature sensor,Option_1,Intermediate
+What is soil moisture sensor?,Measures water content in soil,Temperature sensor,Humidity sensor,Pressure sensor,Option_1,Intermediate
+What is I2C (Inter-Integrated Circuit)?,Two-wire serial communication protocol,SPI protocol,UART protocol,Wireless protocol,Option_1,Intermediate
+What is SPI (Serial Peripheral Interface)?,Synchronous serial communication protocol,Asynchronous protocol,I2C protocol,UART protocol,Option_1,Intermediate
+What is RS-485?,Industrial serial communication protocol,RS-232,USB protocol,Ethernet,Option_1,Advanced
+What is CAN bus?,Controller Area Network for vehicle communication,Ethernet,WiFi,Bluetooth,Option_1,Advanced
+What is HTTP in IoT?,Protocol for client-server communication,Serial protocol,Wireless protocol,Network protocol,Option_1,Beginner
+What is REST API in IoT?,API using HTTP for device communication,MQTT protocol,CoAP protocol,WebSocket,Option_1,Intermediate
+What is JSON in IoT?,Data format for exchanging information,XML format,CSV format,Binary format,Option_1,Beginner
+What is Protocol Buffer?,Compact serialization format for data,JSON format,XML format,Text format,Option_1,Advanced
+What is Azure IoT Hub?,Microsoft cloud platform for IoT,AWS IoT service,Google Cloud IoT,Raspberry Pi,Option_1,Intermediate
+What is AWS IoT Core?,Amazon cloud service for IoT devices,Azure IoT,Google IoT,IBM Watson,Option_1,Intermediate
+What is Google Cloud IoT?,Google cloud platform for IoT,AWS IoT,Azure IoT,IBM service,Option_1,Intermediate
+What is IBM Watson IoT?,IBM platform for IoT analytics,AWS service,Azure service,Google service,Option_1,Intermediate
+What is ThingSpeak?,IoT analytics platform for data collection,AWS service,Cloud platform,Edge device,Option_1,Intermediate
+What is Blynk?,IoT platform with mobile app integration,Cloud service,Device platform,Network protocol,Option_1,Intermediate
+What is Node-RED?,Visual IoT application development tool,Programming language,Operating system,Hardware platform,Option_1,Intermediate
+What is Home Assistant?,Open-source home automation platform,Commercial platform,Cloud service,Hardware device,Option_1,Intermediate
+What is time-series database?,Database optimized for timestamped data,Relational database,NoSQL database,Graph database,Option_1,Intermediate
+What is InfluxDB?,Time-series database for IoT data,Relational database,Document database,Graph database,Option_1,Intermediate
+What is Prometheus?,Monitoring system collecting time-series metrics,Database,Cloud service,Programming language,Option_1,Advanced
+What is data compression in IoT?,Reducing data size for transmission,Data encryption,Data encoding,Data formatting,Option_1,Intermediate
+What is data aggregation?,Combining data from multiple sources,Data collection,Data transmission,Data storage,Option_1,Intermediate
+What is IoT security?,Protecting devices and data from attacks,Data privacy,Network security,Device management,Option_1,Intermediate
+What is authentication in IoT?,Verifying device or user identity,Authorization,Encryption,Data protection,Option_1,Intermediate
+What is device certificate?,Digital certificate identifying IoT device,User certificate,CA certificate,Self-signed certificate,Option_1,Advanced
+What is SSL/TLS in IoT?,Encryption protocol for secure communication,Wireless protocol,Serial protocol,Network protocol,Option_1,Intermediate
+What is end-to-end encryption?,Encrypting data from source to destination,Point-to-point encryption,Network encryption,Device encryption,Option_1,Advanced
+What is firmware update?,Updating device software after deployment,Software installation,Application update,Configuration change,Option_1,Intermediate
+What is OTA (Over-The-Air) update?,Remotely updating device firmware wirelessly,Physical update,Manual update,Wired update,Option_1,Intermediate
+What is secure boot?,Verifying firmware integrity during startup,Fast boot,Boot optimization,Boot loader,Option_1,Advanced
+What is power consumption in IoT?,Energy used by device during operation,Performance metric,Processing power,Network speed,Option_1,Intermediate
+What is low-power design?,Minimizing energy consumption in IoT devices,Performance optimization,Speed optimization,Memory reduction,Option_1,Intermediate
+What is sleep mode?,Power-saving state reducing energy consumption,Idle state,Active state,Running state,Option_1,Intermediate
+What is battery optimization?,Techniques extending device battery life,Hardware design,Software design,Power management,Option_1,Intermediate
+What is energy harvesting?,Collecting energy from environment,Power generation,Battery charging,Solar power,Option_1,Advanced
+What is duty cycle?,Ratio of active time to total time,Operating time,Battery life,Processing time,Option_1,Advanced
+What is real-time processing?,Processing data with minimal delay,Batch processing,Scheduled processing,Offline processing,Option_1,Intermediate
+What is edge analytics?,Analyzing data locally on edge devices,Cloud analytics,Remote analysis,Server analytics,Option_1,Advanced
+What is stream processing?,Processing continuous data streams,Batch processing,File processing,Database processing,Option_1,Advanced
+What is latency in IoT?,Delay between input and output,Processing speed,Network speed,Data transfer rate,Option_1,Intermediate
+What is throughput in IoT?,Amount of data processed per unit time,Speed,Bandwidth,Frequency,Option_1,Intermediate
+What is smart home?,Home with automated and connected devices,Modern home,High-tech home,Connected devices,Option_1,Beginner
+What is smart city?,Urban area using IoT for services,Modern city,Technology city,Connected infrastructure,Option_1,Beginner
+What is smart agriculture?,Using IoT in farming and crop management,Modern farming,Precision farming,Automated farming,Option_1,Intermediate
+What is industrial IoT (IIoT)?,IoT applications in manufacturing and industry,Factory automation,Manufacturing,Production,Option_1,Intermediate
+What is predictive maintenance?,Using data to predict equipment failures,Preventive maintenance,Scheduled maintenance,Corrective maintenance,Option_1,Advanced
+What is healthcare IoT?,IoT devices and systems in healthcare,Medical devices,Patient monitoring,Health tracking,Option_1,Intermediate
+What is wearable device?,IoT device worn on body for monitoring,Smart device,Mobile device,Connected device,Option_1,Beginner
+What is connected vehicle?,Vehicle with IoT connectivity,Self-driving car,Autonomous vehicle,Electric vehicle,Option_1,Intermediate
+What is mesh network?,Network where each node relays data,Star topology,Tree topology,Linear topology,Option_1,Intermediate
+What is star topology?,Network with central hub/point,Mesh network,Tree network,Ring network,Option_1,Intermediate
+What is client-server architecture?,Devices requesting services from server,Peer-to-peer,Distributed,Decentralized,Option_1,Intermediate
+What is peer-to-peer (P2P) in IoT?,Devices communicating directly without server,Client-server,Star topology,Mesh network,Option_1,Intermediate
+What is fog computing?,Computing between cloud and edge devices,Cloud computing,Edge computing,Local computing,Option_1,Advanced
+What is cloud computing in IoT?,Using cloud services for IoT data,Local computing,Edge computing,Fog computing,Option_1,Intermediate
+What is unit testing in IoT?,Testing individual components,Integration testing,System testing,Acceptance testing,Option_1,Intermediate
+What is integration testing?,Testing interaction between components,Unit testing,System testing,Field testing,Option_1,Intermediate
+What is field testing?,Testing device in real-world environment,Lab testing,Simulation,Bench testing,Option_1,Intermediate
+What is serial monitor in Arduino?,Tool for debugging via serial communication,IDE feature,Programming tool,Development tool,Option_1,Intermediate
+What is debugging in IoT?,Identifying and fixing device issues,Testing,Monitoring,Analysis,Option_1,Beginner
+What is bandwidth in IoT?,Maximum data transmission rate,Network speed,Processing speed,Memory capacity,Option_1,Intermediate
+What is reliability in IoT?,Device performing consistently without failure,Performance,Accuracy,Availability,Option_1,Intermediate
+What is availability in IoT?,Percentage of time system is operational,Uptime,System status,Service availability,Option_1,Intermediate
+What is accuracy in IoT?,Correctness of sensor measurements,Precision,Resolution,Sensitivity,Option_1,Intermediate
+What is precision in sensors?,Consistency of repeated measurements,Accuracy,Resolution,Sensitivity,Option_1,Advanced
+What is 802.11 (WiFi)?,Wireless LAN standard,Cellular standard,Bluetooth standard,Wireless protocol,Option_1,Intermediate
+What is 802.15.4 (Zigbee)?,Wireless standard for low-power devices,WiFi standard,Cellular standard,Bluetooth,Option_1,Intermediate
+What is OpenStack?,Open-source cloud computing platform,IoT platform,Operating system,Hardware platform,Option_1,Advanced
+What is MQTT protocol?,Machine-to-Machine messaging protocol,HTTP protocol,FTP protocol,TCP protocol,Option_1,Intermediate
+What is publish-subscribe model?,Publishers send messages to subscribers,Request-response model,Client-server,Peer-to-peer,Option_1,Advanced
+What is machine learning in IoT?,Applying ML algorithms to IoT data,Data collection,Data storage,Data transmission,Option_1,Advanced
+What is anomaly detection in IoT?,Identifying unusual patterns in data,Data analysis,Data filtering,Data compression,Option_1,Advanced
+What is digital twin?,Virtual replica of physical device,Backup device,Test device,Shadow device,Option_1,Advanced
+What is virtualization in IoT?,Running multiple systems on single hardware,Container technology,Emulation,Abstraction,Option_1,Advanced
+What is container technology?,Lightweight virtualization for applications,Virtual machine,Hypervisor,Operating system,Option_1,Advanced
+What is Docker in IoT?,Container platform for IoT applications,Virtual machine,Operating system,Hardware platform,Option_1,Advanced
+What is Kubernetes in IoT?,Container orchestration platform,Container runtime,Container registry,Container networking,Option_1,Advanced
+What is IoT (Internet of Things)?,Network of physical devices connected to internet,Computer network,Internet connection,Data storage,Option_1,Beginner
+What are the main components of IoT?,"Sensors, connectivity, data processing, user interface",Only sensors,Only connectivity,Only processing,Option_1,Beginner
+What is a sensor in IoT?,Device detecting physical properties and converting to signals,Actuator,Controller,Gateway,Option_1,Beginner
+What is an actuator in IoT?,Device that performs physical action based on commands,Sensor,Processor,Network device,Option_1,Beginner
+What is a microcontroller?,Small computer on single chip controlling IoT device,Laptop,Server,Phone,Option_1,Beginner
+What is Arduino?,Open-source microcontroller platform for IoT projects,Microchip brand,Programming language,Operating system,Option_1,Beginner
+What is Raspberry Pi?,Single-board computer for IoT and embedded systems,Microcontroller,Sensor device,Network device,Option_1,Beginner
+What is IoT gateway?,Device connecting IoT network to internet,Firewall,Router,Switch,Option_1,Intermediate
+What are IoT applications?,"Smart homes, healthcare, agriculture, industrial automation",Only smart homes,Only healthcare,Only industrial,Option_1,Beginner
+What is edge computing in IoT?,Processing data locally on edge devices,Cloud processing,Server processing,Remote processing,Option_1,Intermediate
+What is WiFi in IoT?,Wireless technology for local network connectivity,Cellular technology,Satellite technology,Bluetooth,Option_1,Beginner
+What is Bluetooth in IoT?,Short-range wireless technology for device communication,Long-range wireless,WiFi technology,Cellular,Option_1,Beginner
+What is BLE (Bluetooth Low Energy)?,Low-power Bluetooth for IoT devices,Regular Bluetooth,WiFi variant,Cellular technology,Option_1,Intermediate
+What is Zigbee?,Low-power wireless technology for mesh networks,WiFi,Cellular,Bluetooth,Option_1,Intermediate
+What is LoRaWAN?,Long-range wide-area network for IoT,Short-range network,WiFi network,Cellular network,Option_1,Intermediate
+What is NB-IoT?,Narrowband cellular technology for IoT,Broadband,WiFi,Bluetooth,Option_1,Intermediate
+What is LTE-M (Cat-M)?,Cellular technology optimized for IoT,WiFi variant,Bluetooth variant,Satellite technology,Option_1,Intermediate
+What is 5G in IoT?,Fifth generation wireless with low latency,Fourth generation,Previous standard,WiFi technology,Option_1,Intermediate
+What is MQTT?,Lightweight messaging protocol for IoT,HTTP protocol,FTP protocol,Bluetooth protocol,Option_1,Intermediate
+What is CoAP?,Constrained Application Protocol for IoT,HTTP protocol,MQTT protocol,REST protocol,Option_1,Advanced
+What is ATmega328P?,Microcontroller used in Arduino Uno,Raspberry Pi processor,STM32 variant,ARM processor,Option_1,Intermediate
+What is STM32?,ARM-based microcontroller for IoT,AVR microcontroller,Arduino chip,Raspberry Pi,Option_1,Intermediate
+What is ARM Cortex?,Processor architecture for embedded systems,AVR architecture,MIPS architecture,x86 architecture,Option_1,Intermediate
+What is PWM (Pulse Width Modulation)?,Technique controlling device power and behavior,Digital signal,Analog signal,Data encoding,Option_1,Intermediate
+What is ADC (Analog to Digital Converter)?,Converting analog signals to digital values,Digital to analog,Signal amplifier,Signal filter,Option_1,Intermediate
+What is DAC (Digital to Analog Converter)?,Converting digital signals to analog values,Analog to digital,Signal processing,Signal filtering,Option_1,Advanced
+What is interrupt in microcontroller?,Signal causing processor to halt and handle event,Synchronous call,Function call,Loop control,Option_1,Intermediate
+What is timer in microcontroller?,Hardware counting events or delays,Software counter,Loop variable,Function call,Option_1,Intermediate
+What is serial communication?,Transmitting data one bit at a time,Parallel communication,Multi-bit transmission,Wireless communication,Option_1,Intermediate
+What is UART (Universal Asynchronous Receiver Transmitter)?,Serial communication protocol,Parallel protocol,Network protocol,Wireless protocol,Option_1,Intermediate
+What is Arduino IDE?,Integrated development environment for Arduino,Text editor,Compiler only,Debugger only,Option_1,Beginner
+What is sketch in Arduino?,Code program running on Arduino,Circuit diagram,Hardware design,Configuration file,Option_1,Beginner
+What is setup() function in Arduino?,Runs once when board powers on,Runs repeatedly,Library function,Helper function,Option_1,Beginner
+What is loop() function in Arduino?,Runs repeatedly after setup,Runs once,Setup function,Configuration,Option_1,Beginner
+What is pinMode() in Arduino?,Configures pin as input or output,Reads analog value,Writes digital value,Sets frequency,Option_1,Intermediate
+What is digitalWrite() in Arduino?,Sets digital pin to HIGH or LOW,Reads digital input,Sets analog value,Reads analog input,Option_1,Intermediate
+What is analogRead() in Arduino?,Reads analog value from pin (0-1023),Writes analog value,Reads digital value,Sets PWM,Option_1,Intermediate
+What is analogWrite() in Arduino?,Outputs PWM signal on pin,Reads analog,Reads digital,Sets frequency,Option_1,Intermediate
+What is C++ in embedded systems?,Language for IoT and embedded development,Python,JavaScript,Java,Option_1,Intermediate
+What is MicroPython?,Python implementation for microcontrollers,Full Python,Circuit Python,Language variant,Option_1,Intermediate
+What is temperature sensor?,Measures temperature and outputs signal,Humidity sensor,Pressure sensor,Light sensor,Option_1,Beginner
+What is DHT11 sensor?,Temperature and humidity sensor,Pressure sensor,Gas sensor,Motion sensor,Option_1,Intermediate
+What is BME280 sensor?,"Measures temperature, humidity, pressure",DHT sensor,Motion sensor,Gas sensor,Option_1,Intermediate
+What is accelerometer?,Measures acceleration and motion,Gyroscope,Magnetometer,Barometer,Option_1,Intermediate
+What is gyroscope?,Measures rotation rate and angular velocity,Accelerometer,Magnetometer,Thermometer,Option_1,Intermediate
+What is magnetometer?,Measures magnetic field strength,Accelerometer,Gyroscope,Thermometer,Option_1,Intermediate
+What is IMU (Inertial Measurement Unit)?,"Combines accelerometer, gyroscope, magnetometer",Single sensor,Temperature sensor,Pressure sensor,Option_1,Advanced
+What is pressure sensor?,Measures atmospheric or fluid pressure,Temperature sensor,Humidity sensor,Gas sensor,Option_1,Intermediate
+What is motion sensor (PIR)?,Detects infrared radiation from movement,Pressure sensor,Temperature sensor,Light sensor,Option_1,Intermediate
+What is ultrasonic sensor?,Measures distance using sound waves,Motion sensor,Temperature sensor,Light sensor,Option_1,Intermediate
+What is gas sensor?,Detects presence of specific gases,Smoke detector,Motion sensor,Temperature sensor,Option_1,Intermediate
+What is soil moisture sensor?,Measures water content in soil,Temperature sensor,Humidity sensor,Pressure sensor,Option_1,Intermediate
+What is I2C (Inter-Integrated Circuit)?,Two-wire serial communication protocol,SPI protocol,UART protocol,Wireless protocol,Option_1,Intermediate
+What is SPI (Serial Peripheral Interface)?,Synchronous serial communication protocol,Asynchronous protocol,I2C protocol,UART protocol,Option_1,Intermediate
+What is RS-485?,Industrial serial communication protocol,RS-232,USB protocol,Ethernet,Option_1,Advanced
+What is CAN bus?,Controller Area Network for vehicle communication,Ethernet,WiFi,Bluetooth,Option_1,Advanced
+What is HTTP in IoT?,Protocol for client-server communication,Serial protocol,Wireless protocol,Network protocol,Option_1,Beginner
+What is REST API in IoT?,API using HTTP for device communication,MQTT protocol,CoAP protocol,WebSocket,Option_1,Intermediate
+What is JSON in IoT?,Data format for exchanging information,XML format,CSV format,Binary format,Option_1,Beginner
+What is Protocol Buffer?,Compact serialization format for data,JSON format,XML format,Text format,Option_1,Advanced
+What is Azure IoT Hub?,Microsoft cloud platform for IoT,AWS IoT service,Google Cloud IoT,Raspberry Pi,Option_1,Intermediate
+What is AWS IoT Core?,Amazon cloud service for IoT devices,Azure IoT,Google IoT,IBM Watson,Option_1,Intermediate
+What is Google Cloud IoT?,Google cloud platform for IoT,AWS IoT,Azure IoT,IBM service,Option_1,Intermediate
+What is IBM Watson IoT?,IBM platform for IoT analytics,AWS service,Azure service,Google service,Option_1,Intermediate
+What is ThingSpeak?,IoT analytics platform for data collection,AWS service,Cloud platform,Edge device,Option_1,Intermediate
+What is Blynk?,IoT platform with mobile app integration,Cloud service,Device platform,Network protocol,Option_1,Intermediate
+What is Node-RED?,Visual IoT application development tool,Programming language,Operating system,Hardware platform,Option_1,Intermediate
+What is Home Assistant?,Open-source home automation platform,Commercial platform,Cloud service,Hardware device,Option_1,Intermediate
+What is time-series database?,Database optimized for timestamped data,Relational database,NoSQL database,Graph database,Option_1,Intermediate
+What is InfluxDB?,Time-series database for IoT data,Relational database,Document database,Graph database,Option_1,Intermediate
+What is Prometheus?,Monitoring system collecting time-series metrics,Database,Cloud service,Programming language,Option_1,Advanced
+What is data compression in IoT?,Reducing data size for transmission,Data encryption,Data encoding,Data formatting,Option_1,Intermediate
+What is data aggregation?,Combining data from multiple sources,Data collection,Data transmission,Data storage,Option_1,Intermediate
+What is IoT security?,Protecting devices and data from attacks,Data privacy,Network security,Device management,Option_1,Intermediate
+What is authentication in IoT?,Verifying device or user identity,Authorization,Encryption,Data protection,Option_1,Intermediate
+What is device certificate?,Digital certificate identifying IoT device,User certificate,CA certificate,Self-signed certificate,Option_1,Advanced
+What is SSL/TLS in IoT?,Encryption protocol for secure communication,Wireless protocol,Serial protocol,Network protocol,Option_1,Intermediate
+What is end-to-end encryption?,Encrypting data from source to destination,Point-to-point encryption,Network encryption,Device encryption,Option_1,Advanced
+What is firmware update?,Updating device software after deployment,Software installation,Application update,Configuration change,Option_1,Intermediate
+What is OTA (Over-The-Air) update?,Remotely updating device firmware wirelessly,Physical update,Manual update,Wired update,Option_1,Intermediate
+What is secure boot?,Verifying firmware integrity during startup,Fast boot,Boot optimization,Boot loader,Option_1,Advanced
+What is power consumption in IoT?,Energy used by device during operation,Performance metric,Processing power,Network speed,Option_1,Intermediate
+What is low-power design?,Minimizing energy consumption in IoT devices,Performance optimization,Speed optimization,Memory reduction,Option_1,Intermediate
+What is sleep mode?,Power-saving state reducing energy consumption,Idle state,Active state,Running state,Option_1,Intermediate
+What is battery optimization?,Techniques extending device battery life,Hardware design,Software design,Power management,Option_1,Intermediate
+What is energy harvesting?,Collecting energy from environment,Power generation,Battery charging,Solar power,Option_1,Advanced
+What is duty cycle?,Ratio of active time to total time,Operating time,Battery life,Processing time,Option_1,Advanced
+What is real-time processing?,Processing data with minimal delay,Batch processing,Scheduled processing,Offline processing,Option_1,Intermediate
+What is edge analytics?,Analyzing data locally on edge devices,Cloud analytics,Remote analysis,Server analytics,Option_1,Advanced
+What is stream processing?,Processing continuous data streams,Batch processing,File processing,Database processing,Option_1,Advanced
+What is latency in IoT?,Delay between input and output,Processing speed,Network speed,Data transfer rate,Option_1,Intermediate
+What is throughput in IoT?,Amount of data processed per unit time,Speed,Bandwidth,Frequency,Option_1,Intermediate
+What is smart home?,Home with automated and connected devices,Modern home,High-tech home,Connected devices,Option_1,Beginner
+What is smart city?,Urban area using IoT for services,Modern city,Technology city,Connected infrastructure,Option_1,Beginner
+What is smart agriculture?,Using IoT in farming and crop management,Modern farming,Precision farming,Automated farming,Option_1,Intermediate
+What is industrial IoT (IIoT)?,IoT applications in manufacturing and industry,Factory automation,Manufacturing,Production,Option_1,Intermediate
+What is predictive maintenance?,Using data to predict equipment failures,Preventive maintenance,Scheduled maintenance,Corrective maintenance,Option_1,Advanced
+What is healthcare IoT?,IoT devices and systems in healthcare,Medical devices,Patient monitoring,Health tracking,Option_1,Intermediate
+What is wearable device?,IoT device worn on body for monitoring,Smart device,Mobile device,Connected device,Option_1,Beginner
+What is connected vehicle?,Vehicle with IoT connectivity,Self-driving car,Autonomous vehicle,Electric vehicle,Option_1,Intermediate
+What is mesh network?,Network where each node relays data,Star topology,Tree topology,Linear topology,Option_1,Intermediate
+What is star topology?,Network with central hub/point,Mesh network,Tree network,Ring network,Option_1,Intermediate
+What is client-server architecture?,Devices requesting services from server,Peer-to-peer,Distributed,Decentralized,Option_1,Intermediate
+What is peer-to-peer (P2P) in IoT?,Devices communicating directly without server,Client-server,Star topology,Mesh network,Option_1,Intermediate
+What is fog computing?,Computing between cloud and edge devices,Cloud computing,Edge computing,Local computing,Option_1,Advanced
+What is cloud computing in IoT?,Using cloud services for IoT data,Local computing,Edge computing,Fog computing,Option_1,Intermediate
+What is unit testing in IoT?,Testing individual components,Integration testing,System testing,Acceptance testing,Option_1,Intermediate
+What is integration testing?,Testing interaction between components,Unit testing,System testing,Field testing,Option_1,Intermediate
+What is field testing?,Testing device in real-world environment,Lab testing,Simulation,Bench testing,Option_1,Intermediate
+What is serial monitor in Arduino?,Tool for debugging via serial communication,IDE feature,Programming tool,Development tool,Option_1,Intermediate
+What is debugging in IoT?,Identifying and fixing device issues,Testing,Monitoring,Analysis,Option_1,Beginner
+What is bandwidth in IoT?,Maximum data transmission rate,Network speed,Processing speed,Memory capacity,Option_1,Intermediate
+What is reliability in IoT?,Device performing consistently without failure,Performance,Accuracy,Availability,Option_1,Intermediate
+What is availability in IoT?,Percentage of time system is operational,Uptime,System status,Service availability,Option_1,Intermediate
+What is accuracy in IoT?,Correctness of sensor measurements,Precision,Resolution,Sensitivity,Option_1,Intermediate
+What is precision in sensors?,Consistency of repeated measurements,Accuracy,Resolution,Sensitivity,Option_1,Advanced
+What is 802.11 (WiFi)?,Wireless LAN standard,Cellular standard,Bluetooth standard,Wireless protocol,Option_1,Intermediate
+What is 802.15.4 (Zigbee)?,Wireless standard for low-power devices,WiFi standard,Cellular standard,Bluetooth,Option_1,Intermediate
+What is OpenStack?,Open-source cloud computing platform,IoT platform,Operating system,Hardware platform,Option_1,Advanced
+What is MQTT protocol?,Machine-to-Machine messaging protocol,HTTP protocol,FTP protocol,TCP protocol,Option_1,Intermediate
+What is publish-subscribe model?,Publishers send messages to subscribers,Request-response model,Client-server,Peer-to-peer,Option_1,Advanced
+What is machine learning in IoT?,Applying ML algorithms to IoT data,Data collection,Data storage,Data transmission,Option_1,Advanced
+What is anomaly detection in IoT?,Identifying unusual patterns in data,Data analysis,Data filtering,Data compression,Option_1,Advanced
+What is digital twin?,Virtual replica of physical device,Backup device,Test device,Shadow device,Option_1,Advanced
+What is virtualization in IoT?,Running multiple systems on single hardware,Container technology,Emulation,Abstraction,Option_1,Advanced
+What is container technology?,Lightweight virtualization for applications,Virtual machine,Hypervisor,Operating system,Option_1,Advanced
+What is Docker in IoT?,Container platform for IoT applications,Virtual machine,Operating system,Hardware platform,Option_1,Advanced
+What is Kubernetes in IoT?,Container orchestration platform,Container runtime,Container registry,Container networking,Option_1,Advanced
+What is IoT (Internet of Things)?,Network of physical devices connected to internet,Computer network,Internet connection,Data storage,Option_1,Beginner
+What are the main components of IoT?,"Sensors, connectivity, data processing, user interface",Only sensors,Only connectivity,Only processing,Option_1,Beginner
+What is a sensor in IoT?,Device detecting physical properties and converting to signals,Actuator,Controller,Gateway,Option_1,Beginner
+What is an actuator in IoT?,Device that performs physical action based on commands,Sensor,Processor,Network device,Option_1,Beginner
+What is a microcontroller?,Small computer on single chip controlling IoT device,Laptop,Server,Phone,Option_1,Beginner
+What is Arduino?,Open-source microcontroller platform for IoT projects,Microchip brand,Programming language,Operating system,Option_1,Beginner
+What is Raspberry Pi?,Single-board computer for IoT and embedded systems,Microcontroller,Sensor device,Network device,Option_1,Beginner
+What is IoT gateway?,Device connecting IoT network to internet,Firewall,Router,Switch,Option_1,Intermediate
+What are IoT applications?,"Smart homes, healthcare, agriculture, industrial automation",Only smart homes,Only healthcare,Only industrial,Option_1,Beginner
+What is edge computing in IoT?,Processing data locally on edge devices,Cloud processing,Server processing,Remote processing,Option_1,Intermediate
+What is WiFi in IoT?,Wireless technology for local network connectivity,Cellular technology,Satellite technology,Bluetooth,Option_1,Beginner
+What is Bluetooth in IoT?,Short-range wireless technology for device communication,Long-range wireless,WiFi technology,Cellular,Option_1,Beginner
+What is BLE (Bluetooth Low Energy)?,Low-power Bluetooth for IoT devices,Regular Bluetooth,WiFi variant,Cellular technology,Option_1,Intermediate
+What is Zigbee?,Low-power wireless technology for mesh networks,WiFi,Cellular,Bluetooth,Option_1,Intermediate
+What is LoRaWAN?,Long-range wide-area network for IoT,Short-range network,WiFi network,Cellular network,Option_1,Intermediate
+What is NB-IoT?,Narrowband cellular technology for IoT,Broadband,WiFi,Bluetooth,Option_1,Intermediate
+What is LTE-M (Cat-M)?,Cellular technology optimized for IoT,WiFi variant,Bluetooth variant,Satellite technology,Option_1,Intermediate
+What is 5G in IoT?,Fifth generation wireless with low latency,Fourth generation,Previous standard,WiFi technology,Option_1,Intermediate
+What is MQTT?,Lightweight messaging protocol for IoT,HTTP protocol,FTP protocol,Bluetooth protocol,Option_1,Intermediate
+What is CoAP?,Constrained Application Protocol for IoT,HTTP protocol,MQTT protocol,REST protocol,Option_1,Advanced
+What is ATmega328P?,Microcontroller used in Arduino Uno,Raspberry Pi processor,STM32 variant,ARM processor,Option_1,Intermediate
+What is STM32?,ARM-based microcontroller for IoT,AVR microcontroller,Arduino chip,Raspberry Pi,Option_1,Intermediate
+What is ARM Cortex?,Processor architecture for embedded systems,AVR architecture,MIPS architecture,x86 architecture,Option_1,Intermediate
+What is PWM (Pulse Width Modulation)?,Technique controlling device power and behavior,Digital signal,Analog signal,Data encoding,Option_1,Intermediate
+What is ADC (Analog to Digital Converter)?,Converting analog signals to digital values,Digital to analog,Signal amplifier,Signal filter,Option_1,Intermediate
+What is DAC (Digital to Analog Converter)?,Converting digital signals to analog values,Analog to digital,Signal processing,Signal filtering,Option_1,Advanced
+What is interrupt in microcontroller?,Signal causing processor to halt and handle event,Synchronous call,Function call,Loop control,Option_1,Intermediate
+What is timer in microcontroller?,Hardware counting events or delays,Software counter,Loop variable,Function call,Option_1,Intermediate
+What is serial communication?,Transmitting data one bit at a time,Parallel communication,Multi-bit transmission,Wireless communication,Option_1,Intermediate
+What is UART (Universal Asynchronous Receiver Transmitter)?,Serial communication protocol,Parallel protocol,Network protocol,Wireless protocol,Option_1,Intermediate
+What is Arduino IDE?,Integrated development environment for Arduino,Text editor,Compiler only,Debugger only,Option_1,Beginner
+What is sketch in Arduino?,Code program running on Arduino,Circuit diagram,Hardware design,Configuration file,Option_1,Beginner
+What is setup() function in Arduino?,Runs once when board powers on,Runs repeatedly,Library function,Helper function,Option_1,Beginner
+What is loop() function in Arduino?,Runs repeatedly after setup,Runs once,Setup function,Configuration,Option_1,Beginner
+What is pinMode() in Arduino?,Configures pin as input or output,Reads analog value,Writes digital value,Sets frequency,Option_1,Intermediate
+What is digitalWrite() in Arduino?,Sets digital pin to HIGH or LOW,Reads digital input,Sets analog value,Reads analog input,Option_1,Intermediate
+What is analogRead() in Arduino?,Reads analog value from pin (0-1023),Writes analog value,Reads digital value,Sets PWM,Option_1,Intermediate
+What is analogWrite() in Arduino?,Outputs PWM signal on pin,Reads analog,Reads digital,Sets frequency,Option_1,Intermediate
+What is C++ in embedded systems?,Language for IoT and embedded development,Python,JavaScript,Java,Option_1,Intermediate
+What is MicroPython?,Python implementation for microcontrollers,Full Python,Circuit Python,Language variant,Option_1,Intermediate
+What is temperature sensor?,Measures temperature and outputs signal,Humidity sensor,Pressure sensor,Light sensor,Option_1,Beginner
+What is DHT11 sensor?,Temperature and humidity sensor,Pressure sensor,Gas sensor,Motion sensor,Option_1,Intermediate
+What is BME280 sensor?,"Measures temperature, humidity, pressure",DHT sensor,Motion sensor,Gas sensor,Option_1,Intermediate
+What is accelerometer?,Measures acceleration and motion,Gyroscope,Magnetometer,Barometer,Option_1,Intermediate
+What is gyroscope?,Measures rotation rate and angular velocity,Accelerometer,Magnetometer,Thermometer,Option_1,Intermediate
+What is magnetometer?,Measures magnetic field strength,Accelerometer,Gyroscope,Thermometer,Option_1,Intermediate
+What is IMU (Inertial Measurement Unit)?,"Combines accelerometer, gyroscope, magnetometer",Single sensor,Temperature sensor,Pressure sensor,Option_1,Advanced
+What is pressure sensor?,Measures atmospheric or fluid pressure,Temperature sensor,Humidity sensor,Gas sensor,Option_1,Intermediate
+What is motion sensor (PIR)?,Detects infrared radiation from movement,Pressure sensor,Temperature sensor,Light sensor,Option_1,Intermediate
+What is ultrasonic sensor?,Measures distance using sound waves,Motion sensor,Temperature sensor,Light sensor,Option_1,Intermediate
+What is gas sensor?,Detects presence of specific gases,Smoke detector,Motion sensor,Temperature sensor,Option_1,Intermediate
+What is soil moisture sensor?,Measures water content in soil,Temperature sensor,Humidity sensor,Pressure sensor,Option_1,Intermediate
+What is I2C (Inter-Integrated Circuit)?,Two-wire serial communication protocol,SPI protocol,UART protocol,Wireless protocol,Option_1,Intermediate
+What is SPI (Serial Peripheral Interface)?,Synchronous serial communication protocol,Asynchronous protocol,I2C protocol,UART protocol,Option_1,Intermediate
+What is RS-485?,Industrial serial communication protocol,RS-232,USB protocol,Ethernet,Option_1,Advanced
+What is CAN bus?,Controller Area Network for vehicle communication,Ethernet,WiFi,Bluetooth,Option_1,Advanced
+What is HTTP in IoT?,Protocol for client-server communication,Serial protocol,Wireless protocol,Network protocol,Option_1,Beginner
+What is REST API in IoT?,API using HTTP for device communication,MQTT protocol,CoAP protocol,WebSocket,Option_1,Intermediate
+What is JSON in IoT?,Data format for exchanging information,XML format,CSV format,Binary format,Option_1,Beginner
+What is Protocol Buffer?,Compact serialization format for data,JSON format,XML format,Text format,Option_1,Advanced
+What is Azure IoT Hub?,Microsoft cloud platform for IoT,AWS IoT service,Google Cloud IoT,Raspberry Pi,Option_1,Intermediate
+What is AWS IoT Core?,Amazon cloud service for IoT devices,Azure IoT,Google IoT,IBM Watson,Option_1,Intermediate
+What is Google Cloud IoT?,Google cloud platform for IoT,AWS IoT,Azure IoT,IBM service,Option_1,Intermediate
+What is IBM Watson IoT?,IBM platform for IoT analytics,AWS service,Azure service,Google service,Option_1,Intermediate
+What is ThingSpeak?,IoT analytics platform for data collection,AWS service,Cloud platform,Edge device,Option_1,Intermediate
+What is Blynk?,IoT platform with mobile app integration,Cloud service,Device platform,Network protocol,Option_1,Intermediate
+What is Node-RED?,Visual IoT application development tool,Programming language,Operating system,Hardware platform,Option_1,Intermediate
+What is Home Assistant?,Open-source home automation platform,Commercial platform,Cloud service,Hardware device,Option_1,Intermediate
+What is time-series database?,Database optimized for timestamped data,Relational database,NoSQL database,Graph database,Option_1,Intermediate
+What is InfluxDB?,Time-series database for IoT data,Relational database,Document database,Graph database,Option_1,Intermediate
+What is Prometheus?,Monitoring system collecting time-series metrics,Database,Cloud service,Programming language,Option_1,Advanced
+What is data compression in IoT?,Reducing data size for transmission,Data encryption,Data encoding,Data formatting,Option_1,Intermediate
+What is data aggregation?,Combining data from multiple sources,Data collection,Data transmission,Data storage,Option_1,Intermediate
+What is IoT security?,Protecting devices and data from attacks,Data privacy,Network security,Device management,Option_1,Intermediate
+What is authentication in IoT?,Verifying device or user identity,Authorization,Encryption,Data protection,Option_1,Intermediate
+What is device certificate?,Digital certificate identifying IoT device,User certificate,CA certificate,Self-signed certificate,Option_1,Advanced
+What is SSL/TLS in IoT?,Encryption protocol for secure communication,Wireless protocol,Serial protocol,Network protocol,Option_1,Intermediate
+What is end-to-end encryption?,Encrypting data from source to destination,Point-to-point encryption,Network encryption,Device encryption,Option_1,Advanced
+What is firmware update?,Updating device software after deployment,Software installation,Application update,Configuration change,Option_1,Intermediate
+What is OTA (Over-The-Air) update?,Remotely updating device firmware wirelessly,Physical update,Manual update,Wired update,Option_1,Intermediate
+What is secure boot?,Verifying firmware integrity during startup,Fast boot,Boot optimization,Boot loader,Option_1,Advanced
+What is power consumption in IoT?,Energy used by device during operation,Performance metric,Processing power,Network speed,Option_1,Intermediate
+What is low-power design?,Minimizing energy consumption in IoT devices,Performance optimization,Speed optimization,Memory reduction,Option_1,Intermediate
+What is sleep mode?,Power-saving state reducing energy consumption,Idle state,Active state,Running state,Option_1,Intermediate
+What is battery optimization?,Techniques extending device battery life,Hardware design,Software design,Power management,Option_1,Intermediate
+What is energy harvesting?,Collecting energy from environment,Power generation,Battery charging,Solar power,Option_1,Advanced
+What is duty cycle?,Ratio of active time to total time,Operating time,Battery life,Processing time,Option_1,Advanced
+What is real-time processing?,Processing data with minimal delay,Batch processing,Scheduled processing,Offline processing,Option_1,Intermediate
+What is edge analytics?,Analyzing data locally on edge devices,Cloud analytics,Remote analysis,Server analytics,Option_1,Advanced
+What is stream processing?,Processing continuous data streams,Batch processing,File processing,Database processing,Option_1,Advanced
+What is latency in IoT?,Delay between input and output,Processing speed,Network speed,Data transfer rate,Option_1,Intermediate
+What is throughput in IoT?,Amount of data processed per unit time,Speed,Bandwidth,Frequency,Option_1,Intermediate
+What is smart home?,Home with automated and connected devices,Modern home,High-tech home,Connected devices,Option_1,Beginner
+What is smart city?,Urban area using IoT for services,Modern city,Technology city,Connected infrastructure,Option_1,Beginner
+What is smart agriculture?,Using IoT in farming and crop management,Modern farming,Precision farming,Automated farming,Option_1,Intermediate
+What is industrial IoT (IIoT)?,IoT applications in manufacturing and industry,Factory automation,Manufacturing,Production,Option_1,Intermediate
+What is predictive maintenance?,Using data to predict equipment failures,Preventive maintenance,Scheduled maintenance,Corrective maintenance,Option_1,Advanced
+What is healthcare IoT?,IoT devices and systems in healthcare,Medical devices,Patient monitoring,Health tracking,Option_1,Intermediate
+What is wearable device?,IoT device worn on body for monitoring,Smart device,Mobile device,Connected device,Option_1,Beginner
+What is connected vehicle?,Vehicle with IoT connectivity,Self-driving car,Autonomous vehicle,Electric vehicle,Option_1,Intermediate
+What is mesh network?,Network where each node relays data,Star topology,Tree topology,Linear topology,Option_1,Intermediate
+What is star topology?,Network with central hub/point,Mesh network,Tree network,Ring network,Option_1,Intermediate
+What is client-server architecture?,Devices requesting services from server,Peer-to-peer,Distributed,Decentralized,Option_1,Intermediate
+What is peer-to-peer (P2P) in IoT?,Devices communicating directly without server,Client-server,Star topology,Mesh network,Option_1,Intermediate

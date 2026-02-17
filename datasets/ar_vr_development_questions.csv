@@ -1,0 +1,1001 @@
+Question,Option_1,Option_2,Option_3,Option_4,Correct_Answer,Level
+What is Virtual Reality (VR)?,Immersive digital environment simulating physical world,Augmented reality,Mixed reality,3D graphics,Option_1,Beginner
+What is Augmented Reality (AR)?,Digital content overlaid on physical world,Virtual reality,Mixed reality,Digital environment,Option_1,Beginner
+What is Mixed Reality (MR)?,Blending digital and physical worlds interactively,Augmented reality,Virtual reality,Extended reality,Option_1,Beginner
+What is Extended Reality (XR)?,"Umbrella term for VR, AR, and MR",Only VR,Only AR,Only MR,Option_1,Beginner
+What is immersion in VR?,Sense of being present in virtual environment,Graphics quality,Frame rate,Resolution,Option_1,Beginner
+What is presence in VR?,Psychological sensation of actually being in VR,Visual quality,Audio quality,Hardware specs,Option_1,Intermediate
+What are VR applications?,"Gaming, training, education, healthcare, therapy",Only gaming,Only education,Only training,Option_1,Beginner
+What are AR applications?,"Navigation, shopping, gaming, visualization, education",Only gaming,Only shopping,Only navigation,Option_1,Beginner
+What is head-mounted display (HMD)?,Wearable display device for VR,Desktop monitor,Mobile phone,Projected display,Option_1,Intermediate
+What is hand tracking in VR?,Tracking hand position and movement,Body tracking,Eye tracking,Head tracking,Option_1,Intermediate
+What is Oculus Rift?,VR headset by Meta for immersive experiences,AR device,VR headset,HTC Vive,Option_1,Intermediate
+What is HTC Vive?,High-end VR headset with room-scale tracking,Oculus Rift,PlayStation VR,Samsung Gear,Option_1,Intermediate
+What is PlayStation VR?,VR system for PlayStation console,PC VR,Standalone VR,Mobile VR,Option_1,Intermediate
+What is Meta Quest (formerly Oculus Quest)?,Standalone VR headset with built-in processing,Tethered VR,Mobile VR,AR headset,Option_1,Intermediate
+What is tethered VR?,VR system connected to PC or console,Standalone VR,Mobile VR,Wireless VR,Option_1,Intermediate
+What is standalone VR?,VR system with built-in processing power,Tethered VR,Mobile VR,PC VR,Option_1,Intermediate
+What is mobile VR?,VR experience on smartphone device,Standalone VR,Tethered VR,Desktop VR,Option_1,Beginner
+What is Google Cardboard?,Affordable mobile VR viewer,Expensive VR,Enterprise VR,Professional headset,Option_1,Intermediate
+What is Samsung Gear VR?,Mobile VR headset for Samsung phones,Tethered VR,Standalone VR,AR headset,Option_1,Intermediate
+What is Microsoft HoloLens?,Mixed reality headset for enterprise,VR headset,AR headset,Gaming device,Option_1,Intermediate
+What is positional tracking?,Tracking 3D position of user/controller,Rotation tracking,Movement detection,Location sensing,Option_1,Intermediate
+What is rotational tracking?,Tracking head/controller rotation,Position tracking,Movement detection,Location tracking,Option_1,Intermediate
+What is inside-out tracking?,Using device cameras for tracking,External sensors,Infrared tracking,GPS tracking,Option_1,Advanced
+What is outside-in tracking?,Using external sensors for tracking,Device cameras,Self-contained tracking,Mobile tracking,Option_1,Advanced
+What is infrared tracking?,Using IR lights for position detection,Visual tracking,Magnetic tracking,Acoustic tracking,Option_1,Advanced
+What is lighthouse tracking?,HTC system using base stations for tracking,Camera tracking,Infrared tracking,Acoustic tracking,Option_1,Advanced
+What is eye tracking?,Monitoring eye gaze direction and focus,Head tracking,Hand tracking,Body tracking,Option_1,Intermediate
+What is body tracking?,Capturing full body movement in VR,Hand tracking,Head tracking,Eye tracking,Option_1,Intermediate
+What is haptic feedback?,Tactile sensations and vibrations in VR,Visual feedback,Audio feedback,Motion feedback,Option_1,Intermediate
+What is haptic glove?,Glove providing haptic feedback for VR hands,Motion controller,Hand tracker,Virtual hand,Option_1,Advanced
+What is Unity?,Cross-platform game engine for VR/AR development,Game platform,Graphics engine,Rendering engine,Option_1,Intermediate
+What is Unreal Engine?,High-end game engine for VR/AR,Unity alternative,Game platform,Development tool,Option_1,Intermediate
+What is Epic Games engine?,Unreal Engine by Epic Games,Unity engine,CryEngine,Godot engine,Option_1,Intermediate
+What is Godot?,Open-source game engine for VR/AR,Commercial engine,Proprietary software,Game platform,Option_1,Intermediate
+What is CryEngine?,Game engine used for VR development,Unreal Engine,Unity,Godot,Option_1,Advanced
+What is game loop?,Continuous cycle rendering and updating game,Game event,Game state,Game object,Option_1,Intermediate
+What is frame rate (FPS)?,Frames per second rendered in VR/AR,Game speed,Physics speed,Animation speed,Option_1,Beginner
+What is rendering pipeline?,Process converting 3D scene to 2D image,Graphics processing,Display output,Scene representation,Option_1,Advanced
+What is shader?,Program determining material appearance,Graphics program,Lighting system,Texture effect,Option_1,Intermediate
+What is physics engine?,System simulating physical interactions,Collision detection,Gravity simulation,Movement system,Option_1,Intermediate
+What is 3D model?,3D representation of object with geometry,2D image,Vector graphic,Texture,Option_1,Beginner
+What is mesh?,Collection of vertices/edges/faces forming 3D object,Texture,Material,Animation,Option_1,Intermediate
+What is polygon?,Basic unit of 3D model made of vertices,Texture element,Mesh component,3D shape,Option_1,Intermediate
+What is UV mapping?,Applying 2D texture to 3D model,3D modeling,Texture creation,Material assignment,Option_1,Intermediate
+What is texture?,2D image applied to 3D model surface,3D model,Material property,Color information,Option_1,Beginner
+What is PBR (Physically Based Rendering)?,Rendering approach simulating physical light,Real-time rendering,Game rendering,VR rendering,Option_1,Advanced
+What is normal map?,Texture simulating surface detail and bumps,Displacement map,Height map,Ambient map,Option_1,Advanced
+What is skeletal animation?,Animating 3D model using bone structure,Vertex animation,Mesh deformation,Keyframe animation,Option_1,Intermediate
+What is rigging?,Process adding skeleton to 3D model,Modeling,Texturing,Animating,Option_1,Intermediate
+What is blendshape?,Alternative shape target for character animation,Skeletal animation,Keyframe animation,Physics animation,Option_1,Advanced
+What is marker-based AR?,AR requiring physical marker for tracking,Markerless AR,Location-based AR,Image tracking,Option_1,Intermediate
+What is markerless AR?,AR without requiring physical marker,Marker-based AR,Vision tracking,Sensor-based AR,Option_1,Intermediate
+What is location-based AR?,AR based on GPS location and orientation,Marker-based AR,Image tracking,Plane detection,Option_1,Intermediate
+What is image tracking?,Detecting and tracking images in AR,Marker tracking,Plane detection,Object recognition,Option_1,Intermediate
+What is object tracking?,Tracking real-world objects in AR,Image tracking,Plane detection,Face tracking,Option_1,Intermediate
+What is plane detection?,Finding flat surfaces for AR content placement,Surface recognition,Object detection,Face detection,Option_1,Intermediate
+What is face tracking?,Detecting and tracking human faces in AR,Head tracking,Eye tracking,Hand tracking,Option_1,Intermediate
+What is ARKit?,Apple framework for iOS AR development,Google AR framework,Android AR,Cross-platform,Option_1,Intermediate
+What is ARCore?,Google framework for Android AR development,Apple framework,iOS AR,Cross-platform,Option_1,Intermediate
+What is Vuforia?,Cross-platform AR development platform,Apple framework,Google framework,Mobile framework,Option_1,Intermediate
+What is grab interaction?,Picking up and manipulating virtual objects,Pointing interaction,Menu interaction,Teleportation,Option_1,Intermediate
+What is ray casting?,Shooting ray from controller to select objects,Physics ray,Collision detection,Hit detection,Option_1,Advanced
+What is teleportation in VR?,Moving to distant location instantly,Walking movement,Flying movement,Continuous movement,Option_1,Intermediate
+What is locomotion?,Method of moving through VR space,Avatar movement,Character animation,Scene navigation,Option_1,Intermediate
+What is teleport locomotion?,Instant movement to selected location,Smooth movement,Walking simulation,Flying simulation,Option_1,Intermediate
+What is smooth locomotion?,Continuous movement through space,Teleportation,Instant movement,Jumping,Option_1,Intermediate
+What is menu system in VR?,Interface for VR interaction and navigation,World menu,Spatial menu,3D UI,Option_1,Intermediate
+What is gaze-based interaction?,Using eye gaze to select and interact,Hand-based interaction,Controller-based,Voice command,Option_1,Advanced
+What is gesture recognition?,Recognizing hand gestures for interaction,Voice recognition,Eye tracking,Head tracking,Option_1,Advanced
+What is voice command?,Voice input for VR/AR interaction,Text input,Gesture input,Controller input,Option_1,Intermediate
+What is spatial audio?,3D directional sound in VR/AR,Stereo audio,Mono audio,Surround sound,Option_1,Intermediate
+What is head-related transfer function (HRTF)?,Filter creating 3D audio perception,Audio compression,Sound effect,Audio processing,Option_1,Advanced
+What is binaural audio?,3D audio recorded for both ears,Stereo audio,Mono audio,Spatial audio,Option_1,Intermediate
+What is audio spatialization?,Placing sound in 3D space around user,Audio mixing,Audio effects,Audio processing,Option_1,Advanced
+What is voice chat in VR?,Real-time communication between VR users,Text chat,Video chat,Audio recording,Option_1,Intermediate
+What is polygon count?,Number of polygons in 3D model,Model quality,Mesh density,Model complexity,Option_1,Intermediate
+What is draw call?,GPU command rendering mesh,Graphics call,Rendering operation,Graphics operation,Option_1,Advanced
+What is LOD (Level of Detail)?,Using lower quality assets at distance,Model quality,Texture resolution,Asset size,Option_1,Intermediate
+What is occlusion culling?,Hiding geometry behind other objects,View frustum culling,Distance culling,Visibility determination,Option_1,Advanced
+What is batching?,Combining objects for efficient rendering,Draw call reduction,Memory optimization,Performance improvement,Option_1,Advanced
+What is compression?,Reducing asset file sizes,Memory optimization,Data reduction,Asset optimization,Option_1,Intermediate
+What is resolution?,Pixel density and sharpness of display,Texture quality,Model quality,Frame rate,Option_1,Beginner
+What is frame time?,Time to render single frame,Frame rate,Processing time,Rendering speed,Option_1,Intermediate
+What is motion sickness in VR?,Discomfort from VR use due to latency,VR side effect,User discomfort,Technical issue,Option_1,Intermediate
+What is latency in VR?,Delay between user action and visual response,Frame rate,Processing speed,Network delay,Option_1,Intermediate
+What is networked VR?,Multiple users in same VR space,Single-user VR,Multiplayer gaming,Online gaming,Option_1,Intermediate
+What is avatar in VR?,Virtual representation of user in VR,Player character,NPC character,3D model,Option_1,Beginner
+What is presence awareness?,Detecting other users in VR space,User awareness,Avatar presence,Network awareness,Option_1,Advanced
+What is synchronization in multiplayer VR?,Keeping all users updated on shared state,Data synchronization,Network sync,State management,Option_1,Advanced
+What is client-server architecture in VR?,Server managing VR state for clients,Peer-to-peer,Distributed system,Local network,Option_1,Advanced
+What is peer-to-peer VR?,Direct connection between VR users,Client-server,Central server,Cloud-based,Option_1,Advanced
+What is animation blending?,Smoothly transitioning between animations,Animation layering,Animation state,Animation control,Option_1,Intermediate
+What is state machine?,System managing animation/behavior states,Game loop,Event system,Logic control,Option_1,Advanced
+What is scene management?,Loading and unloading scenes in VR,Scene composition,Hierarchy management,Object management,Option_1,Intermediate
+What is asset pipeline?,Process converting 3D assets for game,Asset import,Asset optimization,Asset preparation,Option_1,Advanced
+What is version control in game dev?,Managing code and asset versions,Git,GitHub,Version management,Option_1,Intermediate
+What is debugging in VR?,Finding and fixing VR application issues,Testing,Profiling,Performance analysis,Option_1,Intermediate
+What is profiling?,Analyzing performance bottlenecks,Code analysis,Performance measurement,Optimization,Option_1,Advanced
+What is UX design in VR?,Designing user experience for VR,UI design,Interaction design,Usability design,Option_1,Intermediate
+What is comfort in VR?,User physical comfort during VR use,Visual comfort,Hardware comfort,Environment comfort,Option_1,Intermediate
+What is cybersickness?,VR-induced motion sickness,Physical illness,Simulation sickness,Disorientation,Option_1,Intermediate
+What is field of view (FOV)?,Visible area user can see in VR,Display area,Vision range,Screen size,Option_1,Intermediate
+What is peripheral vision in VR?,Outer edge of visual field in VR,Central vision,Binocular vision,Depth perception,Option_1,Advanced
+What is depth perception?,Perceiving 3D depth in VR,Stereoscopic vision,Motion parallax,Distance estimation,Option_1,Advanced
+What is comfort settings?,Options reducing VR discomfort,Graphics settings,Control settings,Visual effects,Option_1,Intermediate
+What is VR training?,Using VR for professional skill training,Educational VR,Entertainment VR,Commercial VR,Option_1,Intermediate
+What is VR simulation?,Realistic scenario simulation in VR,Virtual environment,Training tool,Testing platform,Option_1,Intermediate
+What is virtual classroom?,Educational environment in VR,Online learning,E-learning,Distance learning,Option_1,Intermediate
+What is medical VR?,Using VR for medical training and therapy,Healthcare application,Clinical VR,Patient therapy,Option_1,Intermediate
+What is VR therapy?,Using VR for psychological treatment,Medical treatment,Physical therapy,Mental health,Option_1,Intermediate
+What is architectural visualization?,Visualizing buildings/spaces in VR/AR,3D visualization,Building preview,Spatial design,Option_1,Intermediate
+What is product visualization?,Visualizing products in VR/AR,3D presentation,Product preview,Design visualization,Option_1,Intermediate
+What is social VR?,Social interaction platform in VR,Multiplayer VR,Virtual meeting,Avatar interaction,Option_1,Intermediate
+What is eye gaze tracking?,High-precision tracking of eye direction,Head tracking,Hand tracking,Body tracking,Option_1,Advanced
+What is foveated rendering?,"High-res rendering where user looks, low elsewhere",Full-res rendering,Uniform rendering,Dynamic rendering,Option_1,Advanced
+What is variable rate shading?,Varying rendering quality based on importance,Uniform shading,Fixed shading,Static rendering,Option_1,Advanced
+What is volumetric rendering?,Rendering 3D volume data like clouds,Surface rendering,Mesh rendering,Texture rendering,Option_1,Advanced
+What is neural rendering?,Using AI for rendering and scene generation,Traditional rendering,Real-time rendering,Offline rendering,Option_1,Advanced
+What is hand gesture recognition?,Recognizing hand signs and gestures,Voice recognition,Eye tracking,Head tracking,Option_1,Advanced
+What is AI NPC?,Non-player characters with AI behavior,Player character,Avatar,Static character,Option_1,Intermediate
+What is procedural generation?,Algorithm creating content dynamically,Asset creation,Level design,Content authoring,Option_1,Advanced
+What is metaverse?,Persistent shared virtual world,Virtual reality,Game world,Virtual environment,Option_1,Beginner
+What is digital asset?,Virtual property and content in VR,Digital file,Virtual item,In-game item,Option_1,Beginner
+What is Virtual Reality (VR)?,Immersive digital environment simulating physical world,Augmented reality,Mixed reality,3D graphics,Option_1,Beginner
+What is Augmented Reality (AR)?,Digital content overlaid on physical world,Virtual reality,Mixed reality,Digital environment,Option_1,Beginner
+What is Mixed Reality (MR)?,Blending digital and physical worlds interactively,Augmented reality,Virtual reality,Extended reality,Option_1,Beginner
+What is Extended Reality (XR)?,"Umbrella term for VR, AR, and MR",Only VR,Only AR,Only MR,Option_1,Beginner
+What is immersion in VR?,Sense of being present in virtual environment,Graphics quality,Frame rate,Resolution,Option_1,Beginner
+What is presence in VR?,Psychological sensation of actually being in VR,Visual quality,Audio quality,Hardware specs,Option_1,Intermediate
+What are VR applications?,"Gaming, training, education, healthcare, therapy",Only gaming,Only education,Only training,Option_1,Beginner
+What are AR applications?,"Navigation, shopping, gaming, visualization, education",Only gaming,Only shopping,Only navigation,Option_1,Beginner
+What is head-mounted display (HMD)?,Wearable display device for VR,Desktop monitor,Mobile phone,Projected display,Option_1,Intermediate
+What is hand tracking in VR?,Tracking hand position and movement,Body tracking,Eye tracking,Head tracking,Option_1,Intermediate
+What is Oculus Rift?,VR headset by Meta for immersive experiences,AR device,VR headset,HTC Vive,Option_1,Intermediate
+What is HTC Vive?,High-end VR headset with room-scale tracking,Oculus Rift,PlayStation VR,Samsung Gear,Option_1,Intermediate
+What is PlayStation VR?,VR system for PlayStation console,PC VR,Standalone VR,Mobile VR,Option_1,Intermediate
+What is Meta Quest (formerly Oculus Quest)?,Standalone VR headset with built-in processing,Tethered VR,Mobile VR,AR headset,Option_1,Intermediate
+What is tethered VR?,VR system connected to PC or console,Standalone VR,Mobile VR,Wireless VR,Option_1,Intermediate
+What is standalone VR?,VR system with built-in processing power,Tethered VR,Mobile VR,PC VR,Option_1,Intermediate
+What is mobile VR?,VR experience on smartphone device,Standalone VR,Tethered VR,Desktop VR,Option_1,Beginner
+What is Google Cardboard?,Affordable mobile VR viewer,Expensive VR,Enterprise VR,Professional headset,Option_1,Intermediate
+What is Samsung Gear VR?,Mobile VR headset for Samsung phones,Tethered VR,Standalone VR,AR headset,Option_1,Intermediate
+What is Microsoft HoloLens?,Mixed reality headset for enterprise,VR headset,AR headset,Gaming device,Option_1,Intermediate
+What is positional tracking?,Tracking 3D position of user/controller,Rotation tracking,Movement detection,Location sensing,Option_1,Intermediate
+What is rotational tracking?,Tracking head/controller rotation,Position tracking,Movement detection,Location tracking,Option_1,Intermediate
+What is inside-out tracking?,Using device cameras for tracking,External sensors,Infrared tracking,GPS tracking,Option_1,Advanced
+What is outside-in tracking?,Using external sensors for tracking,Device cameras,Self-contained tracking,Mobile tracking,Option_1,Advanced
+What is infrared tracking?,Using IR lights for position detection,Visual tracking,Magnetic tracking,Acoustic tracking,Option_1,Advanced
+What is lighthouse tracking?,HTC system using base stations for tracking,Camera tracking,Infrared tracking,Acoustic tracking,Option_1,Advanced
+What is eye tracking?,Monitoring eye gaze direction and focus,Head tracking,Hand tracking,Body tracking,Option_1,Intermediate
+What is body tracking?,Capturing full body movement in VR,Hand tracking,Head tracking,Eye tracking,Option_1,Intermediate
+What is haptic feedback?,Tactile sensations and vibrations in VR,Visual feedback,Audio feedback,Motion feedback,Option_1,Intermediate
+What is haptic glove?,Glove providing haptic feedback for VR hands,Motion controller,Hand tracker,Virtual hand,Option_1,Advanced
+What is Unity?,Cross-platform game engine for VR/AR development,Game platform,Graphics engine,Rendering engine,Option_1,Intermediate
+What is Unreal Engine?,High-end game engine for VR/AR,Unity alternative,Game platform,Development tool,Option_1,Intermediate
+What is Epic Games engine?,Unreal Engine by Epic Games,Unity engine,CryEngine,Godot engine,Option_1,Intermediate
+What is Godot?,Open-source game engine for VR/AR,Commercial engine,Proprietary software,Game platform,Option_1,Intermediate
+What is CryEngine?,Game engine used for VR development,Unreal Engine,Unity,Godot,Option_1,Advanced
+What is game loop?,Continuous cycle rendering and updating game,Game event,Game state,Game object,Option_1,Intermediate
+What is frame rate (FPS)?,Frames per second rendered in VR/AR,Game speed,Physics speed,Animation speed,Option_1,Beginner
+What is rendering pipeline?,Process converting 3D scene to 2D image,Graphics processing,Display output,Scene representation,Option_1,Advanced
+What is shader?,Program determining material appearance,Graphics program,Lighting system,Texture effect,Option_1,Intermediate
+What is physics engine?,System simulating physical interactions,Collision detection,Gravity simulation,Movement system,Option_1,Intermediate
+What is 3D model?,3D representation of object with geometry,2D image,Vector graphic,Texture,Option_1,Beginner
+What is mesh?,Collection of vertices/edges/faces forming 3D object,Texture,Material,Animation,Option_1,Intermediate
+What is polygon?,Basic unit of 3D model made of vertices,Texture element,Mesh component,3D shape,Option_1,Intermediate
+What is UV mapping?,Applying 2D texture to 3D model,3D modeling,Texture creation,Material assignment,Option_1,Intermediate
+What is texture?,2D image applied to 3D model surface,3D model,Material property,Color information,Option_1,Beginner
+What is PBR (Physically Based Rendering)?,Rendering approach simulating physical light,Real-time rendering,Game rendering,VR rendering,Option_1,Advanced
+What is normal map?,Texture simulating surface detail and bumps,Displacement map,Height map,Ambient map,Option_1,Advanced
+What is skeletal animation?,Animating 3D model using bone structure,Vertex animation,Mesh deformation,Keyframe animation,Option_1,Intermediate
+What is rigging?,Process adding skeleton to 3D model,Modeling,Texturing,Animating,Option_1,Intermediate
+What is blendshape?,Alternative shape target for character animation,Skeletal animation,Keyframe animation,Physics animation,Option_1,Advanced
+What is marker-based AR?,AR requiring physical marker for tracking,Markerless AR,Location-based AR,Image tracking,Option_1,Intermediate
+What is markerless AR?,AR without requiring physical marker,Marker-based AR,Vision tracking,Sensor-based AR,Option_1,Intermediate
+What is location-based AR?,AR based on GPS location and orientation,Marker-based AR,Image tracking,Plane detection,Option_1,Intermediate
+What is image tracking?,Detecting and tracking images in AR,Marker tracking,Plane detection,Object recognition,Option_1,Intermediate
+What is object tracking?,Tracking real-world objects in AR,Image tracking,Plane detection,Face tracking,Option_1,Intermediate
+What is plane detection?,Finding flat surfaces for AR content placement,Surface recognition,Object detection,Face detection,Option_1,Intermediate
+What is face tracking?,Detecting and tracking human faces in AR,Head tracking,Eye tracking,Hand tracking,Option_1,Intermediate
+What is ARKit?,Apple framework for iOS AR development,Google AR framework,Android AR,Cross-platform,Option_1,Intermediate
+What is ARCore?,Google framework for Android AR development,Apple framework,iOS AR,Cross-platform,Option_1,Intermediate
+What is Vuforia?,Cross-platform AR development platform,Apple framework,Google framework,Mobile framework,Option_1,Intermediate
+What is grab interaction?,Picking up and manipulating virtual objects,Pointing interaction,Menu interaction,Teleportation,Option_1,Intermediate
+What is ray casting?,Shooting ray from controller to select objects,Physics ray,Collision detection,Hit detection,Option_1,Advanced
+What is teleportation in VR?,Moving to distant location instantly,Walking movement,Flying movement,Continuous movement,Option_1,Intermediate
+What is locomotion?,Method of moving through VR space,Avatar movement,Character animation,Scene navigation,Option_1,Intermediate
+What is teleport locomotion?,Instant movement to selected location,Smooth movement,Walking simulation,Flying simulation,Option_1,Intermediate
+What is smooth locomotion?,Continuous movement through space,Teleportation,Instant movement,Jumping,Option_1,Intermediate
+What is menu system in VR?,Interface for VR interaction and navigation,World menu,Spatial menu,3D UI,Option_1,Intermediate
+What is gaze-based interaction?,Using eye gaze to select and interact,Hand-based interaction,Controller-based,Voice command,Option_1,Advanced
+What is gesture recognition?,Recognizing hand gestures for interaction,Voice recognition,Eye tracking,Head tracking,Option_1,Advanced
+What is voice command?,Voice input for VR/AR interaction,Text input,Gesture input,Controller input,Option_1,Intermediate
+What is spatial audio?,3D directional sound in VR/AR,Stereo audio,Mono audio,Surround sound,Option_1,Intermediate
+What is head-related transfer function (HRTF)?,Filter creating 3D audio perception,Audio compression,Sound effect,Audio processing,Option_1,Advanced
+What is binaural audio?,3D audio recorded for both ears,Stereo audio,Mono audio,Spatial audio,Option_1,Intermediate
+What is audio spatialization?,Placing sound in 3D space around user,Audio mixing,Audio effects,Audio processing,Option_1,Advanced
+What is voice chat in VR?,Real-time communication between VR users,Text chat,Video chat,Audio recording,Option_1,Intermediate
+What is polygon count?,Number of polygons in 3D model,Model quality,Mesh density,Model complexity,Option_1,Intermediate
+What is draw call?,GPU command rendering mesh,Graphics call,Rendering operation,Graphics operation,Option_1,Advanced
+What is LOD (Level of Detail)?,Using lower quality assets at distance,Model quality,Texture resolution,Asset size,Option_1,Intermediate
+What is occlusion culling?,Hiding geometry behind other objects,View frustum culling,Distance culling,Visibility determination,Option_1,Advanced
+What is batching?,Combining objects for efficient rendering,Draw call reduction,Memory optimization,Performance improvement,Option_1,Advanced
+What is compression?,Reducing asset file sizes,Memory optimization,Data reduction,Asset optimization,Option_1,Intermediate
+What is resolution?,Pixel density and sharpness of display,Texture quality,Model quality,Frame rate,Option_1,Beginner
+What is frame time?,Time to render single frame,Frame rate,Processing time,Rendering speed,Option_1,Intermediate
+What is motion sickness in VR?,Discomfort from VR use due to latency,VR side effect,User discomfort,Technical issue,Option_1,Intermediate
+What is latency in VR?,Delay between user action and visual response,Frame rate,Processing speed,Network delay,Option_1,Intermediate
+What is networked VR?,Multiple users in same VR space,Single-user VR,Multiplayer gaming,Online gaming,Option_1,Intermediate
+What is avatar in VR?,Virtual representation of user in VR,Player character,NPC character,3D model,Option_1,Beginner
+What is presence awareness?,Detecting other users in VR space,User awareness,Avatar presence,Network awareness,Option_1,Advanced
+What is synchronization in multiplayer VR?,Keeping all users updated on shared state,Data synchronization,Network sync,State management,Option_1,Advanced
+What is client-server architecture in VR?,Server managing VR state for clients,Peer-to-peer,Distributed system,Local network,Option_1,Advanced
+What is peer-to-peer VR?,Direct connection between VR users,Client-server,Central server,Cloud-based,Option_1,Advanced
+What is animation blending?,Smoothly transitioning between animations,Animation layering,Animation state,Animation control,Option_1,Intermediate
+What is state machine?,System managing animation/behavior states,Game loop,Event system,Logic control,Option_1,Advanced
+What is scene management?,Loading and unloading scenes in VR,Scene composition,Hierarchy management,Object management,Option_1,Intermediate
+What is asset pipeline?,Process converting 3D assets for game,Asset import,Asset optimization,Asset preparation,Option_1,Advanced
+What is version control in game dev?,Managing code and asset versions,Git,GitHub,Version management,Option_1,Intermediate
+What is debugging in VR?,Finding and fixing VR application issues,Testing,Profiling,Performance analysis,Option_1,Intermediate
+What is profiling?,Analyzing performance bottlenecks,Code analysis,Performance measurement,Optimization,Option_1,Advanced
+What is UX design in VR?,Designing user experience for VR,UI design,Interaction design,Usability design,Option_1,Intermediate
+What is comfort in VR?,User physical comfort during VR use,Visual comfort,Hardware comfort,Environment comfort,Option_1,Intermediate
+What is cybersickness?,VR-induced motion sickness,Physical illness,Simulation sickness,Disorientation,Option_1,Intermediate
+What is field of view (FOV)?,Visible area user can see in VR,Display area,Vision range,Screen size,Option_1,Intermediate
+What is peripheral vision in VR?,Outer edge of visual field in VR,Central vision,Binocular vision,Depth perception,Option_1,Advanced
+What is depth perception?,Perceiving 3D depth in VR,Stereoscopic vision,Motion parallax,Distance estimation,Option_1,Advanced
+What is comfort settings?,Options reducing VR discomfort,Graphics settings,Control settings,Visual effects,Option_1,Intermediate
+What is VR training?,Using VR for professional skill training,Educational VR,Entertainment VR,Commercial VR,Option_1,Intermediate
+What is VR simulation?,Realistic scenario simulation in VR,Virtual environment,Training tool,Testing platform,Option_1,Intermediate
+What is virtual classroom?,Educational environment in VR,Online learning,E-learning,Distance learning,Option_1,Intermediate
+What is medical VR?,Using VR for medical training and therapy,Healthcare application,Clinical VR,Patient therapy,Option_1,Intermediate
+What is VR therapy?,Using VR for psychological treatment,Medical treatment,Physical therapy,Mental health,Option_1,Intermediate
+What is architectural visualization?,Visualizing buildings/spaces in VR/AR,3D visualization,Building preview,Spatial design,Option_1,Intermediate
+What is product visualization?,Visualizing products in VR/AR,3D presentation,Product preview,Design visualization,Option_1,Intermediate
+What is social VR?,Social interaction platform in VR,Multiplayer VR,Virtual meeting,Avatar interaction,Option_1,Intermediate
+What is eye gaze tracking?,High-precision tracking of eye direction,Head tracking,Hand tracking,Body tracking,Option_1,Advanced
+What is foveated rendering?,"High-res rendering where user looks, low elsewhere",Full-res rendering,Uniform rendering,Dynamic rendering,Option_1,Advanced
+What is variable rate shading?,Varying rendering quality based on importance,Uniform shading,Fixed shading,Static rendering,Option_1,Advanced
+What is volumetric rendering?,Rendering 3D volume data like clouds,Surface rendering,Mesh rendering,Texture rendering,Option_1,Advanced
+What is neural rendering?,Using AI for rendering and scene generation,Traditional rendering,Real-time rendering,Offline rendering,Option_1,Advanced
+What is hand gesture recognition?,Recognizing hand signs and gestures,Voice recognition,Eye tracking,Head tracking,Option_1,Advanced
+What is AI NPC?,Non-player characters with AI behavior,Player character,Avatar,Static character,Option_1,Intermediate
+What is procedural generation?,Algorithm creating content dynamically,Asset creation,Level design,Content authoring,Option_1,Advanced
+What is metaverse?,Persistent shared virtual world,Virtual reality,Game world,Virtual environment,Option_1,Beginner
+What is digital asset?,Virtual property and content in VR,Digital file,Virtual item,In-game item,Option_1,Beginner
+What is Virtual Reality (VR)?,Immersive digital environment simulating physical world,Augmented reality,Mixed reality,3D graphics,Option_1,Beginner
+What is Augmented Reality (AR)?,Digital content overlaid on physical world,Virtual reality,Mixed reality,Digital environment,Option_1,Beginner
+What is Mixed Reality (MR)?,Blending digital and physical worlds interactively,Augmented reality,Virtual reality,Extended reality,Option_1,Beginner
+What is Extended Reality (XR)?,"Umbrella term for VR, AR, and MR",Only VR,Only AR,Only MR,Option_1,Beginner
+What is immersion in VR?,Sense of being present in virtual environment,Graphics quality,Frame rate,Resolution,Option_1,Beginner
+What is presence in VR?,Psychological sensation of actually being in VR,Visual quality,Audio quality,Hardware specs,Option_1,Intermediate
+What are VR applications?,"Gaming, training, education, healthcare, therapy",Only gaming,Only education,Only training,Option_1,Beginner
+What are AR applications?,"Navigation, shopping, gaming, visualization, education",Only gaming,Only shopping,Only navigation,Option_1,Beginner
+What is head-mounted display (HMD)?,Wearable display device for VR,Desktop monitor,Mobile phone,Projected display,Option_1,Intermediate
+What is hand tracking in VR?,Tracking hand position and movement,Body tracking,Eye tracking,Head tracking,Option_1,Intermediate
+What is Oculus Rift?,VR headset by Meta for immersive experiences,AR device,VR headset,HTC Vive,Option_1,Intermediate
+What is HTC Vive?,High-end VR headset with room-scale tracking,Oculus Rift,PlayStation VR,Samsung Gear,Option_1,Intermediate
+What is PlayStation VR?,VR system for PlayStation console,PC VR,Standalone VR,Mobile VR,Option_1,Intermediate
+What is Meta Quest (formerly Oculus Quest)?,Standalone VR headset with built-in processing,Tethered VR,Mobile VR,AR headset,Option_1,Intermediate
+What is tethered VR?,VR system connected to PC or console,Standalone VR,Mobile VR,Wireless VR,Option_1,Intermediate
+What is standalone VR?,VR system with built-in processing power,Tethered VR,Mobile VR,PC VR,Option_1,Intermediate
+What is mobile VR?,VR experience on smartphone device,Standalone VR,Tethered VR,Desktop VR,Option_1,Beginner
+What is Google Cardboard?,Affordable mobile VR viewer,Expensive VR,Enterprise VR,Professional headset,Option_1,Intermediate
+What is Samsung Gear VR?,Mobile VR headset for Samsung phones,Tethered VR,Standalone VR,AR headset,Option_1,Intermediate
+What is Microsoft HoloLens?,Mixed reality headset for enterprise,VR headset,AR headset,Gaming device,Option_1,Intermediate
+What is positional tracking?,Tracking 3D position of user/controller,Rotation tracking,Movement detection,Location sensing,Option_1,Intermediate
+What is rotational tracking?,Tracking head/controller rotation,Position tracking,Movement detection,Location tracking,Option_1,Intermediate
+What is inside-out tracking?,Using device cameras for tracking,External sensors,Infrared tracking,GPS tracking,Option_1,Advanced
+What is outside-in tracking?,Using external sensors for tracking,Device cameras,Self-contained tracking,Mobile tracking,Option_1,Advanced
+What is infrared tracking?,Using IR lights for position detection,Visual tracking,Magnetic tracking,Acoustic tracking,Option_1,Advanced
+What is lighthouse tracking?,HTC system using base stations for tracking,Camera tracking,Infrared tracking,Acoustic tracking,Option_1,Advanced
+What is eye tracking?,Monitoring eye gaze direction and focus,Head tracking,Hand tracking,Body tracking,Option_1,Intermediate
+What is body tracking?,Capturing full body movement in VR,Hand tracking,Head tracking,Eye tracking,Option_1,Intermediate
+What is haptic feedback?,Tactile sensations and vibrations in VR,Visual feedback,Audio feedback,Motion feedback,Option_1,Intermediate
+What is haptic glove?,Glove providing haptic feedback for VR hands,Motion controller,Hand tracker,Virtual hand,Option_1,Advanced
+What is Unity?,Cross-platform game engine for VR/AR development,Game platform,Graphics engine,Rendering engine,Option_1,Intermediate
+What is Unreal Engine?,High-end game engine for VR/AR,Unity alternative,Game platform,Development tool,Option_1,Intermediate
+What is Epic Games engine?,Unreal Engine by Epic Games,Unity engine,CryEngine,Godot engine,Option_1,Intermediate
+What is Godot?,Open-source game engine for VR/AR,Commercial engine,Proprietary software,Game platform,Option_1,Intermediate
+What is CryEngine?,Game engine used for VR development,Unreal Engine,Unity,Godot,Option_1,Advanced
+What is game loop?,Continuous cycle rendering and updating game,Game event,Game state,Game object,Option_1,Intermediate
+What is frame rate (FPS)?,Frames per second rendered in VR/AR,Game speed,Physics speed,Animation speed,Option_1,Beginner
+What is rendering pipeline?,Process converting 3D scene to 2D image,Graphics processing,Display output,Scene representation,Option_1,Advanced
+What is shader?,Program determining material appearance,Graphics program,Lighting system,Texture effect,Option_1,Intermediate
+What is physics engine?,System simulating physical interactions,Collision detection,Gravity simulation,Movement system,Option_1,Intermediate
+What is 3D model?,3D representation of object with geometry,2D image,Vector graphic,Texture,Option_1,Beginner
+What is mesh?,Collection of vertices/edges/faces forming 3D object,Texture,Material,Animation,Option_1,Intermediate
+What is polygon?,Basic unit of 3D model made of vertices,Texture element,Mesh component,3D shape,Option_1,Intermediate
+What is UV mapping?,Applying 2D texture to 3D model,3D modeling,Texture creation,Material assignment,Option_1,Intermediate
+What is texture?,2D image applied to 3D model surface,3D model,Material property,Color information,Option_1,Beginner
+What is PBR (Physically Based Rendering)?,Rendering approach simulating physical light,Real-time rendering,Game rendering,VR rendering,Option_1,Advanced
+What is normal map?,Texture simulating surface detail and bumps,Displacement map,Height map,Ambient map,Option_1,Advanced
+What is skeletal animation?,Animating 3D model using bone structure,Vertex animation,Mesh deformation,Keyframe animation,Option_1,Intermediate
+What is rigging?,Process adding skeleton to 3D model,Modeling,Texturing,Animating,Option_1,Intermediate
+What is blendshape?,Alternative shape target for character animation,Skeletal animation,Keyframe animation,Physics animation,Option_1,Advanced
+What is marker-based AR?,AR requiring physical marker for tracking,Markerless AR,Location-based AR,Image tracking,Option_1,Intermediate
+What is markerless AR?,AR without requiring physical marker,Marker-based AR,Vision tracking,Sensor-based AR,Option_1,Intermediate
+What is location-based AR?,AR based on GPS location and orientation,Marker-based AR,Image tracking,Plane detection,Option_1,Intermediate
+What is image tracking?,Detecting and tracking images in AR,Marker tracking,Plane detection,Object recognition,Option_1,Intermediate
+What is object tracking?,Tracking real-world objects in AR,Image tracking,Plane detection,Face tracking,Option_1,Intermediate
+What is plane detection?,Finding flat surfaces for AR content placement,Surface recognition,Object detection,Face detection,Option_1,Intermediate
+What is face tracking?,Detecting and tracking human faces in AR,Head tracking,Eye tracking,Hand tracking,Option_1,Intermediate
+What is ARKit?,Apple framework for iOS AR development,Google AR framework,Android AR,Cross-platform,Option_1,Intermediate
+What is ARCore?,Google framework for Android AR development,Apple framework,iOS AR,Cross-platform,Option_1,Intermediate
+What is Vuforia?,Cross-platform AR development platform,Apple framework,Google framework,Mobile framework,Option_1,Intermediate
+What is grab interaction?,Picking up and manipulating virtual objects,Pointing interaction,Menu interaction,Teleportation,Option_1,Intermediate
+What is ray casting?,Shooting ray from controller to select objects,Physics ray,Collision detection,Hit detection,Option_1,Advanced
+What is teleportation in VR?,Moving to distant location instantly,Walking movement,Flying movement,Continuous movement,Option_1,Intermediate
+What is locomotion?,Method of moving through VR space,Avatar movement,Character animation,Scene navigation,Option_1,Intermediate
+What is teleport locomotion?,Instant movement to selected location,Smooth movement,Walking simulation,Flying simulation,Option_1,Intermediate
+What is smooth locomotion?,Continuous movement through space,Teleportation,Instant movement,Jumping,Option_1,Intermediate
+What is menu system in VR?,Interface for VR interaction and navigation,World menu,Spatial menu,3D UI,Option_1,Intermediate
+What is gaze-based interaction?,Using eye gaze to select and interact,Hand-based interaction,Controller-based,Voice command,Option_1,Advanced
+What is gesture recognition?,Recognizing hand gestures for interaction,Voice recognition,Eye tracking,Head tracking,Option_1,Advanced
+What is voice command?,Voice input for VR/AR interaction,Text input,Gesture input,Controller input,Option_1,Intermediate
+What is spatial audio?,3D directional sound in VR/AR,Stereo audio,Mono audio,Surround sound,Option_1,Intermediate
+What is head-related transfer function (HRTF)?,Filter creating 3D audio perception,Audio compression,Sound effect,Audio processing,Option_1,Advanced
+What is binaural audio?,3D audio recorded for both ears,Stereo audio,Mono audio,Spatial audio,Option_1,Intermediate
+What is audio spatialization?,Placing sound in 3D space around user,Audio mixing,Audio effects,Audio processing,Option_1,Advanced
+What is voice chat in VR?,Real-time communication between VR users,Text chat,Video chat,Audio recording,Option_1,Intermediate
+What is polygon count?,Number of polygons in 3D model,Model quality,Mesh density,Model complexity,Option_1,Intermediate
+What is draw call?,GPU command rendering mesh,Graphics call,Rendering operation,Graphics operation,Option_1,Advanced
+What is LOD (Level of Detail)?,Using lower quality assets at distance,Model quality,Texture resolution,Asset size,Option_1,Intermediate
+What is occlusion culling?,Hiding geometry behind other objects,View frustum culling,Distance culling,Visibility determination,Option_1,Advanced
+What is batching?,Combining objects for efficient rendering,Draw call reduction,Memory optimization,Performance improvement,Option_1,Advanced
+What is compression?,Reducing asset file sizes,Memory optimization,Data reduction,Asset optimization,Option_1,Intermediate
+What is resolution?,Pixel density and sharpness of display,Texture quality,Model quality,Frame rate,Option_1,Beginner
+What is frame time?,Time to render single frame,Frame rate,Processing time,Rendering speed,Option_1,Intermediate
+What is motion sickness in VR?,Discomfort from VR use due to latency,VR side effect,User discomfort,Technical issue,Option_1,Intermediate
+What is latency in VR?,Delay between user action and visual response,Frame rate,Processing speed,Network delay,Option_1,Intermediate
+What is networked VR?,Multiple users in same VR space,Single-user VR,Multiplayer gaming,Online gaming,Option_1,Intermediate
+What is avatar in VR?,Virtual representation of user in VR,Player character,NPC character,3D model,Option_1,Beginner
+What is presence awareness?,Detecting other users in VR space,User awareness,Avatar presence,Network awareness,Option_1,Advanced
+What is synchronization in multiplayer VR?,Keeping all users updated on shared state,Data synchronization,Network sync,State management,Option_1,Advanced
+What is client-server architecture in VR?,Server managing VR state for clients,Peer-to-peer,Distributed system,Local network,Option_1,Advanced
+What is peer-to-peer VR?,Direct connection between VR users,Client-server,Central server,Cloud-based,Option_1,Advanced
+What is animation blending?,Smoothly transitioning between animations,Animation layering,Animation state,Animation control,Option_1,Intermediate
+What is state machine?,System managing animation/behavior states,Game loop,Event system,Logic control,Option_1,Advanced
+What is scene management?,Loading and unloading scenes in VR,Scene composition,Hierarchy management,Object management,Option_1,Intermediate
+What is asset pipeline?,Process converting 3D assets for game,Asset import,Asset optimization,Asset preparation,Option_1,Advanced
+What is version control in game dev?,Managing code and asset versions,Git,GitHub,Version management,Option_1,Intermediate
+What is debugging in VR?,Finding and fixing VR application issues,Testing,Profiling,Performance analysis,Option_1,Intermediate
+What is profiling?,Analyzing performance bottlenecks,Code analysis,Performance measurement,Optimization,Option_1,Advanced
+What is UX design in VR?,Designing user experience for VR,UI design,Interaction design,Usability design,Option_1,Intermediate
+What is comfort in VR?,User physical comfort during VR use,Visual comfort,Hardware comfort,Environment comfort,Option_1,Intermediate
+What is cybersickness?,VR-induced motion sickness,Physical illness,Simulation sickness,Disorientation,Option_1,Intermediate
+What is field of view (FOV)?,Visible area user can see in VR,Display area,Vision range,Screen size,Option_1,Intermediate
+What is peripheral vision in VR?,Outer edge of visual field in VR,Central vision,Binocular vision,Depth perception,Option_1,Advanced
+What is depth perception?,Perceiving 3D depth in VR,Stereoscopic vision,Motion parallax,Distance estimation,Option_1,Advanced
+What is comfort settings?,Options reducing VR discomfort,Graphics settings,Control settings,Visual effects,Option_1,Intermediate
+What is VR training?,Using VR for professional skill training,Educational VR,Entertainment VR,Commercial VR,Option_1,Intermediate
+What is VR simulation?,Realistic scenario simulation in VR,Virtual environment,Training tool,Testing platform,Option_1,Intermediate
+What is virtual classroom?,Educational environment in VR,Online learning,E-learning,Distance learning,Option_1,Intermediate
+What is medical VR?,Using VR for medical training and therapy,Healthcare application,Clinical VR,Patient therapy,Option_1,Intermediate
+What is VR therapy?,Using VR for psychological treatment,Medical treatment,Physical therapy,Mental health,Option_1,Intermediate
+What is architectural visualization?,Visualizing buildings/spaces in VR/AR,3D visualization,Building preview,Spatial design,Option_1,Intermediate
+What is product visualization?,Visualizing products in VR/AR,3D presentation,Product preview,Design visualization,Option_1,Intermediate
+What is social VR?,Social interaction platform in VR,Multiplayer VR,Virtual meeting,Avatar interaction,Option_1,Intermediate
+What is eye gaze tracking?,High-precision tracking of eye direction,Head tracking,Hand tracking,Body tracking,Option_1,Advanced
+What is foveated rendering?,"High-res rendering where user looks, low elsewhere",Full-res rendering,Uniform rendering,Dynamic rendering,Option_1,Advanced
+What is variable rate shading?,Varying rendering quality based on importance,Uniform shading,Fixed shading,Static rendering,Option_1,Advanced
+What is volumetric rendering?,Rendering 3D volume data like clouds,Surface rendering,Mesh rendering,Texture rendering,Option_1,Advanced
+What is neural rendering?,Using AI for rendering and scene generation,Traditional rendering,Real-time rendering,Offline rendering,Option_1,Advanced
+What is hand gesture recognition?,Recognizing hand signs and gestures,Voice recognition,Eye tracking,Head tracking,Option_1,Advanced
+What is AI NPC?,Non-player characters with AI behavior,Player character,Avatar,Static character,Option_1,Intermediate
+What is procedural generation?,Algorithm creating content dynamically,Asset creation,Level design,Content authoring,Option_1,Advanced
+What is metaverse?,Persistent shared virtual world,Virtual reality,Game world,Virtual environment,Option_1,Beginner
+What is digital asset?,Virtual property and content in VR,Digital file,Virtual item,In-game item,Option_1,Beginner
+What is Virtual Reality (VR)?,Immersive digital environment simulating physical world,Augmented reality,Mixed reality,3D graphics,Option_1,Beginner
+What is Augmented Reality (AR)?,Digital content overlaid on physical world,Virtual reality,Mixed reality,Digital environment,Option_1,Beginner
+What is Mixed Reality (MR)?,Blending digital and physical worlds interactively,Augmented reality,Virtual reality,Extended reality,Option_1,Beginner
+What is Extended Reality (XR)?,"Umbrella term for VR, AR, and MR",Only VR,Only AR,Only MR,Option_1,Beginner
+What is immersion in VR?,Sense of being present in virtual environment,Graphics quality,Frame rate,Resolution,Option_1,Beginner
+What is presence in VR?,Psychological sensation of actually being in VR,Visual quality,Audio quality,Hardware specs,Option_1,Intermediate
+What are VR applications?,"Gaming, training, education, healthcare, therapy",Only gaming,Only education,Only training,Option_1,Beginner
+What are AR applications?,"Navigation, shopping, gaming, visualization, education",Only gaming,Only shopping,Only navigation,Option_1,Beginner
+What is head-mounted display (HMD)?,Wearable display device for VR,Desktop monitor,Mobile phone,Projected display,Option_1,Intermediate
+What is hand tracking in VR?,Tracking hand position and movement,Body tracking,Eye tracking,Head tracking,Option_1,Intermediate
+What is Oculus Rift?,VR headset by Meta for immersive experiences,AR device,VR headset,HTC Vive,Option_1,Intermediate
+What is HTC Vive?,High-end VR headset with room-scale tracking,Oculus Rift,PlayStation VR,Samsung Gear,Option_1,Intermediate
+What is PlayStation VR?,VR system for PlayStation console,PC VR,Standalone VR,Mobile VR,Option_1,Intermediate
+What is Meta Quest (formerly Oculus Quest)?,Standalone VR headset with built-in processing,Tethered VR,Mobile VR,AR headset,Option_1,Intermediate
+What is tethered VR?,VR system connected to PC or console,Standalone VR,Mobile VR,Wireless VR,Option_1,Intermediate
+What is standalone VR?,VR system with built-in processing power,Tethered VR,Mobile VR,PC VR,Option_1,Intermediate
+What is mobile VR?,VR experience on smartphone device,Standalone VR,Tethered VR,Desktop VR,Option_1,Beginner
+What is Google Cardboard?,Affordable mobile VR viewer,Expensive VR,Enterprise VR,Professional headset,Option_1,Intermediate
+What is Samsung Gear VR?,Mobile VR headset for Samsung phones,Tethered VR,Standalone VR,AR headset,Option_1,Intermediate
+What is Microsoft HoloLens?,Mixed reality headset for enterprise,VR headset,AR headset,Gaming device,Option_1,Intermediate
+What is positional tracking?,Tracking 3D position of user/controller,Rotation tracking,Movement detection,Location sensing,Option_1,Intermediate
+What is rotational tracking?,Tracking head/controller rotation,Position tracking,Movement detection,Location tracking,Option_1,Intermediate
+What is inside-out tracking?,Using device cameras for tracking,External sensors,Infrared tracking,GPS tracking,Option_1,Advanced
+What is outside-in tracking?,Using external sensors for tracking,Device cameras,Self-contained tracking,Mobile tracking,Option_1,Advanced
+What is infrared tracking?,Using IR lights for position detection,Visual tracking,Magnetic tracking,Acoustic tracking,Option_1,Advanced
+What is lighthouse tracking?,HTC system using base stations for tracking,Camera tracking,Infrared tracking,Acoustic tracking,Option_1,Advanced
+What is eye tracking?,Monitoring eye gaze direction and focus,Head tracking,Hand tracking,Body tracking,Option_1,Intermediate
+What is body tracking?,Capturing full body movement in VR,Hand tracking,Head tracking,Eye tracking,Option_1,Intermediate
+What is haptic feedback?,Tactile sensations and vibrations in VR,Visual feedback,Audio feedback,Motion feedback,Option_1,Intermediate
+What is haptic glove?,Glove providing haptic feedback for VR hands,Motion controller,Hand tracker,Virtual hand,Option_1,Advanced
+What is Unity?,Cross-platform game engine for VR/AR development,Game platform,Graphics engine,Rendering engine,Option_1,Intermediate
+What is Unreal Engine?,High-end game engine for VR/AR,Unity alternative,Game platform,Development tool,Option_1,Intermediate
+What is Epic Games engine?,Unreal Engine by Epic Games,Unity engine,CryEngine,Godot engine,Option_1,Intermediate
+What is Godot?,Open-source game engine for VR/AR,Commercial engine,Proprietary software,Game platform,Option_1,Intermediate
+What is CryEngine?,Game engine used for VR development,Unreal Engine,Unity,Godot,Option_1,Advanced
+What is game loop?,Continuous cycle rendering and updating game,Game event,Game state,Game object,Option_1,Intermediate
+What is frame rate (FPS)?,Frames per second rendered in VR/AR,Game speed,Physics speed,Animation speed,Option_1,Beginner
+What is rendering pipeline?,Process converting 3D scene to 2D image,Graphics processing,Display output,Scene representation,Option_1,Advanced
+What is shader?,Program determining material appearance,Graphics program,Lighting system,Texture effect,Option_1,Intermediate
+What is physics engine?,System simulating physical interactions,Collision detection,Gravity simulation,Movement system,Option_1,Intermediate
+What is 3D model?,3D representation of object with geometry,2D image,Vector graphic,Texture,Option_1,Beginner
+What is mesh?,Collection of vertices/edges/faces forming 3D object,Texture,Material,Animation,Option_1,Intermediate
+What is polygon?,Basic unit of 3D model made of vertices,Texture element,Mesh component,3D shape,Option_1,Intermediate
+What is UV mapping?,Applying 2D texture to 3D model,3D modeling,Texture creation,Material assignment,Option_1,Intermediate
+What is texture?,2D image applied to 3D model surface,3D model,Material property,Color information,Option_1,Beginner
+What is PBR (Physically Based Rendering)?,Rendering approach simulating physical light,Real-time rendering,Game rendering,VR rendering,Option_1,Advanced
+What is normal map?,Texture simulating surface detail and bumps,Displacement map,Height map,Ambient map,Option_1,Advanced
+What is skeletal animation?,Animating 3D model using bone structure,Vertex animation,Mesh deformation,Keyframe animation,Option_1,Intermediate
+What is rigging?,Process adding skeleton to 3D model,Modeling,Texturing,Animating,Option_1,Intermediate
+What is blendshape?,Alternative shape target for character animation,Skeletal animation,Keyframe animation,Physics animation,Option_1,Advanced
+What is marker-based AR?,AR requiring physical marker for tracking,Markerless AR,Location-based AR,Image tracking,Option_1,Intermediate
+What is markerless AR?,AR without requiring physical marker,Marker-based AR,Vision tracking,Sensor-based AR,Option_1,Intermediate
+What is location-based AR?,AR based on GPS location and orientation,Marker-based AR,Image tracking,Plane detection,Option_1,Intermediate
+What is image tracking?,Detecting and tracking images in AR,Marker tracking,Plane detection,Object recognition,Option_1,Intermediate
+What is object tracking?,Tracking real-world objects in AR,Image tracking,Plane detection,Face tracking,Option_1,Intermediate
+What is plane detection?,Finding flat surfaces for AR content placement,Surface recognition,Object detection,Face detection,Option_1,Intermediate
+What is face tracking?,Detecting and tracking human faces in AR,Head tracking,Eye tracking,Hand tracking,Option_1,Intermediate
+What is ARKit?,Apple framework for iOS AR development,Google AR framework,Android AR,Cross-platform,Option_1,Intermediate
+What is ARCore?,Google framework for Android AR development,Apple framework,iOS AR,Cross-platform,Option_1,Intermediate
+What is Vuforia?,Cross-platform AR development platform,Apple framework,Google framework,Mobile framework,Option_1,Intermediate
+What is grab interaction?,Picking up and manipulating virtual objects,Pointing interaction,Menu interaction,Teleportation,Option_1,Intermediate
+What is ray casting?,Shooting ray from controller to select objects,Physics ray,Collision detection,Hit detection,Option_1,Advanced
+What is teleportation in VR?,Moving to distant location instantly,Walking movement,Flying movement,Continuous movement,Option_1,Intermediate
+What is locomotion?,Method of moving through VR space,Avatar movement,Character animation,Scene navigation,Option_1,Intermediate
+What is teleport locomotion?,Instant movement to selected location,Smooth movement,Walking simulation,Flying simulation,Option_1,Intermediate
+What is smooth locomotion?,Continuous movement through space,Teleportation,Instant movement,Jumping,Option_1,Intermediate
+What is menu system in VR?,Interface for VR interaction and navigation,World menu,Spatial menu,3D UI,Option_1,Intermediate
+What is gaze-based interaction?,Using eye gaze to select and interact,Hand-based interaction,Controller-based,Voice command,Option_1,Advanced
+What is gesture recognition?,Recognizing hand gestures for interaction,Voice recognition,Eye tracking,Head tracking,Option_1,Advanced
+What is voice command?,Voice input for VR/AR interaction,Text input,Gesture input,Controller input,Option_1,Intermediate
+What is spatial audio?,3D directional sound in VR/AR,Stereo audio,Mono audio,Surround sound,Option_1,Intermediate
+What is head-related transfer function (HRTF)?,Filter creating 3D audio perception,Audio compression,Sound effect,Audio processing,Option_1,Advanced
+What is binaural audio?,3D audio recorded for both ears,Stereo audio,Mono audio,Spatial audio,Option_1,Intermediate
+What is audio spatialization?,Placing sound in 3D space around user,Audio mixing,Audio effects,Audio processing,Option_1,Advanced
+What is voice chat in VR?,Real-time communication between VR users,Text chat,Video chat,Audio recording,Option_1,Intermediate
+What is polygon count?,Number of polygons in 3D model,Model quality,Mesh density,Model complexity,Option_1,Intermediate
+What is draw call?,GPU command rendering mesh,Graphics call,Rendering operation,Graphics operation,Option_1,Advanced
+What is LOD (Level of Detail)?,Using lower quality assets at distance,Model quality,Texture resolution,Asset size,Option_1,Intermediate
+What is occlusion culling?,Hiding geometry behind other objects,View frustum culling,Distance culling,Visibility determination,Option_1,Advanced
+What is batching?,Combining objects for efficient rendering,Draw call reduction,Memory optimization,Performance improvement,Option_1,Advanced
+What is compression?,Reducing asset file sizes,Memory optimization,Data reduction,Asset optimization,Option_1,Intermediate
+What is resolution?,Pixel density and sharpness of display,Texture quality,Model quality,Frame rate,Option_1,Beginner
+What is frame time?,Time to render single frame,Frame rate,Processing time,Rendering speed,Option_1,Intermediate
+What is motion sickness in VR?,Discomfort from VR use due to latency,VR side effect,User discomfort,Technical issue,Option_1,Intermediate
+What is latency in VR?,Delay between user action and visual response,Frame rate,Processing speed,Network delay,Option_1,Intermediate
+What is networked VR?,Multiple users in same VR space,Single-user VR,Multiplayer gaming,Online gaming,Option_1,Intermediate
+What is avatar in VR?,Virtual representation of user in VR,Player character,NPC character,3D model,Option_1,Beginner
+What is presence awareness?,Detecting other users in VR space,User awareness,Avatar presence,Network awareness,Option_1,Advanced
+What is synchronization in multiplayer VR?,Keeping all users updated on shared state,Data synchronization,Network sync,State management,Option_1,Advanced
+What is client-server architecture in VR?,Server managing VR state for clients,Peer-to-peer,Distributed system,Local network,Option_1,Advanced
+What is peer-to-peer VR?,Direct connection between VR users,Client-server,Central server,Cloud-based,Option_1,Advanced
+What is animation blending?,Smoothly transitioning between animations,Animation layering,Animation state,Animation control,Option_1,Intermediate
+What is state machine?,System managing animation/behavior states,Game loop,Event system,Logic control,Option_1,Advanced
+What is scene management?,Loading and unloading scenes in VR,Scene composition,Hierarchy management,Object management,Option_1,Intermediate
+What is asset pipeline?,Process converting 3D assets for game,Asset import,Asset optimization,Asset preparation,Option_1,Advanced
+What is version control in game dev?,Managing code and asset versions,Git,GitHub,Version management,Option_1,Intermediate
+What is debugging in VR?,Finding and fixing VR application issues,Testing,Profiling,Performance analysis,Option_1,Intermediate
+What is profiling?,Analyzing performance bottlenecks,Code analysis,Performance measurement,Optimization,Option_1,Advanced
+What is UX design in VR?,Designing user experience for VR,UI design,Interaction design,Usability design,Option_1,Intermediate
+What is comfort in VR?,User physical comfort during VR use,Visual comfort,Hardware comfort,Environment comfort,Option_1,Intermediate
+What is cybersickness?,VR-induced motion sickness,Physical illness,Simulation sickness,Disorientation,Option_1,Intermediate
+What is field of view (FOV)?,Visible area user can see in VR,Display area,Vision range,Screen size,Option_1,Intermediate
+What is peripheral vision in VR?,Outer edge of visual field in VR,Central vision,Binocular vision,Depth perception,Option_1,Advanced
+What is depth perception?,Perceiving 3D depth in VR,Stereoscopic vision,Motion parallax,Distance estimation,Option_1,Advanced
+What is comfort settings?,Options reducing VR discomfort,Graphics settings,Control settings,Visual effects,Option_1,Intermediate
+What is VR training?,Using VR for professional skill training,Educational VR,Entertainment VR,Commercial VR,Option_1,Intermediate
+What is VR simulation?,Realistic scenario simulation in VR,Virtual environment,Training tool,Testing platform,Option_1,Intermediate
+What is virtual classroom?,Educational environment in VR,Online learning,E-learning,Distance learning,Option_1,Intermediate
+What is medical VR?,Using VR for medical training and therapy,Healthcare application,Clinical VR,Patient therapy,Option_1,Intermediate
+What is VR therapy?,Using VR for psychological treatment,Medical treatment,Physical therapy,Mental health,Option_1,Intermediate
+What is architectural visualization?,Visualizing buildings/spaces in VR/AR,3D visualization,Building preview,Spatial design,Option_1,Intermediate
+What is product visualization?,Visualizing products in VR/AR,3D presentation,Product preview,Design visualization,Option_1,Intermediate
+What is social VR?,Social interaction platform in VR,Multiplayer VR,Virtual meeting,Avatar interaction,Option_1,Intermediate
+What is eye gaze tracking?,High-precision tracking of eye direction,Head tracking,Hand tracking,Body tracking,Option_1,Advanced
+What is foveated rendering?,"High-res rendering where user looks, low elsewhere",Full-res rendering,Uniform rendering,Dynamic rendering,Option_1,Advanced
+What is variable rate shading?,Varying rendering quality based on importance,Uniform shading,Fixed shading,Static rendering,Option_1,Advanced
+What is volumetric rendering?,Rendering 3D volume data like clouds,Surface rendering,Mesh rendering,Texture rendering,Option_1,Advanced
+What is neural rendering?,Using AI for rendering and scene generation,Traditional rendering,Real-time rendering,Offline rendering,Option_1,Advanced
+What is hand gesture recognition?,Recognizing hand signs and gestures,Voice recognition,Eye tracking,Head tracking,Option_1,Advanced
+What is AI NPC?,Non-player characters with AI behavior,Player character,Avatar,Static character,Option_1,Intermediate
+What is procedural generation?,Algorithm creating content dynamically,Asset creation,Level design,Content authoring,Option_1,Advanced
+What is metaverse?,Persistent shared virtual world,Virtual reality,Game world,Virtual environment,Option_1,Beginner
+What is digital asset?,Virtual property and content in VR,Digital file,Virtual item,In-game item,Option_1,Beginner
+What is Virtual Reality (VR)?,Immersive digital environment simulating physical world,Augmented reality,Mixed reality,3D graphics,Option_1,Beginner
+What is Augmented Reality (AR)?,Digital content overlaid on physical world,Virtual reality,Mixed reality,Digital environment,Option_1,Beginner
+What is Mixed Reality (MR)?,Blending digital and physical worlds interactively,Augmented reality,Virtual reality,Extended reality,Option_1,Beginner
+What is Extended Reality (XR)?,"Umbrella term for VR, AR, and MR",Only VR,Only AR,Only MR,Option_1,Beginner
+What is immersion in VR?,Sense of being present in virtual environment,Graphics quality,Frame rate,Resolution,Option_1,Beginner
+What is presence in VR?,Psychological sensation of actually being in VR,Visual quality,Audio quality,Hardware specs,Option_1,Intermediate
+What are VR applications?,"Gaming, training, education, healthcare, therapy",Only gaming,Only education,Only training,Option_1,Beginner
+What are AR applications?,"Navigation, shopping, gaming, visualization, education",Only gaming,Only shopping,Only navigation,Option_1,Beginner
+What is head-mounted display (HMD)?,Wearable display device for VR,Desktop monitor,Mobile phone,Projected display,Option_1,Intermediate
+What is hand tracking in VR?,Tracking hand position and movement,Body tracking,Eye tracking,Head tracking,Option_1,Intermediate
+What is Oculus Rift?,VR headset by Meta for immersive experiences,AR device,VR headset,HTC Vive,Option_1,Intermediate
+What is HTC Vive?,High-end VR headset with room-scale tracking,Oculus Rift,PlayStation VR,Samsung Gear,Option_1,Intermediate
+What is PlayStation VR?,VR system for PlayStation console,PC VR,Standalone VR,Mobile VR,Option_1,Intermediate
+What is Meta Quest (formerly Oculus Quest)?,Standalone VR headset with built-in processing,Tethered VR,Mobile VR,AR headset,Option_1,Intermediate
+What is tethered VR?,VR system connected to PC or console,Standalone VR,Mobile VR,Wireless VR,Option_1,Intermediate
+What is standalone VR?,VR system with built-in processing power,Tethered VR,Mobile VR,PC VR,Option_1,Intermediate
+What is mobile VR?,VR experience on smartphone device,Standalone VR,Tethered VR,Desktop VR,Option_1,Beginner
+What is Google Cardboard?,Affordable mobile VR viewer,Expensive VR,Enterprise VR,Professional headset,Option_1,Intermediate
+What is Samsung Gear VR?,Mobile VR headset for Samsung phones,Tethered VR,Standalone VR,AR headset,Option_1,Intermediate
+What is Microsoft HoloLens?,Mixed reality headset for enterprise,VR headset,AR headset,Gaming device,Option_1,Intermediate
+What is positional tracking?,Tracking 3D position of user/controller,Rotation tracking,Movement detection,Location sensing,Option_1,Intermediate
+What is rotational tracking?,Tracking head/controller rotation,Position tracking,Movement detection,Location tracking,Option_1,Intermediate
+What is inside-out tracking?,Using device cameras for tracking,External sensors,Infrared tracking,GPS tracking,Option_1,Advanced
+What is outside-in tracking?,Using external sensors for tracking,Device cameras,Self-contained tracking,Mobile tracking,Option_1,Advanced
+What is infrared tracking?,Using IR lights for position detection,Visual tracking,Magnetic tracking,Acoustic tracking,Option_1,Advanced
+What is lighthouse tracking?,HTC system using base stations for tracking,Camera tracking,Infrared tracking,Acoustic tracking,Option_1,Advanced
+What is eye tracking?,Monitoring eye gaze direction and focus,Head tracking,Hand tracking,Body tracking,Option_1,Intermediate
+What is body tracking?,Capturing full body movement in VR,Hand tracking,Head tracking,Eye tracking,Option_1,Intermediate
+What is haptic feedback?,Tactile sensations and vibrations in VR,Visual feedback,Audio feedback,Motion feedback,Option_1,Intermediate
+What is haptic glove?,Glove providing haptic feedback for VR hands,Motion controller,Hand tracker,Virtual hand,Option_1,Advanced
+What is Unity?,Cross-platform game engine for VR/AR development,Game platform,Graphics engine,Rendering engine,Option_1,Intermediate
+What is Unreal Engine?,High-end game engine for VR/AR,Unity alternative,Game platform,Development tool,Option_1,Intermediate
+What is Epic Games engine?,Unreal Engine by Epic Games,Unity engine,CryEngine,Godot engine,Option_1,Intermediate
+What is Godot?,Open-source game engine for VR/AR,Commercial engine,Proprietary software,Game platform,Option_1,Intermediate
+What is CryEngine?,Game engine used for VR development,Unreal Engine,Unity,Godot,Option_1,Advanced
+What is game loop?,Continuous cycle rendering and updating game,Game event,Game state,Game object,Option_1,Intermediate
+What is frame rate (FPS)?,Frames per second rendered in VR/AR,Game speed,Physics speed,Animation speed,Option_1,Beginner
+What is rendering pipeline?,Process converting 3D scene to 2D image,Graphics processing,Display output,Scene representation,Option_1,Advanced
+What is shader?,Program determining material appearance,Graphics program,Lighting system,Texture effect,Option_1,Intermediate
+What is physics engine?,System simulating physical interactions,Collision detection,Gravity simulation,Movement system,Option_1,Intermediate
+What is 3D model?,3D representation of object with geometry,2D image,Vector graphic,Texture,Option_1,Beginner
+What is mesh?,Collection of vertices/edges/faces forming 3D object,Texture,Material,Animation,Option_1,Intermediate
+What is polygon?,Basic unit of 3D model made of vertices,Texture element,Mesh component,3D shape,Option_1,Intermediate
+What is UV mapping?,Applying 2D texture to 3D model,3D modeling,Texture creation,Material assignment,Option_1,Intermediate
+What is texture?,2D image applied to 3D model surface,3D model,Material property,Color information,Option_1,Beginner
+What is PBR (Physically Based Rendering)?,Rendering approach simulating physical light,Real-time rendering,Game rendering,VR rendering,Option_1,Advanced
+What is normal map?,Texture simulating surface detail and bumps,Displacement map,Height map,Ambient map,Option_1,Advanced
+What is skeletal animation?,Animating 3D model using bone structure,Vertex animation,Mesh deformation,Keyframe animation,Option_1,Intermediate
+What is rigging?,Process adding skeleton to 3D model,Modeling,Texturing,Animating,Option_1,Intermediate
+What is blendshape?,Alternative shape target for character animation,Skeletal animation,Keyframe animation,Physics animation,Option_1,Advanced
+What is marker-based AR?,AR requiring physical marker for tracking,Markerless AR,Location-based AR,Image tracking,Option_1,Intermediate
+What is markerless AR?,AR without requiring physical marker,Marker-based AR,Vision tracking,Sensor-based AR,Option_1,Intermediate
+What is location-based AR?,AR based on GPS location and orientation,Marker-based AR,Image tracking,Plane detection,Option_1,Intermediate
+What is image tracking?,Detecting and tracking images in AR,Marker tracking,Plane detection,Object recognition,Option_1,Intermediate
+What is object tracking?,Tracking real-world objects in AR,Image tracking,Plane detection,Face tracking,Option_1,Intermediate
+What is plane detection?,Finding flat surfaces for AR content placement,Surface recognition,Object detection,Face detection,Option_1,Intermediate
+What is face tracking?,Detecting and tracking human faces in AR,Head tracking,Eye tracking,Hand tracking,Option_1,Intermediate
+What is ARKit?,Apple framework for iOS AR development,Google AR framework,Android AR,Cross-platform,Option_1,Intermediate
+What is ARCore?,Google framework for Android AR development,Apple framework,iOS AR,Cross-platform,Option_1,Intermediate
+What is Vuforia?,Cross-platform AR development platform,Apple framework,Google framework,Mobile framework,Option_1,Intermediate
+What is grab interaction?,Picking up and manipulating virtual objects,Pointing interaction,Menu interaction,Teleportation,Option_1,Intermediate
+What is ray casting?,Shooting ray from controller to select objects,Physics ray,Collision detection,Hit detection,Option_1,Advanced
+What is teleportation in VR?,Moving to distant location instantly,Walking movement,Flying movement,Continuous movement,Option_1,Intermediate
+What is locomotion?,Method of moving through VR space,Avatar movement,Character animation,Scene navigation,Option_1,Intermediate
+What is teleport locomotion?,Instant movement to selected location,Smooth movement,Walking simulation,Flying simulation,Option_1,Intermediate
+What is smooth locomotion?,Continuous movement through space,Teleportation,Instant movement,Jumping,Option_1,Intermediate
+What is menu system in VR?,Interface for VR interaction and navigation,World menu,Spatial menu,3D UI,Option_1,Intermediate
+What is gaze-based interaction?,Using eye gaze to select and interact,Hand-based interaction,Controller-based,Voice command,Option_1,Advanced
+What is gesture recognition?,Recognizing hand gestures for interaction,Voice recognition,Eye tracking,Head tracking,Option_1,Advanced
+What is voice command?,Voice input for VR/AR interaction,Text input,Gesture input,Controller input,Option_1,Intermediate
+What is spatial audio?,3D directional sound in VR/AR,Stereo audio,Mono audio,Surround sound,Option_1,Intermediate
+What is head-related transfer function (HRTF)?,Filter creating 3D audio perception,Audio compression,Sound effect,Audio processing,Option_1,Advanced
+What is binaural audio?,3D audio recorded for both ears,Stereo audio,Mono audio,Spatial audio,Option_1,Intermediate
+What is audio spatialization?,Placing sound in 3D space around user,Audio mixing,Audio effects,Audio processing,Option_1,Advanced
+What is voice chat in VR?,Real-time communication between VR users,Text chat,Video chat,Audio recording,Option_1,Intermediate
+What is polygon count?,Number of polygons in 3D model,Model quality,Mesh density,Model complexity,Option_1,Intermediate
+What is draw call?,GPU command rendering mesh,Graphics call,Rendering operation,Graphics operation,Option_1,Advanced
+What is LOD (Level of Detail)?,Using lower quality assets at distance,Model quality,Texture resolution,Asset size,Option_1,Intermediate
+What is occlusion culling?,Hiding geometry behind other objects,View frustum culling,Distance culling,Visibility determination,Option_1,Advanced
+What is batching?,Combining objects for efficient rendering,Draw call reduction,Memory optimization,Performance improvement,Option_1,Advanced
+What is compression?,Reducing asset file sizes,Memory optimization,Data reduction,Asset optimization,Option_1,Intermediate
+What is resolution?,Pixel density and sharpness of display,Texture quality,Model quality,Frame rate,Option_1,Beginner
+What is frame time?,Time to render single frame,Frame rate,Processing time,Rendering speed,Option_1,Intermediate
+What is motion sickness in VR?,Discomfort from VR use due to latency,VR side effect,User discomfort,Technical issue,Option_1,Intermediate
+What is latency in VR?,Delay between user action and visual response,Frame rate,Processing speed,Network delay,Option_1,Intermediate
+What is networked VR?,Multiple users in same VR space,Single-user VR,Multiplayer gaming,Online gaming,Option_1,Intermediate
+What is avatar in VR?,Virtual representation of user in VR,Player character,NPC character,3D model,Option_1,Beginner
+What is presence awareness?,Detecting other users in VR space,User awareness,Avatar presence,Network awareness,Option_1,Advanced
+What is synchronization in multiplayer VR?,Keeping all users updated on shared state,Data synchronization,Network sync,State management,Option_1,Advanced
+What is client-server architecture in VR?,Server managing VR state for clients,Peer-to-peer,Distributed system,Local network,Option_1,Advanced
+What is peer-to-peer VR?,Direct connection between VR users,Client-server,Central server,Cloud-based,Option_1,Advanced
+What is animation blending?,Smoothly transitioning between animations,Animation layering,Animation state,Animation control,Option_1,Intermediate
+What is state machine?,System managing animation/behavior states,Game loop,Event system,Logic control,Option_1,Advanced
+What is scene management?,Loading and unloading scenes in VR,Scene composition,Hierarchy management,Object management,Option_1,Intermediate
+What is asset pipeline?,Process converting 3D assets for game,Asset import,Asset optimization,Asset preparation,Option_1,Advanced
+What is version control in game dev?,Managing code and asset versions,Git,GitHub,Version management,Option_1,Intermediate
+What is debugging in VR?,Finding and fixing VR application issues,Testing,Profiling,Performance analysis,Option_1,Intermediate
+What is profiling?,Analyzing performance bottlenecks,Code analysis,Performance measurement,Optimization,Option_1,Advanced
+What is UX design in VR?,Designing user experience for VR,UI design,Interaction design,Usability design,Option_1,Intermediate
+What is comfort in VR?,User physical comfort during VR use,Visual comfort,Hardware comfort,Environment comfort,Option_1,Intermediate
+What is cybersickness?,VR-induced motion sickness,Physical illness,Simulation sickness,Disorientation,Option_1,Intermediate
+What is field of view (FOV)?,Visible area user can see in VR,Display area,Vision range,Screen size,Option_1,Intermediate
+What is peripheral vision in VR?,Outer edge of visual field in VR,Central vision,Binocular vision,Depth perception,Option_1,Advanced
+What is depth perception?,Perceiving 3D depth in VR,Stereoscopic vision,Motion parallax,Distance estimation,Option_1,Advanced
+What is comfort settings?,Options reducing VR discomfort,Graphics settings,Control settings,Visual effects,Option_1,Intermediate
+What is VR training?,Using VR for professional skill training,Educational VR,Entertainment VR,Commercial VR,Option_1,Intermediate
+What is VR simulation?,Realistic scenario simulation in VR,Virtual environment,Training tool,Testing platform,Option_1,Intermediate
+What is virtual classroom?,Educational environment in VR,Online learning,E-learning,Distance learning,Option_1,Intermediate
+What is medical VR?,Using VR for medical training and therapy,Healthcare application,Clinical VR,Patient therapy,Option_1,Intermediate
+What is VR therapy?,Using VR for psychological treatment,Medical treatment,Physical therapy,Mental health,Option_1,Intermediate
+What is architectural visualization?,Visualizing buildings/spaces in VR/AR,3D visualization,Building preview,Spatial design,Option_1,Intermediate
+What is product visualization?,Visualizing products in VR/AR,3D presentation,Product preview,Design visualization,Option_1,Intermediate
+What is social VR?,Social interaction platform in VR,Multiplayer VR,Virtual meeting,Avatar interaction,Option_1,Intermediate
+What is eye gaze tracking?,High-precision tracking of eye direction,Head tracking,Hand tracking,Body tracking,Option_1,Advanced
+What is foveated rendering?,"High-res rendering where user looks, low elsewhere",Full-res rendering,Uniform rendering,Dynamic rendering,Option_1,Advanced
+What is variable rate shading?,Varying rendering quality based on importance,Uniform shading,Fixed shading,Static rendering,Option_1,Advanced
+What is volumetric rendering?,Rendering 3D volume data like clouds,Surface rendering,Mesh rendering,Texture rendering,Option_1,Advanced
+What is neural rendering?,Using AI for rendering and scene generation,Traditional rendering,Real-time rendering,Offline rendering,Option_1,Advanced
+What is hand gesture recognition?,Recognizing hand signs and gestures,Voice recognition,Eye tracking,Head tracking,Option_1,Advanced
+What is AI NPC?,Non-player characters with AI behavior,Player character,Avatar,Static character,Option_1,Intermediate
+What is procedural generation?,Algorithm creating content dynamically,Asset creation,Level design,Content authoring,Option_1,Advanced
+What is metaverse?,Persistent shared virtual world,Virtual reality,Game world,Virtual environment,Option_1,Beginner
+What is digital asset?,Virtual property and content in VR,Digital file,Virtual item,In-game item,Option_1,Beginner
+What is Virtual Reality (VR)?,Immersive digital environment simulating physical world,Augmented reality,Mixed reality,3D graphics,Option_1,Beginner
+What is Augmented Reality (AR)?,Digital content overlaid on physical world,Virtual reality,Mixed reality,Digital environment,Option_1,Beginner
+What is Mixed Reality (MR)?,Blending digital and physical worlds interactively,Augmented reality,Virtual reality,Extended reality,Option_1,Beginner
+What is Extended Reality (XR)?,"Umbrella term for VR, AR, and MR",Only VR,Only AR,Only MR,Option_1,Beginner
+What is immersion in VR?,Sense of being present in virtual environment,Graphics quality,Frame rate,Resolution,Option_1,Beginner
+What is presence in VR?,Psychological sensation of actually being in VR,Visual quality,Audio quality,Hardware specs,Option_1,Intermediate
+What are VR applications?,"Gaming, training, education, healthcare, therapy",Only gaming,Only education,Only training,Option_1,Beginner
+What are AR applications?,"Navigation, shopping, gaming, visualization, education",Only gaming,Only shopping,Only navigation,Option_1,Beginner
+What is head-mounted display (HMD)?,Wearable display device for VR,Desktop monitor,Mobile phone,Projected display,Option_1,Intermediate
+What is hand tracking in VR?,Tracking hand position and movement,Body tracking,Eye tracking,Head tracking,Option_1,Intermediate
+What is Oculus Rift?,VR headset by Meta for immersive experiences,AR device,VR headset,HTC Vive,Option_1,Intermediate
+What is HTC Vive?,High-end VR headset with room-scale tracking,Oculus Rift,PlayStation VR,Samsung Gear,Option_1,Intermediate
+What is PlayStation VR?,VR system for PlayStation console,PC VR,Standalone VR,Mobile VR,Option_1,Intermediate
+What is Meta Quest (formerly Oculus Quest)?,Standalone VR headset with built-in processing,Tethered VR,Mobile VR,AR headset,Option_1,Intermediate
+What is tethered VR?,VR system connected to PC or console,Standalone VR,Mobile VR,Wireless VR,Option_1,Intermediate
+What is standalone VR?,VR system with built-in processing power,Tethered VR,Mobile VR,PC VR,Option_1,Intermediate
+What is mobile VR?,VR experience on smartphone device,Standalone VR,Tethered VR,Desktop VR,Option_1,Beginner
+What is Google Cardboard?,Affordable mobile VR viewer,Expensive VR,Enterprise VR,Professional headset,Option_1,Intermediate
+What is Samsung Gear VR?,Mobile VR headset for Samsung phones,Tethered VR,Standalone VR,AR headset,Option_1,Intermediate
+What is Microsoft HoloLens?,Mixed reality headset for enterprise,VR headset,AR headset,Gaming device,Option_1,Intermediate
+What is positional tracking?,Tracking 3D position of user/controller,Rotation tracking,Movement detection,Location sensing,Option_1,Intermediate
+What is rotational tracking?,Tracking head/controller rotation,Position tracking,Movement detection,Location tracking,Option_1,Intermediate
+What is inside-out tracking?,Using device cameras for tracking,External sensors,Infrared tracking,GPS tracking,Option_1,Advanced
+What is outside-in tracking?,Using external sensors for tracking,Device cameras,Self-contained tracking,Mobile tracking,Option_1,Advanced
+What is infrared tracking?,Using IR lights for position detection,Visual tracking,Magnetic tracking,Acoustic tracking,Option_1,Advanced
+What is lighthouse tracking?,HTC system using base stations for tracking,Camera tracking,Infrared tracking,Acoustic tracking,Option_1,Advanced
+What is eye tracking?,Monitoring eye gaze direction and focus,Head tracking,Hand tracking,Body tracking,Option_1,Intermediate
+What is body tracking?,Capturing full body movement in VR,Hand tracking,Head tracking,Eye tracking,Option_1,Intermediate
+What is haptic feedback?,Tactile sensations and vibrations in VR,Visual feedback,Audio feedback,Motion feedback,Option_1,Intermediate
+What is haptic glove?,Glove providing haptic feedback for VR hands,Motion controller,Hand tracker,Virtual hand,Option_1,Advanced
+What is Unity?,Cross-platform game engine for VR/AR development,Game platform,Graphics engine,Rendering engine,Option_1,Intermediate
+What is Unreal Engine?,High-end game engine for VR/AR,Unity alternative,Game platform,Development tool,Option_1,Intermediate
+What is Epic Games engine?,Unreal Engine by Epic Games,Unity engine,CryEngine,Godot engine,Option_1,Intermediate
+What is Godot?,Open-source game engine for VR/AR,Commercial engine,Proprietary software,Game platform,Option_1,Intermediate
+What is CryEngine?,Game engine used for VR development,Unreal Engine,Unity,Godot,Option_1,Advanced
+What is game loop?,Continuous cycle rendering and updating game,Game event,Game state,Game object,Option_1,Intermediate
+What is frame rate (FPS)?,Frames per second rendered in VR/AR,Game speed,Physics speed,Animation speed,Option_1,Beginner
+What is rendering pipeline?,Process converting 3D scene to 2D image,Graphics processing,Display output,Scene representation,Option_1,Advanced
+What is shader?,Program determining material appearance,Graphics program,Lighting system,Texture effect,Option_1,Intermediate
+What is physics engine?,System simulating physical interactions,Collision detection,Gravity simulation,Movement system,Option_1,Intermediate
+What is 3D model?,3D representation of object with geometry,2D image,Vector graphic,Texture,Option_1,Beginner
+What is mesh?,Collection of vertices/edges/faces forming 3D object,Texture,Material,Animation,Option_1,Intermediate
+What is polygon?,Basic unit of 3D model made of vertices,Texture element,Mesh component,3D shape,Option_1,Intermediate
+What is UV mapping?,Applying 2D texture to 3D model,3D modeling,Texture creation,Material assignment,Option_1,Intermediate
+What is texture?,2D image applied to 3D model surface,3D model,Material property,Color information,Option_1,Beginner
+What is PBR (Physically Based Rendering)?,Rendering approach simulating physical light,Real-time rendering,Game rendering,VR rendering,Option_1,Advanced
+What is normal map?,Texture simulating surface detail and bumps,Displacement map,Height map,Ambient map,Option_1,Advanced
+What is skeletal animation?,Animating 3D model using bone structure,Vertex animation,Mesh deformation,Keyframe animation,Option_1,Intermediate
+What is rigging?,Process adding skeleton to 3D model,Modeling,Texturing,Animating,Option_1,Intermediate
+What is blendshape?,Alternative shape target for character animation,Skeletal animation,Keyframe animation,Physics animation,Option_1,Advanced
+What is marker-based AR?,AR requiring physical marker for tracking,Markerless AR,Location-based AR,Image tracking,Option_1,Intermediate
+What is markerless AR?,AR without requiring physical marker,Marker-based AR,Vision tracking,Sensor-based AR,Option_1,Intermediate
+What is location-based AR?,AR based on GPS location and orientation,Marker-based AR,Image tracking,Plane detection,Option_1,Intermediate
+What is image tracking?,Detecting and tracking images in AR,Marker tracking,Plane detection,Object recognition,Option_1,Intermediate
+What is object tracking?,Tracking real-world objects in AR,Image tracking,Plane detection,Face tracking,Option_1,Intermediate
+What is plane detection?,Finding flat surfaces for AR content placement,Surface recognition,Object detection,Face detection,Option_1,Intermediate
+What is face tracking?,Detecting and tracking human faces in AR,Head tracking,Eye tracking,Hand tracking,Option_1,Intermediate
+What is ARKit?,Apple framework for iOS AR development,Google AR framework,Android AR,Cross-platform,Option_1,Intermediate
+What is ARCore?,Google framework for Android AR development,Apple framework,iOS AR,Cross-platform,Option_1,Intermediate
+What is Vuforia?,Cross-platform AR development platform,Apple framework,Google framework,Mobile framework,Option_1,Intermediate
+What is grab interaction?,Picking up and manipulating virtual objects,Pointing interaction,Menu interaction,Teleportation,Option_1,Intermediate
+What is ray casting?,Shooting ray from controller to select objects,Physics ray,Collision detection,Hit detection,Option_1,Advanced
+What is teleportation in VR?,Moving to distant location instantly,Walking movement,Flying movement,Continuous movement,Option_1,Intermediate
+What is locomotion?,Method of moving through VR space,Avatar movement,Character animation,Scene navigation,Option_1,Intermediate
+What is teleport locomotion?,Instant movement to selected location,Smooth movement,Walking simulation,Flying simulation,Option_1,Intermediate
+What is smooth locomotion?,Continuous movement through space,Teleportation,Instant movement,Jumping,Option_1,Intermediate
+What is menu system in VR?,Interface for VR interaction and navigation,World menu,Spatial menu,3D UI,Option_1,Intermediate
+What is gaze-based interaction?,Using eye gaze to select and interact,Hand-based interaction,Controller-based,Voice command,Option_1,Advanced
+What is gesture recognition?,Recognizing hand gestures for interaction,Voice recognition,Eye tracking,Head tracking,Option_1,Advanced
+What is voice command?,Voice input for VR/AR interaction,Text input,Gesture input,Controller input,Option_1,Intermediate
+What is spatial audio?,3D directional sound in VR/AR,Stereo audio,Mono audio,Surround sound,Option_1,Intermediate
+What is head-related transfer function (HRTF)?,Filter creating 3D audio perception,Audio compression,Sound effect,Audio processing,Option_1,Advanced
+What is binaural audio?,3D audio recorded for both ears,Stereo audio,Mono audio,Spatial audio,Option_1,Intermediate
+What is audio spatialization?,Placing sound in 3D space around user,Audio mixing,Audio effects,Audio processing,Option_1,Advanced
+What is voice chat in VR?,Real-time communication between VR users,Text chat,Video chat,Audio recording,Option_1,Intermediate
+What is polygon count?,Number of polygons in 3D model,Model quality,Mesh density,Model complexity,Option_1,Intermediate
+What is draw call?,GPU command rendering mesh,Graphics call,Rendering operation,Graphics operation,Option_1,Advanced
+What is LOD (Level of Detail)?,Using lower quality assets at distance,Model quality,Texture resolution,Asset size,Option_1,Intermediate
+What is occlusion culling?,Hiding geometry behind other objects,View frustum culling,Distance culling,Visibility determination,Option_1,Advanced
+What is batching?,Combining objects for efficient rendering,Draw call reduction,Memory optimization,Performance improvement,Option_1,Advanced
+What is compression?,Reducing asset file sizes,Memory optimization,Data reduction,Asset optimization,Option_1,Intermediate
+What is resolution?,Pixel density and sharpness of display,Texture quality,Model quality,Frame rate,Option_1,Beginner
+What is frame time?,Time to render single frame,Frame rate,Processing time,Rendering speed,Option_1,Intermediate
+What is motion sickness in VR?,Discomfort from VR use due to latency,VR side effect,User discomfort,Technical issue,Option_1,Intermediate
+What is latency in VR?,Delay between user action and visual response,Frame rate,Processing speed,Network delay,Option_1,Intermediate
+What is networked VR?,Multiple users in same VR space,Single-user VR,Multiplayer gaming,Online gaming,Option_1,Intermediate
+What is avatar in VR?,Virtual representation of user in VR,Player character,NPC character,3D model,Option_1,Beginner
+What is presence awareness?,Detecting other users in VR space,User awareness,Avatar presence,Network awareness,Option_1,Advanced
+What is synchronization in multiplayer VR?,Keeping all users updated on shared state,Data synchronization,Network sync,State management,Option_1,Advanced
+What is client-server architecture in VR?,Server managing VR state for clients,Peer-to-peer,Distributed system,Local network,Option_1,Advanced
+What is peer-to-peer VR?,Direct connection between VR users,Client-server,Central server,Cloud-based,Option_1,Advanced
+What is animation blending?,Smoothly transitioning between animations,Animation layering,Animation state,Animation control,Option_1,Intermediate
+What is state machine?,System managing animation/behavior states,Game loop,Event system,Logic control,Option_1,Advanced
+What is scene management?,Loading and unloading scenes in VR,Scene composition,Hierarchy management,Object management,Option_1,Intermediate
+What is asset pipeline?,Process converting 3D assets for game,Asset import,Asset optimization,Asset preparation,Option_1,Advanced
+What is version control in game dev?,Managing code and asset versions,Git,GitHub,Version management,Option_1,Intermediate
+What is debugging in VR?,Finding and fixing VR application issues,Testing,Profiling,Performance analysis,Option_1,Intermediate
+What is profiling?,Analyzing performance bottlenecks,Code analysis,Performance measurement,Optimization,Option_1,Advanced
+What is UX design in VR?,Designing user experience for VR,UI design,Interaction design,Usability design,Option_1,Intermediate
+What is comfort in VR?,User physical comfort during VR use,Visual comfort,Hardware comfort,Environment comfort,Option_1,Intermediate
+What is cybersickness?,VR-induced motion sickness,Physical illness,Simulation sickness,Disorientation,Option_1,Intermediate
+What is field of view (FOV)?,Visible area user can see in VR,Display area,Vision range,Screen size,Option_1,Intermediate
+What is peripheral vision in VR?,Outer edge of visual field in VR,Central vision,Binocular vision,Depth perception,Option_1,Advanced
+What is depth perception?,Perceiving 3D depth in VR,Stereoscopic vision,Motion parallax,Distance estimation,Option_1,Advanced
+What is comfort settings?,Options reducing VR discomfort,Graphics settings,Control settings,Visual effects,Option_1,Intermediate
+What is VR training?,Using VR for professional skill training,Educational VR,Entertainment VR,Commercial VR,Option_1,Intermediate
+What is VR simulation?,Realistic scenario simulation in VR,Virtual environment,Training tool,Testing platform,Option_1,Intermediate
+What is virtual classroom?,Educational environment in VR,Online learning,E-learning,Distance learning,Option_1,Intermediate
+What is medical VR?,Using VR for medical training and therapy,Healthcare application,Clinical VR,Patient therapy,Option_1,Intermediate
+What is VR therapy?,Using VR for psychological treatment,Medical treatment,Physical therapy,Mental health,Option_1,Intermediate
+What is architectural visualization?,Visualizing buildings/spaces in VR/AR,3D visualization,Building preview,Spatial design,Option_1,Intermediate
+What is product visualization?,Visualizing products in VR/AR,3D presentation,Product preview,Design visualization,Option_1,Intermediate
+What is social VR?,Social interaction platform in VR,Multiplayer VR,Virtual meeting,Avatar interaction,Option_1,Intermediate
+What is eye gaze tracking?,High-precision tracking of eye direction,Head tracking,Hand tracking,Body tracking,Option_1,Advanced
+What is foveated rendering?,"High-res rendering where user looks, low elsewhere",Full-res rendering,Uniform rendering,Dynamic rendering,Option_1,Advanced
+What is variable rate shading?,Varying rendering quality based on importance,Uniform shading,Fixed shading,Static rendering,Option_1,Advanced
+What is volumetric rendering?,Rendering 3D volume data like clouds,Surface rendering,Mesh rendering,Texture rendering,Option_1,Advanced
+What is neural rendering?,Using AI for rendering and scene generation,Traditional rendering,Real-time rendering,Offline rendering,Option_1,Advanced
+What is hand gesture recognition?,Recognizing hand signs and gestures,Voice recognition,Eye tracking,Head tracking,Option_1,Advanced
+What is AI NPC?,Non-player characters with AI behavior,Player character,Avatar,Static character,Option_1,Intermediate
+What is procedural generation?,Algorithm creating content dynamically,Asset creation,Level design,Content authoring,Option_1,Advanced
+What is metaverse?,Persistent shared virtual world,Virtual reality,Game world,Virtual environment,Option_1,Beginner
+What is digital asset?,Virtual property and content in VR,Digital file,Virtual item,In-game item,Option_1,Beginner
+What is Virtual Reality (VR)?,Immersive digital environment simulating physical world,Augmented reality,Mixed reality,3D graphics,Option_1,Beginner
+What is Augmented Reality (AR)?,Digital content overlaid on physical world,Virtual reality,Mixed reality,Digital environment,Option_1,Beginner
+What is Mixed Reality (MR)?,Blending digital and physical worlds interactively,Augmented reality,Virtual reality,Extended reality,Option_1,Beginner
+What is Extended Reality (XR)?,"Umbrella term for VR, AR, and MR",Only VR,Only AR,Only MR,Option_1,Beginner
+What is immersion in VR?,Sense of being present in virtual environment,Graphics quality,Frame rate,Resolution,Option_1,Beginner
+What is presence in VR?,Psychological sensation of actually being in VR,Visual quality,Audio quality,Hardware specs,Option_1,Intermediate
+What are VR applications?,"Gaming, training, education, healthcare, therapy",Only gaming,Only education,Only training,Option_1,Beginner
+What are AR applications?,"Navigation, shopping, gaming, visualization, education",Only gaming,Only shopping,Only navigation,Option_1,Beginner
+What is head-mounted display (HMD)?,Wearable display device for VR,Desktop monitor,Mobile phone,Projected display,Option_1,Intermediate
+What is hand tracking in VR?,Tracking hand position and movement,Body tracking,Eye tracking,Head tracking,Option_1,Intermediate
+What is Oculus Rift?,VR headset by Meta for immersive experiences,AR device,VR headset,HTC Vive,Option_1,Intermediate
+What is HTC Vive?,High-end VR headset with room-scale tracking,Oculus Rift,PlayStation VR,Samsung Gear,Option_1,Intermediate
+What is PlayStation VR?,VR system for PlayStation console,PC VR,Standalone VR,Mobile VR,Option_1,Intermediate
+What is Meta Quest (formerly Oculus Quest)?,Standalone VR headset with built-in processing,Tethered VR,Mobile VR,AR headset,Option_1,Intermediate
+What is tethered VR?,VR system connected to PC or console,Standalone VR,Mobile VR,Wireless VR,Option_1,Intermediate
+What is standalone VR?,VR system with built-in processing power,Tethered VR,Mobile VR,PC VR,Option_1,Intermediate
+What is mobile VR?,VR experience on smartphone device,Standalone VR,Tethered VR,Desktop VR,Option_1,Beginner
+What is Google Cardboard?,Affordable mobile VR viewer,Expensive VR,Enterprise VR,Professional headset,Option_1,Intermediate
+What is Samsung Gear VR?,Mobile VR headset for Samsung phones,Tethered VR,Standalone VR,AR headset,Option_1,Intermediate
+What is Microsoft HoloLens?,Mixed reality headset for enterprise,VR headset,AR headset,Gaming device,Option_1,Intermediate
+What is positional tracking?,Tracking 3D position of user/controller,Rotation tracking,Movement detection,Location sensing,Option_1,Intermediate
+What is rotational tracking?,Tracking head/controller rotation,Position tracking,Movement detection,Location tracking,Option_1,Intermediate
+What is inside-out tracking?,Using device cameras for tracking,External sensors,Infrared tracking,GPS tracking,Option_1,Advanced
+What is outside-in tracking?,Using external sensors for tracking,Device cameras,Self-contained tracking,Mobile tracking,Option_1,Advanced
+What is infrared tracking?,Using IR lights for position detection,Visual tracking,Magnetic tracking,Acoustic tracking,Option_1,Advanced
+What is lighthouse tracking?,HTC system using base stations for tracking,Camera tracking,Infrared tracking,Acoustic tracking,Option_1,Advanced
+What is eye tracking?,Monitoring eye gaze direction and focus,Head tracking,Hand tracking,Body tracking,Option_1,Intermediate
+What is body tracking?,Capturing full body movement in VR,Hand tracking,Head tracking,Eye tracking,Option_1,Intermediate
+What is haptic feedback?,Tactile sensations and vibrations in VR,Visual feedback,Audio feedback,Motion feedback,Option_1,Intermediate
+What is haptic glove?,Glove providing haptic feedback for VR hands,Motion controller,Hand tracker,Virtual hand,Option_1,Advanced
+What is Unity?,Cross-platform game engine for VR/AR development,Game platform,Graphics engine,Rendering engine,Option_1,Intermediate
+What is Unreal Engine?,High-end game engine for VR/AR,Unity alternative,Game platform,Development tool,Option_1,Intermediate
+What is Epic Games engine?,Unreal Engine by Epic Games,Unity engine,CryEngine,Godot engine,Option_1,Intermediate
+What is Godot?,Open-source game engine for VR/AR,Commercial engine,Proprietary software,Game platform,Option_1,Intermediate
+What is CryEngine?,Game engine used for VR development,Unreal Engine,Unity,Godot,Option_1,Advanced
+What is game loop?,Continuous cycle rendering and updating game,Game event,Game state,Game object,Option_1,Intermediate
+What is frame rate (FPS)?,Frames per second rendered in VR/AR,Game speed,Physics speed,Animation speed,Option_1,Beginner
+What is rendering pipeline?,Process converting 3D scene to 2D image,Graphics processing,Display output,Scene representation,Option_1,Advanced
+What is shader?,Program determining material appearance,Graphics program,Lighting system,Texture effect,Option_1,Intermediate
+What is physics engine?,System simulating physical interactions,Collision detection,Gravity simulation,Movement system,Option_1,Intermediate
+What is 3D model?,3D representation of object with geometry,2D image,Vector graphic,Texture,Option_1,Beginner
+What is mesh?,Collection of vertices/edges/faces forming 3D object,Texture,Material,Animation,Option_1,Intermediate
+What is polygon?,Basic unit of 3D model made of vertices,Texture element,Mesh component,3D shape,Option_1,Intermediate
+What is UV mapping?,Applying 2D texture to 3D model,3D modeling,Texture creation,Material assignment,Option_1,Intermediate
+What is texture?,2D image applied to 3D model surface,3D model,Material property,Color information,Option_1,Beginner
+What is PBR (Physically Based Rendering)?,Rendering approach simulating physical light,Real-time rendering,Game rendering,VR rendering,Option_1,Advanced
+What is normal map?,Texture simulating surface detail and bumps,Displacement map,Height map,Ambient map,Option_1,Advanced
+What is skeletal animation?,Animating 3D model using bone structure,Vertex animation,Mesh deformation,Keyframe animation,Option_1,Intermediate
+What is rigging?,Process adding skeleton to 3D model,Modeling,Texturing,Animating,Option_1,Intermediate
+What is blendshape?,Alternative shape target for character animation,Skeletal animation,Keyframe animation,Physics animation,Option_1,Advanced
+What is marker-based AR?,AR requiring physical marker for tracking,Markerless AR,Location-based AR,Image tracking,Option_1,Intermediate
+What is markerless AR?,AR without requiring physical marker,Marker-based AR,Vision tracking,Sensor-based AR,Option_1,Intermediate
+What is location-based AR?,AR based on GPS location and orientation,Marker-based AR,Image tracking,Plane detection,Option_1,Intermediate
+What is image tracking?,Detecting and tracking images in AR,Marker tracking,Plane detection,Object recognition,Option_1,Intermediate
+What is object tracking?,Tracking real-world objects in AR,Image tracking,Plane detection,Face tracking,Option_1,Intermediate
+What is plane detection?,Finding flat surfaces for AR content placement,Surface recognition,Object detection,Face detection,Option_1,Intermediate
+What is face tracking?,Detecting and tracking human faces in AR,Head tracking,Eye tracking,Hand tracking,Option_1,Intermediate
+What is ARKit?,Apple framework for iOS AR development,Google AR framework,Android AR,Cross-platform,Option_1,Intermediate
+What is ARCore?,Google framework for Android AR development,Apple framework,iOS AR,Cross-platform,Option_1,Intermediate
+What is Vuforia?,Cross-platform AR development platform,Apple framework,Google framework,Mobile framework,Option_1,Intermediate
+What is grab interaction?,Picking up and manipulating virtual objects,Pointing interaction,Menu interaction,Teleportation,Option_1,Intermediate
+What is ray casting?,Shooting ray from controller to select objects,Physics ray,Collision detection,Hit detection,Option_1,Advanced
+What is teleportation in VR?,Moving to distant location instantly,Walking movement,Flying movement,Continuous movement,Option_1,Intermediate
+What is locomotion?,Method of moving through VR space,Avatar movement,Character animation,Scene navigation,Option_1,Intermediate
+What is teleport locomotion?,Instant movement to selected location,Smooth movement,Walking simulation,Flying simulation,Option_1,Intermediate
+What is smooth locomotion?,Continuous movement through space,Teleportation,Instant movement,Jumping,Option_1,Intermediate
+What is menu system in VR?,Interface for VR interaction and navigation,World menu,Spatial menu,3D UI,Option_1,Intermediate
+What is gaze-based interaction?,Using eye gaze to select and interact,Hand-based interaction,Controller-based,Voice command,Option_1,Advanced
+What is gesture recognition?,Recognizing hand gestures for interaction,Voice recognition,Eye tracking,Head tracking,Option_1,Advanced
+What is voice command?,Voice input for VR/AR interaction,Text input,Gesture input,Controller input,Option_1,Intermediate
+What is spatial audio?,3D directional sound in VR/AR,Stereo audio,Mono audio,Surround sound,Option_1,Intermediate
+What is head-related transfer function (HRTF)?,Filter creating 3D audio perception,Audio compression,Sound effect,Audio processing,Option_1,Advanced
+What is binaural audio?,3D audio recorded for both ears,Stereo audio,Mono audio,Spatial audio,Option_1,Intermediate
+What is audio spatialization?,Placing sound in 3D space around user,Audio mixing,Audio effects,Audio processing,Option_1,Advanced
+What is voice chat in VR?,Real-time communication between VR users,Text chat,Video chat,Audio recording,Option_1,Intermediate
+What is polygon count?,Number of polygons in 3D model,Model quality,Mesh density,Model complexity,Option_1,Intermediate
+What is draw call?,GPU command rendering mesh,Graphics call,Rendering operation,Graphics operation,Option_1,Advanced
+What is LOD (Level of Detail)?,Using lower quality assets at distance,Model quality,Texture resolution,Asset size,Option_1,Intermediate
+What is occlusion culling?,Hiding geometry behind other objects,View frustum culling,Distance culling,Visibility determination,Option_1,Advanced
+What is batching?,Combining objects for efficient rendering,Draw call reduction,Memory optimization,Performance improvement,Option_1,Advanced
+What is compression?,Reducing asset file sizes,Memory optimization,Data reduction,Asset optimization,Option_1,Intermediate
+What is resolution?,Pixel density and sharpness of display,Texture quality,Model quality,Frame rate,Option_1,Beginner
+What is frame time?,Time to render single frame,Frame rate,Processing time,Rendering speed,Option_1,Intermediate
+What is motion sickness in VR?,Discomfort from VR use due to latency,VR side effect,User discomfort,Technical issue,Option_1,Intermediate
+What is latency in VR?,Delay between user action and visual response,Frame rate,Processing speed,Network delay,Option_1,Intermediate
+What is networked VR?,Multiple users in same VR space,Single-user VR,Multiplayer gaming,Online gaming,Option_1,Intermediate
+What is avatar in VR?,Virtual representation of user in VR,Player character,NPC character,3D model,Option_1,Beginner
+What is presence awareness?,Detecting other users in VR space,User awareness,Avatar presence,Network awareness,Option_1,Advanced
+What is synchronization in multiplayer VR?,Keeping all users updated on shared state,Data synchronization,Network sync,State management,Option_1,Advanced
+What is client-server architecture in VR?,Server managing VR state for clients,Peer-to-peer,Distributed system,Local network,Option_1,Advanced
+What is peer-to-peer VR?,Direct connection between VR users,Client-server,Central server,Cloud-based,Option_1,Advanced
+What is animation blending?,Smoothly transitioning between animations,Animation layering,Animation state,Animation control,Option_1,Intermediate
+What is state machine?,System managing animation/behavior states,Game loop,Event system,Logic control,Option_1,Advanced
+What is scene management?,Loading and unloading scenes in VR,Scene composition,Hierarchy management,Object management,Option_1,Intermediate
+What is asset pipeline?,Process converting 3D assets for game,Asset import,Asset optimization,Asset preparation,Option_1,Advanced
+What is version control in game dev?,Managing code and asset versions,Git,GitHub,Version management,Option_1,Intermediate
+What is debugging in VR?,Finding and fixing VR application issues,Testing,Profiling,Performance analysis,Option_1,Intermediate
+What is profiling?,Analyzing performance bottlenecks,Code analysis,Performance measurement,Optimization,Option_1,Advanced
+What is UX design in VR?,Designing user experience for VR,UI design,Interaction design,Usability design,Option_1,Intermediate
+What is comfort in VR?,User physical comfort during VR use,Visual comfort,Hardware comfort,Environment comfort,Option_1,Intermediate
+What is cybersickness?,VR-induced motion sickness,Physical illness,Simulation sickness,Disorientation,Option_1,Intermediate
+What is field of view (FOV)?,Visible area user can see in VR,Display area,Vision range,Screen size,Option_1,Intermediate
+What is peripheral vision in VR?,Outer edge of visual field in VR,Central vision,Binocular vision,Depth perception,Option_1,Advanced
+What is depth perception?,Perceiving 3D depth in VR,Stereoscopic vision,Motion parallax,Distance estimation,Option_1,Advanced
+What is comfort settings?,Options reducing VR discomfort,Graphics settings,Control settings,Visual effects,Option_1,Intermediate
+What is VR training?,Using VR for professional skill training,Educational VR,Entertainment VR,Commercial VR,Option_1,Intermediate
+What is VR simulation?,Realistic scenario simulation in VR,Virtual environment,Training tool,Testing platform,Option_1,Intermediate
+What is virtual classroom?,Educational environment in VR,Online learning,E-learning,Distance learning,Option_1,Intermediate
+What is medical VR?,Using VR for medical training and therapy,Healthcare application,Clinical VR,Patient therapy,Option_1,Intermediate
+What is VR therapy?,Using VR for psychological treatment,Medical treatment,Physical therapy,Mental health,Option_1,Intermediate
+What is architectural visualization?,Visualizing buildings/spaces in VR/AR,3D visualization,Building preview,Spatial design,Option_1,Intermediate
+What is product visualization?,Visualizing products in VR/AR,3D presentation,Product preview,Design visualization,Option_1,Intermediate
+What is social VR?,Social interaction platform in VR,Multiplayer VR,Virtual meeting,Avatar interaction,Option_1,Intermediate
+What is eye gaze tracking?,High-precision tracking of eye direction,Head tracking,Hand tracking,Body tracking,Option_1,Advanced
+What is foveated rendering?,"High-res rendering where user looks, low elsewhere",Full-res rendering,Uniform rendering,Dynamic rendering,Option_1,Advanced
+What is variable rate shading?,Varying rendering quality based on importance,Uniform shading,Fixed shading,Static rendering,Option_1,Advanced
+What is volumetric rendering?,Rendering 3D volume data like clouds,Surface rendering,Mesh rendering,Texture rendering,Option_1,Advanced
+What is neural rendering?,Using AI for rendering and scene generation,Traditional rendering,Real-time rendering,Offline rendering,Option_1,Advanced
+What is hand gesture recognition?,Recognizing hand signs and gestures,Voice recognition,Eye tracking,Head tracking,Option_1,Advanced
+What is AI NPC?,Non-player characters with AI behavior,Player character,Avatar,Static character,Option_1,Intermediate
+What is procedural generation?,Algorithm creating content dynamically,Asset creation,Level design,Content authoring,Option_1,Advanced
+What is metaverse?,Persistent shared virtual world,Virtual reality,Game world,Virtual environment,Option_1,Beginner
+What is digital asset?,Virtual property and content in VR,Digital file,Virtual item,In-game item,Option_1,Beginner
+What is Virtual Reality (VR)?,Immersive digital environment simulating physical world,Augmented reality,Mixed reality,3D graphics,Option_1,Beginner
+What is Augmented Reality (AR)?,Digital content overlaid on physical world,Virtual reality,Mixed reality,Digital environment,Option_1,Beginner
+What is Mixed Reality (MR)?,Blending digital and physical worlds interactively,Augmented reality,Virtual reality,Extended reality,Option_1,Beginner
+What is Extended Reality (XR)?,"Umbrella term for VR, AR, and MR",Only VR,Only AR,Only MR,Option_1,Beginner
+What is immersion in VR?,Sense of being present in virtual environment,Graphics quality,Frame rate,Resolution,Option_1,Beginner
+What is presence in VR?,Psychological sensation of actually being in VR,Visual quality,Audio quality,Hardware specs,Option_1,Intermediate
+What are VR applications?,"Gaming, training, education, healthcare, therapy",Only gaming,Only education,Only training,Option_1,Beginner
+What are AR applications?,"Navigation, shopping, gaming, visualization, education",Only gaming,Only shopping,Only navigation,Option_1,Beginner
+What is head-mounted display (HMD)?,Wearable display device for VR,Desktop monitor,Mobile phone,Projected display,Option_1,Intermediate
+What is hand tracking in VR?,Tracking hand position and movement,Body tracking,Eye tracking,Head tracking,Option_1,Intermediate
+What is Oculus Rift?,VR headset by Meta for immersive experiences,AR device,VR headset,HTC Vive,Option_1,Intermediate
+What is HTC Vive?,High-end VR headset with room-scale tracking,Oculus Rift,PlayStation VR,Samsung Gear,Option_1,Intermediate
+What is PlayStation VR?,VR system for PlayStation console,PC VR,Standalone VR,Mobile VR,Option_1,Intermediate
+What is Meta Quest (formerly Oculus Quest)?,Standalone VR headset with built-in processing,Tethered VR,Mobile VR,AR headset,Option_1,Intermediate
+What is tethered VR?,VR system connected to PC or console,Standalone VR,Mobile VR,Wireless VR,Option_1,Intermediate
+What is standalone VR?,VR system with built-in processing power,Tethered VR,Mobile VR,PC VR,Option_1,Intermediate
+What is mobile VR?,VR experience on smartphone device,Standalone VR,Tethered VR,Desktop VR,Option_1,Beginner
+What is Google Cardboard?,Affordable mobile VR viewer,Expensive VR,Enterprise VR,Professional headset,Option_1,Intermediate
+What is Samsung Gear VR?,Mobile VR headset for Samsung phones,Tethered VR,Standalone VR,AR headset,Option_1,Intermediate
+What is Microsoft HoloLens?,Mixed reality headset for enterprise,VR headset,AR headset,Gaming device,Option_1,Intermediate
+What is positional tracking?,Tracking 3D position of user/controller,Rotation tracking,Movement detection,Location sensing,Option_1,Intermediate
+What is rotational tracking?,Tracking head/controller rotation,Position tracking,Movement detection,Location tracking,Option_1,Intermediate
+What is inside-out tracking?,Using device cameras for tracking,External sensors,Infrared tracking,GPS tracking,Option_1,Advanced
+What is outside-in tracking?,Using external sensors for tracking,Device cameras,Self-contained tracking,Mobile tracking,Option_1,Advanced
+What is infrared tracking?,Using IR lights for position detection,Visual tracking,Magnetic tracking,Acoustic tracking,Option_1,Advanced
+What is lighthouse tracking?,HTC system using base stations for tracking,Camera tracking,Infrared tracking,Acoustic tracking,Option_1,Advanced
+What is eye tracking?,Monitoring eye gaze direction and focus,Head tracking,Hand tracking,Body tracking,Option_1,Intermediate
+What is body tracking?,Capturing full body movement in VR,Hand tracking,Head tracking,Eye tracking,Option_1,Intermediate
+What is haptic feedback?,Tactile sensations and vibrations in VR,Visual feedback,Audio feedback,Motion feedback,Option_1,Intermediate
+What is haptic glove?,Glove providing haptic feedback for VR hands,Motion controller,Hand tracker,Virtual hand,Option_1,Advanced
+What is Unity?,Cross-platform game engine for VR/AR development,Game platform,Graphics engine,Rendering engine,Option_1,Intermediate
+What is Unreal Engine?,High-end game engine for VR/AR,Unity alternative,Game platform,Development tool,Option_1,Intermediate
+What is Epic Games engine?,Unreal Engine by Epic Games,Unity engine,CryEngine,Godot engine,Option_1,Intermediate
+What is Godot?,Open-source game engine for VR/AR,Commercial engine,Proprietary software,Game platform,Option_1,Intermediate
+What is CryEngine?,Game engine used for VR development,Unreal Engine,Unity,Godot,Option_1,Advanced
+What is game loop?,Continuous cycle rendering and updating game,Game event,Game state,Game object,Option_1,Intermediate
+What is frame rate (FPS)?,Frames per second rendered in VR/AR,Game speed,Physics speed,Animation speed,Option_1,Beginner
+What is rendering pipeline?,Process converting 3D scene to 2D image,Graphics processing,Display output,Scene representation,Option_1,Advanced
+What is shader?,Program determining material appearance,Graphics program,Lighting system,Texture effect,Option_1,Intermediate
+What is physics engine?,System simulating physical interactions,Collision detection,Gravity simulation,Movement system,Option_1,Intermediate
+What is 3D model?,3D representation of object with geometry,2D image,Vector graphic,Texture,Option_1,Beginner
+What is mesh?,Collection of vertices/edges/faces forming 3D object,Texture,Material,Animation,Option_1,Intermediate
+What is polygon?,Basic unit of 3D model made of vertices,Texture element,Mesh component,3D shape,Option_1,Intermediate
+What is UV mapping?,Applying 2D texture to 3D model,3D modeling,Texture creation,Material assignment,Option_1,Intermediate
+What is texture?,2D image applied to 3D model surface,3D model,Material property,Color information,Option_1,Beginner
+What is PBR (Physically Based Rendering)?,Rendering approach simulating physical light,Real-time rendering,Game rendering,VR rendering,Option_1,Advanced
+What is normal map?,Texture simulating surface detail and bumps,Displacement map,Height map,Ambient map,Option_1,Advanced
+What is skeletal animation?,Animating 3D model using bone structure,Vertex animation,Mesh deformation,Keyframe animation,Option_1,Intermediate
+What is rigging?,Process adding skeleton to 3D model,Modeling,Texturing,Animating,Option_1,Intermediate
+What is blendshape?,Alternative shape target for character animation,Skeletal animation,Keyframe animation,Physics animation,Option_1,Advanced
+What is marker-based AR?,AR requiring physical marker for tracking,Markerless AR,Location-based AR,Image tracking,Option_1,Intermediate
+What is markerless AR?,AR without requiring physical marker,Marker-based AR,Vision tracking,Sensor-based AR,Option_1,Intermediate
+What is location-based AR?,AR based on GPS location and orientation,Marker-based AR,Image tracking,Plane detection,Option_1,Intermediate
+What is image tracking?,Detecting and tracking images in AR,Marker tracking,Plane detection,Object recognition,Option_1,Intermediate
+What is object tracking?,Tracking real-world objects in AR,Image tracking,Plane detection,Face tracking,Option_1,Intermediate
+What is plane detection?,Finding flat surfaces for AR content placement,Surface recognition,Object detection,Face detection,Option_1,Intermediate
+What is face tracking?,Detecting and tracking human faces in AR,Head tracking,Eye tracking,Hand tracking,Option_1,Intermediate
+What is ARKit?,Apple framework for iOS AR development,Google AR framework,Android AR,Cross-platform,Option_1,Intermediate
+What is ARCore?,Google framework for Android AR development,Apple framework,iOS AR,Cross-platform,Option_1,Intermediate
+What is Vuforia?,Cross-platform AR development platform,Apple framework,Google framework,Mobile framework,Option_1,Intermediate
+What is grab interaction?,Picking up and manipulating virtual objects,Pointing interaction,Menu interaction,Teleportation,Option_1,Intermediate
+What is ray casting?,Shooting ray from controller to select objects,Physics ray,Collision detection,Hit detection,Option_1,Advanced
+What is teleportation in VR?,Moving to distant location instantly,Walking movement,Flying movement,Continuous movement,Option_1,Intermediate
+What is locomotion?,Method of moving through VR space,Avatar movement,Character animation,Scene navigation,Option_1,Intermediate
+What is teleport locomotion?,Instant movement to selected location,Smooth movement,Walking simulation,Flying simulation,Option_1,Intermediate
+What is smooth locomotion?,Continuous movement through space,Teleportation,Instant movement,Jumping,Option_1,Intermediate
+What is menu system in VR?,Interface for VR interaction and navigation,World menu,Spatial menu,3D UI,Option_1,Intermediate
+What is gaze-based interaction?,Using eye gaze to select and interact,Hand-based interaction,Controller-based,Voice command,Option_1,Advanced
+What is gesture recognition?,Recognizing hand gestures for interaction,Voice recognition,Eye tracking,Head tracking,Option_1,Advanced
+What is voice command?,Voice input for VR/AR interaction,Text input,Gesture input,Controller input,Option_1,Intermediate
+What is spatial audio?,3D directional sound in VR/AR,Stereo audio,Mono audio,Surround sound,Option_1,Intermediate
+What is head-related transfer function (HRTF)?,Filter creating 3D audio perception,Audio compression,Sound effect,Audio processing,Option_1,Advanced
+What is binaural audio?,3D audio recorded for both ears,Stereo audio,Mono audio,Spatial audio,Option_1,Intermediate
+What is audio spatialization?,Placing sound in 3D space around user,Audio mixing,Audio effects,Audio processing,Option_1,Advanced
+What is voice chat in VR?,Real-time communication between VR users,Text chat,Video chat,Audio recording,Option_1,Intermediate
+What is polygon count?,Number of polygons in 3D model,Model quality,Mesh density,Model complexity,Option_1,Intermediate
+What is draw call?,GPU command rendering mesh,Graphics call,Rendering operation,Graphics operation,Option_1,Advanced
+What is LOD (Level of Detail)?,Using lower quality assets at distance,Model quality,Texture resolution,Asset size,Option_1,Intermediate
+What is occlusion culling?,Hiding geometry behind other objects,View frustum culling,Distance culling,Visibility determination,Option_1,Advanced
+What is batching?,Combining objects for efficient rendering,Draw call reduction,Memory optimization,Performance improvement,Option_1,Advanced
+What is compression?,Reducing asset file sizes,Memory optimization,Data reduction,Asset optimization,Option_1,Intermediate
+What is resolution?,Pixel density and sharpness of display,Texture quality,Model quality,Frame rate,Option_1,Beginner
+What is frame time?,Time to render single frame,Frame rate,Processing time,Rendering speed,Option_1,Intermediate
+What is motion sickness in VR?,Discomfort from VR use due to latency,VR side effect,User discomfort,Technical issue,Option_1,Intermediate
+What is latency in VR?,Delay between user action and visual response,Frame rate,Processing speed,Network delay,Option_1,Intermediate
+What is networked VR?,Multiple users in same VR space,Single-user VR,Multiplayer gaming,Online gaming,Option_1,Intermediate
+What is avatar in VR?,Virtual representation of user in VR,Player character,NPC character,3D model,Option_1,Beginner
+What is presence awareness?,Detecting other users in VR space,User awareness,Avatar presence,Network awareness,Option_1,Advanced
+What is synchronization in multiplayer VR?,Keeping all users updated on shared state,Data synchronization,Network sync,State management,Option_1,Advanced
+What is client-server architecture in VR?,Server managing VR state for clients,Peer-to-peer,Distributed system,Local network,Option_1,Advanced
+What is peer-to-peer VR?,Direct connection between VR users,Client-server,Central server,Cloud-based,Option_1,Advanced
+What is animation blending?,Smoothly transitioning between animations,Animation layering,Animation state,Animation control,Option_1,Intermediate
+What is state machine?,System managing animation/behavior states,Game loop,Event system,Logic control,Option_1,Advanced
+What is scene management?,Loading and unloading scenes in VR,Scene composition,Hierarchy management,Object management,Option_1,Intermediate
+What is asset pipeline?,Process converting 3D assets for game,Asset import,Asset optimization,Asset preparation,Option_1,Advanced
+What is version control in game dev?,Managing code and asset versions,Git,GitHub,Version management,Option_1,Intermediate
+What is debugging in VR?,Finding and fixing VR application issues,Testing,Profiling,Performance analysis,Option_1,Intermediate
+What is profiling?,Analyzing performance bottlenecks,Code analysis,Performance measurement,Optimization,Option_1,Advanced
+What is UX design in VR?,Designing user experience for VR,UI design,Interaction design,Usability design,Option_1,Intermediate
+What is comfort in VR?,User physical comfort during VR use,Visual comfort,Hardware comfort,Environment comfort,Option_1,Intermediate
+What is cybersickness?,VR-induced motion sickness,Physical illness,Simulation sickness,Disorientation,Option_1,Intermediate
+What is field of view (FOV)?,Visible area user can see in VR,Display area,Vision range,Screen size,Option_1,Intermediate
+What is peripheral vision in VR?,Outer edge of visual field in VR,Central vision,Binocular vision,Depth perception,Option_1,Advanced
+What is depth perception?,Perceiving 3D depth in VR,Stereoscopic vision,Motion parallax,Distance estimation,Option_1,Advanced
+What is comfort settings?,Options reducing VR discomfort,Graphics settings,Control settings,Visual effects,Option_1,Intermediate
+What is VR training?,Using VR for professional skill training,Educational VR,Entertainment VR,Commercial VR,Option_1,Intermediate
+What is VR simulation?,Realistic scenario simulation in VR,Virtual environment,Training tool,Testing platform,Option_1,Intermediate
+What is virtual classroom?,Educational environment in VR,Online learning,E-learning,Distance learning,Option_1,Intermediate
+What is medical VR?,Using VR for medical training and therapy,Healthcare application,Clinical VR,Patient therapy,Option_1,Intermediate
+What is VR therapy?,Using VR for psychological treatment,Medical treatment,Physical therapy,Mental health,Option_1,Intermediate
+What is architectural visualization?,Visualizing buildings/spaces in VR/AR,3D visualization,Building preview,Spatial design,Option_1,Intermediate
+What is product visualization?,Visualizing products in VR/AR,3D presentation,Product preview,Design visualization,Option_1,Intermediate
+What is social VR?,Social interaction platform in VR,Multiplayer VR,Virtual meeting,Avatar interaction,Option_1,Intermediate
+What is eye gaze tracking?,High-precision tracking of eye direction,Head tracking,Hand tracking,Body tracking,Option_1,Advanced
+What is foveated rendering?,"High-res rendering where user looks, low elsewhere",Full-res rendering,Uniform rendering,Dynamic rendering,Option_1,Advanced
+What is variable rate shading?,Varying rendering quality based on importance,Uniform shading,Fixed shading,Static rendering,Option_1,Advanced
+What is volumetric rendering?,Rendering 3D volume data like clouds,Surface rendering,Mesh rendering,Texture rendering,Option_1,Advanced
+What is neural rendering?,Using AI for rendering and scene generation,Traditional rendering,Real-time rendering,Offline rendering,Option_1,Advanced
+What is hand gesture recognition?,Recognizing hand signs and gestures,Voice recognition,Eye tracking,Head tracking,Option_1,Advanced
+What is AI NPC?,Non-player characters with AI behavior,Player character,Avatar,Static character,Option_1,Intermediate
+What is procedural generation?,Algorithm creating content dynamically,Asset creation,Level design,Content authoring,Option_1,Advanced
+What is metaverse?,Persistent shared virtual world,Virtual reality,Game world,Virtual environment,Option_1,Beginner
+What is digital asset?,Virtual property and content in VR,Digital file,Virtual item,In-game item,Option_1,Beginner
+What is Virtual Reality (VR)?,Immersive digital environment simulating physical world,Augmented reality,Mixed reality,3D graphics,Option_1,Beginner
+What is Augmented Reality (AR)?,Digital content overlaid on physical world,Virtual reality,Mixed reality,Digital environment,Option_1,Beginner
+What is Mixed Reality (MR)?,Blending digital and physical worlds interactively,Augmented reality,Virtual reality,Extended reality,Option_1,Beginner
+What is Extended Reality (XR)?,"Umbrella term for VR, AR, and MR",Only VR,Only AR,Only MR,Option_1,Beginner
+What is immersion in VR?,Sense of being present in virtual environment,Graphics quality,Frame rate,Resolution,Option_1,Beginner
+What is presence in VR?,Psychological sensation of actually being in VR,Visual quality,Audio quality,Hardware specs,Option_1,Intermediate
+What are VR applications?,"Gaming, training, education, healthcare, therapy",Only gaming,Only education,Only training,Option_1,Beginner
+What are AR applications?,"Navigation, shopping, gaming, visualization, education",Only gaming,Only shopping,Only navigation,Option_1,Beginner
+What is head-mounted display (HMD)?,Wearable display device for VR,Desktop monitor,Mobile phone,Projected display,Option_1,Intermediate
+What is hand tracking in VR?,Tracking hand position and movement,Body tracking,Eye tracking,Head tracking,Option_1,Intermediate
+What is Oculus Rift?,VR headset by Meta for immersive experiences,AR device,VR headset,HTC Vive,Option_1,Intermediate
+What is HTC Vive?,High-end VR headset with room-scale tracking,Oculus Rift,PlayStation VR,Samsung Gear,Option_1,Intermediate
+What is PlayStation VR?,VR system for PlayStation console,PC VR,Standalone VR,Mobile VR,Option_1,Intermediate
+What is Meta Quest (formerly Oculus Quest)?,Standalone VR headset with built-in processing,Tethered VR,Mobile VR,AR headset,Option_1,Intermediate
+What is tethered VR?,VR system connected to PC or console,Standalone VR,Mobile VR,Wireless VR,Option_1,Intermediate
+What is standalone VR?,VR system with built-in processing power,Tethered VR,Mobile VR,PC VR,Option_1,Intermediate

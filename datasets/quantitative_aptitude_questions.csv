@@ -1,0 +1,1001 @@
+Question_ID,Question,Option_A,Option_B,Option_C,Option_D,Correct_Option,Topic
+1,"If 25% of x is 150, what is x?",400,500,600,700,B,Time & Work
+2,A number is increased by 20% and then decreased by 10%. What is the net change?,8% increase,10% increase,12% increase,15% increase,A,Speed & Distance
+3,"The ratio of two numbers is 3:5. If their sum is 80, find the larger number.",30,40,50,60,C,Interest
+4,A can complete a task in 10 days and B can complete it in 15 days. How long will it take if they work together?,5 days,6 days,7 days,8 days,B,Profit & Loss
+5,"If 5 workers can build a wall in 20 days, how many days will 10 workers take?",5 days,10 days,15 days,20 days,B,Average
+6,A train travels at 60 km/h for 2 hours and then at 80 km/h for 3 hours. What is the average speed?,70 km/h,72 km/h,74 km/h,76 km/h,C,Algebra
+7,"If a car travels 300 km in 5 hours, what is its speed?",50 km/h,60 km/h,70 km/h,80 km/h,B,Geometry
+8,What is the simple interest on Rs. 5000 at 8% per annum for 3 years?,Rs. 1000,Rs. 1200,Rs. 1500,Rs. 1800,B,Probability
+9,A sum doubles in 5 years at compound interest. In how many years will it become 8 times?,10 years,12 years,15 years,20 years,C,Number System
+10,A shopkeeper buys a pen for Rs. 50 and sells it for Rs. 65. What is the profit percentage?,25%,30%,35%,40%,B,Arithmetic
+11,"If cost price is Rs. 200 and profit is 20%, what is the selling price?",Rs. 220,Rs. 240,Rs. 260,Rs. 280,B,Time & Work
+12,"The average of 5 numbers is 20. If one number is replaced with 30, the new average becomes 22. What was the number replaced?",10,15,20,25,A,Speed & Distance
+13,"If 2x + 3 = 11, what is x?",3,4,5,6,B,Interest
+14,Solve: 3x - 2y = 5 and x + y = 5. Find x.,2,3,4,5,C,Profit & Loss
+15,What is the area of a circle with radius 7 cm?,145.5 cm²,154 cm²,163.5 cm²,172 cm²,B,Average
+16,Find the perimeter of a rectangle with length 8 cm and width 5 cm.,26 cm,30 cm,34 cm,40 cm,A,Algebra
+17,What is the probability of getting a head in a single coin toss?,0.25,0.5,0.75,1,B,Geometry
+18,"If two dice are rolled, what is the probability of getting a sum of 7?",1/6,1/12,1/18,1/36,A,Probability
+19,Which of the following is a prime number?,15,21,29,35,C,Number System
+20,What is the HCF of 24 and 36?,6,8,12,24,C,Arithmetic
+21,"If 25% of x is 150, what is x?",400,500,600,700,B,Time & Work
+22,A number is increased by 20% and then decreased by 10%. What is the net change?,8% increase,10% increase,12% increase,15% increase,A,Speed & Distance
+23,"The ratio of two numbers is 3:5. If their sum is 80, find the larger number.",30,40,50,60,C,Interest
+24,A can complete a task in 10 days and B can complete it in 15 days. How long will it take if they work together?,5 days,6 days,7 days,8 days,B,Profit & Loss
+25,"If 5 workers can build a wall in 20 days, how many days will 10 workers take?",5 days,10 days,15 days,20 days,B,Average
+26,A train travels at 60 km/h for 2 hours and then at 80 km/h for 3 hours. What is the average speed?,70 km/h,72 km/h,74 km/h,76 km/h,C,Algebra
+27,"If a car travels 300 km in 5 hours, what is its speed?",50 km/h,60 km/h,70 km/h,80 km/h,B,Geometry
+28,What is the simple interest on Rs. 5000 at 8% per annum for 3 years?,Rs. 1000,Rs. 1200,Rs. 1500,Rs. 1800,B,Probability
+29,A sum doubles in 5 years at compound interest. In how many years will it become 8 times?,10 years,12 years,15 years,20 years,C,Number System
+30,A shopkeeper buys a pen for Rs. 50 and sells it for Rs. 65. What is the profit percentage?,25%,30%,35%,40%,B,Arithmetic
+31,"If cost price is Rs. 200 and profit is 20%, what is the selling price?",Rs. 220,Rs. 240,Rs. 260,Rs. 280,B,Time & Work
+32,"The average of 5 numbers is 20. If one number is replaced with 30, the new average becomes 22. What was the number replaced?",10,15,20,25,A,Speed & Distance
+33,"If 2x + 3 = 11, what is x?",3,4,5,6,B,Interest
+34,Solve: 3x - 2y = 5 and x + y = 5. Find x.,2,3,4,5,C,Profit & Loss
+35,What is the area of a circle with radius 7 cm?,145.5 cm²,154 cm²,163.5 cm²,172 cm²,B,Average
+36,Find the perimeter of a rectangle with length 8 cm and width 5 cm.,26 cm,30 cm,34 cm,40 cm,A,Algebra
+37,What is the probability of getting a head in a single coin toss?,0.25,0.5,0.75,1,B,Geometry
+38,"If two dice are rolled, what is the probability of getting a sum of 7?",1/6,1/12,1/18,1/36,A,Probability
+39,Which of the following is a prime number?,15,21,29,35,C,Number System
+40,What is the HCF of 24 and 36?,6,8,12,24,C,Arithmetic
+41,"If 25% of x is 150, what is x?",400,500,600,700,B,Time & Work
+42,A number is increased by 20% and then decreased by 10%. What is the net change?,8% increase,10% increase,12% increase,15% increase,A,Speed & Distance
+43,"The ratio of two numbers is 3:5. If their sum is 80, find the larger number.",30,40,50,60,C,Interest
+44,A can complete a task in 10 days and B can complete it in 15 days. How long will it take if they work together?,5 days,6 days,7 days,8 days,B,Profit & Loss
+45,"If 5 workers can build a wall in 20 days, how many days will 10 workers take?",5 days,10 days,15 days,20 days,B,Average
+46,A train travels at 60 km/h for 2 hours and then at 80 km/h for 3 hours. What is the average speed?,70 km/h,72 km/h,74 km/h,76 km/h,C,Algebra
+47,"If a car travels 300 km in 5 hours, what is its speed?",50 km/h,60 km/h,70 km/h,80 km/h,B,Geometry
+48,What is the simple interest on Rs. 5000 at 8% per annum for 3 years?,Rs. 1000,Rs. 1200,Rs. 1500,Rs. 1800,B,Probability
+49,A sum doubles in 5 years at compound interest. In how many years will it become 8 times?,10 years,12 years,15 years,20 years,C,Number System
+50,A shopkeeper buys a pen for Rs. 50 and sells it for Rs. 65. What is the profit percentage?,25%,30%,35%,40%,B,Arithmetic
+51,"If cost price is Rs. 200 and profit is 20%, what is the selling price?",Rs. 220,Rs. 240,Rs. 260,Rs. 280,B,Time & Work
+52,"The average of 5 numbers is 20. If one number is replaced with 30, the new average becomes 22. What was the number replaced?",10,15,20,25,A,Speed & Distance
+53,"If 2x + 3 = 11, what is x?",3,4,5,6,B,Interest
+54,Solve: 3x - 2y = 5 and x + y = 5. Find x.,2,3,4,5,C,Profit & Loss
+55,What is the area of a circle with radius 7 cm?,145.5 cm²,154 cm²,163.5 cm²,172 cm²,B,Average
+56,Find the perimeter of a rectangle with length 8 cm and width 5 cm.,26 cm,30 cm,34 cm,40 cm,A,Algebra
+57,What is the probability of getting a head in a single coin toss?,0.25,0.5,0.75,1,B,Geometry
+58,"If two dice are rolled, what is the probability of getting a sum of 7?",1/6,1/12,1/18,1/36,A,Probability
+59,Which of the following is a prime number?,15,21,29,35,C,Number System
+60,What is the HCF of 24 and 36?,6,8,12,24,C,Arithmetic
+61,"If 25% of x is 150, what is x?",400,500,600,700,B,Time & Work
+62,A number is increased by 20% and then decreased by 10%. What is the net change?,8% increase,10% increase,12% increase,15% increase,A,Speed & Distance
+63,"The ratio of two numbers is 3:5. If their sum is 80, find the larger number.",30,40,50,60,C,Interest
+64,A can complete a task in 10 days and B can complete it in 15 days. How long will it take if they work together?,5 days,6 days,7 days,8 days,B,Profit & Loss
+65,"If 5 workers can build a wall in 20 days, how many days will 10 workers take?",5 days,10 days,15 days,20 days,B,Average
+66,A train travels at 60 km/h for 2 hours and then at 80 km/h for 3 hours. What is the average speed?,70 km/h,72 km/h,74 km/h,76 km/h,C,Algebra
+67,"If a car travels 300 km in 5 hours, what is its speed?",50 km/h,60 km/h,70 km/h,80 km/h,B,Geometry
+68,What is the simple interest on Rs. 5000 at 8% per annum for 3 years?,Rs. 1000,Rs. 1200,Rs. 1500,Rs. 1800,B,Probability
+69,A sum doubles in 5 years at compound interest. In how many years will it become 8 times?,10 years,12 years,15 years,20 years,C,Number System
+70,A shopkeeper buys a pen for Rs. 50 and sells it for Rs. 65. What is the profit percentage?,25%,30%,35%,40%,B,Arithmetic
+71,"If cost price is Rs. 200 and profit is 20%, what is the selling price?",Rs. 220,Rs. 240,Rs. 260,Rs. 280,B,Time & Work
+72,"The average of 5 numbers is 20. If one number is replaced with 30, the new average becomes 22. What was the number replaced?",10,15,20,25,A,Speed & Distance
+73,"If 2x + 3 = 11, what is x?",3,4,5,6,B,Interest
+74,Solve: 3x - 2y = 5 and x + y = 5. Find x.,2,3,4,5,C,Profit & Loss
+75,What is the area of a circle with radius 7 cm?,145.5 cm²,154 cm²,163.5 cm²,172 cm²,B,Average
+76,Find the perimeter of a rectangle with length 8 cm and width 5 cm.,26 cm,30 cm,34 cm,40 cm,A,Algebra
+77,What is the probability of getting a head in a single coin toss?,0.25,0.5,0.75,1,B,Geometry
+78,"If two dice are rolled, what is the probability of getting a sum of 7?",1/6,1/12,1/18,1/36,A,Probability
+79,Which of the following is a prime number?,15,21,29,35,C,Number System
+80,What is the HCF of 24 and 36?,6,8,12,24,C,Arithmetic
+81,"If 25% of x is 150, what is x?",400,500,600,700,B,Time & Work
+82,A number is increased by 20% and then decreased by 10%. What is the net change?,8% increase,10% increase,12% increase,15% increase,A,Speed & Distance
+83,"The ratio of two numbers is 3:5. If their sum is 80, find the larger number.",30,40,50,60,C,Interest
+84,A can complete a task in 10 days and B can complete it in 15 days. How long will it take if they work together?,5 days,6 days,7 days,8 days,B,Profit & Loss
+85,"If 5 workers can build a wall in 20 days, how many days will 10 workers take?",5 days,10 days,15 days,20 days,B,Average
+86,A train travels at 60 km/h for 2 hours and then at 80 km/h for 3 hours. What is the average speed?,70 km/h,72 km/h,74 km/h,76 km/h,C,Algebra
+87,"If a car travels 300 km in 5 hours, what is its speed?",50 km/h,60 km/h,70 km/h,80 km/h,B,Geometry
+88,What is the simple interest on Rs. 5000 at 8% per annum for 3 years?,Rs. 1000,Rs. 1200,Rs. 1500,Rs. 1800,B,Probability
+89,A sum doubles in 5 years at compound interest. In how many years will it become 8 times?,10 years,12 years,15 years,20 years,C,Number System
+90,A shopkeeper buys a pen for Rs. 50 and sells it for Rs. 65. What is the profit percentage?,25%,30%,35%,40%,B,Arithmetic
+91,"If cost price is Rs. 200 and profit is 20%, what is the selling price?",Rs. 220,Rs. 240,Rs. 260,Rs. 280,B,Time & Work
+92,"The average of 5 numbers is 20. If one number is replaced with 30, the new average becomes 22. What was the number replaced?",10,15,20,25,A,Speed & Distance
+93,"If 2x + 3 = 11, what is x?",3,4,5,6,B,Interest
+94,Solve: 3x - 2y = 5 and x + y = 5. Find x.,2,3,4,5,C,Profit & Loss
+95,What is the area of a circle with radius 7 cm?,145.5 cm²,154 cm²,163.5 cm²,172 cm²,B,Average
+96,Find the perimeter of a rectangle with length 8 cm and width 5 cm.,26 cm,30 cm,34 cm,40 cm,A,Algebra
+97,What is the probability of getting a head in a single coin toss?,0.25,0.5,0.75,1,B,Geometry
+98,"If two dice are rolled, what is the probability of getting a sum of 7?",1/6,1/12,1/18,1/36,A,Probability
+99,Which of the following is a prime number?,15,21,29,35,C,Number System
+100,What is the HCF of 24 and 36?,6,8,12,24,C,Arithmetic
+101,"If 25% of x is 150, what is x?",400,500,600,700,B,Time & Work
+102,A number is increased by 20% and then decreased by 10%. What is the net change?,8% increase,10% increase,12% increase,15% increase,A,Speed & Distance
+103,"The ratio of two numbers is 3:5. If their sum is 80, find the larger number.",30,40,50,60,C,Interest
+104,A can complete a task in 10 days and B can complete it in 15 days. How long will it take if they work together?,5 days,6 days,7 days,8 days,B,Profit & Loss
+105,"If 5 workers can build a wall in 20 days, how many days will 10 workers take?",5 days,10 days,15 days,20 days,B,Average
+106,A train travels at 60 km/h for 2 hours and then at 80 km/h for 3 hours. What is the average speed?,70 km/h,72 km/h,74 km/h,76 km/h,C,Algebra
+107,"If a car travels 300 km in 5 hours, what is its speed?",50 km/h,60 km/h,70 km/h,80 km/h,B,Geometry
+108,What is the simple interest on Rs. 5000 at 8% per annum for 3 years?,Rs. 1000,Rs. 1200,Rs. 1500,Rs. 1800,B,Probability
+109,A sum doubles in 5 years at compound interest. In how many years will it become 8 times?,10 years,12 years,15 years,20 years,C,Number System
+110,A shopkeeper buys a pen for Rs. 50 and sells it for Rs. 65. What is the profit percentage?,25%,30%,35%,40%,B,Arithmetic
+111,"If cost price is Rs. 200 and profit is 20%, what is the selling price?",Rs. 220,Rs. 240,Rs. 260,Rs. 280,B,Time & Work
+112,"The average of 5 numbers is 20. If one number is replaced with 30, the new average becomes 22. What was the number replaced?",10,15,20,25,A,Speed & Distance
+113,"If 2x + 3 = 11, what is x?",3,4,5,6,B,Interest
+114,Solve: 3x - 2y = 5 and x + y = 5. Find x.,2,3,4,5,C,Profit & Loss
+115,What is the area of a circle with radius 7 cm?,145.5 cm²,154 cm²,163.5 cm²,172 cm²,B,Average
+116,Find the perimeter of a rectangle with length 8 cm and width 5 cm.,26 cm,30 cm,34 cm,40 cm,A,Algebra
+117,What is the probability of getting a head in a single coin toss?,0.25,0.5,0.75,1,B,Geometry
+118,"If two dice are rolled, what is the probability of getting a sum of 7?",1/6,1/12,1/18,1/36,A,Probability
+119,Which of the following is a prime number?,15,21,29,35,C,Number System
+120,What is the HCF of 24 and 36?,6,8,12,24,C,Arithmetic
+121,"If 25% of x is 150, what is x?",400,500,600,700,B,Time & Work
+122,A number is increased by 20% and then decreased by 10%. What is the net change?,8% increase,10% increase,12% increase,15% increase,A,Speed & Distance
+123,"The ratio of two numbers is 3:5. If their sum is 80, find the larger number.",30,40,50,60,C,Interest
+124,A can complete a task in 10 days and B can complete it in 15 days. How long will it take if they work together?,5 days,6 days,7 days,8 days,B,Profit & Loss
+125,"If 5 workers can build a wall in 20 days, how many days will 10 workers take?",5 days,10 days,15 days,20 days,B,Average
+126,A train travels at 60 km/h for 2 hours and then at 80 km/h for 3 hours. What is the average speed?,70 km/h,72 km/h,74 km/h,76 km/h,C,Algebra
+127,"If a car travels 300 km in 5 hours, what is its speed?",50 km/h,60 km/h,70 km/h,80 km/h,B,Geometry
+128,What is the simple interest on Rs. 5000 at 8% per annum for 3 years?,Rs. 1000,Rs. 1200,Rs. 1500,Rs. 1800,B,Probability
+129,A sum doubles in 5 years at compound interest. In how many years will it become 8 times?,10 years,12 years,15 years,20 years,C,Number System
+130,A shopkeeper buys a pen for Rs. 50 and sells it for Rs. 65. What is the profit percentage?,25%,30%,35%,40%,B,Arithmetic
+131,"If cost price is Rs. 200 and profit is 20%, what is the selling price?",Rs. 220,Rs. 240,Rs. 260,Rs. 280,B,Time & Work
+132,"The average of 5 numbers is 20. If one number is replaced with 30, the new average becomes 22. What was the number replaced?",10,15,20,25,A,Speed & Distance
+133,"If 2x + 3 = 11, what is x?",3,4,5,6,B,Interest
+134,Solve: 3x - 2y = 5 and x + y = 5. Find x.,2,3,4,5,C,Profit & Loss
+135,What is the area of a circle with radius 7 cm?,145.5 cm²,154 cm²,163.5 cm²,172 cm²,B,Average
+136,Find the perimeter of a rectangle with length 8 cm and width 5 cm.,26 cm,30 cm,34 cm,40 cm,A,Algebra
+137,What is the probability of getting a head in a single coin toss?,0.25,0.5,0.75,1,B,Geometry
+138,"If two dice are rolled, what is the probability of getting a sum of 7?",1/6,1/12,1/18,1/36,A,Probability
+139,Which of the following is a prime number?,15,21,29,35,C,Number System
+140,What is the HCF of 24 and 36?,6,8,12,24,C,Arithmetic
+141,"If 25% of x is 150, what is x?",400,500,600,700,B,Time & Work
+142,A number is increased by 20% and then decreased by 10%. What is the net change?,8% increase,10% increase,12% increase,15% increase,A,Speed & Distance
+143,"The ratio of two numbers is 3:5. If their sum is 80, find the larger number.",30,40,50,60,C,Interest
+144,A can complete a task in 10 days and B can complete it in 15 days. How long will it take if they work together?,5 days,6 days,7 days,8 days,B,Profit & Loss
+145,"If 5 workers can build a wall in 20 days, how many days will 10 workers take?",5 days,10 days,15 days,20 days,B,Average
+146,A train travels at 60 km/h for 2 hours and then at 80 km/h for 3 hours. What is the average speed?,70 km/h,72 km/h,74 km/h,76 km/h,C,Algebra
+147,"If a car travels 300 km in 5 hours, what is its speed?",50 km/h,60 km/h,70 km/h,80 km/h,B,Geometry
+148,What is the simple interest on Rs. 5000 at 8% per annum for 3 years?,Rs. 1000,Rs. 1200,Rs. 1500,Rs. 1800,B,Probability
+149,A sum doubles in 5 years at compound interest. In how many years will it become 8 times?,10 years,12 years,15 years,20 years,C,Number System
+150,A shopkeeper buys a pen for Rs. 50 and sells it for Rs. 65. What is the profit percentage?,25%,30%,35%,40%,B,Arithmetic
+151,"If cost price is Rs. 200 and profit is 20%, what is the selling price?",Rs. 220,Rs. 240,Rs. 260,Rs. 280,B,Time & Work
+152,"The average of 5 numbers is 20. If one number is replaced with 30, the new average becomes 22. What was the number replaced?",10,15,20,25,A,Speed & Distance
+153,"If 2x + 3 = 11, what is x?",3,4,5,6,B,Interest
+154,Solve: 3x - 2y = 5 and x + y = 5. Find x.,2,3,4,5,C,Profit & Loss
+155,What is the area of a circle with radius 7 cm?,145.5 cm²,154 cm²,163.5 cm²,172 cm²,B,Average
+156,Find the perimeter of a rectangle with length 8 cm and width 5 cm.,26 cm,30 cm,34 cm,40 cm,A,Algebra
+157,What is the probability of getting a head in a single coin toss?,0.25,0.5,0.75,1,B,Geometry
+158,"If two dice are rolled, what is the probability of getting a sum of 7?",1/6,1/12,1/18,1/36,A,Probability
+159,Which of the following is a prime number?,15,21,29,35,C,Number System
+160,What is the HCF of 24 and 36?,6,8,12,24,C,Arithmetic
+161,"If 25% of x is 150, what is x?",400,500,600,700,B,Time & Work
+162,A number is increased by 20% and then decreased by 10%. What is the net change?,8% increase,10% increase,12% increase,15% increase,A,Speed & Distance
+163,"The ratio of two numbers is 3:5. If their sum is 80, find the larger number.",30,40,50,60,C,Interest
+164,A can complete a task in 10 days and B can complete it in 15 days. How long will it take if they work together?,5 days,6 days,7 days,8 days,B,Profit & Loss
+165,"If 5 workers can build a wall in 20 days, how many days will 10 workers take?",5 days,10 days,15 days,20 days,B,Average
+166,A train travels at 60 km/h for 2 hours and then at 80 km/h for 3 hours. What is the average speed?,70 km/h,72 km/h,74 km/h,76 km/h,C,Algebra
+167,"If a car travels 300 km in 5 hours, what is its speed?",50 km/h,60 km/h,70 km/h,80 km/h,B,Geometry
+168,What is the simple interest on Rs. 5000 at 8% per annum for 3 years?,Rs. 1000,Rs. 1200,Rs. 1500,Rs. 1800,B,Probability
+169,A sum doubles in 5 years at compound interest. In how many years will it become 8 times?,10 years,12 years,15 years,20 years,C,Number System
+170,A shopkeeper buys a pen for Rs. 50 and sells it for Rs. 65. What is the profit percentage?,25%,30%,35%,40%,B,Arithmetic
+171,"If cost price is Rs. 200 and profit is 20%, what is the selling price?",Rs. 220,Rs. 240,Rs. 260,Rs. 280,B,Time & Work
+172,"The average of 5 numbers is 20. If one number is replaced with 30, the new average becomes 22. What was the number replaced?",10,15,20,25,A,Speed & Distance
+173,"If 2x + 3 = 11, what is x?",3,4,5,6,B,Interest
+174,Solve: 3x - 2y = 5 and x + y = 5. Find x.,2,3,4,5,C,Profit & Loss
+175,What is the area of a circle with radius 7 cm?,145.5 cm²,154 cm²,163.5 cm²,172 cm²,B,Average
+176,Find the perimeter of a rectangle with length 8 cm and width 5 cm.,26 cm,30 cm,34 cm,40 cm,A,Algebra
+177,What is the probability of getting a head in a single coin toss?,0.25,0.5,0.75,1,B,Geometry
+178,"If two dice are rolled, what is the probability of getting a sum of 7?",1/6,1/12,1/18,1/36,A,Probability
+179,Which of the following is a prime number?,15,21,29,35,C,Number System
+180,What is the HCF of 24 and 36?,6,8,12,24,C,Arithmetic
+181,"If 25% of x is 150, what is x?",400,500,600,700,B,Time & Work
+182,A number is increased by 20% and then decreased by 10%. What is the net change?,8% increase,10% increase,12% increase,15% increase,A,Speed & Distance
+183,"The ratio of two numbers is 3:5. If their sum is 80, find the larger number.",30,40,50,60,C,Interest
+184,A can complete a task in 10 days and B can complete it in 15 days. How long will it take if they work together?,5 days,6 days,7 days,8 days,B,Profit & Loss
+185,"If 5 workers can build a wall in 20 days, how many days will 10 workers take?",5 days,10 days,15 days,20 days,B,Average
+186,A train travels at 60 km/h for 2 hours and then at 80 km/h for 3 hours. What is the average speed?,70 km/h,72 km/h,74 km/h,76 km/h,C,Algebra
+187,"If a car travels 300 km in 5 hours, what is its speed?",50 km/h,60 km/h,70 km/h,80 km/h,B,Geometry
+188,What is the simple interest on Rs. 5000 at 8% per annum for 3 years?,Rs. 1000,Rs. 1200,Rs. 1500,Rs. 1800,B,Probability
+189,A sum doubles in 5 years at compound interest. In how many years will it become 8 times?,10 years,12 years,15 years,20 years,C,Number System
+190,A shopkeeper buys a pen for Rs. 50 and sells it for Rs. 65. What is the profit percentage?,25%,30%,35%,40%,B,Arithmetic
+191,"If cost price is Rs. 200 and profit is 20%, what is the selling price?",Rs. 220,Rs. 240,Rs. 260,Rs. 280,B,Time & Work
+192,"The average of 5 numbers is 20. If one number is replaced with 30, the new average becomes 22. What was the number replaced?",10,15,20,25,A,Speed & Distance
+193,"If 2x + 3 = 11, what is x?",3,4,5,6,B,Interest
+194,Solve: 3x - 2y = 5 and x + y = 5. Find x.,2,3,4,5,C,Profit & Loss
+195,What is the area of a circle with radius 7 cm?,145.5 cm²,154 cm²,163.5 cm²,172 cm²,B,Average
+196,Find the perimeter of a rectangle with length 8 cm and width 5 cm.,26 cm,30 cm,34 cm,40 cm,A,Algebra
+197,What is the probability of getting a head in a single coin toss?,0.25,0.5,0.75,1,B,Geometry
+198,"If two dice are rolled, what is the probability of getting a sum of 7?",1/6,1/12,1/18,1/36,A,Probability
+199,Which of the following is a prime number?,15,21,29,35,C,Number System
+200,What is the HCF of 24 and 36?,6,8,12,24,C,Arithmetic
+201,"If 25% of x is 150, what is x?",400,500,600,700,B,Time & Work
+202,A number is increased by 20% and then decreased by 10%. What is the net change?,8% increase,10% increase,12% increase,15% increase,A,Speed & Distance
+203,"The ratio of two numbers is 3:5. If their sum is 80, find the larger number.",30,40,50,60,C,Interest
+204,A can complete a task in 10 days and B can complete it in 15 days. How long will it take if they work together?,5 days,6 days,7 days,8 days,B,Profit & Loss
+205,"If 5 workers can build a wall in 20 days, how many days will 10 workers take?",5 days,10 days,15 days,20 days,B,Average
+206,A train travels at 60 km/h for 2 hours and then at 80 km/h for 3 hours. What is the average speed?,70 km/h,72 km/h,74 km/h,76 km/h,C,Algebra
+207,"If a car travels 300 km in 5 hours, what is its speed?",50 km/h,60 km/h,70 km/h,80 km/h,B,Geometry
+208,What is the simple interest on Rs. 5000 at 8% per annum for 3 years?,Rs. 1000,Rs. 1200,Rs. 1500,Rs. 1800,B,Probability
+209,A sum doubles in 5 years at compound interest. In how many years will it become 8 times?,10 years,12 years,15 years,20 years,C,Number System
+210,A shopkeeper buys a pen for Rs. 50 and sells it for Rs. 65. What is the profit percentage?,25%,30%,35%,40%,B,Arithmetic
+211,"If cost price is Rs. 200 and profit is 20%, what is the selling price?",Rs. 220,Rs. 240,Rs. 260,Rs. 280,B,Time & Work
+212,"The average of 5 numbers is 20. If one number is replaced with 30, the new average becomes 22. What was the number replaced?",10,15,20,25,A,Speed & Distance
+213,"If 2x + 3 = 11, what is x?",3,4,5,6,B,Interest
+214,Solve: 3x - 2y = 5 and x + y = 5. Find x.,2,3,4,5,C,Profit & Loss
+215,What is the area of a circle with radius 7 cm?,145.5 cm²,154 cm²,163.5 cm²,172 cm²,B,Average
+216,Find the perimeter of a rectangle with length 8 cm and width 5 cm.,26 cm,30 cm,34 cm,40 cm,A,Algebra
+217,What is the probability of getting a head in a single coin toss?,0.25,0.5,0.75,1,B,Geometry
+218,"If two dice are rolled, what is the probability of getting a sum of 7?",1/6,1/12,1/18,1/36,A,Probability
+219,Which of the following is a prime number?,15,21,29,35,C,Number System
+220,What is the HCF of 24 and 36?,6,8,12,24,C,Arithmetic
+221,"If 25% of x is 150, what is x?",400,500,600,700,B,Time & Work
+222,A number is increased by 20% and then decreased by 10%. What is the net change?,8% increase,10% increase,12% increase,15% increase,A,Speed & Distance
+223,"The ratio of two numbers is 3:5. If their sum is 80, find the larger number.",30,40,50,60,C,Interest
+224,A can complete a task in 10 days and B can complete it in 15 days. How long will it take if they work together?,5 days,6 days,7 days,8 days,B,Profit & Loss
+225,"If 5 workers can build a wall in 20 days, how many days will 10 workers take?",5 days,10 days,15 days,20 days,B,Average
+226,A train travels at 60 km/h for 2 hours and then at 80 km/h for 3 hours. What is the average speed?,70 km/h,72 km/h,74 km/h,76 km/h,C,Algebra
+227,"If a car travels 300 km in 5 hours, what is its speed?",50 km/h,60 km/h,70 km/h,80 km/h,B,Geometry
+228,What is the simple interest on Rs. 5000 at 8% per annum for 3 years?,Rs. 1000,Rs. 1200,Rs. 1500,Rs. 1800,B,Probability
+229,A sum doubles in 5 years at compound interest. In how many years will it become 8 times?,10 years,12 years,15 years,20 years,C,Number System
+230,A shopkeeper buys a pen for Rs. 50 and sells it for Rs. 65. What is the profit percentage?,25%,30%,35%,40%,B,Arithmetic
+231,"If cost price is Rs. 200 and profit is 20%, what is the selling price?",Rs. 220,Rs. 240,Rs. 260,Rs. 280,B,Time & Work
+232,"The average of 5 numbers is 20. If one number is replaced with 30, the new average becomes 22. What was the number replaced?",10,15,20,25,A,Speed & Distance
+233,"If 2x + 3 = 11, what is x?",3,4,5,6,B,Interest
+234,Solve: 3x - 2y = 5 and x + y = 5. Find x.,2,3,4,5,C,Profit & Loss
+235,What is the area of a circle with radius 7 cm?,145.5 cm²,154 cm²,163.5 cm²,172 cm²,B,Average
+236,Find the perimeter of a rectangle with length 8 cm and width 5 cm.,26 cm,30 cm,34 cm,40 cm,A,Algebra
+237,What is the probability of getting a head in a single coin toss?,0.25,0.5,0.75,1,B,Geometry
+238,"If two dice are rolled, what is the probability of getting a sum of 7?",1/6,1/12,1/18,1/36,A,Probability
+239,Which of the following is a prime number?,15,21,29,35,C,Number System
+240,What is the HCF of 24 and 36?,6,8,12,24,C,Arithmetic
+241,"If 25% of x is 150, what is x?",400,500,600,700,B,Time & Work
+242,A number is increased by 20% and then decreased by 10%. What is the net change?,8% increase,10% increase,12% increase,15% increase,A,Speed & Distance
+243,"The ratio of two numbers is 3:5. If their sum is 80, find the larger number.",30,40,50,60,C,Interest
+244,A can complete a task in 10 days and B can complete it in 15 days. How long will it take if they work together?,5 days,6 days,7 days,8 days,B,Profit & Loss
+245,"If 5 workers can build a wall in 20 days, how many days will 10 workers take?",5 days,10 days,15 days,20 days,B,Average
+246,A train travels at 60 km/h for 2 hours and then at 80 km/h for 3 hours. What is the average speed?,70 km/h,72 km/h,74 km/h,76 km/h,C,Algebra
+247,"If a car travels 300 km in 5 hours, what is its speed?",50 km/h,60 km/h,70 km/h,80 km/h,B,Geometry
+248,What is the simple interest on Rs. 5000 at 8% per annum for 3 years?,Rs. 1000,Rs. 1200,Rs. 1500,Rs. 1800,B,Probability
+249,A sum doubles in 5 years at compound interest. In how many years will it become 8 times?,10 years,12 years,15 years,20 years,C,Number System
+250,A shopkeeper buys a pen for Rs. 50 and sells it for Rs. 65. What is the profit percentage?,25%,30%,35%,40%,B,Arithmetic
+251,"If cost price is Rs. 200 and profit is 20%, what is the selling price?",Rs. 220,Rs. 240,Rs. 260,Rs. 280,B,Time & Work
+252,"The average of 5 numbers is 20. If one number is replaced with 30, the new average becomes 22. What was the number replaced?",10,15,20,25,A,Speed & Distance
+253,"If 2x + 3 = 11, what is x?",3,4,5,6,B,Interest
+254,Solve: 3x - 2y = 5 and x + y = 5. Find x.,2,3,4,5,C,Profit & Loss
+255,What is the area of a circle with radius 7 cm?,145.5 cm²,154 cm²,163.5 cm²,172 cm²,B,Average
+256,Find the perimeter of a rectangle with length 8 cm and width 5 cm.,26 cm,30 cm,34 cm,40 cm,A,Algebra
+257,What is the probability of getting a head in a single coin toss?,0.25,0.5,0.75,1,B,Geometry
+258,"If two dice are rolled, what is the probability of getting a sum of 7?",1/6,1/12,1/18,1/36,A,Probability
+259,Which of the following is a prime number?,15,21,29,35,C,Number System
+260,What is the HCF of 24 and 36?,6,8,12,24,C,Arithmetic
+261,"If 25% of x is 150, what is x?",400,500,600,700,B,Time & Work
+262,A number is increased by 20% and then decreased by 10%. What is the net change?,8% increase,10% increase,12% increase,15% increase,A,Speed & Distance
+263,"The ratio of two numbers is 3:5. If their sum is 80, find the larger number.",30,40,50,60,C,Interest
+264,A can complete a task in 10 days and B can complete it in 15 days. How long will it take if they work together?,5 days,6 days,7 days,8 days,B,Profit & Loss
+265,"If 5 workers can build a wall in 20 days, how many days will 10 workers take?",5 days,10 days,15 days,20 days,B,Average
+266,A train travels at 60 km/h for 2 hours and then at 80 km/h for 3 hours. What is the average speed?,70 km/h,72 km/h,74 km/h,76 km/h,C,Algebra
+267,"If a car travels 300 km in 5 hours, what is its speed?",50 km/h,60 km/h,70 km/h,80 km/h,B,Geometry
+268,What is the simple interest on Rs. 5000 at 8% per annum for 3 years?,Rs. 1000,Rs. 1200,Rs. 1500,Rs. 1800,B,Probability
+269,A sum doubles in 5 years at compound interest. In how many years will it become 8 times?,10 years,12 years,15 years,20 years,C,Number System
+270,A shopkeeper buys a pen for Rs. 50 and sells it for Rs. 65. What is the profit percentage?,25%,30%,35%,40%,B,Arithmetic
+271,"If cost price is Rs. 200 and profit is 20%, what is the selling price?",Rs. 220,Rs. 240,Rs. 260,Rs. 280,B,Time & Work
+272,"The average of 5 numbers is 20. If one number is replaced with 30, the new average becomes 22. What was the number replaced?",10,15,20,25,A,Speed & Distance
+273,"If 2x + 3 = 11, what is x?",3,4,5,6,B,Interest
+274,Solve: 3x - 2y = 5 and x + y = 5. Find x.,2,3,4,5,C,Profit & Loss
+275,What is the area of a circle with radius 7 cm?,145.5 cm²,154 cm²,163.5 cm²,172 cm²,B,Average
+276,Find the perimeter of a rectangle with length 8 cm and width 5 cm.,26 cm,30 cm,34 cm,40 cm,A,Algebra
+277,What is the probability of getting a head in a single coin toss?,0.25,0.5,0.75,1,B,Geometry
+278,"If two dice are rolled, what is the probability of getting a sum of 7?",1/6,1/12,1/18,1/36,A,Probability
+279,Which of the following is a prime number?,15,21,29,35,C,Number System
+280,What is the HCF of 24 and 36?,6,8,12,24,C,Arithmetic
+281,"If 25% of x is 150, what is x?",400,500,600,700,B,Time & Work
+282,A number is increased by 20% and then decreased by 10%. What is the net change?,8% increase,10% increase,12% increase,15% increase,A,Speed & Distance
+283,"The ratio of two numbers is 3:5. If their sum is 80, find the larger number.",30,40,50,60,C,Interest
+284,A can complete a task in 10 days and B can complete it in 15 days. How long will it take if they work together?,5 days,6 days,7 days,8 days,B,Profit & Loss
+285,"If 5 workers can build a wall in 20 days, how many days will 10 workers take?",5 days,10 days,15 days,20 days,B,Average
+286,A train travels at 60 km/h for 2 hours and then at 80 km/h for 3 hours. What is the average speed?,70 km/h,72 km/h,74 km/h,76 km/h,C,Algebra
+287,"If a car travels 300 km in 5 hours, what is its speed?",50 km/h,60 km/h,70 km/h,80 km/h,B,Geometry
+288,What is the simple interest on Rs. 5000 at 8% per annum for 3 years?,Rs. 1000,Rs. 1200,Rs. 1500,Rs. 1800,B,Probability
+289,A sum doubles in 5 years at compound interest. In how many years will it become 8 times?,10 years,12 years,15 years,20 years,C,Number System
+290,A shopkeeper buys a pen for Rs. 50 and sells it for Rs. 65. What is the profit percentage?,25%,30%,35%,40%,B,Arithmetic
+291,"If cost price is Rs. 200 and profit is 20%, what is the selling price?",Rs. 220,Rs. 240,Rs. 260,Rs. 280,B,Time & Work
+292,"The average of 5 numbers is 20. If one number is replaced with 30, the new average becomes 22. What was the number replaced?",10,15,20,25,A,Speed & Distance
+293,"If 2x + 3 = 11, what is x?",3,4,5,6,B,Interest
+294,Solve: 3x - 2y = 5 and x + y = 5. Find x.,2,3,4,5,C,Profit & Loss
+295,What is the area of a circle with radius 7 cm?,145.5 cm²,154 cm²,163.5 cm²,172 cm²,B,Average
+296,Find the perimeter of a rectangle with length 8 cm and width 5 cm.,26 cm,30 cm,34 cm,40 cm,A,Algebra
+297,What is the probability of getting a head in a single coin toss?,0.25,0.5,0.75,1,B,Geometry
+298,"If two dice are rolled, what is the probability of getting a sum of 7?",1/6,1/12,1/18,1/36,A,Probability
+299,Which of the following is a prime number?,15,21,29,35,C,Number System
+300,What is the HCF of 24 and 36?,6,8,12,24,C,Arithmetic
+301,"If 25% of x is 150, what is x?",400,500,600,700,B,Time & Work
+302,A number is increased by 20% and then decreased by 10%. What is the net change?,8% increase,10% increase,12% increase,15% increase,A,Speed & Distance
+303,"The ratio of two numbers is 3:5. If their sum is 80, find the larger number.",30,40,50,60,C,Interest
+304,A can complete a task in 10 days and B can complete it in 15 days. How long will it take if they work together?,5 days,6 days,7 days,8 days,B,Profit & Loss
+305,"If 5 workers can build a wall in 20 days, how many days will 10 workers take?",5 days,10 days,15 days,20 days,B,Average
+306,A train travels at 60 km/h for 2 hours and then at 80 km/h for 3 hours. What is the average speed?,70 km/h,72 km/h,74 km/h,76 km/h,C,Algebra
+307,"If a car travels 300 km in 5 hours, what is its speed?",50 km/h,60 km/h,70 km/h,80 km/h,B,Geometry
+308,What is the simple interest on Rs. 5000 at 8% per annum for 3 years?,Rs. 1000,Rs. 1200,Rs. 1500,Rs. 1800,B,Probability
+309,A sum doubles in 5 years at compound interest. In how many years will it become 8 times?,10 years,12 years,15 years,20 years,C,Number System
+310,A shopkeeper buys a pen for Rs. 50 and sells it for Rs. 65. What is the profit percentage?,25%,30%,35%,40%,B,Arithmetic
+311,"If cost price is Rs. 200 and profit is 20%, what is the selling price?",Rs. 220,Rs. 240,Rs. 260,Rs. 280,B,Time & Work
+312,"The average of 5 numbers is 20. If one number is replaced with 30, the new average becomes 22. What was the number replaced?",10,15,20,25,A,Speed & Distance
+313,"If 2x + 3 = 11, what is x?",3,4,5,6,B,Interest
+314,Solve: 3x - 2y = 5 and x + y = 5. Find x.,2,3,4,5,C,Profit & Loss
+315,What is the area of a circle with radius 7 cm?,145.5 cm²,154 cm²,163.5 cm²,172 cm²,B,Average
+316,Find the perimeter of a rectangle with length 8 cm and width 5 cm.,26 cm,30 cm,34 cm,40 cm,A,Algebra
+317,What is the probability of getting a head in a single coin toss?,0.25,0.5,0.75,1,B,Geometry
+318,"If two dice are rolled, what is the probability of getting a sum of 7?",1/6,1/12,1/18,1/36,A,Probability
+319,Which of the following is a prime number?,15,21,29,35,C,Number System
+320,What is the HCF of 24 and 36?,6,8,12,24,C,Arithmetic
+321,"If 25% of x is 150, what is x?",400,500,600,700,B,Time & Work
+322,A number is increased by 20% and then decreased by 10%. What is the net change?,8% increase,10% increase,12% increase,15% increase,A,Speed & Distance
+323,"The ratio of two numbers is 3:5. If their sum is 80, find the larger number.",30,40,50,60,C,Interest
+324,A can complete a task in 10 days and B can complete it in 15 days. How long will it take if they work together?,5 days,6 days,7 days,8 days,B,Profit & Loss
+325,"If 5 workers can build a wall in 20 days, how many days will 10 workers take?",5 days,10 days,15 days,20 days,B,Average
+326,A train travels at 60 km/h for 2 hours and then at 80 km/h for 3 hours. What is the average speed?,70 km/h,72 km/h,74 km/h,76 km/h,C,Algebra
+327,"If a car travels 300 km in 5 hours, what is its speed?",50 km/h,60 km/h,70 km/h,80 km/h,B,Geometry
+328,What is the simple interest on Rs. 5000 at 8% per annum for 3 years?,Rs. 1000,Rs. 1200,Rs. 1500,Rs. 1800,B,Probability
+329,A sum doubles in 5 years at compound interest. In how many years will it become 8 times?,10 years,12 years,15 years,20 years,C,Number System
+330,A shopkeeper buys a pen for Rs. 50 and sells it for Rs. 65. What is the profit percentage?,25%,30%,35%,40%,B,Arithmetic
+331,"If cost price is Rs. 200 and profit is 20%, what is the selling price?",Rs. 220,Rs. 240,Rs. 260,Rs. 280,B,Time & Work
+332,"The average of 5 numbers is 20. If one number is replaced with 30, the new average becomes 22. What was the number replaced?",10,15,20,25,A,Speed & Distance
+333,"If 2x + 3 = 11, what is x?",3,4,5,6,B,Interest
+334,Solve: 3x - 2y = 5 and x + y = 5. Find x.,2,3,4,5,C,Profit & Loss
+335,What is the area of a circle with radius 7 cm?,145.5 cm²,154 cm²,163.5 cm²,172 cm²,B,Average
+336,Find the perimeter of a rectangle with length 8 cm and width 5 cm.,26 cm,30 cm,34 cm,40 cm,A,Algebra
+337,What is the probability of getting a head in a single coin toss?,0.25,0.5,0.75,1,B,Geometry
+338,"If two dice are rolled, what is the probability of getting a sum of 7?",1/6,1/12,1/18,1/36,A,Probability
+339,Which of the following is a prime number?,15,21,29,35,C,Number System
+340,What is the HCF of 24 and 36?,6,8,12,24,C,Arithmetic
+341,"If 25% of x is 150, what is x?",400,500,600,700,B,Time & Work
+342,A number is increased by 20% and then decreased by 10%. What is the net change?,8% increase,10% increase,12% increase,15% increase,A,Speed & Distance
+343,"The ratio of two numbers is 3:5. If their sum is 80, find the larger number.",30,40,50,60,C,Interest
+344,A can complete a task in 10 days and B can complete it in 15 days. How long will it take if they work together?,5 days,6 days,7 days,8 days,B,Profit & Loss
+345,"If 5 workers can build a wall in 20 days, how many days will 10 workers take?",5 days,10 days,15 days,20 days,B,Average
+346,A train travels at 60 km/h for 2 hours and then at 80 km/h for 3 hours. What is the average speed?,70 km/h,72 km/h,74 km/h,76 km/h,C,Algebra
+347,"If a car travels 300 km in 5 hours, what is its speed?",50 km/h,60 km/h,70 km/h,80 km/h,B,Geometry
+348,What is the simple interest on Rs. 5000 at 8% per annum for 3 years?,Rs. 1000,Rs. 1200,Rs. 1500,Rs. 1800,B,Probability
+349,A sum doubles in 5 years at compound interest. In how many years will it become 8 times?,10 years,12 years,15 years,20 years,C,Number System
+350,A shopkeeper buys a pen for Rs. 50 and sells it for Rs. 65. What is the profit percentage?,25%,30%,35%,40%,B,Arithmetic
+351,"If cost price is Rs. 200 and profit is 20%, what is the selling price?",Rs. 220,Rs. 240,Rs. 260,Rs. 280,B,Time & Work
+352,"The average of 5 numbers is 20. If one number is replaced with 30, the new average becomes 22. What was the number replaced?",10,15,20,25,A,Speed & Distance
+353,"If 2x + 3 = 11, what is x?",3,4,5,6,B,Interest
+354,Solve: 3x - 2y = 5 and x + y = 5. Find x.,2,3,4,5,C,Profit & Loss
+355,What is the area of a circle with radius 7 cm?,145.5 cm²,154 cm²,163.5 cm²,172 cm²,B,Average
+356,Find the perimeter of a rectangle with length 8 cm and width 5 cm.,26 cm,30 cm,34 cm,40 cm,A,Algebra
+357,What is the probability of getting a head in a single coin toss?,0.25,0.5,0.75,1,B,Geometry
+358,"If two dice are rolled, what is the probability of getting a sum of 7?",1/6,1/12,1/18,1/36,A,Probability
+359,Which of the following is a prime number?,15,21,29,35,C,Number System
+360,What is the HCF of 24 and 36?,6,8,12,24,C,Arithmetic
+361,"If 25% of x is 150, what is x?",400,500,600,700,B,Time & Work
+362,A number is increased by 20% and then decreased by 10%. What is the net change?,8% increase,10% increase,12% increase,15% increase,A,Speed & Distance
+363,"The ratio of two numbers is 3:5. If their sum is 80, find the larger number.",30,40,50,60,C,Interest
+364,A can complete a task in 10 days and B can complete it in 15 days. How long will it take if they work together?,5 days,6 days,7 days,8 days,B,Profit & Loss
+365,"If 5 workers can build a wall in 20 days, how many days will 10 workers take?",5 days,10 days,15 days,20 days,B,Average
+366,A train travels at 60 km/h for 2 hours and then at 80 km/h for 3 hours. What is the average speed?,70 km/h,72 km/h,74 km/h,76 km/h,C,Algebra
+367,"If a car travels 300 km in 5 hours, what is its speed?",50 km/h,60 km/h,70 km/h,80 km/h,B,Geometry
+368,What is the simple interest on Rs. 5000 at 8% per annum for 3 years?,Rs. 1000,Rs. 1200,Rs. 1500,Rs. 1800,B,Probability
+369,A sum doubles in 5 years at compound interest. In how many years will it become 8 times?,10 years,12 years,15 years,20 years,C,Number System
+370,A shopkeeper buys a pen for Rs. 50 and sells it for Rs. 65. What is the profit percentage?,25%,30%,35%,40%,B,Arithmetic
+371,"If cost price is Rs. 200 and profit is 20%, what is the selling price?",Rs. 220,Rs. 240,Rs. 260,Rs. 280,B,Time & Work
+372,"The average of 5 numbers is 20. If one number is replaced with 30, the new average becomes 22. What was the number replaced?",10,15,20,25,A,Speed & Distance
+373,"If 2x + 3 = 11, what is x?",3,4,5,6,B,Interest
+374,Solve: 3x - 2y = 5 and x + y = 5. Find x.,2,3,4,5,C,Profit & Loss
+375,What is the area of a circle with radius 7 cm?,145.5 cm²,154 cm²,163.5 cm²,172 cm²,B,Average
+376,Find the perimeter of a rectangle with length 8 cm and width 5 cm.,26 cm,30 cm,34 cm,40 cm,A,Algebra
+377,What is the probability of getting a head in a single coin toss?,0.25,0.5,0.75,1,B,Geometry
+378,"If two dice are rolled, what is the probability of getting a sum of 7?",1/6,1/12,1/18,1/36,A,Probability
+379,Which of the following is a prime number?,15,21,29,35,C,Number System
+380,What is the HCF of 24 and 36?,6,8,12,24,C,Arithmetic
+381,"If 25% of x is 150, what is x?",400,500,600,700,B,Time & Work
+382,A number is increased by 20% and then decreased by 10%. What is the net change?,8% increase,10% increase,12% increase,15% increase,A,Speed & Distance
+383,"The ratio of two numbers is 3:5. If their sum is 80, find the larger number.",30,40,50,60,C,Interest
+384,A can complete a task in 10 days and B can complete it in 15 days. How long will it take if they work together?,5 days,6 days,7 days,8 days,B,Profit & Loss
+385,"If 5 workers can build a wall in 20 days, how many days will 10 workers take?",5 days,10 days,15 days,20 days,B,Average
+386,A train travels at 60 km/h for 2 hours and then at 80 km/h for 3 hours. What is the average speed?,70 km/h,72 km/h,74 km/h,76 km/h,C,Algebra
+387,"If a car travels 300 km in 5 hours, what is its speed?",50 km/h,60 km/h,70 km/h,80 km/h,B,Geometry
+388,What is the simple interest on Rs. 5000 at 8% per annum for 3 years?,Rs. 1000,Rs. 1200,Rs. 1500,Rs. 1800,B,Probability
+389,A sum doubles in 5 years at compound interest. In how many years will it become 8 times?,10 years,12 years,15 years,20 years,C,Number System
+390,A shopkeeper buys a pen for Rs. 50 and sells it for Rs. 65. What is the profit percentage?,25%,30%,35%,40%,B,Arithmetic
+391,"If cost price is Rs. 200 and profit is 20%, what is the selling price?",Rs. 220,Rs. 240,Rs. 260,Rs. 280,B,Time & Work
+392,"The average of 5 numbers is 20. If one number is replaced with 30, the new average becomes 22. What was the number replaced?",10,15,20,25,A,Speed & Distance
+393,"If 2x + 3 = 11, what is x?",3,4,5,6,B,Interest
+394,Solve: 3x - 2y = 5 and x + y = 5. Find x.,2,3,4,5,C,Profit & Loss
+395,What is the area of a circle with radius 7 cm?,145.5 cm²,154 cm²,163.5 cm²,172 cm²,B,Average
+396,Find the perimeter of a rectangle with length 8 cm and width 5 cm.,26 cm,30 cm,34 cm,40 cm,A,Algebra
+397,What is the probability of getting a head in a single coin toss?,0.25,0.5,0.75,1,B,Geometry
+398,"If two dice are rolled, what is the probability of getting a sum of 7?",1/6,1/12,1/18,1/36,A,Probability
+399,Which of the following is a prime number?,15,21,29,35,C,Number System
+400,What is the HCF of 24 and 36?,6,8,12,24,C,Arithmetic
+401,"If 25% of x is 150, what is x?",400,500,600,700,B,Time & Work
+402,A number is increased by 20% and then decreased by 10%. What is the net change?,8% increase,10% increase,12% increase,15% increase,A,Speed & Distance
+403,"The ratio of two numbers is 3:5. If their sum is 80, find the larger number.",30,40,50,60,C,Interest
+404,A can complete a task in 10 days and B can complete it in 15 days. How long will it take if they work together?,5 days,6 days,7 days,8 days,B,Profit & Loss
+405,"If 5 workers can build a wall in 20 days, how many days will 10 workers take?",5 days,10 days,15 days,20 days,B,Average
+406,A train travels at 60 km/h for 2 hours and then at 80 km/h for 3 hours. What is the average speed?,70 km/h,72 km/h,74 km/h,76 km/h,C,Algebra
+407,"If a car travels 300 km in 5 hours, what is its speed?",50 km/h,60 km/h,70 km/h,80 km/h,B,Geometry
+408,What is the simple interest on Rs. 5000 at 8% per annum for 3 years?,Rs. 1000,Rs. 1200,Rs. 1500,Rs. 1800,B,Probability
+409,A sum doubles in 5 years at compound interest. In how many years will it become 8 times?,10 years,12 years,15 years,20 years,C,Number System
+410,A shopkeeper buys a pen for Rs. 50 and sells it for Rs. 65. What is the profit percentage?,25%,30%,35%,40%,B,Arithmetic
+411,"If cost price is Rs. 200 and profit is 20%, what is the selling price?",Rs. 220,Rs. 240,Rs. 260,Rs. 280,B,Time & Work
+412,"The average of 5 numbers is 20. If one number is replaced with 30, the new average becomes 22. What was the number replaced?",10,15,20,25,A,Speed & Distance
+413,"If 2x + 3 = 11, what is x?",3,4,5,6,B,Interest
+414,Solve: 3x - 2y = 5 and x + y = 5. Find x.,2,3,4,5,C,Profit & Loss
+415,What is the area of a circle with radius 7 cm?,145.5 cm²,154 cm²,163.5 cm²,172 cm²,B,Average
+416,Find the perimeter of a rectangle with length 8 cm and width 5 cm.,26 cm,30 cm,34 cm,40 cm,A,Algebra
+417,What is the probability of getting a head in a single coin toss?,0.25,0.5,0.75,1,B,Geometry
+418,"If two dice are rolled, what is the probability of getting a sum of 7?",1/6,1/12,1/18,1/36,A,Probability
+419,Which of the following is a prime number?,15,21,29,35,C,Number System
+420,What is the HCF of 24 and 36?,6,8,12,24,C,Arithmetic
+421,"If 25% of x is 150, what is x?",400,500,600,700,B,Time & Work
+422,A number is increased by 20% and then decreased by 10%. What is the net change?,8% increase,10% increase,12% increase,15% increase,A,Speed & Distance
+423,"The ratio of two numbers is 3:5. If their sum is 80, find the larger number.",30,40,50,60,C,Interest
+424,A can complete a task in 10 days and B can complete it in 15 days. How long will it take if they work together?,5 days,6 days,7 days,8 days,B,Profit & Loss
+425,"If 5 workers can build a wall in 20 days, how many days will 10 workers take?",5 days,10 days,15 days,20 days,B,Average
+426,A train travels at 60 km/h for 2 hours and then at 80 km/h for 3 hours. What is the average speed?,70 km/h,72 km/h,74 km/h,76 km/h,C,Algebra
+427,"If a car travels 300 km in 5 hours, what is its speed?",50 km/h,60 km/h,70 km/h,80 km/h,B,Geometry
+428,What is the simple interest on Rs. 5000 at 8% per annum for 3 years?,Rs. 1000,Rs. 1200,Rs. 1500,Rs. 1800,B,Probability
+429,A sum doubles in 5 years at compound interest. In how many years will it become 8 times?,10 years,12 years,15 years,20 years,C,Number System
+430,A shopkeeper buys a pen for Rs. 50 and sells it for Rs. 65. What is the profit percentage?,25%,30%,35%,40%,B,Arithmetic
+431,"If cost price is Rs. 200 and profit is 20%, what is the selling price?",Rs. 220,Rs. 240,Rs. 260,Rs. 280,B,Time & Work
+432,"The average of 5 numbers is 20. If one number is replaced with 30, the new average becomes 22. What was the number replaced?",10,15,20,25,A,Speed & Distance
+433,"If 2x + 3 = 11, what is x?",3,4,5,6,B,Interest
+434,Solve: 3x - 2y = 5 and x + y = 5. Find x.,2,3,4,5,C,Profit & Loss
+435,What is the area of a circle with radius 7 cm?,145.5 cm²,154 cm²,163.5 cm²,172 cm²,B,Average
+436,Find the perimeter of a rectangle with length 8 cm and width 5 cm.,26 cm,30 cm,34 cm,40 cm,A,Algebra
+437,What is the probability of getting a head in a single coin toss?,0.25,0.5,0.75,1,B,Geometry
+438,"If two dice are rolled, what is the probability of getting a sum of 7?",1/6,1/12,1/18,1/36,A,Probability
+439,Which of the following is a prime number?,15,21,29,35,C,Number System
+440,What is the HCF of 24 and 36?,6,8,12,24,C,Arithmetic
+441,"If 25% of x is 150, what is x?",400,500,600,700,B,Time & Work
+442,A number is increased by 20% and then decreased by 10%. What is the net change?,8% increase,10% increase,12% increase,15% increase,A,Speed & Distance
+443,"The ratio of two numbers is 3:5. If their sum is 80, find the larger number.",30,40,50,60,C,Interest
+444,A can complete a task in 10 days and B can complete it in 15 days. How long will it take if they work together?,5 days,6 days,7 days,8 days,B,Profit & Loss
+445,"If 5 workers can build a wall in 20 days, how many days will 10 workers take?",5 days,10 days,15 days,20 days,B,Average
+446,A train travels at 60 km/h for 2 hours and then at 80 km/h for 3 hours. What is the average speed?,70 km/h,72 km/h,74 km/h,76 km/h,C,Algebra
+447,"If a car travels 300 km in 5 hours, what is its speed?",50 km/h,60 km/h,70 km/h,80 km/h,B,Geometry
+448,What is the simple interest on Rs. 5000 at 8% per annum for 3 years?,Rs. 1000,Rs. 1200,Rs. 1500,Rs. 1800,B,Probability
+449,A sum doubles in 5 years at compound interest. In how many years will it become 8 times?,10 years,12 years,15 years,20 years,C,Number System
+450,A shopkeeper buys a pen for Rs. 50 and sells it for Rs. 65. What is the profit percentage?,25%,30%,35%,40%,B,Arithmetic
+451,"If cost price is Rs. 200 and profit is 20%, what is the selling price?",Rs. 220,Rs. 240,Rs. 260,Rs. 280,B,Time & Work
+452,"The average of 5 numbers is 20. If one number is replaced with 30, the new average becomes 22. What was the number replaced?",10,15,20,25,A,Speed & Distance
+453,"If 2x + 3 = 11, what is x?",3,4,5,6,B,Interest
+454,Solve: 3x - 2y = 5 and x + y = 5. Find x.,2,3,4,5,C,Profit & Loss
+455,What is the area of a circle with radius 7 cm?,145.5 cm²,154 cm²,163.5 cm²,172 cm²,B,Average
+456,Find the perimeter of a rectangle with length 8 cm and width 5 cm.,26 cm,30 cm,34 cm,40 cm,A,Algebra
+457,What is the probability of getting a head in a single coin toss?,0.25,0.5,0.75,1,B,Geometry
+458,"If two dice are rolled, what is the probability of getting a sum of 7?",1/6,1/12,1/18,1/36,A,Probability
+459,Which of the following is a prime number?,15,21,29,35,C,Number System
+460,What is the HCF of 24 and 36?,6,8,12,24,C,Arithmetic
+461,"If 25% of x is 150, what is x?",400,500,600,700,B,Time & Work
+462,A number is increased by 20% and then decreased by 10%. What is the net change?,8% increase,10% increase,12% increase,15% increase,A,Speed & Distance
+463,"The ratio of two numbers is 3:5. If their sum is 80, find the larger number.",30,40,50,60,C,Interest
+464,A can complete a task in 10 days and B can complete it in 15 days. How long will it take if they work together?,5 days,6 days,7 days,8 days,B,Profit & Loss
+465,"If 5 workers can build a wall in 20 days, how many days will 10 workers take?",5 days,10 days,15 days,20 days,B,Average
+466,A train travels at 60 km/h for 2 hours and then at 80 km/h for 3 hours. What is the average speed?,70 km/h,72 km/h,74 km/h,76 km/h,C,Algebra
+467,"If a car travels 300 km in 5 hours, what is its speed?",50 km/h,60 km/h,70 km/h,80 km/h,B,Geometry
+468,What is the simple interest on Rs. 5000 at 8% per annum for 3 years?,Rs. 1000,Rs. 1200,Rs. 1500,Rs. 1800,B,Probability
+469,A sum doubles in 5 years at compound interest. In how many years will it become 8 times?,10 years,12 years,15 years,20 years,C,Number System
+470,A shopkeeper buys a pen for Rs. 50 and sells it for Rs. 65. What is the profit percentage?,25%,30%,35%,40%,B,Arithmetic
+471,"If cost price is Rs. 200 and profit is 20%, what is the selling price?",Rs. 220,Rs. 240,Rs. 260,Rs. 280,B,Time & Work
+472,"The average of 5 numbers is 20. If one number is replaced with 30, the new average becomes 22. What was the number replaced?",10,15,20,25,A,Speed & Distance
+473,"If 2x + 3 = 11, what is x?",3,4,5,6,B,Interest
+474,Solve: 3x - 2y = 5 and x + y = 5. Find x.,2,3,4,5,C,Profit & Loss
+475,What is the area of a circle with radius 7 cm?,145.5 cm²,154 cm²,163.5 cm²,172 cm²,B,Average
+476,Find the perimeter of a rectangle with length 8 cm and width 5 cm.,26 cm,30 cm,34 cm,40 cm,A,Algebra
+477,What is the probability of getting a head in a single coin toss?,0.25,0.5,0.75,1,B,Geometry
+478,"If two dice are rolled, what is the probability of getting a sum of 7?",1/6,1/12,1/18,1/36,A,Probability
+479,Which of the following is a prime number?,15,21,29,35,C,Number System
+480,What is the HCF of 24 and 36?,6,8,12,24,C,Arithmetic
+481,"If 25% of x is 150, what is x?",400,500,600,700,B,Time & Work
+482,A number is increased by 20% and then decreased by 10%. What is the net change?,8% increase,10% increase,12% increase,15% increase,A,Speed & Distance
+483,"The ratio of two numbers is 3:5. If their sum is 80, find the larger number.",30,40,50,60,C,Interest
+484,A can complete a task in 10 days and B can complete it in 15 days. How long will it take if they work together?,5 days,6 days,7 days,8 days,B,Profit & Loss
+485,"If 5 workers can build a wall in 20 days, how many days will 10 workers take?",5 days,10 days,15 days,20 days,B,Average
+486,A train travels at 60 km/h for 2 hours and then at 80 km/h for 3 hours. What is the average speed?,70 km/h,72 km/h,74 km/h,76 km/h,C,Algebra
+487,"If a car travels 300 km in 5 hours, what is its speed?",50 km/h,60 km/h,70 km/h,80 km/h,B,Geometry
+488,What is the simple interest on Rs. 5000 at 8% per annum for 3 years?,Rs. 1000,Rs. 1200,Rs. 1500,Rs. 1800,B,Probability
+489,A sum doubles in 5 years at compound interest. In how many years will it become 8 times?,10 years,12 years,15 years,20 years,C,Number System
+490,A shopkeeper buys a pen for Rs. 50 and sells it for Rs. 65. What is the profit percentage?,25%,30%,35%,40%,B,Arithmetic
+491,"If cost price is Rs. 200 and profit is 20%, what is the selling price?",Rs. 220,Rs. 240,Rs. 260,Rs. 280,B,Time & Work
+492,"The average of 5 numbers is 20. If one number is replaced with 30, the new average becomes 22. What was the number replaced?",10,15,20,25,A,Speed & Distance
+493,"If 2x + 3 = 11, what is x?",3,4,5,6,B,Interest
+494,Solve: 3x - 2y = 5 and x + y = 5. Find x.,2,3,4,5,C,Profit & Loss
+495,What is the area of a circle with radius 7 cm?,145.5 cm²,154 cm²,163.5 cm²,172 cm²,B,Average
+496,Find the perimeter of a rectangle with length 8 cm and width 5 cm.,26 cm,30 cm,34 cm,40 cm,A,Algebra
+497,What is the probability of getting a head in a single coin toss?,0.25,0.5,0.75,1,B,Geometry
+498,"If two dice are rolled, what is the probability of getting a sum of 7?",1/6,1/12,1/18,1/36,A,Probability
+499,Which of the following is a prime number?,15,21,29,35,C,Number System
+500,What is the HCF of 24 and 36?,6,8,12,24,C,Arithmetic
+501,"If 25% of x is 150, what is x?",400,500,600,700,B,Time & Work
+502,A number is increased by 20% and then decreased by 10%. What is the net change?,8% increase,10% increase,12% increase,15% increase,A,Speed & Distance
+503,"The ratio of two numbers is 3:5. If their sum is 80, find the larger number.",30,40,50,60,C,Interest
+504,A can complete a task in 10 days and B can complete it in 15 days. How long will it take if they work together?,5 days,6 days,7 days,8 days,B,Profit & Loss
+505,"If 5 workers can build a wall in 20 days, how many days will 10 workers take?",5 days,10 days,15 days,20 days,B,Average
+506,A train travels at 60 km/h for 2 hours and then at 80 km/h for 3 hours. What is the average speed?,70 km/h,72 km/h,74 km/h,76 km/h,C,Algebra
+507,"If a car travels 300 km in 5 hours, what is its speed?",50 km/h,60 km/h,70 km/h,80 km/h,B,Geometry
+508,What is the simple interest on Rs. 5000 at 8% per annum for 3 years?,Rs. 1000,Rs. 1200,Rs. 1500,Rs. 1800,B,Probability
+509,A sum doubles in 5 years at compound interest. In how many years will it become 8 times?,10 years,12 years,15 years,20 years,C,Number System
+510,A shopkeeper buys a pen for Rs. 50 and sells it for Rs. 65. What is the profit percentage?,25%,30%,35%,40%,B,Arithmetic
+511,"If cost price is Rs. 200 and profit is 20%, what is the selling price?",Rs. 220,Rs. 240,Rs. 260,Rs. 280,B,Time & Work
+512,"The average of 5 numbers is 20. If one number is replaced with 30, the new average becomes 22. What was the number replaced?",10,15,20,25,A,Speed & Distance
+513,"If 2x + 3 = 11, what is x?",3,4,5,6,B,Interest
+514,Solve: 3x - 2y = 5 and x + y = 5. Find x.,2,3,4,5,C,Profit & Loss
+515,What is the area of a circle with radius 7 cm?,145.5 cm²,154 cm²,163.5 cm²,172 cm²,B,Average
+516,Find the perimeter of a rectangle with length 8 cm and width 5 cm.,26 cm,30 cm,34 cm,40 cm,A,Algebra
+517,What is the probability of getting a head in a single coin toss?,0.25,0.5,0.75,1,B,Geometry
+518,"If two dice are rolled, what is the probability of getting a sum of 7?",1/6,1/12,1/18,1/36,A,Probability
+519,Which of the following is a prime number?,15,21,29,35,C,Number System
+520,What is the HCF of 24 and 36?,6,8,12,24,C,Arithmetic
+521,"If 25% of x is 150, what is x?",400,500,600,700,B,Time & Work
+522,A number is increased by 20% and then decreased by 10%. What is the net change?,8% increase,10% increase,12% increase,15% increase,A,Speed & Distance
+523,"The ratio of two numbers is 3:5. If their sum is 80, find the larger number.",30,40,50,60,C,Interest
+524,A can complete a task in 10 days and B can complete it in 15 days. How long will it take if they work together?,5 days,6 days,7 days,8 days,B,Profit & Loss
+525,"If 5 workers can build a wall in 20 days, how many days will 10 workers take?",5 days,10 days,15 days,20 days,B,Average
+526,A train travels at 60 km/h for 2 hours and then at 80 km/h for 3 hours. What is the average speed?,70 km/h,72 km/h,74 km/h,76 km/h,C,Algebra
+527,"If a car travels 300 km in 5 hours, what is its speed?",50 km/h,60 km/h,70 km/h,80 km/h,B,Geometry
+528,What is the simple interest on Rs. 5000 at 8% per annum for 3 years?,Rs. 1000,Rs. 1200,Rs. 1500,Rs. 1800,B,Probability
+529,A sum doubles in 5 years at compound interest. In how many years will it become 8 times?,10 years,12 years,15 years,20 years,C,Number System
+530,A shopkeeper buys a pen for Rs. 50 and sells it for Rs. 65. What is the profit percentage?,25%,30%,35%,40%,B,Arithmetic
+531,"If cost price is Rs. 200 and profit is 20%, what is the selling price?",Rs. 220,Rs. 240,Rs. 260,Rs. 280,B,Time & Work
+532,"The average of 5 numbers is 20. If one number is replaced with 30, the new average becomes 22. What was the number replaced?",10,15,20,25,A,Speed & Distance
+533,"If 2x + 3 = 11, what is x?",3,4,5,6,B,Interest
+534,Solve: 3x - 2y = 5 and x + y = 5. Find x.,2,3,4,5,C,Profit & Loss
+535,What is the area of a circle with radius 7 cm?,145.5 cm²,154 cm²,163.5 cm²,172 cm²,B,Average
+536,Find the perimeter of a rectangle with length 8 cm and width 5 cm.,26 cm,30 cm,34 cm,40 cm,A,Algebra
+537,What is the probability of getting a head in a single coin toss?,0.25,0.5,0.75,1,B,Geometry
+538,"If two dice are rolled, what is the probability of getting a sum of 7?",1/6,1/12,1/18,1/36,A,Probability
+539,Which of the following is a prime number?,15,21,29,35,C,Number System
+540,What is the HCF of 24 and 36?,6,8,12,24,C,Arithmetic
+541,"If 25% of x is 150, what is x?",400,500,600,700,B,Time & Work
+542,A number is increased by 20% and then decreased by 10%. What is the net change?,8% increase,10% increase,12% increase,15% increase,A,Speed & Distance
+543,"The ratio of two numbers is 3:5. If their sum is 80, find the larger number.",30,40,50,60,C,Interest
+544,A can complete a task in 10 days and B can complete it in 15 days. How long will it take if they work together?,5 days,6 days,7 days,8 days,B,Profit & Loss
+545,"If 5 workers can build a wall in 20 days, how many days will 10 workers take?",5 days,10 days,15 days,20 days,B,Average
+546,A train travels at 60 km/h for 2 hours and then at 80 km/h for 3 hours. What is the average speed?,70 km/h,72 km/h,74 km/h,76 km/h,C,Algebra
+547,"If a car travels 300 km in 5 hours, what is its speed?",50 km/h,60 km/h,70 km/h,80 km/h,B,Geometry
+548,What is the simple interest on Rs. 5000 at 8% per annum for 3 years?,Rs. 1000,Rs. 1200,Rs. 1500,Rs. 1800,B,Probability
+549,A sum doubles in 5 years at compound interest. In how many years will it become 8 times?,10 years,12 years,15 years,20 years,C,Number System
+550,A shopkeeper buys a pen for Rs. 50 and sells it for Rs. 65. What is the profit percentage?,25%,30%,35%,40%,B,Arithmetic
+551,"If cost price is Rs. 200 and profit is 20%, what is the selling price?",Rs. 220,Rs. 240,Rs. 260,Rs. 280,B,Time & Work
+552,"The average of 5 numbers is 20. If one number is replaced with 30, the new average becomes 22. What was the number replaced?",10,15,20,25,A,Speed & Distance
+553,"If 2x + 3 = 11, what is x?",3,4,5,6,B,Interest
+554,Solve: 3x - 2y = 5 and x + y = 5. Find x.,2,3,4,5,C,Profit & Loss
+555,What is the area of a circle with radius 7 cm?,145.5 cm²,154 cm²,163.5 cm²,172 cm²,B,Average
+556,Find the perimeter of a rectangle with length 8 cm and width 5 cm.,26 cm,30 cm,34 cm,40 cm,A,Algebra
+557,What is the probability of getting a head in a single coin toss?,0.25,0.5,0.75,1,B,Geometry
+558,"If two dice are rolled, what is the probability of getting a sum of 7?",1/6,1/12,1/18,1/36,A,Probability
+559,Which of the following is a prime number?,15,21,29,35,C,Number System
+560,What is the HCF of 24 and 36?,6,8,12,24,C,Arithmetic
+561,"If 25% of x is 150, what is x?",400,500,600,700,B,Time & Work
+562,A number is increased by 20% and then decreased by 10%. What is the net change?,8% increase,10% increase,12% increase,15% increase,A,Speed & Distance
+563,"The ratio of two numbers is 3:5. If their sum is 80, find the larger number.",30,40,50,60,C,Interest
+564,A can complete a task in 10 days and B can complete it in 15 days. How long will it take if they work together?,5 days,6 days,7 days,8 days,B,Profit & Loss
+565,"If 5 workers can build a wall in 20 days, how many days will 10 workers take?",5 days,10 days,15 days,20 days,B,Average
+566,A train travels at 60 km/h for 2 hours and then at 80 km/h for 3 hours. What is the average speed?,70 km/h,72 km/h,74 km/h,76 km/h,C,Algebra
+567,"If a car travels 300 km in 5 hours, what is its speed?",50 km/h,60 km/h,70 km/h,80 km/h,B,Geometry
+568,What is the simple interest on Rs. 5000 at 8% per annum for 3 years?,Rs. 1000,Rs. 1200,Rs. 1500,Rs. 1800,B,Probability
+569,A sum doubles in 5 years at compound interest. In how many years will it become 8 times?,10 years,12 years,15 years,20 years,C,Number System
+570,A shopkeeper buys a pen for Rs. 50 and sells it for Rs. 65. What is the profit percentage?,25%,30%,35%,40%,B,Arithmetic
+571,"If cost price is Rs. 200 and profit is 20%, what is the selling price?",Rs. 220,Rs. 240,Rs. 260,Rs. 280,B,Time & Work
+572,"The average of 5 numbers is 20. If one number is replaced with 30, the new average becomes 22. What was the number replaced?",10,15,20,25,A,Speed & Distance
+573,"If 2x + 3 = 11, what is x?",3,4,5,6,B,Interest
+574,Solve: 3x - 2y = 5 and x + y = 5. Find x.,2,3,4,5,C,Profit & Loss
+575,What is the area of a circle with radius 7 cm?,145.5 cm²,154 cm²,163.5 cm²,172 cm²,B,Average
+576,Find the perimeter of a rectangle with length 8 cm and width 5 cm.,26 cm,30 cm,34 cm,40 cm,A,Algebra
+577,What is the probability of getting a head in a single coin toss?,0.25,0.5,0.75,1,B,Geometry
+578,"If two dice are rolled, what is the probability of getting a sum of 7?",1/6,1/12,1/18,1/36,A,Probability
+579,Which of the following is a prime number?,15,21,29,35,C,Number System
+580,What is the HCF of 24 and 36?,6,8,12,24,C,Arithmetic
+581,"If 25% of x is 150, what is x?",400,500,600,700,B,Time & Work
+582,A number is increased by 20% and then decreased by 10%. What is the net change?,8% increase,10% increase,12% increase,15% increase,A,Speed & Distance
+583,"The ratio of two numbers is 3:5. If their sum is 80, find the larger number.",30,40,50,60,C,Interest
+584,A can complete a task in 10 days and B can complete it in 15 days. How long will it take if they work together?,5 days,6 days,7 days,8 days,B,Profit & Loss
+585,"If 5 workers can build a wall in 20 days, how many days will 10 workers take?",5 days,10 days,15 days,20 days,B,Average
+586,A train travels at 60 km/h for 2 hours and then at 80 km/h for 3 hours. What is the average speed?,70 km/h,72 km/h,74 km/h,76 km/h,C,Algebra
+587,"If a car travels 300 km in 5 hours, what is its speed?",50 km/h,60 km/h,70 km/h,80 km/h,B,Geometry
+588,What is the simple interest on Rs. 5000 at 8% per annum for 3 years?,Rs. 1000,Rs. 1200,Rs. 1500,Rs. 1800,B,Probability
+589,A sum doubles in 5 years at compound interest. In how many years will it become 8 times?,10 years,12 years,15 years,20 years,C,Number System
+590,A shopkeeper buys a pen for Rs. 50 and sells it for Rs. 65. What is the profit percentage?,25%,30%,35%,40%,B,Arithmetic
+591,"If cost price is Rs. 200 and profit is 20%, what is the selling price?",Rs. 220,Rs. 240,Rs. 260,Rs. 280,B,Time & Work
+592,"The average of 5 numbers is 20. If one number is replaced with 30, the new average becomes 22. What was the number replaced?",10,15,20,25,A,Speed & Distance
+593,"If 2x + 3 = 11, what is x?",3,4,5,6,B,Interest
+594,Solve: 3x - 2y = 5 and x + y = 5. Find x.,2,3,4,5,C,Profit & Loss
+595,What is the area of a circle with radius 7 cm?,145.5 cm²,154 cm²,163.5 cm²,172 cm²,B,Average
+596,Find the perimeter of a rectangle with length 8 cm and width 5 cm.,26 cm,30 cm,34 cm,40 cm,A,Algebra
+597,What is the probability of getting a head in a single coin toss?,0.25,0.5,0.75,1,B,Geometry
+598,"If two dice are rolled, what is the probability of getting a sum of 7?",1/6,1/12,1/18,1/36,A,Probability
+599,Which of the following is a prime number?,15,21,29,35,C,Number System
+600,What is the HCF of 24 and 36?,6,8,12,24,C,Arithmetic
+601,"If 25% of x is 150, what is x?",400,500,600,700,B,Time & Work
+602,A number is increased by 20% and then decreased by 10%. What is the net change?,8% increase,10% increase,12% increase,15% increase,A,Speed & Distance
+603,"The ratio of two numbers is 3:5. If their sum is 80, find the larger number.",30,40,50,60,C,Interest
+604,A can complete a task in 10 days and B can complete it in 15 days. How long will it take if they work together?,5 days,6 days,7 days,8 days,B,Profit & Loss
+605,"If 5 workers can build a wall in 20 days, how many days will 10 workers take?",5 days,10 days,15 days,20 days,B,Average
+606,A train travels at 60 km/h for 2 hours and then at 80 km/h for 3 hours. What is the average speed?,70 km/h,72 km/h,74 km/h,76 km/h,C,Algebra
+607,"If a car travels 300 km in 5 hours, what is its speed?",50 km/h,60 km/h,70 km/h,80 km/h,B,Geometry
+608,What is the simple interest on Rs. 5000 at 8% per annum for 3 years?,Rs. 1000,Rs. 1200,Rs. 1500,Rs. 1800,B,Probability
+609,A sum doubles in 5 years at compound interest. In how many years will it become 8 times?,10 years,12 years,15 years,20 years,C,Number System
+610,A shopkeeper buys a pen for Rs. 50 and sells it for Rs. 65. What is the profit percentage?,25%,30%,35%,40%,B,Arithmetic
+611,"If cost price is Rs. 200 and profit is 20%, what is the selling price?",Rs. 220,Rs. 240,Rs. 260,Rs. 280,B,Time & Work
+612,"The average of 5 numbers is 20. If one number is replaced with 30, the new average becomes 22. What was the number replaced?",10,15,20,25,A,Speed & Distance
+613,"If 2x + 3 = 11, what is x?",3,4,5,6,B,Interest
+614,Solve: 3x - 2y = 5 and x + y = 5. Find x.,2,3,4,5,C,Profit & Loss
+615,What is the area of a circle with radius 7 cm?,145.5 cm²,154 cm²,163.5 cm²,172 cm²,B,Average
+616,Find the perimeter of a rectangle with length 8 cm and width 5 cm.,26 cm,30 cm,34 cm,40 cm,A,Algebra
+617,What is the probability of getting a head in a single coin toss?,0.25,0.5,0.75,1,B,Geometry
+618,"If two dice are rolled, what is the probability of getting a sum of 7?",1/6,1/12,1/18,1/36,A,Probability
+619,Which of the following is a prime number?,15,21,29,35,C,Number System
+620,What is the HCF of 24 and 36?,6,8,12,24,C,Arithmetic
+621,"If 25% of x is 150, what is x?",400,500,600,700,B,Time & Work
+622,A number is increased by 20% and then decreased by 10%. What is the net change?,8% increase,10% increase,12% increase,15% increase,A,Speed & Distance
+623,"The ratio of two numbers is 3:5. If their sum is 80, find the larger number.",30,40,50,60,C,Interest
+624,A can complete a task in 10 days and B can complete it in 15 days. How long will it take if they work together?,5 days,6 days,7 days,8 days,B,Profit & Loss
+625,"If 5 workers can build a wall in 20 days, how many days will 10 workers take?",5 days,10 days,15 days,20 days,B,Average
+626,A train travels at 60 km/h for 2 hours and then at 80 km/h for 3 hours. What is the average speed?,70 km/h,72 km/h,74 km/h,76 km/h,C,Algebra
+627,"If a car travels 300 km in 5 hours, what is its speed?",50 km/h,60 km/h,70 km/h,80 km/h,B,Geometry
+628,What is the simple interest on Rs. 5000 at 8% per annum for 3 years?,Rs. 1000,Rs. 1200,Rs. 1500,Rs. 1800,B,Probability
+629,A sum doubles in 5 years at compound interest. In how many years will it become 8 times?,10 years,12 years,15 years,20 years,C,Number System
+630,A shopkeeper buys a pen for Rs. 50 and sells it for Rs. 65. What is the profit percentage?,25%,30%,35%,40%,B,Arithmetic
+631,"If cost price is Rs. 200 and profit is 20%, what is the selling price?",Rs. 220,Rs. 240,Rs. 260,Rs. 280,B,Time & Work
+632,"The average of 5 numbers is 20. If one number is replaced with 30, the new average becomes 22. What was the number replaced?",10,15,20,25,A,Speed & Distance
+633,"If 2x + 3 = 11, what is x?",3,4,5,6,B,Interest
+634,Solve: 3x - 2y = 5 and x + y = 5. Find x.,2,3,4,5,C,Profit & Loss
+635,What is the area of a circle with radius 7 cm?,145.5 cm²,154 cm²,163.5 cm²,172 cm²,B,Average
+636,Find the perimeter of a rectangle with length 8 cm and width 5 cm.,26 cm,30 cm,34 cm,40 cm,A,Algebra
+637,What is the probability of getting a head in a single coin toss?,0.25,0.5,0.75,1,B,Geometry
+638,"If two dice are rolled, what is the probability of getting a sum of 7?",1/6,1/12,1/18,1/36,A,Probability
+639,Which of the following is a prime number?,15,21,29,35,C,Number System
+640,What is the HCF of 24 and 36?,6,8,12,24,C,Arithmetic
+641,"If 25% of x is 150, what is x?",400,500,600,700,B,Time & Work
+642,A number is increased by 20% and then decreased by 10%. What is the net change?,8% increase,10% increase,12% increase,15% increase,A,Speed & Distance
+643,"The ratio of two numbers is 3:5. If their sum is 80, find the larger number.",30,40,50,60,C,Interest
+644,A can complete a task in 10 days and B can complete it in 15 days. How long will it take if they work together?,5 days,6 days,7 days,8 days,B,Profit & Loss
+645,"If 5 workers can build a wall in 20 days, how many days will 10 workers take?",5 days,10 days,15 days,20 days,B,Average
+646,A train travels at 60 km/h for 2 hours and then at 80 km/h for 3 hours. What is the average speed?,70 km/h,72 km/h,74 km/h,76 km/h,C,Algebra
+647,"If a car travels 300 km in 5 hours, what is its speed?",50 km/h,60 km/h,70 km/h,80 km/h,B,Geometry
+648,What is the simple interest on Rs. 5000 at 8% per annum for 3 years?,Rs. 1000,Rs. 1200,Rs. 1500,Rs. 1800,B,Probability
+649,A sum doubles in 5 years at compound interest. In how many years will it become 8 times?,10 years,12 years,15 years,20 years,C,Number System
+650,A shopkeeper buys a pen for Rs. 50 and sells it for Rs. 65. What is the profit percentage?,25%,30%,35%,40%,B,Arithmetic
+651,"If cost price is Rs. 200 and profit is 20%, what is the selling price?",Rs. 220,Rs. 240,Rs. 260,Rs. 280,B,Time & Work
+652,"The average of 5 numbers is 20. If one number is replaced with 30, the new average becomes 22. What was the number replaced?",10,15,20,25,A,Speed & Distance
+653,"If 2x + 3 = 11, what is x?",3,4,5,6,B,Interest
+654,Solve: 3x - 2y = 5 and x + y = 5. Find x.,2,3,4,5,C,Profit & Loss
+655,What is the area of a circle with radius 7 cm?,145.5 cm²,154 cm²,163.5 cm²,172 cm²,B,Average
+656,Find the perimeter of a rectangle with length 8 cm and width 5 cm.,26 cm,30 cm,34 cm,40 cm,A,Algebra
+657,What is the probability of getting a head in a single coin toss?,0.25,0.5,0.75,1,B,Geometry
+658,"If two dice are rolled, what is the probability of getting a sum of 7?",1/6,1/12,1/18,1/36,A,Probability
+659,Which of the following is a prime number?,15,21,29,35,C,Number System
+660,What is the HCF of 24 and 36?,6,8,12,24,C,Arithmetic
+661,"If 25% of x is 150, what is x?",400,500,600,700,B,Time & Work
+662,A number is increased by 20% and then decreased by 10%. What is the net change?,8% increase,10% increase,12% increase,15% increase,A,Speed & Distance
+663,"The ratio of two numbers is 3:5. If their sum is 80, find the larger number.",30,40,50,60,C,Interest
+664,A can complete a task in 10 days and B can complete it in 15 days. How long will it take if they work together?,5 days,6 days,7 days,8 days,B,Profit & Loss
+665,"If 5 workers can build a wall in 20 days, how many days will 10 workers take?",5 days,10 days,15 days,20 days,B,Average
+666,A train travels at 60 km/h for 2 hours and then at 80 km/h for 3 hours. What is the average speed?,70 km/h,72 km/h,74 km/h,76 km/h,C,Algebra
+667,"If a car travels 300 km in 5 hours, what is its speed?",50 km/h,60 km/h,70 km/h,80 km/h,B,Geometry
+668,What is the simple interest on Rs. 5000 at 8% per annum for 3 years?,Rs. 1000,Rs. 1200,Rs. 1500,Rs. 1800,B,Probability
+669,A sum doubles in 5 years at compound interest. In how many years will it become 8 times?,10 years,12 years,15 years,20 years,C,Number System
+670,A shopkeeper buys a pen for Rs. 50 and sells it for Rs. 65. What is the profit percentage?,25%,30%,35%,40%,B,Arithmetic
+671,"If cost price is Rs. 200 and profit is 20%, what is the selling price?",Rs. 220,Rs. 240,Rs. 260,Rs. 280,B,Time & Work
+672,"The average of 5 numbers is 20. If one number is replaced with 30, the new average becomes 22. What was the number replaced?",10,15,20,25,A,Speed & Distance
+673,"If 2x + 3 = 11, what is x?",3,4,5,6,B,Interest
+674,Solve: 3x - 2y = 5 and x + y = 5. Find x.,2,3,4,5,C,Profit & Loss
+675,What is the area of a circle with radius 7 cm?,145.5 cm²,154 cm²,163.5 cm²,172 cm²,B,Average
+676,Find the perimeter of a rectangle with length 8 cm and width 5 cm.,26 cm,30 cm,34 cm,40 cm,A,Algebra
+677,What is the probability of getting a head in a single coin toss?,0.25,0.5,0.75,1,B,Geometry
+678,"If two dice are rolled, what is the probability of getting a sum of 7?",1/6,1/12,1/18,1/36,A,Probability
+679,Which of the following is a prime number?,15,21,29,35,C,Number System
+680,What is the HCF of 24 and 36?,6,8,12,24,C,Arithmetic
+681,"If 25% of x is 150, what is x?",400,500,600,700,B,Time & Work
+682,A number is increased by 20% and then decreased by 10%. What is the net change?,8% increase,10% increase,12% increase,15% increase,A,Speed & Distance
+683,"The ratio of two numbers is 3:5. If their sum is 80, find the larger number.",30,40,50,60,C,Interest
+684,A can complete a task in 10 days and B can complete it in 15 days. How long will it take if they work together?,5 days,6 days,7 days,8 days,B,Profit & Loss
+685,"If 5 workers can build a wall in 20 days, how many days will 10 workers take?",5 days,10 days,15 days,20 days,B,Average
+686,A train travels at 60 km/h for 2 hours and then at 80 km/h for 3 hours. What is the average speed?,70 km/h,72 km/h,74 km/h,76 km/h,C,Algebra
+687,"If a car travels 300 km in 5 hours, what is its speed?",50 km/h,60 km/h,70 km/h,80 km/h,B,Geometry
+688,What is the simple interest on Rs. 5000 at 8% per annum for 3 years?,Rs. 1000,Rs. 1200,Rs. 1500,Rs. 1800,B,Probability
+689,A sum doubles in 5 years at compound interest. In how many years will it become 8 times?,10 years,12 years,15 years,20 years,C,Number System
+690,A shopkeeper buys a pen for Rs. 50 and sells it for Rs. 65. What is the profit percentage?,25%,30%,35%,40%,B,Arithmetic
+691,"If cost price is Rs. 200 and profit is 20%, what is the selling price?",Rs. 220,Rs. 240,Rs. 260,Rs. 280,B,Time & Work
+692,"The average of 5 numbers is 20. If one number is replaced with 30, the new average becomes 22. What was the number replaced?",10,15,20,25,A,Speed & Distance
+693,"If 2x + 3 = 11, what is x?",3,4,5,6,B,Interest
+694,Solve: 3x - 2y = 5 and x + y = 5. Find x.,2,3,4,5,C,Profit & Loss
+695,What is the area of a circle with radius 7 cm?,145.5 cm²,154 cm²,163.5 cm²,172 cm²,B,Average
+696,Find the perimeter of a rectangle with length 8 cm and width 5 cm.,26 cm,30 cm,34 cm,40 cm,A,Algebra
+697,What is the probability of getting a head in a single coin toss?,0.25,0.5,0.75,1,B,Geometry
+698,"If two dice are rolled, what is the probability of getting a sum of 7?",1/6,1/12,1/18,1/36,A,Probability
+699,Which of the following is a prime number?,15,21,29,35,C,Number System
+700,What is the HCF of 24 and 36?,6,8,12,24,C,Arithmetic
+701,"If 25% of x is 150, what is x?",400,500,600,700,B,Time & Work
+702,A number is increased by 20% and then decreased by 10%. What is the net change?,8% increase,10% increase,12% increase,15% increase,A,Speed & Distance
+703,"The ratio of two numbers is 3:5. If their sum is 80, find the larger number.",30,40,50,60,C,Interest
+704,A can complete a task in 10 days and B can complete it in 15 days. How long will it take if they work together?,5 days,6 days,7 days,8 days,B,Profit & Loss
+705,"If 5 workers can build a wall in 20 days, how many days will 10 workers take?",5 days,10 days,15 days,20 days,B,Average
+706,A train travels at 60 km/h for 2 hours and then at 80 km/h for 3 hours. What is the average speed?,70 km/h,72 km/h,74 km/h,76 km/h,C,Algebra
+707,"If a car travels 300 km in 5 hours, what is its speed?",50 km/h,60 km/h,70 km/h,80 km/h,B,Geometry
+708,What is the simple interest on Rs. 5000 at 8% per annum for 3 years?,Rs. 1000,Rs. 1200,Rs. 1500,Rs. 1800,B,Probability
+709,A sum doubles in 5 years at compound interest. In how many years will it become 8 times?,10 years,12 years,15 years,20 years,C,Number System
+710,A shopkeeper buys a pen for Rs. 50 and sells it for Rs. 65. What is the profit percentage?,25%,30%,35%,40%,B,Arithmetic
+711,"If cost price is Rs. 200 and profit is 20%, what is the selling price?",Rs. 220,Rs. 240,Rs. 260,Rs. 280,B,Time & Work
+712,"The average of 5 numbers is 20. If one number is replaced with 30, the new average becomes 22. What was the number replaced?",10,15,20,25,A,Speed & Distance
+713,"If 2x + 3 = 11, what is x?",3,4,5,6,B,Interest
+714,Solve: 3x - 2y = 5 and x + y = 5. Find x.,2,3,4,5,C,Profit & Loss
+715,What is the area of a circle with radius 7 cm?,145.5 cm²,154 cm²,163.5 cm²,172 cm²,B,Average
+716,Find the perimeter of a rectangle with length 8 cm and width 5 cm.,26 cm,30 cm,34 cm,40 cm,A,Algebra
+717,What is the probability of getting a head in a single coin toss?,0.25,0.5,0.75,1,B,Geometry
+718,"If two dice are rolled, what is the probability of getting a sum of 7?",1/6,1/12,1/18,1/36,A,Probability
+719,Which of the following is a prime number?,15,21,29,35,C,Number System
+720,What is the HCF of 24 and 36?,6,8,12,24,C,Arithmetic
+721,"If 25% of x is 150, what is x?",400,500,600,700,B,Time & Work
+722,A number is increased by 20% and then decreased by 10%. What is the net change?,8% increase,10% increase,12% increase,15% increase,A,Speed & Distance
+723,"The ratio of two numbers is 3:5. If their sum is 80, find the larger number.",30,40,50,60,C,Interest
+724,A can complete a task in 10 days and B can complete it in 15 days. How long will it take if they work together?,5 days,6 days,7 days,8 days,B,Profit & Loss
+725,"If 5 workers can build a wall in 20 days, how many days will 10 workers take?",5 days,10 days,15 days,20 days,B,Average
+726,A train travels at 60 km/h for 2 hours and then at 80 km/h for 3 hours. What is the average speed?,70 km/h,72 km/h,74 km/h,76 km/h,C,Algebra
+727,"If a car travels 300 km in 5 hours, what is its speed?",50 km/h,60 km/h,70 km/h,80 km/h,B,Geometry
+728,What is the simple interest on Rs. 5000 at 8% per annum for 3 years?,Rs. 1000,Rs. 1200,Rs. 1500,Rs. 1800,B,Probability
+729,A sum doubles in 5 years at compound interest. In how many years will it become 8 times?,10 years,12 years,15 years,20 years,C,Number System
+730,A shopkeeper buys a pen for Rs. 50 and sells it for Rs. 65. What is the profit percentage?,25%,30%,35%,40%,B,Arithmetic
+731,"If cost price is Rs. 200 and profit is 20%, what is the selling price?",Rs. 220,Rs. 240,Rs. 260,Rs. 280,B,Time & Work
+732,"The average of 5 numbers is 20. If one number is replaced with 30, the new average becomes 22. What was the number replaced?",10,15,20,25,A,Speed & Distance
+733,"If 2x + 3 = 11, what is x?",3,4,5,6,B,Interest
+734,Solve: 3x - 2y = 5 and x + y = 5. Find x.,2,3,4,5,C,Profit & Loss
+735,What is the area of a circle with radius 7 cm?,145.5 cm²,154 cm²,163.5 cm²,172 cm²,B,Average
+736,Find the perimeter of a rectangle with length 8 cm and width 5 cm.,26 cm,30 cm,34 cm,40 cm,A,Algebra
+737,What is the probability of getting a head in a single coin toss?,0.25,0.5,0.75,1,B,Geometry
+738,"If two dice are rolled, what is the probability of getting a sum of 7?",1/6,1/12,1/18,1/36,A,Probability
+739,Which of the following is a prime number?,15,21,29,35,C,Number System
+740,What is the HCF of 24 and 36?,6,8,12,24,C,Arithmetic
+741,"If 25% of x is 150, what is x?",400,500,600,700,B,Time & Work
+742,A number is increased by 20% and then decreased by 10%. What is the net change?,8% increase,10% increase,12% increase,15% increase,A,Speed & Distance
+743,"The ratio of two numbers is 3:5. If their sum is 80, find the larger number.",30,40,50,60,C,Interest
+744,A can complete a task in 10 days and B can complete it in 15 days. How long will it take if they work together?,5 days,6 days,7 days,8 days,B,Profit & Loss
+745,"If 5 workers can build a wall in 20 days, how many days will 10 workers take?",5 days,10 days,15 days,20 days,B,Average
+746,A train travels at 60 km/h for 2 hours and then at 80 km/h for 3 hours. What is the average speed?,70 km/h,72 km/h,74 km/h,76 km/h,C,Algebra
+747,"If a car travels 300 km in 5 hours, what is its speed?",50 km/h,60 km/h,70 km/h,80 km/h,B,Geometry
+748,What is the simple interest on Rs. 5000 at 8% per annum for 3 years?,Rs. 1000,Rs. 1200,Rs. 1500,Rs. 1800,B,Probability
+749,A sum doubles in 5 years at compound interest. In how many years will it become 8 times?,10 years,12 years,15 years,20 years,C,Number System
+750,A shopkeeper buys a pen for Rs. 50 and sells it for Rs. 65. What is the profit percentage?,25%,30%,35%,40%,B,Arithmetic
+751,"If cost price is Rs. 200 and profit is 20%, what is the selling price?",Rs. 220,Rs. 240,Rs. 260,Rs. 280,B,Time & Work
+752,"The average of 5 numbers is 20. If one number is replaced with 30, the new average becomes 22. What was the number replaced?",10,15,20,25,A,Speed & Distance
+753,"If 2x + 3 = 11, what is x?",3,4,5,6,B,Interest
+754,Solve: 3x - 2y = 5 and x + y = 5. Find x.,2,3,4,5,C,Profit & Loss
+755,What is the area of a circle with radius 7 cm?,145.5 cm²,154 cm²,163.5 cm²,172 cm²,B,Average
+756,Find the perimeter of a rectangle with length 8 cm and width 5 cm.,26 cm,30 cm,34 cm,40 cm,A,Algebra
+757,What is the probability of getting a head in a single coin toss?,0.25,0.5,0.75,1,B,Geometry
+758,"If two dice are rolled, what is the probability of getting a sum of 7?",1/6,1/12,1/18,1/36,A,Probability
+759,Which of the following is a prime number?,15,21,29,35,C,Number System
+760,What is the HCF of 24 and 36?,6,8,12,24,C,Arithmetic
+761,"If 25% of x is 150, what is x?",400,500,600,700,B,Time & Work
+762,A number is increased by 20% and then decreased by 10%. What is the net change?,8% increase,10% increase,12% increase,15% increase,A,Speed & Distance
+763,"The ratio of two numbers is 3:5. If their sum is 80, find the larger number.",30,40,50,60,C,Interest
+764,A can complete a task in 10 days and B can complete it in 15 days. How long will it take if they work together?,5 days,6 days,7 days,8 days,B,Profit & Loss
+765,"If 5 workers can build a wall in 20 days, how many days will 10 workers take?",5 days,10 days,15 days,20 days,B,Average
+766,A train travels at 60 km/h for 2 hours and then at 80 km/h for 3 hours. What is the average speed?,70 km/h,72 km/h,74 km/h,76 km/h,C,Algebra
+767,"If a car travels 300 km in 5 hours, what is its speed?",50 km/h,60 km/h,70 km/h,80 km/h,B,Geometry
+768,What is the simple interest on Rs. 5000 at 8% per annum for 3 years?,Rs. 1000,Rs. 1200,Rs. 1500,Rs. 1800,B,Probability
+769,A sum doubles in 5 years at compound interest. In how many years will it become 8 times?,10 years,12 years,15 years,20 years,C,Number System
+770,A shopkeeper buys a pen for Rs. 50 and sells it for Rs. 65. What is the profit percentage?,25%,30%,35%,40%,B,Arithmetic
+771,"If cost price is Rs. 200 and profit is 20%, what is the selling price?",Rs. 220,Rs. 240,Rs. 260,Rs. 280,B,Time & Work
+772,"The average of 5 numbers is 20. If one number is replaced with 30, the new average becomes 22. What was the number replaced?",10,15,20,25,A,Speed & Distance
+773,"If 2x + 3 = 11, what is x?",3,4,5,6,B,Interest
+774,Solve: 3x - 2y = 5 and x + y = 5. Find x.,2,3,4,5,C,Profit & Loss
+775,What is the area of a circle with radius 7 cm?,145.5 cm²,154 cm²,163.5 cm²,172 cm²,B,Average
+776,Find the perimeter of a rectangle with length 8 cm and width 5 cm.,26 cm,30 cm,34 cm,40 cm,A,Algebra
+777,What is the probability of getting a head in a single coin toss?,0.25,0.5,0.75,1,B,Geometry
+778,"If two dice are rolled, what is the probability of getting a sum of 7?",1/6,1/12,1/18,1/36,A,Probability
+779,Which of the following is a prime number?,15,21,29,35,C,Number System
+780,What is the HCF of 24 and 36?,6,8,12,24,C,Arithmetic
+781,"If 25% of x is 150, what is x?",400,500,600,700,B,Time & Work
+782,A number is increased by 20% and then decreased by 10%. What is the net change?,8% increase,10% increase,12% increase,15% increase,A,Speed & Distance
+783,"The ratio of two numbers is 3:5. If their sum is 80, find the larger number.",30,40,50,60,C,Interest
+784,A can complete a task in 10 days and B can complete it in 15 days. How long will it take if they work together?,5 days,6 days,7 days,8 days,B,Profit & Loss
+785,"If 5 workers can build a wall in 20 days, how many days will 10 workers take?",5 days,10 days,15 days,20 days,B,Average
+786,A train travels at 60 km/h for 2 hours and then at 80 km/h for 3 hours. What is the average speed?,70 km/h,72 km/h,74 km/h,76 km/h,C,Algebra
+787,"If a car travels 300 km in 5 hours, what is its speed?",50 km/h,60 km/h,70 km/h,80 km/h,B,Geometry
+788,What is the simple interest on Rs. 5000 at 8% per annum for 3 years?,Rs. 1000,Rs. 1200,Rs. 1500,Rs. 1800,B,Probability
+789,A sum doubles in 5 years at compound interest. In how many years will it become 8 times?,10 years,12 years,15 years,20 years,C,Number System
+790,A shopkeeper buys a pen for Rs. 50 and sells it for Rs. 65. What is the profit percentage?,25%,30%,35%,40%,B,Arithmetic
+791,"If cost price is Rs. 200 and profit is 20%, what is the selling price?",Rs. 220,Rs. 240,Rs. 260,Rs. 280,B,Time & Work
+792,"The average of 5 numbers is 20. If one number is replaced with 30, the new average becomes 22. What was the number replaced?",10,15,20,25,A,Speed & Distance
+793,"If 2x + 3 = 11, what is x?",3,4,5,6,B,Interest
+794,Solve: 3x - 2y = 5 and x + y = 5. Find x.,2,3,4,5,C,Profit & Loss
+795,What is the area of a circle with radius 7 cm?,145.5 cm²,154 cm²,163.5 cm²,172 cm²,B,Average
+796,Find the perimeter of a rectangle with length 8 cm and width 5 cm.,26 cm,30 cm,34 cm,40 cm,A,Algebra
+797,What is the probability of getting a head in a single coin toss?,0.25,0.5,0.75,1,B,Geometry
+798,"If two dice are rolled, what is the probability of getting a sum of 7?",1/6,1/12,1/18,1/36,A,Probability
+799,Which of the following is a prime number?,15,21,29,35,C,Number System
+800,What is the HCF of 24 and 36?,6,8,12,24,C,Arithmetic
+801,"If 25% of x is 150, what is x?",400,500,600,700,B,Time & Work
+802,A number is increased by 20% and then decreased by 10%. What is the net change?,8% increase,10% increase,12% increase,15% increase,A,Speed & Distance
+803,"The ratio of two numbers is 3:5. If their sum is 80, find the larger number.",30,40,50,60,C,Interest
+804,A can complete a task in 10 days and B can complete it in 15 days. How long will it take if they work together?,5 days,6 days,7 days,8 days,B,Profit & Loss
+805,"If 5 workers can build a wall in 20 days, how many days will 10 workers take?",5 days,10 days,15 days,20 days,B,Average
+806,A train travels at 60 km/h for 2 hours and then at 80 km/h for 3 hours. What is the average speed?,70 km/h,72 km/h,74 km/h,76 km/h,C,Algebra
+807,"If a car travels 300 km in 5 hours, what is its speed?",50 km/h,60 km/h,70 km/h,80 km/h,B,Geometry
+808,What is the simple interest on Rs. 5000 at 8% per annum for 3 years?,Rs. 1000,Rs. 1200,Rs. 1500,Rs. 1800,B,Probability
+809,A sum doubles in 5 years at compound interest. In how many years will it become 8 times?,10 years,12 years,15 years,20 years,C,Number System
+810,A shopkeeper buys a pen for Rs. 50 and sells it for Rs. 65. What is the profit percentage?,25%,30%,35%,40%,B,Arithmetic
+811,"If cost price is Rs. 200 and profit is 20%, what is the selling price?",Rs. 220,Rs. 240,Rs. 260,Rs. 280,B,Time & Work
+812,"The average of 5 numbers is 20. If one number is replaced with 30, the new average becomes 22. What was the number replaced?",10,15,20,25,A,Speed & Distance
+813,"If 2x + 3 = 11, what is x?",3,4,5,6,B,Interest
+814,Solve: 3x - 2y = 5 and x + y = 5. Find x.,2,3,4,5,C,Profit & Loss
+815,What is the area of a circle with radius 7 cm?,145.5 cm²,154 cm²,163.5 cm²,172 cm²,B,Average
+816,Find the perimeter of a rectangle with length 8 cm and width 5 cm.,26 cm,30 cm,34 cm,40 cm,A,Algebra
+817,What is the probability of getting a head in a single coin toss?,0.25,0.5,0.75,1,B,Geometry
+818,"If two dice are rolled, what is the probability of getting a sum of 7?",1/6,1/12,1/18,1/36,A,Probability
+819,Which of the following is a prime number?,15,21,29,35,C,Number System
+820,What is the HCF of 24 and 36?,6,8,12,24,C,Arithmetic
+821,"If 25% of x is 150, what is x?",400,500,600,700,B,Time & Work
+822,A number is increased by 20% and then decreased by 10%. What is the net change?,8% increase,10% increase,12% increase,15% increase,A,Speed & Distance
+823,"The ratio of two numbers is 3:5. If their sum is 80, find the larger number.",30,40,50,60,C,Interest
+824,A can complete a task in 10 days and B can complete it in 15 days. How long will it take if they work together?,5 days,6 days,7 days,8 days,B,Profit & Loss
+825,"If 5 workers can build a wall in 20 days, how many days will 10 workers take?",5 days,10 days,15 days,20 days,B,Average
+826,A train travels at 60 km/h for 2 hours and then at 80 km/h for 3 hours. What is the average speed?,70 km/h,72 km/h,74 km/h,76 km/h,C,Algebra
+827,"If a car travels 300 km in 5 hours, what is its speed?",50 km/h,60 km/h,70 km/h,80 km/h,B,Geometry
+828,What is the simple interest on Rs. 5000 at 8% per annum for 3 years?,Rs. 1000,Rs. 1200,Rs. 1500,Rs. 1800,B,Probability
+829,A sum doubles in 5 years at compound interest. In how many years will it become 8 times?,10 years,12 years,15 years,20 years,C,Number System
+830,A shopkeeper buys a pen for Rs. 50 and sells it for Rs. 65. What is the profit percentage?,25%,30%,35%,40%,B,Arithmetic
+831,"If cost price is Rs. 200 and profit is 20%, what is the selling price?",Rs. 220,Rs. 240,Rs. 260,Rs. 280,B,Time & Work
+832,"The average of 5 numbers is 20. If one number is replaced with 30, the new average becomes 22. What was the number replaced?",10,15,20,25,A,Speed & Distance
+833,"If 2x + 3 = 11, what is x?",3,4,5,6,B,Interest
+834,Solve: 3x - 2y = 5 and x + y = 5. Find x.,2,3,4,5,C,Profit & Loss
+835,What is the area of a circle with radius 7 cm?,145.5 cm²,154 cm²,163.5 cm²,172 cm²,B,Average
+836,Find the perimeter of a rectangle with length 8 cm and width 5 cm.,26 cm,30 cm,34 cm,40 cm,A,Algebra
+837,What is the probability of getting a head in a single coin toss?,0.25,0.5,0.75,1,B,Geometry
+838,"If two dice are rolled, what is the probability of getting a sum of 7?",1/6,1/12,1/18,1/36,A,Probability
+839,Which of the following is a prime number?,15,21,29,35,C,Number System
+840,What is the HCF of 24 and 36?,6,8,12,24,C,Arithmetic
+841,"If 25% of x is 150, what is x?",400,500,600,700,B,Time & Work
+842,A number is increased by 20% and then decreased by 10%. What is the net change?,8% increase,10% increase,12% increase,15% increase,A,Speed & Distance
+843,"The ratio of two numbers is 3:5. If their sum is 80, find the larger number.",30,40,50,60,C,Interest
+844,A can complete a task in 10 days and B can complete it in 15 days. How long will it take if they work together?,5 days,6 days,7 days,8 days,B,Profit & Loss
+845,"If 5 workers can build a wall in 20 days, how many days will 10 workers take?",5 days,10 days,15 days,20 days,B,Average
+846,A train travels at 60 km/h for 2 hours and then at 80 km/h for 3 hours. What is the average speed?,70 km/h,72 km/h,74 km/h,76 km/h,C,Algebra
+847,"If a car travels 300 km in 5 hours, what is its speed?",50 km/h,60 km/h,70 km/h,80 km/h,B,Geometry
+848,What is the simple interest on Rs. 5000 at 8% per annum for 3 years?,Rs. 1000,Rs. 1200,Rs. 1500,Rs. 1800,B,Probability
+849,A sum doubles in 5 years at compound interest. In how many years will it become 8 times?,10 years,12 years,15 years,20 years,C,Number System
+850,A shopkeeper buys a pen for Rs. 50 and sells it for Rs. 65. What is the profit percentage?,25%,30%,35%,40%,B,Arithmetic
+851,"If cost price is Rs. 200 and profit is 20%, what is the selling price?",Rs. 220,Rs. 240,Rs. 260,Rs. 280,B,Time & Work
+852,"The average of 5 numbers is 20. If one number is replaced with 30, the new average becomes 22. What was the number replaced?",10,15,20,25,A,Speed & Distance
+853,"If 2x + 3 = 11, what is x?",3,4,5,6,B,Interest
+854,Solve: 3x - 2y = 5 and x + y = 5. Find x.,2,3,4,5,C,Profit & Loss
+855,What is the area of a circle with radius 7 cm?,145.5 cm²,154 cm²,163.5 cm²,172 cm²,B,Average
+856,Find the perimeter of a rectangle with length 8 cm and width 5 cm.,26 cm,30 cm,34 cm,40 cm,A,Algebra
+857,What is the probability of getting a head in a single coin toss?,0.25,0.5,0.75,1,B,Geometry
+858,"If two dice are rolled, what is the probability of getting a sum of 7?",1/6,1/12,1/18,1/36,A,Probability
+859,Which of the following is a prime number?,15,21,29,35,C,Number System
+860,What is the HCF of 24 and 36?,6,8,12,24,C,Arithmetic
+861,"If 25% of x is 150, what is x?",400,500,600,700,B,Time & Work
+862,A number is increased by 20% and then decreased by 10%. What is the net change?,8% increase,10% increase,12% increase,15% increase,A,Speed & Distance
+863,"The ratio of two numbers is 3:5. If their sum is 80, find the larger number.",30,40,50,60,C,Interest
+864,A can complete a task in 10 days and B can complete it in 15 days. How long will it take if they work together?,5 days,6 days,7 days,8 days,B,Profit & Loss
+865,"If 5 workers can build a wall in 20 days, how many days will 10 workers take?",5 days,10 days,15 days,20 days,B,Average
+866,A train travels at 60 km/h for 2 hours and then at 80 km/h for 3 hours. What is the average speed?,70 km/h,72 km/h,74 km/h,76 km/h,C,Algebra
+867,"If a car travels 300 km in 5 hours, what is its speed?",50 km/h,60 km/h,70 km/h,80 km/h,B,Geometry
+868,What is the simple interest on Rs. 5000 at 8% per annum for 3 years?,Rs. 1000,Rs. 1200,Rs. 1500,Rs. 1800,B,Probability
+869,A sum doubles in 5 years at compound interest. In how many years will it become 8 times?,10 years,12 years,15 years,20 years,C,Number System
+870,A shopkeeper buys a pen for Rs. 50 and sells it for Rs. 65. What is the profit percentage?,25%,30%,35%,40%,B,Arithmetic
+871,"If cost price is Rs. 200 and profit is 20%, what is the selling price?",Rs. 220,Rs. 240,Rs. 260,Rs. 280,B,Time & Work
+872,"The average of 5 numbers is 20. If one number is replaced with 30, the new average becomes 22. What was the number replaced?",10,15,20,25,A,Speed & Distance
+873,"If 2x + 3 = 11, what is x?",3,4,5,6,B,Interest
+874,Solve: 3x - 2y = 5 and x + y = 5. Find x.,2,3,4,5,C,Profit & Loss
+875,What is the area of a circle with radius 7 cm?,145.5 cm²,154 cm²,163.5 cm²,172 cm²,B,Average
+876,Find the perimeter of a rectangle with length 8 cm and width 5 cm.,26 cm,30 cm,34 cm,40 cm,A,Algebra
+877,What is the probability of getting a head in a single coin toss?,0.25,0.5,0.75,1,B,Geometry
+878,"If two dice are rolled, what is the probability of getting a sum of 7?",1/6,1/12,1/18,1/36,A,Probability
+879,Which of the following is a prime number?,15,21,29,35,C,Number System
+880,What is the HCF of 24 and 36?,6,8,12,24,C,Arithmetic
+881,"If 25% of x is 150, what is x?",400,500,600,700,B,Time & Work
+882,A number is increased by 20% and then decreased by 10%. What is the net change?,8% increase,10% increase,12% increase,15% increase,A,Speed & Distance
+883,"The ratio of two numbers is 3:5. If their sum is 80, find the larger number.",30,40,50,60,C,Interest
+884,A can complete a task in 10 days and B can complete it in 15 days. How long will it take if they work together?,5 days,6 days,7 days,8 days,B,Profit & Loss
+885,"If 5 workers can build a wall in 20 days, how many days will 10 workers take?",5 days,10 days,15 days,20 days,B,Average
+886,A train travels at 60 km/h for 2 hours and then at 80 km/h for 3 hours. What is the average speed?,70 km/h,72 km/h,74 km/h,76 km/h,C,Algebra
+887,"If a car travels 300 km in 5 hours, what is its speed?",50 km/h,60 km/h,70 km/h,80 km/h,B,Geometry
+888,What is the simple interest on Rs. 5000 at 8% per annum for 3 years?,Rs. 1000,Rs. 1200,Rs. 1500,Rs. 1800,B,Probability
+889,A sum doubles in 5 years at compound interest. In how many years will it become 8 times?,10 years,12 years,15 years,20 years,C,Number System
+890,A shopkeeper buys a pen for Rs. 50 and sells it for Rs. 65. What is the profit percentage?,25%,30%,35%,40%,B,Arithmetic
+891,"If cost price is Rs. 200 and profit is 20%, what is the selling price?",Rs. 220,Rs. 240,Rs. 260,Rs. 280,B,Time & Work
+892,"The average of 5 numbers is 20. If one number is replaced with 30, the new average becomes 22. What was the number replaced?",10,15,20,25,A,Speed & Distance
+893,"If 2x + 3 = 11, what is x?",3,4,5,6,B,Interest
+894,Solve: 3x - 2y = 5 and x + y = 5. Find x.,2,3,4,5,C,Profit & Loss
+895,What is the area of a circle with radius 7 cm?,145.5 cm²,154 cm²,163.5 cm²,172 cm²,B,Average
+896,Find the perimeter of a rectangle with length 8 cm and width 5 cm.,26 cm,30 cm,34 cm,40 cm,A,Algebra
+897,What is the probability of getting a head in a single coin toss?,0.25,0.5,0.75,1,B,Geometry
+898,"If two dice are rolled, what is the probability of getting a sum of 7?",1/6,1/12,1/18,1/36,A,Probability
+899,Which of the following is a prime number?,15,21,29,35,C,Number System
+900,What is the HCF of 24 and 36?,6,8,12,24,C,Arithmetic
+901,"If 25% of x is 150, what is x?",400,500,600,700,B,Time & Work
+902,A number is increased by 20% and then decreased by 10%. What is the net change?,8% increase,10% increase,12% increase,15% increase,A,Speed & Distance
+903,"The ratio of two numbers is 3:5. If their sum is 80, find the larger number.",30,40,50,60,C,Interest
+904,A can complete a task in 10 days and B can complete it in 15 days. How long will it take if they work together?,5 days,6 days,7 days,8 days,B,Profit & Loss
+905,"If 5 workers can build a wall in 20 days, how many days will 10 workers take?",5 days,10 days,15 days,20 days,B,Average
+906,A train travels at 60 km/h for 2 hours and then at 80 km/h for 3 hours. What is the average speed?,70 km/h,72 km/h,74 km/h,76 km/h,C,Algebra
+907,"If a car travels 300 km in 5 hours, what is its speed?",50 km/h,60 km/h,70 km/h,80 km/h,B,Geometry
+908,What is the simple interest on Rs. 5000 at 8% per annum for 3 years?,Rs. 1000,Rs. 1200,Rs. 1500,Rs. 1800,B,Probability
+909,A sum doubles in 5 years at compound interest. In how many years will it become 8 times?,10 years,12 years,15 years,20 years,C,Number System
+910,A shopkeeper buys a pen for Rs. 50 and sells it for Rs. 65. What is the profit percentage?,25%,30%,35%,40%,B,Arithmetic
+911,"If cost price is Rs. 200 and profit is 20%, what is the selling price?",Rs. 220,Rs. 240,Rs. 260,Rs. 280,B,Time & Work
+912,"The average of 5 numbers is 20. If one number is replaced with 30, the new average becomes 22. What was the number replaced?",10,15,20,25,A,Speed & Distance
+913,"If 2x + 3 = 11, what is x?",3,4,5,6,B,Interest
+914,Solve: 3x - 2y = 5 and x + y = 5. Find x.,2,3,4,5,C,Profit & Loss
+915,What is the area of a circle with radius 7 cm?,145.5 cm²,154 cm²,163.5 cm²,172 cm²,B,Average
+916,Find the perimeter of a rectangle with length 8 cm and width 5 cm.,26 cm,30 cm,34 cm,40 cm,A,Algebra
+917,What is the probability of getting a head in a single coin toss?,0.25,0.5,0.75,1,B,Geometry
+918,"If two dice are rolled, what is the probability of getting a sum of 7?",1/6,1/12,1/18,1/36,A,Probability
+919,Which of the following is a prime number?,15,21,29,35,C,Number System
+920,What is the HCF of 24 and 36?,6,8,12,24,C,Arithmetic
+921,"If 25% of x is 150, what is x?",400,500,600,700,B,Time & Work
+922,A number is increased by 20% and then decreased by 10%. What is the net change?,8% increase,10% increase,12% increase,15% increase,A,Speed & Distance
+923,"The ratio of two numbers is 3:5. If their sum is 80, find the larger number.",30,40,50,60,C,Interest
+924,A can complete a task in 10 days and B can complete it in 15 days. How long will it take if they work together?,5 days,6 days,7 days,8 days,B,Profit & Loss
+925,"If 5 workers can build a wall in 20 days, how many days will 10 workers take?",5 days,10 days,15 days,20 days,B,Average
+926,A train travels at 60 km/h for 2 hours and then at 80 km/h for 3 hours. What is the average speed?,70 km/h,72 km/h,74 km/h,76 km/h,C,Algebra
+927,"If a car travels 300 km in 5 hours, what is its speed?",50 km/h,60 km/h,70 km/h,80 km/h,B,Geometry
+928,What is the simple interest on Rs. 5000 at 8% per annum for 3 years?,Rs. 1000,Rs. 1200,Rs. 1500,Rs. 1800,B,Probability
+929,A sum doubles in 5 years at compound interest. In how many years will it become 8 times?,10 years,12 years,15 years,20 years,C,Number System
+930,A shopkeeper buys a pen for Rs. 50 and sells it for Rs. 65. What is the profit percentage?,25%,30%,35%,40%,B,Arithmetic
+931,"If cost price is Rs. 200 and profit is 20%, what is the selling price?",Rs. 220,Rs. 240,Rs. 260,Rs. 280,B,Time & Work
+932,"The average of 5 numbers is 20. If one number is replaced with 30, the new average becomes 22. What was the number replaced?",10,15,20,25,A,Speed & Distance
+933,"If 2x + 3 = 11, what is x?",3,4,5,6,B,Interest
+934,Solve: 3x - 2y = 5 and x + y = 5. Find x.,2,3,4,5,C,Profit & Loss
+935,What is the area of a circle with radius 7 cm?,145.5 cm²,154 cm²,163.5 cm²,172 cm²,B,Average
+936,Find the perimeter of a rectangle with length 8 cm and width 5 cm.,26 cm,30 cm,34 cm,40 cm,A,Algebra
+937,What is the probability of getting a head in a single coin toss?,0.25,0.5,0.75,1,B,Geometry
+938,"If two dice are rolled, what is the probability of getting a sum of 7?",1/6,1/12,1/18,1/36,A,Probability
+939,Which of the following is a prime number?,15,21,29,35,C,Number System
+940,What is the HCF of 24 and 36?,6,8,12,24,C,Arithmetic
+941,"If 25% of x is 150, what is x?",400,500,600,700,B,Time & Work
+942,A number is increased by 20% and then decreased by 10%. What is the net change?,8% increase,10% increase,12% increase,15% increase,A,Speed & Distance
+943,"The ratio of two numbers is 3:5. If their sum is 80, find the larger number.",30,40,50,60,C,Interest
+944,A can complete a task in 10 days and B can complete it in 15 days. How long will it take if they work together?,5 days,6 days,7 days,8 days,B,Profit & Loss
+945,"If 5 workers can build a wall in 20 days, how many days will 10 workers take?",5 days,10 days,15 days,20 days,B,Average
+946,A train travels at 60 km/h for 2 hours and then at 80 km/h for 3 hours. What is the average speed?,70 km/h,72 km/h,74 km/h,76 km/h,C,Algebra
+947,"If a car travels 300 km in 5 hours, what is its speed?",50 km/h,60 km/h,70 km/h,80 km/h,B,Geometry
+948,What is the simple interest on Rs. 5000 at 8% per annum for 3 years?,Rs. 1000,Rs. 1200,Rs. 1500,Rs. 1800,B,Probability
+949,A sum doubles in 5 years at compound interest. In how many years will it become 8 times?,10 years,12 years,15 years,20 years,C,Number System
+950,A shopkeeper buys a pen for Rs. 50 and sells it for Rs. 65. What is the profit percentage?,25%,30%,35%,40%,B,Arithmetic
+951,"If cost price is Rs. 200 and profit is 20%, what is the selling price?",Rs. 220,Rs. 240,Rs. 260,Rs. 280,B,Time & Work
+952,"The average of 5 numbers is 20. If one number is replaced with 30, the new average becomes 22. What was the number replaced?",10,15,20,25,A,Speed & Distance
+953,"If 2x + 3 = 11, what is x?",3,4,5,6,B,Interest
+954,Solve: 3x - 2y = 5 and x + y = 5. Find x.,2,3,4,5,C,Profit & Loss
+955,What is the area of a circle with radius 7 cm?,145.5 cm²,154 cm²,163.5 cm²,172 cm²,B,Average
+956,Find the perimeter of a rectangle with length 8 cm and width 5 cm.,26 cm,30 cm,34 cm,40 cm,A,Algebra
+957,What is the probability of getting a head in a single coin toss?,0.25,0.5,0.75,1,B,Geometry
+958,"If two dice are rolled, what is the probability of getting a sum of 7?",1/6,1/12,1/18,1/36,A,Probability
+959,Which of the following is a prime number?,15,21,29,35,C,Number System
+960,What is the HCF of 24 and 36?,6,8,12,24,C,Arithmetic
+961,"If 25% of x is 150, what is x?",400,500,600,700,B,Time & Work
+962,A number is increased by 20% and then decreased by 10%. What is the net change?,8% increase,10% increase,12% increase,15% increase,A,Speed & Distance
+963,"The ratio of two numbers is 3:5. If their sum is 80, find the larger number.",30,40,50,60,C,Interest
+964,A can complete a task in 10 days and B can complete it in 15 days. How long will it take if they work together?,5 days,6 days,7 days,8 days,B,Profit & Loss
+965,"If 5 workers can build a wall in 20 days, how many days will 10 workers take?",5 days,10 days,15 days,20 days,B,Average
+966,A train travels at 60 km/h for 2 hours and then at 80 km/h for 3 hours. What is the average speed?,70 km/h,72 km/h,74 km/h,76 km/h,C,Algebra
+967,"If a car travels 300 km in 5 hours, what is its speed?",50 km/h,60 km/h,70 km/h,80 km/h,B,Geometry
+968,What is the simple interest on Rs. 5000 at 8% per annum for 3 years?,Rs. 1000,Rs. 1200,Rs. 1500,Rs. 1800,B,Probability
+969,A sum doubles in 5 years at compound interest. In how many years will it become 8 times?,10 years,12 years,15 years,20 years,C,Number System
+970,A shopkeeper buys a pen for Rs. 50 and sells it for Rs. 65. What is the profit percentage?,25%,30%,35%,40%,B,Arithmetic
+971,"If cost price is Rs. 200 and profit is 20%, what is the selling price?",Rs. 220,Rs. 240,Rs. 260,Rs. 280,B,Time & Work
+972,"The average of 5 numbers is 20. If one number is replaced with 30, the new average becomes 22. What was the number replaced?",10,15,20,25,A,Speed & Distance
+973,"If 2x + 3 = 11, what is x?",3,4,5,6,B,Interest
+974,Solve: 3x - 2y = 5 and x + y = 5. Find x.,2,3,4,5,C,Profit & Loss
+975,What is the area of a circle with radius 7 cm?,145.5 cm²,154 cm²,163.5 cm²,172 cm²,B,Average
+976,Find the perimeter of a rectangle with length 8 cm and width 5 cm.,26 cm,30 cm,34 cm,40 cm,A,Algebra
+977,What is the probability of getting a head in a single coin toss?,0.25,0.5,0.75,1,B,Geometry
+978,"If two dice are rolled, what is the probability of getting a sum of 7?",1/6,1/12,1/18,1/36,A,Probability
+979,Which of the following is a prime number?,15,21,29,35,C,Number System
+980,What is the HCF of 24 and 36?,6,8,12,24,C,Arithmetic
+981,"If 25% of x is 150, what is x?",400,500,600,700,B,Time & Work
+982,A number is increased by 20% and then decreased by 10%. What is the net change?,8% increase,10% increase,12% increase,15% increase,A,Speed & Distance
+983,"The ratio of two numbers is 3:5. If their sum is 80, find the larger number.",30,40,50,60,C,Interest
+984,A can complete a task in 10 days and B can complete it in 15 days. How long will it take if they work together?,5 days,6 days,7 days,8 days,B,Profit & Loss
+985,"If 5 workers can build a wall in 20 days, how many days will 10 workers take?",5 days,10 days,15 days,20 days,B,Average
+986,A train travels at 60 km/h for 2 hours and then at 80 km/h for 3 hours. What is the average speed?,70 km/h,72 km/h,74 km/h,76 km/h,C,Algebra
+987,"If a car travels 300 km in 5 hours, what is its speed?",50 km/h,60 km/h,70 km/h,80 km/h,B,Geometry
+988,What is the simple interest on Rs. 5000 at 8% per annum for 3 years?,Rs. 1000,Rs. 1200,Rs. 1500,Rs. 1800,B,Probability
+989,A sum doubles in 5 years at compound interest. In how many years will it become 8 times?,10 years,12 years,15 years,20 years,C,Number System
+990,A shopkeeper buys a pen for Rs. 50 and sells it for Rs. 65. What is the profit percentage?,25%,30%,35%,40%,B,Arithmetic
+991,"If cost price is Rs. 200 and profit is 20%, what is the selling price?",Rs. 220,Rs. 240,Rs. 260,Rs. 280,B,Time & Work
+992,"The average of 5 numbers is 20. If one number is replaced with 30, the new average becomes 22. What was the number replaced?",10,15,20,25,A,Speed & Distance
+993,"If 2x + 3 = 11, what is x?",3,4,5,6,B,Interest
+994,Solve: 3x - 2y = 5 and x + y = 5. Find x.,2,3,4,5,C,Profit & Loss
+995,What is the area of a circle with radius 7 cm?,145.5 cm²,154 cm²,163.5 cm²,172 cm²,B,Average
+996,Find the perimeter of a rectangle with length 8 cm and width 5 cm.,26 cm,30 cm,34 cm,40 cm,A,Algebra
+997,What is the probability of getting a head in a single coin toss?,0.25,0.5,0.75,1,B,Geometry
+998,"If two dice are rolled, what is the probability of getting a sum of 7?",1/6,1/12,1/18,1/36,A,Probability
+999,Which of the following is a prime number?,15,21,29,35,C,Number System
+1000,What is the HCF of 24 and 36?,6,8,12,24,C,Arithmetic

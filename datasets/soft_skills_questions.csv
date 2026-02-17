@@ -1,0 +1,1001 @@
+Question_ID,Question,Option_A,Option_B,Option_C,Option_D,Correct_Option,Category,Difficulty
+1,What is the most important aspect of effective communication?,Speaking loudly,Clear and active listening,Using complex words,Talking more,B,Communication,Beginner
+2,How should you handle a misunderstanding in a conversation?,Ignore it,Clarify immediately,Get defensive,End the conversation,B,Leadership,Beginner
+3,"In a presentation, maintaining eye contact demonstrates:",Nervousness,Confidence and engagement,Arrogance,Lack of preparation,B,Teamwork,Beginner
+4,What is the key to giving constructive feedback?,Being critical,Being specific and objective,Focusing on mistakes,Comparing with others,B,Time Management,Beginner
+5,A good leader should:,Control all decisions,Empower and inspire team,Avoid conflict,Work alone,B,Problem-Solving,Beginner
+6,What is emotional intelligence in leadership?,High IQ,Awareness of emotions,Ignoring feelings,Being tough,B,Emotional Intelligence,Beginner
+7,How should a leader handle team conflicts?,Avoid them,Address them promptly and fairly,Take sides,Let it resolve naturally,B,Adaptability,Beginner
+8,Delegation is important because it:,Reduces leader's work,Develops team skills,Shows weakness,Wastes time,B,Negotiation,Beginner
+9,A key quality of a good team player is:,Self-centeredness,Cooperation and mutual support,Competitiveness,Independence,B,Confidence,Beginner
+10,How should you handle disagreement with a colleague?,Ignore them,Respect their view and find common ground,Escalate immediately,Be aggressive,B,Networking,Beginner
+11,What is the best approach to group projects?,Do all work yourself,Divide tasks and support each other,Let others do it,Minimize involvement,B,Accountability,Beginner
+12,Cross-functional teamwork helps because:,Creates confusion,Brings diverse perspectives,Wastes time,Causes conflicts,B,Conflict Management,Beginner
+13,The Eisenhower Matrix prioritizes tasks by:,Urgency only,Importance and urgency,Size,Random selection,B,Presentation,Beginner
+14,Procrastination can be overcome by:,Ignoring deadlines,Breaking tasks into smaller parts,Working last minute,Avoiding responsibility,B,Customer Service,Beginner
+15,What is the benefit of setting SMART goals?,No benefit,Clear direction and measurability,Less motivation,More confusion,B,Decision-Making,Beginner
+16,Effective time management includes:,Multitasking everything,Prioritization and focus,Overworking,No breaks,B,Professional Development,Beginner
+17,The first step in problem-solving is:,Finding solutions,Understanding the problem,Blaming others,Giving up,B,Communication,Beginner
+18,What does analytical thinking involve?,Guessing,Breaking down and examining information,Rushing to conclusions,Ignoring data,B,Leadership,Beginner
+19,How should you approach a complex problem?,Try random solutions,Analyze systematically and plan,Panic,Ask others immediately,B,Teamwork,Beginner
+20,Creative thinking means:,Being different for difference's sake,Generating novel solutions,Following only rules,Avoiding risks,B,Time Management,Beginner
+21,Self-awareness in EI means:,Being self-centered,Understanding your emotions,Ignoring feelings,Being emotional,B,Networking,Intermediate
+22,Empathy is the ability to:,Agree with everyone,Understand others' feelings,Be sympathetic without action,Judge others,B,Accountability,Intermediate
+23,Managing emotions at work helps by:,Suppressing all feelings,Responding wisely to situations,Being overly reactive,Showing weakness,B,Conflict Management,Intermediate
+24,Conflict resolution requires:,Winning at all costs,Understanding all perspectives,Avoiding confrontation,Being aggressive,B,Presentation,Intermediate
+25,How should you handle unexpected changes?,Resist them,Analyze and adapt,Blame others,Quit,B,Customer Service,Intermediate
+26,Learning agility refers to:,Speed of learning,Ability to learn and apply quickly,Memorization,IQ level,B,Decision-Making,Intermediate
+27,What is growth mindset?,Believing abilities are fixed,Believing you can develop abilities,Avoiding challenges,Fearing failure,B,Professional Development,Intermediate
+28,Resilience helps professionals by:,Avoiding failures,Bouncing back from setbacks,Giving up easily,Denying problems,B,Communication,Intermediate
+29,Win-win negotiation means:,One party gets everything,Both parties benefit,Compromise only,No agreement,B,Leadership,Intermediate
+30,Persuasion is most effective when:,Using pressure,Building trust and logic,Manipulation,Being aggressive,B,Teamwork,Intermediate
+31,Active listening in negotiation helps by:,Planning counterarguments,Understanding other's needs,Waiting to speak,Dismissing concerns,B,Time Management,Intermediate
+32,BATNA in negotiation stands for:,Best Alternative to Negotiated Agreement,Best Approach To Negotiation Aim,Basic Agreement Terms,None of above,A,Problem-Solving,Intermediate
+33,Building confidence involves:,Being overconfident,Recognizing strengths and improving weaknesses,Avoiding challenges,Ignoring feedback,B,Emotional Intelligence,Intermediate
+34,How to handle failure constructively?,Give up,Learn from it and try again,Hide it,Blame others,B,Adaptability,Intermediate
+35,Self-doubt can be managed by:,Accepting it always,Building skills and seeking support,Avoiding responsibilities,Comparing constantly,B,Negotiation,Intermediate
+36,Effective networking involves:,Collecting business cards only,Building genuine relationships,Being selfish,Transactional interactions,B,Confidence,Intermediate
+37,Professional relationships require:,Fake personas,Authenticity and consistency,Minimal interaction,Hierarchy enforcement,B,Networking,Intermediate
+38,Mentorship benefits professionals by:,Creating dependency,Providing guidance and growth,Limiting independence,Showing weakness,B,Accountability,Intermediate
+39,Taking responsibility means:,Blaming circumstances,Owning your actions and outcomes,Making excuses,Avoiding consequences,B,Conflict Management,Intermediate
+40,Accountability in teams ensures:,Confusion,Clear ownership and performance,Blame culture,Decreased productivity,B,Presentation,Intermediate
+41,How to handle mistakes professionally?,Hide them,"Acknowledge, learn, and improve",Blame others,Repeat them,B,Teamwork,Advanced
+42,Assertiveness in conflict means:,Being aggressive,Expressing needs respectfully,Being passive,Avoiding issues,B,Time Management,Advanced
+43,The best conflict resolution style often is:,Avoiding,Collaborating,Competing,Withdrawing,B,Problem-Solving,Advanced
+44,"In a heated discussion, you should:",Escalate,Take a pause and calm down,Get emotional,Ignore the other person,B,Emotional Intelligence,Advanced
+45,Good presentation structure includes:,No organization,"Opening, body, closing",Too many slides,Reading from slides,B,Adaptability,Advanced
+46,Effective presentations require:,Reading text,Engaging audience interaction,Fast delivery,Ignoring feedback,B,Negotiation,Advanced
+47,Visual aids in presentations should be:,Overcrowded,Simple and supportive,Distracting,Unnecessary,B,Confidence,Advanced
+48,Handling customer complaints should involve:,Dismissing them,Listening and solving,Being defensive,Ignoring,B,Networking,Advanced
+49,Customer satisfaction depends on:,Price alone,Empathy and service quality,Ignoring feedback,Rushing interactions,B,Accountability,Advanced
+50,Good decision-making requires:,Quick reactions only,Analysis and consultation,Following gut always,Avoiding input,B,Conflict Management,Advanced
+51,When facing difficult decisions:,Procrastinate,Gather info and evaluate options,Let others decide,Rush into action,B,Presentation,Advanced
+52,Continuous learning helps by:,Staying outdated,Adapting to change,Creating stagnation,Limiting growth,B,Customer Service,Advanced
+53,Feedback should be viewed as:,Criticism,Opportunity for improvement,Negativity,Irrelevant,B,Decision-Making,Advanced
+54,What is the most important aspect of effective communication?,Speaking loudly,Clear and active listening,Using complex words,Talking more,B,Communication,Beginner
+55,How should you handle a misunderstanding in a conversation?,Ignore it,Clarify immediately,Get defensive,End the conversation,B,Leadership,Beginner
+56,"In a presentation, maintaining eye contact demonstrates:",Nervousness,Confidence and engagement,Arrogance,Lack of preparation,B,Teamwork,Beginner
+57,What is the key to giving constructive feedback?,Being critical,Being specific and objective,Focusing on mistakes,Comparing with others,B,Time Management,Beginner
+58,A good leader should:,Control all decisions,Empower and inspire team,Avoid conflict,Work alone,B,Problem-Solving,Beginner
+59,What is emotional intelligence in leadership?,High IQ,Awareness of emotions,Ignoring feelings,Being tough,B,Emotional Intelligence,Beginner
+60,How should a leader handle team conflicts?,Avoid them,Address them promptly and fairly,Take sides,Let it resolve naturally,B,Adaptability,Beginner
+61,Delegation is important because it:,Reduces leader's work,Develops team skills,Shows weakness,Wastes time,B,Negotiation,Beginner
+62,A key quality of a good team player is:,Self-centeredness,Cooperation and mutual support,Competitiveness,Independence,B,Confidence,Beginner
+63,How should you handle disagreement with a colleague?,Ignore them,Respect their view and find common ground,Escalate immediately,Be aggressive,B,Networking,Beginner
+64,What is the best approach to group projects?,Do all work yourself,Divide tasks and support each other,Let others do it,Minimize involvement,B,Accountability,Beginner
+65,Cross-functional teamwork helps because:,Creates confusion,Brings diverse perspectives,Wastes time,Causes conflicts,B,Conflict Management,Beginner
+66,The Eisenhower Matrix prioritizes tasks by:,Urgency only,Importance and urgency,Size,Random selection,B,Presentation,Beginner
+67,Procrastination can be overcome by:,Ignoring deadlines,Breaking tasks into smaller parts,Working last minute,Avoiding responsibility,B,Customer Service,Beginner
+68,What is the benefit of setting SMART goals?,No benefit,Clear direction and measurability,Less motivation,More confusion,B,Decision-Making,Beginner
+69,Effective time management includes:,Multitasking everything,Prioritization and focus,Overworking,No breaks,B,Professional Development,Beginner
+70,The first step in problem-solving is:,Finding solutions,Understanding the problem,Blaming others,Giving up,B,Communication,Beginner
+71,What does analytical thinking involve?,Guessing,Breaking down and examining information,Rushing to conclusions,Ignoring data,B,Leadership,Beginner
+72,How should you approach a complex problem?,Try random solutions,Analyze systematically and plan,Panic,Ask others immediately,B,Teamwork,Beginner
+73,Creative thinking means:,Being different for difference's sake,Generating novel solutions,Following only rules,Avoiding risks,B,Time Management,Beginner
+74,Self-awareness in EI means:,Being self-centered,Understanding your emotions,Ignoring feelings,Being emotional,B,Networking,Intermediate
+75,Empathy is the ability to:,Agree with everyone,Understand others' feelings,Be sympathetic without action,Judge others,B,Accountability,Intermediate
+76,Managing emotions at work helps by:,Suppressing all feelings,Responding wisely to situations,Being overly reactive,Showing weakness,B,Conflict Management,Intermediate
+77,Conflict resolution requires:,Winning at all costs,Understanding all perspectives,Avoiding confrontation,Being aggressive,B,Presentation,Intermediate
+78,How should you handle unexpected changes?,Resist them,Analyze and adapt,Blame others,Quit,B,Customer Service,Intermediate
+79,Learning agility refers to:,Speed of learning,Ability to learn and apply quickly,Memorization,IQ level,B,Decision-Making,Intermediate
+80,What is growth mindset?,Believing abilities are fixed,Believing you can develop abilities,Avoiding challenges,Fearing failure,B,Professional Development,Intermediate
+81,Resilience helps professionals by:,Avoiding failures,Bouncing back from setbacks,Giving up easily,Denying problems,B,Communication,Intermediate
+82,Win-win negotiation means:,One party gets everything,Both parties benefit,Compromise only,No agreement,B,Leadership,Intermediate
+83,Persuasion is most effective when:,Using pressure,Building trust and logic,Manipulation,Being aggressive,B,Teamwork,Intermediate
+84,Active listening in negotiation helps by:,Planning counterarguments,Understanding other's needs,Waiting to speak,Dismissing concerns,B,Time Management,Intermediate
+85,BATNA in negotiation stands for:,Best Alternative to Negotiated Agreement,Best Approach To Negotiation Aim,Basic Agreement Terms,None of above,A,Problem-Solving,Intermediate
+86,Building confidence involves:,Being overconfident,Recognizing strengths and improving weaknesses,Avoiding challenges,Ignoring feedback,B,Emotional Intelligence,Intermediate
+87,How to handle failure constructively?,Give up,Learn from it and try again,Hide it,Blame others,B,Adaptability,Intermediate
+88,Self-doubt can be managed by:,Accepting it always,Building skills and seeking support,Avoiding responsibilities,Comparing constantly,B,Negotiation,Intermediate
+89,Effective networking involves:,Collecting business cards only,Building genuine relationships,Being selfish,Transactional interactions,B,Confidence,Intermediate
+90,Professional relationships require:,Fake personas,Authenticity and consistency,Minimal interaction,Hierarchy enforcement,B,Networking,Intermediate
+91,Mentorship benefits professionals by:,Creating dependency,Providing guidance and growth,Limiting independence,Showing weakness,B,Accountability,Intermediate
+92,Taking responsibility means:,Blaming circumstances,Owning your actions and outcomes,Making excuses,Avoiding consequences,B,Conflict Management,Intermediate
+93,Accountability in teams ensures:,Confusion,Clear ownership and performance,Blame culture,Decreased productivity,B,Presentation,Intermediate
+94,How to handle mistakes professionally?,Hide them,"Acknowledge, learn, and improve",Blame others,Repeat them,B,Teamwork,Advanced
+95,Assertiveness in conflict means:,Being aggressive,Expressing needs respectfully,Being passive,Avoiding issues,B,Time Management,Advanced
+96,The best conflict resolution style often is:,Avoiding,Collaborating,Competing,Withdrawing,B,Problem-Solving,Advanced
+97,"In a heated discussion, you should:",Escalate,Take a pause and calm down,Get emotional,Ignore the other person,B,Emotional Intelligence,Advanced
+98,Good presentation structure includes:,No organization,"Opening, body, closing",Too many slides,Reading from slides,B,Adaptability,Advanced
+99,Effective presentations require:,Reading text,Engaging audience interaction,Fast delivery,Ignoring feedback,B,Negotiation,Advanced
+100,Visual aids in presentations should be:,Overcrowded,Simple and supportive,Distracting,Unnecessary,B,Confidence,Advanced
+101,Handling customer complaints should involve:,Dismissing them,Listening and solving,Being defensive,Ignoring,B,Networking,Advanced
+102,Customer satisfaction depends on:,Price alone,Empathy and service quality,Ignoring feedback,Rushing interactions,B,Accountability,Advanced
+103,Good decision-making requires:,Quick reactions only,Analysis and consultation,Following gut always,Avoiding input,B,Conflict Management,Advanced
+104,When facing difficult decisions:,Procrastinate,Gather info and evaluate options,Let others decide,Rush into action,B,Presentation,Advanced
+105,Continuous learning helps by:,Staying outdated,Adapting to change,Creating stagnation,Limiting growth,B,Customer Service,Advanced
+106,Feedback should be viewed as:,Criticism,Opportunity for improvement,Negativity,Irrelevant,B,Decision-Making,Advanced
+107,What is the most important aspect of effective communication?,Speaking loudly,Clear and active listening,Using complex words,Talking more,B,Communication,Beginner
+108,How should you handle a misunderstanding in a conversation?,Ignore it,Clarify immediately,Get defensive,End the conversation,B,Leadership,Beginner
+109,"In a presentation, maintaining eye contact demonstrates:",Nervousness,Confidence and engagement,Arrogance,Lack of preparation,B,Teamwork,Beginner
+110,What is the key to giving constructive feedback?,Being critical,Being specific and objective,Focusing on mistakes,Comparing with others,B,Time Management,Beginner
+111,A good leader should:,Control all decisions,Empower and inspire team,Avoid conflict,Work alone,B,Problem-Solving,Beginner
+112,What is emotional intelligence in leadership?,High IQ,Awareness of emotions,Ignoring feelings,Being tough,B,Emotional Intelligence,Beginner
+113,How should a leader handle team conflicts?,Avoid them,Address them promptly and fairly,Take sides,Let it resolve naturally,B,Adaptability,Beginner
+114,Delegation is important because it:,Reduces leader's work,Develops team skills,Shows weakness,Wastes time,B,Negotiation,Beginner
+115,A key quality of a good team player is:,Self-centeredness,Cooperation and mutual support,Competitiveness,Independence,B,Confidence,Beginner
+116,How should you handle disagreement with a colleague?,Ignore them,Respect their view and find common ground,Escalate immediately,Be aggressive,B,Networking,Beginner
+117,What is the best approach to group projects?,Do all work yourself,Divide tasks and support each other,Let others do it,Minimize involvement,B,Accountability,Beginner
+118,Cross-functional teamwork helps because:,Creates confusion,Brings diverse perspectives,Wastes time,Causes conflicts,B,Conflict Management,Beginner
+119,The Eisenhower Matrix prioritizes tasks by:,Urgency only,Importance and urgency,Size,Random selection,B,Presentation,Beginner
+120,Procrastination can be overcome by:,Ignoring deadlines,Breaking tasks into smaller parts,Working last minute,Avoiding responsibility,B,Customer Service,Beginner
+121,What is the benefit of setting SMART goals?,No benefit,Clear direction and measurability,Less motivation,More confusion,B,Decision-Making,Beginner
+122,Effective time management includes:,Multitasking everything,Prioritization and focus,Overworking,No breaks,B,Professional Development,Beginner
+123,The first step in problem-solving is:,Finding solutions,Understanding the problem,Blaming others,Giving up,B,Communication,Beginner
+124,What does analytical thinking involve?,Guessing,Breaking down and examining information,Rushing to conclusions,Ignoring data,B,Leadership,Beginner
+125,How should you approach a complex problem?,Try random solutions,Analyze systematically and plan,Panic,Ask others immediately,B,Teamwork,Beginner
+126,Creative thinking means:,Being different for difference's sake,Generating novel solutions,Following only rules,Avoiding risks,B,Time Management,Beginner
+127,Self-awareness in EI means:,Being self-centered,Understanding your emotions,Ignoring feelings,Being emotional,B,Networking,Intermediate
+128,Empathy is the ability to:,Agree with everyone,Understand others' feelings,Be sympathetic without action,Judge others,B,Accountability,Intermediate
+129,Managing emotions at work helps by:,Suppressing all feelings,Responding wisely to situations,Being overly reactive,Showing weakness,B,Conflict Management,Intermediate
+130,Conflict resolution requires:,Winning at all costs,Understanding all perspectives,Avoiding confrontation,Being aggressive,B,Presentation,Intermediate
+131,How should you handle unexpected changes?,Resist them,Analyze and adapt,Blame others,Quit,B,Customer Service,Intermediate
+132,Learning agility refers to:,Speed of learning,Ability to learn and apply quickly,Memorization,IQ level,B,Decision-Making,Intermediate
+133,What is growth mindset?,Believing abilities are fixed,Believing you can develop abilities,Avoiding challenges,Fearing failure,B,Professional Development,Intermediate
+134,Resilience helps professionals by:,Avoiding failures,Bouncing back from setbacks,Giving up easily,Denying problems,B,Communication,Intermediate
+135,Win-win negotiation means:,One party gets everything,Both parties benefit,Compromise only,No agreement,B,Leadership,Intermediate
+136,Persuasion is most effective when:,Using pressure,Building trust and logic,Manipulation,Being aggressive,B,Teamwork,Intermediate
+137,Active listening in negotiation helps by:,Planning counterarguments,Understanding other's needs,Waiting to speak,Dismissing concerns,B,Time Management,Intermediate
+138,BATNA in negotiation stands for:,Best Alternative to Negotiated Agreement,Best Approach To Negotiation Aim,Basic Agreement Terms,None of above,A,Problem-Solving,Intermediate
+139,Building confidence involves:,Being overconfident,Recognizing strengths and improving weaknesses,Avoiding challenges,Ignoring feedback,B,Emotional Intelligence,Intermediate
+140,How to handle failure constructively?,Give up,Learn from it and try again,Hide it,Blame others,B,Adaptability,Intermediate
+141,Self-doubt can be managed by:,Accepting it always,Building skills and seeking support,Avoiding responsibilities,Comparing constantly,B,Negotiation,Intermediate
+142,Effective networking involves:,Collecting business cards only,Building genuine relationships,Being selfish,Transactional interactions,B,Confidence,Intermediate
+143,Professional relationships require:,Fake personas,Authenticity and consistency,Minimal interaction,Hierarchy enforcement,B,Networking,Intermediate
+144,Mentorship benefits professionals by:,Creating dependency,Providing guidance and growth,Limiting independence,Showing weakness,B,Accountability,Intermediate
+145,Taking responsibility means:,Blaming circumstances,Owning your actions and outcomes,Making excuses,Avoiding consequences,B,Conflict Management,Intermediate
+146,Accountability in teams ensures:,Confusion,Clear ownership and performance,Blame culture,Decreased productivity,B,Presentation,Intermediate
+147,How to handle mistakes professionally?,Hide them,"Acknowledge, learn, and improve",Blame others,Repeat them,B,Teamwork,Advanced
+148,Assertiveness in conflict means:,Being aggressive,Expressing needs respectfully,Being passive,Avoiding issues,B,Time Management,Advanced
+149,The best conflict resolution style often is:,Avoiding,Collaborating,Competing,Withdrawing,B,Problem-Solving,Advanced
+150,"In a heated discussion, you should:",Escalate,Take a pause and calm down,Get emotional,Ignore the other person,B,Emotional Intelligence,Advanced
+151,Good presentation structure includes:,No organization,"Opening, body, closing",Too many slides,Reading from slides,B,Adaptability,Advanced
+152,Effective presentations require:,Reading text,Engaging audience interaction,Fast delivery,Ignoring feedback,B,Negotiation,Advanced
+153,Visual aids in presentations should be:,Overcrowded,Simple and supportive,Distracting,Unnecessary,B,Confidence,Advanced
+154,Handling customer complaints should involve:,Dismissing them,Listening and solving,Being defensive,Ignoring,B,Networking,Advanced
+155,Customer satisfaction depends on:,Price alone,Empathy and service quality,Ignoring feedback,Rushing interactions,B,Accountability,Advanced
+156,Good decision-making requires:,Quick reactions only,Analysis and consultation,Following gut always,Avoiding input,B,Conflict Management,Advanced
+157,When facing difficult decisions:,Procrastinate,Gather info and evaluate options,Let others decide,Rush into action,B,Presentation,Advanced
+158,Continuous learning helps by:,Staying outdated,Adapting to change,Creating stagnation,Limiting growth,B,Customer Service,Advanced
+159,Feedback should be viewed as:,Criticism,Opportunity for improvement,Negativity,Irrelevant,B,Decision-Making,Advanced
+160,What is the most important aspect of effective communication?,Speaking loudly,Clear and active listening,Using complex words,Talking more,B,Communication,Beginner
+161,How should you handle a misunderstanding in a conversation?,Ignore it,Clarify immediately,Get defensive,End the conversation,B,Leadership,Beginner
+162,"In a presentation, maintaining eye contact demonstrates:",Nervousness,Confidence and engagement,Arrogance,Lack of preparation,B,Teamwork,Beginner
+163,What is the key to giving constructive feedback?,Being critical,Being specific and objective,Focusing on mistakes,Comparing with others,B,Time Management,Beginner
+164,A good leader should:,Control all decisions,Empower and inspire team,Avoid conflict,Work alone,B,Problem-Solving,Beginner
+165,What is emotional intelligence in leadership?,High IQ,Awareness of emotions,Ignoring feelings,Being tough,B,Emotional Intelligence,Beginner
+166,How should a leader handle team conflicts?,Avoid them,Address them promptly and fairly,Take sides,Let it resolve naturally,B,Adaptability,Beginner
+167,Delegation is important because it:,Reduces leader's work,Develops team skills,Shows weakness,Wastes time,B,Negotiation,Beginner
+168,A key quality of a good team player is:,Self-centeredness,Cooperation and mutual support,Competitiveness,Independence,B,Confidence,Beginner
+169,How should you handle disagreement with a colleague?,Ignore them,Respect their view and find common ground,Escalate immediately,Be aggressive,B,Networking,Beginner
+170,What is the best approach to group projects?,Do all work yourself,Divide tasks and support each other,Let others do it,Minimize involvement,B,Accountability,Beginner
+171,Cross-functional teamwork helps because:,Creates confusion,Brings diverse perspectives,Wastes time,Causes conflicts,B,Conflict Management,Beginner
+172,The Eisenhower Matrix prioritizes tasks by:,Urgency only,Importance and urgency,Size,Random selection,B,Presentation,Beginner
+173,Procrastination can be overcome by:,Ignoring deadlines,Breaking tasks into smaller parts,Working last minute,Avoiding responsibility,B,Customer Service,Beginner
+174,What is the benefit of setting SMART goals?,No benefit,Clear direction and measurability,Less motivation,More confusion,B,Decision-Making,Beginner
+175,Effective time management includes:,Multitasking everything,Prioritization and focus,Overworking,No breaks,B,Professional Development,Beginner
+176,The first step in problem-solving is:,Finding solutions,Understanding the problem,Blaming others,Giving up,B,Communication,Beginner
+177,What does analytical thinking involve?,Guessing,Breaking down and examining information,Rushing to conclusions,Ignoring data,B,Leadership,Beginner
+178,How should you approach a complex problem?,Try random solutions,Analyze systematically and plan,Panic,Ask others immediately,B,Teamwork,Beginner
+179,Creative thinking means:,Being different for difference's sake,Generating novel solutions,Following only rules,Avoiding risks,B,Time Management,Beginner
+180,Self-awareness in EI means:,Being self-centered,Understanding your emotions,Ignoring feelings,Being emotional,B,Networking,Intermediate
+181,Empathy is the ability to:,Agree with everyone,Understand others' feelings,Be sympathetic without action,Judge others,B,Accountability,Intermediate
+182,Managing emotions at work helps by:,Suppressing all feelings,Responding wisely to situations,Being overly reactive,Showing weakness,B,Conflict Management,Intermediate
+183,Conflict resolution requires:,Winning at all costs,Understanding all perspectives,Avoiding confrontation,Being aggressive,B,Presentation,Intermediate
+184,How should you handle unexpected changes?,Resist them,Analyze and adapt,Blame others,Quit,B,Customer Service,Intermediate
+185,Learning agility refers to:,Speed of learning,Ability to learn and apply quickly,Memorization,IQ level,B,Decision-Making,Intermediate
+186,What is growth mindset?,Believing abilities are fixed,Believing you can develop abilities,Avoiding challenges,Fearing failure,B,Professional Development,Intermediate
+187,Resilience helps professionals by:,Avoiding failures,Bouncing back from setbacks,Giving up easily,Denying problems,B,Communication,Intermediate
+188,Win-win negotiation means:,One party gets everything,Both parties benefit,Compromise only,No agreement,B,Leadership,Intermediate
+189,Persuasion is most effective when:,Using pressure,Building trust and logic,Manipulation,Being aggressive,B,Teamwork,Intermediate
+190,Active listening in negotiation helps by:,Planning counterarguments,Understanding other's needs,Waiting to speak,Dismissing concerns,B,Time Management,Intermediate
+191,BATNA in negotiation stands for:,Best Alternative to Negotiated Agreement,Best Approach To Negotiation Aim,Basic Agreement Terms,None of above,A,Problem-Solving,Intermediate
+192,Building confidence involves:,Being overconfident,Recognizing strengths and improving weaknesses,Avoiding challenges,Ignoring feedback,B,Emotional Intelligence,Intermediate
+193,How to handle failure constructively?,Give up,Learn from it and try again,Hide it,Blame others,B,Adaptability,Intermediate
+194,Self-doubt can be managed by:,Accepting it always,Building skills and seeking support,Avoiding responsibilities,Comparing constantly,B,Negotiation,Intermediate
+195,Effective networking involves:,Collecting business cards only,Building genuine relationships,Being selfish,Transactional interactions,B,Confidence,Intermediate
+196,Professional relationships require:,Fake personas,Authenticity and consistency,Minimal interaction,Hierarchy enforcement,B,Networking,Intermediate
+197,Mentorship benefits professionals by:,Creating dependency,Providing guidance and growth,Limiting independence,Showing weakness,B,Accountability,Intermediate
+198,Taking responsibility means:,Blaming circumstances,Owning your actions and outcomes,Making excuses,Avoiding consequences,B,Conflict Management,Intermediate
+199,Accountability in teams ensures:,Confusion,Clear ownership and performance,Blame culture,Decreased productivity,B,Presentation,Intermediate
+200,How to handle mistakes professionally?,Hide them,"Acknowledge, learn, and improve",Blame others,Repeat them,B,Teamwork,Advanced
+201,Assertiveness in conflict means:,Being aggressive,Expressing needs respectfully,Being passive,Avoiding issues,B,Time Management,Advanced
+202,The best conflict resolution style often is:,Avoiding,Collaborating,Competing,Withdrawing,B,Problem-Solving,Advanced
+203,"In a heated discussion, you should:",Escalate,Take a pause and calm down,Get emotional,Ignore the other person,B,Emotional Intelligence,Advanced
+204,Good presentation structure includes:,No organization,"Opening, body, closing",Too many slides,Reading from slides,B,Adaptability,Advanced
+205,Effective presentations require:,Reading text,Engaging audience interaction,Fast delivery,Ignoring feedback,B,Negotiation,Advanced
+206,Visual aids in presentations should be:,Overcrowded,Simple and supportive,Distracting,Unnecessary,B,Confidence,Advanced
+207,Handling customer complaints should involve:,Dismissing them,Listening and solving,Being defensive,Ignoring,B,Networking,Advanced
+208,Customer satisfaction depends on:,Price alone,Empathy and service quality,Ignoring feedback,Rushing interactions,B,Accountability,Advanced
+209,Good decision-making requires:,Quick reactions only,Analysis and consultation,Following gut always,Avoiding input,B,Conflict Management,Advanced
+210,When facing difficult decisions:,Procrastinate,Gather info and evaluate options,Let others decide,Rush into action,B,Presentation,Advanced
+211,Continuous learning helps by:,Staying outdated,Adapting to change,Creating stagnation,Limiting growth,B,Customer Service,Advanced
+212,Feedback should be viewed as:,Criticism,Opportunity for improvement,Negativity,Irrelevant,B,Decision-Making,Advanced
+213,What is the most important aspect of effective communication?,Speaking loudly,Clear and active listening,Using complex words,Talking more,B,Communication,Beginner
+214,How should you handle a misunderstanding in a conversation?,Ignore it,Clarify immediately,Get defensive,End the conversation,B,Leadership,Beginner
+215,"In a presentation, maintaining eye contact demonstrates:",Nervousness,Confidence and engagement,Arrogance,Lack of preparation,B,Teamwork,Beginner
+216,What is the key to giving constructive feedback?,Being critical,Being specific and objective,Focusing on mistakes,Comparing with others,B,Time Management,Beginner
+217,A good leader should:,Control all decisions,Empower and inspire team,Avoid conflict,Work alone,B,Problem-Solving,Beginner
+218,What is emotional intelligence in leadership?,High IQ,Awareness of emotions,Ignoring feelings,Being tough,B,Emotional Intelligence,Beginner
+219,How should a leader handle team conflicts?,Avoid them,Address them promptly and fairly,Take sides,Let it resolve naturally,B,Adaptability,Beginner
+220,Delegation is important because it:,Reduces leader's work,Develops team skills,Shows weakness,Wastes time,B,Negotiation,Beginner
+221,A key quality of a good team player is:,Self-centeredness,Cooperation and mutual support,Competitiveness,Independence,B,Confidence,Beginner
+222,How should you handle disagreement with a colleague?,Ignore them,Respect their view and find common ground,Escalate immediately,Be aggressive,B,Networking,Beginner
+223,What is the best approach to group projects?,Do all work yourself,Divide tasks and support each other,Let others do it,Minimize involvement,B,Accountability,Beginner
+224,Cross-functional teamwork helps because:,Creates confusion,Brings diverse perspectives,Wastes time,Causes conflicts,B,Conflict Management,Beginner
+225,The Eisenhower Matrix prioritizes tasks by:,Urgency only,Importance and urgency,Size,Random selection,B,Presentation,Beginner
+226,Procrastination can be overcome by:,Ignoring deadlines,Breaking tasks into smaller parts,Working last minute,Avoiding responsibility,B,Customer Service,Beginner
+227,What is the benefit of setting SMART goals?,No benefit,Clear direction and measurability,Less motivation,More confusion,B,Decision-Making,Beginner
+228,Effective time management includes:,Multitasking everything,Prioritization and focus,Overworking,No breaks,B,Professional Development,Beginner
+229,The first step in problem-solving is:,Finding solutions,Understanding the problem,Blaming others,Giving up,B,Communication,Beginner
+230,What does analytical thinking involve?,Guessing,Breaking down and examining information,Rushing to conclusions,Ignoring data,B,Leadership,Beginner
+231,How should you approach a complex problem?,Try random solutions,Analyze systematically and plan,Panic,Ask others immediately,B,Teamwork,Beginner
+232,Creative thinking means:,Being different for difference's sake,Generating novel solutions,Following only rules,Avoiding risks,B,Time Management,Beginner
+233,Self-awareness in EI means:,Being self-centered,Understanding your emotions,Ignoring feelings,Being emotional,B,Networking,Intermediate
+234,Empathy is the ability to:,Agree with everyone,Understand others' feelings,Be sympathetic without action,Judge others,B,Accountability,Intermediate
+235,Managing emotions at work helps by:,Suppressing all feelings,Responding wisely to situations,Being overly reactive,Showing weakness,B,Conflict Management,Intermediate
+236,Conflict resolution requires:,Winning at all costs,Understanding all perspectives,Avoiding confrontation,Being aggressive,B,Presentation,Intermediate
+237,How should you handle unexpected changes?,Resist them,Analyze and adapt,Blame others,Quit,B,Customer Service,Intermediate
+238,Learning agility refers to:,Speed of learning,Ability to learn and apply quickly,Memorization,IQ level,B,Decision-Making,Intermediate
+239,What is growth mindset?,Believing abilities are fixed,Believing you can develop abilities,Avoiding challenges,Fearing failure,B,Professional Development,Intermediate
+240,Resilience helps professionals by:,Avoiding failures,Bouncing back from setbacks,Giving up easily,Denying problems,B,Communication,Intermediate
+241,Win-win negotiation means:,One party gets everything,Both parties benefit,Compromise only,No agreement,B,Leadership,Intermediate
+242,Persuasion is most effective when:,Using pressure,Building trust and logic,Manipulation,Being aggressive,B,Teamwork,Intermediate
+243,Active listening in negotiation helps by:,Planning counterarguments,Understanding other's needs,Waiting to speak,Dismissing concerns,B,Time Management,Intermediate
+244,BATNA in negotiation stands for:,Best Alternative to Negotiated Agreement,Best Approach To Negotiation Aim,Basic Agreement Terms,None of above,A,Problem-Solving,Intermediate
+245,Building confidence involves:,Being overconfident,Recognizing strengths and improving weaknesses,Avoiding challenges,Ignoring feedback,B,Emotional Intelligence,Intermediate
+246,How to handle failure constructively?,Give up,Learn from it and try again,Hide it,Blame others,B,Adaptability,Intermediate
+247,Self-doubt can be managed by:,Accepting it always,Building skills and seeking support,Avoiding responsibilities,Comparing constantly,B,Negotiation,Intermediate
+248,Effective networking involves:,Collecting business cards only,Building genuine relationships,Being selfish,Transactional interactions,B,Confidence,Intermediate
+249,Professional relationships require:,Fake personas,Authenticity and consistency,Minimal interaction,Hierarchy enforcement,B,Networking,Intermediate
+250,Mentorship benefits professionals by:,Creating dependency,Providing guidance and growth,Limiting independence,Showing weakness,B,Accountability,Intermediate
+251,Taking responsibility means:,Blaming circumstances,Owning your actions and outcomes,Making excuses,Avoiding consequences,B,Conflict Management,Intermediate
+252,Accountability in teams ensures:,Confusion,Clear ownership and performance,Blame culture,Decreased productivity,B,Presentation,Intermediate
+253,How to handle mistakes professionally?,Hide them,"Acknowledge, learn, and improve",Blame others,Repeat them,B,Teamwork,Advanced
+254,Assertiveness in conflict means:,Being aggressive,Expressing needs respectfully,Being passive,Avoiding issues,B,Time Management,Advanced
+255,The best conflict resolution style often is:,Avoiding,Collaborating,Competing,Withdrawing,B,Problem-Solving,Advanced
+256,"In a heated discussion, you should:",Escalate,Take a pause and calm down,Get emotional,Ignore the other person,B,Emotional Intelligence,Advanced
+257,Good presentation structure includes:,No organization,"Opening, body, closing",Too many slides,Reading from slides,B,Adaptability,Advanced
+258,Effective presentations require:,Reading text,Engaging audience interaction,Fast delivery,Ignoring feedback,B,Negotiation,Advanced
+259,Visual aids in presentations should be:,Overcrowded,Simple and supportive,Distracting,Unnecessary,B,Confidence,Advanced
+260,Handling customer complaints should involve:,Dismissing them,Listening and solving,Being defensive,Ignoring,B,Networking,Advanced
+261,Customer satisfaction depends on:,Price alone,Empathy and service quality,Ignoring feedback,Rushing interactions,B,Accountability,Advanced
+262,Good decision-making requires:,Quick reactions only,Analysis and consultation,Following gut always,Avoiding input,B,Conflict Management,Advanced
+263,When facing difficult decisions:,Procrastinate,Gather info and evaluate options,Let others decide,Rush into action,B,Presentation,Advanced
+264,Continuous learning helps by:,Staying outdated,Adapting to change,Creating stagnation,Limiting growth,B,Customer Service,Advanced
+265,Feedback should be viewed as:,Criticism,Opportunity for improvement,Negativity,Irrelevant,B,Decision-Making,Advanced
+266,What is the most important aspect of effective communication?,Speaking loudly,Clear and active listening,Using complex words,Talking more,B,Communication,Beginner
+267,How should you handle a misunderstanding in a conversation?,Ignore it,Clarify immediately,Get defensive,End the conversation,B,Leadership,Beginner
+268,"In a presentation, maintaining eye contact demonstrates:",Nervousness,Confidence and engagement,Arrogance,Lack of preparation,B,Teamwork,Beginner
+269,What is the key to giving constructive feedback?,Being critical,Being specific and objective,Focusing on mistakes,Comparing with others,B,Time Management,Beginner
+270,A good leader should:,Control all decisions,Empower and inspire team,Avoid conflict,Work alone,B,Problem-Solving,Beginner
+271,What is emotional intelligence in leadership?,High IQ,Awareness of emotions,Ignoring feelings,Being tough,B,Emotional Intelligence,Beginner
+272,How should a leader handle team conflicts?,Avoid them,Address them promptly and fairly,Take sides,Let it resolve naturally,B,Adaptability,Beginner
+273,Delegation is important because it:,Reduces leader's work,Develops team skills,Shows weakness,Wastes time,B,Negotiation,Beginner
+274,A key quality of a good team player is:,Self-centeredness,Cooperation and mutual support,Competitiveness,Independence,B,Confidence,Beginner
+275,How should you handle disagreement with a colleague?,Ignore them,Respect their view and find common ground,Escalate immediately,Be aggressive,B,Networking,Beginner
+276,What is the best approach to group projects?,Do all work yourself,Divide tasks and support each other,Let others do it,Minimize involvement,B,Accountability,Beginner
+277,Cross-functional teamwork helps because:,Creates confusion,Brings diverse perspectives,Wastes time,Causes conflicts,B,Conflict Management,Beginner
+278,The Eisenhower Matrix prioritizes tasks by:,Urgency only,Importance and urgency,Size,Random selection,B,Presentation,Beginner
+279,Procrastination can be overcome by:,Ignoring deadlines,Breaking tasks into smaller parts,Working last minute,Avoiding responsibility,B,Customer Service,Beginner
+280,What is the benefit of setting SMART goals?,No benefit,Clear direction and measurability,Less motivation,More confusion,B,Decision-Making,Beginner
+281,Effective time management includes:,Multitasking everything,Prioritization and focus,Overworking,No breaks,B,Professional Development,Beginner
+282,The first step in problem-solving is:,Finding solutions,Understanding the problem,Blaming others,Giving up,B,Communication,Beginner
+283,What does analytical thinking involve?,Guessing,Breaking down and examining information,Rushing to conclusions,Ignoring data,B,Leadership,Beginner
+284,How should you approach a complex problem?,Try random solutions,Analyze systematically and plan,Panic,Ask others immediately,B,Teamwork,Beginner
+285,Creative thinking means:,Being different for difference's sake,Generating novel solutions,Following only rules,Avoiding risks,B,Time Management,Beginner
+286,Self-awareness in EI means:,Being self-centered,Understanding your emotions,Ignoring feelings,Being emotional,B,Networking,Intermediate
+287,Empathy is the ability to:,Agree with everyone,Understand others' feelings,Be sympathetic without action,Judge others,B,Accountability,Intermediate
+288,Managing emotions at work helps by:,Suppressing all feelings,Responding wisely to situations,Being overly reactive,Showing weakness,B,Conflict Management,Intermediate
+289,Conflict resolution requires:,Winning at all costs,Understanding all perspectives,Avoiding confrontation,Being aggressive,B,Presentation,Intermediate
+290,How should you handle unexpected changes?,Resist them,Analyze and adapt,Blame others,Quit,B,Customer Service,Intermediate
+291,Learning agility refers to:,Speed of learning,Ability to learn and apply quickly,Memorization,IQ level,B,Decision-Making,Intermediate
+292,What is growth mindset?,Believing abilities are fixed,Believing you can develop abilities,Avoiding challenges,Fearing failure,B,Professional Development,Intermediate
+293,Resilience helps professionals by:,Avoiding failures,Bouncing back from setbacks,Giving up easily,Denying problems,B,Communication,Intermediate
+294,Win-win negotiation means:,One party gets everything,Both parties benefit,Compromise only,No agreement,B,Leadership,Intermediate
+295,Persuasion is most effective when:,Using pressure,Building trust and logic,Manipulation,Being aggressive,B,Teamwork,Intermediate
+296,Active listening in negotiation helps by:,Planning counterarguments,Understanding other's needs,Waiting to speak,Dismissing concerns,B,Time Management,Intermediate
+297,BATNA in negotiation stands for:,Best Alternative to Negotiated Agreement,Best Approach To Negotiation Aim,Basic Agreement Terms,None of above,A,Problem-Solving,Intermediate
+298,Building confidence involves:,Being overconfident,Recognizing strengths and improving weaknesses,Avoiding challenges,Ignoring feedback,B,Emotional Intelligence,Intermediate
+299,How to handle failure constructively?,Give up,Learn from it and try again,Hide it,Blame others,B,Adaptability,Intermediate
+300,Self-doubt can be managed by:,Accepting it always,Building skills and seeking support,Avoiding responsibilities,Comparing constantly,B,Negotiation,Intermediate
+301,Effective networking involves:,Collecting business cards only,Building genuine relationships,Being selfish,Transactional interactions,B,Confidence,Intermediate
+302,Professional relationships require:,Fake personas,Authenticity and consistency,Minimal interaction,Hierarchy enforcement,B,Networking,Intermediate
+303,Mentorship benefits professionals by:,Creating dependency,Providing guidance and growth,Limiting independence,Showing weakness,B,Accountability,Intermediate
+304,Taking responsibility means:,Blaming circumstances,Owning your actions and outcomes,Making excuses,Avoiding consequences,B,Conflict Management,Intermediate
+305,Accountability in teams ensures:,Confusion,Clear ownership and performance,Blame culture,Decreased productivity,B,Presentation,Intermediate
+306,How to handle mistakes professionally?,Hide them,"Acknowledge, learn, and improve",Blame others,Repeat them,B,Teamwork,Advanced
+307,Assertiveness in conflict means:,Being aggressive,Expressing needs respectfully,Being passive,Avoiding issues,B,Time Management,Advanced
+308,The best conflict resolution style often is:,Avoiding,Collaborating,Competing,Withdrawing,B,Problem-Solving,Advanced
+309,"In a heated discussion, you should:",Escalate,Take a pause and calm down,Get emotional,Ignore the other person,B,Emotional Intelligence,Advanced
+310,Good presentation structure includes:,No organization,"Opening, body, closing",Too many slides,Reading from slides,B,Adaptability,Advanced
+311,Effective presentations require:,Reading text,Engaging audience interaction,Fast delivery,Ignoring feedback,B,Negotiation,Advanced
+312,Visual aids in presentations should be:,Overcrowded,Simple and supportive,Distracting,Unnecessary,B,Confidence,Advanced
+313,Handling customer complaints should involve:,Dismissing them,Listening and solving,Being defensive,Ignoring,B,Networking,Advanced
+314,Customer satisfaction depends on:,Price alone,Empathy and service quality,Ignoring feedback,Rushing interactions,B,Accountability,Advanced
+315,Good decision-making requires:,Quick reactions only,Analysis and consultation,Following gut always,Avoiding input,B,Conflict Management,Advanced
+316,When facing difficult decisions:,Procrastinate,Gather info and evaluate options,Let others decide,Rush into action,B,Presentation,Advanced
+317,Continuous learning helps by:,Staying outdated,Adapting to change,Creating stagnation,Limiting growth,B,Customer Service,Advanced
+318,Feedback should be viewed as:,Criticism,Opportunity for improvement,Negativity,Irrelevant,B,Decision-Making,Advanced
+319,What is the most important aspect of effective communication?,Speaking loudly,Clear and active listening,Using complex words,Talking more,B,Communication,Beginner
+320,How should you handle a misunderstanding in a conversation?,Ignore it,Clarify immediately,Get defensive,End the conversation,B,Leadership,Beginner
+321,"In a presentation, maintaining eye contact demonstrates:",Nervousness,Confidence and engagement,Arrogance,Lack of preparation,B,Teamwork,Beginner
+322,What is the key to giving constructive feedback?,Being critical,Being specific and objective,Focusing on mistakes,Comparing with others,B,Time Management,Beginner
+323,A good leader should:,Control all decisions,Empower and inspire team,Avoid conflict,Work alone,B,Problem-Solving,Beginner
+324,What is emotional intelligence in leadership?,High IQ,Awareness of emotions,Ignoring feelings,Being tough,B,Emotional Intelligence,Beginner
+325,How should a leader handle team conflicts?,Avoid them,Address them promptly and fairly,Take sides,Let it resolve naturally,B,Adaptability,Beginner
+326,Delegation is important because it:,Reduces leader's work,Develops team skills,Shows weakness,Wastes time,B,Negotiation,Beginner
+327,A key quality of a good team player is:,Self-centeredness,Cooperation and mutual support,Competitiveness,Independence,B,Confidence,Beginner
+328,How should you handle disagreement with a colleague?,Ignore them,Respect their view and find common ground,Escalate immediately,Be aggressive,B,Networking,Beginner
+329,What is the best approach to group projects?,Do all work yourself,Divide tasks and support each other,Let others do it,Minimize involvement,B,Accountability,Beginner
+330,Cross-functional teamwork helps because:,Creates confusion,Brings diverse perspectives,Wastes time,Causes conflicts,B,Conflict Management,Beginner
+331,The Eisenhower Matrix prioritizes tasks by:,Urgency only,Importance and urgency,Size,Random selection,B,Presentation,Beginner
+332,Procrastination can be overcome by:,Ignoring deadlines,Breaking tasks into smaller parts,Working last minute,Avoiding responsibility,B,Customer Service,Beginner
+333,What is the benefit of setting SMART goals?,No benefit,Clear direction and measurability,Less motivation,More confusion,B,Decision-Making,Beginner
+334,Effective time management includes:,Multitasking everything,Prioritization and focus,Overworking,No breaks,B,Professional Development,Beginner
+335,The first step in problem-solving is:,Finding solutions,Understanding the problem,Blaming others,Giving up,B,Communication,Beginner
+336,What does analytical thinking involve?,Guessing,Breaking down and examining information,Rushing to conclusions,Ignoring data,B,Leadership,Beginner
+337,How should you approach a complex problem?,Try random solutions,Analyze systematically and plan,Panic,Ask others immediately,B,Teamwork,Beginner
+338,Creative thinking means:,Being different for difference's sake,Generating novel solutions,Following only rules,Avoiding risks,B,Time Management,Beginner
+339,Self-awareness in EI means:,Being self-centered,Understanding your emotions,Ignoring feelings,Being emotional,B,Networking,Intermediate
+340,Empathy is the ability to:,Agree with everyone,Understand others' feelings,Be sympathetic without action,Judge others,B,Accountability,Intermediate
+341,Managing emotions at work helps by:,Suppressing all feelings,Responding wisely to situations,Being overly reactive,Showing weakness,B,Conflict Management,Intermediate
+342,Conflict resolution requires:,Winning at all costs,Understanding all perspectives,Avoiding confrontation,Being aggressive,B,Presentation,Intermediate
+343,How should you handle unexpected changes?,Resist them,Analyze and adapt,Blame others,Quit,B,Customer Service,Intermediate
+344,Learning agility refers to:,Speed of learning,Ability to learn and apply quickly,Memorization,IQ level,B,Decision-Making,Intermediate
+345,What is growth mindset?,Believing abilities are fixed,Believing you can develop abilities,Avoiding challenges,Fearing failure,B,Professional Development,Intermediate
+346,Resilience helps professionals by:,Avoiding failures,Bouncing back from setbacks,Giving up easily,Denying problems,B,Communication,Intermediate
+347,Win-win negotiation means:,One party gets everything,Both parties benefit,Compromise only,No agreement,B,Leadership,Intermediate
+348,Persuasion is most effective when:,Using pressure,Building trust and logic,Manipulation,Being aggressive,B,Teamwork,Intermediate
+349,Active listening in negotiation helps by:,Planning counterarguments,Understanding other's needs,Waiting to speak,Dismissing concerns,B,Time Management,Intermediate
+350,BATNA in negotiation stands for:,Best Alternative to Negotiated Agreement,Best Approach To Negotiation Aim,Basic Agreement Terms,None of above,A,Problem-Solving,Intermediate
+351,Building confidence involves:,Being overconfident,Recognizing strengths and improving weaknesses,Avoiding challenges,Ignoring feedback,B,Emotional Intelligence,Intermediate
+352,How to handle failure constructively?,Give up,Learn from it and try again,Hide it,Blame others,B,Adaptability,Intermediate
+353,Self-doubt can be managed by:,Accepting it always,Building skills and seeking support,Avoiding responsibilities,Comparing constantly,B,Negotiation,Intermediate
+354,Effective networking involves:,Collecting business cards only,Building genuine relationships,Being selfish,Transactional interactions,B,Confidence,Intermediate
+355,Professional relationships require:,Fake personas,Authenticity and consistency,Minimal interaction,Hierarchy enforcement,B,Networking,Intermediate
+356,Mentorship benefits professionals by:,Creating dependency,Providing guidance and growth,Limiting independence,Showing weakness,B,Accountability,Intermediate
+357,Taking responsibility means:,Blaming circumstances,Owning your actions and outcomes,Making excuses,Avoiding consequences,B,Conflict Management,Intermediate
+358,Accountability in teams ensures:,Confusion,Clear ownership and performance,Blame culture,Decreased productivity,B,Presentation,Intermediate
+359,How to handle mistakes professionally?,Hide them,"Acknowledge, learn, and improve",Blame others,Repeat them,B,Teamwork,Advanced
+360,Assertiveness in conflict means:,Being aggressive,Expressing needs respectfully,Being passive,Avoiding issues,B,Time Management,Advanced
+361,The best conflict resolution style often is:,Avoiding,Collaborating,Competing,Withdrawing,B,Problem-Solving,Advanced
+362,"In a heated discussion, you should:",Escalate,Take a pause and calm down,Get emotional,Ignore the other person,B,Emotional Intelligence,Advanced
+363,Good presentation structure includes:,No organization,"Opening, body, closing",Too many slides,Reading from slides,B,Adaptability,Advanced
+364,Effective presentations require:,Reading text,Engaging audience interaction,Fast delivery,Ignoring feedback,B,Negotiation,Advanced
+365,Visual aids in presentations should be:,Overcrowded,Simple and supportive,Distracting,Unnecessary,B,Confidence,Advanced
+366,Handling customer complaints should involve:,Dismissing them,Listening and solving,Being defensive,Ignoring,B,Networking,Advanced
+367,Customer satisfaction depends on:,Price alone,Empathy and service quality,Ignoring feedback,Rushing interactions,B,Accountability,Advanced
+368,Good decision-making requires:,Quick reactions only,Analysis and consultation,Following gut always,Avoiding input,B,Conflict Management,Advanced
+369,When facing difficult decisions:,Procrastinate,Gather info and evaluate options,Let others decide,Rush into action,B,Presentation,Advanced
+370,Continuous learning helps by:,Staying outdated,Adapting to change,Creating stagnation,Limiting growth,B,Customer Service,Advanced
+371,Feedback should be viewed as:,Criticism,Opportunity for improvement,Negativity,Irrelevant,B,Decision-Making,Advanced
+372,What is the most important aspect of effective communication?,Speaking loudly,Clear and active listening,Using complex words,Talking more,B,Communication,Beginner
+373,How should you handle a misunderstanding in a conversation?,Ignore it,Clarify immediately,Get defensive,End the conversation,B,Leadership,Beginner
+374,"In a presentation, maintaining eye contact demonstrates:",Nervousness,Confidence and engagement,Arrogance,Lack of preparation,B,Teamwork,Beginner
+375,What is the key to giving constructive feedback?,Being critical,Being specific and objective,Focusing on mistakes,Comparing with others,B,Time Management,Beginner
+376,A good leader should:,Control all decisions,Empower and inspire team,Avoid conflict,Work alone,B,Problem-Solving,Beginner
+377,What is emotional intelligence in leadership?,High IQ,Awareness of emotions,Ignoring feelings,Being tough,B,Emotional Intelligence,Beginner
+378,How should a leader handle team conflicts?,Avoid them,Address them promptly and fairly,Take sides,Let it resolve naturally,B,Adaptability,Beginner
+379,Delegation is important because it:,Reduces leader's work,Develops team skills,Shows weakness,Wastes time,B,Negotiation,Beginner
+380,A key quality of a good team player is:,Self-centeredness,Cooperation and mutual support,Competitiveness,Independence,B,Confidence,Beginner
+381,How should you handle disagreement with a colleague?,Ignore them,Respect their view and find common ground,Escalate immediately,Be aggressive,B,Networking,Beginner
+382,What is the best approach to group projects?,Do all work yourself,Divide tasks and support each other,Let others do it,Minimize involvement,B,Accountability,Beginner
+383,Cross-functional teamwork helps because:,Creates confusion,Brings diverse perspectives,Wastes time,Causes conflicts,B,Conflict Management,Beginner
+384,The Eisenhower Matrix prioritizes tasks by:,Urgency only,Importance and urgency,Size,Random selection,B,Presentation,Beginner
+385,Procrastination can be overcome by:,Ignoring deadlines,Breaking tasks into smaller parts,Working last minute,Avoiding responsibility,B,Customer Service,Beginner
+386,What is the benefit of setting SMART goals?,No benefit,Clear direction and measurability,Less motivation,More confusion,B,Decision-Making,Beginner
+387,Effective time management includes:,Multitasking everything,Prioritization and focus,Overworking,No breaks,B,Professional Development,Beginner
+388,The first step in problem-solving is:,Finding solutions,Understanding the problem,Blaming others,Giving up,B,Communication,Beginner
+389,What does analytical thinking involve?,Guessing,Breaking down and examining information,Rushing to conclusions,Ignoring data,B,Leadership,Beginner
+390,How should you approach a complex problem?,Try random solutions,Analyze systematically and plan,Panic,Ask others immediately,B,Teamwork,Beginner
+391,Creative thinking means:,Being different for difference's sake,Generating novel solutions,Following only rules,Avoiding risks,B,Time Management,Beginner
+392,Self-awareness in EI means:,Being self-centered,Understanding your emotions,Ignoring feelings,Being emotional,B,Networking,Intermediate
+393,Empathy is the ability to:,Agree with everyone,Understand others' feelings,Be sympathetic without action,Judge others,B,Accountability,Intermediate
+394,Managing emotions at work helps by:,Suppressing all feelings,Responding wisely to situations,Being overly reactive,Showing weakness,B,Conflict Management,Intermediate
+395,Conflict resolution requires:,Winning at all costs,Understanding all perspectives,Avoiding confrontation,Being aggressive,B,Presentation,Intermediate
+396,How should you handle unexpected changes?,Resist them,Analyze and adapt,Blame others,Quit,B,Customer Service,Intermediate
+397,Learning agility refers to:,Speed of learning,Ability to learn and apply quickly,Memorization,IQ level,B,Decision-Making,Intermediate
+398,What is growth mindset?,Believing abilities are fixed,Believing you can develop abilities,Avoiding challenges,Fearing failure,B,Professional Development,Intermediate
+399,Resilience helps professionals by:,Avoiding failures,Bouncing back from setbacks,Giving up easily,Denying problems,B,Communication,Intermediate
+400,Win-win negotiation means:,One party gets everything,Both parties benefit,Compromise only,No agreement,B,Leadership,Intermediate
+401,Persuasion is most effective when:,Using pressure,Building trust and logic,Manipulation,Being aggressive,B,Teamwork,Intermediate
+402,Active listening in negotiation helps by:,Planning counterarguments,Understanding other's needs,Waiting to speak,Dismissing concerns,B,Time Management,Intermediate
+403,BATNA in negotiation stands for:,Best Alternative to Negotiated Agreement,Best Approach To Negotiation Aim,Basic Agreement Terms,None of above,A,Problem-Solving,Intermediate
+404,Building confidence involves:,Being overconfident,Recognizing strengths and improving weaknesses,Avoiding challenges,Ignoring feedback,B,Emotional Intelligence,Intermediate
+405,How to handle failure constructively?,Give up,Learn from it and try again,Hide it,Blame others,B,Adaptability,Intermediate
+406,Self-doubt can be managed by:,Accepting it always,Building skills and seeking support,Avoiding responsibilities,Comparing constantly,B,Negotiation,Intermediate
+407,Effective networking involves:,Collecting business cards only,Building genuine relationships,Being selfish,Transactional interactions,B,Confidence,Intermediate
+408,Professional relationships require:,Fake personas,Authenticity and consistency,Minimal interaction,Hierarchy enforcement,B,Networking,Intermediate
+409,Mentorship benefits professionals by:,Creating dependency,Providing guidance and growth,Limiting independence,Showing weakness,B,Accountability,Intermediate
+410,Taking responsibility means:,Blaming circumstances,Owning your actions and outcomes,Making excuses,Avoiding consequences,B,Conflict Management,Intermediate
+411,Accountability in teams ensures:,Confusion,Clear ownership and performance,Blame culture,Decreased productivity,B,Presentation,Intermediate
+412,How to handle mistakes professionally?,Hide them,"Acknowledge, learn, and improve",Blame others,Repeat them,B,Teamwork,Advanced
+413,Assertiveness in conflict means:,Being aggressive,Expressing needs respectfully,Being passive,Avoiding issues,B,Time Management,Advanced
+414,The best conflict resolution style often is:,Avoiding,Collaborating,Competing,Withdrawing,B,Problem-Solving,Advanced
+415,"In a heated discussion, you should:",Escalate,Take a pause and calm down,Get emotional,Ignore the other person,B,Emotional Intelligence,Advanced
+416,Good presentation structure includes:,No organization,"Opening, body, closing",Too many slides,Reading from slides,B,Adaptability,Advanced
+417,Effective presentations require:,Reading text,Engaging audience interaction,Fast delivery,Ignoring feedback,B,Negotiation,Advanced
+418,Visual aids in presentations should be:,Overcrowded,Simple and supportive,Distracting,Unnecessary,B,Confidence,Advanced
+419,Handling customer complaints should involve:,Dismissing them,Listening and solving,Being defensive,Ignoring,B,Networking,Advanced
+420,Customer satisfaction depends on:,Price alone,Empathy and service quality,Ignoring feedback,Rushing interactions,B,Accountability,Advanced
+421,Good decision-making requires:,Quick reactions only,Analysis and consultation,Following gut always,Avoiding input,B,Conflict Management,Advanced
+422,When facing difficult decisions:,Procrastinate,Gather info and evaluate options,Let others decide,Rush into action,B,Presentation,Advanced
+423,Continuous learning helps by:,Staying outdated,Adapting to change,Creating stagnation,Limiting growth,B,Customer Service,Advanced
+424,Feedback should be viewed as:,Criticism,Opportunity for improvement,Negativity,Irrelevant,B,Decision-Making,Advanced
+425,What is the most important aspect of effective communication?,Speaking loudly,Clear and active listening,Using complex words,Talking more,B,Communication,Beginner
+426,How should you handle a misunderstanding in a conversation?,Ignore it,Clarify immediately,Get defensive,End the conversation,B,Leadership,Beginner
+427,"In a presentation, maintaining eye contact demonstrates:",Nervousness,Confidence and engagement,Arrogance,Lack of preparation,B,Teamwork,Beginner
+428,What is the key to giving constructive feedback?,Being critical,Being specific and objective,Focusing on mistakes,Comparing with others,B,Time Management,Beginner
+429,A good leader should:,Control all decisions,Empower and inspire team,Avoid conflict,Work alone,B,Problem-Solving,Beginner
+430,What is emotional intelligence in leadership?,High IQ,Awareness of emotions,Ignoring feelings,Being tough,B,Emotional Intelligence,Beginner
+431,How should a leader handle team conflicts?,Avoid them,Address them promptly and fairly,Take sides,Let it resolve naturally,B,Adaptability,Beginner
+432,Delegation is important because it:,Reduces leader's work,Develops team skills,Shows weakness,Wastes time,B,Negotiation,Beginner
+433,A key quality of a good team player is:,Self-centeredness,Cooperation and mutual support,Competitiveness,Independence,B,Confidence,Beginner
+434,How should you handle disagreement with a colleague?,Ignore them,Respect their view and find common ground,Escalate immediately,Be aggressive,B,Networking,Beginner
+435,What is the best approach to group projects?,Do all work yourself,Divide tasks and support each other,Let others do it,Minimize involvement,B,Accountability,Beginner
+436,Cross-functional teamwork helps because:,Creates confusion,Brings diverse perspectives,Wastes time,Causes conflicts,B,Conflict Management,Beginner
+437,The Eisenhower Matrix prioritizes tasks by:,Urgency only,Importance and urgency,Size,Random selection,B,Presentation,Beginner
+438,Procrastination can be overcome by:,Ignoring deadlines,Breaking tasks into smaller parts,Working last minute,Avoiding responsibility,B,Customer Service,Beginner
+439,What is the benefit of setting SMART goals?,No benefit,Clear direction and measurability,Less motivation,More confusion,B,Decision-Making,Beginner
+440,Effective time management includes:,Multitasking everything,Prioritization and focus,Overworking,No breaks,B,Professional Development,Beginner
+441,The first step in problem-solving is:,Finding solutions,Understanding the problem,Blaming others,Giving up,B,Communication,Beginner
+442,What does analytical thinking involve?,Guessing,Breaking down and examining information,Rushing to conclusions,Ignoring data,B,Leadership,Beginner
+443,How should you approach a complex problem?,Try random solutions,Analyze systematically and plan,Panic,Ask others immediately,B,Teamwork,Beginner
+444,Creative thinking means:,Being different for difference's sake,Generating novel solutions,Following only rules,Avoiding risks,B,Time Management,Beginner
+445,Self-awareness in EI means:,Being self-centered,Understanding your emotions,Ignoring feelings,Being emotional,B,Networking,Intermediate
+446,Empathy is the ability to:,Agree with everyone,Understand others' feelings,Be sympathetic without action,Judge others,B,Accountability,Intermediate
+447,Managing emotions at work helps by:,Suppressing all feelings,Responding wisely to situations,Being overly reactive,Showing weakness,B,Conflict Management,Intermediate
+448,Conflict resolution requires:,Winning at all costs,Understanding all perspectives,Avoiding confrontation,Being aggressive,B,Presentation,Intermediate
+449,How should you handle unexpected changes?,Resist them,Analyze and adapt,Blame others,Quit,B,Customer Service,Intermediate
+450,Learning agility refers to:,Speed of learning,Ability to learn and apply quickly,Memorization,IQ level,B,Decision-Making,Intermediate
+451,What is growth mindset?,Believing abilities are fixed,Believing you can develop abilities,Avoiding challenges,Fearing failure,B,Professional Development,Intermediate
+452,Resilience helps professionals by:,Avoiding failures,Bouncing back from setbacks,Giving up easily,Denying problems,B,Communication,Intermediate
+453,Win-win negotiation means:,One party gets everything,Both parties benefit,Compromise only,No agreement,B,Leadership,Intermediate
+454,Persuasion is most effective when:,Using pressure,Building trust and logic,Manipulation,Being aggressive,B,Teamwork,Intermediate
+455,Active listening in negotiation helps by:,Planning counterarguments,Understanding other's needs,Waiting to speak,Dismissing concerns,B,Time Management,Intermediate
+456,BATNA in negotiation stands for:,Best Alternative to Negotiated Agreement,Best Approach To Negotiation Aim,Basic Agreement Terms,None of above,A,Problem-Solving,Intermediate
+457,Building confidence involves:,Being overconfident,Recognizing strengths and improving weaknesses,Avoiding challenges,Ignoring feedback,B,Emotional Intelligence,Intermediate
+458,How to handle failure constructively?,Give up,Learn from it and try again,Hide it,Blame others,B,Adaptability,Intermediate
+459,Self-doubt can be managed by:,Accepting it always,Building skills and seeking support,Avoiding responsibilities,Comparing constantly,B,Negotiation,Intermediate
+460,Effective networking involves:,Collecting business cards only,Building genuine relationships,Being selfish,Transactional interactions,B,Confidence,Intermediate
+461,Professional relationships require:,Fake personas,Authenticity and consistency,Minimal interaction,Hierarchy enforcement,B,Networking,Intermediate
+462,Mentorship benefits professionals by:,Creating dependency,Providing guidance and growth,Limiting independence,Showing weakness,B,Accountability,Intermediate
+463,Taking responsibility means:,Blaming circumstances,Owning your actions and outcomes,Making excuses,Avoiding consequences,B,Conflict Management,Intermediate
+464,Accountability in teams ensures:,Confusion,Clear ownership and performance,Blame culture,Decreased productivity,B,Presentation,Intermediate
+465,How to handle mistakes professionally?,Hide them,"Acknowledge, learn, and improve",Blame others,Repeat them,B,Teamwork,Advanced
+466,Assertiveness in conflict means:,Being aggressive,Expressing needs respectfully,Being passive,Avoiding issues,B,Time Management,Advanced
+467,The best conflict resolution style often is:,Avoiding,Collaborating,Competing,Withdrawing,B,Problem-Solving,Advanced
+468,"In a heated discussion, you should:",Escalate,Take a pause and calm down,Get emotional,Ignore the other person,B,Emotional Intelligence,Advanced
+469,Good presentation structure includes:,No organization,"Opening, body, closing",Too many slides,Reading from slides,B,Adaptability,Advanced
+470,Effective presentations require:,Reading text,Engaging audience interaction,Fast delivery,Ignoring feedback,B,Negotiation,Advanced
+471,Visual aids in presentations should be:,Overcrowded,Simple and supportive,Distracting,Unnecessary,B,Confidence,Advanced
+472,Handling customer complaints should involve:,Dismissing them,Listening and solving,Being defensive,Ignoring,B,Networking,Advanced
+473,Customer satisfaction depends on:,Price alone,Empathy and service quality,Ignoring feedback,Rushing interactions,B,Accountability,Advanced
+474,Good decision-making requires:,Quick reactions only,Analysis and consultation,Following gut always,Avoiding input,B,Conflict Management,Advanced
+475,When facing difficult decisions:,Procrastinate,Gather info and evaluate options,Let others decide,Rush into action,B,Presentation,Advanced
+476,Continuous learning helps by:,Staying outdated,Adapting to change,Creating stagnation,Limiting growth,B,Customer Service,Advanced
+477,Feedback should be viewed as:,Criticism,Opportunity for improvement,Negativity,Irrelevant,B,Decision-Making,Advanced
+478,What is the most important aspect of effective communication?,Speaking loudly,Clear and active listening,Using complex words,Talking more,B,Communication,Beginner
+479,How should you handle a misunderstanding in a conversation?,Ignore it,Clarify immediately,Get defensive,End the conversation,B,Leadership,Beginner
+480,"In a presentation, maintaining eye contact demonstrates:",Nervousness,Confidence and engagement,Arrogance,Lack of preparation,B,Teamwork,Beginner
+481,What is the key to giving constructive feedback?,Being critical,Being specific and objective,Focusing on mistakes,Comparing with others,B,Time Management,Beginner
+482,A good leader should:,Control all decisions,Empower and inspire team,Avoid conflict,Work alone,B,Problem-Solving,Beginner
+483,What is emotional intelligence in leadership?,High IQ,Awareness of emotions,Ignoring feelings,Being tough,B,Emotional Intelligence,Beginner
+484,How should a leader handle team conflicts?,Avoid them,Address them promptly and fairly,Take sides,Let it resolve naturally,B,Adaptability,Beginner
+485,Delegation is important because it:,Reduces leader's work,Develops team skills,Shows weakness,Wastes time,B,Negotiation,Beginner
+486,A key quality of a good team player is:,Self-centeredness,Cooperation and mutual support,Competitiveness,Independence,B,Confidence,Beginner
+487,How should you handle disagreement with a colleague?,Ignore them,Respect their view and find common ground,Escalate immediately,Be aggressive,B,Networking,Beginner
+488,What is the best approach to group projects?,Do all work yourself,Divide tasks and support each other,Let others do it,Minimize involvement,B,Accountability,Beginner
+489,Cross-functional teamwork helps because:,Creates confusion,Brings diverse perspectives,Wastes time,Causes conflicts,B,Conflict Management,Beginner
+490,The Eisenhower Matrix prioritizes tasks by:,Urgency only,Importance and urgency,Size,Random selection,B,Presentation,Beginner
+491,Procrastination can be overcome by:,Ignoring deadlines,Breaking tasks into smaller parts,Working last minute,Avoiding responsibility,B,Customer Service,Beginner
+492,What is the benefit of setting SMART goals?,No benefit,Clear direction and measurability,Less motivation,More confusion,B,Decision-Making,Beginner
+493,Effective time management includes:,Multitasking everything,Prioritization and focus,Overworking,No breaks,B,Professional Development,Beginner
+494,The first step in problem-solving is:,Finding solutions,Understanding the problem,Blaming others,Giving up,B,Communication,Beginner
+495,What does analytical thinking involve?,Guessing,Breaking down and examining information,Rushing to conclusions,Ignoring data,B,Leadership,Beginner
+496,How should you approach a complex problem?,Try random solutions,Analyze systematically and plan,Panic,Ask others immediately,B,Teamwork,Beginner
+497,Creative thinking means:,Being different for difference's sake,Generating novel solutions,Following only rules,Avoiding risks,B,Time Management,Beginner
+498,Self-awareness in EI means:,Being self-centered,Understanding your emotions,Ignoring feelings,Being emotional,B,Networking,Intermediate
+499,Empathy is the ability to:,Agree with everyone,Understand others' feelings,Be sympathetic without action,Judge others,B,Accountability,Intermediate
+500,Managing emotions at work helps by:,Suppressing all feelings,Responding wisely to situations,Being overly reactive,Showing weakness,B,Conflict Management,Intermediate
+501,Conflict resolution requires:,Winning at all costs,Understanding all perspectives,Avoiding confrontation,Being aggressive,B,Presentation,Intermediate
+502,How should you handle unexpected changes?,Resist them,Analyze and adapt,Blame others,Quit,B,Customer Service,Intermediate
+503,Learning agility refers to:,Speed of learning,Ability to learn and apply quickly,Memorization,IQ level,B,Decision-Making,Intermediate
+504,What is growth mindset?,Believing abilities are fixed,Believing you can develop abilities,Avoiding challenges,Fearing failure,B,Professional Development,Intermediate
+505,Resilience helps professionals by:,Avoiding failures,Bouncing back from setbacks,Giving up easily,Denying problems,B,Communication,Intermediate
+506,Win-win negotiation means:,One party gets everything,Both parties benefit,Compromise only,No agreement,B,Leadership,Intermediate
+507,Persuasion is most effective when:,Using pressure,Building trust and logic,Manipulation,Being aggressive,B,Teamwork,Intermediate
+508,Active listening in negotiation helps by:,Planning counterarguments,Understanding other's needs,Waiting to speak,Dismissing concerns,B,Time Management,Intermediate
+509,BATNA in negotiation stands for:,Best Alternative to Negotiated Agreement,Best Approach To Negotiation Aim,Basic Agreement Terms,None of above,A,Problem-Solving,Intermediate
+510,Building confidence involves:,Being overconfident,Recognizing strengths and improving weaknesses,Avoiding challenges,Ignoring feedback,B,Emotional Intelligence,Intermediate
+511,How to handle failure constructively?,Give up,Learn from it and try again,Hide it,Blame others,B,Adaptability,Intermediate
+512,Self-doubt can be managed by:,Accepting it always,Building skills and seeking support,Avoiding responsibilities,Comparing constantly,B,Negotiation,Intermediate
+513,Effective networking involves:,Collecting business cards only,Building genuine relationships,Being selfish,Transactional interactions,B,Confidence,Intermediate
+514,Professional relationships require:,Fake personas,Authenticity and consistency,Minimal interaction,Hierarchy enforcement,B,Networking,Intermediate
+515,Mentorship benefits professionals by:,Creating dependency,Providing guidance and growth,Limiting independence,Showing weakness,B,Accountability,Intermediate
+516,Taking responsibility means:,Blaming circumstances,Owning your actions and outcomes,Making excuses,Avoiding consequences,B,Conflict Management,Intermediate
+517,Accountability in teams ensures:,Confusion,Clear ownership and performance,Blame culture,Decreased productivity,B,Presentation,Intermediate
+518,How to handle mistakes professionally?,Hide them,"Acknowledge, learn, and improve",Blame others,Repeat them,B,Teamwork,Advanced
+519,Assertiveness in conflict means:,Being aggressive,Expressing needs respectfully,Being passive,Avoiding issues,B,Time Management,Advanced
+520,The best conflict resolution style often is:,Avoiding,Collaborating,Competing,Withdrawing,B,Problem-Solving,Advanced
+521,"In a heated discussion, you should:",Escalate,Take a pause and calm down,Get emotional,Ignore the other person,B,Emotional Intelligence,Advanced
+522,Good presentation structure includes:,No organization,"Opening, body, closing",Too many slides,Reading from slides,B,Adaptability,Advanced
+523,Effective presentations require:,Reading text,Engaging audience interaction,Fast delivery,Ignoring feedback,B,Negotiation,Advanced
+524,Visual aids in presentations should be:,Overcrowded,Simple and supportive,Distracting,Unnecessary,B,Confidence,Advanced
+525,Handling customer complaints should involve:,Dismissing them,Listening and solving,Being defensive,Ignoring,B,Networking,Advanced
+526,Customer satisfaction depends on:,Price alone,Empathy and service quality,Ignoring feedback,Rushing interactions,B,Accountability,Advanced
+527,Good decision-making requires:,Quick reactions only,Analysis and consultation,Following gut always,Avoiding input,B,Conflict Management,Advanced
+528,When facing difficult decisions:,Procrastinate,Gather info and evaluate options,Let others decide,Rush into action,B,Presentation,Advanced
+529,Continuous learning helps by:,Staying outdated,Adapting to change,Creating stagnation,Limiting growth,B,Customer Service,Advanced
+530,Feedback should be viewed as:,Criticism,Opportunity for improvement,Negativity,Irrelevant,B,Decision-Making,Advanced
+531,What is the most important aspect of effective communication?,Speaking loudly,Clear and active listening,Using complex words,Talking more,B,Communication,Beginner
+532,How should you handle a misunderstanding in a conversation?,Ignore it,Clarify immediately,Get defensive,End the conversation,B,Leadership,Beginner
+533,"In a presentation, maintaining eye contact demonstrates:",Nervousness,Confidence and engagement,Arrogance,Lack of preparation,B,Teamwork,Beginner
+534,What is the key to giving constructive feedback?,Being critical,Being specific and objective,Focusing on mistakes,Comparing with others,B,Time Management,Beginner
+535,A good leader should:,Control all decisions,Empower and inspire team,Avoid conflict,Work alone,B,Problem-Solving,Beginner
+536,What is emotional intelligence in leadership?,High IQ,Awareness of emotions,Ignoring feelings,Being tough,B,Emotional Intelligence,Beginner
+537,How should a leader handle team conflicts?,Avoid them,Address them promptly and fairly,Take sides,Let it resolve naturally,B,Adaptability,Beginner
+538,Delegation is important because it:,Reduces leader's work,Develops team skills,Shows weakness,Wastes time,B,Negotiation,Beginner
+539,A key quality of a good team player is:,Self-centeredness,Cooperation and mutual support,Competitiveness,Independence,B,Confidence,Beginner
+540,How should you handle disagreement with a colleague?,Ignore them,Respect their view and find common ground,Escalate immediately,Be aggressive,B,Networking,Beginner
+541,What is the best approach to group projects?,Do all work yourself,Divide tasks and support each other,Let others do it,Minimize involvement,B,Accountability,Beginner
+542,Cross-functional teamwork helps because:,Creates confusion,Brings diverse perspectives,Wastes time,Causes conflicts,B,Conflict Management,Beginner
+543,The Eisenhower Matrix prioritizes tasks by:,Urgency only,Importance and urgency,Size,Random selection,B,Presentation,Beginner
+544,Procrastination can be overcome by:,Ignoring deadlines,Breaking tasks into smaller parts,Working last minute,Avoiding responsibility,B,Customer Service,Beginner
+545,What is the benefit of setting SMART goals?,No benefit,Clear direction and measurability,Less motivation,More confusion,B,Decision-Making,Beginner
+546,Effective time management includes:,Multitasking everything,Prioritization and focus,Overworking,No breaks,B,Professional Development,Beginner
+547,The first step in problem-solving is:,Finding solutions,Understanding the problem,Blaming others,Giving up,B,Communication,Beginner
+548,What does analytical thinking involve?,Guessing,Breaking down and examining information,Rushing to conclusions,Ignoring data,B,Leadership,Beginner
+549,How should you approach a complex problem?,Try random solutions,Analyze systematically and plan,Panic,Ask others immediately,B,Teamwork,Beginner
+550,Creative thinking means:,Being different for difference's sake,Generating novel solutions,Following only rules,Avoiding risks,B,Time Management,Beginner
+551,Self-awareness in EI means:,Being self-centered,Understanding your emotions,Ignoring feelings,Being emotional,B,Networking,Intermediate
+552,Empathy is the ability to:,Agree with everyone,Understand others' feelings,Be sympathetic without action,Judge others,B,Accountability,Intermediate
+553,Managing emotions at work helps by:,Suppressing all feelings,Responding wisely to situations,Being overly reactive,Showing weakness,B,Conflict Management,Intermediate
+554,Conflict resolution requires:,Winning at all costs,Understanding all perspectives,Avoiding confrontation,Being aggressive,B,Presentation,Intermediate
+555,How should you handle unexpected changes?,Resist them,Analyze and adapt,Blame others,Quit,B,Customer Service,Intermediate
+556,Learning agility refers to:,Speed of learning,Ability to learn and apply quickly,Memorization,IQ level,B,Decision-Making,Intermediate
+557,What is growth mindset?,Believing abilities are fixed,Believing you can develop abilities,Avoiding challenges,Fearing failure,B,Professional Development,Intermediate
+558,Resilience helps professionals by:,Avoiding failures,Bouncing back from setbacks,Giving up easily,Denying problems,B,Communication,Intermediate
+559,Win-win negotiation means:,One party gets everything,Both parties benefit,Compromise only,No agreement,B,Leadership,Intermediate
+560,Persuasion is most effective when:,Using pressure,Building trust and logic,Manipulation,Being aggressive,B,Teamwork,Intermediate
+561,Active listening in negotiation helps by:,Planning counterarguments,Understanding other's needs,Waiting to speak,Dismissing concerns,B,Time Management,Intermediate
+562,BATNA in negotiation stands for:,Best Alternative to Negotiated Agreement,Best Approach To Negotiation Aim,Basic Agreement Terms,None of above,A,Problem-Solving,Intermediate
+563,Building confidence involves:,Being overconfident,Recognizing strengths and improving weaknesses,Avoiding challenges,Ignoring feedback,B,Emotional Intelligence,Intermediate
+564,How to handle failure constructively?,Give up,Learn from it and try again,Hide it,Blame others,B,Adaptability,Intermediate
+565,Self-doubt can be managed by:,Accepting it always,Building skills and seeking support,Avoiding responsibilities,Comparing constantly,B,Negotiation,Intermediate
+566,Effective networking involves:,Collecting business cards only,Building genuine relationships,Being selfish,Transactional interactions,B,Confidence,Intermediate
+567,Professional relationships require:,Fake personas,Authenticity and consistency,Minimal interaction,Hierarchy enforcement,B,Networking,Intermediate
+568,Mentorship benefits professionals by:,Creating dependency,Providing guidance and growth,Limiting independence,Showing weakness,B,Accountability,Intermediate
+569,Taking responsibility means:,Blaming circumstances,Owning your actions and outcomes,Making excuses,Avoiding consequences,B,Conflict Management,Intermediate
+570,Accountability in teams ensures:,Confusion,Clear ownership and performance,Blame culture,Decreased productivity,B,Presentation,Intermediate
+571,How to handle mistakes professionally?,Hide them,"Acknowledge, learn, and improve",Blame others,Repeat them,B,Teamwork,Advanced
+572,Assertiveness in conflict means:,Being aggressive,Expressing needs respectfully,Being passive,Avoiding issues,B,Time Management,Advanced
+573,The best conflict resolution style often is:,Avoiding,Collaborating,Competing,Withdrawing,B,Problem-Solving,Advanced
+574,"In a heated discussion, you should:",Escalate,Take a pause and calm down,Get emotional,Ignore the other person,B,Emotional Intelligence,Advanced
+575,Good presentation structure includes:,No organization,"Opening, body, closing",Too many slides,Reading from slides,B,Adaptability,Advanced
+576,Effective presentations require:,Reading text,Engaging audience interaction,Fast delivery,Ignoring feedback,B,Negotiation,Advanced
+577,Visual aids in presentations should be:,Overcrowded,Simple and supportive,Distracting,Unnecessary,B,Confidence,Advanced
+578,Handling customer complaints should involve:,Dismissing them,Listening and solving,Being defensive,Ignoring,B,Networking,Advanced
+579,Customer satisfaction depends on:,Price alone,Empathy and service quality,Ignoring feedback,Rushing interactions,B,Accountability,Advanced
+580,Good decision-making requires:,Quick reactions only,Analysis and consultation,Following gut always,Avoiding input,B,Conflict Management,Advanced
+581,When facing difficult decisions:,Procrastinate,Gather info and evaluate options,Let others decide,Rush into action,B,Presentation,Advanced
+582,Continuous learning helps by:,Staying outdated,Adapting to change,Creating stagnation,Limiting growth,B,Customer Service,Advanced
+583,Feedback should be viewed as:,Criticism,Opportunity for improvement,Negativity,Irrelevant,B,Decision-Making,Advanced
+584,What is the most important aspect of effective communication?,Speaking loudly,Clear and active listening,Using complex words,Talking more,B,Communication,Beginner
+585,How should you handle a misunderstanding in a conversation?,Ignore it,Clarify immediately,Get defensive,End the conversation,B,Leadership,Beginner
+586,"In a presentation, maintaining eye contact demonstrates:",Nervousness,Confidence and engagement,Arrogance,Lack of preparation,B,Teamwork,Beginner
+587,What is the key to giving constructive feedback?,Being critical,Being specific and objective,Focusing on mistakes,Comparing with others,B,Time Management,Beginner
+588,A good leader should:,Control all decisions,Empower and inspire team,Avoid conflict,Work alone,B,Problem-Solving,Beginner
+589,What is emotional intelligence in leadership?,High IQ,Awareness of emotions,Ignoring feelings,Being tough,B,Emotional Intelligence,Beginner
+590,How should a leader handle team conflicts?,Avoid them,Address them promptly and fairly,Take sides,Let it resolve naturally,B,Adaptability,Beginner
+591,Delegation is important because it:,Reduces leader's work,Develops team skills,Shows weakness,Wastes time,B,Negotiation,Beginner
+592,A key quality of a good team player is:,Self-centeredness,Cooperation and mutual support,Competitiveness,Independence,B,Confidence,Beginner
+593,How should you handle disagreement with a colleague?,Ignore them,Respect their view and find common ground,Escalate immediately,Be aggressive,B,Networking,Beginner
+594,What is the best approach to group projects?,Do all work yourself,Divide tasks and support each other,Let others do it,Minimize involvement,B,Accountability,Beginner
+595,Cross-functional teamwork helps because:,Creates confusion,Brings diverse perspectives,Wastes time,Causes conflicts,B,Conflict Management,Beginner
+596,The Eisenhower Matrix prioritizes tasks by:,Urgency only,Importance and urgency,Size,Random selection,B,Presentation,Beginner
+597,Procrastination can be overcome by:,Ignoring deadlines,Breaking tasks into smaller parts,Working last minute,Avoiding responsibility,B,Customer Service,Beginner
+598,What is the benefit of setting SMART goals?,No benefit,Clear direction and measurability,Less motivation,More confusion,B,Decision-Making,Beginner
+599,Effective time management includes:,Multitasking everything,Prioritization and focus,Overworking,No breaks,B,Professional Development,Beginner
+600,The first step in problem-solving is:,Finding solutions,Understanding the problem,Blaming others,Giving up,B,Communication,Beginner
+601,What does analytical thinking involve?,Guessing,Breaking down and examining information,Rushing to conclusions,Ignoring data,B,Leadership,Beginner
+602,How should you approach a complex problem?,Try random solutions,Analyze systematically and plan,Panic,Ask others immediately,B,Teamwork,Beginner
+603,Creative thinking means:,Being different for difference's sake,Generating novel solutions,Following only rules,Avoiding risks,B,Time Management,Beginner
+604,Self-awareness in EI means:,Being self-centered,Understanding your emotions,Ignoring feelings,Being emotional,B,Networking,Intermediate
+605,Empathy is the ability to:,Agree with everyone,Understand others' feelings,Be sympathetic without action,Judge others,B,Accountability,Intermediate
+606,Managing emotions at work helps by:,Suppressing all feelings,Responding wisely to situations,Being overly reactive,Showing weakness,B,Conflict Management,Intermediate
+607,Conflict resolution requires:,Winning at all costs,Understanding all perspectives,Avoiding confrontation,Being aggressive,B,Presentation,Intermediate
+608,How should you handle unexpected changes?,Resist them,Analyze and adapt,Blame others,Quit,B,Customer Service,Intermediate
+609,Learning agility refers to:,Speed of learning,Ability to learn and apply quickly,Memorization,IQ level,B,Decision-Making,Intermediate
+610,What is growth mindset?,Believing abilities are fixed,Believing you can develop abilities,Avoiding challenges,Fearing failure,B,Professional Development,Intermediate
+611,Resilience helps professionals by:,Avoiding failures,Bouncing back from setbacks,Giving up easily,Denying problems,B,Communication,Intermediate
+612,Win-win negotiation means:,One party gets everything,Both parties benefit,Compromise only,No agreement,B,Leadership,Intermediate
+613,Persuasion is most effective when:,Using pressure,Building trust and logic,Manipulation,Being aggressive,B,Teamwork,Intermediate
+614,Active listening in negotiation helps by:,Planning counterarguments,Understanding other's needs,Waiting to speak,Dismissing concerns,B,Time Management,Intermediate
+615,BATNA in negotiation stands for:,Best Alternative to Negotiated Agreement,Best Approach To Negotiation Aim,Basic Agreement Terms,None of above,A,Problem-Solving,Intermediate
+616,Building confidence involves:,Being overconfident,Recognizing strengths and improving weaknesses,Avoiding challenges,Ignoring feedback,B,Emotional Intelligence,Intermediate
+617,How to handle failure constructively?,Give up,Learn from it and try again,Hide it,Blame others,B,Adaptability,Intermediate
+618,Self-doubt can be managed by:,Accepting it always,Building skills and seeking support,Avoiding responsibilities,Comparing constantly,B,Negotiation,Intermediate
+619,Effective networking involves:,Collecting business cards only,Building genuine relationships,Being selfish,Transactional interactions,B,Confidence,Intermediate
+620,Professional relationships require:,Fake personas,Authenticity and consistency,Minimal interaction,Hierarchy enforcement,B,Networking,Intermediate
+621,Mentorship benefits professionals by:,Creating dependency,Providing guidance and growth,Limiting independence,Showing weakness,B,Accountability,Intermediate
+622,Taking responsibility means:,Blaming circumstances,Owning your actions and outcomes,Making excuses,Avoiding consequences,B,Conflict Management,Intermediate
+623,Accountability in teams ensures:,Confusion,Clear ownership and performance,Blame culture,Decreased productivity,B,Presentation,Intermediate
+624,How to handle mistakes professionally?,Hide them,"Acknowledge, learn, and improve",Blame others,Repeat them,B,Teamwork,Advanced
+625,Assertiveness in conflict means:,Being aggressive,Expressing needs respectfully,Being passive,Avoiding issues,B,Time Management,Advanced
+626,The best conflict resolution style often is:,Avoiding,Collaborating,Competing,Withdrawing,B,Problem-Solving,Advanced
+627,"In a heated discussion, you should:",Escalate,Take a pause and calm down,Get emotional,Ignore the other person,B,Emotional Intelligence,Advanced
+628,Good presentation structure includes:,No organization,"Opening, body, closing",Too many slides,Reading from slides,B,Adaptability,Advanced
+629,Effective presentations require:,Reading text,Engaging audience interaction,Fast delivery,Ignoring feedback,B,Negotiation,Advanced
+630,Visual aids in presentations should be:,Overcrowded,Simple and supportive,Distracting,Unnecessary,B,Confidence,Advanced
+631,Handling customer complaints should involve:,Dismissing them,Listening and solving,Being defensive,Ignoring,B,Networking,Advanced
+632,Customer satisfaction depends on:,Price alone,Empathy and service quality,Ignoring feedback,Rushing interactions,B,Accountability,Advanced
+633,Good decision-making requires:,Quick reactions only,Analysis and consultation,Following gut always,Avoiding input,B,Conflict Management,Advanced
+634,When facing difficult decisions:,Procrastinate,Gather info and evaluate options,Let others decide,Rush into action,B,Presentation,Advanced
+635,Continuous learning helps by:,Staying outdated,Adapting to change,Creating stagnation,Limiting growth,B,Customer Service,Advanced
+636,Feedback should be viewed as:,Criticism,Opportunity for improvement,Negativity,Irrelevant,B,Decision-Making,Advanced
+637,What is the most important aspect of effective communication?,Speaking loudly,Clear and active listening,Using complex words,Talking more,B,Communication,Beginner
+638,How should you handle a misunderstanding in a conversation?,Ignore it,Clarify immediately,Get defensive,End the conversation,B,Leadership,Beginner
+639,"In a presentation, maintaining eye contact demonstrates:",Nervousness,Confidence and engagement,Arrogance,Lack of preparation,B,Teamwork,Beginner
+640,What is the key to giving constructive feedback?,Being critical,Being specific and objective,Focusing on mistakes,Comparing with others,B,Time Management,Beginner
+641,A good leader should:,Control all decisions,Empower and inspire team,Avoid conflict,Work alone,B,Problem-Solving,Beginner
+642,What is emotional intelligence in leadership?,High IQ,Awareness of emotions,Ignoring feelings,Being tough,B,Emotional Intelligence,Beginner
+643,How should a leader handle team conflicts?,Avoid them,Address them promptly and fairly,Take sides,Let it resolve naturally,B,Adaptability,Beginner
+644,Delegation is important because it:,Reduces leader's work,Develops team skills,Shows weakness,Wastes time,B,Negotiation,Beginner
+645,A key quality of a good team player is:,Self-centeredness,Cooperation and mutual support,Competitiveness,Independence,B,Confidence,Beginner
+646,How should you handle disagreement with a colleague?,Ignore them,Respect their view and find common ground,Escalate immediately,Be aggressive,B,Networking,Beginner
+647,What is the best approach to group projects?,Do all work yourself,Divide tasks and support each other,Let others do it,Minimize involvement,B,Accountability,Beginner
+648,Cross-functional teamwork helps because:,Creates confusion,Brings diverse perspectives,Wastes time,Causes conflicts,B,Conflict Management,Beginner
+649,The Eisenhower Matrix prioritizes tasks by:,Urgency only,Importance and urgency,Size,Random selection,B,Presentation,Beginner
+650,Procrastination can be overcome by:,Ignoring deadlines,Breaking tasks into smaller parts,Working last minute,Avoiding responsibility,B,Customer Service,Beginner
+651,What is the benefit of setting SMART goals?,No benefit,Clear direction and measurability,Less motivation,More confusion,B,Decision-Making,Beginner
+652,Effective time management includes:,Multitasking everything,Prioritization and focus,Overworking,No breaks,B,Professional Development,Beginner
+653,The first step in problem-solving is:,Finding solutions,Understanding the problem,Blaming others,Giving up,B,Communication,Beginner
+654,What does analytical thinking involve?,Guessing,Breaking down and examining information,Rushing to conclusions,Ignoring data,B,Leadership,Beginner
+655,How should you approach a complex problem?,Try random solutions,Analyze systematically and plan,Panic,Ask others immediately,B,Teamwork,Beginner
+656,Creative thinking means:,Being different for difference's sake,Generating novel solutions,Following only rules,Avoiding risks,B,Time Management,Beginner
+657,Self-awareness in EI means:,Being self-centered,Understanding your emotions,Ignoring feelings,Being emotional,B,Networking,Intermediate
+658,Empathy is the ability to:,Agree with everyone,Understand others' feelings,Be sympathetic without action,Judge others,B,Accountability,Intermediate
+659,Managing emotions at work helps by:,Suppressing all feelings,Responding wisely to situations,Being overly reactive,Showing weakness,B,Conflict Management,Intermediate
+660,Conflict resolution requires:,Winning at all costs,Understanding all perspectives,Avoiding confrontation,Being aggressive,B,Presentation,Intermediate
+661,How should you handle unexpected changes?,Resist them,Analyze and adapt,Blame others,Quit,B,Customer Service,Intermediate
+662,Learning agility refers to:,Speed of learning,Ability to learn and apply quickly,Memorization,IQ level,B,Decision-Making,Intermediate
+663,What is growth mindset?,Believing abilities are fixed,Believing you can develop abilities,Avoiding challenges,Fearing failure,B,Professional Development,Intermediate
+664,Resilience helps professionals by:,Avoiding failures,Bouncing back from setbacks,Giving up easily,Denying problems,B,Communication,Intermediate
+665,Win-win negotiation means:,One party gets everything,Both parties benefit,Compromise only,No agreement,B,Leadership,Intermediate
+666,Persuasion is most effective when:,Using pressure,Building trust and logic,Manipulation,Being aggressive,B,Teamwork,Intermediate
+667,Active listening in negotiation helps by:,Planning counterarguments,Understanding other's needs,Waiting to speak,Dismissing concerns,B,Time Management,Intermediate
+668,BATNA in negotiation stands for:,Best Alternative to Negotiated Agreement,Best Approach To Negotiation Aim,Basic Agreement Terms,None of above,A,Problem-Solving,Intermediate
+669,Building confidence involves:,Being overconfident,Recognizing strengths and improving weaknesses,Avoiding challenges,Ignoring feedback,B,Emotional Intelligence,Intermediate
+670,How to handle failure constructively?,Give up,Learn from it and try again,Hide it,Blame others,B,Adaptability,Intermediate
+671,Self-doubt can be managed by:,Accepting it always,Building skills and seeking support,Avoiding responsibilities,Comparing constantly,B,Negotiation,Intermediate
+672,Effective networking involves:,Collecting business cards only,Building genuine relationships,Being selfish,Transactional interactions,B,Confidence,Intermediate
+673,Professional relationships require:,Fake personas,Authenticity and consistency,Minimal interaction,Hierarchy enforcement,B,Networking,Intermediate
+674,Mentorship benefits professionals by:,Creating dependency,Providing guidance and growth,Limiting independence,Showing weakness,B,Accountability,Intermediate
+675,Taking responsibility means:,Blaming circumstances,Owning your actions and outcomes,Making excuses,Avoiding consequences,B,Conflict Management,Intermediate
+676,Accountability in teams ensures:,Confusion,Clear ownership and performance,Blame culture,Decreased productivity,B,Presentation,Intermediate
+677,How to handle mistakes professionally?,Hide them,"Acknowledge, learn, and improve",Blame others,Repeat them,B,Teamwork,Advanced
+678,Assertiveness in conflict means:,Being aggressive,Expressing needs respectfully,Being passive,Avoiding issues,B,Time Management,Advanced
+679,The best conflict resolution style often is:,Avoiding,Collaborating,Competing,Withdrawing,B,Problem-Solving,Advanced
+680,"In a heated discussion, you should:",Escalate,Take a pause and calm down,Get emotional,Ignore the other person,B,Emotional Intelligence,Advanced
+681,Good presentation structure includes:,No organization,"Opening, body, closing",Too many slides,Reading from slides,B,Adaptability,Advanced
+682,Effective presentations require:,Reading text,Engaging audience interaction,Fast delivery,Ignoring feedback,B,Negotiation,Advanced
+683,Visual aids in presentations should be:,Overcrowded,Simple and supportive,Distracting,Unnecessary,B,Confidence,Advanced
+684,Handling customer complaints should involve:,Dismissing them,Listening and solving,Being defensive,Ignoring,B,Networking,Advanced
+685,Customer satisfaction depends on:,Price alone,Empathy and service quality,Ignoring feedback,Rushing interactions,B,Accountability,Advanced
+686,Good decision-making requires:,Quick reactions only,Analysis and consultation,Following gut always,Avoiding input,B,Conflict Management,Advanced
+687,When facing difficult decisions:,Procrastinate,Gather info and evaluate options,Let others decide,Rush into action,B,Presentation,Advanced
+688,Continuous learning helps by:,Staying outdated,Adapting to change,Creating stagnation,Limiting growth,B,Customer Service,Advanced
+689,Feedback should be viewed as:,Criticism,Opportunity for improvement,Negativity,Irrelevant,B,Decision-Making,Advanced
+690,What is the most important aspect of effective communication?,Speaking loudly,Clear and active listening,Using complex words,Talking more,B,Communication,Beginner
+691,How should you handle a misunderstanding in a conversation?,Ignore it,Clarify immediately,Get defensive,End the conversation,B,Leadership,Beginner
+692,"In a presentation, maintaining eye contact demonstrates:",Nervousness,Confidence and engagement,Arrogance,Lack of preparation,B,Teamwork,Beginner
+693,What is the key to giving constructive feedback?,Being critical,Being specific and objective,Focusing on mistakes,Comparing with others,B,Time Management,Beginner
+694,A good leader should:,Control all decisions,Empower and inspire team,Avoid conflict,Work alone,B,Problem-Solving,Beginner
+695,What is emotional intelligence in leadership?,High IQ,Awareness of emotions,Ignoring feelings,Being tough,B,Emotional Intelligence,Beginner
+696,How should a leader handle team conflicts?,Avoid them,Address them promptly and fairly,Take sides,Let it resolve naturally,B,Adaptability,Beginner
+697,Delegation is important because it:,Reduces leader's work,Develops team skills,Shows weakness,Wastes time,B,Negotiation,Beginner
+698,A key quality of a good team player is:,Self-centeredness,Cooperation and mutual support,Competitiveness,Independence,B,Confidence,Beginner
+699,How should you handle disagreement with a colleague?,Ignore them,Respect their view and find common ground,Escalate immediately,Be aggressive,B,Networking,Beginner
+700,What is the best approach to group projects?,Do all work yourself,Divide tasks and support each other,Let others do it,Minimize involvement,B,Accountability,Beginner
+701,Cross-functional teamwork helps because:,Creates confusion,Brings diverse perspectives,Wastes time,Causes conflicts,B,Conflict Management,Beginner
+702,The Eisenhower Matrix prioritizes tasks by:,Urgency only,Importance and urgency,Size,Random selection,B,Presentation,Beginner
+703,Procrastination can be overcome by:,Ignoring deadlines,Breaking tasks into smaller parts,Working last minute,Avoiding responsibility,B,Customer Service,Beginner
+704,What is the benefit of setting SMART goals?,No benefit,Clear direction and measurability,Less motivation,More confusion,B,Decision-Making,Beginner
+705,Effective time management includes:,Multitasking everything,Prioritization and focus,Overworking,No breaks,B,Professional Development,Beginner
+706,The first step in problem-solving is:,Finding solutions,Understanding the problem,Blaming others,Giving up,B,Communication,Beginner
+707,What does analytical thinking involve?,Guessing,Breaking down and examining information,Rushing to conclusions,Ignoring data,B,Leadership,Beginner
+708,How should you approach a complex problem?,Try random solutions,Analyze systematically and plan,Panic,Ask others immediately,B,Teamwork,Beginner
+709,Creative thinking means:,Being different for difference's sake,Generating novel solutions,Following only rules,Avoiding risks,B,Time Management,Beginner
+710,Self-awareness in EI means:,Being self-centered,Understanding your emotions,Ignoring feelings,Being emotional,B,Networking,Intermediate
+711,Empathy is the ability to:,Agree with everyone,Understand others' feelings,Be sympathetic without action,Judge others,B,Accountability,Intermediate
+712,Managing emotions at work helps by:,Suppressing all feelings,Responding wisely to situations,Being overly reactive,Showing weakness,B,Conflict Management,Intermediate
+713,Conflict resolution requires:,Winning at all costs,Understanding all perspectives,Avoiding confrontation,Being aggressive,B,Presentation,Intermediate
+714,How should you handle unexpected changes?,Resist them,Analyze and adapt,Blame others,Quit,B,Customer Service,Intermediate
+715,Learning agility refers to:,Speed of learning,Ability to learn and apply quickly,Memorization,IQ level,B,Decision-Making,Intermediate
+716,What is growth mindset?,Believing abilities are fixed,Believing you can develop abilities,Avoiding challenges,Fearing failure,B,Professional Development,Intermediate
+717,Resilience helps professionals by:,Avoiding failures,Bouncing back from setbacks,Giving up easily,Denying problems,B,Communication,Intermediate
+718,Win-win negotiation means:,One party gets everything,Both parties benefit,Compromise only,No agreement,B,Leadership,Intermediate
+719,Persuasion is most effective when:,Using pressure,Building trust and logic,Manipulation,Being aggressive,B,Teamwork,Intermediate
+720,Active listening in negotiation helps by:,Planning counterarguments,Understanding other's needs,Waiting to speak,Dismissing concerns,B,Time Management,Intermediate
+721,BATNA in negotiation stands for:,Best Alternative to Negotiated Agreement,Best Approach To Negotiation Aim,Basic Agreement Terms,None of above,A,Problem-Solving,Intermediate
+722,Building confidence involves:,Being overconfident,Recognizing strengths and improving weaknesses,Avoiding challenges,Ignoring feedback,B,Emotional Intelligence,Intermediate
+723,How to handle failure constructively?,Give up,Learn from it and try again,Hide it,Blame others,B,Adaptability,Intermediate
+724,Self-doubt can be managed by:,Accepting it always,Building skills and seeking support,Avoiding responsibilities,Comparing constantly,B,Negotiation,Intermediate
+725,Effective networking involves:,Collecting business cards only,Building genuine relationships,Being selfish,Transactional interactions,B,Confidence,Intermediate
+726,Professional relationships require:,Fake personas,Authenticity and consistency,Minimal interaction,Hierarchy enforcement,B,Networking,Intermediate
+727,Mentorship benefits professionals by:,Creating dependency,Providing guidance and growth,Limiting independence,Showing weakness,B,Accountability,Intermediate
+728,Taking responsibility means:,Blaming circumstances,Owning your actions and outcomes,Making excuses,Avoiding consequences,B,Conflict Management,Intermediate
+729,Accountability in teams ensures:,Confusion,Clear ownership and performance,Blame culture,Decreased productivity,B,Presentation,Intermediate
+730,How to handle mistakes professionally?,Hide them,"Acknowledge, learn, and improve",Blame others,Repeat them,B,Teamwork,Advanced
+731,Assertiveness in conflict means:,Being aggressive,Expressing needs respectfully,Being passive,Avoiding issues,B,Time Management,Advanced
+732,The best conflict resolution style often is:,Avoiding,Collaborating,Competing,Withdrawing,B,Problem-Solving,Advanced
+733,"In a heated discussion, you should:",Escalate,Take a pause and calm down,Get emotional,Ignore the other person,B,Emotional Intelligence,Advanced
+734,Good presentation structure includes:,No organization,"Opening, body, closing",Too many slides,Reading from slides,B,Adaptability,Advanced
+735,Effective presentations require:,Reading text,Engaging audience interaction,Fast delivery,Ignoring feedback,B,Negotiation,Advanced
+736,Visual aids in presentations should be:,Overcrowded,Simple and supportive,Distracting,Unnecessary,B,Confidence,Advanced
+737,Handling customer complaints should involve:,Dismissing them,Listening and solving,Being defensive,Ignoring,B,Networking,Advanced
+738,Customer satisfaction depends on:,Price alone,Empathy and service quality,Ignoring feedback,Rushing interactions,B,Accountability,Advanced
+739,Good decision-making requires:,Quick reactions only,Analysis and consultation,Following gut always,Avoiding input,B,Conflict Management,Advanced
+740,When facing difficult decisions:,Procrastinate,Gather info and evaluate options,Let others decide,Rush into action,B,Presentation,Advanced
+741,Continuous learning helps by:,Staying outdated,Adapting to change,Creating stagnation,Limiting growth,B,Customer Service,Advanced
+742,Feedback should be viewed as:,Criticism,Opportunity for improvement,Negativity,Irrelevant,B,Decision-Making,Advanced
+743,What is the most important aspect of effective communication?,Speaking loudly,Clear and active listening,Using complex words,Talking more,B,Communication,Beginner
+744,How should you handle a misunderstanding in a conversation?,Ignore it,Clarify immediately,Get defensive,End the conversation,B,Leadership,Beginner
+745,"In a presentation, maintaining eye contact demonstrates:",Nervousness,Confidence and engagement,Arrogance,Lack of preparation,B,Teamwork,Beginner
+746,What is the key to giving constructive feedback?,Being critical,Being specific and objective,Focusing on mistakes,Comparing with others,B,Time Management,Beginner
+747,A good leader should:,Control all decisions,Empower and inspire team,Avoid conflict,Work alone,B,Problem-Solving,Beginner
+748,What is emotional intelligence in leadership?,High IQ,Awareness of emotions,Ignoring feelings,Being tough,B,Emotional Intelligence,Beginner
+749,How should a leader handle team conflicts?,Avoid them,Address them promptly and fairly,Take sides,Let it resolve naturally,B,Adaptability,Beginner
+750,Delegation is important because it:,Reduces leader's work,Develops team skills,Shows weakness,Wastes time,B,Negotiation,Beginner
+751,A key quality of a good team player is:,Self-centeredness,Cooperation and mutual support,Competitiveness,Independence,B,Confidence,Beginner
+752,How should you handle disagreement with a colleague?,Ignore them,Respect their view and find common ground,Escalate immediately,Be aggressive,B,Networking,Beginner
+753,What is the best approach to group projects?,Do all work yourself,Divide tasks and support each other,Let others do it,Minimize involvement,B,Accountability,Beginner
+754,Cross-functional teamwork helps because:,Creates confusion,Brings diverse perspectives,Wastes time,Causes conflicts,B,Conflict Management,Beginner
+755,The Eisenhower Matrix prioritizes tasks by:,Urgency only,Importance and urgency,Size,Random selection,B,Presentation,Beginner
+756,Procrastination can be overcome by:,Ignoring deadlines,Breaking tasks into smaller parts,Working last minute,Avoiding responsibility,B,Customer Service,Beginner
+757,What is the benefit of setting SMART goals?,No benefit,Clear direction and measurability,Less motivation,More confusion,B,Decision-Making,Beginner
+758,Effective time management includes:,Multitasking everything,Prioritization and focus,Overworking,No breaks,B,Professional Development,Beginner
+759,The first step in problem-solving is:,Finding solutions,Understanding the problem,Blaming others,Giving up,B,Communication,Beginner
+760,What does analytical thinking involve?,Guessing,Breaking down and examining information,Rushing to conclusions,Ignoring data,B,Leadership,Beginner
+761,How should you approach a complex problem?,Try random solutions,Analyze systematically and plan,Panic,Ask others immediately,B,Teamwork,Beginner
+762,Creative thinking means:,Being different for difference's sake,Generating novel solutions,Following only rules,Avoiding risks,B,Time Management,Beginner
+763,Self-awareness in EI means:,Being self-centered,Understanding your emotions,Ignoring feelings,Being emotional,B,Networking,Intermediate
+764,Empathy is the ability to:,Agree with everyone,Understand others' feelings,Be sympathetic without action,Judge others,B,Accountability,Intermediate
+765,Managing emotions at work helps by:,Suppressing all feelings,Responding wisely to situations,Being overly reactive,Showing weakness,B,Conflict Management,Intermediate
+766,Conflict resolution requires:,Winning at all costs,Understanding all perspectives,Avoiding confrontation,Being aggressive,B,Presentation,Intermediate
+767,How should you handle unexpected changes?,Resist them,Analyze and adapt,Blame others,Quit,B,Customer Service,Intermediate
+768,Learning agility refers to:,Speed of learning,Ability to learn and apply quickly,Memorization,IQ level,B,Decision-Making,Intermediate
+769,What is growth mindset?,Believing abilities are fixed,Believing you can develop abilities,Avoiding challenges,Fearing failure,B,Professional Development,Intermediate
+770,Resilience helps professionals by:,Avoiding failures,Bouncing back from setbacks,Giving up easily,Denying problems,B,Communication,Intermediate
+771,Win-win negotiation means:,One party gets everything,Both parties benefit,Compromise only,No agreement,B,Leadership,Intermediate
+772,Persuasion is most effective when:,Using pressure,Building trust and logic,Manipulation,Being aggressive,B,Teamwork,Intermediate
+773,Active listening in negotiation helps by:,Planning counterarguments,Understanding other's needs,Waiting to speak,Dismissing concerns,B,Time Management,Intermediate
+774,BATNA in negotiation stands for:,Best Alternative to Negotiated Agreement,Best Approach To Negotiation Aim,Basic Agreement Terms,None of above,A,Problem-Solving,Intermediate
+775,Building confidence involves:,Being overconfident,Recognizing strengths and improving weaknesses,Avoiding challenges,Ignoring feedback,B,Emotional Intelligence,Intermediate
+776,How to handle failure constructively?,Give up,Learn from it and try again,Hide it,Blame others,B,Adaptability,Intermediate
+777,Self-doubt can be managed by:,Accepting it always,Building skills and seeking support,Avoiding responsibilities,Comparing constantly,B,Negotiation,Intermediate
+778,Effective networking involves:,Collecting business cards only,Building genuine relationships,Being selfish,Transactional interactions,B,Confidence,Intermediate
+779,Professional relationships require:,Fake personas,Authenticity and consistency,Minimal interaction,Hierarchy enforcement,B,Networking,Intermediate
+780,Mentorship benefits professionals by:,Creating dependency,Providing guidance and growth,Limiting independence,Showing weakness,B,Accountability,Intermediate
+781,Taking responsibility means:,Blaming circumstances,Owning your actions and outcomes,Making excuses,Avoiding consequences,B,Conflict Management,Intermediate
+782,Accountability in teams ensures:,Confusion,Clear ownership and performance,Blame culture,Decreased productivity,B,Presentation,Intermediate
+783,How to handle mistakes professionally?,Hide them,"Acknowledge, learn, and improve",Blame others,Repeat them,B,Teamwork,Advanced
+784,Assertiveness in conflict means:,Being aggressive,Expressing needs respectfully,Being passive,Avoiding issues,B,Time Management,Advanced
+785,The best conflict resolution style often is:,Avoiding,Collaborating,Competing,Withdrawing,B,Problem-Solving,Advanced
+786,"In a heated discussion, you should:",Escalate,Take a pause and calm down,Get emotional,Ignore the other person,B,Emotional Intelligence,Advanced
+787,Good presentation structure includes:,No organization,"Opening, body, closing",Too many slides,Reading from slides,B,Adaptability,Advanced
+788,Effective presentations require:,Reading text,Engaging audience interaction,Fast delivery,Ignoring feedback,B,Negotiation,Advanced
+789,Visual aids in presentations should be:,Overcrowded,Simple and supportive,Distracting,Unnecessary,B,Confidence,Advanced
+790,Handling customer complaints should involve:,Dismissing them,Listening and solving,Being defensive,Ignoring,B,Networking,Advanced
+791,Customer satisfaction depends on:,Price alone,Empathy and service quality,Ignoring feedback,Rushing interactions,B,Accountability,Advanced
+792,Good decision-making requires:,Quick reactions only,Analysis and consultation,Following gut always,Avoiding input,B,Conflict Management,Advanced
+793,When facing difficult decisions:,Procrastinate,Gather info and evaluate options,Let others decide,Rush into action,B,Presentation,Advanced
+794,Continuous learning helps by:,Staying outdated,Adapting to change,Creating stagnation,Limiting growth,B,Customer Service,Advanced
+795,Feedback should be viewed as:,Criticism,Opportunity for improvement,Negativity,Irrelevant,B,Decision-Making,Advanced
+796,What is the most important aspect of effective communication?,Speaking loudly,Clear and active listening,Using complex words,Talking more,B,Communication,Beginner
+797,How should you handle a misunderstanding in a conversation?,Ignore it,Clarify immediately,Get defensive,End the conversation,B,Leadership,Beginner
+798,"In a presentation, maintaining eye contact demonstrates:",Nervousness,Confidence and engagement,Arrogance,Lack of preparation,B,Teamwork,Beginner
+799,What is the key to giving constructive feedback?,Being critical,Being specific and objective,Focusing on mistakes,Comparing with others,B,Time Management,Beginner
+800,A good leader should:,Control all decisions,Empower and inspire team,Avoid conflict,Work alone,B,Problem-Solving,Beginner
+801,What is emotional intelligence in leadership?,High IQ,Awareness of emotions,Ignoring feelings,Being tough,B,Emotional Intelligence,Beginner
+802,How should a leader handle team conflicts?,Avoid them,Address them promptly and fairly,Take sides,Let it resolve naturally,B,Adaptability,Beginner
+803,Delegation is important because it:,Reduces leader's work,Develops team skills,Shows weakness,Wastes time,B,Negotiation,Beginner
+804,A key quality of a good team player is:,Self-centeredness,Cooperation and mutual support,Competitiveness,Independence,B,Confidence,Beginner
+805,How should you handle disagreement with a colleague?,Ignore them,Respect their view and find common ground,Escalate immediately,Be aggressive,B,Networking,Beginner
+806,What is the best approach to group projects?,Do all work yourself,Divide tasks and support each other,Let others do it,Minimize involvement,B,Accountability,Beginner
+807,Cross-functional teamwork helps because:,Creates confusion,Brings diverse perspectives,Wastes time,Causes conflicts,B,Conflict Management,Beginner
+808,The Eisenhower Matrix prioritizes tasks by:,Urgency only,Importance and urgency,Size,Random selection,B,Presentation,Beginner
+809,Procrastination can be overcome by:,Ignoring deadlines,Breaking tasks into smaller parts,Working last minute,Avoiding responsibility,B,Customer Service,Beginner
+810,What is the benefit of setting SMART goals?,No benefit,Clear direction and measurability,Less motivation,More confusion,B,Decision-Making,Beginner
+811,Effective time management includes:,Multitasking everything,Prioritization and focus,Overworking,No breaks,B,Professional Development,Beginner
+812,The first step in problem-solving is:,Finding solutions,Understanding the problem,Blaming others,Giving up,B,Communication,Beginner
+813,What does analytical thinking involve?,Guessing,Breaking down and examining information,Rushing to conclusions,Ignoring data,B,Leadership,Beginner
+814,How should you approach a complex problem?,Try random solutions,Analyze systematically and plan,Panic,Ask others immediately,B,Teamwork,Beginner
+815,Creative thinking means:,Being different for difference's sake,Generating novel solutions,Following only rules,Avoiding risks,B,Time Management,Beginner
+816,Self-awareness in EI means:,Being self-centered,Understanding your emotions,Ignoring feelings,Being emotional,B,Networking,Intermediate
+817,Empathy is the ability to:,Agree with everyone,Understand others' feelings,Be sympathetic without action,Judge others,B,Accountability,Intermediate
+818,Managing emotions at work helps by:,Suppressing all feelings,Responding wisely to situations,Being overly reactive,Showing weakness,B,Conflict Management,Intermediate
+819,Conflict resolution requires:,Winning at all costs,Understanding all perspectives,Avoiding confrontation,Being aggressive,B,Presentation,Intermediate
+820,How should you handle unexpected changes?,Resist them,Analyze and adapt,Blame others,Quit,B,Customer Service,Intermediate
+821,Learning agility refers to:,Speed of learning,Ability to learn and apply quickly,Memorization,IQ level,B,Decision-Making,Intermediate
+822,What is growth mindset?,Believing abilities are fixed,Believing you can develop abilities,Avoiding challenges,Fearing failure,B,Professional Development,Intermediate
+823,Resilience helps professionals by:,Avoiding failures,Bouncing back from setbacks,Giving up easily,Denying problems,B,Communication,Intermediate
+824,Win-win negotiation means:,One party gets everything,Both parties benefit,Compromise only,No agreement,B,Leadership,Intermediate
+825,Persuasion is most effective when:,Using pressure,Building trust and logic,Manipulation,Being aggressive,B,Teamwork,Intermediate
+826,Active listening in negotiation helps by:,Planning counterarguments,Understanding other's needs,Waiting to speak,Dismissing concerns,B,Time Management,Intermediate
+827,BATNA in negotiation stands for:,Best Alternative to Negotiated Agreement,Best Approach To Negotiation Aim,Basic Agreement Terms,None of above,A,Problem-Solving,Intermediate
+828,Building confidence involves:,Being overconfident,Recognizing strengths and improving weaknesses,Avoiding challenges,Ignoring feedback,B,Emotional Intelligence,Intermediate
+829,How to handle failure constructively?,Give up,Learn from it and try again,Hide it,Blame others,B,Adaptability,Intermediate
+830,Self-doubt can be managed by:,Accepting it always,Building skills and seeking support,Avoiding responsibilities,Comparing constantly,B,Negotiation,Intermediate
+831,Effective networking involves:,Collecting business cards only,Building genuine relationships,Being selfish,Transactional interactions,B,Confidence,Intermediate
+832,Professional relationships require:,Fake personas,Authenticity and consistency,Minimal interaction,Hierarchy enforcement,B,Networking,Intermediate
+833,Mentorship benefits professionals by:,Creating dependency,Providing guidance and growth,Limiting independence,Showing weakness,B,Accountability,Intermediate
+834,Taking responsibility means:,Blaming circumstances,Owning your actions and outcomes,Making excuses,Avoiding consequences,B,Conflict Management,Intermediate
+835,Accountability in teams ensures:,Confusion,Clear ownership and performance,Blame culture,Decreased productivity,B,Presentation,Intermediate
+836,How to handle mistakes professionally?,Hide them,"Acknowledge, learn, and improve",Blame others,Repeat them,B,Teamwork,Advanced
+837,Assertiveness in conflict means:,Being aggressive,Expressing needs respectfully,Being passive,Avoiding issues,B,Time Management,Advanced
+838,The best conflict resolution style often is:,Avoiding,Collaborating,Competing,Withdrawing,B,Problem-Solving,Advanced
+839,"In a heated discussion, you should:",Escalate,Take a pause and calm down,Get emotional,Ignore the other person,B,Emotional Intelligence,Advanced
+840,Good presentation structure includes:,No organization,"Opening, body, closing",Too many slides,Reading from slides,B,Adaptability,Advanced
+841,Effective presentations require:,Reading text,Engaging audience interaction,Fast delivery,Ignoring feedback,B,Negotiation,Advanced
+842,Visual aids in presentations should be:,Overcrowded,Simple and supportive,Distracting,Unnecessary,B,Confidence,Advanced
+843,Handling customer complaints should involve:,Dismissing them,Listening and solving,Being defensive,Ignoring,B,Networking,Advanced
+844,Customer satisfaction depends on:,Price alone,Empathy and service quality,Ignoring feedback,Rushing interactions,B,Accountability,Advanced
+845,Good decision-making requires:,Quick reactions only,Analysis and consultation,Following gut always,Avoiding input,B,Conflict Management,Advanced
+846,When facing difficult decisions:,Procrastinate,Gather info and evaluate options,Let others decide,Rush into action,B,Presentation,Advanced
+847,Continuous learning helps by:,Staying outdated,Adapting to change,Creating stagnation,Limiting growth,B,Customer Service,Advanced
+848,Feedback should be viewed as:,Criticism,Opportunity for improvement,Negativity,Irrelevant,B,Decision-Making,Advanced
+849,What is the most important aspect of effective communication?,Speaking loudly,Clear and active listening,Using complex words,Talking more,B,Communication,Beginner
+850,How should you handle a misunderstanding in a conversation?,Ignore it,Clarify immediately,Get defensive,End the conversation,B,Leadership,Beginner
+851,"In a presentation, maintaining eye contact demonstrates:",Nervousness,Confidence and engagement,Arrogance,Lack of preparation,B,Teamwork,Beginner
+852,What is the key to giving constructive feedback?,Being critical,Being specific and objective,Focusing on mistakes,Comparing with others,B,Time Management,Beginner
+853,A good leader should:,Control all decisions,Empower and inspire team,Avoid conflict,Work alone,B,Problem-Solving,Beginner
+854,What is emotional intelligence in leadership?,High IQ,Awareness of emotions,Ignoring feelings,Being tough,B,Emotional Intelligence,Beginner
+855,How should a leader handle team conflicts?,Avoid them,Address them promptly and fairly,Take sides,Let it resolve naturally,B,Adaptability,Beginner
+856,Delegation is important because it:,Reduces leader's work,Develops team skills,Shows weakness,Wastes time,B,Negotiation,Beginner
+857,A key quality of a good team player is:,Self-centeredness,Cooperation and mutual support,Competitiveness,Independence,B,Confidence,Beginner
+858,How should you handle disagreement with a colleague?,Ignore them,Respect their view and find common ground,Escalate immediately,Be aggressive,B,Networking,Beginner
+859,What is the best approach to group projects?,Do all work yourself,Divide tasks and support each other,Let others do it,Minimize involvement,B,Accountability,Beginner
+860,Cross-functional teamwork helps because:,Creates confusion,Brings diverse perspectives,Wastes time,Causes conflicts,B,Conflict Management,Beginner
+861,The Eisenhower Matrix prioritizes tasks by:,Urgency only,Importance and urgency,Size,Random selection,B,Presentation,Beginner
+862,Procrastination can be overcome by:,Ignoring deadlines,Breaking tasks into smaller parts,Working last minute,Avoiding responsibility,B,Customer Service,Beginner
+863,What is the benefit of setting SMART goals?,No benefit,Clear direction and measurability,Less motivation,More confusion,B,Decision-Making,Beginner
+864,Effective time management includes:,Multitasking everything,Prioritization and focus,Overworking,No breaks,B,Professional Development,Beginner
+865,The first step in problem-solving is:,Finding solutions,Understanding the problem,Blaming others,Giving up,B,Communication,Beginner
+866,What does analytical thinking involve?,Guessing,Breaking down and examining information,Rushing to conclusions,Ignoring data,B,Leadership,Beginner
+867,How should you approach a complex problem?,Try random solutions,Analyze systematically and plan,Panic,Ask others immediately,B,Teamwork,Beginner
+868,Creative thinking means:,Being different for difference's sake,Generating novel solutions,Following only rules,Avoiding risks,B,Time Management,Beginner
+869,Self-awareness in EI means:,Being self-centered,Understanding your emotions,Ignoring feelings,Being emotional,B,Networking,Intermediate
+870,Empathy is the ability to:,Agree with everyone,Understand others' feelings,Be sympathetic without action,Judge others,B,Accountability,Intermediate
+871,Managing emotions at work helps by:,Suppressing all feelings,Responding wisely to situations,Being overly reactive,Showing weakness,B,Conflict Management,Intermediate
+872,Conflict resolution requires:,Winning at all costs,Understanding all perspectives,Avoiding confrontation,Being aggressive,B,Presentation,Intermediate
+873,How should you handle unexpected changes?,Resist them,Analyze and adapt,Blame others,Quit,B,Customer Service,Intermediate
+874,Learning agility refers to:,Speed of learning,Ability to learn and apply quickly,Memorization,IQ level,B,Decision-Making,Intermediate
+875,What is growth mindset?,Believing abilities are fixed,Believing you can develop abilities,Avoiding challenges,Fearing failure,B,Professional Development,Intermediate
+876,Resilience helps professionals by:,Avoiding failures,Bouncing back from setbacks,Giving up easily,Denying problems,B,Communication,Intermediate
+877,Win-win negotiation means:,One party gets everything,Both parties benefit,Compromise only,No agreement,B,Leadership,Intermediate
+878,Persuasion is most effective when:,Using pressure,Building trust and logic,Manipulation,Being aggressive,B,Teamwork,Intermediate
+879,Active listening in negotiation helps by:,Planning counterarguments,Understanding other's needs,Waiting to speak,Dismissing concerns,B,Time Management,Intermediate
+880,BATNA in negotiation stands for:,Best Alternative to Negotiated Agreement,Best Approach To Negotiation Aim,Basic Agreement Terms,None of above,A,Problem-Solving,Intermediate
+881,Building confidence involves:,Being overconfident,Recognizing strengths and improving weaknesses,Avoiding challenges,Ignoring feedback,B,Emotional Intelligence,Intermediate
+882,How to handle failure constructively?,Give up,Learn from it and try again,Hide it,Blame others,B,Adaptability,Intermediate
+883,Self-doubt can be managed by:,Accepting it always,Building skills and seeking support,Avoiding responsibilities,Comparing constantly,B,Negotiation,Intermediate
+884,Effective networking involves:,Collecting business cards only,Building genuine relationships,Being selfish,Transactional interactions,B,Confidence,Intermediate
+885,Professional relationships require:,Fake personas,Authenticity and consistency,Minimal interaction,Hierarchy enforcement,B,Networking,Intermediate
+886,Mentorship benefits professionals by:,Creating dependency,Providing guidance and growth,Limiting independence,Showing weakness,B,Accountability,Intermediate
+887,Taking responsibility means:,Blaming circumstances,Owning your actions and outcomes,Making excuses,Avoiding consequences,B,Conflict Management,Intermediate
+888,Accountability in teams ensures:,Confusion,Clear ownership and performance,Blame culture,Decreased productivity,B,Presentation,Intermediate
+889,How to handle mistakes professionally?,Hide them,"Acknowledge, learn, and improve",Blame others,Repeat them,B,Teamwork,Advanced
+890,Assertiveness in conflict means:,Being aggressive,Expressing needs respectfully,Being passive,Avoiding issues,B,Time Management,Advanced
+891,The best conflict resolution style often is:,Avoiding,Collaborating,Competing,Withdrawing,B,Problem-Solving,Advanced
+892,"In a heated discussion, you should:",Escalate,Take a pause and calm down,Get emotional,Ignore the other person,B,Emotional Intelligence,Advanced
+893,Good presentation structure includes:,No organization,"Opening, body, closing",Too many slides,Reading from slides,B,Adaptability,Advanced
+894,Effective presentations require:,Reading text,Engaging audience interaction,Fast delivery,Ignoring feedback,B,Negotiation,Advanced
+895,Visual aids in presentations should be:,Overcrowded,Simple and supportive,Distracting,Unnecessary,B,Confidence,Advanced
+896,Handling customer complaints should involve:,Dismissing them,Listening and solving,Being defensive,Ignoring,B,Networking,Advanced
+897,Customer satisfaction depends on:,Price alone,Empathy and service quality,Ignoring feedback,Rushing interactions,B,Accountability,Advanced
+898,Good decision-making requires:,Quick reactions only,Analysis and consultation,Following gut always,Avoiding input,B,Conflict Management,Advanced
+899,When facing difficult decisions:,Procrastinate,Gather info and evaluate options,Let others decide,Rush into action,B,Presentation,Advanced
+900,Continuous learning helps by:,Staying outdated,Adapting to change,Creating stagnation,Limiting growth,B,Customer Service,Advanced
+901,Feedback should be viewed as:,Criticism,Opportunity for improvement,Negativity,Irrelevant,B,Decision-Making,Advanced
+902,What is the most important aspect of effective communication?,Speaking loudly,Clear and active listening,Using complex words,Talking more,B,Communication,Beginner
+903,How should you handle a misunderstanding in a conversation?,Ignore it,Clarify immediately,Get defensive,End the conversation,B,Leadership,Beginner
+904,"In a presentation, maintaining eye contact demonstrates:",Nervousness,Confidence and engagement,Arrogance,Lack of preparation,B,Teamwork,Beginner
+905,What is the key to giving constructive feedback?,Being critical,Being specific and objective,Focusing on mistakes,Comparing with others,B,Time Management,Beginner
+906,A good leader should:,Control all decisions,Empower and inspire team,Avoid conflict,Work alone,B,Problem-Solving,Beginner
+907,What is emotional intelligence in leadership?,High IQ,Awareness of emotions,Ignoring feelings,Being tough,B,Emotional Intelligence,Beginner
+908,How should a leader handle team conflicts?,Avoid them,Address them promptly and fairly,Take sides,Let it resolve naturally,B,Adaptability,Beginner
+909,Delegation is important because it:,Reduces leader's work,Develops team skills,Shows weakness,Wastes time,B,Negotiation,Beginner
+910,A key quality of a good team player is:,Self-centeredness,Cooperation and mutual support,Competitiveness,Independence,B,Confidence,Beginner
+911,How should you handle disagreement with a colleague?,Ignore them,Respect their view and find common ground,Escalate immediately,Be aggressive,B,Networking,Beginner
+912,What is the best approach to group projects?,Do all work yourself,Divide tasks and support each other,Let others do it,Minimize involvement,B,Accountability,Beginner
+913,Cross-functional teamwork helps because:,Creates confusion,Brings diverse perspectives,Wastes time,Causes conflicts,B,Conflict Management,Beginner
+914,The Eisenhower Matrix prioritizes tasks by:,Urgency only,Importance and urgency,Size,Random selection,B,Presentation,Beginner
+915,Procrastination can be overcome by:,Ignoring deadlines,Breaking tasks into smaller parts,Working last minute,Avoiding responsibility,B,Customer Service,Beginner
+916,What is the benefit of setting SMART goals?,No benefit,Clear direction and measurability,Less motivation,More confusion,B,Decision-Making,Beginner
+917,Effective time management includes:,Multitasking everything,Prioritization and focus,Overworking,No breaks,B,Professional Development,Beginner
+918,The first step in problem-solving is:,Finding solutions,Understanding the problem,Blaming others,Giving up,B,Communication,Beginner
+919,What does analytical thinking involve?,Guessing,Breaking down and examining information,Rushing to conclusions,Ignoring data,B,Leadership,Beginner
+920,How should you approach a complex problem?,Try random solutions,Analyze systematically and plan,Panic,Ask others immediately,B,Teamwork,Beginner
+921,Creative thinking means:,Being different for difference's sake,Generating novel solutions,Following only rules,Avoiding risks,B,Time Management,Beginner
+922,Self-awareness in EI means:,Being self-centered,Understanding your emotions,Ignoring feelings,Being emotional,B,Networking,Intermediate
+923,Empathy is the ability to:,Agree with everyone,Understand others' feelings,Be sympathetic without action,Judge others,B,Accountability,Intermediate
+924,Managing emotions at work helps by:,Suppressing all feelings,Responding wisely to situations,Being overly reactive,Showing weakness,B,Conflict Management,Intermediate
+925,Conflict resolution requires:,Winning at all costs,Understanding all perspectives,Avoiding confrontation,Being aggressive,B,Presentation,Intermediate
+926,How should you handle unexpected changes?,Resist them,Analyze and adapt,Blame others,Quit,B,Customer Service,Intermediate
+927,Learning agility refers to:,Speed of learning,Ability to learn and apply quickly,Memorization,IQ level,B,Decision-Making,Intermediate
+928,What is growth mindset?,Believing abilities are fixed,Believing you can develop abilities,Avoiding challenges,Fearing failure,B,Professional Development,Intermediate
+929,Resilience helps professionals by:,Avoiding failures,Bouncing back from setbacks,Giving up easily,Denying problems,B,Communication,Intermediate
+930,Win-win negotiation means:,One party gets everything,Both parties benefit,Compromise only,No agreement,B,Leadership,Intermediate
+931,Persuasion is most effective when:,Using pressure,Building trust and logic,Manipulation,Being aggressive,B,Teamwork,Intermediate
+932,Active listening in negotiation helps by:,Planning counterarguments,Understanding other's needs,Waiting to speak,Dismissing concerns,B,Time Management,Intermediate
+933,BATNA in negotiation stands for:,Best Alternative to Negotiated Agreement,Best Approach To Negotiation Aim,Basic Agreement Terms,None of above,A,Problem-Solving,Intermediate
+934,Building confidence involves:,Being overconfident,Recognizing strengths and improving weaknesses,Avoiding challenges,Ignoring feedback,B,Emotional Intelligence,Intermediate
+935,How to handle failure constructively?,Give up,Learn from it and try again,Hide it,Blame others,B,Adaptability,Intermediate
+936,Self-doubt can be managed by:,Accepting it always,Building skills and seeking support,Avoiding responsibilities,Comparing constantly,B,Negotiation,Intermediate
+937,Effective networking involves:,Collecting business cards only,Building genuine relationships,Being selfish,Transactional interactions,B,Confidence,Intermediate
+938,Professional relationships require:,Fake personas,Authenticity and consistency,Minimal interaction,Hierarchy enforcement,B,Networking,Intermediate
+939,Mentorship benefits professionals by:,Creating dependency,Providing guidance and growth,Limiting independence,Showing weakness,B,Accountability,Intermediate
+940,Taking responsibility means:,Blaming circumstances,Owning your actions and outcomes,Making excuses,Avoiding consequences,B,Conflict Management,Intermediate
+941,Accountability in teams ensures:,Confusion,Clear ownership and performance,Blame culture,Decreased productivity,B,Presentation,Intermediate
+942,How to handle mistakes professionally?,Hide them,"Acknowledge, learn, and improve",Blame others,Repeat them,B,Teamwork,Advanced
+943,Assertiveness in conflict means:,Being aggressive,Expressing needs respectfully,Being passive,Avoiding issues,B,Time Management,Advanced
+944,The best conflict resolution style often is:,Avoiding,Collaborating,Competing,Withdrawing,B,Problem-Solving,Advanced
+945,"In a heated discussion, you should:",Escalate,Take a pause and calm down,Get emotional,Ignore the other person,B,Emotional Intelligence,Advanced
+946,Good presentation structure includes:,No organization,"Opening, body, closing",Too many slides,Reading from slides,B,Adaptability,Advanced
+947,Effective presentations require:,Reading text,Engaging audience interaction,Fast delivery,Ignoring feedback,B,Negotiation,Advanced
+948,Visual aids in presentations should be:,Overcrowded,Simple and supportive,Distracting,Unnecessary,B,Confidence,Advanced
+949,Handling customer complaints should involve:,Dismissing them,Listening and solving,Being defensive,Ignoring,B,Networking,Advanced
+950,Customer satisfaction depends on:,Price alone,Empathy and service quality,Ignoring feedback,Rushing interactions,B,Accountability,Advanced
+951,Good decision-making requires:,Quick reactions only,Analysis and consultation,Following gut always,Avoiding input,B,Conflict Management,Advanced
+952,When facing difficult decisions:,Procrastinate,Gather info and evaluate options,Let others decide,Rush into action,B,Presentation,Advanced
+953,Continuous learning helps by:,Staying outdated,Adapting to change,Creating stagnation,Limiting growth,B,Customer Service,Advanced
+954,Feedback should be viewed as:,Criticism,Opportunity for improvement,Negativity,Irrelevant,B,Decision-Making,Advanced
+955,What is the most important aspect of effective communication?,Speaking loudly,Clear and active listening,Using complex words,Talking more,B,Communication,Beginner
+956,How should you handle a misunderstanding in a conversation?,Ignore it,Clarify immediately,Get defensive,End the conversation,B,Leadership,Beginner
+957,"In a presentation, maintaining eye contact demonstrates:",Nervousness,Confidence and engagement,Arrogance,Lack of preparation,B,Teamwork,Beginner
+958,What is the key to giving constructive feedback?,Being critical,Being specific and objective,Focusing on mistakes,Comparing with others,B,Time Management,Beginner
+959,A good leader should:,Control all decisions,Empower and inspire team,Avoid conflict,Work alone,B,Problem-Solving,Beginner
+960,What is emotional intelligence in leadership?,High IQ,Awareness of emotions,Ignoring feelings,Being tough,B,Emotional Intelligence,Beginner
+961,How should a leader handle team conflicts?,Avoid them,Address them promptly and fairly,Take sides,Let it resolve naturally,B,Adaptability,Beginner
+962,Delegation is important because it:,Reduces leader's work,Develops team skills,Shows weakness,Wastes time,B,Negotiation,Beginner
+963,A key quality of a good team player is:,Self-centeredness,Cooperation and mutual support,Competitiveness,Independence,B,Confidence,Beginner
+964,How should you handle disagreement with a colleague?,Ignore them,Respect their view and find common ground,Escalate immediately,Be aggressive,B,Networking,Beginner
+965,What is the best approach to group projects?,Do all work yourself,Divide tasks and support each other,Let others do it,Minimize involvement,B,Accountability,Beginner
+966,Cross-functional teamwork helps because:,Creates confusion,Brings diverse perspectives,Wastes time,Causes conflicts,B,Conflict Management,Beginner
+967,The Eisenhower Matrix prioritizes tasks by:,Urgency only,Importance and urgency,Size,Random selection,B,Presentation,Beginner
+968,Procrastination can be overcome by:,Ignoring deadlines,Breaking tasks into smaller parts,Working last minute,Avoiding responsibility,B,Customer Service,Beginner
+969,What is the benefit of setting SMART goals?,No benefit,Clear direction and measurability,Less motivation,More confusion,B,Decision-Making,Beginner
+970,Effective time management includes:,Multitasking everything,Prioritization and focus,Overworking,No breaks,B,Professional Development,Beginner
+971,The first step in problem-solving is:,Finding solutions,Understanding the problem,Blaming others,Giving up,B,Communication,Beginner
+972,What does analytical thinking involve?,Guessing,Breaking down and examining information,Rushing to conclusions,Ignoring data,B,Leadership,Beginner
+973,How should you approach a complex problem?,Try random solutions,Analyze systematically and plan,Panic,Ask others immediately,B,Teamwork,Beginner
+974,Creative thinking means:,Being different for difference's sake,Generating novel solutions,Following only rules,Avoiding risks,B,Time Management,Beginner
+975,Self-awareness in EI means:,Being self-centered,Understanding your emotions,Ignoring feelings,Being emotional,B,Networking,Intermediate
+976,Empathy is the ability to:,Agree with everyone,Understand others' feelings,Be sympathetic without action,Judge others,B,Accountability,Intermediate
+977,Managing emotions at work helps by:,Suppressing all feelings,Responding wisely to situations,Being overly reactive,Showing weakness,B,Conflict Management,Intermediate
+978,Conflict resolution requires:,Winning at all costs,Understanding all perspectives,Avoiding confrontation,Being aggressive,B,Presentation,Intermediate
+979,How should you handle unexpected changes?,Resist them,Analyze and adapt,Blame others,Quit,B,Customer Service,Intermediate
+980,Learning agility refers to:,Speed of learning,Ability to learn and apply quickly,Memorization,IQ level,B,Decision-Making,Intermediate
+981,What is growth mindset?,Believing abilities are fixed,Believing you can develop abilities,Avoiding challenges,Fearing failure,B,Professional Development,Intermediate
+982,Resilience helps professionals by:,Avoiding failures,Bouncing back from setbacks,Giving up easily,Denying problems,B,Communication,Intermediate
+983,Win-win negotiation means:,One party gets everything,Both parties benefit,Compromise only,No agreement,B,Leadership,Intermediate
+984,Persuasion is most effective when:,Using pressure,Building trust and logic,Manipulation,Being aggressive,B,Teamwork,Intermediate
+985,Active listening in negotiation helps by:,Planning counterarguments,Understanding other's needs,Waiting to speak,Dismissing concerns,B,Time Management,Intermediate
+986,BATNA in negotiation stands for:,Best Alternative to Negotiated Agreement,Best Approach To Negotiation Aim,Basic Agreement Terms,None of above,A,Problem-Solving,Intermediate
+987,Building confidence involves:,Being overconfident,Recognizing strengths and improving weaknesses,Avoiding challenges,Ignoring feedback,B,Emotional Intelligence,Intermediate
+988,How to handle failure constructively?,Give up,Learn from it and try again,Hide it,Blame others,B,Adaptability,Intermediate
+989,Self-doubt can be managed by:,Accepting it always,Building skills and seeking support,Avoiding responsibilities,Comparing constantly,B,Negotiation,Intermediate
+990,Effective networking involves:,Collecting business cards only,Building genuine relationships,Being selfish,Transactional interactions,B,Confidence,Intermediate
+991,Professional relationships require:,Fake personas,Authenticity and consistency,Minimal interaction,Hierarchy enforcement,B,Networking,Intermediate
+992,Mentorship benefits professionals by:,Creating dependency,Providing guidance and growth,Limiting independence,Showing weakness,B,Accountability,Intermediate
+993,Taking responsibility means:,Blaming circumstances,Owning your actions and outcomes,Making excuses,Avoiding consequences,B,Conflict Management,Intermediate
+994,Accountability in teams ensures:,Confusion,Clear ownership and performance,Blame culture,Decreased productivity,B,Presentation,Intermediate
+995,How to handle mistakes professionally?,Hide them,"Acknowledge, learn, and improve",Blame others,Repeat them,B,Teamwork,Advanced
+996,Assertiveness in conflict means:,Being aggressive,Expressing needs respectfully,Being passive,Avoiding issues,B,Time Management,Advanced
+997,The best conflict resolution style often is:,Avoiding,Collaborating,Competing,Withdrawing,B,Problem-Solving,Advanced
+998,"In a heated discussion, you should:",Escalate,Take a pause and calm down,Get emotional,Ignore the other person,B,Emotional Intelligence,Advanced
+999,Good presentation structure includes:,No organization,"Opening, body, closing",Too many slides,Reading from slides,B,Adaptability,Advanced
+1000,Effective presentations require:,Reading text,Engaging audience interaction,Fast delivery,Ignoring feedback,B,Negotiation,Advanced

@@ -1,0 +1,1001 @@
+Question,Option_1,Option_2,Option_3,Option_4,Correct_Answer,Level
+What does AI stand for?,Artificial Intelligence,Automated Integration,Advanced Information,Application Interface,Option_1,Beginner
+What is the main goal of Artificial Intelligence?,Create machines that can perform tasks requiring human-like intelligence,Replace all humans,Build robots only,Create video games,Option_1,Beginner
+Which of the following is NOT a subfield of AI?,Machine Learning,Natural Language Processing,Computer Vision,Automotive Engineering,Option_4,Beginner
+What is an intelligent agent in AI?,An entity that observes environment and takes actions,A person who sells AI,A robot,A software developer,Option_1,Beginner
+What does Turing Test measure?,Machine's ability to exhibit intelligent behavior indistinguishable from human,Running speed,Memory capacity,Data processing,Option_1,Beginner
+What is Machine Learning?,Subset of AI enabling systems to learn from data,Teaching humans to learn,Computer programming,Data storage,Option_1,Beginner
+What are the three main types of Machine Learning?,"Supervised, Unsupervised, Reinforcement","Predictive, Preventive, Procedural","Input, Output, Process","Linear, Non-linear, Hybrid",Option_1,Beginner
+What is supervised learning?,Learning from labeled training data,Learning without labels,Learning from experts,Learning through observation,Option_1,Beginner
+What is unsupervised learning?,Finding patterns in unlabeled data,Learning with labels,Teaching by examples,Monitoring performance,Option_1,Beginner
+What is reinforcement learning?,Agent learns by interacting with environment and receiving rewards/penalties,Learning from books,Supervised learning,Copying behavior,Option_1,Beginner
+What is Linear Regression used for?,Predicting continuous numerical values,Classifying categories,Clustering data,Feature extraction,Option_1,Intermediate
+What is Logistic Regression?,Classification algorithm for binary/multi-class problems,Predicting continuous values,Clustering technique,Feature scaling,Option_1,Intermediate
+What is a Decision Tree?,Tree model that makes predictions through series of decisions,Data structure for storage,Search algorithm,Network topology,Option_1,Intermediate
+What is Random Forest?,Ensemble method using multiple decision trees,Single decision tree,Classification only algorithm,Unsupervised method,Option_1,Intermediate
+What is SVM (Support Vector Machine)?,Classifier finding optimal boundary between classes,Database management,Clustering algorithm,Regression method,Option_1,Intermediate
+What is clustering in Machine Learning?,Grouping similar data points without labels,Separating classes,Supervised classification,Feature engineering,Option_1,Intermediate
+What is K-Means clustering?,Algorithm partitioning data into K clusters,Classification algorithm,Regression method,Dimensionality reduction,Option_1,Intermediate
+What is hierarchical clustering?,Building tree of nested clusters,Flat clustering,Supervised clustering,Random clustering,Option_1,Intermediate
+What is DBSCAN?,Density-based clustering finding clusters of arbitrary shapes,K-Means variant,Supervised algorithm,Linear classifier,Option_1,Intermediate
+What is Principal Component Analysis (PCA)?,Dimensionality reduction technique preserving variance,Classification algorithm,Clustering method,Feature scaling,Option_1,Intermediate
+What is a Neural Network?,Computational model inspired by biological neurons,Computer network,Database structure,Programming language,Option_1,Intermediate
+What is a perceptron?,Single-layer neural network for binary classification,Deep learning model,Clustering algorithm,Optimization method,Option_1,Intermediate
+What is a hidden layer in neural networks?,Layer between input and output performing computations,Input layer,Output layer,Storage layer,Option_1,Intermediate
+What is activation function in neural networks?,Non-linear function enabling networks to learn complex patterns,Linear function,Loss function,Optimization function,Option_1,Intermediate
+What are common activation functions?,"ReLU, Sigmoid, Tanh","Linear, Quadratic, Cubic","Input, Output, Hidden","Training, Testing, Validation",Option_1,Intermediate
+What is CNN (Convolutional Neural Network)?,Neural network for image recognition using convolutional filters,General neural network,Text processing network,Time series network,Option_1,Intermediate
+What is a convolution operation?,Applying filter to extract features from images,Neural network layer,Classification method,Clustering technique,Option_1,Intermediate
+What is pooling in CNN?,Reducing spatial dimensions while retaining important features,Network training,Feature normalization,Data augmentation,Option_1,Intermediate
+What is max pooling?,Selecting maximum value from each window,Average pooling,Feature extraction,Data preprocessing,Option_1,Intermediate
+What is the purpose of convolutional filters?,Extract local features from images,Classify data,Scale features,Normalize inputs,Option_1,Intermediate
+What is RNN (Recurrent Neural Network)?,Neural network with connections allowing sequences processing,Feed-forward network,Convolutional network,Attention network,Option_1,Intermediate
+What is LSTM (Long Short-Term Memory)?,RNN variant handling long-term dependencies,Simple RNN,CNN architecture,Transformer model,Option_1,Intermediate
+What problem do LSTMs solve in RNNs?,Vanishing/exploding gradient problem,Overfitting,Underfitting,Data imbalance,Option_1,Advanced
+What is GRU (Gated Recurrent Unit)?,Simplified LSTM with fewer parameters,Complex LSTM,CNN layer,Attention mechanism,Option_1,Intermediate
+What is sequence-to-sequence (Seq2Seq) model?,Model translating input sequences to output sequences,Single sequence model,Image processing model,Classification model,Option_1,Advanced
+What is the Transformer architecture?,Architecture using self-attention mechanism,Recurrent architecture,Convolutional architecture,Fully connected network,Option_1,Advanced
+What is self-attention?,Mechanism allowing model to relate different positions in sequence,Attention to input only,Attention to output only,External attention,Option_1,Advanced
+What is BERT?,Bidirectional Encoder Representations from Transformers,Basic Encoder for Tokens,Bidirectional Recurrent Network,Binary Encoding Representation,Option_1,Advanced
+What is GPT?,Generative Pre-trained Transformer,General Processing Transformer,Graphical Processing Tool,Gradient Pointing Technique,Option_1,Advanced
+What does the positional encoding do in Transformers?,Provides sequence position information to model,Encodes data type,Compresses features,Normalizes inputs,Option_1,Advanced
+What is NLP (Natural Language Processing)?,Field enabling computers to understand human language,Programming language,Neural network layer,Data structure,Option_1,Beginner
+What is tokenization?,Breaking text into individual words/tokens,Combining words,Removing duplicates,Sorting text,Option_1,Intermediate
+What is stemming?,Reducing words to root form,Combining words,Removing stopwords,Sorting words,Option_1,Intermediate
+What is lemmatization?,Converting words to dictionary base form,Removing characters,Adding prefixes,Removing suffixes,Option_1,Intermediate
+What are word embeddings?,Vector representations of words capturing semantic meaning,Integer encoding of words,One-hot encoding,Frequency representation,Option_1,Intermediate
+What is Word2Vec?,Algorithm creating word embeddings using neural networks,Word counting algorithm,Text classification model,Language model,Option_1,Intermediate
+What is GloVe?,Global Vectors for Word Representation,Gradient descent optimization,Graph-based learning,Global optimization,Option_1,Intermediate
+What is sentiment analysis?,Determining emotional tone of text,Grammar checking,Spelling correction,Language translation,Option_1,Intermediate
+What is named entity recognition (NER)?,Identifying and classifying named entities in text,Sentiment analysis,Topic modeling,Text summarization,Option_1,Intermediate
+What is machine translation?,Automatically translating text between languages,Manual translation,Dictionary lookup,Grammar checking,Option_1,Intermediate
+What is Computer Vision?,Field enabling computers to understand images/videos,Image storage,Image compression,Screen display,Option_1,Beginner
+What is image classification?,Assigning labels to images,Creating images,Storing images,Displaying images,Option_1,Beginner
+What is object detection?,Locating and identifying objects in images,Classifying entire image,Segmenting image,Measuring image size,Option_1,Intermediate
+What is YOLO?,You Only Look Once - real-time object detection,Image classification model,Segmentation algorithm,Feature extractor,Option_1,Intermediate
+What is semantic segmentation?,Assigning class label to each pixel in image,Dividing image into regions,Detecting objects,Classifying image,Option_1,Advanced
+What is instance segmentation?,Distinguishing individual objects of same class,Classifying pixels,Finding edges,Detecting boundaries,Option_1,Advanced
+What is image segmentation?,Partitioning image into meaningful regions,Resizing image,Rotating image,Filtering image,Option_1,Intermediate
+What is facial recognition?,Identifying individuals from face images,Detecting faces only,Counting faces,Describing faces,Option_1,Intermediate
+What is pose estimation?,Detecting human body joint positions/movements,Estimating object shape,Predicting motion,Analyzing stability,Option_1,Advanced
+What is optical character recognition (OCR)?,Converting printed text to digital text,Detecting text location,Generating text,Translating text,Option_1,Intermediate
+What is Reinforcement Learning?,Agent learns by receiving rewards/penalties for actions,Supervised learning,Unsupervised learning,Transfer learning,Option_1,Intermediate
+What is Markov Decision Process (MDP)?,Mathematical framework for RL problems,Classification method,Regression algorithm,Clustering technique,Option_1,Advanced
+What is Q-learning?,Off-policy RL algorithm learning action values,On-policy algorithm,Policy gradient method,Actor-critic method,Option_1,Advanced
+What is Deep Q-Learning?,Combining Q-learning with deep neural networks,Simple Q-learning,Policy gradient,Value iteration,Option_1,Advanced
+What is policy gradient?,RL method optimizing policy directly,Value-based method,Q-learning variant,Model-based method,Option_1,Advanced
+What is the exploration-exploitation tradeoff?,Balancing trying new actions vs exploiting known good ones,Training vs testing,Accuracy vs speed,Memory vs computation,Option_1,Advanced
+What is an episode in RL?,"Sequence of states, actions, rewards from start to end",Single action,Single state,Single reward,Option_1,Intermediate
+What is discount factor in RL?,Weight determining importance of future rewards,Learning rate,Exploration rate,Reward scaling,Option_1,Advanced
+What is Monte Carlo Tree Search (MCTS)?,Algorithm combining simulation and tree search for decision making,Neural network,Regression method,Classification algorithm,Option_1,Advanced
+What are Actor-Critic methods?,Combining actor (policy) and critic (value) networks,Single network approach,Value-only method,Policy-only method,Option_1,Advanced
+What is a Generative Adversarial Network (GAN)?,"Two networks competing: generator creating, discriminator evaluating",Single neural network,Supervised model,Unsupervised regression,Option_1,Advanced
+What are the two components of a GAN?,Generator and Discriminator,Encoder and Decoder,Input and Output,Training and Testing,Option_1,Advanced
+What is a Variational Autoencoder (VAE)?,Generative model learning latent space representation,Supervised classifier,Feature extractor,Dimensionality reduction only,Option_1,Advanced
+What is an autoencoder?,Neural network learning efficient data representation,Classification network,Regression network,Object detector,Option_1,Intermediate
+What is the difference between encoder and decoder?,"Encoder compresses, decoder reconstructs",Same thing,Decoder is input layer,Encoder is output layer,Option_1,Intermediate
+What is a diffusion model?,Generative model using iterative noise removal,Direct generation model,Classification model,Clustering method,Option_1,Advanced
+What is transfer learning?,Using knowledge from source task for target task,Learning from beginning,Retraining entire model,Feature extraction only,Option_1,Intermediate
+What is domain adaptation?,Adapting model from source domain to target domain,Changing hyperparameters,Collecting more data,Retraining from scratch,Option_1,Advanced
+What is fine-tuning?,Training pre-trained model on new task,Training from scratch,Feature extraction,Data preprocessing,Option_1,Intermediate
+What is feature extraction in transfer learning?,Using pre-trained layers as feature extractor,Creating new features,Removing features,Scaling features,Option_1,Intermediate
+What is overfitting?,"Model learning training data too well, performing poorly on new data",Model not learning,Using wrong algorithm,Invalid data,Option_1,Intermediate
+What is underfitting?,Model too simple to capture data patterns,Model too complex,Too much training,Invalid features,Option_1,Intermediate
+What is regularization?,Technique preventing overfitting by penalizing complexity,Data normalization,Feature scaling,Batch processing,Option_1,Intermediate
+What is cross-validation?,Evaluating model using multiple data splits,Single train-test split,K-fold splitting only,Validation set only,Option_1,Intermediate
+What is the purpose of a validation set?,Tuning hyperparameters without using test set,Training model,Testing model,Preprocessing data,Option_1,Intermediate
+What is batch normalization?,Normalizing inputs to neural network layers,Normalizing entire dataset,Grouping data,Sorting data,Option_1,Intermediate
+What is dropout?,Randomly disabling neurons during training to prevent overfitting,Removing features,Stopping training,Removing data,Option_1,Intermediate
+What is early stopping?,Stopping training when validation performance stops improving,Stopping too early,Random stopping,Always training,Option_1,Intermediate
+What is gradient descent?,Iteratively updating parameters to minimize loss,Ascending parameters,Direct solution,Random search,Option_1,Intermediate
+What is backpropagation?,Algorithm computing gradients for neural networks,Forward pass only,Feature extraction,Data preprocessing,Option_1,Intermediate
+What is stochastic gradient descent (SGD)?,Updating parameters using single sample,Batch gradient descent,Full gradient descent,Random descent,Option_1,Intermediate
+What is Adam optimizer?,Adaptive moment estimation combining momentum and RMSprop,Simple SGD,Gradient descent,Newton's method,Option_1,Intermediate
+What is learning rate?,Parameter controlling step size in optimization,Training percentage,Number of epochs,Batch size,Option_1,Intermediate
+What is loss function?,Measures difference between predicted and actual values,Accuracy metric,Performance measure,Evaluation tool,Option_1,Intermediate
+What is mean squared error (MSE)?,Average of squared differences between predicted and actual,Mean absolute error,Cross-entropy,Hinge loss,Option_1,Intermediate
+What is cross-entropy loss?,Loss for classification measuring probability distance,Regression loss,Clustering loss,Ranking loss,Option_1,Intermediate
+What is accuracy?,Percentage of correct predictions,Average error,Loss value,Precision measure,Option_1,Beginner
+What is precision?,Proportion of positive predictions that are correct,Recall metric,Accuracy metric,F1-score,Option_1,Intermediate
+What is recall?,Proportion of actual positives correctly identified,Precision metric,Accuracy metric,False positive rate,Option_1,Intermediate
+What is F1-score?,Harmonic mean of precision and recall,Average of metrics,Weighted metric,Macro metric,Option_1,Intermediate
+What is AUC-ROC?,Area under Receiver Operating Characteristic curve,Accuracy measure,Precision metric,Recall metric,Option_1,Advanced
+What is data normalization?,Scaling features to similar range,Removing duplicates,Handling missing values,Removing outliers,Option_1,Beginner
+What is feature scaling?,Transforming features to comparable scale,Feature selection,Feature extraction,Feature engineering,Option_1,Beginner
+What is standardization?,Centering data with mean 0 and std 1,Normalization,Scaling between 0-1,Log transformation,Option_1,Intermediate
+What is handling missing values?,"Imputation, deletion, or prediction of missing data",Removing features,Removing records,Ignoring gaps,Option_1,Beginner
+What is outlier detection?,Identifying unusual data points,Feature selection,Data normalization,Data augmentation,Option_1,Intermediate
+What is data augmentation?,Creating new training samples through transformation,Collecting data,Cleaning data,Preprocessing data,Option_1,Intermediate
+What is imbalanced data?,Unequal distribution of classes in dataset,Missing values,Outliers,Duplicates,Option_1,Intermediate
+What is class weighting?,Adjusting loss to handle imbalanced classes,Sampling method,Scaling features,Removing classes,Option_1,Intermediate
+What are hyperparameters?,Parameters set before training controlling learning process,Parameters learned during training,Layer sizes,Data features,Option_1,Intermediate
+What is grid search?,Exhaustively searching hyperparameter combinations,Random search,Bayesian optimization,Manual tuning,Option_1,Intermediate
+What is random search?,Randomly sampling hyperparameter combinations,Grid search,Exhaustive search,Sequential search,Option_1,Intermediate
+What is Bayesian optimization?,Probabilistic approach to hyperparameter optimization,Grid search,Random search,Manual search,Option_1,Advanced
+What are ensemble methods?,Combining multiple models for better performance,Single model,Parameter tuning,Feature engineering,Option_1,Intermediate
+What is bagging?,Training multiple models on random data samples,Boosting method,Stacking method,Voting method,Option_1,Intermediate
+What is boosting?,Sequentially training models focusing on mistakes,Parallel training,Independent training,Weighted training,Option_1,Intermediate
+What is gradient boosting?,Building models sequentially minimizing loss,Simple boosting,Bagging method,Stacking method,Option_1,Advanced
+What is stacking?,Training meta-model on predictions of base models,Simple ensemble,Voting ensemble,Averaging ensemble,Option_1,Advanced
+What is AI bias?,Systematic errors in AI systems favoring certain groups,Random errors,Overfitting,Underfitting,Option_1,Intermediate
+What is fairness in AI?,Ensuring AI systems treat all fairly without discrimination,Equal accuracy,Same weights,Random outputs,Option_1,Intermediate
+What is interpretability in AI?,Ability to explain AI model decisions,Model complexity,Training speed,Prediction speed,Option_1,Intermediate
+What is adversarial robustness?,Model's resistance to adversarial attacks,High accuracy,Fast inference,Small model size,Option_1,Advanced
+What are adversarial examples?,Inputs designed to fool AI models,Training examples,Valid inputs,Normal data,Option_1,Advanced
+What is robotics in AI?,Applying AI to robot control and decision making,Building robots,Manufacturing,Hardware design,Option_1,Intermediate
+What is path planning?,Finding optimal route for robot movement,Robot vision,Gripper control,Sensor integration,Option_1,Intermediate
+What is SLAM?,Simultaneous Localization and Mapping for robot navigation,Robot learning,Vision system,Control system,Option_1,Advanced
+What is inverse kinematics?,Calculating joint angles for desired end-effector position,Forward kinematics,Dynamics,Control,Option_1,Advanced
+What is a Large Language Model (LLM)?,Neural network trained on large text data for language tasks,Small model,Supervised classifier,Clustering algorithm,Option_1,Intermediate
+What is prompt engineering?,Crafting inputs to guide LLM outputs effectively,Model training,Feature engineering,Data preprocessing,Option_1,Intermediate
+What is few-shot learning?,Model learning from few examples,Zero-shot learning,One-shot learning,Many-shot learning,Option_1,Intermediate
+What is zero-shot learning?,Model performing task without specific training examples,Few-shot learning,One-shot learning,Transfer learning,Option_1,Advanced
+What is chain-of-thought prompting?,Guiding model through step-by-step reasoning,Direct prompting,Question answering,Summarization,Option_1,Advanced
+What is LIME?,Local Interpretable Model-agnostic Explanations,Feature importance,Attention weights,Gradient visualization,Option_1,Advanced
+What is SHAP?,SHapley Additive exPlanations for model interpretability,Attention mechanism,Feature scaling,Regularization,Option_1,Advanced
+What is feature importance?,Measuring contribution of each feature to predictions,Feature engineering,Feature selection,Dimensionality reduction,Option_1,Intermediate
+What is attention visualization?,Showing which inputs model focuses on,Attention mechanism,Model architecture,Training process,Option_1,Intermediate
+What is a Graph Neural Network (GNN)?,Neural network operating on graph-structured data,CNN for graphs,RNN for graphs,Feed-forward network,Option_1,Advanced
+What is a knowledge graph?,Structured representation of information as entities and relations,Semantic network,Database,File system,Option_1,Advanced
+What is node embedding?,Representing graph nodes as vectors,Edge representation,Graph representation,Feature representation,Option_1,Advanced
+What is meta-learning?,Learning how to learn from few examples,Transfer learning,Multitask learning,Domain adaptation,Option_1,Advanced
+What is MAML (Model-Agnostic Meta-Learning)?,Meta-learning algorithm finding good initialization,Regular meta-learning,Transfer learning,Multitask learning,Option_1,Advanced
+What is continual learning?,Learning from sequential tasks without forgetting previous ones,Single task learning,Multitask learning,Transfer learning,Option_1,Advanced
+What is federated learning?,Training model on decentralized data without centralizing,Cloud learning,Distributed computing,Parallel processing,Option_1,Advanced
+What is catastrophic forgetting?,Model forgetting previous knowledge when learning new tasks,Normal forgetting,Intentional reset,Regularization effect,Option_1,Advanced
+What does AI stand for?,Artificial Intelligence,Automated Integration,Advanced Information,Application Interface,Option_1,Beginner
+What is the main goal of Artificial Intelligence?,Create machines that can perform tasks requiring human-like intelligence,Replace all humans,Build robots only,Create video games,Option_1,Beginner
+Which of the following is NOT a subfield of AI?,Machine Learning,Natural Language Processing,Computer Vision,Automotive Engineering,Option_4,Beginner
+What is an intelligent agent in AI?,An entity that observes environment and takes actions,A person who sells AI,A robot,A software developer,Option_1,Beginner
+What does Turing Test measure?,Machine's ability to exhibit intelligent behavior indistinguishable from human,Running speed,Memory capacity,Data processing,Option_1,Beginner
+What is Machine Learning?,Subset of AI enabling systems to learn from data,Teaching humans to learn,Computer programming,Data storage,Option_1,Beginner
+What are the three main types of Machine Learning?,"Supervised, Unsupervised, Reinforcement","Predictive, Preventive, Procedural","Input, Output, Process","Linear, Non-linear, Hybrid",Option_1,Beginner
+What is supervised learning?,Learning from labeled training data,Learning without labels,Learning from experts,Learning through observation,Option_1,Beginner
+What is unsupervised learning?,Finding patterns in unlabeled data,Learning with labels,Teaching by examples,Monitoring performance,Option_1,Beginner
+What is reinforcement learning?,Agent learns by interacting with environment and receiving rewards/penalties,Learning from books,Supervised learning,Copying behavior,Option_1,Beginner
+What is Linear Regression used for?,Predicting continuous numerical values,Classifying categories,Clustering data,Feature extraction,Option_1,Intermediate
+What is Logistic Regression?,Classification algorithm for binary/multi-class problems,Predicting continuous values,Clustering technique,Feature scaling,Option_1,Intermediate
+What is a Decision Tree?,Tree model that makes predictions through series of decisions,Data structure for storage,Search algorithm,Network topology,Option_1,Intermediate
+What is Random Forest?,Ensemble method using multiple decision trees,Single decision tree,Classification only algorithm,Unsupervised method,Option_1,Intermediate
+What is SVM (Support Vector Machine)?,Classifier finding optimal boundary between classes,Database management,Clustering algorithm,Regression method,Option_1,Intermediate
+What is clustering in Machine Learning?,Grouping similar data points without labels,Separating classes,Supervised classification,Feature engineering,Option_1,Intermediate
+What is K-Means clustering?,Algorithm partitioning data into K clusters,Classification algorithm,Regression method,Dimensionality reduction,Option_1,Intermediate
+What is hierarchical clustering?,Building tree of nested clusters,Flat clustering,Supervised clustering,Random clustering,Option_1,Intermediate
+What is DBSCAN?,Density-based clustering finding clusters of arbitrary shapes,K-Means variant,Supervised algorithm,Linear classifier,Option_1,Intermediate
+What is Principal Component Analysis (PCA)?,Dimensionality reduction technique preserving variance,Classification algorithm,Clustering method,Feature scaling,Option_1,Intermediate
+What is a Neural Network?,Computational model inspired by biological neurons,Computer network,Database structure,Programming language,Option_1,Intermediate
+What is a perceptron?,Single-layer neural network for binary classification,Deep learning model,Clustering algorithm,Optimization method,Option_1,Intermediate
+What is a hidden layer in neural networks?,Layer between input and output performing computations,Input layer,Output layer,Storage layer,Option_1,Intermediate
+What is activation function in neural networks?,Non-linear function enabling networks to learn complex patterns,Linear function,Loss function,Optimization function,Option_1,Intermediate
+What are common activation functions?,"ReLU, Sigmoid, Tanh","Linear, Quadratic, Cubic","Input, Output, Hidden","Training, Testing, Validation",Option_1,Intermediate
+What is CNN (Convolutional Neural Network)?,Neural network for image recognition using convolutional filters,General neural network,Text processing network,Time series network,Option_1,Intermediate
+What is a convolution operation?,Applying filter to extract features from images,Neural network layer,Classification method,Clustering technique,Option_1,Intermediate
+What is pooling in CNN?,Reducing spatial dimensions while retaining important features,Network training,Feature normalization,Data augmentation,Option_1,Intermediate
+What is max pooling?,Selecting maximum value from each window,Average pooling,Feature extraction,Data preprocessing,Option_1,Intermediate
+What is the purpose of convolutional filters?,Extract local features from images,Classify data,Scale features,Normalize inputs,Option_1,Intermediate
+What is RNN (Recurrent Neural Network)?,Neural network with connections allowing sequences processing,Feed-forward network,Convolutional network,Attention network,Option_1,Intermediate
+What is LSTM (Long Short-Term Memory)?,RNN variant handling long-term dependencies,Simple RNN,CNN architecture,Transformer model,Option_1,Intermediate
+What problem do LSTMs solve in RNNs?,Vanishing/exploding gradient problem,Overfitting,Underfitting,Data imbalance,Option_1,Advanced
+What is GRU (Gated Recurrent Unit)?,Simplified LSTM with fewer parameters,Complex LSTM,CNN layer,Attention mechanism,Option_1,Intermediate
+What is sequence-to-sequence (Seq2Seq) model?,Model translating input sequences to output sequences,Single sequence model,Image processing model,Classification model,Option_1,Advanced
+What is the Transformer architecture?,Architecture using self-attention mechanism,Recurrent architecture,Convolutional architecture,Fully connected network,Option_1,Advanced
+What is self-attention?,Mechanism allowing model to relate different positions in sequence,Attention to input only,Attention to output only,External attention,Option_1,Advanced
+What is BERT?,Bidirectional Encoder Representations from Transformers,Basic Encoder for Tokens,Bidirectional Recurrent Network,Binary Encoding Representation,Option_1,Advanced
+What is GPT?,Generative Pre-trained Transformer,General Processing Transformer,Graphical Processing Tool,Gradient Pointing Technique,Option_1,Advanced
+What does the positional encoding do in Transformers?,Provides sequence position information to model,Encodes data type,Compresses features,Normalizes inputs,Option_1,Advanced
+What is NLP (Natural Language Processing)?,Field enabling computers to understand human language,Programming language,Neural network layer,Data structure,Option_1,Beginner
+What is tokenization?,Breaking text into individual words/tokens,Combining words,Removing duplicates,Sorting text,Option_1,Intermediate
+What is stemming?,Reducing words to root form,Combining words,Removing stopwords,Sorting words,Option_1,Intermediate
+What is lemmatization?,Converting words to dictionary base form,Removing characters,Adding prefixes,Removing suffixes,Option_1,Intermediate
+What are word embeddings?,Vector representations of words capturing semantic meaning,Integer encoding of words,One-hot encoding,Frequency representation,Option_1,Intermediate
+What is Word2Vec?,Algorithm creating word embeddings using neural networks,Word counting algorithm,Text classification model,Language model,Option_1,Intermediate
+What is GloVe?,Global Vectors for Word Representation,Gradient descent optimization,Graph-based learning,Global optimization,Option_1,Intermediate
+What is sentiment analysis?,Determining emotional tone of text,Grammar checking,Spelling correction,Language translation,Option_1,Intermediate
+What is named entity recognition (NER)?,Identifying and classifying named entities in text,Sentiment analysis,Topic modeling,Text summarization,Option_1,Intermediate
+What is machine translation?,Automatically translating text between languages,Manual translation,Dictionary lookup,Grammar checking,Option_1,Intermediate
+What is Computer Vision?,Field enabling computers to understand images/videos,Image storage,Image compression,Screen display,Option_1,Beginner
+What is image classification?,Assigning labels to images,Creating images,Storing images,Displaying images,Option_1,Beginner
+What is object detection?,Locating and identifying objects in images,Classifying entire image,Segmenting image,Measuring image size,Option_1,Intermediate
+What is YOLO?,You Only Look Once - real-time object detection,Image classification model,Segmentation algorithm,Feature extractor,Option_1,Intermediate
+What is semantic segmentation?,Assigning class label to each pixel in image,Dividing image into regions,Detecting objects,Classifying image,Option_1,Advanced
+What is instance segmentation?,Distinguishing individual objects of same class,Classifying pixels,Finding edges,Detecting boundaries,Option_1,Advanced
+What is image segmentation?,Partitioning image into meaningful regions,Resizing image,Rotating image,Filtering image,Option_1,Intermediate
+What is facial recognition?,Identifying individuals from face images,Detecting faces only,Counting faces,Describing faces,Option_1,Intermediate
+What is pose estimation?,Detecting human body joint positions/movements,Estimating object shape,Predicting motion,Analyzing stability,Option_1,Advanced
+What is optical character recognition (OCR)?,Converting printed text to digital text,Detecting text location,Generating text,Translating text,Option_1,Intermediate
+What is Reinforcement Learning?,Agent learns by receiving rewards/penalties for actions,Supervised learning,Unsupervised learning,Transfer learning,Option_1,Intermediate
+What is Markov Decision Process (MDP)?,Mathematical framework for RL problems,Classification method,Regression algorithm,Clustering technique,Option_1,Advanced
+What is Q-learning?,Off-policy RL algorithm learning action values,On-policy algorithm,Policy gradient method,Actor-critic method,Option_1,Advanced
+What is Deep Q-Learning?,Combining Q-learning with deep neural networks,Simple Q-learning,Policy gradient,Value iteration,Option_1,Advanced
+What is policy gradient?,RL method optimizing policy directly,Value-based method,Q-learning variant,Model-based method,Option_1,Advanced
+What is the exploration-exploitation tradeoff?,Balancing trying new actions vs exploiting known good ones,Training vs testing,Accuracy vs speed,Memory vs computation,Option_1,Advanced
+What is an episode in RL?,"Sequence of states, actions, rewards from start to end",Single action,Single state,Single reward,Option_1,Intermediate
+What is discount factor in RL?,Weight determining importance of future rewards,Learning rate,Exploration rate,Reward scaling,Option_1,Advanced
+What is Monte Carlo Tree Search (MCTS)?,Algorithm combining simulation and tree search for decision making,Neural network,Regression method,Classification algorithm,Option_1,Advanced
+What are Actor-Critic methods?,Combining actor (policy) and critic (value) networks,Single network approach,Value-only method,Policy-only method,Option_1,Advanced
+What is a Generative Adversarial Network (GAN)?,"Two networks competing: generator creating, discriminator evaluating",Single neural network,Supervised model,Unsupervised regression,Option_1,Advanced
+What are the two components of a GAN?,Generator and Discriminator,Encoder and Decoder,Input and Output,Training and Testing,Option_1,Advanced
+What is a Variational Autoencoder (VAE)?,Generative model learning latent space representation,Supervised classifier,Feature extractor,Dimensionality reduction only,Option_1,Advanced
+What is an autoencoder?,Neural network learning efficient data representation,Classification network,Regression network,Object detector,Option_1,Intermediate
+What is the difference between encoder and decoder?,"Encoder compresses, decoder reconstructs",Same thing,Decoder is input layer,Encoder is output layer,Option_1,Intermediate
+What is a diffusion model?,Generative model using iterative noise removal,Direct generation model,Classification model,Clustering method,Option_1,Advanced
+What is transfer learning?,Using knowledge from source task for target task,Learning from beginning,Retraining entire model,Feature extraction only,Option_1,Intermediate
+What is domain adaptation?,Adapting model from source domain to target domain,Changing hyperparameters,Collecting more data,Retraining from scratch,Option_1,Advanced
+What is fine-tuning?,Training pre-trained model on new task,Training from scratch,Feature extraction,Data preprocessing,Option_1,Intermediate
+What is feature extraction in transfer learning?,Using pre-trained layers as feature extractor,Creating new features,Removing features,Scaling features,Option_1,Intermediate
+What is overfitting?,"Model learning training data too well, performing poorly on new data",Model not learning,Using wrong algorithm,Invalid data,Option_1,Intermediate
+What is underfitting?,Model too simple to capture data patterns,Model too complex,Too much training,Invalid features,Option_1,Intermediate
+What is regularization?,Technique preventing overfitting by penalizing complexity,Data normalization,Feature scaling,Batch processing,Option_1,Intermediate
+What is cross-validation?,Evaluating model using multiple data splits,Single train-test split,K-fold splitting only,Validation set only,Option_1,Intermediate
+What is the purpose of a validation set?,Tuning hyperparameters without using test set,Training model,Testing model,Preprocessing data,Option_1,Intermediate
+What is batch normalization?,Normalizing inputs to neural network layers,Normalizing entire dataset,Grouping data,Sorting data,Option_1,Intermediate
+What is dropout?,Randomly disabling neurons during training to prevent overfitting,Removing features,Stopping training,Removing data,Option_1,Intermediate
+What is early stopping?,Stopping training when validation performance stops improving,Stopping too early,Random stopping,Always training,Option_1,Intermediate
+What is gradient descent?,Iteratively updating parameters to minimize loss,Ascending parameters,Direct solution,Random search,Option_1,Intermediate
+What is backpropagation?,Algorithm computing gradients for neural networks,Forward pass only,Feature extraction,Data preprocessing,Option_1,Intermediate
+What is stochastic gradient descent (SGD)?,Updating parameters using single sample,Batch gradient descent,Full gradient descent,Random descent,Option_1,Intermediate
+What is Adam optimizer?,Adaptive moment estimation combining momentum and RMSprop,Simple SGD,Gradient descent,Newton's method,Option_1,Intermediate
+What is learning rate?,Parameter controlling step size in optimization,Training percentage,Number of epochs,Batch size,Option_1,Intermediate
+What is loss function?,Measures difference between predicted and actual values,Accuracy metric,Performance measure,Evaluation tool,Option_1,Intermediate
+What is mean squared error (MSE)?,Average of squared differences between predicted and actual,Mean absolute error,Cross-entropy,Hinge loss,Option_1,Intermediate
+What is cross-entropy loss?,Loss for classification measuring probability distance,Regression loss,Clustering loss,Ranking loss,Option_1,Intermediate
+What is accuracy?,Percentage of correct predictions,Average error,Loss value,Precision measure,Option_1,Beginner
+What is precision?,Proportion of positive predictions that are correct,Recall metric,Accuracy metric,F1-score,Option_1,Intermediate
+What is recall?,Proportion of actual positives correctly identified,Precision metric,Accuracy metric,False positive rate,Option_1,Intermediate
+What is F1-score?,Harmonic mean of precision and recall,Average of metrics,Weighted metric,Macro metric,Option_1,Intermediate
+What is AUC-ROC?,Area under Receiver Operating Characteristic curve,Accuracy measure,Precision metric,Recall metric,Option_1,Advanced
+What is data normalization?,Scaling features to similar range,Removing duplicates,Handling missing values,Removing outliers,Option_1,Beginner
+What is feature scaling?,Transforming features to comparable scale,Feature selection,Feature extraction,Feature engineering,Option_1,Beginner
+What is standardization?,Centering data with mean 0 and std 1,Normalization,Scaling between 0-1,Log transformation,Option_1,Intermediate
+What is handling missing values?,"Imputation, deletion, or prediction of missing data",Removing features,Removing records,Ignoring gaps,Option_1,Beginner
+What is outlier detection?,Identifying unusual data points,Feature selection,Data normalization,Data augmentation,Option_1,Intermediate
+What is data augmentation?,Creating new training samples through transformation,Collecting data,Cleaning data,Preprocessing data,Option_1,Intermediate
+What is imbalanced data?,Unequal distribution of classes in dataset,Missing values,Outliers,Duplicates,Option_1,Intermediate
+What is class weighting?,Adjusting loss to handle imbalanced classes,Sampling method,Scaling features,Removing classes,Option_1,Intermediate
+What are hyperparameters?,Parameters set before training controlling learning process,Parameters learned during training,Layer sizes,Data features,Option_1,Intermediate
+What is grid search?,Exhaustively searching hyperparameter combinations,Random search,Bayesian optimization,Manual tuning,Option_1,Intermediate
+What is random search?,Randomly sampling hyperparameter combinations,Grid search,Exhaustive search,Sequential search,Option_1,Intermediate
+What is Bayesian optimization?,Probabilistic approach to hyperparameter optimization,Grid search,Random search,Manual search,Option_1,Advanced
+What are ensemble methods?,Combining multiple models for better performance,Single model,Parameter tuning,Feature engineering,Option_1,Intermediate
+What is bagging?,Training multiple models on random data samples,Boosting method,Stacking method,Voting method,Option_1,Intermediate
+What is boosting?,Sequentially training models focusing on mistakes,Parallel training,Independent training,Weighted training,Option_1,Intermediate
+What is gradient boosting?,Building models sequentially minimizing loss,Simple boosting,Bagging method,Stacking method,Option_1,Advanced
+What is stacking?,Training meta-model on predictions of base models,Simple ensemble,Voting ensemble,Averaging ensemble,Option_1,Advanced
+What is AI bias?,Systematic errors in AI systems favoring certain groups,Random errors,Overfitting,Underfitting,Option_1,Intermediate
+What is fairness in AI?,Ensuring AI systems treat all fairly without discrimination,Equal accuracy,Same weights,Random outputs,Option_1,Intermediate
+What is interpretability in AI?,Ability to explain AI model decisions,Model complexity,Training speed,Prediction speed,Option_1,Intermediate
+What is adversarial robustness?,Model's resistance to adversarial attacks,High accuracy,Fast inference,Small model size,Option_1,Advanced
+What are adversarial examples?,Inputs designed to fool AI models,Training examples,Valid inputs,Normal data,Option_1,Advanced
+What is robotics in AI?,Applying AI to robot control and decision making,Building robots,Manufacturing,Hardware design,Option_1,Intermediate
+What is path planning?,Finding optimal route for robot movement,Robot vision,Gripper control,Sensor integration,Option_1,Intermediate
+What is SLAM?,Simultaneous Localization and Mapping for robot navigation,Robot learning,Vision system,Control system,Option_1,Advanced
+What is inverse kinematics?,Calculating joint angles for desired end-effector position,Forward kinematics,Dynamics,Control,Option_1,Advanced
+What is a Large Language Model (LLM)?,Neural network trained on large text data for language tasks,Small model,Supervised classifier,Clustering algorithm,Option_1,Intermediate
+What is prompt engineering?,Crafting inputs to guide LLM outputs effectively,Model training,Feature engineering,Data preprocessing,Option_1,Intermediate
+What is few-shot learning?,Model learning from few examples,Zero-shot learning,One-shot learning,Many-shot learning,Option_1,Intermediate
+What is zero-shot learning?,Model performing task without specific training examples,Few-shot learning,One-shot learning,Transfer learning,Option_1,Advanced
+What is chain-of-thought prompting?,Guiding model through step-by-step reasoning,Direct prompting,Question answering,Summarization,Option_1,Advanced
+What is LIME?,Local Interpretable Model-agnostic Explanations,Feature importance,Attention weights,Gradient visualization,Option_1,Advanced
+What is SHAP?,SHapley Additive exPlanations for model interpretability,Attention mechanism,Feature scaling,Regularization,Option_1,Advanced
+What is feature importance?,Measuring contribution of each feature to predictions,Feature engineering,Feature selection,Dimensionality reduction,Option_1,Intermediate
+What is attention visualization?,Showing which inputs model focuses on,Attention mechanism,Model architecture,Training process,Option_1,Intermediate
+What is a Graph Neural Network (GNN)?,Neural network operating on graph-structured data,CNN for graphs,RNN for graphs,Feed-forward network,Option_1,Advanced
+What is a knowledge graph?,Structured representation of information as entities and relations,Semantic network,Database,File system,Option_1,Advanced
+What is node embedding?,Representing graph nodes as vectors,Edge representation,Graph representation,Feature representation,Option_1,Advanced
+What is meta-learning?,Learning how to learn from few examples,Transfer learning,Multitask learning,Domain adaptation,Option_1,Advanced
+What is MAML (Model-Agnostic Meta-Learning)?,Meta-learning algorithm finding good initialization,Regular meta-learning,Transfer learning,Multitask learning,Option_1,Advanced
+What is continual learning?,Learning from sequential tasks without forgetting previous ones,Single task learning,Multitask learning,Transfer learning,Option_1,Advanced
+What is federated learning?,Training model on decentralized data without centralizing,Cloud learning,Distributed computing,Parallel processing,Option_1,Advanced
+What is catastrophic forgetting?,Model forgetting previous knowledge when learning new tasks,Normal forgetting,Intentional reset,Regularization effect,Option_1,Advanced
+What does AI stand for?,Artificial Intelligence,Automated Integration,Advanced Information,Application Interface,Option_1,Beginner
+What is the main goal of Artificial Intelligence?,Create machines that can perform tasks requiring human-like intelligence,Replace all humans,Build robots only,Create video games,Option_1,Beginner
+Which of the following is NOT a subfield of AI?,Machine Learning,Natural Language Processing,Computer Vision,Automotive Engineering,Option_4,Beginner
+What is an intelligent agent in AI?,An entity that observes environment and takes actions,A person who sells AI,A robot,A software developer,Option_1,Beginner
+What does Turing Test measure?,Machine's ability to exhibit intelligent behavior indistinguishable from human,Running speed,Memory capacity,Data processing,Option_1,Beginner
+What is Machine Learning?,Subset of AI enabling systems to learn from data,Teaching humans to learn,Computer programming,Data storage,Option_1,Beginner
+What are the three main types of Machine Learning?,"Supervised, Unsupervised, Reinforcement","Predictive, Preventive, Procedural","Input, Output, Process","Linear, Non-linear, Hybrid",Option_1,Beginner
+What is supervised learning?,Learning from labeled training data,Learning without labels,Learning from experts,Learning through observation,Option_1,Beginner
+What is unsupervised learning?,Finding patterns in unlabeled data,Learning with labels,Teaching by examples,Monitoring performance,Option_1,Beginner
+What is reinforcement learning?,Agent learns by interacting with environment and receiving rewards/penalties,Learning from books,Supervised learning,Copying behavior,Option_1,Beginner
+What is Linear Regression used for?,Predicting continuous numerical values,Classifying categories,Clustering data,Feature extraction,Option_1,Intermediate
+What is Logistic Regression?,Classification algorithm for binary/multi-class problems,Predicting continuous values,Clustering technique,Feature scaling,Option_1,Intermediate
+What is a Decision Tree?,Tree model that makes predictions through series of decisions,Data structure for storage,Search algorithm,Network topology,Option_1,Intermediate
+What is Random Forest?,Ensemble method using multiple decision trees,Single decision tree,Classification only algorithm,Unsupervised method,Option_1,Intermediate
+What is SVM (Support Vector Machine)?,Classifier finding optimal boundary between classes,Database management,Clustering algorithm,Regression method,Option_1,Intermediate
+What is clustering in Machine Learning?,Grouping similar data points without labels,Separating classes,Supervised classification,Feature engineering,Option_1,Intermediate
+What is K-Means clustering?,Algorithm partitioning data into K clusters,Classification algorithm,Regression method,Dimensionality reduction,Option_1,Intermediate
+What is hierarchical clustering?,Building tree of nested clusters,Flat clustering,Supervised clustering,Random clustering,Option_1,Intermediate
+What is DBSCAN?,Density-based clustering finding clusters of arbitrary shapes,K-Means variant,Supervised algorithm,Linear classifier,Option_1,Intermediate
+What is Principal Component Analysis (PCA)?,Dimensionality reduction technique preserving variance,Classification algorithm,Clustering method,Feature scaling,Option_1,Intermediate
+What is a Neural Network?,Computational model inspired by biological neurons,Computer network,Database structure,Programming language,Option_1,Intermediate
+What is a perceptron?,Single-layer neural network for binary classification,Deep learning model,Clustering algorithm,Optimization method,Option_1,Intermediate
+What is a hidden layer in neural networks?,Layer between input and output performing computations,Input layer,Output layer,Storage layer,Option_1,Intermediate
+What is activation function in neural networks?,Non-linear function enabling networks to learn complex patterns,Linear function,Loss function,Optimization function,Option_1,Intermediate
+What are common activation functions?,"ReLU, Sigmoid, Tanh","Linear, Quadratic, Cubic","Input, Output, Hidden","Training, Testing, Validation",Option_1,Intermediate
+What is CNN (Convolutional Neural Network)?,Neural network for image recognition using convolutional filters,General neural network,Text processing network,Time series network,Option_1,Intermediate
+What is a convolution operation?,Applying filter to extract features from images,Neural network layer,Classification method,Clustering technique,Option_1,Intermediate
+What is pooling in CNN?,Reducing spatial dimensions while retaining important features,Network training,Feature normalization,Data augmentation,Option_1,Intermediate
+What is max pooling?,Selecting maximum value from each window,Average pooling,Feature extraction,Data preprocessing,Option_1,Intermediate
+What is the purpose of convolutional filters?,Extract local features from images,Classify data,Scale features,Normalize inputs,Option_1,Intermediate
+What is RNN (Recurrent Neural Network)?,Neural network with connections allowing sequences processing,Feed-forward network,Convolutional network,Attention network,Option_1,Intermediate
+What is LSTM (Long Short-Term Memory)?,RNN variant handling long-term dependencies,Simple RNN,CNN architecture,Transformer model,Option_1,Intermediate
+What problem do LSTMs solve in RNNs?,Vanishing/exploding gradient problem,Overfitting,Underfitting,Data imbalance,Option_1,Advanced
+What is GRU (Gated Recurrent Unit)?,Simplified LSTM with fewer parameters,Complex LSTM,CNN layer,Attention mechanism,Option_1,Intermediate
+What is sequence-to-sequence (Seq2Seq) model?,Model translating input sequences to output sequences,Single sequence model,Image processing model,Classification model,Option_1,Advanced
+What is the Transformer architecture?,Architecture using self-attention mechanism,Recurrent architecture,Convolutional architecture,Fully connected network,Option_1,Advanced
+What is self-attention?,Mechanism allowing model to relate different positions in sequence,Attention to input only,Attention to output only,External attention,Option_1,Advanced
+What is BERT?,Bidirectional Encoder Representations from Transformers,Basic Encoder for Tokens,Bidirectional Recurrent Network,Binary Encoding Representation,Option_1,Advanced
+What is GPT?,Generative Pre-trained Transformer,General Processing Transformer,Graphical Processing Tool,Gradient Pointing Technique,Option_1,Advanced
+What does the positional encoding do in Transformers?,Provides sequence position information to model,Encodes data type,Compresses features,Normalizes inputs,Option_1,Advanced
+What is NLP (Natural Language Processing)?,Field enabling computers to understand human language,Programming language,Neural network layer,Data structure,Option_1,Beginner
+What is tokenization?,Breaking text into individual words/tokens,Combining words,Removing duplicates,Sorting text,Option_1,Intermediate
+What is stemming?,Reducing words to root form,Combining words,Removing stopwords,Sorting words,Option_1,Intermediate
+What is lemmatization?,Converting words to dictionary base form,Removing characters,Adding prefixes,Removing suffixes,Option_1,Intermediate
+What are word embeddings?,Vector representations of words capturing semantic meaning,Integer encoding of words,One-hot encoding,Frequency representation,Option_1,Intermediate
+What is Word2Vec?,Algorithm creating word embeddings using neural networks,Word counting algorithm,Text classification model,Language model,Option_1,Intermediate
+What is GloVe?,Global Vectors for Word Representation,Gradient descent optimization,Graph-based learning,Global optimization,Option_1,Intermediate
+What is sentiment analysis?,Determining emotional tone of text,Grammar checking,Spelling correction,Language translation,Option_1,Intermediate
+What is named entity recognition (NER)?,Identifying and classifying named entities in text,Sentiment analysis,Topic modeling,Text summarization,Option_1,Intermediate
+What is machine translation?,Automatically translating text between languages,Manual translation,Dictionary lookup,Grammar checking,Option_1,Intermediate
+What is Computer Vision?,Field enabling computers to understand images/videos,Image storage,Image compression,Screen display,Option_1,Beginner
+What is image classification?,Assigning labels to images,Creating images,Storing images,Displaying images,Option_1,Beginner
+What is object detection?,Locating and identifying objects in images,Classifying entire image,Segmenting image,Measuring image size,Option_1,Intermediate
+What is YOLO?,You Only Look Once - real-time object detection,Image classification model,Segmentation algorithm,Feature extractor,Option_1,Intermediate
+What is semantic segmentation?,Assigning class label to each pixel in image,Dividing image into regions,Detecting objects,Classifying image,Option_1,Advanced
+What is instance segmentation?,Distinguishing individual objects of same class,Classifying pixels,Finding edges,Detecting boundaries,Option_1,Advanced
+What is image segmentation?,Partitioning image into meaningful regions,Resizing image,Rotating image,Filtering image,Option_1,Intermediate
+What is facial recognition?,Identifying individuals from face images,Detecting faces only,Counting faces,Describing faces,Option_1,Intermediate
+What is pose estimation?,Detecting human body joint positions/movements,Estimating object shape,Predicting motion,Analyzing stability,Option_1,Advanced
+What is optical character recognition (OCR)?,Converting printed text to digital text,Detecting text location,Generating text,Translating text,Option_1,Intermediate
+What is Reinforcement Learning?,Agent learns by receiving rewards/penalties for actions,Supervised learning,Unsupervised learning,Transfer learning,Option_1,Intermediate
+What is Markov Decision Process (MDP)?,Mathematical framework for RL problems,Classification method,Regression algorithm,Clustering technique,Option_1,Advanced
+What is Q-learning?,Off-policy RL algorithm learning action values,On-policy algorithm,Policy gradient method,Actor-critic method,Option_1,Advanced
+What is Deep Q-Learning?,Combining Q-learning with deep neural networks,Simple Q-learning,Policy gradient,Value iteration,Option_1,Advanced
+What is policy gradient?,RL method optimizing policy directly,Value-based method,Q-learning variant,Model-based method,Option_1,Advanced
+What is the exploration-exploitation tradeoff?,Balancing trying new actions vs exploiting known good ones,Training vs testing,Accuracy vs speed,Memory vs computation,Option_1,Advanced
+What is an episode in RL?,"Sequence of states, actions, rewards from start to end",Single action,Single state,Single reward,Option_1,Intermediate
+What is discount factor in RL?,Weight determining importance of future rewards,Learning rate,Exploration rate,Reward scaling,Option_1,Advanced
+What is Monte Carlo Tree Search (MCTS)?,Algorithm combining simulation and tree search for decision making,Neural network,Regression method,Classification algorithm,Option_1,Advanced
+What are Actor-Critic methods?,Combining actor (policy) and critic (value) networks,Single network approach,Value-only method,Policy-only method,Option_1,Advanced
+What is a Generative Adversarial Network (GAN)?,"Two networks competing: generator creating, discriminator evaluating",Single neural network,Supervised model,Unsupervised regression,Option_1,Advanced
+What are the two components of a GAN?,Generator and Discriminator,Encoder and Decoder,Input and Output,Training and Testing,Option_1,Advanced
+What is a Variational Autoencoder (VAE)?,Generative model learning latent space representation,Supervised classifier,Feature extractor,Dimensionality reduction only,Option_1,Advanced
+What is an autoencoder?,Neural network learning efficient data representation,Classification network,Regression network,Object detector,Option_1,Intermediate
+What is the difference between encoder and decoder?,"Encoder compresses, decoder reconstructs",Same thing,Decoder is input layer,Encoder is output layer,Option_1,Intermediate
+What is a diffusion model?,Generative model using iterative noise removal,Direct generation model,Classification model,Clustering method,Option_1,Advanced
+What is transfer learning?,Using knowledge from source task for target task,Learning from beginning,Retraining entire model,Feature extraction only,Option_1,Intermediate
+What is domain adaptation?,Adapting model from source domain to target domain,Changing hyperparameters,Collecting more data,Retraining from scratch,Option_1,Advanced
+What is fine-tuning?,Training pre-trained model on new task,Training from scratch,Feature extraction,Data preprocessing,Option_1,Intermediate
+What is feature extraction in transfer learning?,Using pre-trained layers as feature extractor,Creating new features,Removing features,Scaling features,Option_1,Intermediate
+What is overfitting?,"Model learning training data too well, performing poorly on new data",Model not learning,Using wrong algorithm,Invalid data,Option_1,Intermediate
+What is underfitting?,Model too simple to capture data patterns,Model too complex,Too much training,Invalid features,Option_1,Intermediate
+What is regularization?,Technique preventing overfitting by penalizing complexity,Data normalization,Feature scaling,Batch processing,Option_1,Intermediate
+What is cross-validation?,Evaluating model using multiple data splits,Single train-test split,K-fold splitting only,Validation set only,Option_1,Intermediate
+What is the purpose of a validation set?,Tuning hyperparameters without using test set,Training model,Testing model,Preprocessing data,Option_1,Intermediate
+What is batch normalization?,Normalizing inputs to neural network layers,Normalizing entire dataset,Grouping data,Sorting data,Option_1,Intermediate
+What is dropout?,Randomly disabling neurons during training to prevent overfitting,Removing features,Stopping training,Removing data,Option_1,Intermediate
+What is early stopping?,Stopping training when validation performance stops improving,Stopping too early,Random stopping,Always training,Option_1,Intermediate
+What is gradient descent?,Iteratively updating parameters to minimize loss,Ascending parameters,Direct solution,Random search,Option_1,Intermediate
+What is backpropagation?,Algorithm computing gradients for neural networks,Forward pass only,Feature extraction,Data preprocessing,Option_1,Intermediate
+What is stochastic gradient descent (SGD)?,Updating parameters using single sample,Batch gradient descent,Full gradient descent,Random descent,Option_1,Intermediate
+What is Adam optimizer?,Adaptive moment estimation combining momentum and RMSprop,Simple SGD,Gradient descent,Newton's method,Option_1,Intermediate
+What is learning rate?,Parameter controlling step size in optimization,Training percentage,Number of epochs,Batch size,Option_1,Intermediate
+What is loss function?,Measures difference between predicted and actual values,Accuracy metric,Performance measure,Evaluation tool,Option_1,Intermediate
+What is mean squared error (MSE)?,Average of squared differences between predicted and actual,Mean absolute error,Cross-entropy,Hinge loss,Option_1,Intermediate
+What is cross-entropy loss?,Loss for classification measuring probability distance,Regression loss,Clustering loss,Ranking loss,Option_1,Intermediate
+What is accuracy?,Percentage of correct predictions,Average error,Loss value,Precision measure,Option_1,Beginner
+What is precision?,Proportion of positive predictions that are correct,Recall metric,Accuracy metric,F1-score,Option_1,Intermediate
+What is recall?,Proportion of actual positives correctly identified,Precision metric,Accuracy metric,False positive rate,Option_1,Intermediate
+What is F1-score?,Harmonic mean of precision and recall,Average of metrics,Weighted metric,Macro metric,Option_1,Intermediate
+What is AUC-ROC?,Area under Receiver Operating Characteristic curve,Accuracy measure,Precision metric,Recall metric,Option_1,Advanced
+What is data normalization?,Scaling features to similar range,Removing duplicates,Handling missing values,Removing outliers,Option_1,Beginner
+What is feature scaling?,Transforming features to comparable scale,Feature selection,Feature extraction,Feature engineering,Option_1,Beginner
+What is standardization?,Centering data with mean 0 and std 1,Normalization,Scaling between 0-1,Log transformation,Option_1,Intermediate
+What is handling missing values?,"Imputation, deletion, or prediction of missing data",Removing features,Removing records,Ignoring gaps,Option_1,Beginner
+What is outlier detection?,Identifying unusual data points,Feature selection,Data normalization,Data augmentation,Option_1,Intermediate
+What is data augmentation?,Creating new training samples through transformation,Collecting data,Cleaning data,Preprocessing data,Option_1,Intermediate
+What is imbalanced data?,Unequal distribution of classes in dataset,Missing values,Outliers,Duplicates,Option_1,Intermediate
+What is class weighting?,Adjusting loss to handle imbalanced classes,Sampling method,Scaling features,Removing classes,Option_1,Intermediate
+What are hyperparameters?,Parameters set before training controlling learning process,Parameters learned during training,Layer sizes,Data features,Option_1,Intermediate
+What is grid search?,Exhaustively searching hyperparameter combinations,Random search,Bayesian optimization,Manual tuning,Option_1,Intermediate
+What is random search?,Randomly sampling hyperparameter combinations,Grid search,Exhaustive search,Sequential search,Option_1,Intermediate
+What is Bayesian optimization?,Probabilistic approach to hyperparameter optimization,Grid search,Random search,Manual search,Option_1,Advanced
+What are ensemble methods?,Combining multiple models for better performance,Single model,Parameter tuning,Feature engineering,Option_1,Intermediate
+What is bagging?,Training multiple models on random data samples,Boosting method,Stacking method,Voting method,Option_1,Intermediate
+What is boosting?,Sequentially training models focusing on mistakes,Parallel training,Independent training,Weighted training,Option_1,Intermediate
+What is gradient boosting?,Building models sequentially minimizing loss,Simple boosting,Bagging method,Stacking method,Option_1,Advanced
+What is stacking?,Training meta-model on predictions of base models,Simple ensemble,Voting ensemble,Averaging ensemble,Option_1,Advanced
+What is AI bias?,Systematic errors in AI systems favoring certain groups,Random errors,Overfitting,Underfitting,Option_1,Intermediate
+What is fairness in AI?,Ensuring AI systems treat all fairly without discrimination,Equal accuracy,Same weights,Random outputs,Option_1,Intermediate
+What is interpretability in AI?,Ability to explain AI model decisions,Model complexity,Training speed,Prediction speed,Option_1,Intermediate
+What is adversarial robustness?,Model's resistance to adversarial attacks,High accuracy,Fast inference,Small model size,Option_1,Advanced
+What are adversarial examples?,Inputs designed to fool AI models,Training examples,Valid inputs,Normal data,Option_1,Advanced
+What is robotics in AI?,Applying AI to robot control and decision making,Building robots,Manufacturing,Hardware design,Option_1,Intermediate
+What is path planning?,Finding optimal route for robot movement,Robot vision,Gripper control,Sensor integration,Option_1,Intermediate
+What is SLAM?,Simultaneous Localization and Mapping for robot navigation,Robot learning,Vision system,Control system,Option_1,Advanced
+What is inverse kinematics?,Calculating joint angles for desired end-effector position,Forward kinematics,Dynamics,Control,Option_1,Advanced
+What is a Large Language Model (LLM)?,Neural network trained on large text data for language tasks,Small model,Supervised classifier,Clustering algorithm,Option_1,Intermediate
+What is prompt engineering?,Crafting inputs to guide LLM outputs effectively,Model training,Feature engineering,Data preprocessing,Option_1,Intermediate
+What is few-shot learning?,Model learning from few examples,Zero-shot learning,One-shot learning,Many-shot learning,Option_1,Intermediate
+What is zero-shot learning?,Model performing task without specific training examples,Few-shot learning,One-shot learning,Transfer learning,Option_1,Advanced
+What is chain-of-thought prompting?,Guiding model through step-by-step reasoning,Direct prompting,Question answering,Summarization,Option_1,Advanced
+What is LIME?,Local Interpretable Model-agnostic Explanations,Feature importance,Attention weights,Gradient visualization,Option_1,Advanced
+What is SHAP?,SHapley Additive exPlanations for model interpretability,Attention mechanism,Feature scaling,Regularization,Option_1,Advanced
+What is feature importance?,Measuring contribution of each feature to predictions,Feature engineering,Feature selection,Dimensionality reduction,Option_1,Intermediate
+What is attention visualization?,Showing which inputs model focuses on,Attention mechanism,Model architecture,Training process,Option_1,Intermediate
+What is a Graph Neural Network (GNN)?,Neural network operating on graph-structured data,CNN for graphs,RNN for graphs,Feed-forward network,Option_1,Advanced
+What is a knowledge graph?,Structured representation of information as entities and relations,Semantic network,Database,File system,Option_1,Advanced
+What is node embedding?,Representing graph nodes as vectors,Edge representation,Graph representation,Feature representation,Option_1,Advanced
+What is meta-learning?,Learning how to learn from few examples,Transfer learning,Multitask learning,Domain adaptation,Option_1,Advanced
+What is MAML (Model-Agnostic Meta-Learning)?,Meta-learning algorithm finding good initialization,Regular meta-learning,Transfer learning,Multitask learning,Option_1,Advanced
+What is continual learning?,Learning from sequential tasks without forgetting previous ones,Single task learning,Multitask learning,Transfer learning,Option_1,Advanced
+What is federated learning?,Training model on decentralized data without centralizing,Cloud learning,Distributed computing,Parallel processing,Option_1,Advanced
+What is catastrophic forgetting?,Model forgetting previous knowledge when learning new tasks,Normal forgetting,Intentional reset,Regularization effect,Option_1,Advanced
+What does AI stand for?,Artificial Intelligence,Automated Integration,Advanced Information,Application Interface,Option_1,Beginner
+What is the main goal of Artificial Intelligence?,Create machines that can perform tasks requiring human-like intelligence,Replace all humans,Build robots only,Create video games,Option_1,Beginner
+Which of the following is NOT a subfield of AI?,Machine Learning,Natural Language Processing,Computer Vision,Automotive Engineering,Option_4,Beginner
+What is an intelligent agent in AI?,An entity that observes environment and takes actions,A person who sells AI,A robot,A software developer,Option_1,Beginner
+What does Turing Test measure?,Machine's ability to exhibit intelligent behavior indistinguishable from human,Running speed,Memory capacity,Data processing,Option_1,Beginner
+What is Machine Learning?,Subset of AI enabling systems to learn from data,Teaching humans to learn,Computer programming,Data storage,Option_1,Beginner
+What are the three main types of Machine Learning?,"Supervised, Unsupervised, Reinforcement","Predictive, Preventive, Procedural","Input, Output, Process","Linear, Non-linear, Hybrid",Option_1,Beginner
+What is supervised learning?,Learning from labeled training data,Learning without labels,Learning from experts,Learning through observation,Option_1,Beginner
+What is unsupervised learning?,Finding patterns in unlabeled data,Learning with labels,Teaching by examples,Monitoring performance,Option_1,Beginner
+What is reinforcement learning?,Agent learns by interacting with environment and receiving rewards/penalties,Learning from books,Supervised learning,Copying behavior,Option_1,Beginner
+What is Linear Regression used for?,Predicting continuous numerical values,Classifying categories,Clustering data,Feature extraction,Option_1,Intermediate
+What is Logistic Regression?,Classification algorithm for binary/multi-class problems,Predicting continuous values,Clustering technique,Feature scaling,Option_1,Intermediate
+What is a Decision Tree?,Tree model that makes predictions through series of decisions,Data structure for storage,Search algorithm,Network topology,Option_1,Intermediate
+What is Random Forest?,Ensemble method using multiple decision trees,Single decision tree,Classification only algorithm,Unsupervised method,Option_1,Intermediate
+What is SVM (Support Vector Machine)?,Classifier finding optimal boundary between classes,Database management,Clustering algorithm,Regression method,Option_1,Intermediate
+What is clustering in Machine Learning?,Grouping similar data points without labels,Separating classes,Supervised classification,Feature engineering,Option_1,Intermediate
+What is K-Means clustering?,Algorithm partitioning data into K clusters,Classification algorithm,Regression method,Dimensionality reduction,Option_1,Intermediate
+What is hierarchical clustering?,Building tree of nested clusters,Flat clustering,Supervised clustering,Random clustering,Option_1,Intermediate
+What is DBSCAN?,Density-based clustering finding clusters of arbitrary shapes,K-Means variant,Supervised algorithm,Linear classifier,Option_1,Intermediate
+What is Principal Component Analysis (PCA)?,Dimensionality reduction technique preserving variance,Classification algorithm,Clustering method,Feature scaling,Option_1,Intermediate
+What is a Neural Network?,Computational model inspired by biological neurons,Computer network,Database structure,Programming language,Option_1,Intermediate
+What is a perceptron?,Single-layer neural network for binary classification,Deep learning model,Clustering algorithm,Optimization method,Option_1,Intermediate
+What is a hidden layer in neural networks?,Layer between input and output performing computations,Input layer,Output layer,Storage layer,Option_1,Intermediate
+What is activation function in neural networks?,Non-linear function enabling networks to learn complex patterns,Linear function,Loss function,Optimization function,Option_1,Intermediate
+What are common activation functions?,"ReLU, Sigmoid, Tanh","Linear, Quadratic, Cubic","Input, Output, Hidden","Training, Testing, Validation",Option_1,Intermediate
+What is CNN (Convolutional Neural Network)?,Neural network for image recognition using convolutional filters,General neural network,Text processing network,Time series network,Option_1,Intermediate
+What is a convolution operation?,Applying filter to extract features from images,Neural network layer,Classification method,Clustering technique,Option_1,Intermediate
+What is pooling in CNN?,Reducing spatial dimensions while retaining important features,Network training,Feature normalization,Data augmentation,Option_1,Intermediate
+What is max pooling?,Selecting maximum value from each window,Average pooling,Feature extraction,Data preprocessing,Option_1,Intermediate
+What is the purpose of convolutional filters?,Extract local features from images,Classify data,Scale features,Normalize inputs,Option_1,Intermediate
+What is RNN (Recurrent Neural Network)?,Neural network with connections allowing sequences processing,Feed-forward network,Convolutional network,Attention network,Option_1,Intermediate
+What is LSTM (Long Short-Term Memory)?,RNN variant handling long-term dependencies,Simple RNN,CNN architecture,Transformer model,Option_1,Intermediate
+What problem do LSTMs solve in RNNs?,Vanishing/exploding gradient problem,Overfitting,Underfitting,Data imbalance,Option_1,Advanced
+What is GRU (Gated Recurrent Unit)?,Simplified LSTM with fewer parameters,Complex LSTM,CNN layer,Attention mechanism,Option_1,Intermediate
+What is sequence-to-sequence (Seq2Seq) model?,Model translating input sequences to output sequences,Single sequence model,Image processing model,Classification model,Option_1,Advanced
+What is the Transformer architecture?,Architecture using self-attention mechanism,Recurrent architecture,Convolutional architecture,Fully connected network,Option_1,Advanced
+What is self-attention?,Mechanism allowing model to relate different positions in sequence,Attention to input only,Attention to output only,External attention,Option_1,Advanced
+What is BERT?,Bidirectional Encoder Representations from Transformers,Basic Encoder for Tokens,Bidirectional Recurrent Network,Binary Encoding Representation,Option_1,Advanced
+What is GPT?,Generative Pre-trained Transformer,General Processing Transformer,Graphical Processing Tool,Gradient Pointing Technique,Option_1,Advanced
+What does the positional encoding do in Transformers?,Provides sequence position information to model,Encodes data type,Compresses features,Normalizes inputs,Option_1,Advanced
+What is NLP (Natural Language Processing)?,Field enabling computers to understand human language,Programming language,Neural network layer,Data structure,Option_1,Beginner
+What is tokenization?,Breaking text into individual words/tokens,Combining words,Removing duplicates,Sorting text,Option_1,Intermediate
+What is stemming?,Reducing words to root form,Combining words,Removing stopwords,Sorting words,Option_1,Intermediate
+What is lemmatization?,Converting words to dictionary base form,Removing characters,Adding prefixes,Removing suffixes,Option_1,Intermediate
+What are word embeddings?,Vector representations of words capturing semantic meaning,Integer encoding of words,One-hot encoding,Frequency representation,Option_1,Intermediate
+What is Word2Vec?,Algorithm creating word embeddings using neural networks,Word counting algorithm,Text classification model,Language model,Option_1,Intermediate
+What is GloVe?,Global Vectors for Word Representation,Gradient descent optimization,Graph-based learning,Global optimization,Option_1,Intermediate
+What is sentiment analysis?,Determining emotional tone of text,Grammar checking,Spelling correction,Language translation,Option_1,Intermediate
+What is named entity recognition (NER)?,Identifying and classifying named entities in text,Sentiment analysis,Topic modeling,Text summarization,Option_1,Intermediate
+What is machine translation?,Automatically translating text between languages,Manual translation,Dictionary lookup,Grammar checking,Option_1,Intermediate
+What is Computer Vision?,Field enabling computers to understand images/videos,Image storage,Image compression,Screen display,Option_1,Beginner
+What is image classification?,Assigning labels to images,Creating images,Storing images,Displaying images,Option_1,Beginner
+What is object detection?,Locating and identifying objects in images,Classifying entire image,Segmenting image,Measuring image size,Option_1,Intermediate
+What is YOLO?,You Only Look Once - real-time object detection,Image classification model,Segmentation algorithm,Feature extractor,Option_1,Intermediate
+What is semantic segmentation?,Assigning class label to each pixel in image,Dividing image into regions,Detecting objects,Classifying image,Option_1,Advanced
+What is instance segmentation?,Distinguishing individual objects of same class,Classifying pixels,Finding edges,Detecting boundaries,Option_1,Advanced
+What is image segmentation?,Partitioning image into meaningful regions,Resizing image,Rotating image,Filtering image,Option_1,Intermediate
+What is facial recognition?,Identifying individuals from face images,Detecting faces only,Counting faces,Describing faces,Option_1,Intermediate
+What is pose estimation?,Detecting human body joint positions/movements,Estimating object shape,Predicting motion,Analyzing stability,Option_1,Advanced
+What is optical character recognition (OCR)?,Converting printed text to digital text,Detecting text location,Generating text,Translating text,Option_1,Intermediate
+What is Reinforcement Learning?,Agent learns by receiving rewards/penalties for actions,Supervised learning,Unsupervised learning,Transfer learning,Option_1,Intermediate
+What is Markov Decision Process (MDP)?,Mathematical framework for RL problems,Classification method,Regression algorithm,Clustering technique,Option_1,Advanced
+What is Q-learning?,Off-policy RL algorithm learning action values,On-policy algorithm,Policy gradient method,Actor-critic method,Option_1,Advanced
+What is Deep Q-Learning?,Combining Q-learning with deep neural networks,Simple Q-learning,Policy gradient,Value iteration,Option_1,Advanced
+What is policy gradient?,RL method optimizing policy directly,Value-based method,Q-learning variant,Model-based method,Option_1,Advanced
+What is the exploration-exploitation tradeoff?,Balancing trying new actions vs exploiting known good ones,Training vs testing,Accuracy vs speed,Memory vs computation,Option_1,Advanced
+What is an episode in RL?,"Sequence of states, actions, rewards from start to end",Single action,Single state,Single reward,Option_1,Intermediate
+What is discount factor in RL?,Weight determining importance of future rewards,Learning rate,Exploration rate,Reward scaling,Option_1,Advanced
+What is Monte Carlo Tree Search (MCTS)?,Algorithm combining simulation and tree search for decision making,Neural network,Regression method,Classification algorithm,Option_1,Advanced
+What are Actor-Critic methods?,Combining actor (policy) and critic (value) networks,Single network approach,Value-only method,Policy-only method,Option_1,Advanced
+What is a Generative Adversarial Network (GAN)?,"Two networks competing: generator creating, discriminator evaluating",Single neural network,Supervised model,Unsupervised regression,Option_1,Advanced
+What are the two components of a GAN?,Generator and Discriminator,Encoder and Decoder,Input and Output,Training and Testing,Option_1,Advanced
+What is a Variational Autoencoder (VAE)?,Generative model learning latent space representation,Supervised classifier,Feature extractor,Dimensionality reduction only,Option_1,Advanced
+What is an autoencoder?,Neural network learning efficient data representation,Classification network,Regression network,Object detector,Option_1,Intermediate
+What is the difference between encoder and decoder?,"Encoder compresses, decoder reconstructs",Same thing,Decoder is input layer,Encoder is output layer,Option_1,Intermediate
+What is a diffusion model?,Generative model using iterative noise removal,Direct generation model,Classification model,Clustering method,Option_1,Advanced
+What is transfer learning?,Using knowledge from source task for target task,Learning from beginning,Retraining entire model,Feature extraction only,Option_1,Intermediate
+What is domain adaptation?,Adapting model from source domain to target domain,Changing hyperparameters,Collecting more data,Retraining from scratch,Option_1,Advanced
+What is fine-tuning?,Training pre-trained model on new task,Training from scratch,Feature extraction,Data preprocessing,Option_1,Intermediate
+What is feature extraction in transfer learning?,Using pre-trained layers as feature extractor,Creating new features,Removing features,Scaling features,Option_1,Intermediate
+What is overfitting?,"Model learning training data too well, performing poorly on new data",Model not learning,Using wrong algorithm,Invalid data,Option_1,Intermediate
+What is underfitting?,Model too simple to capture data patterns,Model too complex,Too much training,Invalid features,Option_1,Intermediate
+What is regularization?,Technique preventing overfitting by penalizing complexity,Data normalization,Feature scaling,Batch processing,Option_1,Intermediate
+What is cross-validation?,Evaluating model using multiple data splits,Single train-test split,K-fold splitting only,Validation set only,Option_1,Intermediate
+What is the purpose of a validation set?,Tuning hyperparameters without using test set,Training model,Testing model,Preprocessing data,Option_1,Intermediate
+What is batch normalization?,Normalizing inputs to neural network layers,Normalizing entire dataset,Grouping data,Sorting data,Option_1,Intermediate
+What is dropout?,Randomly disabling neurons during training to prevent overfitting,Removing features,Stopping training,Removing data,Option_1,Intermediate
+What is early stopping?,Stopping training when validation performance stops improving,Stopping too early,Random stopping,Always training,Option_1,Intermediate
+What is gradient descent?,Iteratively updating parameters to minimize loss,Ascending parameters,Direct solution,Random search,Option_1,Intermediate
+What is backpropagation?,Algorithm computing gradients for neural networks,Forward pass only,Feature extraction,Data preprocessing,Option_1,Intermediate
+What is stochastic gradient descent (SGD)?,Updating parameters using single sample,Batch gradient descent,Full gradient descent,Random descent,Option_1,Intermediate
+What is Adam optimizer?,Adaptive moment estimation combining momentum and RMSprop,Simple SGD,Gradient descent,Newton's method,Option_1,Intermediate
+What is learning rate?,Parameter controlling step size in optimization,Training percentage,Number of epochs,Batch size,Option_1,Intermediate
+What is loss function?,Measures difference between predicted and actual values,Accuracy metric,Performance measure,Evaluation tool,Option_1,Intermediate
+What is mean squared error (MSE)?,Average of squared differences between predicted and actual,Mean absolute error,Cross-entropy,Hinge loss,Option_1,Intermediate
+What is cross-entropy loss?,Loss for classification measuring probability distance,Regression loss,Clustering loss,Ranking loss,Option_1,Intermediate
+What is accuracy?,Percentage of correct predictions,Average error,Loss value,Precision measure,Option_1,Beginner
+What is precision?,Proportion of positive predictions that are correct,Recall metric,Accuracy metric,F1-score,Option_1,Intermediate
+What is recall?,Proportion of actual positives correctly identified,Precision metric,Accuracy metric,False positive rate,Option_1,Intermediate
+What is F1-score?,Harmonic mean of precision and recall,Average of metrics,Weighted metric,Macro metric,Option_1,Intermediate
+What is AUC-ROC?,Area under Receiver Operating Characteristic curve,Accuracy measure,Precision metric,Recall metric,Option_1,Advanced
+What is data normalization?,Scaling features to similar range,Removing duplicates,Handling missing values,Removing outliers,Option_1,Beginner
+What is feature scaling?,Transforming features to comparable scale,Feature selection,Feature extraction,Feature engineering,Option_1,Beginner
+What is standardization?,Centering data with mean 0 and std 1,Normalization,Scaling between 0-1,Log transformation,Option_1,Intermediate
+What is handling missing values?,"Imputation, deletion, or prediction of missing data",Removing features,Removing records,Ignoring gaps,Option_1,Beginner
+What is outlier detection?,Identifying unusual data points,Feature selection,Data normalization,Data augmentation,Option_1,Intermediate
+What is data augmentation?,Creating new training samples through transformation,Collecting data,Cleaning data,Preprocessing data,Option_1,Intermediate
+What is imbalanced data?,Unequal distribution of classes in dataset,Missing values,Outliers,Duplicates,Option_1,Intermediate
+What is class weighting?,Adjusting loss to handle imbalanced classes,Sampling method,Scaling features,Removing classes,Option_1,Intermediate
+What are hyperparameters?,Parameters set before training controlling learning process,Parameters learned during training,Layer sizes,Data features,Option_1,Intermediate
+What is grid search?,Exhaustively searching hyperparameter combinations,Random search,Bayesian optimization,Manual tuning,Option_1,Intermediate
+What is random search?,Randomly sampling hyperparameter combinations,Grid search,Exhaustive search,Sequential search,Option_1,Intermediate
+What is Bayesian optimization?,Probabilistic approach to hyperparameter optimization,Grid search,Random search,Manual search,Option_1,Advanced
+What are ensemble methods?,Combining multiple models for better performance,Single model,Parameter tuning,Feature engineering,Option_1,Intermediate
+What is bagging?,Training multiple models on random data samples,Boosting method,Stacking method,Voting method,Option_1,Intermediate
+What is boosting?,Sequentially training models focusing on mistakes,Parallel training,Independent training,Weighted training,Option_1,Intermediate
+What is gradient boosting?,Building models sequentially minimizing loss,Simple boosting,Bagging method,Stacking method,Option_1,Advanced
+What is stacking?,Training meta-model on predictions of base models,Simple ensemble,Voting ensemble,Averaging ensemble,Option_1,Advanced
+What is AI bias?,Systematic errors in AI systems favoring certain groups,Random errors,Overfitting,Underfitting,Option_1,Intermediate
+What is fairness in AI?,Ensuring AI systems treat all fairly without discrimination,Equal accuracy,Same weights,Random outputs,Option_1,Intermediate
+What is interpretability in AI?,Ability to explain AI model decisions,Model complexity,Training speed,Prediction speed,Option_1,Intermediate
+What is adversarial robustness?,Model's resistance to adversarial attacks,High accuracy,Fast inference,Small model size,Option_1,Advanced
+What are adversarial examples?,Inputs designed to fool AI models,Training examples,Valid inputs,Normal data,Option_1,Advanced
+What is robotics in AI?,Applying AI to robot control and decision making,Building robots,Manufacturing,Hardware design,Option_1,Intermediate
+What is path planning?,Finding optimal route for robot movement,Robot vision,Gripper control,Sensor integration,Option_1,Intermediate
+What is SLAM?,Simultaneous Localization and Mapping for robot navigation,Robot learning,Vision system,Control system,Option_1,Advanced
+What is inverse kinematics?,Calculating joint angles for desired end-effector position,Forward kinematics,Dynamics,Control,Option_1,Advanced
+What is a Large Language Model (LLM)?,Neural network trained on large text data for language tasks,Small model,Supervised classifier,Clustering algorithm,Option_1,Intermediate
+What is prompt engineering?,Crafting inputs to guide LLM outputs effectively,Model training,Feature engineering,Data preprocessing,Option_1,Intermediate
+What is few-shot learning?,Model learning from few examples,Zero-shot learning,One-shot learning,Many-shot learning,Option_1,Intermediate
+What is zero-shot learning?,Model performing task without specific training examples,Few-shot learning,One-shot learning,Transfer learning,Option_1,Advanced
+What is chain-of-thought prompting?,Guiding model through step-by-step reasoning,Direct prompting,Question answering,Summarization,Option_1,Advanced
+What is LIME?,Local Interpretable Model-agnostic Explanations,Feature importance,Attention weights,Gradient visualization,Option_1,Advanced
+What is SHAP?,SHapley Additive exPlanations for model interpretability,Attention mechanism,Feature scaling,Regularization,Option_1,Advanced
+What is feature importance?,Measuring contribution of each feature to predictions,Feature engineering,Feature selection,Dimensionality reduction,Option_1,Intermediate
+What is attention visualization?,Showing which inputs model focuses on,Attention mechanism,Model architecture,Training process,Option_1,Intermediate
+What is a Graph Neural Network (GNN)?,Neural network operating on graph-structured data,CNN for graphs,RNN for graphs,Feed-forward network,Option_1,Advanced
+What is a knowledge graph?,Structured representation of information as entities and relations,Semantic network,Database,File system,Option_1,Advanced
+What is node embedding?,Representing graph nodes as vectors,Edge representation,Graph representation,Feature representation,Option_1,Advanced
+What is meta-learning?,Learning how to learn from few examples,Transfer learning,Multitask learning,Domain adaptation,Option_1,Advanced
+What is MAML (Model-Agnostic Meta-Learning)?,Meta-learning algorithm finding good initialization,Regular meta-learning,Transfer learning,Multitask learning,Option_1,Advanced
+What is continual learning?,Learning from sequential tasks without forgetting previous ones,Single task learning,Multitask learning,Transfer learning,Option_1,Advanced
+What is federated learning?,Training model on decentralized data without centralizing,Cloud learning,Distributed computing,Parallel processing,Option_1,Advanced
+What is catastrophic forgetting?,Model forgetting previous knowledge when learning new tasks,Normal forgetting,Intentional reset,Regularization effect,Option_1,Advanced
+What does AI stand for?,Artificial Intelligence,Automated Integration,Advanced Information,Application Interface,Option_1,Beginner
+What is the main goal of Artificial Intelligence?,Create machines that can perform tasks requiring human-like intelligence,Replace all humans,Build robots only,Create video games,Option_1,Beginner
+Which of the following is NOT a subfield of AI?,Machine Learning,Natural Language Processing,Computer Vision,Automotive Engineering,Option_4,Beginner
+What is an intelligent agent in AI?,An entity that observes environment and takes actions,A person who sells AI,A robot,A software developer,Option_1,Beginner
+What does Turing Test measure?,Machine's ability to exhibit intelligent behavior indistinguishable from human,Running speed,Memory capacity,Data processing,Option_1,Beginner
+What is Machine Learning?,Subset of AI enabling systems to learn from data,Teaching humans to learn,Computer programming,Data storage,Option_1,Beginner
+What are the three main types of Machine Learning?,"Supervised, Unsupervised, Reinforcement","Predictive, Preventive, Procedural","Input, Output, Process","Linear, Non-linear, Hybrid",Option_1,Beginner
+What is supervised learning?,Learning from labeled training data,Learning without labels,Learning from experts,Learning through observation,Option_1,Beginner
+What is unsupervised learning?,Finding patterns in unlabeled data,Learning with labels,Teaching by examples,Monitoring performance,Option_1,Beginner
+What is reinforcement learning?,Agent learns by interacting with environment and receiving rewards/penalties,Learning from books,Supervised learning,Copying behavior,Option_1,Beginner
+What is Linear Regression used for?,Predicting continuous numerical values,Classifying categories,Clustering data,Feature extraction,Option_1,Intermediate
+What is Logistic Regression?,Classification algorithm for binary/multi-class problems,Predicting continuous values,Clustering technique,Feature scaling,Option_1,Intermediate
+What is a Decision Tree?,Tree model that makes predictions through series of decisions,Data structure for storage,Search algorithm,Network topology,Option_1,Intermediate
+What is Random Forest?,Ensemble method using multiple decision trees,Single decision tree,Classification only algorithm,Unsupervised method,Option_1,Intermediate
+What is SVM (Support Vector Machine)?,Classifier finding optimal boundary between classes,Database management,Clustering algorithm,Regression method,Option_1,Intermediate
+What is clustering in Machine Learning?,Grouping similar data points without labels,Separating classes,Supervised classification,Feature engineering,Option_1,Intermediate
+What is K-Means clustering?,Algorithm partitioning data into K clusters,Classification algorithm,Regression method,Dimensionality reduction,Option_1,Intermediate
+What is hierarchical clustering?,Building tree of nested clusters,Flat clustering,Supervised clustering,Random clustering,Option_1,Intermediate
+What is DBSCAN?,Density-based clustering finding clusters of arbitrary shapes,K-Means variant,Supervised algorithm,Linear classifier,Option_1,Intermediate
+What is Principal Component Analysis (PCA)?,Dimensionality reduction technique preserving variance,Classification algorithm,Clustering method,Feature scaling,Option_1,Intermediate
+What is a Neural Network?,Computational model inspired by biological neurons,Computer network,Database structure,Programming language,Option_1,Intermediate
+What is a perceptron?,Single-layer neural network for binary classification,Deep learning model,Clustering algorithm,Optimization method,Option_1,Intermediate
+What is a hidden layer in neural networks?,Layer between input and output performing computations,Input layer,Output layer,Storage layer,Option_1,Intermediate
+What is activation function in neural networks?,Non-linear function enabling networks to learn complex patterns,Linear function,Loss function,Optimization function,Option_1,Intermediate
+What are common activation functions?,"ReLU, Sigmoid, Tanh","Linear, Quadratic, Cubic","Input, Output, Hidden","Training, Testing, Validation",Option_1,Intermediate
+What is CNN (Convolutional Neural Network)?,Neural network for image recognition using convolutional filters,General neural network,Text processing network,Time series network,Option_1,Intermediate
+What is a convolution operation?,Applying filter to extract features from images,Neural network layer,Classification method,Clustering technique,Option_1,Intermediate
+What is pooling in CNN?,Reducing spatial dimensions while retaining important features,Network training,Feature normalization,Data augmentation,Option_1,Intermediate
+What is max pooling?,Selecting maximum value from each window,Average pooling,Feature extraction,Data preprocessing,Option_1,Intermediate
+What is the purpose of convolutional filters?,Extract local features from images,Classify data,Scale features,Normalize inputs,Option_1,Intermediate
+What is RNN (Recurrent Neural Network)?,Neural network with connections allowing sequences processing,Feed-forward network,Convolutional network,Attention network,Option_1,Intermediate
+What is LSTM (Long Short-Term Memory)?,RNN variant handling long-term dependencies,Simple RNN,CNN architecture,Transformer model,Option_1,Intermediate
+What problem do LSTMs solve in RNNs?,Vanishing/exploding gradient problem,Overfitting,Underfitting,Data imbalance,Option_1,Advanced
+What is GRU (Gated Recurrent Unit)?,Simplified LSTM with fewer parameters,Complex LSTM,CNN layer,Attention mechanism,Option_1,Intermediate
+What is sequence-to-sequence (Seq2Seq) model?,Model translating input sequences to output sequences,Single sequence model,Image processing model,Classification model,Option_1,Advanced
+What is the Transformer architecture?,Architecture using self-attention mechanism,Recurrent architecture,Convolutional architecture,Fully connected network,Option_1,Advanced
+What is self-attention?,Mechanism allowing model to relate different positions in sequence,Attention to input only,Attention to output only,External attention,Option_1,Advanced
+What is BERT?,Bidirectional Encoder Representations from Transformers,Basic Encoder for Tokens,Bidirectional Recurrent Network,Binary Encoding Representation,Option_1,Advanced
+What is GPT?,Generative Pre-trained Transformer,General Processing Transformer,Graphical Processing Tool,Gradient Pointing Technique,Option_1,Advanced
+What does the positional encoding do in Transformers?,Provides sequence position information to model,Encodes data type,Compresses features,Normalizes inputs,Option_1,Advanced
+What is NLP (Natural Language Processing)?,Field enabling computers to understand human language,Programming language,Neural network layer,Data structure,Option_1,Beginner
+What is tokenization?,Breaking text into individual words/tokens,Combining words,Removing duplicates,Sorting text,Option_1,Intermediate
+What is stemming?,Reducing words to root form,Combining words,Removing stopwords,Sorting words,Option_1,Intermediate
+What is lemmatization?,Converting words to dictionary base form,Removing characters,Adding prefixes,Removing suffixes,Option_1,Intermediate
+What are word embeddings?,Vector representations of words capturing semantic meaning,Integer encoding of words,One-hot encoding,Frequency representation,Option_1,Intermediate
+What is Word2Vec?,Algorithm creating word embeddings using neural networks,Word counting algorithm,Text classification model,Language model,Option_1,Intermediate
+What is GloVe?,Global Vectors for Word Representation,Gradient descent optimization,Graph-based learning,Global optimization,Option_1,Intermediate
+What is sentiment analysis?,Determining emotional tone of text,Grammar checking,Spelling correction,Language translation,Option_1,Intermediate
+What is named entity recognition (NER)?,Identifying and classifying named entities in text,Sentiment analysis,Topic modeling,Text summarization,Option_1,Intermediate
+What is machine translation?,Automatically translating text between languages,Manual translation,Dictionary lookup,Grammar checking,Option_1,Intermediate
+What is Computer Vision?,Field enabling computers to understand images/videos,Image storage,Image compression,Screen display,Option_1,Beginner
+What is image classification?,Assigning labels to images,Creating images,Storing images,Displaying images,Option_1,Beginner
+What is object detection?,Locating and identifying objects in images,Classifying entire image,Segmenting image,Measuring image size,Option_1,Intermediate
+What is YOLO?,You Only Look Once - real-time object detection,Image classification model,Segmentation algorithm,Feature extractor,Option_1,Intermediate
+What is semantic segmentation?,Assigning class label to each pixel in image,Dividing image into regions,Detecting objects,Classifying image,Option_1,Advanced
+What is instance segmentation?,Distinguishing individual objects of same class,Classifying pixels,Finding edges,Detecting boundaries,Option_1,Advanced
+What is image segmentation?,Partitioning image into meaningful regions,Resizing image,Rotating image,Filtering image,Option_1,Intermediate
+What is facial recognition?,Identifying individuals from face images,Detecting faces only,Counting faces,Describing faces,Option_1,Intermediate
+What is pose estimation?,Detecting human body joint positions/movements,Estimating object shape,Predicting motion,Analyzing stability,Option_1,Advanced
+What is optical character recognition (OCR)?,Converting printed text to digital text,Detecting text location,Generating text,Translating text,Option_1,Intermediate
+What is Reinforcement Learning?,Agent learns by receiving rewards/penalties for actions,Supervised learning,Unsupervised learning,Transfer learning,Option_1,Intermediate
+What is Markov Decision Process (MDP)?,Mathematical framework for RL problems,Classification method,Regression algorithm,Clustering technique,Option_1,Advanced
+What is Q-learning?,Off-policy RL algorithm learning action values,On-policy algorithm,Policy gradient method,Actor-critic method,Option_1,Advanced
+What is Deep Q-Learning?,Combining Q-learning with deep neural networks,Simple Q-learning,Policy gradient,Value iteration,Option_1,Advanced
+What is policy gradient?,RL method optimizing policy directly,Value-based method,Q-learning variant,Model-based method,Option_1,Advanced
+What is the exploration-exploitation tradeoff?,Balancing trying new actions vs exploiting known good ones,Training vs testing,Accuracy vs speed,Memory vs computation,Option_1,Advanced
+What is an episode in RL?,"Sequence of states, actions, rewards from start to end",Single action,Single state,Single reward,Option_1,Intermediate
+What is discount factor in RL?,Weight determining importance of future rewards,Learning rate,Exploration rate,Reward scaling,Option_1,Advanced
+What is Monte Carlo Tree Search (MCTS)?,Algorithm combining simulation and tree search for decision making,Neural network,Regression method,Classification algorithm,Option_1,Advanced
+What are Actor-Critic methods?,Combining actor (policy) and critic (value) networks,Single network approach,Value-only method,Policy-only method,Option_1,Advanced
+What is a Generative Adversarial Network (GAN)?,"Two networks competing: generator creating, discriminator evaluating",Single neural network,Supervised model,Unsupervised regression,Option_1,Advanced
+What are the two components of a GAN?,Generator and Discriminator,Encoder and Decoder,Input and Output,Training and Testing,Option_1,Advanced
+What is a Variational Autoencoder (VAE)?,Generative model learning latent space representation,Supervised classifier,Feature extractor,Dimensionality reduction only,Option_1,Advanced
+What is an autoencoder?,Neural network learning efficient data representation,Classification network,Regression network,Object detector,Option_1,Intermediate
+What is the difference between encoder and decoder?,"Encoder compresses, decoder reconstructs",Same thing,Decoder is input layer,Encoder is output layer,Option_1,Intermediate
+What is a diffusion model?,Generative model using iterative noise removal,Direct generation model,Classification model,Clustering method,Option_1,Advanced
+What is transfer learning?,Using knowledge from source task for target task,Learning from beginning,Retraining entire model,Feature extraction only,Option_1,Intermediate
+What is domain adaptation?,Adapting model from source domain to target domain,Changing hyperparameters,Collecting more data,Retraining from scratch,Option_1,Advanced
+What is fine-tuning?,Training pre-trained model on new task,Training from scratch,Feature extraction,Data preprocessing,Option_1,Intermediate
+What is feature extraction in transfer learning?,Using pre-trained layers as feature extractor,Creating new features,Removing features,Scaling features,Option_1,Intermediate
+What is overfitting?,"Model learning training data too well, performing poorly on new data",Model not learning,Using wrong algorithm,Invalid data,Option_1,Intermediate
+What is underfitting?,Model too simple to capture data patterns,Model too complex,Too much training,Invalid features,Option_1,Intermediate
+What is regularization?,Technique preventing overfitting by penalizing complexity,Data normalization,Feature scaling,Batch processing,Option_1,Intermediate
+What is cross-validation?,Evaluating model using multiple data splits,Single train-test split,K-fold splitting only,Validation set only,Option_1,Intermediate
+What is the purpose of a validation set?,Tuning hyperparameters without using test set,Training model,Testing model,Preprocessing data,Option_1,Intermediate
+What is batch normalization?,Normalizing inputs to neural network layers,Normalizing entire dataset,Grouping data,Sorting data,Option_1,Intermediate
+What is dropout?,Randomly disabling neurons during training to prevent overfitting,Removing features,Stopping training,Removing data,Option_1,Intermediate
+What is early stopping?,Stopping training when validation performance stops improving,Stopping too early,Random stopping,Always training,Option_1,Intermediate
+What is gradient descent?,Iteratively updating parameters to minimize loss,Ascending parameters,Direct solution,Random search,Option_1,Intermediate
+What is backpropagation?,Algorithm computing gradients for neural networks,Forward pass only,Feature extraction,Data preprocessing,Option_1,Intermediate
+What is stochastic gradient descent (SGD)?,Updating parameters using single sample,Batch gradient descent,Full gradient descent,Random descent,Option_1,Intermediate
+What is Adam optimizer?,Adaptive moment estimation combining momentum and RMSprop,Simple SGD,Gradient descent,Newton's method,Option_1,Intermediate
+What is learning rate?,Parameter controlling step size in optimization,Training percentage,Number of epochs,Batch size,Option_1,Intermediate
+What is loss function?,Measures difference between predicted and actual values,Accuracy metric,Performance measure,Evaluation tool,Option_1,Intermediate
+What is mean squared error (MSE)?,Average of squared differences between predicted and actual,Mean absolute error,Cross-entropy,Hinge loss,Option_1,Intermediate
+What is cross-entropy loss?,Loss for classification measuring probability distance,Regression loss,Clustering loss,Ranking loss,Option_1,Intermediate
+What is accuracy?,Percentage of correct predictions,Average error,Loss value,Precision measure,Option_1,Beginner
+What is precision?,Proportion of positive predictions that are correct,Recall metric,Accuracy metric,F1-score,Option_1,Intermediate
+What is recall?,Proportion of actual positives correctly identified,Precision metric,Accuracy metric,False positive rate,Option_1,Intermediate
+What is F1-score?,Harmonic mean of precision and recall,Average of metrics,Weighted metric,Macro metric,Option_1,Intermediate
+What is AUC-ROC?,Area under Receiver Operating Characteristic curve,Accuracy measure,Precision metric,Recall metric,Option_1,Advanced
+What is data normalization?,Scaling features to similar range,Removing duplicates,Handling missing values,Removing outliers,Option_1,Beginner
+What is feature scaling?,Transforming features to comparable scale,Feature selection,Feature extraction,Feature engineering,Option_1,Beginner
+What is standardization?,Centering data with mean 0 and std 1,Normalization,Scaling between 0-1,Log transformation,Option_1,Intermediate
+What is handling missing values?,"Imputation, deletion, or prediction of missing data",Removing features,Removing records,Ignoring gaps,Option_1,Beginner
+What is outlier detection?,Identifying unusual data points,Feature selection,Data normalization,Data augmentation,Option_1,Intermediate
+What is data augmentation?,Creating new training samples through transformation,Collecting data,Cleaning data,Preprocessing data,Option_1,Intermediate
+What is imbalanced data?,Unequal distribution of classes in dataset,Missing values,Outliers,Duplicates,Option_1,Intermediate
+What is class weighting?,Adjusting loss to handle imbalanced classes,Sampling method,Scaling features,Removing classes,Option_1,Intermediate
+What are hyperparameters?,Parameters set before training controlling learning process,Parameters learned during training,Layer sizes,Data features,Option_1,Intermediate
+What is grid search?,Exhaustively searching hyperparameter combinations,Random search,Bayesian optimization,Manual tuning,Option_1,Intermediate
+What is random search?,Randomly sampling hyperparameter combinations,Grid search,Exhaustive search,Sequential search,Option_1,Intermediate
+What is Bayesian optimization?,Probabilistic approach to hyperparameter optimization,Grid search,Random search,Manual search,Option_1,Advanced
+What are ensemble methods?,Combining multiple models for better performance,Single model,Parameter tuning,Feature engineering,Option_1,Intermediate
+What is bagging?,Training multiple models on random data samples,Boosting method,Stacking method,Voting method,Option_1,Intermediate
+What is boosting?,Sequentially training models focusing on mistakes,Parallel training,Independent training,Weighted training,Option_1,Intermediate
+What is gradient boosting?,Building models sequentially minimizing loss,Simple boosting,Bagging method,Stacking method,Option_1,Advanced
+What is stacking?,Training meta-model on predictions of base models,Simple ensemble,Voting ensemble,Averaging ensemble,Option_1,Advanced
+What is AI bias?,Systematic errors in AI systems favoring certain groups,Random errors,Overfitting,Underfitting,Option_1,Intermediate
+What is fairness in AI?,Ensuring AI systems treat all fairly without discrimination,Equal accuracy,Same weights,Random outputs,Option_1,Intermediate
+What is interpretability in AI?,Ability to explain AI model decisions,Model complexity,Training speed,Prediction speed,Option_1,Intermediate
+What is adversarial robustness?,Model's resistance to adversarial attacks,High accuracy,Fast inference,Small model size,Option_1,Advanced
+What are adversarial examples?,Inputs designed to fool AI models,Training examples,Valid inputs,Normal data,Option_1,Advanced
+What is robotics in AI?,Applying AI to robot control and decision making,Building robots,Manufacturing,Hardware design,Option_1,Intermediate
+What is path planning?,Finding optimal route for robot movement,Robot vision,Gripper control,Sensor integration,Option_1,Intermediate
+What is SLAM?,Simultaneous Localization and Mapping for robot navigation,Robot learning,Vision system,Control system,Option_1,Advanced
+What is inverse kinematics?,Calculating joint angles for desired end-effector position,Forward kinematics,Dynamics,Control,Option_1,Advanced
+What is a Large Language Model (LLM)?,Neural network trained on large text data for language tasks,Small model,Supervised classifier,Clustering algorithm,Option_1,Intermediate
+What is prompt engineering?,Crafting inputs to guide LLM outputs effectively,Model training,Feature engineering,Data preprocessing,Option_1,Intermediate
+What is few-shot learning?,Model learning from few examples,Zero-shot learning,One-shot learning,Many-shot learning,Option_1,Intermediate
+What is zero-shot learning?,Model performing task without specific training examples,Few-shot learning,One-shot learning,Transfer learning,Option_1,Advanced
+What is chain-of-thought prompting?,Guiding model through step-by-step reasoning,Direct prompting,Question answering,Summarization,Option_1,Advanced
+What is LIME?,Local Interpretable Model-agnostic Explanations,Feature importance,Attention weights,Gradient visualization,Option_1,Advanced
+What is SHAP?,SHapley Additive exPlanations for model interpretability,Attention mechanism,Feature scaling,Regularization,Option_1,Advanced
+What is feature importance?,Measuring contribution of each feature to predictions,Feature engineering,Feature selection,Dimensionality reduction,Option_1,Intermediate
+What is attention visualization?,Showing which inputs model focuses on,Attention mechanism,Model architecture,Training process,Option_1,Intermediate
+What is a Graph Neural Network (GNN)?,Neural network operating on graph-structured data,CNN for graphs,RNN for graphs,Feed-forward network,Option_1,Advanced
+What is a knowledge graph?,Structured representation of information as entities and relations,Semantic network,Database,File system,Option_1,Advanced
+What is node embedding?,Representing graph nodes as vectors,Edge representation,Graph representation,Feature representation,Option_1,Advanced
+What is meta-learning?,Learning how to learn from few examples,Transfer learning,Multitask learning,Domain adaptation,Option_1,Advanced
+What is MAML (Model-Agnostic Meta-Learning)?,Meta-learning algorithm finding good initialization,Regular meta-learning,Transfer learning,Multitask learning,Option_1,Advanced
+What is continual learning?,Learning from sequential tasks without forgetting previous ones,Single task learning,Multitask learning,Transfer learning,Option_1,Advanced
+What is federated learning?,Training model on decentralized data without centralizing,Cloud learning,Distributed computing,Parallel processing,Option_1,Advanced
+What is catastrophic forgetting?,Model forgetting previous knowledge when learning new tasks,Normal forgetting,Intentional reset,Regularization effect,Option_1,Advanced
+What does AI stand for?,Artificial Intelligence,Automated Integration,Advanced Information,Application Interface,Option_1,Beginner
+What is the main goal of Artificial Intelligence?,Create machines that can perform tasks requiring human-like intelligence,Replace all humans,Build robots only,Create video games,Option_1,Beginner
+Which of the following is NOT a subfield of AI?,Machine Learning,Natural Language Processing,Computer Vision,Automotive Engineering,Option_4,Beginner
+What is an intelligent agent in AI?,An entity that observes environment and takes actions,A person who sells AI,A robot,A software developer,Option_1,Beginner
+What does Turing Test measure?,Machine's ability to exhibit intelligent behavior indistinguishable from human,Running speed,Memory capacity,Data processing,Option_1,Beginner
+What is Machine Learning?,Subset of AI enabling systems to learn from data,Teaching humans to learn,Computer programming,Data storage,Option_1,Beginner
+What are the three main types of Machine Learning?,"Supervised, Unsupervised, Reinforcement","Predictive, Preventive, Procedural","Input, Output, Process","Linear, Non-linear, Hybrid",Option_1,Beginner
+What is supervised learning?,Learning from labeled training data,Learning without labels,Learning from experts,Learning through observation,Option_1,Beginner
+What is unsupervised learning?,Finding patterns in unlabeled data,Learning with labels,Teaching by examples,Monitoring performance,Option_1,Beginner
+What is reinforcement learning?,Agent learns by interacting with environment and receiving rewards/penalties,Learning from books,Supervised learning,Copying behavior,Option_1,Beginner
+What is Linear Regression used for?,Predicting continuous numerical values,Classifying categories,Clustering data,Feature extraction,Option_1,Intermediate
+What is Logistic Regression?,Classification algorithm for binary/multi-class problems,Predicting continuous values,Clustering technique,Feature scaling,Option_1,Intermediate
+What is a Decision Tree?,Tree model that makes predictions through series of decisions,Data structure for storage,Search algorithm,Network topology,Option_1,Intermediate
+What is Random Forest?,Ensemble method using multiple decision trees,Single decision tree,Classification only algorithm,Unsupervised method,Option_1,Intermediate
+What is SVM (Support Vector Machine)?,Classifier finding optimal boundary between classes,Database management,Clustering algorithm,Regression method,Option_1,Intermediate
+What is clustering in Machine Learning?,Grouping similar data points without labels,Separating classes,Supervised classification,Feature engineering,Option_1,Intermediate
+What is K-Means clustering?,Algorithm partitioning data into K clusters,Classification algorithm,Regression method,Dimensionality reduction,Option_1,Intermediate
+What is hierarchical clustering?,Building tree of nested clusters,Flat clustering,Supervised clustering,Random clustering,Option_1,Intermediate
+What is DBSCAN?,Density-based clustering finding clusters of arbitrary shapes,K-Means variant,Supervised algorithm,Linear classifier,Option_1,Intermediate
+What is Principal Component Analysis (PCA)?,Dimensionality reduction technique preserving variance,Classification algorithm,Clustering method,Feature scaling,Option_1,Intermediate
+What is a Neural Network?,Computational model inspired by biological neurons,Computer network,Database structure,Programming language,Option_1,Intermediate
+What is a perceptron?,Single-layer neural network for binary classification,Deep learning model,Clustering algorithm,Optimization method,Option_1,Intermediate
+What is a hidden layer in neural networks?,Layer between input and output performing computations,Input layer,Output layer,Storage layer,Option_1,Intermediate
+What is activation function in neural networks?,Non-linear function enabling networks to learn complex patterns,Linear function,Loss function,Optimization function,Option_1,Intermediate
+What are common activation functions?,"ReLU, Sigmoid, Tanh","Linear, Quadratic, Cubic","Input, Output, Hidden","Training, Testing, Validation",Option_1,Intermediate
+What is CNN (Convolutional Neural Network)?,Neural network for image recognition using convolutional filters,General neural network,Text processing network,Time series network,Option_1,Intermediate
+What is a convolution operation?,Applying filter to extract features from images,Neural network layer,Classification method,Clustering technique,Option_1,Intermediate
+What is pooling in CNN?,Reducing spatial dimensions while retaining important features,Network training,Feature normalization,Data augmentation,Option_1,Intermediate
+What is max pooling?,Selecting maximum value from each window,Average pooling,Feature extraction,Data preprocessing,Option_1,Intermediate
+What is the purpose of convolutional filters?,Extract local features from images,Classify data,Scale features,Normalize inputs,Option_1,Intermediate
+What is RNN (Recurrent Neural Network)?,Neural network with connections allowing sequences processing,Feed-forward network,Convolutional network,Attention network,Option_1,Intermediate
+What is LSTM (Long Short-Term Memory)?,RNN variant handling long-term dependencies,Simple RNN,CNN architecture,Transformer model,Option_1,Intermediate
+What problem do LSTMs solve in RNNs?,Vanishing/exploding gradient problem,Overfitting,Underfitting,Data imbalance,Option_1,Advanced
+What is GRU (Gated Recurrent Unit)?,Simplified LSTM with fewer parameters,Complex LSTM,CNN layer,Attention mechanism,Option_1,Intermediate
+What is sequence-to-sequence (Seq2Seq) model?,Model translating input sequences to output sequences,Single sequence model,Image processing model,Classification model,Option_1,Advanced
+What is the Transformer architecture?,Architecture using self-attention mechanism,Recurrent architecture,Convolutional architecture,Fully connected network,Option_1,Advanced
+What is self-attention?,Mechanism allowing model to relate different positions in sequence,Attention to input only,Attention to output only,External attention,Option_1,Advanced
+What is BERT?,Bidirectional Encoder Representations from Transformers,Basic Encoder for Tokens,Bidirectional Recurrent Network,Binary Encoding Representation,Option_1,Advanced
+What is GPT?,Generative Pre-trained Transformer,General Processing Transformer,Graphical Processing Tool,Gradient Pointing Technique,Option_1,Advanced
+What does the positional encoding do in Transformers?,Provides sequence position information to model,Encodes data type,Compresses features,Normalizes inputs,Option_1,Advanced
+What is NLP (Natural Language Processing)?,Field enabling computers to understand human language,Programming language,Neural network layer,Data structure,Option_1,Beginner
+What is tokenization?,Breaking text into individual words/tokens,Combining words,Removing duplicates,Sorting text,Option_1,Intermediate
+What is stemming?,Reducing words to root form,Combining words,Removing stopwords,Sorting words,Option_1,Intermediate
+What is lemmatization?,Converting words to dictionary base form,Removing characters,Adding prefixes,Removing suffixes,Option_1,Intermediate
+What are word embeddings?,Vector representations of words capturing semantic meaning,Integer encoding of words,One-hot encoding,Frequency representation,Option_1,Intermediate
+What is Word2Vec?,Algorithm creating word embeddings using neural networks,Word counting algorithm,Text classification model,Language model,Option_1,Intermediate
+What is GloVe?,Global Vectors for Word Representation,Gradient descent optimization,Graph-based learning,Global optimization,Option_1,Intermediate
+What is sentiment analysis?,Determining emotional tone of text,Grammar checking,Spelling correction,Language translation,Option_1,Intermediate
+What is named entity recognition (NER)?,Identifying and classifying named entities in text,Sentiment analysis,Topic modeling,Text summarization,Option_1,Intermediate
+What is machine translation?,Automatically translating text between languages,Manual translation,Dictionary lookup,Grammar checking,Option_1,Intermediate
+What is Computer Vision?,Field enabling computers to understand images/videos,Image storage,Image compression,Screen display,Option_1,Beginner
+What is image classification?,Assigning labels to images,Creating images,Storing images,Displaying images,Option_1,Beginner
+What is object detection?,Locating and identifying objects in images,Classifying entire image,Segmenting image,Measuring image size,Option_1,Intermediate
+What is YOLO?,You Only Look Once - real-time object detection,Image classification model,Segmentation algorithm,Feature extractor,Option_1,Intermediate
+What is semantic segmentation?,Assigning class label to each pixel in image,Dividing image into regions,Detecting objects,Classifying image,Option_1,Advanced
+What is instance segmentation?,Distinguishing individual objects of same class,Classifying pixels,Finding edges,Detecting boundaries,Option_1,Advanced
+What is image segmentation?,Partitioning image into meaningful regions,Resizing image,Rotating image,Filtering image,Option_1,Intermediate
+What is facial recognition?,Identifying individuals from face images,Detecting faces only,Counting faces,Describing faces,Option_1,Intermediate
+What is pose estimation?,Detecting human body joint positions/movements,Estimating object shape,Predicting motion,Analyzing stability,Option_1,Advanced
+What is optical character recognition (OCR)?,Converting printed text to digital text,Detecting text location,Generating text,Translating text,Option_1,Intermediate
+What is Reinforcement Learning?,Agent learns by receiving rewards/penalties for actions,Supervised learning,Unsupervised learning,Transfer learning,Option_1,Intermediate
+What is Markov Decision Process (MDP)?,Mathematical framework for RL problems,Classification method,Regression algorithm,Clustering technique,Option_1,Advanced
+What is Q-learning?,Off-policy RL algorithm learning action values,On-policy algorithm,Policy gradient method,Actor-critic method,Option_1,Advanced
+What is Deep Q-Learning?,Combining Q-learning with deep neural networks,Simple Q-learning,Policy gradient,Value iteration,Option_1,Advanced
+What is policy gradient?,RL method optimizing policy directly,Value-based method,Q-learning variant,Model-based method,Option_1,Advanced
+What is the exploration-exploitation tradeoff?,Balancing trying new actions vs exploiting known good ones,Training vs testing,Accuracy vs speed,Memory vs computation,Option_1,Advanced
+What is an episode in RL?,"Sequence of states, actions, rewards from start to end",Single action,Single state,Single reward,Option_1,Intermediate
+What is discount factor in RL?,Weight determining importance of future rewards,Learning rate,Exploration rate,Reward scaling,Option_1,Advanced
+What is Monte Carlo Tree Search (MCTS)?,Algorithm combining simulation and tree search for decision making,Neural network,Regression method,Classification algorithm,Option_1,Advanced
+What are Actor-Critic methods?,Combining actor (policy) and critic (value) networks,Single network approach,Value-only method,Policy-only method,Option_1,Advanced
+What is a Generative Adversarial Network (GAN)?,"Two networks competing: generator creating, discriminator evaluating",Single neural network,Supervised model,Unsupervised regression,Option_1,Advanced
+What are the two components of a GAN?,Generator and Discriminator,Encoder and Decoder,Input and Output,Training and Testing,Option_1,Advanced
+What is a Variational Autoencoder (VAE)?,Generative model learning latent space representation,Supervised classifier,Feature extractor,Dimensionality reduction only,Option_1,Advanced
+What is an autoencoder?,Neural network learning efficient data representation,Classification network,Regression network,Object detector,Option_1,Intermediate
+What is the difference between encoder and decoder?,"Encoder compresses, decoder reconstructs",Same thing,Decoder is input layer,Encoder is output layer,Option_1,Intermediate
+What is a diffusion model?,Generative model using iterative noise removal,Direct generation model,Classification model,Clustering method,Option_1,Advanced
+What is transfer learning?,Using knowledge from source task for target task,Learning from beginning,Retraining entire model,Feature extraction only,Option_1,Intermediate
+What is domain adaptation?,Adapting model from source domain to target domain,Changing hyperparameters,Collecting more data,Retraining from scratch,Option_1,Advanced
+What is fine-tuning?,Training pre-trained model on new task,Training from scratch,Feature extraction,Data preprocessing,Option_1,Intermediate
+What is feature extraction in transfer learning?,Using pre-trained layers as feature extractor,Creating new features,Removing features,Scaling features,Option_1,Intermediate
+What is overfitting?,"Model learning training data too well, performing poorly on new data",Model not learning,Using wrong algorithm,Invalid data,Option_1,Intermediate
+What is underfitting?,Model too simple to capture data patterns,Model too complex,Too much training,Invalid features,Option_1,Intermediate
+What is regularization?,Technique preventing overfitting by penalizing complexity,Data normalization,Feature scaling,Batch processing,Option_1,Intermediate
+What is cross-validation?,Evaluating model using multiple data splits,Single train-test split,K-fold splitting only,Validation set only,Option_1,Intermediate
+What is the purpose of a validation set?,Tuning hyperparameters without using test set,Training model,Testing model,Preprocessing data,Option_1,Intermediate
+What is batch normalization?,Normalizing inputs to neural network layers,Normalizing entire dataset,Grouping data,Sorting data,Option_1,Intermediate
+What is dropout?,Randomly disabling neurons during training to prevent overfitting,Removing features,Stopping training,Removing data,Option_1,Intermediate
+What is early stopping?,Stopping training when validation performance stops improving,Stopping too early,Random stopping,Always training,Option_1,Intermediate
+What is gradient descent?,Iteratively updating parameters to minimize loss,Ascending parameters,Direct solution,Random search,Option_1,Intermediate
+What is backpropagation?,Algorithm computing gradients for neural networks,Forward pass only,Feature extraction,Data preprocessing,Option_1,Intermediate
+What is stochastic gradient descent (SGD)?,Updating parameters using single sample,Batch gradient descent,Full gradient descent,Random descent,Option_1,Intermediate
+What is Adam optimizer?,Adaptive moment estimation combining momentum and RMSprop,Simple SGD,Gradient descent,Newton's method,Option_1,Intermediate
+What is learning rate?,Parameter controlling step size in optimization,Training percentage,Number of epochs,Batch size,Option_1,Intermediate
+What is loss function?,Measures difference between predicted and actual values,Accuracy metric,Performance measure,Evaluation tool,Option_1,Intermediate
+What is mean squared error (MSE)?,Average of squared differences between predicted and actual,Mean absolute error,Cross-entropy,Hinge loss,Option_1,Intermediate
+What is cross-entropy loss?,Loss for classification measuring probability distance,Regression loss,Clustering loss,Ranking loss,Option_1,Intermediate
+What is accuracy?,Percentage of correct predictions,Average error,Loss value,Precision measure,Option_1,Beginner
+What is precision?,Proportion of positive predictions that are correct,Recall metric,Accuracy metric,F1-score,Option_1,Intermediate
+What is recall?,Proportion of actual positives correctly identified,Precision metric,Accuracy metric,False positive rate,Option_1,Intermediate
+What is F1-score?,Harmonic mean of precision and recall,Average of metrics,Weighted metric,Macro metric,Option_1,Intermediate
+What is AUC-ROC?,Area under Receiver Operating Characteristic curve,Accuracy measure,Precision metric,Recall metric,Option_1,Advanced
+What is data normalization?,Scaling features to similar range,Removing duplicates,Handling missing values,Removing outliers,Option_1,Beginner
+What is feature scaling?,Transforming features to comparable scale,Feature selection,Feature extraction,Feature engineering,Option_1,Beginner
+What is standardization?,Centering data with mean 0 and std 1,Normalization,Scaling between 0-1,Log transformation,Option_1,Intermediate
+What is handling missing values?,"Imputation, deletion, or prediction of missing data",Removing features,Removing records,Ignoring gaps,Option_1,Beginner
+What is outlier detection?,Identifying unusual data points,Feature selection,Data normalization,Data augmentation,Option_1,Intermediate
+What is data augmentation?,Creating new training samples through transformation,Collecting data,Cleaning data,Preprocessing data,Option_1,Intermediate
+What is imbalanced data?,Unequal distribution of classes in dataset,Missing values,Outliers,Duplicates,Option_1,Intermediate
+What is class weighting?,Adjusting loss to handle imbalanced classes,Sampling method,Scaling features,Removing classes,Option_1,Intermediate
+What are hyperparameters?,Parameters set before training controlling learning process,Parameters learned during training,Layer sizes,Data features,Option_1,Intermediate
+What is grid search?,Exhaustively searching hyperparameter combinations,Random search,Bayesian optimization,Manual tuning,Option_1,Intermediate
+What is random search?,Randomly sampling hyperparameter combinations,Grid search,Exhaustive search,Sequential search,Option_1,Intermediate
+What is Bayesian optimization?,Probabilistic approach to hyperparameter optimization,Grid search,Random search,Manual search,Option_1,Advanced
+What are ensemble methods?,Combining multiple models for better performance,Single model,Parameter tuning,Feature engineering,Option_1,Intermediate
+What is bagging?,Training multiple models on random data samples,Boosting method,Stacking method,Voting method,Option_1,Intermediate
+What is boosting?,Sequentially training models focusing on mistakes,Parallel training,Independent training,Weighted training,Option_1,Intermediate
+What is gradient boosting?,Building models sequentially minimizing loss,Simple boosting,Bagging method,Stacking method,Option_1,Advanced
+What is stacking?,Training meta-model on predictions of base models,Simple ensemble,Voting ensemble,Averaging ensemble,Option_1,Advanced
+What is AI bias?,Systematic errors in AI systems favoring certain groups,Random errors,Overfitting,Underfitting,Option_1,Intermediate
+What is fairness in AI?,Ensuring AI systems treat all fairly without discrimination,Equal accuracy,Same weights,Random outputs,Option_1,Intermediate
+What is interpretability in AI?,Ability to explain AI model decisions,Model complexity,Training speed,Prediction speed,Option_1,Intermediate
+What is adversarial robustness?,Model's resistance to adversarial attacks,High accuracy,Fast inference,Small model size,Option_1,Advanced
+What are adversarial examples?,Inputs designed to fool AI models,Training examples,Valid inputs,Normal data,Option_1,Advanced
+What is robotics in AI?,Applying AI to robot control and decision making,Building robots,Manufacturing,Hardware design,Option_1,Intermediate
+What is path planning?,Finding optimal route for robot movement,Robot vision,Gripper control,Sensor integration,Option_1,Intermediate
+What is SLAM?,Simultaneous Localization and Mapping for robot navigation,Robot learning,Vision system,Control system,Option_1,Advanced
+What is inverse kinematics?,Calculating joint angles for desired end-effector position,Forward kinematics,Dynamics,Control,Option_1,Advanced
+What is a Large Language Model (LLM)?,Neural network trained on large text data for language tasks,Small model,Supervised classifier,Clustering algorithm,Option_1,Intermediate
+What is prompt engineering?,Crafting inputs to guide LLM outputs effectively,Model training,Feature engineering,Data preprocessing,Option_1,Intermediate
+What is few-shot learning?,Model learning from few examples,Zero-shot learning,One-shot learning,Many-shot learning,Option_1,Intermediate
+What is zero-shot learning?,Model performing task without specific training examples,Few-shot learning,One-shot learning,Transfer learning,Option_1,Advanced
+What is chain-of-thought prompting?,Guiding model through step-by-step reasoning,Direct prompting,Question answering,Summarization,Option_1,Advanced
+What is LIME?,Local Interpretable Model-agnostic Explanations,Feature importance,Attention weights,Gradient visualization,Option_1,Advanced
+What is SHAP?,SHapley Additive exPlanations for model interpretability,Attention mechanism,Feature scaling,Regularization,Option_1,Advanced
+What is feature importance?,Measuring contribution of each feature to predictions,Feature engineering,Feature selection,Dimensionality reduction,Option_1,Intermediate
+What is attention visualization?,Showing which inputs model focuses on,Attention mechanism,Model architecture,Training process,Option_1,Intermediate
+What is a Graph Neural Network (GNN)?,Neural network operating on graph-structured data,CNN for graphs,RNN for graphs,Feed-forward network,Option_1,Advanced
+What is a knowledge graph?,Structured representation of information as entities and relations,Semantic network,Database,File system,Option_1,Advanced
+What is node embedding?,Representing graph nodes as vectors,Edge representation,Graph representation,Feature representation,Option_1,Advanced
+What is meta-learning?,Learning how to learn from few examples,Transfer learning,Multitask learning,Domain adaptation,Option_1,Advanced
+What is MAML (Model-Agnostic Meta-Learning)?,Meta-learning algorithm finding good initialization,Regular meta-learning,Transfer learning,Multitask learning,Option_1,Advanced
+What is continual learning?,Learning from sequential tasks without forgetting previous ones,Single task learning,Multitask learning,Transfer learning,Option_1,Advanced
+What is federated learning?,Training model on decentralized data without centralizing,Cloud learning,Distributed computing,Parallel processing,Option_1,Advanced
+What is catastrophic forgetting?,Model forgetting previous knowledge when learning new tasks,Normal forgetting,Intentional reset,Regularization effect,Option_1,Advanced
+What does AI stand for?,Artificial Intelligence,Automated Integration,Advanced Information,Application Interface,Option_1,Beginner
+What is the main goal of Artificial Intelligence?,Create machines that can perform tasks requiring human-like intelligence,Replace all humans,Build robots only,Create video games,Option_1,Beginner
+Which of the following is NOT a subfield of AI?,Machine Learning,Natural Language Processing,Computer Vision,Automotive Engineering,Option_4,Beginner
+What is an intelligent agent in AI?,An entity that observes environment and takes actions,A person who sells AI,A robot,A software developer,Option_1,Beginner
+What does Turing Test measure?,Machine's ability to exhibit intelligent behavior indistinguishable from human,Running speed,Memory capacity,Data processing,Option_1,Beginner
+What is Machine Learning?,Subset of AI enabling systems to learn from data,Teaching humans to learn,Computer programming,Data storage,Option_1,Beginner
+What are the three main types of Machine Learning?,"Supervised, Unsupervised, Reinforcement","Predictive, Preventive, Procedural","Input, Output, Process","Linear, Non-linear, Hybrid",Option_1,Beginner
+What is supervised learning?,Learning from labeled training data,Learning without labels,Learning from experts,Learning through observation,Option_1,Beginner
+What is unsupervised learning?,Finding patterns in unlabeled data,Learning with labels,Teaching by examples,Monitoring performance,Option_1,Beginner
+What is reinforcement learning?,Agent learns by interacting with environment and receiving rewards/penalties,Learning from books,Supervised learning,Copying behavior,Option_1,Beginner
+What is Linear Regression used for?,Predicting continuous numerical values,Classifying categories,Clustering data,Feature extraction,Option_1,Intermediate
+What is Logistic Regression?,Classification algorithm for binary/multi-class problems,Predicting continuous values,Clustering technique,Feature scaling,Option_1,Intermediate
+What is a Decision Tree?,Tree model that makes predictions through series of decisions,Data structure for storage,Search algorithm,Network topology,Option_1,Intermediate
+What is Random Forest?,Ensemble method using multiple decision trees,Single decision tree,Classification only algorithm,Unsupervised method,Option_1,Intermediate
+What is SVM (Support Vector Machine)?,Classifier finding optimal boundary between classes,Database management,Clustering algorithm,Regression method,Option_1,Intermediate
+What is clustering in Machine Learning?,Grouping similar data points without labels,Separating classes,Supervised classification,Feature engineering,Option_1,Intermediate
+What is K-Means clustering?,Algorithm partitioning data into K clusters,Classification algorithm,Regression method,Dimensionality reduction,Option_1,Intermediate
+What is hierarchical clustering?,Building tree of nested clusters,Flat clustering,Supervised clustering,Random clustering,Option_1,Intermediate
+What is DBSCAN?,Density-based clustering finding clusters of arbitrary shapes,K-Means variant,Supervised algorithm,Linear classifier,Option_1,Intermediate
+What is Principal Component Analysis (PCA)?,Dimensionality reduction technique preserving variance,Classification algorithm,Clustering method,Feature scaling,Option_1,Intermediate
+What is a Neural Network?,Computational model inspired by biological neurons,Computer network,Database structure,Programming language,Option_1,Intermediate
+What is a perceptron?,Single-layer neural network for binary classification,Deep learning model,Clustering algorithm,Optimization method,Option_1,Intermediate
+What is a hidden layer in neural networks?,Layer between input and output performing computations,Input layer,Output layer,Storage layer,Option_1,Intermediate
+What is activation function in neural networks?,Non-linear function enabling networks to learn complex patterns,Linear function,Loss function,Optimization function,Option_1,Intermediate
+What are common activation functions?,"ReLU, Sigmoid, Tanh","Linear, Quadratic, Cubic","Input, Output, Hidden","Training, Testing, Validation",Option_1,Intermediate
+What is CNN (Convolutional Neural Network)?,Neural network for image recognition using convolutional filters,General neural network,Text processing network,Time series network,Option_1,Intermediate
+What is a convolution operation?,Applying filter to extract features from images,Neural network layer,Classification method,Clustering technique,Option_1,Intermediate
+What is pooling in CNN?,Reducing spatial dimensions while retaining important features,Network training,Feature normalization,Data augmentation,Option_1,Intermediate
+What is max pooling?,Selecting maximum value from each window,Average pooling,Feature extraction,Data preprocessing,Option_1,Intermediate
+What is the purpose of convolutional filters?,Extract local features from images,Classify data,Scale features,Normalize inputs,Option_1,Intermediate
+What is RNN (Recurrent Neural Network)?,Neural network with connections allowing sequences processing,Feed-forward network,Convolutional network,Attention network,Option_1,Intermediate
+What is LSTM (Long Short-Term Memory)?,RNN variant handling long-term dependencies,Simple RNN,CNN architecture,Transformer model,Option_1,Intermediate
+What problem do LSTMs solve in RNNs?,Vanishing/exploding gradient problem,Overfitting,Underfitting,Data imbalance,Option_1,Advanced
+What is GRU (Gated Recurrent Unit)?,Simplified LSTM with fewer parameters,Complex LSTM,CNN layer,Attention mechanism,Option_1,Intermediate
+What is sequence-to-sequence (Seq2Seq) model?,Model translating input sequences to output sequences,Single sequence model,Image processing model,Classification model,Option_1,Advanced
+What is the Transformer architecture?,Architecture using self-attention mechanism,Recurrent architecture,Convolutional architecture,Fully connected network,Option_1,Advanced
+What is self-attention?,Mechanism allowing model to relate different positions in sequence,Attention to input only,Attention to output only,External attention,Option_1,Advanced
+What is BERT?,Bidirectional Encoder Representations from Transformers,Basic Encoder for Tokens,Bidirectional Recurrent Network,Binary Encoding Representation,Option_1,Advanced
+What is GPT?,Generative Pre-trained Transformer,General Processing Transformer,Graphical Processing Tool,Gradient Pointing Technique,Option_1,Advanced
+What does the positional encoding do in Transformers?,Provides sequence position information to model,Encodes data type,Compresses features,Normalizes inputs,Option_1,Advanced
+What is NLP (Natural Language Processing)?,Field enabling computers to understand human language,Programming language,Neural network layer,Data structure,Option_1,Beginner
+What is tokenization?,Breaking text into individual words/tokens,Combining words,Removing duplicates,Sorting text,Option_1,Intermediate
+What is stemming?,Reducing words to root form,Combining words,Removing stopwords,Sorting words,Option_1,Intermediate
+What is lemmatization?,Converting words to dictionary base form,Removing characters,Adding prefixes,Removing suffixes,Option_1,Intermediate
+What are word embeddings?,Vector representations of words capturing semantic meaning,Integer encoding of words,One-hot encoding,Frequency representation,Option_1,Intermediate
+What is Word2Vec?,Algorithm creating word embeddings using neural networks,Word counting algorithm,Text classification model,Language model,Option_1,Intermediate
+What is GloVe?,Global Vectors for Word Representation,Gradient descent optimization,Graph-based learning,Global optimization,Option_1,Intermediate
+What is sentiment analysis?,Determining emotional tone of text,Grammar checking,Spelling correction,Language translation,Option_1,Intermediate
+What is named entity recognition (NER)?,Identifying and classifying named entities in text,Sentiment analysis,Topic modeling,Text summarization,Option_1,Intermediate
+What is machine translation?,Automatically translating text between languages,Manual translation,Dictionary lookup,Grammar checking,Option_1,Intermediate
+What is Computer Vision?,Field enabling computers to understand images/videos,Image storage,Image compression,Screen display,Option_1,Beginner
+What is image classification?,Assigning labels to images,Creating images,Storing images,Displaying images,Option_1,Beginner
+What is object detection?,Locating and identifying objects in images,Classifying entire image,Segmenting image,Measuring image size,Option_1,Intermediate
+What is YOLO?,You Only Look Once - real-time object detection,Image classification model,Segmentation algorithm,Feature extractor,Option_1,Intermediate
+What is semantic segmentation?,Assigning class label to each pixel in image,Dividing image into regions,Detecting objects,Classifying image,Option_1,Advanced
+What is instance segmentation?,Distinguishing individual objects of same class,Classifying pixels,Finding edges,Detecting boundaries,Option_1,Advanced
+What is image segmentation?,Partitioning image into meaningful regions,Resizing image,Rotating image,Filtering image,Option_1,Intermediate
+What is facial recognition?,Identifying individuals from face images,Detecting faces only,Counting faces,Describing faces,Option_1,Intermediate
+What is pose estimation?,Detecting human body joint positions/movements,Estimating object shape,Predicting motion,Analyzing stability,Option_1,Advanced
+What is optical character recognition (OCR)?,Converting printed text to digital text,Detecting text location,Generating text,Translating text,Option_1,Intermediate
+What is Reinforcement Learning?,Agent learns by receiving rewards/penalties for actions,Supervised learning,Unsupervised learning,Transfer learning,Option_1,Intermediate
+What is Markov Decision Process (MDP)?,Mathematical framework for RL problems,Classification method,Regression algorithm,Clustering technique,Option_1,Advanced
+What is Q-learning?,Off-policy RL algorithm learning action values,On-policy algorithm,Policy gradient method,Actor-critic method,Option_1,Advanced
+What is Deep Q-Learning?,Combining Q-learning with deep neural networks,Simple Q-learning,Policy gradient,Value iteration,Option_1,Advanced
+What is policy gradient?,RL method optimizing policy directly,Value-based method,Q-learning variant,Model-based method,Option_1,Advanced
+What is the exploration-exploitation tradeoff?,Balancing trying new actions vs exploiting known good ones,Training vs testing,Accuracy vs speed,Memory vs computation,Option_1,Advanced
+What is an episode in RL?,"Sequence of states, actions, rewards from start to end",Single action,Single state,Single reward,Option_1,Intermediate
+What is discount factor in RL?,Weight determining importance of future rewards,Learning rate,Exploration rate,Reward scaling,Option_1,Advanced
+What is Monte Carlo Tree Search (MCTS)?,Algorithm combining simulation and tree search for decision making,Neural network,Regression method,Classification algorithm,Option_1,Advanced
+What are Actor-Critic methods?,Combining actor (policy) and critic (value) networks,Single network approach,Value-only method,Policy-only method,Option_1,Advanced
+What is a Generative Adversarial Network (GAN)?,"Two networks competing: generator creating, discriminator evaluating",Single neural network,Supervised model,Unsupervised regression,Option_1,Advanced
+What are the two components of a GAN?,Generator and Discriminator,Encoder and Decoder,Input and Output,Training and Testing,Option_1,Advanced
+What is a Variational Autoencoder (VAE)?,Generative model learning latent space representation,Supervised classifier,Feature extractor,Dimensionality reduction only,Option_1,Advanced
+What is an autoencoder?,Neural network learning efficient data representation,Classification network,Regression network,Object detector,Option_1,Intermediate
+What is the difference between encoder and decoder?,"Encoder compresses, decoder reconstructs",Same thing,Decoder is input layer,Encoder is output layer,Option_1,Intermediate
+What is a diffusion model?,Generative model using iterative noise removal,Direct generation model,Classification model,Clustering method,Option_1,Advanced
+What is transfer learning?,Using knowledge from source task for target task,Learning from beginning,Retraining entire model,Feature extraction only,Option_1,Intermediate
+What is domain adaptation?,Adapting model from source domain to target domain,Changing hyperparameters,Collecting more data,Retraining from scratch,Option_1,Advanced
+What is fine-tuning?,Training pre-trained model on new task,Training from scratch,Feature extraction,Data preprocessing,Option_1,Intermediate
+What is feature extraction in transfer learning?,Using pre-trained layers as feature extractor,Creating new features,Removing features,Scaling features,Option_1,Intermediate
+What is overfitting?,"Model learning training data too well, performing poorly on new data",Model not learning,Using wrong algorithm,Invalid data,Option_1,Intermediate
+What is underfitting?,Model too simple to capture data patterns,Model too complex,Too much training,Invalid features,Option_1,Intermediate
+What is regularization?,Technique preventing overfitting by penalizing complexity,Data normalization,Feature scaling,Batch processing,Option_1,Intermediate
+What is cross-validation?,Evaluating model using multiple data splits,Single train-test split,K-fold splitting only,Validation set only,Option_1,Intermediate
+What is the purpose of a validation set?,Tuning hyperparameters without using test set,Training model,Testing model,Preprocessing data,Option_1,Intermediate
+What is batch normalization?,Normalizing inputs to neural network layers,Normalizing entire dataset,Grouping data,Sorting data,Option_1,Intermediate
+What is dropout?,Randomly disabling neurons during training to prevent overfitting,Removing features,Stopping training,Removing data,Option_1,Intermediate
+What is early stopping?,Stopping training when validation performance stops improving,Stopping too early,Random stopping,Always training,Option_1,Intermediate
+What is gradient descent?,Iteratively updating parameters to minimize loss,Ascending parameters,Direct solution,Random search,Option_1,Intermediate
+What is backpropagation?,Algorithm computing gradients for neural networks,Forward pass only,Feature extraction,Data preprocessing,Option_1,Intermediate
+What is stochastic gradient descent (SGD)?,Updating parameters using single sample,Batch gradient descent,Full gradient descent,Random descent,Option_1,Intermediate
+What is Adam optimizer?,Adaptive moment estimation combining momentum and RMSprop,Simple SGD,Gradient descent,Newton's method,Option_1,Intermediate
+What is learning rate?,Parameter controlling step size in optimization,Training percentage,Number of epochs,Batch size,Option_1,Intermediate
+What is loss function?,Measures difference between predicted and actual values,Accuracy metric,Performance measure,Evaluation tool,Option_1,Intermediate
+What is mean squared error (MSE)?,Average of squared differences between predicted and actual,Mean absolute error,Cross-entropy,Hinge loss,Option_1,Intermediate
+What is cross-entropy loss?,Loss for classification measuring probability distance,Regression loss,Clustering loss,Ranking loss,Option_1,Intermediate
+What is accuracy?,Percentage of correct predictions,Average error,Loss value,Precision measure,Option_1,Beginner
+What is precision?,Proportion of positive predictions that are correct,Recall metric,Accuracy metric,F1-score,Option_1,Intermediate
+What is recall?,Proportion of actual positives correctly identified,Precision metric,Accuracy metric,False positive rate,Option_1,Intermediate
+What is F1-score?,Harmonic mean of precision and recall,Average of metrics,Weighted metric,Macro metric,Option_1,Intermediate
+What is AUC-ROC?,Area under Receiver Operating Characteristic curve,Accuracy measure,Precision metric,Recall metric,Option_1,Advanced
+What is data normalization?,Scaling features to similar range,Removing duplicates,Handling missing values,Removing outliers,Option_1,Beginner
+What is feature scaling?,Transforming features to comparable scale,Feature selection,Feature extraction,Feature engineering,Option_1,Beginner
+What is standardization?,Centering data with mean 0 and std 1,Normalization,Scaling between 0-1,Log transformation,Option_1,Intermediate
+What is handling missing values?,"Imputation, deletion, or prediction of missing data",Removing features,Removing records,Ignoring gaps,Option_1,Beginner
+What is outlier detection?,Identifying unusual data points,Feature selection,Data normalization,Data augmentation,Option_1,Intermediate
+What is data augmentation?,Creating new training samples through transformation,Collecting data,Cleaning data,Preprocessing data,Option_1,Intermediate
+What is imbalanced data?,Unequal distribution of classes in dataset,Missing values,Outliers,Duplicates,Option_1,Intermediate
+What is class weighting?,Adjusting loss to handle imbalanced classes,Sampling method,Scaling features,Removing classes,Option_1,Intermediate
+What are hyperparameters?,Parameters set before training controlling learning process,Parameters learned during training,Layer sizes,Data features,Option_1,Intermediate
+What is grid search?,Exhaustively searching hyperparameter combinations,Random search,Bayesian optimization,Manual tuning,Option_1,Intermediate
+What is random search?,Randomly sampling hyperparameter combinations,Grid search,Exhaustive search,Sequential search,Option_1,Intermediate
+What is Bayesian optimization?,Probabilistic approach to hyperparameter optimization,Grid search,Random search,Manual search,Option_1,Advanced
+What are ensemble methods?,Combining multiple models for better performance,Single model,Parameter tuning,Feature engineering,Option_1,Intermediate
+What is bagging?,Training multiple models on random data samples,Boosting method,Stacking method,Voting method,Option_1,Intermediate
+What is boosting?,Sequentially training models focusing on mistakes,Parallel training,Independent training,Weighted training,Option_1,Intermediate
+What is gradient boosting?,Building models sequentially minimizing loss,Simple boosting,Bagging method,Stacking method,Option_1,Advanced
+What is stacking?,Training meta-model on predictions of base models,Simple ensemble,Voting ensemble,Averaging ensemble,Option_1,Advanced
+What is AI bias?,Systematic errors in AI systems favoring certain groups,Random errors,Overfitting,Underfitting,Option_1,Intermediate
+What is fairness in AI?,Ensuring AI systems treat all fairly without discrimination,Equal accuracy,Same weights,Random outputs,Option_1,Intermediate
+What is interpretability in AI?,Ability to explain AI model decisions,Model complexity,Training speed,Prediction speed,Option_1,Intermediate
+What is adversarial robustness?,Model's resistance to adversarial attacks,High accuracy,Fast inference,Small model size,Option_1,Advanced
+What are adversarial examples?,Inputs designed to fool AI models,Training examples,Valid inputs,Normal data,Option_1,Advanced
+What is robotics in AI?,Applying AI to robot control and decision making,Building robots,Manufacturing,Hardware design,Option_1,Intermediate
+What is path planning?,Finding optimal route for robot movement,Robot vision,Gripper control,Sensor integration,Option_1,Intermediate
+What is SLAM?,Simultaneous Localization and Mapping for robot navigation,Robot learning,Vision system,Control system,Option_1,Advanced
+What is inverse kinematics?,Calculating joint angles for desired end-effector position,Forward kinematics,Dynamics,Control,Option_1,Advanced
+What is a Large Language Model (LLM)?,Neural network trained on large text data for language tasks,Small model,Supervised classifier,Clustering algorithm,Option_1,Intermediate
+What is prompt engineering?,Crafting inputs to guide LLM outputs effectively,Model training,Feature engineering,Data preprocessing,Option_1,Intermediate
+What is few-shot learning?,Model learning from few examples,Zero-shot learning,One-shot learning,Many-shot learning,Option_1,Intermediate
+What is zero-shot learning?,Model performing task without specific training examples,Few-shot learning,One-shot learning,Transfer learning,Option_1,Advanced
+What is chain-of-thought prompting?,Guiding model through step-by-step reasoning,Direct prompting,Question answering,Summarization,Option_1,Advanced
+What is LIME?,Local Interpretable Model-agnostic Explanations,Feature importance,Attention weights,Gradient visualization,Option_1,Advanced
+What is SHAP?,SHapley Additive exPlanations for model interpretability,Attention mechanism,Feature scaling,Regularization,Option_1,Advanced
+What is feature importance?,Measuring contribution of each feature to predictions,Feature engineering,Feature selection,Dimensionality reduction,Option_1,Intermediate
+What is attention visualization?,Showing which inputs model focuses on,Attention mechanism,Model architecture,Training process,Option_1,Intermediate

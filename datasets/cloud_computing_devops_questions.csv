@@ -1,0 +1,1001 @@
+Question,Option_1,Option_2,Option_3,Option_4,Correct_Answer,Level
+What is Cloud Computing?,On-demand delivery of computing resources over internet,Physical servers only,Local storage only,Data center management,Option_1,Beginner
+What are the main advantages of Cloud Computing?,"Scalability, cost-efficiency, flexibility, accessibility",Lower security,Complex management,Limited options,Option_1,Beginner
+What are cloud service models?,"IaaS, PaaS, SaaS",Only IaaS,Only PaaS,Only SaaS,Option_1,Beginner
+What is IaaS (Infrastructure as a Service)?,Cloud provider offers virtualized computing resources,Platform services only,Software applications only,Data storage only,Option_1,Beginner
+What is PaaS (Platform as a Service)?,Cloud provider offers platform for building applications,Infrastructure only,Software only,Data management,Option_1,Beginner
+What is SaaS (Software as a Service)?,Cloud-based software applications accessed via web,Infrastructure,Development platform,Hardware rental,Option_1,Beginner
+What are cloud deployment models?,"Public, Private, Hybrid, Community",Only public,Only private,Only hybrid,Option_1,Intermediate
+What is public cloud?,Services available to general public over internet,Company-owned,Shared by organizations,Single organization,Option_1,Beginner
+What is private cloud?,Cloud services exclusively for single organization,Public access,Shared services,Free services,Option_1,Beginner
+What is hybrid cloud?,Combination of public and private cloud,Only public,Only private,Multi-vendor setup,Option_1,Intermediate
+What is AWS (Amazon Web Services)?,Comprehensive cloud computing platform by Amazon,Google cloud,Microsoft cloud,IBM cloud,Option_1,Beginner
+What is EC2 in AWS?,Elastic Compute Cloud for virtual servers,Database service,Storage service,Networking service,Option_1,Beginner
+What is S3 in AWS?,Simple Storage Service for object storage,Database service,Compute service,Networking service,Option_1,Beginner
+What is RDS in AWS?,Relational Database Service for managed databases,Storage service,Compute service,Networking service,Option_1,Intermediate
+What is Lambda in AWS?,Serverless compute service for functions,Database service,Storage service,Networking service,Option_1,Intermediate
+What is CloudFront in AWS?,Content Delivery Network for fast content distribution,Database service,Storage service,Compute service,Option_1,Intermediate
+What is VPC in AWS?,Virtual Private Cloud for isolated network,Virtual compute,Virtual storage,Virtual database,Option_1,Intermediate
+What is IAM in AWS?,Identity and Access Management for user control,Database service,Storage service,Compute service,Option_1,Intermediate
+What is CloudFormation in AWS?,Infrastructure as Code service for managing resources,Configuration management,Infrastructure provisioning,Resource billing,Option_1,Intermediate
+What is auto-scaling in AWS?,Automatically adjusting resources based on demand,Load balancing,Monitoring,Security,Option_1,Intermediate
+What is Microsoft Azure?,Microsoft's cloud computing platform,AWS alternative,Google Cloud,IBM Cloud,Option_1,Beginner
+What are Azure Virtual Machines?,IaaS offering scalable on-demand computing,PaaS service,SaaS application,Managed database,Option_1,Beginner
+What is Azure App Service?,PaaS for building web and mobile apps,IaaS offering,SaaS application,Storage service,Option_1,Intermediate
+What is Azure SQL Database?,Managed relational database service,NoSQL database,Document database,Graph database,Option_1,Intermediate
+What is Azure Cosmos DB?,Globally distributed NoSQL database,SQL database,Document only,Graph only,Option_1,Intermediate
+What is Azure DevOps?,"Tools for CI/CD, planning, testing, deployment",Cloud storage,Compute service,Networking service,Option_1,Intermediate
+What is Azure Functions?,Serverless computing for running code without servers,App Service,Virtual Machines,Kubernetes,Option_1,Intermediate
+What is Azure Container Registry?,Service storing and managing Docker container images,Container orchestration,Container runtime,Image creation,Option_1,Advanced
+What is Google Cloud Platform (GCP)?,Google's cloud computing services,AWS alternative,Azure competitor,IBM offering,Option_1,Beginner
+What is Google Compute Engine?,IaaS for virtual machines and servers,PaaS platform,Managed database,Container service,Option_1,Beginner
+What is Google App Engine?,PaaS for building scalable web applications,IaaS service,Compute Engine,Storage service,Option_1,Intermediate
+What is Google Cloud SQL?,Managed relational database service,NoSQL database,Document database,Graph database,Option_1,Intermediate
+What is Google Firestore?,Scalable NoSQL cloud database,SQL database,Relational database,Time-series database,Option_1,Intermediate
+What is Google Cloud Storage?,Object storage for unstructured data,File storage,Block storage,Database service,Option_1,Beginner
+What is GKE (Google Kubernetes Engine)?,Managed Kubernetes container orchestration,Container runtime,Container registry,Container networking,Option_1,Intermediate
+What is Docker?,Containerization platform packaging applications,Virtual machine,Hypervisor,Orchestration tool,Option_1,Intermediate
+What is container?,Lightweight isolated environment with all dependencies,Virtual machine,Server,Physical machine,Option_1,Intermediate
+What is Docker image?,Blueprint for creating containers,Running container,Container registry,Container network,Option_1,Intermediate
+What is Docker container?,Running instance of Docker image,Docker image,Container registry,Container orchestration,Option_1,Intermediate
+What is Dockerfile?,File with instructions to build Docker image,Configuration file,Script file,Deployment file,Option_1,Intermediate
+What is Docker Hub?,Registry for storing and sharing Docker images,Container orchestration,Container runtime,Deployment tool,Option_1,Intermediate
+What is Docker Compose?,Tool for defining and running multi-container applications,Container registry,Single container tool,Orchestration platform,Option_1,Intermediate
+What is Docker networking?,Connecting containers and services together,Container isolation,Image management,Container storage,Option_1,Advanced
+What is Kubernetes?,Open-source container orchestration platform,Container runtime,Container registry,Configuration tool,Option_1,Intermediate
+What is a Pod in Kubernetes?,Smallest deployable unit containing containers,Container,Node,Cluster,Option_1,Intermediate
+What is a Service in Kubernetes?,Abstraction exposing pods as network service,Pod definition,Container specification,Network policy,Option_1,Advanced
+What is a Deployment in Kubernetes?,Declarative way managing Pod replicas,Pod definition,Service definition,ConfigMap,Option_1,Intermediate
+What is StatefulSet in Kubernetes?,Managing stateful applications with persistent storage,Stateless applications,Deployment,Job,Option_1,Advanced
+What is ConfigMap in Kubernetes?,Storing non-sensitive configuration data,Secrets,Environment variables,Volume,Option_1,Advanced
+What is Secret in Kubernetes?,"Storing sensitive data like passwords, tokens",ConfigMap,Regular data,Public data,Option_1,Advanced
+What is Helm?,Package manager for Kubernetes applications,Container orchestration,Configuration management,Deployment tool,Option_1,Advanced
+What is namespace in Kubernetes?,Virtual cluster for organizing resources,Network space,Storage space,Compute space,Option_1,Advanced
+What is ingress in Kubernetes?,API object managing external HTTP/S access,Service type,Network policy,Load balancer,Option_1,Advanced
+What is DevOps?,Combining development and operations for continuous delivery,Only development,Only operations,Infrastructure only,Option_1,Beginner
+What are the main goals of DevOps?,"Faster delivery, reliability, scalability, automation",Speed only,Reliability only,Cost reduction only,Option_1,Intermediate
+What is CI/CD?,Continuous Integration and Continuous Deployment,Code Integration,Continuous Development,Continuous Design,Option_1,Intermediate
+What is Continuous Integration?,Automatically testing code changes frequently,Manual testing,Scheduled testing,Testing at release,Option_1,Intermediate
+What is Continuous Deployment?,Automatically deploying tested code to production,Manual deployment,Scheduled deployment,Partial deployment,Option_1,Intermediate
+What is Continuous Delivery?,Code ready for deployment at any time,Automatic deployment,Manual deployment,Scheduled deployment,Option_1,Intermediate
+What is Jenkins?,Open-source CI/CD automation server,Cloud platform,Container orchestration,Configuration management,Option_1,Intermediate
+What is GitLab CI?,CI/CD platform integrated with GitLab,GitHub feature,Git tool,Container platform,Option_1,Intermediate
+What is GitHub Actions?,CI/CD workflows integrated with GitHub,GitLab feature,Local tool,Cloud service,Option_1,Intermediate
+What is CircleCI?,Cloud-based CI/CD platform,On-premise tool,Git service,Container service,Option_1,Intermediate
+What is Travis CI?,Cloud-based CI/CD for GitHub projects,On-premise solution,GitLab service,Container tool,Option_1,Intermediate
+What is pipeline in CI/CD?,Series of automated steps for building and deploying,Single step,Manual process,Visual diagram,Option_1,Intermediate
+What is webhook?,Triggered action on specific event,Manual trigger,Scheduled trigger,Random trigger,Option_1,Advanced
+What is Infrastructure as Code (IaC)?,Managing infrastructure through code and scripts,Manual setup,Physical configuration,GUI configuration,Option_1,Intermediate
+What is Terraform?,IaC tool for provisioning infrastructure,Configuration management,Container orchestration,Monitoring tool,Option_1,Intermediate
+What is CloudFormation?,AWS IaC service for managing resources,Third-party tool,Azure service,GCP tool,Option_1,Intermediate
+What is Ansible?,Configuration management and automation tool,IaC tool only,Container platform,Monitoring solution,Option_1,Intermediate
+What is Puppet?,Configuration management tool for infrastructure,IaC tool,Container orchestration,CI/CD platform,Option_1,Advanced
+What is Chef?,Infrastructure automation and configuration platform,IaC tool,Monitoring tool,CI/CD platform,Option_1,Advanced
+What is monitoring?,Observing system performance and health,Logging events,Alert management,Dashboard creation,Option_1,Intermediate
+What is logging?,Recording application events and errors,Monitoring performance,Creating alerts,Collecting metrics,Option_1,Beginner
+What is Prometheus?,Open-source monitoring and alerting toolkit,Logging platform,Tracing tool,Dashboard tool,Option_1,Intermediate
+What is Grafana?,Visualization and monitoring dashboard platform,Time-series database,Logging platform,Alert manager,Option_1,Intermediate
+What is ELK Stack?,"Elasticsearch, Logstash, Kibana for logging",Monitoring tools,CI/CD platform,Container tools,Option_1,Intermediate
+What is Elasticsearch?,Search and analytics engine for logs/data,Logging tool,Monitoring tool,CI/CD platform,Option_1,Advanced
+What is Logstash?,Pipeline tool for log processing and forwarding,Visualization tool,Analytics engine,Storage system,Option_1,Advanced
+What is Kibana?,Visualization tool for Elasticsearch data,Data processing,Log collection,Alert system,Option_1,Intermediate
+What is DataDog?,SaaS monitoring and analytics platform,Open-source tool,On-premise solution,Log storage,Option_1,Intermediate
+What is New Relic?,APM and monitoring platform,CI/CD tool,Container platform,IaC tool,Option_1,Intermediate
+What is load balancing?,Distributing traffic across multiple servers,Single server routing,Traffic monitoring,Server selection,Option_1,Intermediate
+What is elastic load balancer?,AWS service distributing traffic across instances,Manual load balancer,DNS service,Firewall,Option_1,Intermediate
+What is auto-scaling?,Automatically adjusting resources based on demand,Manual scaling,Fixed resources,Scheduled scaling,Option_1,Intermediate
+What is horizontal scaling?,Adding more servers/instances,Upgrading server,Increasing resources,Virtual scaling,Option_1,Intermediate
+What is vertical scaling?,Upgrading server resources like RAM/CPU,Adding servers,Distributed scaling,Horizontal expansion,Option_1,Intermediate
+What is sticky session?,Routing requests from same client to same server,Session persistence,Load balancing,Server affinity,Option_1,Advanced
+What is relational database?,Database with structured tables and relationships,Unstructured database,Document store,Graph database,Option_1,Intermediate
+What is NoSQL database?,Non-relational database for flexible data,Structured database,Only SQL,Only relational,Option_1,Intermediate
+What is database replication?,Copying data across multiple database instances,Data backup,Data encryption,Data compression,Option_1,Advanced
+What is database failover?,Automatic switching to backup database on failure,Manual backup,Data restoration,Recovery process,Option_1,Advanced
+What is backup strategy?,Plan for protecting data through regular backups,Single backup,Manual backup,Ad-hoc backup,Option_1,Intermediate
+What is disaster recovery?,Plan and process for recovering from major failures,Backup strategy,Data restoration,Failover mechanism,Option_1,Advanced
+What is cloud security?,Protecting cloud infrastructure and data,Firewall only,Password protection,Encryption only,Option_1,Intermediate
+What is encryption?,Converting data to unreadable form for security,Data compression,Data encoding,Data hashing,Option_1,Beginner
+What is encryption in transit?,Protecting data while moving across networks,Data at rest,Local encryption,Static data,Option_1,Intermediate
+What is encryption at rest?,Protecting data stored on disk/database,Data in motion,Network encryption,Temporary data,Option_1,Intermediate
+What is SSL/TLS?,Protocols for secure communication,Encryption algorithm,Network protocol,Data format,Option_1,Intermediate
+What is VPN?,Virtual Private Network for encrypted connection,Local network,Public network,Wireless network,Option_1,Beginner
+What is firewall?,Network security system controlling traffic,Antivirus,Encryption tool,Monitoring tool,Option_1,Beginner
+What is DDoS attack?,Distributed Denial of Service overwhelming system,Data attack,Malware,Phishing attack,Option_1,Intermediate
+What is WAF (Web Application Firewall)?,Protects web applications from attacks,Network firewall,Antivirus software,Encryption tool,Option_1,Advanced
+What is VPC (Virtual Private Cloud)?,Isolated virtual network in cloud,Virtual machine,Virtual storage,Virtual database,Option_1,Intermediate
+What is subnet?,Subdivision of IP network,Network partition,VLAN,Network segment,Option_1,Intermediate
+What is security group?,Virtual firewall controlling inbound/outbound traffic,Network protocol,Firewall device,Security policy,Option_1,Intermediate
+What is network ACL?,Access Control List for subnet-level traffic,Security group,Firewall rule,Routing rule,Option_1,Advanced
+What is NAT gateway?,Enables private instances to access internet,Network translator,IP converter,Traffic router,Option_1,Advanced
+What is CDN (Content Delivery Network)?,Network of servers for fast content delivery,Content storage,Data center,Server farm,Option_1,Intermediate
+What is container image layer?,Immutable snapshot of filesystem changes,Container copy,Storage block,Memory segment,Option_1,Advanced
+What is container registry?,Central repository storing container images,Container database,Image creator,Container runtime,Option_1,Intermediate
+What is container orchestration?,"Automating deployment, management, scaling of containers",Manual management,Container creation,Image storage,Option_1,Intermediate
+What is container networking?,Connecting containers and managing network communication,Container storage,Container isolation,Container execution,Option_1,Advanced
+What is serverless computing?,Running code without managing servers,Cloud servers,Virtual machines,Bare metal servers,Option_1,Intermediate
+What is function as a service (FaaS)?,Serverless platform executing individual functions,Service platform,Container platform,Virtual machine,Option_1,Intermediate
+What is AWS Lambda?,Serverless compute service,Container service,Virtual machine,Managed server,Option_1,Beginner
+What is cold start?,Latency when function first invoked,Function execution,Memory allocation,Resource provisioning,Option_1,Advanced
+What is warm start?,Quick function execution from cached state,Cold start,Function initialization,First invocation,Option_1,Advanced
+What is API gateway?,Service managing and routing API requests,API documentation,API testing,API versioning,Option_1,Intermediate
+What is API rate limiting?,Restricting number of requests per time period,Request throttling,Bandwidth limiting,Connection limiting,Option_1,Intermediate
+What is API versioning?,Managing different API versions for compatibility,API updates,API documentation,API monitoring,Option_1,Intermediate
+What is cloud cost optimization?,Reducing cloud spending while maintaining performance,Cost estimation,Budget tracking,Price comparison,Option_1,Intermediate
+What is reserved instances?,Purchasing servers for fixed period at discount,On-demand instances,Spot instances,Scheduled instances,Option_1,Intermediate
+What is spot instances?,Using unused cloud capacity at low price,Reserved instances,On-demand instances,Dedicated instances,Option_1,Advanced
+What is multi-cloud?,Using services from multiple cloud providers,Single cloud,Private cloud,Hybrid setup,Option_1,Advanced
+What is cloud migration?,Moving applications from on-premise to cloud,Cloud setup,Cloud deployment,Cloud scaling,Option_1,Intermediate
+What is lift and shift?,Migrating applications with minimal changes,Cloud native,Re-architecting,Refactoring,Option_1,Advanced
+What is observability?,System's ability to be understood through outputs,Monitoring,Logging,Tracing,Option_1,Advanced
+What is distributed tracing?,Tracking requests across multiple services,Single service logging,Local tracing,Application profiling,Option_1,Advanced
+What is chaos engineering?,Intentionally causing failures to test resilience,Random failures,Expected failures,Planned outages,Option_1,Advanced
+What is Cloud Computing?,On-demand delivery of computing resources over internet,Physical servers only,Local storage only,Data center management,Option_1,Beginner
+What are the main advantages of Cloud Computing?,"Scalability, cost-efficiency, flexibility, accessibility",Lower security,Complex management,Limited options,Option_1,Beginner
+What are cloud service models?,"IaaS, PaaS, SaaS",Only IaaS,Only PaaS,Only SaaS,Option_1,Beginner
+What is IaaS (Infrastructure as a Service)?,Cloud provider offers virtualized computing resources,Platform services only,Software applications only,Data storage only,Option_1,Beginner
+What is PaaS (Platform as a Service)?,Cloud provider offers platform for building applications,Infrastructure only,Software only,Data management,Option_1,Beginner
+What is SaaS (Software as a Service)?,Cloud-based software applications accessed via web,Infrastructure,Development platform,Hardware rental,Option_1,Beginner
+What are cloud deployment models?,"Public, Private, Hybrid, Community",Only public,Only private,Only hybrid,Option_1,Intermediate
+What is public cloud?,Services available to general public over internet,Company-owned,Shared by organizations,Single organization,Option_1,Beginner
+What is private cloud?,Cloud services exclusively for single organization,Public access,Shared services,Free services,Option_1,Beginner
+What is hybrid cloud?,Combination of public and private cloud,Only public,Only private,Multi-vendor setup,Option_1,Intermediate
+What is AWS (Amazon Web Services)?,Comprehensive cloud computing platform by Amazon,Google cloud,Microsoft cloud,IBM cloud,Option_1,Beginner
+What is EC2 in AWS?,Elastic Compute Cloud for virtual servers,Database service,Storage service,Networking service,Option_1,Beginner
+What is S3 in AWS?,Simple Storage Service for object storage,Database service,Compute service,Networking service,Option_1,Beginner
+What is RDS in AWS?,Relational Database Service for managed databases,Storage service,Compute service,Networking service,Option_1,Intermediate
+What is Lambda in AWS?,Serverless compute service for functions,Database service,Storage service,Networking service,Option_1,Intermediate
+What is CloudFront in AWS?,Content Delivery Network for fast content distribution,Database service,Storage service,Compute service,Option_1,Intermediate
+What is VPC in AWS?,Virtual Private Cloud for isolated network,Virtual compute,Virtual storage,Virtual database,Option_1,Intermediate
+What is IAM in AWS?,Identity and Access Management for user control,Database service,Storage service,Compute service,Option_1,Intermediate
+What is CloudFormation in AWS?,Infrastructure as Code service for managing resources,Configuration management,Infrastructure provisioning,Resource billing,Option_1,Intermediate
+What is auto-scaling in AWS?,Automatically adjusting resources based on demand,Load balancing,Monitoring,Security,Option_1,Intermediate
+What is Microsoft Azure?,Microsoft's cloud computing platform,AWS alternative,Google Cloud,IBM Cloud,Option_1,Beginner
+What are Azure Virtual Machines?,IaaS offering scalable on-demand computing,PaaS service,SaaS application,Managed database,Option_1,Beginner
+What is Azure App Service?,PaaS for building web and mobile apps,IaaS offering,SaaS application,Storage service,Option_1,Intermediate
+What is Azure SQL Database?,Managed relational database service,NoSQL database,Document database,Graph database,Option_1,Intermediate
+What is Azure Cosmos DB?,Globally distributed NoSQL database,SQL database,Document only,Graph only,Option_1,Intermediate
+What is Azure DevOps?,"Tools for CI/CD, planning, testing, deployment",Cloud storage,Compute service,Networking service,Option_1,Intermediate
+What is Azure Functions?,Serverless computing for running code without servers,App Service,Virtual Machines,Kubernetes,Option_1,Intermediate
+What is Azure Container Registry?,Service storing and managing Docker container images,Container orchestration,Container runtime,Image creation,Option_1,Advanced
+What is Google Cloud Platform (GCP)?,Google's cloud computing services,AWS alternative,Azure competitor,IBM offering,Option_1,Beginner
+What is Google Compute Engine?,IaaS for virtual machines and servers,PaaS platform,Managed database,Container service,Option_1,Beginner
+What is Google App Engine?,PaaS for building scalable web applications,IaaS service,Compute Engine,Storage service,Option_1,Intermediate
+What is Google Cloud SQL?,Managed relational database service,NoSQL database,Document database,Graph database,Option_1,Intermediate
+What is Google Firestore?,Scalable NoSQL cloud database,SQL database,Relational database,Time-series database,Option_1,Intermediate
+What is Google Cloud Storage?,Object storage for unstructured data,File storage,Block storage,Database service,Option_1,Beginner
+What is GKE (Google Kubernetes Engine)?,Managed Kubernetes container orchestration,Container runtime,Container registry,Container networking,Option_1,Intermediate
+What is Docker?,Containerization platform packaging applications,Virtual machine,Hypervisor,Orchestration tool,Option_1,Intermediate
+What is container?,Lightweight isolated environment with all dependencies,Virtual machine,Server,Physical machine,Option_1,Intermediate
+What is Docker image?,Blueprint for creating containers,Running container,Container registry,Container network,Option_1,Intermediate
+What is Docker container?,Running instance of Docker image,Docker image,Container registry,Container orchestration,Option_1,Intermediate
+What is Dockerfile?,File with instructions to build Docker image,Configuration file,Script file,Deployment file,Option_1,Intermediate
+What is Docker Hub?,Registry for storing and sharing Docker images,Container orchestration,Container runtime,Deployment tool,Option_1,Intermediate
+What is Docker Compose?,Tool for defining and running multi-container applications,Container registry,Single container tool,Orchestration platform,Option_1,Intermediate
+What is Docker networking?,Connecting containers and services together,Container isolation,Image management,Container storage,Option_1,Advanced
+What is Kubernetes?,Open-source container orchestration platform,Container runtime,Container registry,Configuration tool,Option_1,Intermediate
+What is a Pod in Kubernetes?,Smallest deployable unit containing containers,Container,Node,Cluster,Option_1,Intermediate
+What is a Service in Kubernetes?,Abstraction exposing pods as network service,Pod definition,Container specification,Network policy,Option_1,Advanced
+What is a Deployment in Kubernetes?,Declarative way managing Pod replicas,Pod definition,Service definition,ConfigMap,Option_1,Intermediate
+What is StatefulSet in Kubernetes?,Managing stateful applications with persistent storage,Stateless applications,Deployment,Job,Option_1,Advanced
+What is ConfigMap in Kubernetes?,Storing non-sensitive configuration data,Secrets,Environment variables,Volume,Option_1,Advanced
+What is Secret in Kubernetes?,"Storing sensitive data like passwords, tokens",ConfigMap,Regular data,Public data,Option_1,Advanced
+What is Helm?,Package manager for Kubernetes applications,Container orchestration,Configuration management,Deployment tool,Option_1,Advanced
+What is namespace in Kubernetes?,Virtual cluster for organizing resources,Network space,Storage space,Compute space,Option_1,Advanced
+What is ingress in Kubernetes?,API object managing external HTTP/S access,Service type,Network policy,Load balancer,Option_1,Advanced
+What is DevOps?,Combining development and operations for continuous delivery,Only development,Only operations,Infrastructure only,Option_1,Beginner
+What are the main goals of DevOps?,"Faster delivery, reliability, scalability, automation",Speed only,Reliability only,Cost reduction only,Option_1,Intermediate
+What is CI/CD?,Continuous Integration and Continuous Deployment,Code Integration,Continuous Development,Continuous Design,Option_1,Intermediate
+What is Continuous Integration?,Automatically testing code changes frequently,Manual testing,Scheduled testing,Testing at release,Option_1,Intermediate
+What is Continuous Deployment?,Automatically deploying tested code to production,Manual deployment,Scheduled deployment,Partial deployment,Option_1,Intermediate
+What is Continuous Delivery?,Code ready for deployment at any time,Automatic deployment,Manual deployment,Scheduled deployment,Option_1,Intermediate
+What is Jenkins?,Open-source CI/CD automation server,Cloud platform,Container orchestration,Configuration management,Option_1,Intermediate
+What is GitLab CI?,CI/CD platform integrated with GitLab,GitHub feature,Git tool,Container platform,Option_1,Intermediate
+What is GitHub Actions?,CI/CD workflows integrated with GitHub,GitLab feature,Local tool,Cloud service,Option_1,Intermediate
+What is CircleCI?,Cloud-based CI/CD platform,On-premise tool,Git service,Container service,Option_1,Intermediate
+What is Travis CI?,Cloud-based CI/CD for GitHub projects,On-premise solution,GitLab service,Container tool,Option_1,Intermediate
+What is pipeline in CI/CD?,Series of automated steps for building and deploying,Single step,Manual process,Visual diagram,Option_1,Intermediate
+What is webhook?,Triggered action on specific event,Manual trigger,Scheduled trigger,Random trigger,Option_1,Advanced
+What is Infrastructure as Code (IaC)?,Managing infrastructure through code and scripts,Manual setup,Physical configuration,GUI configuration,Option_1,Intermediate
+What is Terraform?,IaC tool for provisioning infrastructure,Configuration management,Container orchestration,Monitoring tool,Option_1,Intermediate
+What is CloudFormation?,AWS IaC service for managing resources,Third-party tool,Azure service,GCP tool,Option_1,Intermediate
+What is Ansible?,Configuration management and automation tool,IaC tool only,Container platform,Monitoring solution,Option_1,Intermediate
+What is Puppet?,Configuration management tool for infrastructure,IaC tool,Container orchestration,CI/CD platform,Option_1,Advanced
+What is Chef?,Infrastructure automation and configuration platform,IaC tool,Monitoring tool,CI/CD platform,Option_1,Advanced
+What is monitoring?,Observing system performance and health,Logging events,Alert management,Dashboard creation,Option_1,Intermediate
+What is logging?,Recording application events and errors,Monitoring performance,Creating alerts,Collecting metrics,Option_1,Beginner
+What is Prometheus?,Open-source monitoring and alerting toolkit,Logging platform,Tracing tool,Dashboard tool,Option_1,Intermediate
+What is Grafana?,Visualization and monitoring dashboard platform,Time-series database,Logging platform,Alert manager,Option_1,Intermediate
+What is ELK Stack?,"Elasticsearch, Logstash, Kibana for logging",Monitoring tools,CI/CD platform,Container tools,Option_1,Intermediate
+What is Elasticsearch?,Search and analytics engine for logs/data,Logging tool,Monitoring tool,CI/CD platform,Option_1,Advanced
+What is Logstash?,Pipeline tool for log processing and forwarding,Visualization tool,Analytics engine,Storage system,Option_1,Advanced
+What is Kibana?,Visualization tool for Elasticsearch data,Data processing,Log collection,Alert system,Option_1,Intermediate
+What is DataDog?,SaaS monitoring and analytics platform,Open-source tool,On-premise solution,Log storage,Option_1,Intermediate
+What is New Relic?,APM and monitoring platform,CI/CD tool,Container platform,IaC tool,Option_1,Intermediate
+What is load balancing?,Distributing traffic across multiple servers,Single server routing,Traffic monitoring,Server selection,Option_1,Intermediate
+What is elastic load balancer?,AWS service distributing traffic across instances,Manual load balancer,DNS service,Firewall,Option_1,Intermediate
+What is auto-scaling?,Automatically adjusting resources based on demand,Manual scaling,Fixed resources,Scheduled scaling,Option_1,Intermediate
+What is horizontal scaling?,Adding more servers/instances,Upgrading server,Increasing resources,Virtual scaling,Option_1,Intermediate
+What is vertical scaling?,Upgrading server resources like RAM/CPU,Adding servers,Distributed scaling,Horizontal expansion,Option_1,Intermediate
+What is sticky session?,Routing requests from same client to same server,Session persistence,Load balancing,Server affinity,Option_1,Advanced
+What is relational database?,Database with structured tables and relationships,Unstructured database,Document store,Graph database,Option_1,Intermediate
+What is NoSQL database?,Non-relational database for flexible data,Structured database,Only SQL,Only relational,Option_1,Intermediate
+What is database replication?,Copying data across multiple database instances,Data backup,Data encryption,Data compression,Option_1,Advanced
+What is database failover?,Automatic switching to backup database on failure,Manual backup,Data restoration,Recovery process,Option_1,Advanced
+What is backup strategy?,Plan for protecting data through regular backups,Single backup,Manual backup,Ad-hoc backup,Option_1,Intermediate
+What is disaster recovery?,Plan and process for recovering from major failures,Backup strategy,Data restoration,Failover mechanism,Option_1,Advanced
+What is cloud security?,Protecting cloud infrastructure and data,Firewall only,Password protection,Encryption only,Option_1,Intermediate
+What is encryption?,Converting data to unreadable form for security,Data compression,Data encoding,Data hashing,Option_1,Beginner
+What is encryption in transit?,Protecting data while moving across networks,Data at rest,Local encryption,Static data,Option_1,Intermediate
+What is encryption at rest?,Protecting data stored on disk/database,Data in motion,Network encryption,Temporary data,Option_1,Intermediate
+What is SSL/TLS?,Protocols for secure communication,Encryption algorithm,Network protocol,Data format,Option_1,Intermediate
+What is VPN?,Virtual Private Network for encrypted connection,Local network,Public network,Wireless network,Option_1,Beginner
+What is firewall?,Network security system controlling traffic,Antivirus,Encryption tool,Monitoring tool,Option_1,Beginner
+What is DDoS attack?,Distributed Denial of Service overwhelming system,Data attack,Malware,Phishing attack,Option_1,Intermediate
+What is WAF (Web Application Firewall)?,Protects web applications from attacks,Network firewall,Antivirus software,Encryption tool,Option_1,Advanced
+What is VPC (Virtual Private Cloud)?,Isolated virtual network in cloud,Virtual machine,Virtual storage,Virtual database,Option_1,Intermediate
+What is subnet?,Subdivision of IP network,Network partition,VLAN,Network segment,Option_1,Intermediate
+What is security group?,Virtual firewall controlling inbound/outbound traffic,Network protocol,Firewall device,Security policy,Option_1,Intermediate
+What is network ACL?,Access Control List for subnet-level traffic,Security group,Firewall rule,Routing rule,Option_1,Advanced
+What is NAT gateway?,Enables private instances to access internet,Network translator,IP converter,Traffic router,Option_1,Advanced
+What is CDN (Content Delivery Network)?,Network of servers for fast content delivery,Content storage,Data center,Server farm,Option_1,Intermediate
+What is container image layer?,Immutable snapshot of filesystem changes,Container copy,Storage block,Memory segment,Option_1,Advanced
+What is container registry?,Central repository storing container images,Container database,Image creator,Container runtime,Option_1,Intermediate
+What is container orchestration?,"Automating deployment, management, scaling of containers",Manual management,Container creation,Image storage,Option_1,Intermediate
+What is container networking?,Connecting containers and managing network communication,Container storage,Container isolation,Container execution,Option_1,Advanced
+What is serverless computing?,Running code without managing servers,Cloud servers,Virtual machines,Bare metal servers,Option_1,Intermediate
+What is function as a service (FaaS)?,Serverless platform executing individual functions,Service platform,Container platform,Virtual machine,Option_1,Intermediate
+What is AWS Lambda?,Serverless compute service,Container service,Virtual machine,Managed server,Option_1,Beginner
+What is cold start?,Latency when function first invoked,Function execution,Memory allocation,Resource provisioning,Option_1,Advanced
+What is warm start?,Quick function execution from cached state,Cold start,Function initialization,First invocation,Option_1,Advanced
+What is API gateway?,Service managing and routing API requests,API documentation,API testing,API versioning,Option_1,Intermediate
+What is API rate limiting?,Restricting number of requests per time period,Request throttling,Bandwidth limiting,Connection limiting,Option_1,Intermediate
+What is API versioning?,Managing different API versions for compatibility,API updates,API documentation,API monitoring,Option_1,Intermediate
+What is cloud cost optimization?,Reducing cloud spending while maintaining performance,Cost estimation,Budget tracking,Price comparison,Option_1,Intermediate
+What is reserved instances?,Purchasing servers for fixed period at discount,On-demand instances,Spot instances,Scheduled instances,Option_1,Intermediate
+What is spot instances?,Using unused cloud capacity at low price,Reserved instances,On-demand instances,Dedicated instances,Option_1,Advanced
+What is multi-cloud?,Using services from multiple cloud providers,Single cloud,Private cloud,Hybrid setup,Option_1,Advanced
+What is cloud migration?,Moving applications from on-premise to cloud,Cloud setup,Cloud deployment,Cloud scaling,Option_1,Intermediate
+What is lift and shift?,Migrating applications with minimal changes,Cloud native,Re-architecting,Refactoring,Option_1,Advanced
+What is observability?,System's ability to be understood through outputs,Monitoring,Logging,Tracing,Option_1,Advanced
+What is distributed tracing?,Tracking requests across multiple services,Single service logging,Local tracing,Application profiling,Option_1,Advanced
+What is chaos engineering?,Intentionally causing failures to test resilience,Random failures,Expected failures,Planned outages,Option_1,Advanced
+What is Cloud Computing?,On-demand delivery of computing resources over internet,Physical servers only,Local storage only,Data center management,Option_1,Beginner
+What are the main advantages of Cloud Computing?,"Scalability, cost-efficiency, flexibility, accessibility",Lower security,Complex management,Limited options,Option_1,Beginner
+What are cloud service models?,"IaaS, PaaS, SaaS",Only IaaS,Only PaaS,Only SaaS,Option_1,Beginner
+What is IaaS (Infrastructure as a Service)?,Cloud provider offers virtualized computing resources,Platform services only,Software applications only,Data storage only,Option_1,Beginner
+What is PaaS (Platform as a Service)?,Cloud provider offers platform for building applications,Infrastructure only,Software only,Data management,Option_1,Beginner
+What is SaaS (Software as a Service)?,Cloud-based software applications accessed via web,Infrastructure,Development platform,Hardware rental,Option_1,Beginner
+What are cloud deployment models?,"Public, Private, Hybrid, Community",Only public,Only private,Only hybrid,Option_1,Intermediate
+What is public cloud?,Services available to general public over internet,Company-owned,Shared by organizations,Single organization,Option_1,Beginner
+What is private cloud?,Cloud services exclusively for single organization,Public access,Shared services,Free services,Option_1,Beginner
+What is hybrid cloud?,Combination of public and private cloud,Only public,Only private,Multi-vendor setup,Option_1,Intermediate
+What is AWS (Amazon Web Services)?,Comprehensive cloud computing platform by Amazon,Google cloud,Microsoft cloud,IBM cloud,Option_1,Beginner
+What is EC2 in AWS?,Elastic Compute Cloud for virtual servers,Database service,Storage service,Networking service,Option_1,Beginner
+What is S3 in AWS?,Simple Storage Service for object storage,Database service,Compute service,Networking service,Option_1,Beginner
+What is RDS in AWS?,Relational Database Service for managed databases,Storage service,Compute service,Networking service,Option_1,Intermediate
+What is Lambda in AWS?,Serverless compute service for functions,Database service,Storage service,Networking service,Option_1,Intermediate
+What is CloudFront in AWS?,Content Delivery Network for fast content distribution,Database service,Storage service,Compute service,Option_1,Intermediate
+What is VPC in AWS?,Virtual Private Cloud for isolated network,Virtual compute,Virtual storage,Virtual database,Option_1,Intermediate
+What is IAM in AWS?,Identity and Access Management for user control,Database service,Storage service,Compute service,Option_1,Intermediate
+What is CloudFormation in AWS?,Infrastructure as Code service for managing resources,Configuration management,Infrastructure provisioning,Resource billing,Option_1,Intermediate
+What is auto-scaling in AWS?,Automatically adjusting resources based on demand,Load balancing,Monitoring,Security,Option_1,Intermediate
+What is Microsoft Azure?,Microsoft's cloud computing platform,AWS alternative,Google Cloud,IBM Cloud,Option_1,Beginner
+What are Azure Virtual Machines?,IaaS offering scalable on-demand computing,PaaS service,SaaS application,Managed database,Option_1,Beginner
+What is Azure App Service?,PaaS for building web and mobile apps,IaaS offering,SaaS application,Storage service,Option_1,Intermediate
+What is Azure SQL Database?,Managed relational database service,NoSQL database,Document database,Graph database,Option_1,Intermediate
+What is Azure Cosmos DB?,Globally distributed NoSQL database,SQL database,Document only,Graph only,Option_1,Intermediate
+What is Azure DevOps?,"Tools for CI/CD, planning, testing, deployment",Cloud storage,Compute service,Networking service,Option_1,Intermediate
+What is Azure Functions?,Serverless computing for running code without servers,App Service,Virtual Machines,Kubernetes,Option_1,Intermediate
+What is Azure Container Registry?,Service storing and managing Docker container images,Container orchestration,Container runtime,Image creation,Option_1,Advanced
+What is Google Cloud Platform (GCP)?,Google's cloud computing services,AWS alternative,Azure competitor,IBM offering,Option_1,Beginner
+What is Google Compute Engine?,IaaS for virtual machines and servers,PaaS platform,Managed database,Container service,Option_1,Beginner
+What is Google App Engine?,PaaS for building scalable web applications,IaaS service,Compute Engine,Storage service,Option_1,Intermediate
+What is Google Cloud SQL?,Managed relational database service,NoSQL database,Document database,Graph database,Option_1,Intermediate
+What is Google Firestore?,Scalable NoSQL cloud database,SQL database,Relational database,Time-series database,Option_1,Intermediate
+What is Google Cloud Storage?,Object storage for unstructured data,File storage,Block storage,Database service,Option_1,Beginner
+What is GKE (Google Kubernetes Engine)?,Managed Kubernetes container orchestration,Container runtime,Container registry,Container networking,Option_1,Intermediate
+What is Docker?,Containerization platform packaging applications,Virtual machine,Hypervisor,Orchestration tool,Option_1,Intermediate
+What is container?,Lightweight isolated environment with all dependencies,Virtual machine,Server,Physical machine,Option_1,Intermediate
+What is Docker image?,Blueprint for creating containers,Running container,Container registry,Container network,Option_1,Intermediate
+What is Docker container?,Running instance of Docker image,Docker image,Container registry,Container orchestration,Option_1,Intermediate
+What is Dockerfile?,File with instructions to build Docker image,Configuration file,Script file,Deployment file,Option_1,Intermediate
+What is Docker Hub?,Registry for storing and sharing Docker images,Container orchestration,Container runtime,Deployment tool,Option_1,Intermediate
+What is Docker Compose?,Tool for defining and running multi-container applications,Container registry,Single container tool,Orchestration platform,Option_1,Intermediate
+What is Docker networking?,Connecting containers and services together,Container isolation,Image management,Container storage,Option_1,Advanced
+What is Kubernetes?,Open-source container orchestration platform,Container runtime,Container registry,Configuration tool,Option_1,Intermediate
+What is a Pod in Kubernetes?,Smallest deployable unit containing containers,Container,Node,Cluster,Option_1,Intermediate
+What is a Service in Kubernetes?,Abstraction exposing pods as network service,Pod definition,Container specification,Network policy,Option_1,Advanced
+What is a Deployment in Kubernetes?,Declarative way managing Pod replicas,Pod definition,Service definition,ConfigMap,Option_1,Intermediate
+What is StatefulSet in Kubernetes?,Managing stateful applications with persistent storage,Stateless applications,Deployment,Job,Option_1,Advanced
+What is ConfigMap in Kubernetes?,Storing non-sensitive configuration data,Secrets,Environment variables,Volume,Option_1,Advanced
+What is Secret in Kubernetes?,"Storing sensitive data like passwords, tokens",ConfigMap,Regular data,Public data,Option_1,Advanced
+What is Helm?,Package manager for Kubernetes applications,Container orchestration,Configuration management,Deployment tool,Option_1,Advanced
+What is namespace in Kubernetes?,Virtual cluster for organizing resources,Network space,Storage space,Compute space,Option_1,Advanced
+What is ingress in Kubernetes?,API object managing external HTTP/S access,Service type,Network policy,Load balancer,Option_1,Advanced
+What is DevOps?,Combining development and operations for continuous delivery,Only development,Only operations,Infrastructure only,Option_1,Beginner
+What are the main goals of DevOps?,"Faster delivery, reliability, scalability, automation",Speed only,Reliability only,Cost reduction only,Option_1,Intermediate
+What is CI/CD?,Continuous Integration and Continuous Deployment,Code Integration,Continuous Development,Continuous Design,Option_1,Intermediate
+What is Continuous Integration?,Automatically testing code changes frequently,Manual testing,Scheduled testing,Testing at release,Option_1,Intermediate
+What is Continuous Deployment?,Automatically deploying tested code to production,Manual deployment,Scheduled deployment,Partial deployment,Option_1,Intermediate
+What is Continuous Delivery?,Code ready for deployment at any time,Automatic deployment,Manual deployment,Scheduled deployment,Option_1,Intermediate
+What is Jenkins?,Open-source CI/CD automation server,Cloud platform,Container orchestration,Configuration management,Option_1,Intermediate
+What is GitLab CI?,CI/CD platform integrated with GitLab,GitHub feature,Git tool,Container platform,Option_1,Intermediate
+What is GitHub Actions?,CI/CD workflows integrated with GitHub,GitLab feature,Local tool,Cloud service,Option_1,Intermediate
+What is CircleCI?,Cloud-based CI/CD platform,On-premise tool,Git service,Container service,Option_1,Intermediate
+What is Travis CI?,Cloud-based CI/CD for GitHub projects,On-premise solution,GitLab service,Container tool,Option_1,Intermediate
+What is pipeline in CI/CD?,Series of automated steps for building and deploying,Single step,Manual process,Visual diagram,Option_1,Intermediate
+What is webhook?,Triggered action on specific event,Manual trigger,Scheduled trigger,Random trigger,Option_1,Advanced
+What is Infrastructure as Code (IaC)?,Managing infrastructure through code and scripts,Manual setup,Physical configuration,GUI configuration,Option_1,Intermediate
+What is Terraform?,IaC tool for provisioning infrastructure,Configuration management,Container orchestration,Monitoring tool,Option_1,Intermediate
+What is CloudFormation?,AWS IaC service for managing resources,Third-party tool,Azure service,GCP tool,Option_1,Intermediate
+What is Ansible?,Configuration management and automation tool,IaC tool only,Container platform,Monitoring solution,Option_1,Intermediate
+What is Puppet?,Configuration management tool for infrastructure,IaC tool,Container orchestration,CI/CD platform,Option_1,Advanced
+What is Chef?,Infrastructure automation and configuration platform,IaC tool,Monitoring tool,CI/CD platform,Option_1,Advanced
+What is monitoring?,Observing system performance and health,Logging events,Alert management,Dashboard creation,Option_1,Intermediate
+What is logging?,Recording application events and errors,Monitoring performance,Creating alerts,Collecting metrics,Option_1,Beginner
+What is Prometheus?,Open-source monitoring and alerting toolkit,Logging platform,Tracing tool,Dashboard tool,Option_1,Intermediate
+What is Grafana?,Visualization and monitoring dashboard platform,Time-series database,Logging platform,Alert manager,Option_1,Intermediate
+What is ELK Stack?,"Elasticsearch, Logstash, Kibana for logging",Monitoring tools,CI/CD platform,Container tools,Option_1,Intermediate
+What is Elasticsearch?,Search and analytics engine for logs/data,Logging tool,Monitoring tool,CI/CD platform,Option_1,Advanced
+What is Logstash?,Pipeline tool for log processing and forwarding,Visualization tool,Analytics engine,Storage system,Option_1,Advanced
+What is Kibana?,Visualization tool for Elasticsearch data,Data processing,Log collection,Alert system,Option_1,Intermediate
+What is DataDog?,SaaS monitoring and analytics platform,Open-source tool,On-premise solution,Log storage,Option_1,Intermediate
+What is New Relic?,APM and monitoring platform,CI/CD tool,Container platform,IaC tool,Option_1,Intermediate
+What is load balancing?,Distributing traffic across multiple servers,Single server routing,Traffic monitoring,Server selection,Option_1,Intermediate
+What is elastic load balancer?,AWS service distributing traffic across instances,Manual load balancer,DNS service,Firewall,Option_1,Intermediate
+What is auto-scaling?,Automatically adjusting resources based on demand,Manual scaling,Fixed resources,Scheduled scaling,Option_1,Intermediate
+What is horizontal scaling?,Adding more servers/instances,Upgrading server,Increasing resources,Virtual scaling,Option_1,Intermediate
+What is vertical scaling?,Upgrading server resources like RAM/CPU,Adding servers,Distributed scaling,Horizontal expansion,Option_1,Intermediate
+What is sticky session?,Routing requests from same client to same server,Session persistence,Load balancing,Server affinity,Option_1,Advanced
+What is relational database?,Database with structured tables and relationships,Unstructured database,Document store,Graph database,Option_1,Intermediate
+What is NoSQL database?,Non-relational database for flexible data,Structured database,Only SQL,Only relational,Option_1,Intermediate
+What is database replication?,Copying data across multiple database instances,Data backup,Data encryption,Data compression,Option_1,Advanced
+What is database failover?,Automatic switching to backup database on failure,Manual backup,Data restoration,Recovery process,Option_1,Advanced
+What is backup strategy?,Plan for protecting data through regular backups,Single backup,Manual backup,Ad-hoc backup,Option_1,Intermediate
+What is disaster recovery?,Plan and process for recovering from major failures,Backup strategy,Data restoration,Failover mechanism,Option_1,Advanced
+What is cloud security?,Protecting cloud infrastructure and data,Firewall only,Password protection,Encryption only,Option_1,Intermediate
+What is encryption?,Converting data to unreadable form for security,Data compression,Data encoding,Data hashing,Option_1,Beginner
+What is encryption in transit?,Protecting data while moving across networks,Data at rest,Local encryption,Static data,Option_1,Intermediate
+What is encryption at rest?,Protecting data stored on disk/database,Data in motion,Network encryption,Temporary data,Option_1,Intermediate
+What is SSL/TLS?,Protocols for secure communication,Encryption algorithm,Network protocol,Data format,Option_1,Intermediate
+What is VPN?,Virtual Private Network for encrypted connection,Local network,Public network,Wireless network,Option_1,Beginner
+What is firewall?,Network security system controlling traffic,Antivirus,Encryption tool,Monitoring tool,Option_1,Beginner
+What is DDoS attack?,Distributed Denial of Service overwhelming system,Data attack,Malware,Phishing attack,Option_1,Intermediate
+What is WAF (Web Application Firewall)?,Protects web applications from attacks,Network firewall,Antivirus software,Encryption tool,Option_1,Advanced
+What is VPC (Virtual Private Cloud)?,Isolated virtual network in cloud,Virtual machine,Virtual storage,Virtual database,Option_1,Intermediate
+What is subnet?,Subdivision of IP network,Network partition,VLAN,Network segment,Option_1,Intermediate
+What is security group?,Virtual firewall controlling inbound/outbound traffic,Network protocol,Firewall device,Security policy,Option_1,Intermediate
+What is network ACL?,Access Control List for subnet-level traffic,Security group,Firewall rule,Routing rule,Option_1,Advanced
+What is NAT gateway?,Enables private instances to access internet,Network translator,IP converter,Traffic router,Option_1,Advanced
+What is CDN (Content Delivery Network)?,Network of servers for fast content delivery,Content storage,Data center,Server farm,Option_1,Intermediate
+What is container image layer?,Immutable snapshot of filesystem changes,Container copy,Storage block,Memory segment,Option_1,Advanced
+What is container registry?,Central repository storing container images,Container database,Image creator,Container runtime,Option_1,Intermediate
+What is container orchestration?,"Automating deployment, management, scaling of containers",Manual management,Container creation,Image storage,Option_1,Intermediate
+What is container networking?,Connecting containers and managing network communication,Container storage,Container isolation,Container execution,Option_1,Advanced
+What is serverless computing?,Running code without managing servers,Cloud servers,Virtual machines,Bare metal servers,Option_1,Intermediate
+What is function as a service (FaaS)?,Serverless platform executing individual functions,Service platform,Container platform,Virtual machine,Option_1,Intermediate
+What is AWS Lambda?,Serverless compute service,Container service,Virtual machine,Managed server,Option_1,Beginner
+What is cold start?,Latency when function first invoked,Function execution,Memory allocation,Resource provisioning,Option_1,Advanced
+What is warm start?,Quick function execution from cached state,Cold start,Function initialization,First invocation,Option_1,Advanced
+What is API gateway?,Service managing and routing API requests,API documentation,API testing,API versioning,Option_1,Intermediate
+What is API rate limiting?,Restricting number of requests per time period,Request throttling,Bandwidth limiting,Connection limiting,Option_1,Intermediate
+What is API versioning?,Managing different API versions for compatibility,API updates,API documentation,API monitoring,Option_1,Intermediate
+What is cloud cost optimization?,Reducing cloud spending while maintaining performance,Cost estimation,Budget tracking,Price comparison,Option_1,Intermediate
+What is reserved instances?,Purchasing servers for fixed period at discount,On-demand instances,Spot instances,Scheduled instances,Option_1,Intermediate
+What is spot instances?,Using unused cloud capacity at low price,Reserved instances,On-demand instances,Dedicated instances,Option_1,Advanced
+What is multi-cloud?,Using services from multiple cloud providers,Single cloud,Private cloud,Hybrid setup,Option_1,Advanced
+What is cloud migration?,Moving applications from on-premise to cloud,Cloud setup,Cloud deployment,Cloud scaling,Option_1,Intermediate
+What is lift and shift?,Migrating applications with minimal changes,Cloud native,Re-architecting,Refactoring,Option_1,Advanced
+What is observability?,System's ability to be understood through outputs,Monitoring,Logging,Tracing,Option_1,Advanced
+What is distributed tracing?,Tracking requests across multiple services,Single service logging,Local tracing,Application profiling,Option_1,Advanced
+What is chaos engineering?,Intentionally causing failures to test resilience,Random failures,Expected failures,Planned outages,Option_1,Advanced
+What is Cloud Computing?,On-demand delivery of computing resources over internet,Physical servers only,Local storage only,Data center management,Option_1,Beginner
+What are the main advantages of Cloud Computing?,"Scalability, cost-efficiency, flexibility, accessibility",Lower security,Complex management,Limited options,Option_1,Beginner
+What are cloud service models?,"IaaS, PaaS, SaaS",Only IaaS,Only PaaS,Only SaaS,Option_1,Beginner
+What is IaaS (Infrastructure as a Service)?,Cloud provider offers virtualized computing resources,Platform services only,Software applications only,Data storage only,Option_1,Beginner
+What is PaaS (Platform as a Service)?,Cloud provider offers platform for building applications,Infrastructure only,Software only,Data management,Option_1,Beginner
+What is SaaS (Software as a Service)?,Cloud-based software applications accessed via web,Infrastructure,Development platform,Hardware rental,Option_1,Beginner
+What are cloud deployment models?,"Public, Private, Hybrid, Community",Only public,Only private,Only hybrid,Option_1,Intermediate
+What is public cloud?,Services available to general public over internet,Company-owned,Shared by organizations,Single organization,Option_1,Beginner
+What is private cloud?,Cloud services exclusively for single organization,Public access,Shared services,Free services,Option_1,Beginner
+What is hybrid cloud?,Combination of public and private cloud,Only public,Only private,Multi-vendor setup,Option_1,Intermediate
+What is AWS (Amazon Web Services)?,Comprehensive cloud computing platform by Amazon,Google cloud,Microsoft cloud,IBM cloud,Option_1,Beginner
+What is EC2 in AWS?,Elastic Compute Cloud for virtual servers,Database service,Storage service,Networking service,Option_1,Beginner
+What is S3 in AWS?,Simple Storage Service for object storage,Database service,Compute service,Networking service,Option_1,Beginner
+What is RDS in AWS?,Relational Database Service for managed databases,Storage service,Compute service,Networking service,Option_1,Intermediate
+What is Lambda in AWS?,Serverless compute service for functions,Database service,Storage service,Networking service,Option_1,Intermediate
+What is CloudFront in AWS?,Content Delivery Network for fast content distribution,Database service,Storage service,Compute service,Option_1,Intermediate
+What is VPC in AWS?,Virtual Private Cloud for isolated network,Virtual compute,Virtual storage,Virtual database,Option_1,Intermediate
+What is IAM in AWS?,Identity and Access Management for user control,Database service,Storage service,Compute service,Option_1,Intermediate
+What is CloudFormation in AWS?,Infrastructure as Code service for managing resources,Configuration management,Infrastructure provisioning,Resource billing,Option_1,Intermediate
+What is auto-scaling in AWS?,Automatically adjusting resources based on demand,Load balancing,Monitoring,Security,Option_1,Intermediate
+What is Microsoft Azure?,Microsoft's cloud computing platform,AWS alternative,Google Cloud,IBM Cloud,Option_1,Beginner
+What are Azure Virtual Machines?,IaaS offering scalable on-demand computing,PaaS service,SaaS application,Managed database,Option_1,Beginner
+What is Azure App Service?,PaaS for building web and mobile apps,IaaS offering,SaaS application,Storage service,Option_1,Intermediate
+What is Azure SQL Database?,Managed relational database service,NoSQL database,Document database,Graph database,Option_1,Intermediate
+What is Azure Cosmos DB?,Globally distributed NoSQL database,SQL database,Document only,Graph only,Option_1,Intermediate
+What is Azure DevOps?,"Tools for CI/CD, planning, testing, deployment",Cloud storage,Compute service,Networking service,Option_1,Intermediate
+What is Azure Functions?,Serverless computing for running code without servers,App Service,Virtual Machines,Kubernetes,Option_1,Intermediate
+What is Azure Container Registry?,Service storing and managing Docker container images,Container orchestration,Container runtime,Image creation,Option_1,Advanced
+What is Google Cloud Platform (GCP)?,Google's cloud computing services,AWS alternative,Azure competitor,IBM offering,Option_1,Beginner
+What is Google Compute Engine?,IaaS for virtual machines and servers,PaaS platform,Managed database,Container service,Option_1,Beginner
+What is Google App Engine?,PaaS for building scalable web applications,IaaS service,Compute Engine,Storage service,Option_1,Intermediate
+What is Google Cloud SQL?,Managed relational database service,NoSQL database,Document database,Graph database,Option_1,Intermediate
+What is Google Firestore?,Scalable NoSQL cloud database,SQL database,Relational database,Time-series database,Option_1,Intermediate
+What is Google Cloud Storage?,Object storage for unstructured data,File storage,Block storage,Database service,Option_1,Beginner
+What is GKE (Google Kubernetes Engine)?,Managed Kubernetes container orchestration,Container runtime,Container registry,Container networking,Option_1,Intermediate
+What is Docker?,Containerization platform packaging applications,Virtual machine,Hypervisor,Orchestration tool,Option_1,Intermediate
+What is container?,Lightweight isolated environment with all dependencies,Virtual machine,Server,Physical machine,Option_1,Intermediate
+What is Docker image?,Blueprint for creating containers,Running container,Container registry,Container network,Option_1,Intermediate
+What is Docker container?,Running instance of Docker image,Docker image,Container registry,Container orchestration,Option_1,Intermediate
+What is Dockerfile?,File with instructions to build Docker image,Configuration file,Script file,Deployment file,Option_1,Intermediate
+What is Docker Hub?,Registry for storing and sharing Docker images,Container orchestration,Container runtime,Deployment tool,Option_1,Intermediate
+What is Docker Compose?,Tool for defining and running multi-container applications,Container registry,Single container tool,Orchestration platform,Option_1,Intermediate
+What is Docker networking?,Connecting containers and services together,Container isolation,Image management,Container storage,Option_1,Advanced
+What is Kubernetes?,Open-source container orchestration platform,Container runtime,Container registry,Configuration tool,Option_1,Intermediate
+What is a Pod in Kubernetes?,Smallest deployable unit containing containers,Container,Node,Cluster,Option_1,Intermediate
+What is a Service in Kubernetes?,Abstraction exposing pods as network service,Pod definition,Container specification,Network policy,Option_1,Advanced
+What is a Deployment in Kubernetes?,Declarative way managing Pod replicas,Pod definition,Service definition,ConfigMap,Option_1,Intermediate
+What is StatefulSet in Kubernetes?,Managing stateful applications with persistent storage,Stateless applications,Deployment,Job,Option_1,Advanced
+What is ConfigMap in Kubernetes?,Storing non-sensitive configuration data,Secrets,Environment variables,Volume,Option_1,Advanced
+What is Secret in Kubernetes?,"Storing sensitive data like passwords, tokens",ConfigMap,Regular data,Public data,Option_1,Advanced
+What is Helm?,Package manager for Kubernetes applications,Container orchestration,Configuration management,Deployment tool,Option_1,Advanced
+What is namespace in Kubernetes?,Virtual cluster for organizing resources,Network space,Storage space,Compute space,Option_1,Advanced
+What is ingress in Kubernetes?,API object managing external HTTP/S access,Service type,Network policy,Load balancer,Option_1,Advanced
+What is DevOps?,Combining development and operations for continuous delivery,Only development,Only operations,Infrastructure only,Option_1,Beginner
+What are the main goals of DevOps?,"Faster delivery, reliability, scalability, automation",Speed only,Reliability only,Cost reduction only,Option_1,Intermediate
+What is CI/CD?,Continuous Integration and Continuous Deployment,Code Integration,Continuous Development,Continuous Design,Option_1,Intermediate
+What is Continuous Integration?,Automatically testing code changes frequently,Manual testing,Scheduled testing,Testing at release,Option_1,Intermediate
+What is Continuous Deployment?,Automatically deploying tested code to production,Manual deployment,Scheduled deployment,Partial deployment,Option_1,Intermediate
+What is Continuous Delivery?,Code ready for deployment at any time,Automatic deployment,Manual deployment,Scheduled deployment,Option_1,Intermediate
+What is Jenkins?,Open-source CI/CD automation server,Cloud platform,Container orchestration,Configuration management,Option_1,Intermediate
+What is GitLab CI?,CI/CD platform integrated with GitLab,GitHub feature,Git tool,Container platform,Option_1,Intermediate
+What is GitHub Actions?,CI/CD workflows integrated with GitHub,GitLab feature,Local tool,Cloud service,Option_1,Intermediate
+What is CircleCI?,Cloud-based CI/CD platform,On-premise tool,Git service,Container service,Option_1,Intermediate
+What is Travis CI?,Cloud-based CI/CD for GitHub projects,On-premise solution,GitLab service,Container tool,Option_1,Intermediate
+What is pipeline in CI/CD?,Series of automated steps for building and deploying,Single step,Manual process,Visual diagram,Option_1,Intermediate
+What is webhook?,Triggered action on specific event,Manual trigger,Scheduled trigger,Random trigger,Option_1,Advanced
+What is Infrastructure as Code (IaC)?,Managing infrastructure through code and scripts,Manual setup,Physical configuration,GUI configuration,Option_1,Intermediate
+What is Terraform?,IaC tool for provisioning infrastructure,Configuration management,Container orchestration,Monitoring tool,Option_1,Intermediate
+What is CloudFormation?,AWS IaC service for managing resources,Third-party tool,Azure service,GCP tool,Option_1,Intermediate
+What is Ansible?,Configuration management and automation tool,IaC tool only,Container platform,Monitoring solution,Option_1,Intermediate
+What is Puppet?,Configuration management tool for infrastructure,IaC tool,Container orchestration,CI/CD platform,Option_1,Advanced
+What is Chef?,Infrastructure automation and configuration platform,IaC tool,Monitoring tool,CI/CD platform,Option_1,Advanced
+What is monitoring?,Observing system performance and health,Logging events,Alert management,Dashboard creation,Option_1,Intermediate
+What is logging?,Recording application events and errors,Monitoring performance,Creating alerts,Collecting metrics,Option_1,Beginner
+What is Prometheus?,Open-source monitoring and alerting toolkit,Logging platform,Tracing tool,Dashboard tool,Option_1,Intermediate
+What is Grafana?,Visualization and monitoring dashboard platform,Time-series database,Logging platform,Alert manager,Option_1,Intermediate
+What is ELK Stack?,"Elasticsearch, Logstash, Kibana for logging",Monitoring tools,CI/CD platform,Container tools,Option_1,Intermediate
+What is Elasticsearch?,Search and analytics engine for logs/data,Logging tool,Monitoring tool,CI/CD platform,Option_1,Advanced
+What is Logstash?,Pipeline tool for log processing and forwarding,Visualization tool,Analytics engine,Storage system,Option_1,Advanced
+What is Kibana?,Visualization tool for Elasticsearch data,Data processing,Log collection,Alert system,Option_1,Intermediate
+What is DataDog?,SaaS monitoring and analytics platform,Open-source tool,On-premise solution,Log storage,Option_1,Intermediate
+What is New Relic?,APM and monitoring platform,CI/CD tool,Container platform,IaC tool,Option_1,Intermediate
+What is load balancing?,Distributing traffic across multiple servers,Single server routing,Traffic monitoring,Server selection,Option_1,Intermediate
+What is elastic load balancer?,AWS service distributing traffic across instances,Manual load balancer,DNS service,Firewall,Option_1,Intermediate
+What is auto-scaling?,Automatically adjusting resources based on demand,Manual scaling,Fixed resources,Scheduled scaling,Option_1,Intermediate
+What is horizontal scaling?,Adding more servers/instances,Upgrading server,Increasing resources,Virtual scaling,Option_1,Intermediate
+What is vertical scaling?,Upgrading server resources like RAM/CPU,Adding servers,Distributed scaling,Horizontal expansion,Option_1,Intermediate
+What is sticky session?,Routing requests from same client to same server,Session persistence,Load balancing,Server affinity,Option_1,Advanced
+What is relational database?,Database with structured tables and relationships,Unstructured database,Document store,Graph database,Option_1,Intermediate
+What is NoSQL database?,Non-relational database for flexible data,Structured database,Only SQL,Only relational,Option_1,Intermediate
+What is database replication?,Copying data across multiple database instances,Data backup,Data encryption,Data compression,Option_1,Advanced
+What is database failover?,Automatic switching to backup database on failure,Manual backup,Data restoration,Recovery process,Option_1,Advanced
+What is backup strategy?,Plan for protecting data through regular backups,Single backup,Manual backup,Ad-hoc backup,Option_1,Intermediate
+What is disaster recovery?,Plan and process for recovering from major failures,Backup strategy,Data restoration,Failover mechanism,Option_1,Advanced
+What is cloud security?,Protecting cloud infrastructure and data,Firewall only,Password protection,Encryption only,Option_1,Intermediate
+What is encryption?,Converting data to unreadable form for security,Data compression,Data encoding,Data hashing,Option_1,Beginner
+What is encryption in transit?,Protecting data while moving across networks,Data at rest,Local encryption,Static data,Option_1,Intermediate
+What is encryption at rest?,Protecting data stored on disk/database,Data in motion,Network encryption,Temporary data,Option_1,Intermediate
+What is SSL/TLS?,Protocols for secure communication,Encryption algorithm,Network protocol,Data format,Option_1,Intermediate
+What is VPN?,Virtual Private Network for encrypted connection,Local network,Public network,Wireless network,Option_1,Beginner
+What is firewall?,Network security system controlling traffic,Antivirus,Encryption tool,Monitoring tool,Option_1,Beginner
+What is DDoS attack?,Distributed Denial of Service overwhelming system,Data attack,Malware,Phishing attack,Option_1,Intermediate
+What is WAF (Web Application Firewall)?,Protects web applications from attacks,Network firewall,Antivirus software,Encryption tool,Option_1,Advanced
+What is VPC (Virtual Private Cloud)?,Isolated virtual network in cloud,Virtual machine,Virtual storage,Virtual database,Option_1,Intermediate
+What is subnet?,Subdivision of IP network,Network partition,VLAN,Network segment,Option_1,Intermediate
+What is security group?,Virtual firewall controlling inbound/outbound traffic,Network protocol,Firewall device,Security policy,Option_1,Intermediate
+What is network ACL?,Access Control List for subnet-level traffic,Security group,Firewall rule,Routing rule,Option_1,Advanced
+What is NAT gateway?,Enables private instances to access internet,Network translator,IP converter,Traffic router,Option_1,Advanced
+What is CDN (Content Delivery Network)?,Network of servers for fast content delivery,Content storage,Data center,Server farm,Option_1,Intermediate
+What is container image layer?,Immutable snapshot of filesystem changes,Container copy,Storage block,Memory segment,Option_1,Advanced
+What is container registry?,Central repository storing container images,Container database,Image creator,Container runtime,Option_1,Intermediate
+What is container orchestration?,"Automating deployment, management, scaling of containers",Manual management,Container creation,Image storage,Option_1,Intermediate
+What is container networking?,Connecting containers and managing network communication,Container storage,Container isolation,Container execution,Option_1,Advanced
+What is serverless computing?,Running code without managing servers,Cloud servers,Virtual machines,Bare metal servers,Option_1,Intermediate
+What is function as a service (FaaS)?,Serverless platform executing individual functions,Service platform,Container platform,Virtual machine,Option_1,Intermediate
+What is AWS Lambda?,Serverless compute service,Container service,Virtual machine,Managed server,Option_1,Beginner
+What is cold start?,Latency when function first invoked,Function execution,Memory allocation,Resource provisioning,Option_1,Advanced
+What is warm start?,Quick function execution from cached state,Cold start,Function initialization,First invocation,Option_1,Advanced
+What is API gateway?,Service managing and routing API requests,API documentation,API testing,API versioning,Option_1,Intermediate
+What is API rate limiting?,Restricting number of requests per time period,Request throttling,Bandwidth limiting,Connection limiting,Option_1,Intermediate
+What is API versioning?,Managing different API versions for compatibility,API updates,API documentation,API monitoring,Option_1,Intermediate
+What is cloud cost optimization?,Reducing cloud spending while maintaining performance,Cost estimation,Budget tracking,Price comparison,Option_1,Intermediate
+What is reserved instances?,Purchasing servers for fixed period at discount,On-demand instances,Spot instances,Scheduled instances,Option_1,Intermediate
+What is spot instances?,Using unused cloud capacity at low price,Reserved instances,On-demand instances,Dedicated instances,Option_1,Advanced
+What is multi-cloud?,Using services from multiple cloud providers,Single cloud,Private cloud,Hybrid setup,Option_1,Advanced
+What is cloud migration?,Moving applications from on-premise to cloud,Cloud setup,Cloud deployment,Cloud scaling,Option_1,Intermediate
+What is lift and shift?,Migrating applications with minimal changes,Cloud native,Re-architecting,Refactoring,Option_1,Advanced
+What is observability?,System's ability to be understood through outputs,Monitoring,Logging,Tracing,Option_1,Advanced
+What is distributed tracing?,Tracking requests across multiple services,Single service logging,Local tracing,Application profiling,Option_1,Advanced
+What is chaos engineering?,Intentionally causing failures to test resilience,Random failures,Expected failures,Planned outages,Option_1,Advanced
+What is Cloud Computing?,On-demand delivery of computing resources over internet,Physical servers only,Local storage only,Data center management,Option_1,Beginner
+What are the main advantages of Cloud Computing?,"Scalability, cost-efficiency, flexibility, accessibility",Lower security,Complex management,Limited options,Option_1,Beginner
+What are cloud service models?,"IaaS, PaaS, SaaS",Only IaaS,Only PaaS,Only SaaS,Option_1,Beginner
+What is IaaS (Infrastructure as a Service)?,Cloud provider offers virtualized computing resources,Platform services only,Software applications only,Data storage only,Option_1,Beginner
+What is PaaS (Platform as a Service)?,Cloud provider offers platform for building applications,Infrastructure only,Software only,Data management,Option_1,Beginner
+What is SaaS (Software as a Service)?,Cloud-based software applications accessed via web,Infrastructure,Development platform,Hardware rental,Option_1,Beginner
+What are cloud deployment models?,"Public, Private, Hybrid, Community",Only public,Only private,Only hybrid,Option_1,Intermediate
+What is public cloud?,Services available to general public over internet,Company-owned,Shared by organizations,Single organization,Option_1,Beginner
+What is private cloud?,Cloud services exclusively for single organization,Public access,Shared services,Free services,Option_1,Beginner
+What is hybrid cloud?,Combination of public and private cloud,Only public,Only private,Multi-vendor setup,Option_1,Intermediate
+What is AWS (Amazon Web Services)?,Comprehensive cloud computing platform by Amazon,Google cloud,Microsoft cloud,IBM cloud,Option_1,Beginner
+What is EC2 in AWS?,Elastic Compute Cloud for virtual servers,Database service,Storage service,Networking service,Option_1,Beginner
+What is S3 in AWS?,Simple Storage Service for object storage,Database service,Compute service,Networking service,Option_1,Beginner
+What is RDS in AWS?,Relational Database Service for managed databases,Storage service,Compute service,Networking service,Option_1,Intermediate
+What is Lambda in AWS?,Serverless compute service for functions,Database service,Storage service,Networking service,Option_1,Intermediate
+What is CloudFront in AWS?,Content Delivery Network for fast content distribution,Database service,Storage service,Compute service,Option_1,Intermediate
+What is VPC in AWS?,Virtual Private Cloud for isolated network,Virtual compute,Virtual storage,Virtual database,Option_1,Intermediate
+What is IAM in AWS?,Identity and Access Management for user control,Database service,Storage service,Compute service,Option_1,Intermediate
+What is CloudFormation in AWS?,Infrastructure as Code service for managing resources,Configuration management,Infrastructure provisioning,Resource billing,Option_1,Intermediate
+What is auto-scaling in AWS?,Automatically adjusting resources based on demand,Load balancing,Monitoring,Security,Option_1,Intermediate
+What is Microsoft Azure?,Microsoft's cloud computing platform,AWS alternative,Google Cloud,IBM Cloud,Option_1,Beginner
+What are Azure Virtual Machines?,IaaS offering scalable on-demand computing,PaaS service,SaaS application,Managed database,Option_1,Beginner
+What is Azure App Service?,PaaS for building web and mobile apps,IaaS offering,SaaS application,Storage service,Option_1,Intermediate
+What is Azure SQL Database?,Managed relational database service,NoSQL database,Document database,Graph database,Option_1,Intermediate
+What is Azure Cosmos DB?,Globally distributed NoSQL database,SQL database,Document only,Graph only,Option_1,Intermediate
+What is Azure DevOps?,"Tools for CI/CD, planning, testing, deployment",Cloud storage,Compute service,Networking service,Option_1,Intermediate
+What is Azure Functions?,Serverless computing for running code without servers,App Service,Virtual Machines,Kubernetes,Option_1,Intermediate
+What is Azure Container Registry?,Service storing and managing Docker container images,Container orchestration,Container runtime,Image creation,Option_1,Advanced
+What is Google Cloud Platform (GCP)?,Google's cloud computing services,AWS alternative,Azure competitor,IBM offering,Option_1,Beginner
+What is Google Compute Engine?,IaaS for virtual machines and servers,PaaS platform,Managed database,Container service,Option_1,Beginner
+What is Google App Engine?,PaaS for building scalable web applications,IaaS service,Compute Engine,Storage service,Option_1,Intermediate
+What is Google Cloud SQL?,Managed relational database service,NoSQL database,Document database,Graph database,Option_1,Intermediate
+What is Google Firestore?,Scalable NoSQL cloud database,SQL database,Relational database,Time-series database,Option_1,Intermediate
+What is Google Cloud Storage?,Object storage for unstructured data,File storage,Block storage,Database service,Option_1,Beginner
+What is GKE (Google Kubernetes Engine)?,Managed Kubernetes container orchestration,Container runtime,Container registry,Container networking,Option_1,Intermediate
+What is Docker?,Containerization platform packaging applications,Virtual machine,Hypervisor,Orchestration tool,Option_1,Intermediate
+What is container?,Lightweight isolated environment with all dependencies,Virtual machine,Server,Physical machine,Option_1,Intermediate
+What is Docker image?,Blueprint for creating containers,Running container,Container registry,Container network,Option_1,Intermediate
+What is Docker container?,Running instance of Docker image,Docker image,Container registry,Container orchestration,Option_1,Intermediate
+What is Dockerfile?,File with instructions to build Docker image,Configuration file,Script file,Deployment file,Option_1,Intermediate
+What is Docker Hub?,Registry for storing and sharing Docker images,Container orchestration,Container runtime,Deployment tool,Option_1,Intermediate
+What is Docker Compose?,Tool for defining and running multi-container applications,Container registry,Single container tool,Orchestration platform,Option_1,Intermediate
+What is Docker networking?,Connecting containers and services together,Container isolation,Image management,Container storage,Option_1,Advanced
+What is Kubernetes?,Open-source container orchestration platform,Container runtime,Container registry,Configuration tool,Option_1,Intermediate
+What is a Pod in Kubernetes?,Smallest deployable unit containing containers,Container,Node,Cluster,Option_1,Intermediate
+What is a Service in Kubernetes?,Abstraction exposing pods as network service,Pod definition,Container specification,Network policy,Option_1,Advanced
+What is a Deployment in Kubernetes?,Declarative way managing Pod replicas,Pod definition,Service definition,ConfigMap,Option_1,Intermediate
+What is StatefulSet in Kubernetes?,Managing stateful applications with persistent storage,Stateless applications,Deployment,Job,Option_1,Advanced
+What is ConfigMap in Kubernetes?,Storing non-sensitive configuration data,Secrets,Environment variables,Volume,Option_1,Advanced
+What is Secret in Kubernetes?,"Storing sensitive data like passwords, tokens",ConfigMap,Regular data,Public data,Option_1,Advanced
+What is Helm?,Package manager for Kubernetes applications,Container orchestration,Configuration management,Deployment tool,Option_1,Advanced
+What is namespace in Kubernetes?,Virtual cluster for organizing resources,Network space,Storage space,Compute space,Option_1,Advanced
+What is ingress in Kubernetes?,API object managing external HTTP/S access,Service type,Network policy,Load balancer,Option_1,Advanced
+What is DevOps?,Combining development and operations for continuous delivery,Only development,Only operations,Infrastructure only,Option_1,Beginner
+What are the main goals of DevOps?,"Faster delivery, reliability, scalability, automation",Speed only,Reliability only,Cost reduction only,Option_1,Intermediate
+What is CI/CD?,Continuous Integration and Continuous Deployment,Code Integration,Continuous Development,Continuous Design,Option_1,Intermediate
+What is Continuous Integration?,Automatically testing code changes frequently,Manual testing,Scheduled testing,Testing at release,Option_1,Intermediate
+What is Continuous Deployment?,Automatically deploying tested code to production,Manual deployment,Scheduled deployment,Partial deployment,Option_1,Intermediate
+What is Continuous Delivery?,Code ready for deployment at any time,Automatic deployment,Manual deployment,Scheduled deployment,Option_1,Intermediate
+What is Jenkins?,Open-source CI/CD automation server,Cloud platform,Container orchestration,Configuration management,Option_1,Intermediate
+What is GitLab CI?,CI/CD platform integrated with GitLab,GitHub feature,Git tool,Container platform,Option_1,Intermediate
+What is GitHub Actions?,CI/CD workflows integrated with GitHub,GitLab feature,Local tool,Cloud service,Option_1,Intermediate
+What is CircleCI?,Cloud-based CI/CD platform,On-premise tool,Git service,Container service,Option_1,Intermediate
+What is Travis CI?,Cloud-based CI/CD for GitHub projects,On-premise solution,GitLab service,Container tool,Option_1,Intermediate
+What is pipeline in CI/CD?,Series of automated steps for building and deploying,Single step,Manual process,Visual diagram,Option_1,Intermediate
+What is webhook?,Triggered action on specific event,Manual trigger,Scheduled trigger,Random trigger,Option_1,Advanced
+What is Infrastructure as Code (IaC)?,Managing infrastructure through code and scripts,Manual setup,Physical configuration,GUI configuration,Option_1,Intermediate
+What is Terraform?,IaC tool for provisioning infrastructure,Configuration management,Container orchestration,Monitoring tool,Option_1,Intermediate
+What is CloudFormation?,AWS IaC service for managing resources,Third-party tool,Azure service,GCP tool,Option_1,Intermediate
+What is Ansible?,Configuration management and automation tool,IaC tool only,Container platform,Monitoring solution,Option_1,Intermediate
+What is Puppet?,Configuration management tool for infrastructure,IaC tool,Container orchestration,CI/CD platform,Option_1,Advanced
+What is Chef?,Infrastructure automation and configuration platform,IaC tool,Monitoring tool,CI/CD platform,Option_1,Advanced
+What is monitoring?,Observing system performance and health,Logging events,Alert management,Dashboard creation,Option_1,Intermediate
+What is logging?,Recording application events and errors,Monitoring performance,Creating alerts,Collecting metrics,Option_1,Beginner
+What is Prometheus?,Open-source monitoring and alerting toolkit,Logging platform,Tracing tool,Dashboard tool,Option_1,Intermediate
+What is Grafana?,Visualization and monitoring dashboard platform,Time-series database,Logging platform,Alert manager,Option_1,Intermediate
+What is ELK Stack?,"Elasticsearch, Logstash, Kibana for logging",Monitoring tools,CI/CD platform,Container tools,Option_1,Intermediate
+What is Elasticsearch?,Search and analytics engine for logs/data,Logging tool,Monitoring tool,CI/CD platform,Option_1,Advanced
+What is Logstash?,Pipeline tool for log processing and forwarding,Visualization tool,Analytics engine,Storage system,Option_1,Advanced
+What is Kibana?,Visualization tool for Elasticsearch data,Data processing,Log collection,Alert system,Option_1,Intermediate
+What is DataDog?,SaaS monitoring and analytics platform,Open-source tool,On-premise solution,Log storage,Option_1,Intermediate
+What is New Relic?,APM and monitoring platform,CI/CD tool,Container platform,IaC tool,Option_1,Intermediate
+What is load balancing?,Distributing traffic across multiple servers,Single server routing,Traffic monitoring,Server selection,Option_1,Intermediate
+What is elastic load balancer?,AWS service distributing traffic across instances,Manual load balancer,DNS service,Firewall,Option_1,Intermediate
+What is auto-scaling?,Automatically adjusting resources based on demand,Manual scaling,Fixed resources,Scheduled scaling,Option_1,Intermediate
+What is horizontal scaling?,Adding more servers/instances,Upgrading server,Increasing resources,Virtual scaling,Option_1,Intermediate
+What is vertical scaling?,Upgrading server resources like RAM/CPU,Adding servers,Distributed scaling,Horizontal expansion,Option_1,Intermediate
+What is sticky session?,Routing requests from same client to same server,Session persistence,Load balancing,Server affinity,Option_1,Advanced
+What is relational database?,Database with structured tables and relationships,Unstructured database,Document store,Graph database,Option_1,Intermediate
+What is NoSQL database?,Non-relational database for flexible data,Structured database,Only SQL,Only relational,Option_1,Intermediate
+What is database replication?,Copying data across multiple database instances,Data backup,Data encryption,Data compression,Option_1,Advanced
+What is database failover?,Automatic switching to backup database on failure,Manual backup,Data restoration,Recovery process,Option_1,Advanced
+What is backup strategy?,Plan for protecting data through regular backups,Single backup,Manual backup,Ad-hoc backup,Option_1,Intermediate
+What is disaster recovery?,Plan and process for recovering from major failures,Backup strategy,Data restoration,Failover mechanism,Option_1,Advanced
+What is cloud security?,Protecting cloud infrastructure and data,Firewall only,Password protection,Encryption only,Option_1,Intermediate
+What is encryption?,Converting data to unreadable form for security,Data compression,Data encoding,Data hashing,Option_1,Beginner
+What is encryption in transit?,Protecting data while moving across networks,Data at rest,Local encryption,Static data,Option_1,Intermediate
+What is encryption at rest?,Protecting data stored on disk/database,Data in motion,Network encryption,Temporary data,Option_1,Intermediate
+What is SSL/TLS?,Protocols for secure communication,Encryption algorithm,Network protocol,Data format,Option_1,Intermediate
+What is VPN?,Virtual Private Network for encrypted connection,Local network,Public network,Wireless network,Option_1,Beginner
+What is firewall?,Network security system controlling traffic,Antivirus,Encryption tool,Monitoring tool,Option_1,Beginner
+What is DDoS attack?,Distributed Denial of Service overwhelming system,Data attack,Malware,Phishing attack,Option_1,Intermediate
+What is WAF (Web Application Firewall)?,Protects web applications from attacks,Network firewall,Antivirus software,Encryption tool,Option_1,Advanced
+What is VPC (Virtual Private Cloud)?,Isolated virtual network in cloud,Virtual machine,Virtual storage,Virtual database,Option_1,Intermediate
+What is subnet?,Subdivision of IP network,Network partition,VLAN,Network segment,Option_1,Intermediate
+What is security group?,Virtual firewall controlling inbound/outbound traffic,Network protocol,Firewall device,Security policy,Option_1,Intermediate
+What is network ACL?,Access Control List for subnet-level traffic,Security group,Firewall rule,Routing rule,Option_1,Advanced
+What is NAT gateway?,Enables private instances to access internet,Network translator,IP converter,Traffic router,Option_1,Advanced
+What is CDN (Content Delivery Network)?,Network of servers for fast content delivery,Content storage,Data center,Server farm,Option_1,Intermediate
+What is container image layer?,Immutable snapshot of filesystem changes,Container copy,Storage block,Memory segment,Option_1,Advanced
+What is container registry?,Central repository storing container images,Container database,Image creator,Container runtime,Option_1,Intermediate
+What is container orchestration?,"Automating deployment, management, scaling of containers",Manual management,Container creation,Image storage,Option_1,Intermediate
+What is container networking?,Connecting containers and managing network communication,Container storage,Container isolation,Container execution,Option_1,Advanced
+What is serverless computing?,Running code without managing servers,Cloud servers,Virtual machines,Bare metal servers,Option_1,Intermediate
+What is function as a service (FaaS)?,Serverless platform executing individual functions,Service platform,Container platform,Virtual machine,Option_1,Intermediate
+What is AWS Lambda?,Serverless compute service,Container service,Virtual machine,Managed server,Option_1,Beginner
+What is cold start?,Latency when function first invoked,Function execution,Memory allocation,Resource provisioning,Option_1,Advanced
+What is warm start?,Quick function execution from cached state,Cold start,Function initialization,First invocation,Option_1,Advanced
+What is API gateway?,Service managing and routing API requests,API documentation,API testing,API versioning,Option_1,Intermediate
+What is API rate limiting?,Restricting number of requests per time period,Request throttling,Bandwidth limiting,Connection limiting,Option_1,Intermediate
+What is API versioning?,Managing different API versions for compatibility,API updates,API documentation,API monitoring,Option_1,Intermediate
+What is cloud cost optimization?,Reducing cloud spending while maintaining performance,Cost estimation,Budget tracking,Price comparison,Option_1,Intermediate
+What is reserved instances?,Purchasing servers for fixed period at discount,On-demand instances,Spot instances,Scheduled instances,Option_1,Intermediate
+What is spot instances?,Using unused cloud capacity at low price,Reserved instances,On-demand instances,Dedicated instances,Option_1,Advanced
+What is multi-cloud?,Using services from multiple cloud providers,Single cloud,Private cloud,Hybrid setup,Option_1,Advanced
+What is cloud migration?,Moving applications from on-premise to cloud,Cloud setup,Cloud deployment,Cloud scaling,Option_1,Intermediate
+What is lift and shift?,Migrating applications with minimal changes,Cloud native,Re-architecting,Refactoring,Option_1,Advanced
+What is observability?,System's ability to be understood through outputs,Monitoring,Logging,Tracing,Option_1,Advanced
+What is distributed tracing?,Tracking requests across multiple services,Single service logging,Local tracing,Application profiling,Option_1,Advanced
+What is chaos engineering?,Intentionally causing failures to test resilience,Random failures,Expected failures,Planned outages,Option_1,Advanced
+What is Cloud Computing?,On-demand delivery of computing resources over internet,Physical servers only,Local storage only,Data center management,Option_1,Beginner
+What are the main advantages of Cloud Computing?,"Scalability, cost-efficiency, flexibility, accessibility",Lower security,Complex management,Limited options,Option_1,Beginner
+What are cloud service models?,"IaaS, PaaS, SaaS",Only IaaS,Only PaaS,Only SaaS,Option_1,Beginner
+What is IaaS (Infrastructure as a Service)?,Cloud provider offers virtualized computing resources,Platform services only,Software applications only,Data storage only,Option_1,Beginner
+What is PaaS (Platform as a Service)?,Cloud provider offers platform for building applications,Infrastructure only,Software only,Data management,Option_1,Beginner
+What is SaaS (Software as a Service)?,Cloud-based software applications accessed via web,Infrastructure,Development platform,Hardware rental,Option_1,Beginner
+What are cloud deployment models?,"Public, Private, Hybrid, Community",Only public,Only private,Only hybrid,Option_1,Intermediate
+What is public cloud?,Services available to general public over internet,Company-owned,Shared by organizations,Single organization,Option_1,Beginner
+What is private cloud?,Cloud services exclusively for single organization,Public access,Shared services,Free services,Option_1,Beginner
+What is hybrid cloud?,Combination of public and private cloud,Only public,Only private,Multi-vendor setup,Option_1,Intermediate
+What is AWS (Amazon Web Services)?,Comprehensive cloud computing platform by Amazon,Google cloud,Microsoft cloud,IBM cloud,Option_1,Beginner
+What is EC2 in AWS?,Elastic Compute Cloud for virtual servers,Database service,Storage service,Networking service,Option_1,Beginner
+What is S3 in AWS?,Simple Storage Service for object storage,Database service,Compute service,Networking service,Option_1,Beginner
+What is RDS in AWS?,Relational Database Service for managed databases,Storage service,Compute service,Networking service,Option_1,Intermediate
+What is Lambda in AWS?,Serverless compute service for functions,Database service,Storage service,Networking service,Option_1,Intermediate
+What is CloudFront in AWS?,Content Delivery Network for fast content distribution,Database service,Storage service,Compute service,Option_1,Intermediate
+What is VPC in AWS?,Virtual Private Cloud for isolated network,Virtual compute,Virtual storage,Virtual database,Option_1,Intermediate
+What is IAM in AWS?,Identity and Access Management for user control,Database service,Storage service,Compute service,Option_1,Intermediate
+What is CloudFormation in AWS?,Infrastructure as Code service for managing resources,Configuration management,Infrastructure provisioning,Resource billing,Option_1,Intermediate
+What is auto-scaling in AWS?,Automatically adjusting resources based on demand,Load balancing,Monitoring,Security,Option_1,Intermediate
+What is Microsoft Azure?,Microsoft's cloud computing platform,AWS alternative,Google Cloud,IBM Cloud,Option_1,Beginner
+What are Azure Virtual Machines?,IaaS offering scalable on-demand computing,PaaS service,SaaS application,Managed database,Option_1,Beginner
+What is Azure App Service?,PaaS for building web and mobile apps,IaaS offering,SaaS application,Storage service,Option_1,Intermediate
+What is Azure SQL Database?,Managed relational database service,NoSQL database,Document database,Graph database,Option_1,Intermediate
+What is Azure Cosmos DB?,Globally distributed NoSQL database,SQL database,Document only,Graph only,Option_1,Intermediate
+What is Azure DevOps?,"Tools for CI/CD, planning, testing, deployment",Cloud storage,Compute service,Networking service,Option_1,Intermediate
+What is Azure Functions?,Serverless computing for running code without servers,App Service,Virtual Machines,Kubernetes,Option_1,Intermediate
+What is Azure Container Registry?,Service storing and managing Docker container images,Container orchestration,Container runtime,Image creation,Option_1,Advanced
+What is Google Cloud Platform (GCP)?,Google's cloud computing services,AWS alternative,Azure competitor,IBM offering,Option_1,Beginner
+What is Google Compute Engine?,IaaS for virtual machines and servers,PaaS platform,Managed database,Container service,Option_1,Beginner
+What is Google App Engine?,PaaS for building scalable web applications,IaaS service,Compute Engine,Storage service,Option_1,Intermediate
+What is Google Cloud SQL?,Managed relational database service,NoSQL database,Document database,Graph database,Option_1,Intermediate
+What is Google Firestore?,Scalable NoSQL cloud database,SQL database,Relational database,Time-series database,Option_1,Intermediate
+What is Google Cloud Storage?,Object storage for unstructured data,File storage,Block storage,Database service,Option_1,Beginner
+What is GKE (Google Kubernetes Engine)?,Managed Kubernetes container orchestration,Container runtime,Container registry,Container networking,Option_1,Intermediate
+What is Docker?,Containerization platform packaging applications,Virtual machine,Hypervisor,Orchestration tool,Option_1,Intermediate
+What is container?,Lightweight isolated environment with all dependencies,Virtual machine,Server,Physical machine,Option_1,Intermediate
+What is Docker image?,Blueprint for creating containers,Running container,Container registry,Container network,Option_1,Intermediate
+What is Docker container?,Running instance of Docker image,Docker image,Container registry,Container orchestration,Option_1,Intermediate
+What is Dockerfile?,File with instructions to build Docker image,Configuration file,Script file,Deployment file,Option_1,Intermediate
+What is Docker Hub?,Registry for storing and sharing Docker images,Container orchestration,Container runtime,Deployment tool,Option_1,Intermediate
+What is Docker Compose?,Tool for defining and running multi-container applications,Container registry,Single container tool,Orchestration platform,Option_1,Intermediate
+What is Docker networking?,Connecting containers and services together,Container isolation,Image management,Container storage,Option_1,Advanced
+What is Kubernetes?,Open-source container orchestration platform,Container runtime,Container registry,Configuration tool,Option_1,Intermediate
+What is a Pod in Kubernetes?,Smallest deployable unit containing containers,Container,Node,Cluster,Option_1,Intermediate
+What is a Service in Kubernetes?,Abstraction exposing pods as network service,Pod definition,Container specification,Network policy,Option_1,Advanced
+What is a Deployment in Kubernetes?,Declarative way managing Pod replicas,Pod definition,Service definition,ConfigMap,Option_1,Intermediate
+What is StatefulSet in Kubernetes?,Managing stateful applications with persistent storage,Stateless applications,Deployment,Job,Option_1,Advanced
+What is ConfigMap in Kubernetes?,Storing non-sensitive configuration data,Secrets,Environment variables,Volume,Option_1,Advanced
+What is Secret in Kubernetes?,"Storing sensitive data like passwords, tokens",ConfigMap,Regular data,Public data,Option_1,Advanced
+What is Helm?,Package manager for Kubernetes applications,Container orchestration,Configuration management,Deployment tool,Option_1,Advanced
+What is namespace in Kubernetes?,Virtual cluster for organizing resources,Network space,Storage space,Compute space,Option_1,Advanced
+What is ingress in Kubernetes?,API object managing external HTTP/S access,Service type,Network policy,Load balancer,Option_1,Advanced
+What is DevOps?,Combining development and operations for continuous delivery,Only development,Only operations,Infrastructure only,Option_1,Beginner
+What are the main goals of DevOps?,"Faster delivery, reliability, scalability, automation",Speed only,Reliability only,Cost reduction only,Option_1,Intermediate
+What is CI/CD?,Continuous Integration and Continuous Deployment,Code Integration,Continuous Development,Continuous Design,Option_1,Intermediate
+What is Continuous Integration?,Automatically testing code changes frequently,Manual testing,Scheduled testing,Testing at release,Option_1,Intermediate
+What is Continuous Deployment?,Automatically deploying tested code to production,Manual deployment,Scheduled deployment,Partial deployment,Option_1,Intermediate
+What is Continuous Delivery?,Code ready for deployment at any time,Automatic deployment,Manual deployment,Scheduled deployment,Option_1,Intermediate
+What is Jenkins?,Open-source CI/CD automation server,Cloud platform,Container orchestration,Configuration management,Option_1,Intermediate
+What is GitLab CI?,CI/CD platform integrated with GitLab,GitHub feature,Git tool,Container platform,Option_1,Intermediate
+What is GitHub Actions?,CI/CD workflows integrated with GitHub,GitLab feature,Local tool,Cloud service,Option_1,Intermediate
+What is CircleCI?,Cloud-based CI/CD platform,On-premise tool,Git service,Container service,Option_1,Intermediate
+What is Travis CI?,Cloud-based CI/CD for GitHub projects,On-premise solution,GitLab service,Container tool,Option_1,Intermediate
+What is pipeline in CI/CD?,Series of automated steps for building and deploying,Single step,Manual process,Visual diagram,Option_1,Intermediate
+What is webhook?,Triggered action on specific event,Manual trigger,Scheduled trigger,Random trigger,Option_1,Advanced
+What is Infrastructure as Code (IaC)?,Managing infrastructure through code and scripts,Manual setup,Physical configuration,GUI configuration,Option_1,Intermediate
+What is Terraform?,IaC tool for provisioning infrastructure,Configuration management,Container orchestration,Monitoring tool,Option_1,Intermediate
+What is CloudFormation?,AWS IaC service for managing resources,Third-party tool,Azure service,GCP tool,Option_1,Intermediate
+What is Ansible?,Configuration management and automation tool,IaC tool only,Container platform,Monitoring solution,Option_1,Intermediate
+What is Puppet?,Configuration management tool for infrastructure,IaC tool,Container orchestration,CI/CD platform,Option_1,Advanced
+What is Chef?,Infrastructure automation and configuration platform,IaC tool,Monitoring tool,CI/CD platform,Option_1,Advanced
+What is monitoring?,Observing system performance and health,Logging events,Alert management,Dashboard creation,Option_1,Intermediate
+What is logging?,Recording application events and errors,Monitoring performance,Creating alerts,Collecting metrics,Option_1,Beginner
+What is Prometheus?,Open-source monitoring and alerting toolkit,Logging platform,Tracing tool,Dashboard tool,Option_1,Intermediate
+What is Grafana?,Visualization and monitoring dashboard platform,Time-series database,Logging platform,Alert manager,Option_1,Intermediate
+What is ELK Stack?,"Elasticsearch, Logstash, Kibana for logging",Monitoring tools,CI/CD platform,Container tools,Option_1,Intermediate
+What is Elasticsearch?,Search and analytics engine for logs/data,Logging tool,Monitoring tool,CI/CD platform,Option_1,Advanced
+What is Logstash?,Pipeline tool for log processing and forwarding,Visualization tool,Analytics engine,Storage system,Option_1,Advanced
+What is Kibana?,Visualization tool for Elasticsearch data,Data processing,Log collection,Alert system,Option_1,Intermediate
+What is DataDog?,SaaS monitoring and analytics platform,Open-source tool,On-premise solution,Log storage,Option_1,Intermediate
+What is New Relic?,APM and monitoring platform,CI/CD tool,Container platform,IaC tool,Option_1,Intermediate
+What is load balancing?,Distributing traffic across multiple servers,Single server routing,Traffic monitoring,Server selection,Option_1,Intermediate
+What is elastic load balancer?,AWS service distributing traffic across instances,Manual load balancer,DNS service,Firewall,Option_1,Intermediate
+What is auto-scaling?,Automatically adjusting resources based on demand,Manual scaling,Fixed resources,Scheduled scaling,Option_1,Intermediate
+What is horizontal scaling?,Adding more servers/instances,Upgrading server,Increasing resources,Virtual scaling,Option_1,Intermediate
+What is vertical scaling?,Upgrading server resources like RAM/CPU,Adding servers,Distributed scaling,Horizontal expansion,Option_1,Intermediate
+What is sticky session?,Routing requests from same client to same server,Session persistence,Load balancing,Server affinity,Option_1,Advanced
+What is relational database?,Database with structured tables and relationships,Unstructured database,Document store,Graph database,Option_1,Intermediate
+What is NoSQL database?,Non-relational database for flexible data,Structured database,Only SQL,Only relational,Option_1,Intermediate
+What is database replication?,Copying data across multiple database instances,Data backup,Data encryption,Data compression,Option_1,Advanced
+What is database failover?,Automatic switching to backup database on failure,Manual backup,Data restoration,Recovery process,Option_1,Advanced
+What is backup strategy?,Plan for protecting data through regular backups,Single backup,Manual backup,Ad-hoc backup,Option_1,Intermediate
+What is disaster recovery?,Plan and process for recovering from major failures,Backup strategy,Data restoration,Failover mechanism,Option_1,Advanced
+What is cloud security?,Protecting cloud infrastructure and data,Firewall only,Password protection,Encryption only,Option_1,Intermediate
+What is encryption?,Converting data to unreadable form for security,Data compression,Data encoding,Data hashing,Option_1,Beginner
+What is encryption in transit?,Protecting data while moving across networks,Data at rest,Local encryption,Static data,Option_1,Intermediate
+What is encryption at rest?,Protecting data stored on disk/database,Data in motion,Network encryption,Temporary data,Option_1,Intermediate
+What is SSL/TLS?,Protocols for secure communication,Encryption algorithm,Network protocol,Data format,Option_1,Intermediate
+What is VPN?,Virtual Private Network for encrypted connection,Local network,Public network,Wireless network,Option_1,Beginner
+What is firewall?,Network security system controlling traffic,Antivirus,Encryption tool,Monitoring tool,Option_1,Beginner
+What is DDoS attack?,Distributed Denial of Service overwhelming system,Data attack,Malware,Phishing attack,Option_1,Intermediate
+What is WAF (Web Application Firewall)?,Protects web applications from attacks,Network firewall,Antivirus software,Encryption tool,Option_1,Advanced
+What is VPC (Virtual Private Cloud)?,Isolated virtual network in cloud,Virtual machine,Virtual storage,Virtual database,Option_1,Intermediate
+What is subnet?,Subdivision of IP network,Network partition,VLAN,Network segment,Option_1,Intermediate
+What is security group?,Virtual firewall controlling inbound/outbound traffic,Network protocol,Firewall device,Security policy,Option_1,Intermediate
+What is network ACL?,Access Control List for subnet-level traffic,Security group,Firewall rule,Routing rule,Option_1,Advanced
+What is NAT gateway?,Enables private instances to access internet,Network translator,IP converter,Traffic router,Option_1,Advanced
+What is CDN (Content Delivery Network)?,Network of servers for fast content delivery,Content storage,Data center,Server farm,Option_1,Intermediate
+What is container image layer?,Immutable snapshot of filesystem changes,Container copy,Storage block,Memory segment,Option_1,Advanced
+What is container registry?,Central repository storing container images,Container database,Image creator,Container runtime,Option_1,Intermediate
+What is container orchestration?,"Automating deployment, management, scaling of containers",Manual management,Container creation,Image storage,Option_1,Intermediate
+What is container networking?,Connecting containers and managing network communication,Container storage,Container isolation,Container execution,Option_1,Advanced
+What is serverless computing?,Running code without managing servers,Cloud servers,Virtual machines,Bare metal servers,Option_1,Intermediate
+What is function as a service (FaaS)?,Serverless platform executing individual functions,Service platform,Container platform,Virtual machine,Option_1,Intermediate
+What is AWS Lambda?,Serverless compute service,Container service,Virtual machine,Managed server,Option_1,Beginner
+What is cold start?,Latency when function first invoked,Function execution,Memory allocation,Resource provisioning,Option_1,Advanced
+What is warm start?,Quick function execution from cached state,Cold start,Function initialization,First invocation,Option_1,Advanced
+What is API gateway?,Service managing and routing API requests,API documentation,API testing,API versioning,Option_1,Intermediate
+What is API rate limiting?,Restricting number of requests per time period,Request throttling,Bandwidth limiting,Connection limiting,Option_1,Intermediate
+What is API versioning?,Managing different API versions for compatibility,API updates,API documentation,API monitoring,Option_1,Intermediate
+What is cloud cost optimization?,Reducing cloud spending while maintaining performance,Cost estimation,Budget tracking,Price comparison,Option_1,Intermediate
+What is reserved instances?,Purchasing servers for fixed period at discount,On-demand instances,Spot instances,Scheduled instances,Option_1,Intermediate
+What is spot instances?,Using unused cloud capacity at low price,Reserved instances,On-demand instances,Dedicated instances,Option_1,Advanced
+What is multi-cloud?,Using services from multiple cloud providers,Single cloud,Private cloud,Hybrid setup,Option_1,Advanced
+What is cloud migration?,Moving applications from on-premise to cloud,Cloud setup,Cloud deployment,Cloud scaling,Option_1,Intermediate
+What is lift and shift?,Migrating applications with minimal changes,Cloud native,Re-architecting,Refactoring,Option_1,Advanced
+What is observability?,System's ability to be understood through outputs,Monitoring,Logging,Tracing,Option_1,Advanced
+What is distributed tracing?,Tracking requests across multiple services,Single service logging,Local tracing,Application profiling,Option_1,Advanced
+What is chaos engineering?,Intentionally causing failures to test resilience,Random failures,Expected failures,Planned outages,Option_1,Advanced
+What is Cloud Computing?,On-demand delivery of computing resources over internet,Physical servers only,Local storage only,Data center management,Option_1,Beginner
+What are the main advantages of Cloud Computing?,"Scalability, cost-efficiency, flexibility, accessibility",Lower security,Complex management,Limited options,Option_1,Beginner
+What are cloud service models?,"IaaS, PaaS, SaaS",Only IaaS,Only PaaS,Only SaaS,Option_1,Beginner
+What is IaaS (Infrastructure as a Service)?,Cloud provider offers virtualized computing resources,Platform services only,Software applications only,Data storage only,Option_1,Beginner
+What is PaaS (Platform as a Service)?,Cloud provider offers platform for building applications,Infrastructure only,Software only,Data management,Option_1,Beginner
+What is SaaS (Software as a Service)?,Cloud-based software applications accessed via web,Infrastructure,Development platform,Hardware rental,Option_1,Beginner
+What are cloud deployment models?,"Public, Private, Hybrid, Community",Only public,Only private,Only hybrid,Option_1,Intermediate
+What is public cloud?,Services available to general public over internet,Company-owned,Shared by organizations,Single organization,Option_1,Beginner
+What is private cloud?,Cloud services exclusively for single organization,Public access,Shared services,Free services,Option_1,Beginner
+What is hybrid cloud?,Combination of public and private cloud,Only public,Only private,Multi-vendor setup,Option_1,Intermediate
+What is AWS (Amazon Web Services)?,Comprehensive cloud computing platform by Amazon,Google cloud,Microsoft cloud,IBM cloud,Option_1,Beginner
+What is EC2 in AWS?,Elastic Compute Cloud for virtual servers,Database service,Storage service,Networking service,Option_1,Beginner
+What is S3 in AWS?,Simple Storage Service for object storage,Database service,Compute service,Networking service,Option_1,Beginner
+What is RDS in AWS?,Relational Database Service for managed databases,Storage service,Compute service,Networking service,Option_1,Intermediate
+What is Lambda in AWS?,Serverless compute service for functions,Database service,Storage service,Networking service,Option_1,Intermediate
+What is CloudFront in AWS?,Content Delivery Network for fast content distribution,Database service,Storage service,Compute service,Option_1,Intermediate
+What is VPC in AWS?,Virtual Private Cloud for isolated network,Virtual compute,Virtual storage,Virtual database,Option_1,Intermediate
+What is IAM in AWS?,Identity and Access Management for user control,Database service,Storage service,Compute service,Option_1,Intermediate
+What is CloudFormation in AWS?,Infrastructure as Code service for managing resources,Configuration management,Infrastructure provisioning,Resource billing,Option_1,Intermediate
+What is auto-scaling in AWS?,Automatically adjusting resources based on demand,Load balancing,Monitoring,Security,Option_1,Intermediate
+What is Microsoft Azure?,Microsoft's cloud computing platform,AWS alternative,Google Cloud,IBM Cloud,Option_1,Beginner
+What are Azure Virtual Machines?,IaaS offering scalable on-demand computing,PaaS service,SaaS application,Managed database,Option_1,Beginner
+What is Azure App Service?,PaaS for building web and mobile apps,IaaS offering,SaaS application,Storage service,Option_1,Intermediate
+What is Azure SQL Database?,Managed relational database service,NoSQL database,Document database,Graph database,Option_1,Intermediate
+What is Azure Cosmos DB?,Globally distributed NoSQL database,SQL database,Document only,Graph only,Option_1,Intermediate
+What is Azure DevOps?,"Tools for CI/CD, planning, testing, deployment",Cloud storage,Compute service,Networking service,Option_1,Intermediate
+What is Azure Functions?,Serverless computing for running code without servers,App Service,Virtual Machines,Kubernetes,Option_1,Intermediate
+What is Azure Container Registry?,Service storing and managing Docker container images,Container orchestration,Container runtime,Image creation,Option_1,Advanced
+What is Google Cloud Platform (GCP)?,Google's cloud computing services,AWS alternative,Azure competitor,IBM offering,Option_1,Beginner
+What is Google Compute Engine?,IaaS for virtual machines and servers,PaaS platform,Managed database,Container service,Option_1,Beginner
+What is Google App Engine?,PaaS for building scalable web applications,IaaS service,Compute Engine,Storage service,Option_1,Intermediate
+What is Google Cloud SQL?,Managed relational database service,NoSQL database,Document database,Graph database,Option_1,Intermediate
+What is Google Firestore?,Scalable NoSQL cloud database,SQL database,Relational database,Time-series database,Option_1,Intermediate
+What is Google Cloud Storage?,Object storage for unstructured data,File storage,Block storage,Database service,Option_1,Beginner
+What is GKE (Google Kubernetes Engine)?,Managed Kubernetes container orchestration,Container runtime,Container registry,Container networking,Option_1,Intermediate
+What is Docker?,Containerization platform packaging applications,Virtual machine,Hypervisor,Orchestration tool,Option_1,Intermediate
+What is container?,Lightweight isolated environment with all dependencies,Virtual machine,Server,Physical machine,Option_1,Intermediate
+What is Docker image?,Blueprint for creating containers,Running container,Container registry,Container network,Option_1,Intermediate
+What is Docker container?,Running instance of Docker image,Docker image,Container registry,Container orchestration,Option_1,Intermediate
+What is Dockerfile?,File with instructions to build Docker image,Configuration file,Script file,Deployment file,Option_1,Intermediate
+What is Docker Hub?,Registry for storing and sharing Docker images,Container orchestration,Container runtime,Deployment tool,Option_1,Intermediate
+What is Docker Compose?,Tool for defining and running multi-container applications,Container registry,Single container tool,Orchestration platform,Option_1,Intermediate
+What is Docker networking?,Connecting containers and services together,Container isolation,Image management,Container storage,Option_1,Advanced
+What is Kubernetes?,Open-source container orchestration platform,Container runtime,Container registry,Configuration tool,Option_1,Intermediate
+What is a Pod in Kubernetes?,Smallest deployable unit containing containers,Container,Node,Cluster,Option_1,Intermediate
+What is a Service in Kubernetes?,Abstraction exposing pods as network service,Pod definition,Container specification,Network policy,Option_1,Advanced
+What is a Deployment in Kubernetes?,Declarative way managing Pod replicas,Pod definition,Service definition,ConfigMap,Option_1,Intermediate
+What is StatefulSet in Kubernetes?,Managing stateful applications with persistent storage,Stateless applications,Deployment,Job,Option_1,Advanced
+What is ConfigMap in Kubernetes?,Storing non-sensitive configuration data,Secrets,Environment variables,Volume,Option_1,Advanced
+What is Secret in Kubernetes?,"Storing sensitive data like passwords, tokens",ConfigMap,Regular data,Public data,Option_1,Advanced
+What is Helm?,Package manager for Kubernetes applications,Container orchestration,Configuration management,Deployment tool,Option_1,Advanced
+What is namespace in Kubernetes?,Virtual cluster for organizing resources,Network space,Storage space,Compute space,Option_1,Advanced
+What is ingress in Kubernetes?,API object managing external HTTP/S access,Service type,Network policy,Load balancer,Option_1,Advanced
+What is DevOps?,Combining development and operations for continuous delivery,Only development,Only operations,Infrastructure only,Option_1,Beginner
+What are the main goals of DevOps?,"Faster delivery, reliability, scalability, automation",Speed only,Reliability only,Cost reduction only,Option_1,Intermediate
+What is CI/CD?,Continuous Integration and Continuous Deployment,Code Integration,Continuous Development,Continuous Design,Option_1,Intermediate
+What is Continuous Integration?,Automatically testing code changes frequently,Manual testing,Scheduled testing,Testing at release,Option_1,Intermediate
+What is Continuous Deployment?,Automatically deploying tested code to production,Manual deployment,Scheduled deployment,Partial deployment,Option_1,Intermediate
+What is Continuous Delivery?,Code ready for deployment at any time,Automatic deployment,Manual deployment,Scheduled deployment,Option_1,Intermediate
+What is Jenkins?,Open-source CI/CD automation server,Cloud platform,Container orchestration,Configuration management,Option_1,Intermediate
+What is GitLab CI?,CI/CD platform integrated with GitLab,GitHub feature,Git tool,Container platform,Option_1,Intermediate
+What is GitHub Actions?,CI/CD workflows integrated with GitHub,GitLab feature,Local tool,Cloud service,Option_1,Intermediate
+What is CircleCI?,Cloud-based CI/CD platform,On-premise tool,Git service,Container service,Option_1,Intermediate
+What is Travis CI?,Cloud-based CI/CD for GitHub projects,On-premise solution,GitLab service,Container tool,Option_1,Intermediate
+What is pipeline in CI/CD?,Series of automated steps for building and deploying,Single step,Manual process,Visual diagram,Option_1,Intermediate
+What is webhook?,Triggered action on specific event,Manual trigger,Scheduled trigger,Random trigger,Option_1,Advanced
+What is Infrastructure as Code (IaC)?,Managing infrastructure through code and scripts,Manual setup,Physical configuration,GUI configuration,Option_1,Intermediate
+What is Terraform?,IaC tool for provisioning infrastructure,Configuration management,Container orchestration,Monitoring tool,Option_1,Intermediate
+What is CloudFormation?,AWS IaC service for managing resources,Third-party tool,Azure service,GCP tool,Option_1,Intermediate
+What is Ansible?,Configuration management and automation tool,IaC tool only,Container platform,Monitoring solution,Option_1,Intermediate
+What is Puppet?,Configuration management tool for infrastructure,IaC tool,Container orchestration,CI/CD platform,Option_1,Advanced
+What is Chef?,Infrastructure automation and configuration platform,IaC tool,Monitoring tool,CI/CD platform,Option_1,Advanced
+What is monitoring?,Observing system performance and health,Logging events,Alert management,Dashboard creation,Option_1,Intermediate
+What is logging?,Recording application events and errors,Monitoring performance,Creating alerts,Collecting metrics,Option_1,Beginner
+What is Prometheus?,Open-source monitoring and alerting toolkit,Logging platform,Tracing tool,Dashboard tool,Option_1,Intermediate
+What is Grafana?,Visualization and monitoring dashboard platform,Time-series database,Logging platform,Alert manager,Option_1,Intermediate
+What is ELK Stack?,"Elasticsearch, Logstash, Kibana for logging",Monitoring tools,CI/CD platform,Container tools,Option_1,Intermediate
+What is Elasticsearch?,Search and analytics engine for logs/data,Logging tool,Monitoring tool,CI/CD platform,Option_1,Advanced
+What is Logstash?,Pipeline tool for log processing and forwarding,Visualization tool,Analytics engine,Storage system,Option_1,Advanced
+What is Kibana?,Visualization tool for Elasticsearch data,Data processing,Log collection,Alert system,Option_1,Intermediate
+What is DataDog?,SaaS monitoring and analytics platform,Open-source tool,On-premise solution,Log storage,Option_1,Intermediate
+What is New Relic?,APM and monitoring platform,CI/CD tool,Container platform,IaC tool,Option_1,Intermediate
+What is load balancing?,Distributing traffic across multiple servers,Single server routing,Traffic monitoring,Server selection,Option_1,Intermediate
+What is elastic load balancer?,AWS service distributing traffic across instances,Manual load balancer,DNS service,Firewall,Option_1,Intermediate
+What is auto-scaling?,Automatically adjusting resources based on demand,Manual scaling,Fixed resources,Scheduled scaling,Option_1,Intermediate
+What is horizontal scaling?,Adding more servers/instances,Upgrading server,Increasing resources,Virtual scaling,Option_1,Intermediate
+What is vertical scaling?,Upgrading server resources like RAM/CPU,Adding servers,Distributed scaling,Horizontal expansion,Option_1,Intermediate
+What is sticky session?,Routing requests from same client to same server,Session persistence,Load balancing,Server affinity,Option_1,Advanced
+What is relational database?,Database with structured tables and relationships,Unstructured database,Document store,Graph database,Option_1,Intermediate
+What is NoSQL database?,Non-relational database for flexible data,Structured database,Only SQL,Only relational,Option_1,Intermediate
+What is database replication?,Copying data across multiple database instances,Data backup,Data encryption,Data compression,Option_1,Advanced
+What is database failover?,Automatic switching to backup database on failure,Manual backup,Data restoration,Recovery process,Option_1,Advanced
+What is backup strategy?,Plan for protecting data through regular backups,Single backup,Manual backup,Ad-hoc backup,Option_1,Intermediate
+What is disaster recovery?,Plan and process for recovering from major failures,Backup strategy,Data restoration,Failover mechanism,Option_1,Advanced
+What is cloud security?,Protecting cloud infrastructure and data,Firewall only,Password protection,Encryption only,Option_1,Intermediate
+What is encryption?,Converting data to unreadable form for security,Data compression,Data encoding,Data hashing,Option_1,Beginner
+What is encryption in transit?,Protecting data while moving across networks,Data at rest,Local encryption,Static data,Option_1,Intermediate
+What is encryption at rest?,Protecting data stored on disk/database,Data in motion,Network encryption,Temporary data,Option_1,Intermediate
+What is SSL/TLS?,Protocols for secure communication,Encryption algorithm,Network protocol,Data format,Option_1,Intermediate
+What is VPN?,Virtual Private Network for encrypted connection,Local network,Public network,Wireless network,Option_1,Beginner
+What is firewall?,Network security system controlling traffic,Antivirus,Encryption tool,Monitoring tool,Option_1,Beginner
+What is DDoS attack?,Distributed Denial of Service overwhelming system,Data attack,Malware,Phishing attack,Option_1,Intermediate
+What is WAF (Web Application Firewall)?,Protects web applications from attacks,Network firewall,Antivirus software,Encryption tool,Option_1,Advanced
+What is VPC (Virtual Private Cloud)?,Isolated virtual network in cloud,Virtual machine,Virtual storage,Virtual database,Option_1,Intermediate
+What is subnet?,Subdivision of IP network,Network partition,VLAN,Network segment,Option_1,Intermediate
+What is security group?,Virtual firewall controlling inbound/outbound traffic,Network protocol,Firewall device,Security policy,Option_1,Intermediate
+What is network ACL?,Access Control List for subnet-level traffic,Security group,Firewall rule,Routing rule,Option_1,Advanced
+What is NAT gateway?,Enables private instances to access internet,Network translator,IP converter,Traffic router,Option_1,Advanced
+What is CDN (Content Delivery Network)?,Network of servers for fast content delivery,Content storage,Data center,Server farm,Option_1,Intermediate
+What is container image layer?,Immutable snapshot of filesystem changes,Container copy,Storage block,Memory segment,Option_1,Advanced
+What is container registry?,Central repository storing container images,Container database,Image creator,Container runtime,Option_1,Intermediate
+What is container orchestration?,"Automating deployment, management, scaling of containers",Manual management,Container creation,Image storage,Option_1,Intermediate
+What is container networking?,Connecting containers and managing network communication,Container storage,Container isolation,Container execution,Option_1,Advanced
+What is serverless computing?,Running code without managing servers,Cloud servers,Virtual machines,Bare metal servers,Option_1,Intermediate
+What is function as a service (FaaS)?,Serverless platform executing individual functions,Service platform,Container platform,Virtual machine,Option_1,Intermediate
+What is AWS Lambda?,Serverless compute service,Container service,Virtual machine,Managed server,Option_1,Beginner
+What is cold start?,Latency when function first invoked,Function execution,Memory allocation,Resource provisioning,Option_1,Advanced
+What is warm start?,Quick function execution from cached state,Cold start,Function initialization,First invocation,Option_1,Advanced
+What is API gateway?,Service managing and routing API requests,API documentation,API testing,API versioning,Option_1,Intermediate
+What is API rate limiting?,Restricting number of requests per time period,Request throttling,Bandwidth limiting,Connection limiting,Option_1,Intermediate
+What is API versioning?,Managing different API versions for compatibility,API updates,API documentation,API monitoring,Option_1,Intermediate
+What is cloud cost optimization?,Reducing cloud spending while maintaining performance,Cost estimation,Budget tracking,Price comparison,Option_1,Intermediate
+What is reserved instances?,Purchasing servers for fixed period at discount,On-demand instances,Spot instances,Scheduled instances,Option_1,Intermediate
+What is spot instances?,Using unused cloud capacity at low price,Reserved instances,On-demand instances,Dedicated instances,Option_1,Advanced
+What is multi-cloud?,Using services from multiple cloud providers,Single cloud,Private cloud,Hybrid setup,Option_1,Advanced
+What is cloud migration?,Moving applications from on-premise to cloud,Cloud setup,Cloud deployment,Cloud scaling,Option_1,Intermediate
+What is lift and shift?,Migrating applications with minimal changes,Cloud native,Re-architecting,Refactoring,Option_1,Advanced
+What is observability?,System's ability to be understood through outputs,Monitoring,Logging,Tracing,Option_1,Advanced
+What is distributed tracing?,Tracking requests across multiple services,Single service logging,Local tracing,Application profiling,Option_1,Advanced
+What is chaos engineering?,Intentionally causing failures to test resilience,Random failures,Expected failures,Planned outages,Option_1,Advanced
+What is Cloud Computing?,On-demand delivery of computing resources over internet,Physical servers only,Local storage only,Data center management,Option_1,Beginner
+What are the main advantages of Cloud Computing?,"Scalability, cost-efficiency, flexibility, accessibility",Lower security,Complex management,Limited options,Option_1,Beginner
+What are cloud service models?,"IaaS, PaaS, SaaS",Only IaaS,Only PaaS,Only SaaS,Option_1,Beginner
+What is IaaS (Infrastructure as a Service)?,Cloud provider offers virtualized computing resources,Platform services only,Software applications only,Data storage only,Option_1,Beginner
+What is PaaS (Platform as a Service)?,Cloud provider offers platform for building applications,Infrastructure only,Software only,Data management,Option_1,Beginner
+What is SaaS (Software as a Service)?,Cloud-based software applications accessed via web,Infrastructure,Development platform,Hardware rental,Option_1,Beginner
+What are cloud deployment models?,"Public, Private, Hybrid, Community",Only public,Only private,Only hybrid,Option_1,Intermediate
+What is public cloud?,Services available to general public over internet,Company-owned,Shared by organizations,Single organization,Option_1,Beginner
+What is private cloud?,Cloud services exclusively for single organization,Public access,Shared services,Free services,Option_1,Beginner
+What is hybrid cloud?,Combination of public and private cloud,Only public,Only private,Multi-vendor setup,Option_1,Intermediate
+What is AWS (Amazon Web Services)?,Comprehensive cloud computing platform by Amazon,Google cloud,Microsoft cloud,IBM cloud,Option_1,Beginner
+What is EC2 in AWS?,Elastic Compute Cloud for virtual servers,Database service,Storage service,Networking service,Option_1,Beginner
+What is S3 in AWS?,Simple Storage Service for object storage,Database service,Compute service,Networking service,Option_1,Beginner
+What is RDS in AWS?,Relational Database Service for managed databases,Storage service,Compute service,Networking service,Option_1,Intermediate
+What is Lambda in AWS?,Serverless compute service for functions,Database service,Storage service,Networking service,Option_1,Intermediate
+What is CloudFront in AWS?,Content Delivery Network for fast content distribution,Database service,Storage service,Compute service,Option_1,Intermediate
+What is VPC in AWS?,Virtual Private Cloud for isolated network,Virtual compute,Virtual storage,Virtual database,Option_1,Intermediate
+What is IAM in AWS?,Identity and Access Management for user control,Database service,Storage service,Compute service,Option_1,Intermediate
+What is CloudFormation in AWS?,Infrastructure as Code service for managing resources,Configuration management,Infrastructure provisioning,Resource billing,Option_1,Intermediate
+What is auto-scaling in AWS?,Automatically adjusting resources based on demand,Load balancing,Monitoring,Security,Option_1,Intermediate
+What is Microsoft Azure?,Microsoft's cloud computing platform,AWS alternative,Google Cloud,IBM Cloud,Option_1,Beginner
+What are Azure Virtual Machines?,IaaS offering scalable on-demand computing,PaaS service,SaaS application,Managed database,Option_1,Beginner
+What is Azure App Service?,PaaS for building web and mobile apps,IaaS offering,SaaS application,Storage service,Option_1,Intermediate
+What is Azure SQL Database?,Managed relational database service,NoSQL database,Document database,Graph database,Option_1,Intermediate
+What is Azure Cosmos DB?,Globally distributed NoSQL database,SQL database,Document only,Graph only,Option_1,Intermediate
+What is Azure DevOps?,"Tools for CI/CD, planning, testing, deployment",Cloud storage,Compute service,Networking service,Option_1,Intermediate
+What is Azure Functions?,Serverless computing for running code without servers,App Service,Virtual Machines,Kubernetes,Option_1,Intermediate
+What is Azure Container Registry?,Service storing and managing Docker container images,Container orchestration,Container runtime,Image creation,Option_1,Advanced
+What is Google Cloud Platform (GCP)?,Google's cloud computing services,AWS alternative,Azure competitor,IBM offering,Option_1,Beginner
+What is Google Compute Engine?,IaaS for virtual machines and servers,PaaS platform,Managed database,Container service,Option_1,Beginner
+What is Google App Engine?,PaaS for building scalable web applications,IaaS service,Compute Engine,Storage service,Option_1,Intermediate
+What is Google Cloud SQL?,Managed relational database service,NoSQL database,Document database,Graph database,Option_1,Intermediate
+What is Google Firestore?,Scalable NoSQL cloud database,SQL database,Relational database,Time-series database,Option_1,Intermediate
+What is Google Cloud Storage?,Object storage for unstructured data,File storage,Block storage,Database service,Option_1,Beginner
+What is GKE (Google Kubernetes Engine)?,Managed Kubernetes container orchestration,Container runtime,Container registry,Container networking,Option_1,Intermediate
+What is Docker?,Containerization platform packaging applications,Virtual machine,Hypervisor,Orchestration tool,Option_1,Intermediate
+What is container?,Lightweight isolated environment with all dependencies,Virtual machine,Server,Physical machine,Option_1,Intermediate
+What is Docker image?,Blueprint for creating containers,Running container,Container registry,Container network,Option_1,Intermediate
+What is Docker container?,Running instance of Docker image,Docker image,Container registry,Container orchestration,Option_1,Intermediate
+What is Dockerfile?,File with instructions to build Docker image,Configuration file,Script file,Deployment file,Option_1,Intermediate
+What is Docker Hub?,Registry for storing and sharing Docker images,Container orchestration,Container runtime,Deployment tool,Option_1,Intermediate
+What is Docker Compose?,Tool for defining and running multi-container applications,Container registry,Single container tool,Orchestration platform,Option_1,Intermediate
+What is Docker networking?,Connecting containers and services together,Container isolation,Image management,Container storage,Option_1,Advanced
+What is Kubernetes?,Open-source container orchestration platform,Container runtime,Container registry,Configuration tool,Option_1,Intermediate
+What is a Pod in Kubernetes?,Smallest deployable unit containing containers,Container,Node,Cluster,Option_1,Intermediate
+What is a Service in Kubernetes?,Abstraction exposing pods as network service,Pod definition,Container specification,Network policy,Option_1,Advanced
+What is a Deployment in Kubernetes?,Declarative way managing Pod replicas,Pod definition,Service definition,ConfigMap,Option_1,Intermediate
+What is StatefulSet in Kubernetes?,Managing stateful applications with persistent storage,Stateless applications,Deployment,Job,Option_1,Advanced
+What is ConfigMap in Kubernetes?,Storing non-sensitive configuration data,Secrets,Environment variables,Volume,Option_1,Advanced
+What is Secret in Kubernetes?,"Storing sensitive data like passwords, tokens",ConfigMap,Regular data,Public data,Option_1,Advanced
+What is Helm?,Package manager for Kubernetes applications,Container orchestration,Configuration management,Deployment tool,Option_1,Advanced
+What is namespace in Kubernetes?,Virtual cluster for organizing resources,Network space,Storage space,Compute space,Option_1,Advanced
+What is ingress in Kubernetes?,API object managing external HTTP/S access,Service type,Network policy,Load balancer,Option_1,Advanced
+What is DevOps?,Combining development and operations for continuous delivery,Only development,Only operations,Infrastructure only,Option_1,Beginner
+What are the main goals of DevOps?,"Faster delivery, reliability, scalability, automation",Speed only,Reliability only,Cost reduction only,Option_1,Intermediate
+What is CI/CD?,Continuous Integration and Continuous Deployment,Code Integration,Continuous Development,Continuous Design,Option_1,Intermediate
+What is Continuous Integration?,Automatically testing code changes frequently,Manual testing,Scheduled testing,Testing at release,Option_1,Intermediate
+What is Continuous Deployment?,Automatically deploying tested code to production,Manual deployment,Scheduled deployment,Partial deployment,Option_1,Intermediate
+What is Continuous Delivery?,Code ready for deployment at any time,Automatic deployment,Manual deployment,Scheduled deployment,Option_1,Intermediate
+What is Jenkins?,Open-source CI/CD automation server,Cloud platform,Container orchestration,Configuration management,Option_1,Intermediate
+What is GitLab CI?,CI/CD platform integrated with GitLab,GitHub feature,Git tool,Container platform,Option_1,Intermediate
+What is GitHub Actions?,CI/CD workflows integrated with GitHub,GitLab feature,Local tool,Cloud service,Option_1,Intermediate
+What is CircleCI?,Cloud-based CI/CD platform,On-premise tool,Git service,Container service,Option_1,Intermediate
+What is Travis CI?,Cloud-based CI/CD for GitHub projects,On-premise solution,GitLab service,Container tool,Option_1,Intermediate
+What is pipeline in CI/CD?,Series of automated steps for building and deploying,Single step,Manual process,Visual diagram,Option_1,Intermediate
+What is webhook?,Triggered action on specific event,Manual trigger,Scheduled trigger,Random trigger,Option_1,Advanced
+What is Infrastructure as Code (IaC)?,Managing infrastructure through code and scripts,Manual setup,Physical configuration,GUI configuration,Option_1,Intermediate
+What is Terraform?,IaC tool for provisioning infrastructure,Configuration management,Container orchestration,Monitoring tool,Option_1,Intermediate
+What is CloudFormation?,AWS IaC service for managing resources,Third-party tool,Azure service,GCP tool,Option_1,Intermediate
+What is Ansible?,Configuration management and automation tool,IaC tool only,Container platform,Monitoring solution,Option_1,Intermediate
+What is Puppet?,Configuration management tool for infrastructure,IaC tool,Container orchestration,CI/CD platform,Option_1,Advanced
+What is Chef?,Infrastructure automation and configuration platform,IaC tool,Monitoring tool,CI/CD platform,Option_1,Advanced
+What is monitoring?,Observing system performance and health,Logging events,Alert management,Dashboard creation,Option_1,Intermediate
+What is logging?,Recording application events and errors,Monitoring performance,Creating alerts,Collecting metrics,Option_1,Beginner
+What is Prometheus?,Open-source monitoring and alerting toolkit,Logging platform,Tracing tool,Dashboard tool,Option_1,Intermediate
+What is Grafana?,Visualization and monitoring dashboard platform,Time-series database,Logging platform,Alert manager,Option_1,Intermediate
+What is ELK Stack?,"Elasticsearch, Logstash, Kibana for logging",Monitoring tools,CI/CD platform,Container tools,Option_1,Intermediate
+What is Elasticsearch?,Search and analytics engine for logs/data,Logging tool,Monitoring tool,CI/CD platform,Option_1,Advanced
+What is Logstash?,Pipeline tool for log processing and forwarding,Visualization tool,Analytics engine,Storage system,Option_1,Advanced
+What is Kibana?,Visualization tool for Elasticsearch data,Data processing,Log collection,Alert system,Option_1,Intermediate
+What is DataDog?,SaaS monitoring and analytics platform,Open-source tool,On-premise solution,Log storage,Option_1,Intermediate
+What is New Relic?,APM and monitoring platform,CI/CD tool,Container platform,IaC tool,Option_1,Intermediate
+What is load balancing?,Distributing traffic across multiple servers,Single server routing,Traffic monitoring,Server selection,Option_1,Intermediate
+What is elastic load balancer?,AWS service distributing traffic across instances,Manual load balancer,DNS service,Firewall,Option_1,Intermediate
+What is auto-scaling?,Automatically adjusting resources based on demand,Manual scaling,Fixed resources,Scheduled scaling,Option_1,Intermediate
+What is horizontal scaling?,Adding more servers/instances,Upgrading server,Increasing resources,Virtual scaling,Option_1,Intermediate
+What is vertical scaling?,Upgrading server resources like RAM/CPU,Adding servers,Distributed scaling,Horizontal expansion,Option_1,Intermediate
+What is sticky session?,Routing requests from same client to same server,Session persistence,Load balancing,Server affinity,Option_1,Advanced
+What is relational database?,Database with structured tables and relationships,Unstructured database,Document store,Graph database,Option_1,Intermediate
+What is NoSQL database?,Non-relational database for flexible data,Structured database,Only SQL,Only relational,Option_1,Intermediate
