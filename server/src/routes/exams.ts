@@ -17,20 +17,25 @@ examRouter.get("/status", requireAuth, async (req, res) => {
     .sort({ createdAt: -1 })
     .lean();
 
-  const latestByType = new Map<string, any>();
+  const byType = new Map<string, any[]>();
   for (const a of attempts) {
-    if (!latestByType.has(a.examType)) latestByType.set(a.examType, a);
+    const k = String(a.examType);
+    if (!byType.has(k)) byType.set(k, []);
+    byType.get(k)!.push(a);
   }
 
-  const aptitudeDone = latestByType.has("aptitude");
-  const dsaDone = latestByType.has("dsa");
-  const softDone = latestByType.has("soft_skills");
+  const latest = (t: string) => (byType.get(t)?.[0] ?? null);
+  const previous = (t: string) => (byType.get(t)?.[1] ?? null);
+
+  const aptitudeDone = Boolean(latest("aptitude"));
+  const dsaDone = Boolean(latest("dsa"));
+  const softDone = Boolean(latest("soft_skills"));
 
   return res.json({
-    aptitude: { unlocked: true, latest: latestByType.get("aptitude") || null },
-    dsa: { unlocked: aptitudeDone, latest: latestByType.get("dsa") || null },
-    soft_skills: { unlocked: aptitudeDone && dsaDone, latest: latestByType.get("soft_skills") || null },
-    career: { unlocked: aptitudeDone && dsaDone && softDone, latest: latestByType.get("career") || null },
+    aptitude: { unlocked: true, latest: latest("aptitude"), previous: previous("aptitude") },
+    dsa: { unlocked: aptitudeDone, latest: latest("dsa"), previous: previous("dsa") },
+    soft_skills: { unlocked: aptitudeDone && dsaDone, latest: latest("soft_skills"), previous: previous("soft_skills") },
+    career: { unlocked: aptitudeDone && dsaDone && softDone, latest: latest("career"), previous: previous("career") },
   });
 });
 

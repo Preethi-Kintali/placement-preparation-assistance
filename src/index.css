@@ -133,7 +133,7 @@
 
 @layer components {
   .glass-card {
-    @apply bg-card/70 backdrop-blur-xl border border-border/50 rounded-2xl;
+    @apply bg-card/70 backdrop-blur-xl rounded-2xl;
     box-shadow: var(--shadow-md);
   }
 
@@ -250,5 +250,388 @@
   }
   to {
     stroke-dashoffset: 0;
+  }
+}
+
+/* Home hero orbit animation (home page only) */
+.home-orbit {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
+
+.home-orbit__system {
+  position: relative;
+  width: 600px;
+  height: 600px;
+}
+
+.home-orbit__ring {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 9999px;
+  border: 1px solid;
+  animation: home-orbit-pulse 4s ease-in-out infinite;
+}
+
+.home-orbit__ring--1 {
+  width: 280px;
+  height: 280px;
+  border-color: rgba(59, 130, 246, 0.15);
+  box-shadow: 0 0 20px rgba(59, 130, 246, 0.1), inset 0 0 20px rgba(59, 130, 246, 0.05);
+}
+
+.home-orbit__ring--2 {
+  width: 380px;
+  height: 380px;
+  border-color: rgba(34, 197, 94, 0.12);
+  box-shadow: 0 0 25px rgba(34, 197, 94, 0.08), inset 0 0 25px rgba(34, 197, 94, 0.04);
+  animation-delay: -1.5s;
+}
+
+.home-orbit__ring--3 {
+  width: 480px;
+  height: 480px;
+  border-color: rgba(249, 115, 22, 0.1);
+  box-shadow: 0 0 30px rgba(249, 115, 22, 0.06), inset 0 0 30px rgba(249, 115, 22, 0.03);
+  animation-delay: -3s;
+}
+
+.home-orbit__path {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform-origin: center;
+  animation: home-orbit-rotate 25s linear infinite;
+}
+
+.home-orbit__path--1 {
+  width: 280px;
+  height: 280px;
+  margin-left: -140px;
+  margin-top: -140px;
+  animation-duration: 20s;
+}
+
+.home-orbit__path--2 {
+  width: 380px;
+  height: 380px;
+  margin-left: -190px;
+  margin-top: -190px;
+  animation-duration: 28s;
+  animation-direction: reverse;
+}
+
+.home-orbit__path--3 {
+  width: 480px;
+  height: 480px;
+  margin-left: -240px;
+  margin-top: -240px;
+  animation-duration: 35s;
+}
+
+.home-orbit__label {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  padding: 12px 18px;
+  border-radius: 14px;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.2px;
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  backdrop-filter: blur(12px);
+  animation: home-orbit-labelFloat 3s ease-in-out infinite;
+}
+
+.home-orbit__path--1 .home-orbit__label {
+  animation: home-orbit-labelFloat 3s ease-in-out infinite, home-orbit-counterRotate 20s linear infinite;
+}
+
+.home-orbit__path--2 .home-orbit__label {
+  animation: home-orbit-labelFloat 3s ease-in-out infinite, home-orbit-counterRotateReverse 28s linear infinite;
+}
+
+.home-orbit__path--3 .home-orbit__label {
+  animation: home-orbit-labelFloat 3s ease-in-out infinite, home-orbit-counterRotate 35s linear infinite;
+}
+
+.home-orbit__label--blue {
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.2), rgba(37, 99, 235, 0.1));
+  border: 1px solid rgba(59, 130, 246, 0.35);
+  color: rgba(30, 64, 175, 0.95);
+  box-shadow: 0 0 30px rgba(59, 130, 246, 0.22), inset 0 0 18px rgba(59, 130, 246, 0.08);
+}
+
+.home-orbit__label--green {
+  background: linear-gradient(135deg, rgba(34, 197, 94, 0.2), rgba(22, 163, 74, 0.1));
+  border: 1px solid rgba(34, 197, 94, 0.3);
+  color: rgba(21, 128, 61, 0.95);
+  box-shadow: 0 0 30px rgba(34, 197, 94, 0.18), inset 0 0 18px rgba(34, 197, 94, 0.07);
+}
+
+.home-orbit__label--orange {
+  background: linear-gradient(135deg, rgba(249, 115, 22, 0.18), rgba(234, 88, 12, 0.1));
+  border: 1px solid rgba(249, 115, 22, 0.28);
+  color: rgba(154, 52, 18, 0.95);
+  box-shadow: 0 0 30px rgba(249, 115, 22, 0.16), inset 0 0 18px rgba(249, 115, 22, 0.06);
+}
+
+.home-orbit__icon {
+  width: 22px;
+  height: 22px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-orbit__icon svg {
+  width: 22px;
+  height: 22px;
+}
+
+.home-orbit__panel {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 320px;
+  height: 220px;
+  background: linear-gradient(145deg, rgba(15, 23, 42, 0.6), rgba(15, 23, 42, 0.35));
+  border-radius: 16px;
+  border: 1px solid rgba(148, 163, 184, 0.12);
+  backdrop-filter: blur(18px);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  overflow: hidden;
+  animation: home-orbit-panelFloat 6s ease-in-out infinite;
+}
+
+.home-orbit__panelHeader {
+  height: 32px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 12px;
+  background: linear-gradient(90deg, rgba(30, 41, 59, 0.65), rgba(30, 41, 59, 0.4));
+  border-bottom: 1px solid rgba(148, 163, 184, 0.12);
+}
+
+.home-orbit__dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 9999px;
+}
+
+.home-orbit__dot--red {
+  background: rgba(239, 68, 68, 0.9);
+  box-shadow: 0 0 8px rgba(239, 68, 68, 0.35);
+}
+
+.home-orbit__dot--yellow {
+  background: rgba(234, 179, 8, 0.9);
+  box-shadow: 0 0 8px rgba(234, 179, 8, 0.25);
+}
+
+.home-orbit__dot--green {
+  background: rgba(34, 197, 94, 0.9);
+  box-shadow: 0 0 8px rgba(34, 197, 94, 0.25);
+}
+
+.home-orbit__panelTitle {
+  margin-left: auto;
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: rgba(148, 163, 184, 0.7);
+}
+
+.home-orbit__panelContent {
+  padding: 16px;
+  font-size: 11px;
+  line-height: 1.8;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.home-orbit__codeLine {
+  display: flex;
+  gap: 8px;
+  opacity: 0;
+  animation: home-orbit-typeIn 0.5s forwards;
+}
+
+.home-orbit__ln {
+  color: rgba(100, 116, 139, 0.55);
+  min-width: 18px;
+  text-align: right;
+}
+
+.home-orbit__kw {
+  color: rgba(192, 132, 252, 0.95);
+}
+
+.home-orbit__fn {
+  color: rgba(96, 165, 250, 0.95);
+}
+
+.home-orbit__str {
+  color: rgba(74, 222, 128, 0.95);
+}
+
+.home-orbit__br {
+  color: rgba(252, 211, 77, 0.95);
+}
+
+.home-orbit__cm {
+  color: rgba(100, 116, 139, 0.8);
+  font-style: italic;
+}
+
+.home-orbit__var {
+  color: rgba(244, 114, 182, 0.95);
+}
+
+.home-orbit__cursor {
+  width: 8px;
+  height: 14px;
+  background: rgba(96, 165, 250, 0.9);
+  margin-left: 4px;
+  display: inline-block;
+  animation: home-orbit-blink 1s step-end infinite;
+}
+
+@keyframes home-orbit-rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes home-orbit-counterRotate {
+  from {
+    transform: translateX(-50%) translateY(-50%) rotate(0deg);
+  }
+  to {
+    transform: translateX(-50%) translateY(-50%) rotate(-360deg);
+  }
+}
+
+@keyframes home-orbit-counterRotateReverse {
+  from {
+    transform: translateX(-50%) translateY(-50%) rotate(0deg);
+  }
+  to {
+    transform: translateX(-50%) translateY(-50%) rotate(360deg);
+  }
+}
+
+@keyframes home-orbit-pulse {
+  0%,
+  100% {
+    opacity: 0.6;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.02);
+  }
+}
+
+@keyframes home-orbit-labelFloat {
+  0%,
+  100% {
+    margin-top: 0;
+  }
+  50% {
+    margin-top: -6px;
+  }
+}
+
+@keyframes home-orbit-panelFloat {
+  0%,
+  100% {
+    transform: translate(-50%, -50%) translateY(0);
+  }
+  50% {
+    transform: translate(-50%, -50%) translateY(-8px);
+  }
+}
+
+@keyframes home-orbit-typeIn {
+  from {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes home-orbit-blink {
+  0%,
+  50% {
+    opacity: 1;
+  }
+  51%,
+  100% {
+    opacity: 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .home-orbit__system {
+    width: 420px;
+    height: 420px;
+  }
+
+  .home-orbit__ring--1 {
+    width: 200px;
+    height: 200px;
+  }
+
+  .home-orbit__ring--2 {
+    width: 280px;
+    height: 280px;
+  }
+
+  .home-orbit__ring--3 {
+    width: 360px;
+    height: 360px;
+  }
+
+  .home-orbit__path--1 {
+    width: 200px;
+    height: 200px;
+    margin-left: -100px;
+    margin-top: -100px;
+  }
+
+  .home-orbit__path--2 {
+    width: 280px;
+    height: 280px;
+    margin-left: -140px;
+    margin-top: -140px;
+  }
+
+  .home-orbit__path--3 {
+    width: 360px;
+    height: 360px;
+    margin-left: -180px;
+    margin-top: -180px;
+  }
+
+  .home-orbit__panel {
+    width: 260px;
+    height: 180px;
   }
 }

@@ -102,8 +102,6 @@ export default function Exam() {
     const nextExam = examOrder[currentIndex + 1];
     if (nextExam) {
       setTimeout(() => navigate(`/exam/${nextExam}`), 1200);
-    } else {
-      setTimeout(() => navigate("/roadmap"), 1200);
     }
   };
 
@@ -211,6 +209,34 @@ export default function Exam() {
                   </div>
                 ))}
               </div>
+            </div>
+
+            {/* Navigation CTA */}
+            <div className="mt-6 flex flex-wrap gap-3">
+              {examOrder.indexOf(examType as any) < examOrder.length - 1 ? (
+                <Button
+                  className="gradient-primary text-primary-foreground border-0"
+                  onClick={() => {
+                    const currentIndex = examOrder.indexOf(examType as any);
+                    const nextExam = examOrder[currentIndex + 1];
+                    if (nextExam) navigate(`/exam/${nextExam}`);
+                  }}
+                >
+                  Continue to next test
+                </Button>
+              ) : (
+                <>
+                  <Button
+                    className="gradient-primary text-primary-foreground border-0"
+                    onClick={() => navigate("/dashboard")}
+                  >
+                    View scores on Dashboard
+                  </Button>
+                  <Button variant="outline" onClick={() => navigate("/roadmap")}>
+                    Continue to Roadmap
+                  </Button>
+                </>
+              )}
             </div>
           </div>
         )}

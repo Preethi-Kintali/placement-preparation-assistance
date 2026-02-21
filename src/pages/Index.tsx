@@ -2,11 +2,12 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import {
   Code2, Brain, Users, Trophy, Rocket, Target, BookOpen,
-  ArrowRight, CheckCircle2, ChevronRight, Sparkles, X
+  ArrowRight, CheckCircle2, ChevronRight, Sparkles, X as XIcon
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
+import { HomeOrbitAnimation } from "@/components/HomeOrbitAnimation";
 import heroImage from "@/assets/hero-illustration.jpg";
 
 const fadeUp = {
@@ -71,8 +72,8 @@ export default function Index() {
 
               <motion.h1 variants={fadeUp} custom={1} className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight text-balance">
                 Your Personalized Roadmap to{" "}
-                <span className="gradient-text">Product-Based Company</span>{" "}
-                Placements
+                <span className="gradient-text">Your dream company</span>{" "}
+                
               </motion.h1>
 
               <motion.p variants={fadeUp} custom={2} className="text-lg text-muted-foreground max-w-lg">
@@ -115,6 +116,19 @@ export default function Index() {
               </div>
             </motion.div>
           </div>
+
+          {/* Home-only orbit animation (below hero) */}
+          <div className="mt-6 hidden lg:flex justify-center">
+            <div className="w-full max-w-5xl">
+              <div className="relative h-[300px] w-full overflow-hidden">
+                <div className="absolute inset-0 flex items-start justify-center">
+                  <div className="scale-[0.9] origin-top opacity-95">
+                    <HomeOrbitAnimation className="mx-auto" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -147,7 +161,7 @@ export default function Index() {
                 className="glass-card-hover p-4 text-center"
               >
                 <div className="w-10 h-10 rounded-full bg-destructive/10 flex items-center justify-center mx-auto mb-3">
-                  <X className="w-5 h-5 text-destructive" />
+                  <XIcon className="w-5 h-5 text-destructive" />
                 </div>
                 <p className="text-sm font-medium">{point}</p>
               </motion.div>
