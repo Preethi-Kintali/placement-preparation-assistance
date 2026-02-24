@@ -18,6 +18,11 @@ dist-ssr
 .env.*
 !.env.example
 
+# explicit server env (defense-in-depth)
+server/.env
+server/.env.*
+!server/.env.example
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

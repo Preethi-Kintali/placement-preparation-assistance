@@ -26,6 +26,12 @@ const envSchema = z.object({
   STUDY_GROQ_API_KEY: z.string().optional(),
   STUDY_GEMINI_API_KEY: z.string().optional(),
   STUDY_GROQ_MODEL: z.string().optional(),
+
+  // Optional email notifications (Nodemailer)
+  SMTP_ENABLED: z.coerce.boolean().optional().default(false),
+  SMTP_USER: z.string().optional(),
+  SMTP_PASS: z.string().optional(),
+  SMTP_FROM: z.string().optional(),
 });
 
 export type Env = z.infer<typeof envSchema>;

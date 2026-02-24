@@ -768,8 +768,15 @@ export default function Dashboard() {
 
         {allExamsDone && (
           <div className="glass-card p-5 mb-4">
-            <div className="font-semibold">All assessments completed 🎉</div>
-            <div className="text-sm text-muted-foreground">Your personalized roadmap is now unlocked.</div>
+            <div className="flex items-center justify-between gap-3">
+              <div>
+                <div className="font-semibold">All assessments completed 🎉</div>
+                <div className="text-sm text-muted-foreground">Your personalized roadmap is now unlocked.</div>
+              </div>
+              <Link to="/exam/aptitude">
+                <Button size="sm" variant="outline">Take retest (optional)</Button>
+              </Link>
+            </div>
           </div>
         )}
         <div className="grid md:grid-cols-2 gap-4 mb-8">

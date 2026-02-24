@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from "react";
-import { ArrowLeft, Mic, MicOff, Volume2 } from "lucide-react";
+import { ArrowLeft, Volume2 } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Navbar } from "@/components/Navbar";
 import { Button } from "@/components/ui/button";
@@ -46,7 +46,7 @@ export default function Interview() {
   const [answerText, setAnswerText] = useState("");
   const [submitting, setSubmitting] = useState(false);
 
-  const [voiceStatus, setVoiceStatus] = useState("Voice ready. Click Start Voice and speak.");
+  const [voiceStatus, setVoiceStatus] = useState("Voice ready. Starting the interview will begin listening automatically.");
   const [listening, setListening] = useState(false);
   const [sessions, setSessions] = useState<InterviewSessionSummary[]>([]);
   const [showHistory, setShowHistory] = useState(false);
@@ -56,6 +56,7 @@ export default function Interview() {
   const [saveMessage, setSaveMessage] = useState<string | null>(null);
   const [interviewStartedAt, setInterviewStartedAt] = useState(0);
   const recognitionRef = useRef<any>(null);
+  const micReadyRef = useRef(false);
 
   const current = questions[questionIndex] ?? null;
   const total = questions.length;
@@ -158,10 +159,10 @@ export default function Interview() {
     return recognition;
   };
 
-  const startVoice = async () => {
+  const ensureMicPermission = async () => {
     if (!navigator.mediaDevices?.getUserMedia) {
       setVoiceStatus("Microphone API not supported.");
-      return;
+      return false;
     }
 
     try {
@@ -169,11 +170,21 @@ export default function Interview() {
       stream.getTracks().forEach((t) => t.stop());
     } catch {
       setVoiceStatus("Microphone permission denied. Allow mic and retry.");
-      return;
+      return false;
     }
 
+    micReadyRef.current = true;
+    return true;
+  };
+
+  const startListening = () => {
     const recognition = initRecognition();
     if (!recognition) return;
+
+    if (!micReadyRef.current) {
+      setVoiceStatus("Microphone not ready. Please allow microphone access and restart the interview.");
+      return;
+    }
 
     setAnswerText("");
     try {
@@ -183,20 +194,11 @@ export default function Interview() {
     }
   };
 
-  const stopVoice = () => {
-    if (recognitionRef.current && listening) {
-      try {
-        recognitionRef.current.stop();
-      } catch {
-        // ignore
-      }
-    }
-    setVoiceStatus("Voice stopped.");
-  };
-
   const askCurrentQuestion = async (q: InterviewQuestion) => {
     addMessage("ai", `Topic: ${q.topic}\nQuestion: ${q.question}`);
     await speakText(q.question);
+    // Auto-start listening for the user's answer.
+    startListening();
   };
 
   const startInterview = async () => {
@@ -204,6 +206,8 @@ export default function Interview() {
     setContextError(null);
 
     try {
+      // Must be triggered by user gesture; request mic permission on Start Interview.
+      await ensureMicPermission();
       const res = await api.interviewQuestions();
       const qs: InterviewQuestion[] = Array.isArray(res?.questions) ? res.questions : [];
       if (!qs.length) throw new Error("No questions generated");
@@ -387,7 +391,7 @@ export default function Interview() {
             <div className="glass-card p-4 space-y-3">
               <textarea
                 className="w-full min-h-[120px] rounded-xl border border-border bg-background p-3 text-sm"
-                placeholder="Type answer or capture voice"
+                placeholder="Answer will appear here (voice) — you can also type"
                 value={answerText}
                 onChange={(e) => setAnswerText(e.target.value)}
                 disabled={submitting}
@@ -397,18 +401,15 @@ export default function Interview() {
                 <Button onClick={submitAnswer} disabled={submitting || !answerText.trim()}>
                   {submitting ? "Evaluating..." : "Submit Answer"}
                 </Button>
-                <Button variant="outline" onClick={startVoice} disabled={submitting || listening}>
-                  <Mic className="w-4 h-4 mr-2" /> Start Voice
-                </Button>
-                <Button variant="outline" onClick={stopVoice} disabled={!listening}>
-                  <MicOff className="w-4 h-4 mr-2" /> Stop Voice
-                </Button>
                 <Button variant="outline" onClick={() => current && speakText(current.question)} disabled={!current}>
                   <Volume2 className="w-4 h-4 mr-2" /> Read Question
                 </Button>
               </div>
 
-              <div className="text-xs text-muted-foreground">{voiceStatus}</div>
+              <div className="text-xs text-muted-foreground">
+                {listening ? "Listening… " : ""}
+                {voiceStatus}
+              </div>
             </div>
           </div>
         )}

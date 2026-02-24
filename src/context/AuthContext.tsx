@@ -35,6 +35,13 @@ export interface User {
   studentId: string;
   role: "student" | "admin";
   profile: UserProfile;
+  gamification?: {
+    healthPoints: number;
+    currentStreak: number;
+    longestStreak: number;
+    lastCheckInDate?: string;
+    badges?: Array<{ id: string; unlockedAt: string }>;
+  };
 }
 
 interface AuthContextType {

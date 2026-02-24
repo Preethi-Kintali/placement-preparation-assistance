@@ -1,9 +1,10 @@
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
-import { GraduationCap, Menu, X, LogOut, User, Shield, ChevronDown, LayoutDashboard } from "lucide-react";
+import { GraduationCap, Menu, X, LogOut, User, LayoutDashboard, Moon, Sun } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useAuth } from "@/context/AuthContext";
+import { useTheme } from "@/context/ThemeContext";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import {
@@ -24,6 +25,7 @@ export function Navbar() {
   const location = useLocation();
   const navigate = useNavigate();
   const { user, logout } = useAuth();
+  const { theme, toggleTheme } = useTheme();
 
   const handleLogout = () => {
     logout();
@@ -44,17 +46,16 @@ export function Navbar() {
     return [
       { label: "Home", path: "/" },
       { label: "Dashboard", path: "/dashboard" },
-      { label: "Profile", path: "/profile" },
       { label: "Roadmap", path: "/roadmap" },
+      { label: "Leaderboard", path: "/leaderboard" },
       { label: "AI Interview", path: "/interview" },
       { label: "Study Assistant", path: "/study-assistant" },
     ];
   };
 
   const navLinks = getNavLinks();
-  const displayName = user?.profile?.fullName || user?.profile?.email || "Account";
-  const roleLabel = user?.role || "";
   const avatarUrl = user?.profile?.avatarUrl;
+  const healthPoints = useMemo(() => Number(user?.gamification?.healthPoints ?? 0), [user]);
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-card/85 backdrop-blur-xl shadow-sm">
@@ -87,28 +88,30 @@ export function Navbar() {
           ))}
         </div>
 
-        <div className="hidden md:flex items-center gap-3">
+        <div className="flex items-center gap-3">
           {user ? (
             <>
+              <Button
+                type="button"
+                variant="ghost"
+                size="icon"
+                onClick={toggleTheme}
+                aria-label="Toggle theme"
+                className="rounded-full"
+              >
+                {theme === "dark" ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
+              </Button>
               <DropdownMenu>
                 <DropdownMenuTrigger asChild>
-                  <button className="flex items-center gap-2 rounded-full pl-1 pr-2 py-1 hover:bg-muted/70 transition-colors duration-300">
+                  <button className="flex items-center gap-2 rounded-full px-2 py-1 hover:bg-muted/70 transition-colors duration-300">
+                    <div className="text-xs text-muted-foreground tabular-nums inline-flex items-center gap-1">
+                      <span aria-hidden>🔥</span>
+                      <span>{healthPoints}</span>
+                    </div>
                     <Avatar className="h-9 w-9">
                       <AvatarImage src={String(avatarUrl || "")} alt="Profile" />
                       <AvatarFallback>{firstLetter(user.profile?.fullName)}</AvatarFallback>
                     </Avatar>
-                    <div className="hidden lg:flex flex-col items-start leading-tight min-w-0">
-                      <div className="text-sm font-semibold text-foreground truncate max-w-[180px]">{displayName}</div>
-                      <div className="text-xs text-muted-foreground inline-flex items-center gap-1">
-                        {user.role === "admin" ? (
-                          <Shield className="w-3.5 h-3.5 text-primary" />
-                        ) : (
-                          <User className="w-3.5 h-3.5" />
-                        )}
-                        <span className="capitalize">{roleLabel}</span>
-                      </div>
-                    </div>
-                    <ChevronDown className="w-4 h-4 text-muted-foreground" />
                   </button>
                 </DropdownMenuTrigger>
 
@@ -140,20 +143,12 @@ export function Navbar() {
                       <LayoutDashboard className="w-4 h-4 mr-2" /> Admin Dashboard
                     </DropdownMenuItem>
                   ) : (
-                    <>
-                      <DropdownMenuItem
-                        onClick={() => navigate("/dashboard")}
-                        className="cursor-pointer rounded-lg hover:bg-muted/70 focus:bg-muted/70"
-                      >
-                        <LayoutDashboard className="w-4 h-4 mr-2" /> Dashboard
-                      </DropdownMenuItem>
-                      <DropdownMenuItem
-                        onClick={() => navigate("/profile")}
-                        className="cursor-pointer rounded-lg hover:bg-muted/70 focus:bg-muted/70"
-                      >
-                        <User className="w-4 h-4 mr-2" /> Profile
-                      </DropdownMenuItem>
-                    </>
+                    <DropdownMenuItem
+                      onClick={() => navigate("/profile")}
+                      className="cursor-pointer rounded-lg hover:bg-muted/70 focus:bg-muted/70"
+                    >
+                      <User className="w-4 h-4 mr-2" /> Profile
+                    </DropdownMenuItem>
                   )}
 
                   <DropdownMenuSeparator />
@@ -211,24 +206,18 @@ export function Navbar() {
                   {link.label}
                 </Link>
               ))}
-              <div className="pt-2 flex gap-2">
-                {user ? (
-                  <Button variant="outline" className="w-full gap-2" size="sm" onClick={handleLogout}>
-                    <LogOut className="w-4 h-4" /> Logout
-                  </Button>
-                ) : (
-                  <>
-                    <Link to="/login" className="flex-1">
-                      <Button variant="outline" className="w-full" size="sm">Log in</Button>
-                    </Link>
-                    <Link to="/signup" className="flex-1">
-                      <Button className="w-full gradient-primary text-primary-foreground border-0" size="sm">
-                        Get Started
-                      </Button>
-                    </Link>
-                  </>
-                )}
-              </div>
+              {!user && (
+                <div className="pt-2 flex gap-2">
+                  <Link to="/login" className="flex-1">
+                    <Button variant="outline" className="w-full" size="sm">Log in</Button>
+                  </Link>
+                  <Link to="/signup" className="flex-1">
+                    <Button className="w-full gradient-primary text-primary-foreground border-0" size="sm">
+                      Get Started
+                    </Button>
+                  </Link>
+                </div>
+              )}
             </div>
           </motion.div>
         )}

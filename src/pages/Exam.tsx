@@ -4,6 +4,7 @@ import { Navbar } from "@/components/Navbar";
 import { Button } from "@/components/ui/button";
 import { api } from "@/lib/api";
 import { Progress } from "@/components/ui/progress";
+import { toast } from "@/components/ui/use-toast";
 
 export default function Exam() {
   const { type } = useParams();
@@ -16,11 +17,17 @@ export default function Exam() {
   const [timeLeft, setTimeLeft] = useState(15 * 60);
   const [error, setError] = useState<string | null>(null);
   const [submitting, setSubmitting] = useState(false);
+  const [status, setStatus] = useState<any | null>(null);
 
   const examOrder = ["aptitude", "dsa", "soft_skills", "career"] as const;
   const allowedTypes = new Set(examOrder);
 
   const examType = useMemo(() => type ?? "", [type]);
+
+  useEffect(() => {
+    // Always start from the top when switching between exams.
+    window.scrollTo({ top: 0, behavior: "auto" });
+  }, [examType]);
 
   useEffect(() => {
     async function load() {
@@ -32,6 +39,7 @@ export default function Exam() {
           return;
         }
         const status = await api.examStatus();
+        setStatus(status);
         const unlocked = status?.[examType]?.unlocked ?? false;
         if (!unlocked) {
           navigate("/dashboard");
@@ -46,6 +54,17 @@ export default function Exam() {
         if (!res.questions?.length || !res.sessionId) {
           setError("Failed to load questions. Please refresh and try again.");
         }
+
+        // UX: when navigating to a new exam, start from the first question.
+        setTimeout(() => {
+          window.scrollTo({ top: 0, behavior: "smooth" });
+          const first = res.questions?.[0];
+          if (!first?.id) return;
+          const container = document.getElementById(`question-${first.id}`);
+          container?.scrollIntoView({ behavior: "smooth", block: "start" });
+          const firstInput = container?.querySelector<HTMLInputElement>("input[type='radio']");
+          firstInput?.focus();
+        }, 50);
       } catch (e) {
         setError(e?.error ?? "Failed to load questions.");
       } finally {
@@ -72,9 +91,15 @@ export default function Exam() {
   const submit = async () => {
     if (submitting || result || !sessionId || questions.length === 0) return;
     setError(null);
-    const answeredCount = questions.filter((q) => Boolean(answers[q.id])).length;
-    if (answeredCount < questions.length) {
+    const firstUnanswered = questions.find((q) => !answers[q.id]);
+    if (firstUnanswered) {
       setError("Please answer all questions before submitting.");
+      setTimeout(() => {
+        const container = document.getElementById(`question-${firstUnanswered.id}`);
+        container?.scrollIntoView({ behavior: "smooth", block: "center" });
+        const firstInput = container?.querySelector<HTMLInputElement>("input[type='radio']");
+        firstInput?.focus();
+      }, 50);
       return;
     }
     setSubmitting(true);
@@ -90,6 +115,11 @@ export default function Exam() {
     try {
       const res = await api.submitExam(payload);
       setResult(res);
+      toast({
+        title: `${String(examType).replace(/_/g, " ")} exam completed`,
+        description:
+          examType === "career" ? "Redirecting you to the Dashboard." : "Redirecting you to the next exam.",
+      });
     } catch (e: any) {
       setError(e?.error ?? "Failed to submit exam.");
       setSubmitting(false);
@@ -102,6 +132,8 @@ export default function Exam() {
     const nextExam = examOrder[currentIndex + 1];
     if (nextExam) {
       setTimeout(() => navigate(`/exam/${nextExam}`), 1200);
+    } else {
+      setTimeout(() => navigate("/dashboard"), 1200);
     }
   };
 
@@ -110,6 +142,19 @@ export default function Exam() {
   const correctCount = result?.score ?? 0;
   const totalCount = result?.totalQuestions ?? 0;
   const wrongCount = result ? Math.max(0, totalCount - correctCount) : 0;
+
+  const steps = [
+    { key: "aptitude", label: "Aptitude" },
+    { key: "dsa", label: "DSA" },
+    { key: "soft_skills", label: "Soft Skills" },
+    { key: "career", label: "Career" },
+  ] as const;
+
+  const completedSet = new Set(
+    steps
+      .filter((s) => Boolean(status?.[s.key]?.latest))
+      .map((s) => s.key)
+  );
 
   return (
     <div className="min-h-screen bg-background">
@@ -120,6 +165,40 @@ export default function Exam() {
             <h1 className="text-2xl font-bold capitalize">{examType} Exam</h1>
             <Button variant="outline" onClick={() => navigate("/dashboard")}>Back</Button>
           </div>
+
+          {/* Assessment tracker */}
+          <div className="glass-card p-3">
+            <div className="flex flex-wrap items-center gap-2">
+              {steps.map((s, idx) => {
+                const isCurrent = s.key === examType;
+                const isDone = completedSet.has(s.key);
+                return (
+                  <div key={s.key} className="flex items-center gap-2">
+                    <div
+                      className={
+                        isDone
+                          ? "stepper-dot-completed"
+                          : isCurrent
+                          ? "stepper-dot-active"
+                          : "stepper-dot-pending"
+                      }
+                      title={isDone ? `${s.label} completed` : isCurrent ? `${s.label} current` : `${s.label}`}
+                    >
+                      {isDone ? "✓" : idx + 1}
+                    </div>
+                    <div className={`text-xs font-medium ${isCurrent ? "text-foreground" : "text-muted-foreground"}`}>{s.label}</div>
+                    {idx < steps.length - 1 && <div className="w-6 h-px bg-border" />}
+                  </div>
+                );
+              })}
+            </div>
+            {completedSet.size > 0 && (
+              <div className="mt-2 text-xs text-muted-foreground">
+                Completed: {Array.from(completedSet).map((k) => k.replace(/_/g, " ")).join(", ")}
+              </div>
+            )}
+          </div>
+
           <div className="flex items-center justify-between text-sm">
             <div className="text-muted-foreground">15 questions · Single attempt</div>
             <div className={`font-semibold ${timeLeft <= 60 ? "text-destructive" : "text-foreground"}`}>
@@ -141,7 +220,7 @@ export default function Exam() {
             <div className="glass-card p-4 text-sm text-muted-foreground">No questions available. Please refresh.</div>
           )}
           {questions.map((q, idx) => (
-            <div key={q.id} className="glass-card p-4">
+            <div key={q.id} id={`question-${q.id}`} className="glass-card p-4">
               <div className="font-medium mb-3">Q{idx + 1}. {q.question}</div>
               <div className="grid gap-2">
                 {q.options.map((opt: string, i: number) => (

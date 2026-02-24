@@ -13,6 +13,7 @@ import { Checkbox } from "@/components/ui/checkbox";
 import { Navbar } from "@/components/Navbar";
 import { useAuth } from "@/context/AuthContext";
 import { api } from "@/lib/api";
+import { toast } from "@/components/ui/use-toast";
 
 const steps = [
   { icon: User, label: "Personal" },
@@ -60,6 +61,7 @@ export default function Signup() {
   const [careerPaths, setCareerPaths] = useState<string[]>(fallbackCareerPaths);
   const navigate = useNavigate();
   const { signup } = useAuth();
+  const [fieldErrors, setFieldErrors] = useState<Record<string, string>>({});
   const [form, setForm] = useState({
     role: "student",
     fullName: "",
@@ -87,6 +89,63 @@ export default function Signup() {
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
 
+  const clearFieldError = (key: string) => {
+    setFieldErrors((prev) => {
+      if (!prev[key]) return prev;
+      const { [key]: _ignored, ...rest } = prev;
+      return rest;
+    });
+  };
+
+  const focusFieldById = (id: string) => {
+    // Delay ensures element exists when switching steps.
+    setTimeout(() => {
+      const el = document.getElementById(id) as HTMLElement | null;
+      if (!el) return;
+      el.scrollIntoView({ behavior: "smooth", block: "center" });
+      // Some components (SelectTrigger) are buttons.
+      if (typeof (el as any).focus === "function") (el as any).focus();
+    }, 50);
+  };
+
+  const fail = (targetStep: number, fieldKey: string, fieldId: string, message: string) => {
+    setError(message);
+    setFieldErrors({ [fieldKey]: message });
+    setStep(targetStep);
+    focusFieldById(fieldId);
+  };
+
+  const validateStep = (targetStep: number) => {
+    setError(null);
+    setFieldErrors({});
+
+    if (targetStep === 0) {
+      if (!form.fullName.trim()) return fail(0, "fullName", "signup-fullName", "Please enter Full Name."), false;
+      if (!form.email.trim()) return fail(0, "email", "signup-email", "Please enter Email."), false;
+      if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email.trim())) {
+        return fail(0, "email", "signup-email", "Please enter a valid Email."), false;
+      }
+      if (!form.phone.trim()) return fail(0, "phone", "signup-phone", "Please enter Phone."), false;
+      if (!/^[0-9]{10}$/.test(form.phone.trim())) return fail(0, "phone", "signup-phone", "Phone must be 10 digits."), false;
+      if (!form.password) return fail(0, "password", "signup-password", "Please enter Password."), false;
+    }
+
+    if (targetStep === 1) {
+      // Keep education scores optional, but require branch/year so personalization works.
+      if (!form.branch) return fail(1, "branch", "signup-branch", "Please select Branch."), false;
+      if (!form.year) return fail(1, "year", "signup-year", "Please select Year."), false;
+    }
+
+    if (targetStep === 3) {
+      if (!form.careerPath) return fail(3, "careerPath", "signup-careerPath", "Please choose a Career Path."), false;
+      if (!form.aptitudeLevel) return fail(3, "aptitudeLevel", "signup-aptitudeLevel", "Please select your Aptitude Level."), false;
+      if (!form.dsaLevel) return fail(3, "dsaLevel", "signup-dsaLevel", "Please select your DSA Level."), false;
+      if (!form.softSkillsLevel) return fail(3, "softSkillsLevel", "signup-softSkillsLevel", "Please select your Soft Skills Level."), false;
+    }
+
+    return true;
+  };
+
   useEffect(() => {
     api
       .metaCareerPaths()
@@ -104,19 +163,19 @@ export default function Signup() {
     );
   };
 
-  const next = () => step < 3 && setStep(step + 1);
+  const next = () => {
+    if (step >= 3) return;
+    if (!validateStep(step)) return;
+    setStep(step + 1);
+  };
   const prev = () => step > 0 && setStep(step - 1);
 
   const handleSubmit = async () => {
     setError(null);
 
-    if (!form.fullName || !form.email || !form.phone || !form.password) {
-      setError("Please fill all required fields.");
-      return;
-    }
-    if (!/^[0-9]{10}$/.test(form.phone)) {
-      setError("Phone must be 10 digits.");
-      return;
+    // Validate all steps (stop at first failure and focus it).
+    for (const s of [0, 1, 3]) {
+      if (!validateStep(s)) return;
     }
 
     setLoading(true);
@@ -154,7 +213,8 @@ export default function Signup() {
       };
 
       await signup(payload);
-      navigate("/dashboard");
+      toast({ title: "Registration completed", description: "Starting your first assessment." });
+      navigate("/exam/aptitude");
     } catch (err: any) {
       setError(err?.error ?? "Signup failed");
     } finally {
@@ -210,17 +270,19 @@ export default function Signup() {
                 exit={{ opacity: 0, x: -20 }}
                 transition={{ duration: 0.3 }}
               >
-                {step === 0 && <StepPersonal form={form} setForm={setForm} />}
-                {step === 1 && <StepEducation form={form} setForm={setForm} />}
+                {step === 0 && <StepPersonal form={form} setForm={setForm} errors={fieldErrors} clearFieldError={clearFieldError} />}
+                {step === 1 && <StepEducation form={form} setForm={setForm} errors={fieldErrors} clearFieldError={clearFieldError} />}
                 {step === 2 && (
                   <StepExperience
                     form={form}
                     setForm={setForm}
                     selectedTechs={selectedTechs}
                     toggleTech={toggleTech}
+                    errors={fieldErrors}
+                    clearFieldError={clearFieldError}
                   />
                 )}
-                {step === 3 && <StepCareer form={form} setForm={setForm} careerPaths={careerPaths} />}
+                {step === 3 && <StepCareer form={form} setForm={setForm} careerPaths={careerPaths} errors={fieldErrors} clearFieldError={clearFieldError} />}
               </motion.div>
             </AnimatePresence>
 
@@ -254,68 +316,150 @@ export default function Signup() {
   );
 }
 
-function StepPersonal({ form, setForm }: { form: any; setForm: (v: any) => void }) {
+function FieldErrorText({ message }: { message?: string }) {
+  if (!message) return null;
+  return <p className="text-xs text-destructive">{message}</p>;
+}
+
+function StepPersonal({
+  form,
+  setForm,
+  errors,
+  clearFieldError,
+}: {
+  form: any;
+  setForm: (v: any) => void;
+  errors: Record<string, string>;
+  clearFieldError: (k: string) => void;
+}) {
   return (
     <div className="space-y-4">
       <div className="space-y-2">
-        <Label>Full Name</Label>
-        <Input placeholder="Ravi Kumar" value={form.fullName} onChange={(e) => setForm({ ...form, fullName: e.target.value })} />
+        <Label>Full Name <span className="text-destructive">*</span></Label>
+        <Input
+          id="signup-fullName"
+          placeholder="Full Name"
+          value={form.fullName}
+          aria-invalid={Boolean(errors.fullName)}
+          onChange={(e) => {
+            clearFieldError("fullName");
+            setForm({ ...form, fullName: e.target.value });
+          }}
+        />
+        <FieldErrorText message={errors.fullName} />
       </div>
       <div className="space-y-2">
-        <Label>Email</Label>
-        <Input type="email" placeholder="ravi@college.edu" value={form.email} onChange={(e) => setForm({ ...form, email: e.target.value })} />
+        <Label>Email <span className="text-destructive">*</span></Label>
+        <Input
+          id="signup-email"
+          type="email"
+          placeholder="Email"
+          value={form.email}
+          aria-invalid={Boolean(errors.email)}
+          onChange={(e) => {
+            clearFieldError("email");
+            setForm({ ...form, email: e.target.value });
+          }}
+        />
+        <FieldErrorText message={errors.email} />
       </div>
       <div className="space-y-2">
-        <Label>Phone</Label>
-        <Input type="tel" placeholder="9876543210" value={form.phone} onChange={(e) => setForm({ ...form, phone: e.target.value })} />
+        <Label>Phone <span className="text-destructive">*</span></Label>
+        <Input
+          id="signup-phone"
+          type="tel"
+          placeholder="Phone"
+          value={form.phone}
+          aria-invalid={Boolean(errors.phone)}
+          onChange={(e) => {
+            clearFieldError("phone");
+            setForm({ ...form, phone: e.target.value.replace(/\D/g, "") });
+          }}
+        />
+        <FieldErrorText message={errors.phone} />
       </div>
       <div className="space-y-2">
-        <Label>Password</Label>
-        <Input type="password" placeholder="••••••••" value={form.password} onChange={(e) => setForm({ ...form, password: e.target.value })} />
+        <Label>Password <span className="text-destructive">*</span></Label>
+        <Input
+          id="signup-password"
+          type="password"
+          placeholder="Password"
+          value={form.password}
+          aria-invalid={Boolean(errors.password)}
+          onChange={(e) => {
+            clearFieldError("password");
+            setForm({ ...form, password: e.target.value });
+          }}
+        />
+        <FieldErrorText message={errors.password} />
       </div>
     </div>
   );
 }
 
-function StepEducation({ form, setForm }: { form: any; setForm: (v: any) => void }) {
+function StepEducation({
+  form,
+  setForm,
+  errors,
+  clearFieldError,
+}: {
+  form: any;
+  setForm: (v: any) => void;
+  errors: Record<string, string>;
+  clearFieldError: (k: string) => void;
+}) {
   return (
     <div className="space-y-4">
       <div className="grid grid-cols-2 gap-4">
         <div className="space-y-2">
           <Label>10th %</Label>
-          <Input type="number" placeholder="85" value={form.tenthPercent} onChange={(e) => setForm({ ...form, tenthPercent: e.target.value })} />
+          <Input type="number" placeholder="10th %" value={form.tenthPercent} onChange={(e) => setForm({ ...form, tenthPercent: e.target.value })} />
         </div>
         <div className="space-y-2">
           <Label>12th / Diploma %</Label>
-          <Input type="number" placeholder="78" value={form.twelfthPercent} onChange={(e) => setForm({ ...form, twelfthPercent: e.target.value })} />
+          <Input type="number" placeholder="12th / Diploma %" value={form.twelfthPercent} onChange={(e) => setForm({ ...form, twelfthPercent: e.target.value })} />
         </div>
       </div>
       <div className="space-y-2">
         <Label>B.Tech CGPA</Label>
-        <Input type="number" step="0.01" placeholder="8.5" value={form.btechCgpa} onChange={(e) => setForm({ ...form, btechCgpa: e.target.value })} />
+        <Input type="number" step="0.01" placeholder="B.Tech CGPA" value={form.btechCgpa} onChange={(e) => setForm({ ...form, btechCgpa: e.target.value })} />
       </div>
       <div className="space-y-2">
         <Label>College Name</Label>
-        <Input placeholder="IIT Hyderabad" value={form.collegeName} onChange={(e) => setForm({ ...form, collegeName: e.target.value })} />
+        <Input placeholder="College Name" value={form.collegeName} onChange={(e) => setForm({ ...form, collegeName: e.target.value })} />
       </div>
       <div className="grid grid-cols-2 gap-4">
         <div className="space-y-2">
-          <Label>Branch</Label>
+          <Label>Branch <span className="text-destructive">*</span></Label>
           <Select value={form.branch} onValueChange={(v) => setForm({ ...form, branch: v })}>
-            <SelectTrigger><SelectValue placeholder="Select" /></SelectTrigger>
+            <SelectTrigger
+              id="signup-branch"
+              aria-invalid={Boolean(errors.branch)}
+              onFocus={() => clearFieldError("branch")}
+            >
+              <SelectValue placeholder="Branch" />
+            </SelectTrigger>
             <SelectContent>
               {branches.map((b) => <SelectItem key={b} value={b}>{b}</SelectItem>)}
             </SelectContent>
           </Select>
+          <FieldErrorText message={errors.branch} />
         </div>
         <div className="space-y-2">
-          <Label>Year</Label>
+          <Label>Year <span className="text-destructive">*</span></Label>
           <Select value={form.year} onValueChange={(v) => setForm({ ...form, year: v })}>
-            <SelectTrigger><SelectValue placeholder="Select" /></SelectTrigger>
+            <SelectTrigger
+              id="signup-year"
+              aria-invalid={Boolean(errors.year)}
+              onFocus={() => clearFieldError("year")}
+            >
+              <SelectValue placeholder="Year" />
+            </SelectTrigger>
             <SelectContent>
               {years.map((y) => <SelectItem key={y} value={y}>{y}</SelectItem>)}
             </SelectContent>
           </Select>
+          <FieldErrorText message={errors.year} />
         </div>
       </div>
     </div>
@@ -327,17 +471,21 @@ function StepExperience({
   setForm,
   selectedTechs,
   toggleTech,
+  errors: _errors,
+  clearFieldError: _clearFieldError,
 }: {
   form: any;
   setForm: (v: any) => void;
   selectedTechs: string[];
   toggleTech: (t: string) => void;
+  errors: Record<string, string>;
+  clearFieldError: (k: string) => void;
 }) {
   return (
     <div className="space-y-4">
       <div className="space-y-2">
         <Label>Number of Projects</Label>
-        <Input type="number" placeholder="3" value={form.projectCount} onChange={(e) => setForm({ ...form, projectCount: e.target.value })} />
+        <Input type="number" placeholder="Number of Projects" value={form.projectCount} onChange={(e) => setForm({ ...form, projectCount: e.target.value })} />
       </div>
       <div className="space-y-2">
         <Label>Technologies Used</Label>
@@ -376,56 +524,88 @@ function StepCareer({
   form,
   setForm,
   careerPaths,
+  errors,
+  clearFieldError,
 }: {
   form: any;
   setForm: (v: any) => void;
   careerPaths: string[];
+  errors: Record<string, string>;
+  clearFieldError: (k: string) => void;
 }) {
   return (
     <div className="space-y-4">
       <div className="space-y-2">
-        <Label>Career Path</Label>
+        <Label>Career Path <span className="text-destructive">*</span></Label>
         <Select value={form.careerPath} onValueChange={(v) => setForm({ ...form, careerPath: v })}>
-          <SelectTrigger><SelectValue placeholder="Choose your path" /></SelectTrigger>
+          <SelectTrigger
+            id="signup-careerPath"
+            aria-invalid={Boolean(errors.careerPath)}
+            onFocus={() => clearFieldError("careerPath")}
+          >
+            <SelectValue placeholder="Career Path" />
+          </SelectTrigger>
           <SelectContent>
             {careerPaths.map((c) => <SelectItem key={c} value={c}>{c}</SelectItem>)}
           </SelectContent>
         </Select>
+        <FieldErrorText message={errors.careerPath} />
       </div>
 
       <div className="grid grid-cols-3 gap-3">
         <div className="space-y-2">
-          <Label>Aptitude Level</Label>
+          <Label>Aptitude Level <span className="text-destructive">*</span></Label>
           <Select value={form.aptitudeLevel} onValueChange={(v) => setForm({ ...form, aptitudeLevel: v })}>
-            <SelectTrigger><SelectValue placeholder="Select" /></SelectTrigger>
+            <SelectTrigger
+              id="signup-aptitudeLevel"
+              aria-invalid={Boolean(errors.aptitudeLevel)}
+              onFocus={() => clearFieldError("aptitudeLevel")}
+            >
+              <SelectValue placeholder="Aptitude Level" />
+            </SelectTrigger>
             <SelectContent>
               {skillLevels.map((l) => <SelectItem key={l} value={l}>{l}</SelectItem>)}
             </SelectContent>
           </Select>
+          <FieldErrorText message={errors.aptitudeLevel} />
         </div>
         <div className="space-y-2">
-          <Label>DSA Level</Label>
+          <Label>DSA Level <span className="text-destructive">*</span></Label>
           <Select value={form.dsaLevel} onValueChange={(v) => setForm({ ...form, dsaLevel: v })}>
-            <SelectTrigger><SelectValue placeholder="Select" /></SelectTrigger>
+            <SelectTrigger
+              id="signup-dsaLevel"
+              aria-invalid={Boolean(errors.dsaLevel)}
+              onFocus={() => clearFieldError("dsaLevel")}
+            >
+              <SelectValue placeholder="DSA Level" />
+            </SelectTrigger>
             <SelectContent>
               {skillLevels.map((l) => <SelectItem key={l} value={l}>{l}</SelectItem>)}
             </SelectContent>
           </Select>
+          <FieldErrorText message={errors.dsaLevel} />
         </div>
         <div className="space-y-2">
-          <Label>Soft Skills Level</Label>
+          <Label>Soft Skills Level <span className="text-destructive">*</span></Label>
           <Select value={form.softSkillsLevel} onValueChange={(v) => setForm({ ...form, softSkillsLevel: v })}>
-            <SelectTrigger><SelectValue placeholder="Select" /></SelectTrigger>
+            <SelectTrigger
+              id="signup-softSkillsLevel"
+              aria-invalid={Boolean(errors.softSkillsLevel)}
+              onFocus={() => clearFieldError("softSkillsLevel")}
+            >
+              <SelectValue placeholder="Soft Skills Level" />
+            </SelectTrigger>
             <SelectContent>
               {skillLevels.map((l) => <SelectItem key={l} value={l}>{l}</SelectItem>)}
             </SelectContent>
           </Select>
+          <FieldErrorText message={errors.softSkillsLevel} />
         </div>
       </div>
       <div className="space-y-2">
         <Label>Target Company</Label>
         <Select value={form.targetCompany} onValueChange={(v) => setForm({ ...form, targetCompany: v })}>
-          <SelectTrigger><SelectValue placeholder="Dream company" /></SelectTrigger>
+          <SelectTrigger><SelectValue placeholder="Target Company" /></SelectTrigger>
           <SelectContent>
             {targetCompanies.map((c) => <SelectItem key={c} value={c}>{c}</SelectItem>)}
           </SelectContent>
@@ -435,7 +615,7 @@ function StepCareer({
         <div className="space-y-2">
           <Label>Target LPA (₹)</Label>
           <Select value={form.targetLpa} onValueChange={(v) => setForm({ ...form, targetLpa: v })}>
-            <SelectTrigger><SelectValue placeholder="LPA" /></SelectTrigger>
+            <SelectTrigger><SelectValue placeholder="Target LPA" /></SelectTrigger>
             <SelectContent>
               {targetLPA.map((l) => <SelectItem key={l} value={l}>{l} LPA</SelectItem>)}
             </SelectContent>
@@ -444,7 +624,7 @@ function StepCareer({
         <div className="space-y-2">
           <Label>Daily Study (hrs)</Label>
           <Select value={form.dailyStudyHours} onValueChange={(v) => setForm({ ...form, dailyStudyHours: v.replace("+", "") })}>
-            <SelectTrigger><SelectValue placeholder="Hours" /></SelectTrigger>
+            <SelectTrigger><SelectValue placeholder="Daily Study Hours" /></SelectTrigger>
             <SelectContent>
               {studyHours.map((h) => <SelectItem key={h} value={h}>{h} hrs</SelectItem>)}
             </SelectContent>

@@ -2,11 +2,35 @@ import mongoose, { Schema } from "mongoose";
 
 export type UserRole = "student" | "admin";
 
+export type BadgeId =
+  | "streak_7"
+  | "streak_30"
+  | "streak_120"
+  | "first_exam"
+  | "score_90"
+  | "full_roadmap"
+  | "interview_5";
+
+export interface UnlockedBadge {
+  id: BadgeId;
+  unlockedAt: Date;
+}
+
+export interface GamificationProfile {
+  healthPoints: number;
+  currentStreak: number;
+  longestStreak: number;
+  // YYYY-MM-DD in UTC
+  lastCheckInDate?: string;
+  badges: UnlockedBadge[];
+}
+
 export interface StudentProfile {
   avatarUrl?: string;
   fullName: string;
   email: string;
   phone: string;
+  bio?: string;
 
   education: {
     tenthPercent?: number;
@@ -44,9 +68,33 @@ export interface UserDoc {
   role: UserRole;
   passwordHash: string;
   profile: StudentProfile;
+  gamification: GamificationProfile;
   createdAt: Date;
   updatedAt: Date;
 }
+
+const unlockedBadgeSchema = new Schema<UnlockedBadge>(
+  {
+    id: {
+      type: String,
+      enum: ["streak_7", "streak_30", "streak_120", "first_exam", "score_90", "full_roadmap", "interview_5"],
+      required: true,
+    },
+    unlockedAt: { type: Date, required: true },
+  },
+  { _id: false }
+);
+
+const gamificationSchema = new Schema<GamificationProfile>(
+  {
+    healthPoints: { type: Number, default: 0, min: 0 },
+    currentStreak: { type: Number, default: 0, min: 0 },
+    longestStreak: { type: Number, default: 0, min: 0 },
+    lastCheckInDate: { type: String, trim: true },
+    badges: { type: [unlockedBadgeSchema], default: [] },
+  },
+  { _id: false }
+);
 
 const studentProfileSchema = new Schema<StudentProfile>(
   {
@@ -54,6 +102,7 @@ const studentProfileSchema = new Schema<StudentProfile>(
     fullName: { type: String, required: true, trim: true },
     email: { type: String, required: true, trim: true, lowercase: true },
     phone: { type: String, required: true, trim: true },
+    bio: { type: String, trim: true, maxlength: 300 },
 
     education: {
       tenthPercent: Number,
@@ -93,6 +142,7 @@ const userSchema = new Schema<UserDoc>(
     role: { type: String, enum: ["student", "admin"], required: true, default: "student" },
     passwordHash: { type: String, required: true },
     profile: { type: studentProfileSchema, required: true },
+    gamification: { type: gamificationSchema, required: true, default: () => ({}) },
   },
   { timestamps: true }
 );

@@ -18,6 +18,8 @@ import { Progress } from "@/components/ui/progress";
 import { Navbar } from "@/components/Navbar";
 import { api } from "@/lib/api";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { toast } from "@/hooks/use-toast";
+import { useAuth } from "@/context/AuthContext";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 20 },
@@ -55,6 +57,7 @@ type GrandTestQuestion = WeeklyTestQuestion;
 
 export default function Roadmap() {
   const navigate = useNavigate();
+  const { refreshUser } = useAuth();
   const [expandedWeek, setExpandedWeek] = useState<number | null>(1);
   const [roadmap, setRoadmap] = useState<WeekData[]>([]);
   const [loading, setLoading] = useState(true);
@@ -486,8 +489,18 @@ export default function Roadmap() {
                               disabled={day.status === "completed"}
                               onClick={async () => {
                                 try {
-                                  await api.roadmapCompleteDay(week.week, day.day);
+                                  const res = await api.roadmapCompleteDay(week.week, day.day);
                                   await loadRoadmap();
+
+                                  const awarded = Boolean(res?.checkIn?.awarded);
+                                  const milestone = res?.checkIn?.streakMilestone as 7 | 30 | undefined;
+                                  const unlocked = (res?.checkIn?.unlockedBadges ?? []) as string[];
+
+                                  await refreshUser();
+
+                                  if (awarded) toast({ title: "Daily check-in", description: "+1 Health Point" });
+                                  if (milestone) toast({ title: "Streak milestone!", description: `${milestone}-day streak 🔥` });
+                                  if (unlocked.length) toast({ title: "Badge unlocked", description: unlocked.join(", ") });
                                 } catch (e: any) {
                                   setError(e?.error ?? "Failed to mark day as done.");
                                 }

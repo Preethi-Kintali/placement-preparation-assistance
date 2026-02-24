@@ -7,6 +7,7 @@ import { aiRouter } from "./ai";
 import { metaRouter } from "./meta";
 import { predictionRouter } from "./prediction";
 import { interviewRouter } from "./interview";
+import { activityRouter } from "./activity";
 
 export const apiRouter = Router();
 
@@ -18,3 +19,4 @@ apiRouter.use("/ai", aiRouter);
 apiRouter.use("/meta", metaRouter);
 apiRouter.use("/prediction", predictionRouter);
 apiRouter.use("/interview", interviewRouter);
+apiRouter.use("/activity", activityRouter);

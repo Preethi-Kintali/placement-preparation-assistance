@@ -22,10 +22,24 @@ async function request<T>(path: string, options: RequestInit = {}): Promise<T> {
   };
   if (token) headers["authorization"] = `Bearer ${token}`;
 
-  const res = await fetch(`${API_BASE}${path}`, { ...options, headers });
+  let res: Response;
+  try {
+    res = await fetch(`${API_BASE}${path}`, { ...options, headers });
+  } catch {
+    throw { error: "Cannot reach backend server. Start the backend on http://localhost:4000." };
+  }
+
   const text = await res.text();
-  const data = text ? JSON.parse(text) : null;
-  if (!res.ok) throw data;
+  let data: any = null;
+  if (text) {
+    try {
+      data = JSON.parse(text);
+    } catch {
+      data = { error: text };
+    }
+  }
+
+  if (!res.ok) throw data ?? { error: `Request failed (${res.status})` };
   return data as T;
 }
 
@@ -79,4 +93,12 @@ export const api = {
     request<any>("/api/ai/study/chat", { method: "POST", body: JSON.stringify(payload) }),
   studyContext: () => request<any>("/api/ai/study/context"),
   studySessions: (limit = 10) => request<any>(`/api/ai/study/sessions?limit=${limit}`),
+
+  activitySummary: () => request<any>("/api/activity/summary"),
+  dailyLearningSubmit: (text: string) =>
+    request<any>("/api/activity/daily-learning", { method: "POST", body: JSON.stringify({ text }) }),
+  newTechLearnedSubmit: (tech: string) =>
+    request<any>("/api/activity/new-tech", { method: "POST", body: JSON.stringify({ tech }) }),
+  leaderboard: (careerPath?: string) =>
+    request<any>(`/api/activity/leaderboard${careerPath ? `?careerPath=${encodeURIComponent(careerPath)}` : ""}`),
 };

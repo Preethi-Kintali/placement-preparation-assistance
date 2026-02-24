@@ -14,6 +14,13 @@ import { Certificate } from "../models/Certificate";
 import { getCareerQuestions, getQuestionsForExam, toPublicQuestion } from "../services/questionBank";
 import { ExamAttempt } from "../models/ExamAttempt";
 import { getOrCreateRoadmapTemplateWeeks } from "../services/roadmapTemplates";
+import {
+  maybeAwardDailyHealthPoint,
+  recordActivity,
+  utcDateKey,
+  checkAndUnlockRoadmapBadges,
+} from "../services/gamification";
+import { sendEmail } from "../services/mailer";
 
 function makeCertificateId(): string {
   const alphabet = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789";
@@ -248,13 +255,68 @@ roadmapRouter.post("/days/complete", requireAuth, async (req, res) => {
   if (!parsed.success) return res.status(400).json({ error: parsed.error.flatten() });
 
   const key = `${parsed.data.week}-${parsed.data.day}`;
+
+  const existing = await RoadmapProgress.findOne({ userId: req.user!.userId }).select({ completedDays: 1 }).lean();
+  if ((existing as any)?.completedDays?.includes(key)) {
+    return res.status(409).json({ error: "Day already completed" });
+  }
+
   const progress = await RoadmapProgress.findOneAndUpdate(
     { userId: req.user!.userId },
     { $addToSet: { completedDays: key } },
     { upsert: true, new: true }
   ).lean();
 
-  return res.json({ ok: true, completedDays: progress.completedDays.length });
+  // Best-effort topic title for timeline (fallback to Week/Day)
+  let topic = `Week ${parsed.data.week} Day ${parsed.data.day}`;
+  try {
+    const plan = await RoadmapPlan.findOne({ userId: req.user!.userId }).lean();
+    const week = (plan as any)?.weeks?.find((w: any) => Number(w.week) === Number(parsed.data.week));
+    const dayRow = week?.days?.find((d: any) => Number(d.day) === Number(parsed.data.day));
+    const t = String(dayRow?.topic ?? "").trim();
+    if (t) topic = t;
+  } catch {
+    // ignore
+  }
+
+  await recordActivity({
+    userId: req.user!.userId,
+    dateKey: utcDateKey(),
+    type: "roadmap_day_complete",
+    title: `Roadmap: ${topic}`,
+    meta: { week: parsed.data.week, day: parsed.data.day, topic },
+  });
+
+  // This action can grant today's Health Point (max 1/day)
+  const checkIn = await maybeAwardDailyHealthPoint({ userId: req.user!.userId, source: "roadmap_day_complete" });
+  const unlockedBadges = await checkAndUnlockRoadmapBadges(req.user!.userId);
+
+  // Optional streak milestone email
+  try {
+    const u = await User.findById(req.user!.userId).select({ "profile.email": 1, "profile.fullName": 1 }).lean();
+    const to = String((u as any)?.profile?.email ?? "").trim();
+    if (to && (checkIn as any)?.awarded && (checkIn as any)?.streakMilestone) {
+      const milestone = Number((checkIn as any).streakMilestone);
+      await sendEmail({
+        to,
+        subject: `PlacePrep: ${milestone}-day streak milestone!`,
+        text:
+          `Hi ${(u as any)?.profile?.fullName ?? "Student"},\n\n` +
+          `Congrats! You reached a ${milestone}-day streak.\n\n` +
+          `Keep it up!\n` +
+          `PlacePrep`,
+      });
+    }
+  } catch {
+    // ignore
+  }
+
+  return res.json({
+    ok: true,
+    completedDays: progress.completedDays.length,
+    checkIn,
+    unlockedBadges,
+  });
 });
 
 // Weekly test (real questions) — must pass to unlock next week.
@@ -408,6 +470,34 @@ roadmapRouter.post("/weeks/:week/test/submit", requireAuth, async (req, res) => 
     progress.unlockedWeek += 1;
   }
   await progress.save();
+
+  await recordActivity({
+    userId: req.user!.userId,
+    dateKey: utcDateKey(),
+    type: "weekly_test_completed",
+    title: `Weekly test completed (Week ${week})`,
+    meta: { week, percentage, passed, score, totalQuestions },
+  });
+
+  // Optional email notification
+  try {
+    const u = await User.findById(req.user!.userId).select({ "profile.email": 1, "profile.fullName": 1 }).lean();
+    const to = String((u as any)?.profile?.email ?? "").trim();
+    if (to) {
+      await sendEmail({
+        to,
+        subject: `PlacePrep: Weekly test completed (Week ${week})`,
+        text:
+          `Hi ${(u as any)?.profile?.fullName ?? "Student"},\n\n` +
+          `Weekly test result (Week ${week}):\n` +
+          `Score: ${score}/${totalQuestions} (${Math.round(percentage)}%)\n` +
+          `Status: ${passed ? "PASSED ✅" : "NOT PASSED"}\n\n` +
+          `PlacePrep`,
+      });
+    }
+  } catch {
+    // ignore
+  }
 
   return res.json({ ok: true, week, score, totalQuestions, percentage, passed, unlockedWeek: progress.unlockedWeek });
 });
@@ -585,6 +675,34 @@ roadmapRouter.post("/grand-test/submit", requireAuth, async (req, res) => {
     } else {
       certificate = { certificateId: existing.certificateId, percentage: existing.percentage, issuedAt: existing.issuedAt };
     }
+  }
+
+  await recordActivity({
+    userId: req.user!.userId,
+    dateKey: utcDateKey(),
+    type: "grand_test_completed",
+    title: passed ? "Grand test passed" : "Grand test completed",
+    meta: { percentage, passed, score, totalQuestions },
+  });
+
+  // Optional email notification
+  try {
+    const to = String((user as any)?.profile?.email ?? "").trim();
+    if (to) {
+      await sendEmail({
+        to,
+        subject: `PlacePrep: Grand test ${passed ? "passed" : "completed"}`,
+        text:
+          `Hi ${(user as any)?.profile?.fullName ?? "Student"},\n\n` +
+          `Grand test result:\n` +
+          `Score: ${score}/${totalQuestions} (${Math.round(percentage)}%)\n` +
+          `Status: ${passed ? "PASSED ✅" : "COMPLETED"}\n` +
+          `${certificate ? `\nCertificate ID: ${certificate.certificateId}\n` : ""}` +
+          `\nPlacePrep`,
+      });
+    }
+  } catch {
+    // ignore
   }
 
   return res.json({ ok: true, score, totalQuestions, percentage, passed, certificate });

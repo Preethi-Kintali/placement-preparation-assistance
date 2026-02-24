@@ -21,6 +21,8 @@ const signupSchema = z.object({
   email: z.string().email(),
   phone: z.string().regex(/^[0-9]{10}$/, "Phone must be 10 digits"),
 
+  bio: z.string().max(300).optional(),
+
   education: z
     .object({
       tenthPercent: z.number().min(0).max(100).optional(),
@@ -102,6 +104,7 @@ authRouter.post("/signup", async (req, res) => {
       fullName: data.fullName,
       email: data.email,
       phone: data.phone,
+      bio: data.bio,
       education: data.education,
       experience: data.experience,
       career: data.career,
@@ -127,6 +130,7 @@ authRouter.post("/signup", async (req, res) => {
           studentId: created.studentId,
           role: created.role,
           profile: created.profile,
+          gamification: created.gamification,
         },
       });
     } catch (e: any) {
@@ -150,6 +154,7 @@ authRouter.post("/signup", async (req, res) => {
         studentId: created.studentId,
         role: created.role,
         profile: created.profile,
+        gamification: created.gamification,
       },
     });
   } catch (e: any) {
@@ -191,7 +196,13 @@ authRouter.post("/login", async (req, res) => {
     const token = signToken(String(adminUser._id), adminUser.role);
     return res.json({
       token,
-      user: { id: String(adminUser._id), studentId: adminUser.studentId, role: adminUser.role, profile: adminUser.profile },
+      user: {
+        id: String(adminUser._id),
+        studentId: adminUser.studentId,
+        role: adminUser.role,
+        profile: adminUser.profile,
+        gamification: adminUser.gamification,
+      },
     });
   }
 
@@ -205,14 +216,20 @@ authRouter.post("/login", async (req, res) => {
   const token = signToken(String(user._id), user.role);
   return res.json({
     token,
-    user: { id: String(user._id), studentId: user.studentId, role: user.role, profile: user.profile },
+    user: { id: String(user._id), studentId: user.studentId, role: user.role, profile: user.profile, gamification: user.gamification },
   });
 });
 
 authRouter.get("/me", requireAuth, async (req, res) => {
   const user = await User.findById(req.user!.userId);
   if (!user) return res.status(404).json({ error: "User not found" });
-  return res.json({ id: String(user._id), studentId: user.studentId, role: user.role, profile: user.profile });
+  return res.json({
+    id: String(user._id),
+    studentId: user.studentId,
+    role: user.role,
+    profile: user.profile,
+    gamification: user.gamification,
+  });
 });
 
 const updateProfileSchema = z
@@ -221,6 +238,8 @@ const updateProfileSchema = z
     avatarUrl: z.string().max(2_000_000).optional(),
     fullName: z.string().min(2).optional(),
     phone: z.string().regex(/^[0-9]{10}$/, "Phone must be 10 digits").optional(),
+
+    bio: z.string().max(300).optional(),
 
     education: z
       .object({
@@ -272,6 +291,7 @@ authRouter.patch("/profile", requireAuth, async (req, res) => {
   if (typeof data.avatarUrl === "string") profile.avatarUrl = data.avatarUrl.trim();
   if (typeof data.fullName === "string") profile.fullName = data.fullName.trim();
   if (typeof data.phone === "string") profile.phone = data.phone.trim();
+  if (typeof data.bio === "string") profile.bio = data.bio.trim();
 
   if (data.education) profile.education = { ...(profile.education ?? {}), ...data.education };
   if (data.career) profile.career = { ...(profile.career ?? {}), ...data.career };
@@ -287,5 +307,11 @@ authRouter.patch("/profile", requireAuth, async (req, res) => {
   user.profile = profile;
   await user.save();
 
-  return res.json({ id: String(user._id), studentId: user.studentId, role: user.role, profile: user.profile });
+  return res.json({
+    id: String(user._id),
+    studentId: user.studentId,
+    role: user.role,
+    profile: user.profile,
+    gamification: user.gamification,
+  });
 });

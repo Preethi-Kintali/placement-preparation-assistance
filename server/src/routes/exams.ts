@@ -7,6 +7,8 @@ import { getCareerQuestions, getQuestionsForExam, toPublicQuestion } from "../se
 import { computeGrade } from "../services/grading";
 import { User } from "../models/User";
 import { ExamSession } from "../models/ExamSession";
+import { checkAndUnlockExamBadges, recordActivity, utcDateKey } from "../services/gamification";
+import { sendEmail } from "../services/mailer";
 
 export const examRouter = Router();
 
@@ -170,6 +172,39 @@ examRouter.post("/submit", requireAuth, async (req, res) => {
     answers: scored,
   });
 
+  // Timeline + heatmap event (does not award daily health point)
+  await recordActivity({
+    userId: req.user!.userId,
+    dateKey: utcDateKey(),
+    type: "exam_completed",
+    title: `Completed ${examType.toUpperCase()} exam`,
+    meta: { examType, percentage, score, totalQuestions, grade },
+  });
+
+  const unlockedBadges = await checkAndUnlockExamBadges(req.user!.userId, percentage);
+
+  // Optional email notification
+  try {
+    const u = await User.findById(req.user!.userId).select({ "profile.email": 1, "profile.fullName": 1 }).lean();
+    const to = String((u as any)?.profile?.email ?? "").trim();
+    if (to) {
+      const name = String((u as any)?.profile?.fullName ?? "Student");
+      await sendEmail({
+        to,
+        subject: `PlacePrep: ${examType.toUpperCase()} exam completed`,
+        text:
+          `Hi ${name},\n\n` +
+          `You completed the ${examType.toUpperCase()} exam.\n` +
+          `Score: ${score}/${totalQuestions} (${Math.round(percentage)}%)\n` +
+          `Grade: ${grade}\n\n` +
+          `Keep going!\n` +
+          `PlacePrep`,
+      });
+    }
+  } catch {
+    // ignore email failures
+  }
+
   return res.status(201).json({
     id: String(attempt._id),
     examType,
@@ -178,5 +213,6 @@ examRouter.post("/submit", requireAuth, async (req, res) => {
     percentage,
     grade,
     answers: scored,
+    unlockedBadges,
   });
 });

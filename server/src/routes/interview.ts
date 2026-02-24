@@ -6,6 +6,9 @@ import { fetchJson } from "../services/http";
 import { RoadmapPlan } from "../models/RoadmapPlan";
 import { RoadmapProgress } from "../models/RoadmapProgress";
 import { InterviewSession } from "../models/InterviewSession";
+import { User } from "../models/User";
+import { checkAndUnlockInterviewBadges, recordActivity, utcDateKey } from "../services/gamification";
+import { sendEmail } from "../services/mailer";
 
 type ProviderId = "groq" | "gemini";
 
@@ -354,6 +357,44 @@ interviewRouter.post("/sessions", requireAuth, async (req, res) => {
     completedAt: new Date(),
   });
 
+  await recordActivity({
+    userId: req.user!.userId,
+    dateKey: utcDateKey(),
+    type: "interview_completed",
+    title: `Completed interview session (Week ${payload.currentWeek})`,
+    meta: {
+      currentWeek: payload.currentWeek,
+      overallScore: session.overallScore,
+      dsaScore: session.dsaScore,
+      communicationScore: session.communicationScore,
+      technicalScore: session.technicalScore,
+    },
+  });
+
+  const unlockedBadges = await checkAndUnlockInterviewBadges(req.user!.userId);
+
+  // Optional email notification
+  try {
+    const u = await User.findById(req.user!.userId).select({ "profile.email": 1, "profile.fullName": 1 }).lean();
+    const to = String((u as any)?.profile?.email ?? "").trim();
+    if (to) {
+      await sendEmail({
+        to,
+        subject: "PlacePrep: AI Interview completed",
+        text:
+          `Hi ${(u as any)?.profile?.fullName ?? "Student"},\n\n` +
+          `You completed an AI Interview session (Week ${payload.currentWeek}).\n` +
+          `Overall: ${session.overallScore}/10\n` +
+          `Communication: ${session.communicationScore}/10\n` +
+          `DSA: ${session.dsaScore}/10\n` +
+          `Technical: ${session.technicalScore}/10\n\n` +
+          `PlacePrep`,
+      });
+    }
+  } catch {
+    // ignore
+  }
+
   return res.json({
     id: String(session._id),
     overallScore: session.overallScore,
@@ -361,6 +402,7 @@ interviewRouter.post("/sessions", requireAuth, async (req, res) => {
     dsaScore: session.dsaScore,
     technicalScore: session.technicalScore,
     completedAt: session.completedAt,
+    unlockedBadges,
   });
 });
 
