@@ -18,6 +18,7 @@ export default function Exam() {
   const [error, setError] = useState<string | null>(null);
   const [submitting, setSubmitting] = useState(false);
   const [status, setStatus] = useState<any | null>(null);
+  const [highlightedQuestionId, setHighlightedQuestionId] = useState<string | null>(null);
 
   const examOrder = ["aptitude", "dsa", "soft_skills", "career"] as const;
   const allowedTypes = new Set(examOrder);
@@ -60,10 +61,14 @@ export default function Exam() {
           window.scrollTo({ top: 0, behavior: "smooth" });
           const first = res.questions?.[0];
           if (!first?.id) return;
+          setHighlightedQuestionId(String(first.id));
           const container = document.getElementById(`question-${first.id}`);
           container?.scrollIntoView({ behavior: "smooth", block: "start" });
           const firstInput = container?.querySelector<HTMLInputElement>("input[type='radio']");
           firstInput?.focus();
+
+          // Remove highlight after a short duration.
+          setTimeout(() => setHighlightedQuestionId(null), 2200);
         }, 50);
       } catch (e) {
         setError(e?.error ?? "Failed to load questions.");
@@ -220,7 +225,15 @@ export default function Exam() {
             <div className="glass-card p-4 text-sm text-muted-foreground">No questions available. Please refresh.</div>
           )}
           {questions.map((q, idx) => (
-            <div key={q.id} id={`question-${q.id}`} className="glass-card p-4">
+            <div
+              key={q.id}
+              id={`question-${q.id}`}
+              className={`glass-card p-4 transition-all duration-300 ${
+                highlightedQuestionId === String(q.id)
+                  ? "ring-2 ring-primary shadow-glow"
+                  : ""
+              }`}
+            >
               <div className="font-medium mb-3">Q{idx + 1}. {q.question}</div>
               <div className="grid gap-2">
                 {q.options.map((opt: string, i: number) => (
