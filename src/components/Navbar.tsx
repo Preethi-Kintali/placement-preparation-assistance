@@ -50,6 +50,8 @@ export function Navbar() {
       { label: "Leaderboard", path: "/leaderboard" },
       { label: "AI Interview", path: "/interview" },
       { label: "Study Assistant", path: "/study-assistant" },
+      { label: "Job Search", path: "/jobs" },
+      { label: "Resume ATS", path: "/resume-analyzer" },
     ];
   };
 
@@ -72,17 +74,15 @@ export function Navbar() {
             <Link
               key={link.path}
               to={link.path}
-              className={`relative px-3 py-2 text-sm font-medium transition-all duration-300 hover:text-foreground hover:bg-muted/60 rounded-lg ${
-                location.pathname === link.path
-                  ? "text-foreground font-semibold"
-                  : "text-muted-foreground"
-              }`}
+              className={`relative px-3 py-2 text-sm font-medium transition-all duration-300 hover:text-foreground hover:bg-muted/60 rounded-lg ${location.pathname === link.path
+                ? "text-foreground font-semibold"
+                : "text-muted-foreground"
+                }`}
             >
               {link.label}
               <span
-                className={`absolute left-3 right-3 -bottom-[1px] h-[2px] rounded-full transition-all duration-300 ${
-                  location.pathname === link.path ? "bg-primary opacity-100" : "bg-transparent opacity-0"
-                }`}
+                className={`absolute left-3 right-3 -bottom-[1px] h-[2px] rounded-full transition-all duration-300 ${location.pathname === link.path ? "bg-primary opacity-100" : "bg-transparent opacity-0"
+                  }`}
               />
             </Link>
           ))}
@@ -197,11 +197,10 @@ export function Navbar() {
                   key={link.path}
                   to={link.path}
                   onClick={() => setMobileOpen(false)}
-                  className={`block px-4 py-2.5 rounded-lg text-sm font-medium transition-colors ${
-                    location.pathname === link.path
-                      ? "bg-primary/10 text-primary"
-                      : "text-muted-foreground hover:text-foreground"
-                  }`}
+                  className={`block px-4 py-2.5 rounded-lg text-sm font-medium transition-colors ${location.pathname === link.path
+                    ? "bg-primary/10 text-primary"
+                    : "text-muted-foreground hover:text-foreground"
+                    }`}
                 >
                   {link.label}
                 </Link>

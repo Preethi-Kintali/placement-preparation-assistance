@@ -1,0 +1,1949 @@
+Page 1	Placement Assistance System | RAG Knowledge Base v1.0
+PLACEMENT ASSISTANCE
+SYSTEM
+Complete Knowledge Base for RAG Chatbot
+nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+DSA • Aptitude • Soft Skills • Career Roadmaps
+Full Stack • Data Science • DevOps • Cybersecurity • Android • AI/ML • Backend • Frontend • Data
+Engineering
+VERSION 1.0 | 2025
+
+-- 1 of 45 --
+
+Page 2	Placement Assistance System | RAG Knowledge Base v1.0
+TABLE OF CONTENTS
+PART 1 Data Structures & Algorithms (DSA) – Complete Roadmap 3
+PART 2 Aptitude Preparation – Complete Roadmap 8
+PART 3 Soft Skills & Communication – Complete Roadmap 11
+PART 4 Career Path: Full Stack Development 14
+PART 5 Career Path: Data Science & Machine Learning 20
+PART 6 Career Path: DevOps & Cloud Engineering 26
+PART 7 Career Path: Android / Mobile Development 30
+PART 8 Career Path: Cybersecurity 34
+PART 9 Career Path: Data Engineering 38
+PART 10 Career Path: Backend Development 42
+PART 11 Career Path: Frontend Development 46
+PART 12 Career Path: AI / ML Engineering 50
+PART 13 Interview Preparation Master Plan 54
+
+-- 2 of 45 --
+
+Page 3	Placement Assistance System | RAG Knowledge Base v1.0
+PART 1: DATA STRUCTURES &
+ALGORITHMS
+Complete 6-Month Roadmap with Weekly Timetable
+n GOAL: Master DSA to crack FAANG / product-based company interviews. This roadmap takes you from absolute basics to
+advanced topics in 26 weeks (~6 months) with 2–3 hours/day commitment.
+1.1 Overview & Study Strategy
+n Tools Needed: LeetCode (free + premium), GeeksForGeeks, Codeforces (for CP), VS Code or IntelliJ, Java / C++ / Python
+(pick one consistently)
+Phase Breakdown
+• Phase 1 (Weeks 1–6): Foundations – Arrays, Strings, Recursion, Math
+• Phase 2 (Weeks 7–14): Core DS – Linked Lists, Stacks, Queues, Trees, Heaps
+• Phase 3 (Weeks 15–20): Advanced DS – Graphs, Tries, Segment Trees, Disjoint Sets
+• Phase 4 (Weeks 21–24): Algorithms – DP, Greedy, Backtracking, Divide & Conquer
+• Phase 5 (Weeks 25–26): Revision, Mock Tests, Interview Simulations
+1.2 Weekly Timetable – Phase 1: Foundations
+Week / Phase Topics Covered Deliverable / Goal
+Week 1 Arrays Basics: Traversal, Insertion, Deletion, Searching
+(Linear & Binary Search). Sorting: Bubble, Selection,
+Insertion Sort. Problems: Two Sum, Best Time to Buy/Sell
+Stock, Maximum Subarray (Kadane's), Move Zeroes,
+Contains Duplicate, Rotate Array, Plus One, Single Number.
+Solve 15 easy array problems
+on LeetCode
+Week 2 Advanced Arrays: Sliding Window technique, Two Pointer
+approach, Prefix Sum, Suffix Sum, Dutch National Flag.
+Sorting: Merge Sort, Quick Sort (understand partitioning).
+Problems: 3Sum, Container with Most Water, Trapping Rain
+Water, Product of Array Except Self, Maximum Product
+Subarray.
+Understand O(n) solutions
+using sliding window
+Week 3 Strings: Character arrays, String manipulation, Anagrams,
+Palindromes, Pattern Matching (Naive, KMP Algorithm),
+Rabin Karp. Problems: Valid Anagram, Group Anagrams,
+Longest Palindromic Substring, Valid Parentheses, Longest
+Common Prefix, Count and Say.
+Implement KMP algorithm from
+scratch
+
+-- 3 of 45 --
+
+Page 4	Placement Assistance System | RAG Knowledge Base v1.0
+Week / Phase Topics Covered Deliverable / Goal
+Week 4 Hashing: HashMap, HashSet internals, Collision handling,
+Load factor. Recursion Basics: Call stack, base case,
+recurrence relations, Fibonacci, Factorial, Power function.
+Problems: Two Sum (hash), Subarray Sum Equals K,
+Longest Substring Without Repeating Characters.
+Draw recursion tree for every
+problem
+Week 5 Recursion Advanced: Divide & Conquer, Merge Sort via
+recursion, Binary Search recursion. Mathematics: GCD/LCM
+(Euclidean), Prime Sieve (Eratosthenes), Modular Arithmetic,
+Fast Power (Binary Exponentiation). Problems: Power(x,n),
+Sqrt(x), Count Primes, Number of Digit One.
+Implement Sieve of
+Eratosthenes
+Week 6 Bit Manipulation: AND, OR, XOR, Left/Right shifts,
+set/clear/toggle bit, check power of 2, count set bits (Brian
+Kernighan). Problems: Single Number I/II/III, Missing
+Number, Reverse Bits, Number of 1 Bits, Bitwise AND of
+Numbers Range. Phase 1 Revision: Re-solve 20 previously
+skipped problems.
+Revise all Phase 1 topics, mock
+test 30 problems
+1.3 Weekly Timetable – Phase 2: Core Data Structures
+Week / Phase Topics Covered Deliverable / Goal
+Week 7 Linked List Basics: Singly LL – Node structure, Insertion
+(head/tail/position), Deletion, Reversal. Doubly LL –
+insertions & deletions. Circular LL concept. Floyd's Cycle
+Detection. Problems: Reverse LL, Detect Cycle, Find Cycle
+Start, Merge Two Sorted Lists, Remove Nth Node From End.
+Implement LL from scratch
+without STL
+Week 8 Linked List Advanced: Fast & Slow pointer, Palindrome LL,
+Copy List with Random Pointer, LRU Cache design, Flatten
+Multi-level LL. Skip List concept. Problems: Add Two
+Numbers, Intersection of Two LL, Sort List (merge sort on
+LL), Rotate List.
+Design and implement LRU
+Cache
+Week 9 Stacks: Array/LL-based implementation, Monotonic Stack
+concept. Applications: Balanced Parentheses, Next Greater
+Element, Previous Smaller Element, Stock Span, Largest
+Rectangle in Histogram. Problems: Min Stack, Daily
+Temperatures, Asteroid Collision, Decode String, Basic
+Calculator.
+Solve Largest Rectangle in
+Histogram
+Week 10 Queues: Simple Queue, Circular Queue, Deque
+(Double-Ended Queue), Priority Queue / Min-Max Heap
+concept, Monotonic Deque. Problems: Sliding Window
+Maximum, First Non-Repeating Char in Stream, Circular Tour
+/ Gas Station, Implement Queue using Stacks.
+Implement Circular Queue from
+scratch
+
+-- 4 of 45 --
+
+Page 5	Placement Assistance System | RAG Knowledge Base v1.0
+Week / Phase Topics Covered Deliverable / Goal
+Week 11 Binary Trees: Node structure, Tree traversals (Inorder,
+Preorder, Postorder – recursive & iterative), Level Order
+(BFS), Height, Diameter, Mirror. Problems: Max Depth, Invert
+Binary Tree, Symmetric Tree, Path Sum, Construct Tree from
+Preorder+Inorder.
+Implement all traversals
+iteratively
+Week 12 Binary Search Trees: Search, Insertion, Deletion, Inorder =
+sorted, Successor/Predecessor, Validate BST, Kth
+smallest/largest, Floor/Ceiling. Balanced BST concept (AVL,
+Red-Black overview). Problems: BST Iterator, Convert
+Sorted Array to BST, Delete Node in BST, Range Sum of
+BST.
+Code BST with all operations
+Week 13 Heaps & Priority Queue: Min Heap, Max Heap – insert,
+extract, heapify. Heap Sort. K-way merge. Top K problems.
+Problems: Kth Largest Element, K Closest Points to Origin,
+Find Median from Data Stream, Merge K Sorted Lists, Task
+Scheduler, Reorganize String.
+Implement Heap from scratch
+Week 14 Advanced Trees: Trie (Prefix Tree) – Insert, Search,
+StartsWith. Segment Tree – Range Query, Point Update.
+Fenwick Tree (BIT). Problems: Implement Trie, Word Search
+II, Count of Range Sum, Range Sum Query Mutable. Phase
+2 Revision + 30-problem mock.
+Build a working Trie with
+autocomplete
+1.4 Weekly Timetable – Phase 3: Graph Theory & Advanced DS
+Week / Phase Topics Covered Deliverable / Goal
+Week 15 Graph Basics: Representation (Adjacency Matrix, List),
+Directed/Undirected, Weighted graphs. BFS – level-wise
+traversal, shortest path in unweighted graph. DFS –
+connected components, path finding. Problems: Number of
+Islands, Clone Graph, Word Ladder, Flood Fill, Max Area of
+Island.
+Implement both BFS and DFS
+Week 16 Graph Algorithms: Topological Sort (Kahn's BFS + DFS
+approach), Cycle Detection (directed & undirected), Bipartite
+Check. Problems: Course Schedule I & II, Find Eventual Safe
+States, Detect Cycle in Directed Graph, Is Graph Bipartite,
+Alien Dictionary.
+Implement Topological Sort
+both ways
+Week 17 Shortest Path Algorithms: Dijkstra's (MinHeap based),
+Bellman-Ford (handles negative weights), Floyd-Warshall (all
+pairs). Problems: Network Delay Time, Cheapest Flights
+Within K Stops, Path with Minimum Effort, Find the City with
+Smallest Number of Neighbors.
+Implement Dijkstra with
+Min-Heap
+
+-- 5 of 45 --
+
+Page 6	Placement Assistance System | RAG Knowledge Base v1.0
+Week / Phase Topics Covered Deliverable / Goal
+Week 18 Advanced Graph: Minimum Spanning Tree – Prim's
+Algorithm, Kruskal's Algorithm. Disjoint Set Union
+(DSU/Union-Find) with Path Compression & Union by Rank.
+Problems: Min Cost to Connect All Points, Connecting Cities
+With Minimum Cost, Redundant Connection, Accounts
+Merge.
+Implement DSU with
+optimizations
+Week 19 Advanced Graph II: Strongly Connected Components
+(Kosaraju's, Tarjan's Algorithm), Bridges & Articulation
+Points, Euler Path/Circuit. Advanced BFS: 0/1 BFS,
+Multi-source BFS, Bidirectional BFS. Problems: Critical
+Connections in a Network, Number of Provinces, Minimum
+Genetic Mutation.
+Implement Tarjan's SCC
+algorithm
+Week 20 String Advanced & Misc: Suffix Array, Z-Algorithm,
+Manacher's Algorithm. Fenwick Tree advanced queries.
+Sparse Table for Range Minimum Query. Phase 3 Revision –
+graph problems revision + 40-problem mock test simulating
+real interviews.
+Complete 10 hard graph
+problems
+1.5 Weekly Timetable – Phase 4: Algorithms Mastery
+Week / Phase Topics Covered Deliverable / Goal
+Week 21 Dynamic Programming Foundations: Memoization vs
+Tabulation, Identifying DP problems, State definition,
+Transition relation. 1D DP: Fibonacci variants, Climbing
+Stairs, House Robber I & II, Decode Ways, Jump Game I &
+II, Coin Change, Longest Increasing Subsequence.
+Solve 15 classic 1D DP
+problems
+Week 22 DP on Strings & Grids: Longest Common Subsequence,
+Longest Common Substring, Edit Distance, Shortest
+Common Supersequence, Wildcard Matching, Regex
+Matching. Grid DP: Unique Paths, Minimum Path Sum,
+Triangle, Maximal Square, Cherry Pickup.
+Master Edit Distance algorithm
+Week 23 Advanced DP: Knapsack (0/1, Unbounded, Fractional
+overview), Subset Sum, Partition Equal Subset Sum. Interval
+DP: Matrix Chain Multiplication, Burst Balloons, Strange
+Printer. DP on Trees: Diameter, Maximum Path Sum, Binary
+Tree Cameras. Bitmask DP intro.
+Implement 0/1 Knapsack 5
+different ways
+Week 24 Greedy Algorithms: Activity Selection, Fractional Knapsack,
+Huffman Coding, Job Scheduling, N meetings in one room.
+Backtracking: N-Queens, Sudoku Solver, Rat in Maze, Word
+Search, Combination Sum I/II/III, Permutations, Subsets,
+Letter Combinations.
+Solve N-Queens and Sudoku
+Solver
+
+-- 6 of 45 --
+
+Page 7	Placement Assistance System | RAG Knowledge Base v1.0
+Week / Phase Topics Covered Deliverable / Goal
+Week 25 Advanced Algorithms: Divide & Conquer (Master Theorem,
+Count Inversions, Closest Pair of Points). Randomized
+Algorithms (Quick Select). String Algorithms: Aho-Corasick,
+Suffix Automaton overview. Geometry basics for competitive
+programming. Number Theory: CRT, Extended Euclidean.
+Implement Count Inversions
+using merge sort
+Week 26 Final Revision & Mock Interviews: Day 1–2: Revise all
+patterns (sliding window, two pointer, fast-slow pointer,
+merge intervals, cyclic sort, in-place reversal, tree BFS/DFS,
+two heaps, subsets, binary search). Day 3–4: 2 full mock
+interviews. Day 5–7: Solve 5 hard problems/day.
+Complete 2 full mock interview
+sessions
+1.6 DSA Problem Patterns Reference
+PATTERN GUIDE: Every DSA problem belongs to one of these patterns. Recognising the pattern instantly saves 70% of
+solving time in interviews.
+Pattern When to Use Key Problems
+Sliding Window Variable/Fixed window on array or
+string
+Max sum subarray of size k, Longest substring
+without repeating chars
+Two Pointers Left-right or slow-fast pointers on
+sorted array or LL
+3Sum, Remove duplicates, Merge sorted arrays
+Binary Search Search in sorted / monotonic space Search in rotated array, Koko eating bananas, Find
+peak element
+BFS / DFS Tree or Graph level/depth traversal Number of islands, Shortest path, Clone graph
+Dynamic
+Programming
+Overlapping subproblems + optimal
+substructure
+Knapsack, LCS, Coin change, Edit distance
+Backtracking Explore all possibilities via recursion
++ pruning
+N-Queens, Sudoku, Permutations, Word Search
+Greedy Locally optimal choices lead to global
+optimum
+Activity selection, Huffman, Jump Game
+Heap / PQ K-th element, streaming data, merge
+K structures
+Kth largest, Median finder, Merge K sorted lists
+Monotonic Stack Next greater / previous smaller
+element
+Largest rectangle, Trapping rain water, Daily
+temperatures
+Union-Find Connected components, cycle
+detection
+Redundant connection, Accounts merge, Min
+spanning tree
+Trie Prefix-based search Autocomplete, Word search II, Longest word in
+dictionary
+
+-- 7 of 45 --
+
+Page 8	Placement Assistance System | RAG Knowledge Base v1.0
+Pattern When to Use Key Problems
+Intervals Overlapping / non-overlapping range
+problems
+Merge intervals, Insert interval, Meeting rooms
+
+-- 8 of 45 --
+
+Page 9	Placement Assistance System | RAG Knowledge Base v1.0
+PART 2: APTITUDE PREPARATION
+Complete 3-Month Roadmap – Quantitative, Logical & Verbal
+n GOAL: Score in the top 10% of aptitude tests conducted by TCS, Infosys, Wipro, Cognizant, Accenture, Amazon, Microsoft,
+and all other major recruiters. Time: 3 months, 1.5 hours/day.
+2.1 Aptitude Sections Overview
+2.2 Month 1 – Quantitative Aptitude
+Week / Phase Topics Covered Deliverable / Goal
+Week 1 Number System: Natural, whole, integer, rational, irrational,
+real numbers. Divisibility rules (2–19), LCM & GCD methods
+(prime factorization, ladder method), HCF applications in
+word problems. Unit digit cycle, last two digits. Cyclicity of
+powers. Remainders (Euler's theorem, Fermat's little
+theorem for competitive exams).
+Solve 50 number system
+problems from R.S. Aggarwal
+Week 2 Percentage & Its Applications: Percent change, percent of
+percent, successive percentage change. Profit & Loss: SP,
+CP, MP, discount, successive discount, dishonest
+shopkeeper. Simple & Compound Interest: SI formula, CI
+formula, CI vs SI difference, depreciation, population growth.
+Installment problems.
+Master the multiplier method for
+% problems
+Week 3 Ratio & Proportion: Compound ratio, duplicate/triplicate ratio,
+inverse ratio. Partnership: Simple & compound partnership.
+Mixture & Alligation: Weighted average, mixing of two
+mixtures, repeated dilution formula. Time & Work: LCM
+method, efficiency, pipes & cisterns, work & wages, negative
+work.
+Alligation technique – solve 30
+mixture problems
+Week 4 Time, Speed & Distance: Relative speed (same/opposite
+direction), average speed vs mean speed, train problems
+(crossing pole, platform, other train), boat & stream
+(upstream/downstream). Races & Games. Circular track
+problems. Problems on clocks.
+20 TSD problems per day
+Week 5 Geometry & Mensuration: Lines, angles, triangles
+(congruence, similarity, Pythagorean triplets), quadrilaterals,
+circles (chord, tangent, arc, sector). Area & Perimeter of all
+2D shapes. Surface area & Volume of cube, cuboid, sphere,
+hemisphere, cylinder, cone. Coordinate geometry basics
+(distance, section, midpoint formulae).
+Memorise all mensuration
+formulae
+
+-- 9 of 45 --
+
+Page 10	Placement Assistance System | RAG Knowledge Base v1.0
+Week / Phase Topics Covered Deliverable / Goal
+Week 6 Algebra & Miscellaneous: Linear equations, quadratic
+equations (nature of roots, Vieta's formulas). Inequalities.
+Progressions: AP (nth term, sum), GP (nth term, sum, sum to
+infinity), HP. Special series (sum of n natural numbers,
+squares, cubes). Permutation & Combination: factorial, nPr,
+nCr, circular permutation, identical objects. Probability.
+Solve 30 P&C; + Probability
+problems
+2.3 Month 2 – Logical Reasoning
+Week / Phase Topics Covered Deliverable / Goal
+Week 7 Series & Sequences: Number series (missing number, wrong
+number), letter series, alpha-numeric series. Analogy:
+Number analogy, word analogy, letter analogy.
+Classification/Odd One Out: Number, word, letter based.
+Coding-Decoding: Letter shift, number coding, symbol
+coding, sentence coding.
+Complete 1 full-length logical
+reasoning set daily
+Week 8 Direction & Distance: 8-direction compass, shortest distance
+(Pythagoras), shadow problems, mirror/water image.
+Ranking & Order: Linear arrangement, circular arrangement.
+Blood Relations: Single, double, coded blood relations, family
+tree problems. Puzzles: Tabular arrangement, floor puzzles.
+Solve 5 floor/seating
+arrangement puzzles daily
+Week 9 Seating Arrangement: Linear (facing north/south), Circular
+(facing inside/outside), Rectangular table. Scheduling &
+Calendar: Days of week, leap year, odd days method, finding
+day of given date. Clocks: Angle between hands,
+coincidence, opposite position. Venn Diagrams: Two/three
+circle problems.
+10 complex seating
+arrangement problems daily
+Week 10 Data Interpretation: Bar graph, line graph, pie chart, table,
+mixed graphs, caselets. DI is high-weightage – practice
+reading graphs quickly and calculating approximate values.
+Key skill: approximation without calculator. Data Sufficiency:
+Two-statement sufficiency questions. Statement &
+Assumptions / Conclusions / Arguments.
+3 full DI sets (5 questions each)
+daily
+Week 11 Logical Deduction: Syllogisms (Venn diagram method,
+standard patterns – All, Some, No, Some Not). Statement &
+Conclusion, Statement & Assumption, Statement & Course of
+Action. Cause & Effect. Critical Reasoning (for companies
+like Amazon, Microsoft, Deloitte).
+Master all syllogism patterns –
+solve 100 problems
+Week 12 Input-Output Machines, Decision Making (bank PO style),
+Abstract Reasoning (matrix patterns, figure series), Spatial
+Reasoning (cube cutting, paper folding, mirror images of 3D
+figures). Mock Test: Full-length 60-minute aptitude paper (30
+Quant + 30 LR).
+One full-length mock test on
+Saturday & Sunday
+
+-- 10 of 45 --
+
+Page 11	Placement Assistance System | RAG Knowledge Base v1.0
+2.4 Month 3 – Verbal Ability + Integration
+Week / Phase Topics Covered Deliverable / Goal
+Week 13 Grammar Foundation: Parts of speech, tenses (12 tenses
+with active/passive), subject-verb agreement, articles
+(a/an/the), prepositions, conjunctions, modifiers. Error
+Spotting: Identify grammatical errors in sentences. Sentence
+Correction / Improvement.
+Complete 100 sentence
+correction questions
+Week 14 Vocabulary Building: Synonyms, Antonyms, Analogies,
+One-word substitution, Idioms & Phrases, Foreign phrases
+used in English, Confusable words (affect/effect,
+principal/principle, etc.). Reading Comprehension: Strategy –
+skim passage (1 min), read questions, locate answers. 2 RC
+passages daily.
+Learn 20 new vocabulary words
+daily using flashcards
+Week 15 Verbal Reasoning: Para Jumbles / Sentence Rearrangement
+(PQRS method), Para Completion (find the opening/closing
+sentence), Sentence Fillers (choose correct sentence to fill
+blank). Cloze Test (fill multiple blanks in a paragraph).
+Spotting the Misfit Sentence.
+Solve 5 para jumbles daily
+Week 16 Company-Specific Aptitude Patterns: TCS NQT (Numerical,
+Verbal, Reasoning, Coding sections). Infosys (Logical,
+Mathematical, Verbal + Puzzle). Wipro NLTH (Quantitative,
+Logical, Verbal, Essay Writing). Cognizant GenC (Aptitude,
+Reasoning, Verbal + Coding). Amazon (OA: DSA + Work
+Simulation). Practice 2 company-specific mocks.
+Attempt TCS & Infosys previous
+year papers
+Week 17 Speed & Accuracy Drills: Vedic maths shortcuts
+(multiplication tricks, squaring, cubing, division shortcuts).
+Mental math for DI. Time management strategy – how to
+allocate time per section, when to skip. Sectional cut-offs
+awareness.
+Target: 90% accuracy at 1.5x
+normal speed
+Week 18
+(Final)
+Full Integration Mock Tests: 6 full-length mocks across the
+week (1/day Monday–Saturday). Each mock: 90 minutes, 90
+questions (30 Quant + 30 LR + 30 VA). Review every wrong
+answer, identify weak areas, revise formulas. Sunday: Relax
+& light revision only.
+Achieve consistent 75%+ score
+in all 6 mocks
+2.5 Quick Formula Reference
+KEY FORMULAS SNAPSHOT: Profit% = (Profit/CP)×100 | SI = PRT/100 | CI = P(1+R/100)^T – P | Speed = Distance/Time |
+Relative Speed (opposite) = S1+S2 | Work = (1/A + 1/B) × Time | Alligation ratio = (Higher – Mean) : (Mean – Lower) | nCr = n!
+/ r!(n-r)! | P(A or B) = P(A)+P(B)–P(A∩B)
+
+-- 11 of 45 --
+
+Page 12	Placement Assistance System | RAG Knowledge Base v1.0
+PART 3: SOFT SKILLS & COMMUNICATION
+Complete 2-Month Roadmap for Professional Excellence
+n GOAL: Develop professional communication, leadership, teamwork, and interview soft skills that differentiate you from other
+candidates. Studies show 85% of job success comes from soft skills. Time: 2 months, 45 minutes/day.
+3.1 Why Soft Skills Matter in Placements
+3.2 Month 1 – Communication & Interpersonal Skills
+Week / Phase Topics Covered Deliverable / Goal
+Week 1 Spoken English Fluency: Tongue twisters for pronunciation,
+shadow technique (mimic native speakers), daily 10-minute
+recorded monologue practice. Topic areas: self-introduction,
+college life, current affairs. Eliminate mother-tongue
+influence. Vocabulary in context – stop using MTI fillers
+('basically', 'like', 'actually' overuse).
+Record a 3-minute
+self-introduction, review
+critically
+Week 2 Structured Communication – The STAR Method: Situation,
+Task, Action, Result framework for answering behavioural
+questions. Practice 20 STAR stories: teamwork, leadership,
+conflict, failure, success. Body language fundamentals: eye
+contact, posture, hand gestures, facial expressions. Mirror
+practice 15 min/day.
+Prepare 10 STAR stories for
+common HR questions
+Week 3 Professional Writing: Email etiquette (subject line, salutation,
+concise body, call to action, professional closing). Resume &
+cover letter writing (use action verbs, quantify achievements).
+LinkedIn profile optimisation. WhatsApp/Slack professional
+messaging. Writing clearly under time pressure.
+Write 5 professional emails for
+different scenarios
+Week 4 Active Listening & Empathy: RASA model (Receive,
+Appreciate, Summarise, Ask). Paraphrasing to confirm
+understanding. Non-verbal listening cues. Giving and
+receiving feedback gracefully. Conflict resolution vocabulary.
+Emotional vocabulary development. Assertive vs aggressive
+vs passive communication styles.
+Practice active listening in 5 real
+conversations daily
+Week 5 Presentation Skills: 7-38-55 rule (words/tone/body language).
+Opening hooks, structured middle, memorable closing.
+PowerPoint design basics (rule of 3, minimal text). Handling
+Q&A; sessions confidently. Overcoming stage fright (power
+pose, deep breathing, visualization). Practice 5-minute
+presentations on technical topics.
+Deliver a 5-min technical
+presentation to peers
+
+-- 12 of 45 --
+
+Page 13	Placement Assistance System | RAG Knowledge Base v1.0
+Week / Phase Topics Covered Deliverable / Goal
+Week 6 Group Discussion (GD) Skills: Types of GDs (topic-based,
+case-based, abstract, controversial). GD etiquette: how to
+enter the discussion, how to interrupt politely, how to
+summarise. Common GD topics (AI impact, work from home,
+gender equality, social media). Evaluate: content,
+communication, confidence, cooperation, leadership.
+Participate in 3 mock GDs this
+week
+3.3 Month 2 – Professional & Leadership Skills
+Week / Phase Topics Covered Deliverable / Goal
+Week 7 Time Management & Productivity: Eisenhower Matrix
+(urgent/important), Pomodoro Technique, Time blocking,
+GTD (Getting Things Done) system. Personal goal setting:
+SMART goals (Specific, Measurable, Achievable, Relevant,
+Time-bound). Overcoming procrastination – 5-second rule,
+identity-based habits. Digital calendar management.
+Create your weekly schedule
+using Eisenhower Matrix
+Week 8 Leadership & Teamwork: Leadership styles
+(transformational, servant, situational). Tuckman's stages of
+team development (Forming, Storming, Norming,
+Performing). Delegation, accountability, giving constructive
+feedback. Project management basics: scope, timeline,
+stakeholder communication. Conflict management styles
+(Thomas-Kilmann model).
+Lead a small group project or
+study group this week
+Week 9 Critical Thinking & Problem Solving: Design Thinking
+(Empathize, Define, Ideate, Prototype, Test). First-principles
+thinking. Root cause analysis (5 Whys, Fishbone diagram).
+SWOT analysis for self-assessment. Lateral thinking puzzles.
+Structured problem presentation in interviews: state problem,
+analyze options, recommend solution.
+Solve 5 business case
+problems using structured
+frameworks
+Week 10 Interview Soft Skills Mastery: Handling tough questions
+(weakness, failure, gaps). Salary negotiation scripts. Closing
+the interview (asking smart questions). Thank-you email after
+interviews. Managing interview anxiety. Company research
+(mission, vision, recent news, competitors, culture). First
+impressions (dress, punctuality, handshake/greeting).
+Practice 10 tough HR questions
+with recorded video responses
+Week 11 Professional Networking: LinkedIn outreach templates. How
+to approach seniors for referrals. Networking at college
+events, hackathons, meetups. Personal branding – what you
+want to be known for. Portfolio development (GitHub,
+personal website, Behance for designers). Elevator pitch
+(60-second professional summary).
+Connect with 20 professionals
+on LinkedIn this week
+
+-- 13 of 45 --
+
+Page 14	Placement Assistance System | RAG Knowledge Base v1.0
+Week / Phase Topics Covered Deliverable / Goal
+Week 12 Comprehensive Mock Interviews + GDs: Week of intensive
+simulation – HR round mock interview (30 min), Technical +
+HR combo mock (60 min), GD simulation (20 min), Case
+study presentation. Peer review and mentor feedback. Final
+refinement of self-introduction, STAR stories, and
+professional narrative.
+Complete 2 full HR mock
+interviews + 2 GD sessions
+3.4 Essential HR Questions with Framework Answers
+TOP 10 HR QUESTIONS: (1) Tell me about yourself – 1-min structured pitch (education→projects→skills→goals) (2)
+Strengths/Weaknesses – honest + growth-oriented (3) Why this company – research-backed specific reasons (4) Where do
+you see yourself in 5 years – aligned with company growth (5) Greatest achievement – STAR method (6) Handle failure –
+STAR + lessons learned (7) Work under pressure – specific example (8) Team conflict – resolution focused (9) Why should we
+hire you – unique value proposition (10) Salary expectation – research market rate, give a range
+
+-- 14 of 45 --
+
+Page 15	Placement Assistance System | RAG Knowledge Base v1.0
+PART 4: CAREER PATH – FULL STACK DEVELOPMENT
+n ROLE: Full Stack Developer | DURATION: 12 Months (Beginner to Job-Ready) | SALARY RANGE: n4–18 LPA (India) |
+$70K–$130K (US) | COMPANIES: Startups, MNCs, Product Companies, Freelancing
+4.1 What is Full Stack Development?
+4.2 Technology Stack Overview
+• Frontend: HTML5, CSS3, JavaScript (ES6+), TypeScript, React.js, Next.js, Redux, Tailwind CSS
+• Backend: Node.js, Express.js, REST APIs, GraphQL, Authentication (JWT, OAuth)
+• Database: MySQL/PostgreSQL (SQL), MongoDB (NoSQL), Redis (Caching), Prisma ORM
+• DevOps: Git, GitHub, Docker, Kubernetes basics, CI/CD (GitHub Actions), Nginx
+• Cloud: AWS (EC2, S3, RDS, Lambda), Firebase, Vercel, Netlify, Heroku
+• Testing: Jest, React Testing Library, Postman, Cypress (E2E)
+• Tools: VS Code, Figma (design basics), Webpack, Vite, NPM/Yarn
+4.3 Month-by-Month Timetable
+Week / Phase Topics Covered Deliverable / Goal
+Month 1
+Weeks 1–4
+HTML5 Deep Dive: Semantic HTML (header, nav, main,
+section, article, aside, footer), HTML5 forms (input types,
+validation attributes), Tables, Media elements (video, audio,
+canvas, svg), Meta tags, SEO basics, Accessibility (ARIA
+roles, alt text, tab index). Build: Personal Portfolio page using
+only HTML with proper semantics.
+Deploy a static HTML page on
+GitHub Pages
+Month 1
+Weeks 5–8
+CSS3 Mastery: Box model, Display types (block, inline,
+inline-block, flex, grid), Flexbox (all properties), CSS Grid
+(template areas, auto-fit/fill), Responsive Design (Media
+queries, mobile-first approach), CSS Variables, Transitions &
+Animations (keyframes, transform, translate, rotate, scale),
+Pseudo-classes & Pseudo-elements, CSS Reset/Normalize.
+Build: Responsive Landing Page with Flexbox + Grid.
+Convert Figma design to
+pixel-perfect CSS
+Month 2 JavaScript Fundamentals: Variables (var/let/const), Data
+types, Operators, Control flow, Functions (declaration,
+expression, arrow), Scope (global, function, block, closure),
+Hoisting, Prototype & Prototype chain, 'this' keyword,
+call/apply/bind. ES6+: Destructuring, Spread/Rest, Template
+literals, Default params, Modules (import/export), Optional
+chaining, Nullish coalescing. Build: DOM manipulation
+project (Todo App, Calculator, Stopwatch).
+Build 5 vanilla JS mini-projects
+
+-- 15 of 45 --
+
+Page 16	Placement Assistance System | RAG Knowledge Base v1.0
+Week / Phase Topics Covered Deliverable / Goal
+Month 3 JavaScript Advanced: Asynchronous JS – Callbacks
+(callback hell), Promises (then/catch/finally, Promise.all,
+Promise.race, Promise.allSettled), Async/Await. Event Loop,
+Call Stack, Web APIs, Microtask queue. Fetch API & AJAX.
+Error handling (try/catch, custom errors). Local Storage,
+Session Storage, Cookies. Regular Expressions. Build:
+Weather App using public API.
+Completely understand the
+Event Loop with diagrams
+Month 4 TypeScript: Type system (primitive types, union, intersection,
+literal types), Interfaces vs Types, Generics, Enums, Type
+guards, Decorators (overview), Type assertions, Utility types
+(Partial, Required, Pick, Omit, Record). Configure
+tsconfig.json. Refactor JS project to TypeScript. Understand
+how TypeScript compiles to JS.
+Convert a JS project to
+TypeScript fully
+Month 5 React.js Core: JSX, Components (functional), Props, State
+(useState), Event handling, Conditional rendering, List
+rendering (keys), useEffect (dependency array, cleanup),
+useRef, useContext, Custom Hooks, Component lifecycle
+understanding, React DevTools. Build: Multi-page Todo App,
+Blog App.
+Build a complete Blog app with
+React
+Month 6 React.js Advanced + Ecosystem: React Router v6
+(BrowserRouter, Routes, Route, Link, NavLink, useParams,
+useNavigate, Outlet), State Management with Redux Toolkit
+(createSlice, configureStore, useDispatch, useSelector),
+React Query (server state management), Styling: Tailwind
+CSS + CSS Modules. Build: E-commerce frontend (product
+listing, cart, checkout UI).
+Complete E-commerce UI with
+React + Redux + TailwindCSS
+Month 7 Next.js: File-based routing, Pages vs App Router (Next.js
+13+), Server Components vs Client Components, Static Site
+Generation (SSG), Server-Side Rendering (SSR),
+Incremental Static Regeneration (ISR), API Routes, Image
+optimization, SEO with metadata API, Dynamic routes,
+Middleware. Build: Full Blog with Next.js + Markdown.
+Deploy a Next.js app on Vercel
+with SSR
+Month 8 Node.js + Express.js: Node.js architecture (single-threaded,
+event-driven, non-blocking I/O), Core modules (fs, http, path,
+os, events, stream), npm ecosystem, Express.js – routing,
+middleware (custom, third-party), error handling middleware,
+request/response lifecycle. REST API design principles
+(CRUD operations, status codes, HTTP verbs, versioning,
+pagination).
+Build a complete REST API with
+Express
+
+-- 16 of 45 --
+
+Page 17	Placement Assistance System | RAG Knowledge Base v1.0
+Week / Phase Topics Covered Deliverable / Goal
+Month 9 Databases: SQL (PostgreSQL/MySQL) – CREATE, INSERT,
+UPDATE, DELETE, SELECT, JOINs (INNER, LEFT, RIGHT,
+FULL), Subqueries, Indexes, Transactions, ACID properties,
+Normalization (1NF, 2NF, 3NF). NoSQL (MongoDB) –
+Documents, Collections, CRUD operations, Mongoose ODM,
+Aggregation pipeline, Indexing. Prisma ORM – Schema
+definition, Migrations, Queries. Redis – Caching, Session
+storage, Pub/Sub.
+Design a database schema for
+a social media app
+Month 10 Authentication, Security & Advanced Backend: JWT (JSON
+Web Tokens) – access token, refresh token, token storage.
+OAuth 2.0 (Google, GitHub login with Passport.js). Bcrypt
+password hashing. Input validation (Joi, express-validator).
+Rate limiting, CORS, Helmet.js, CSRF protection.
+WebSockets with Socket.io (real-time chat). File uploads
+(Multer, Cloudinary). Email service (Nodemailer, SendGrid).
+Build a full auth system with
+JWT + OAuth
+Month 11 Cloud & DevOps: Git advanced (branching strategies,
+rebasing, cherry-pick, stash). Docker – Dockerfile, Docker
+Compose, containerizing Node + React app. GitHub Actions
+CI/CD pipeline. AWS basics: EC2 (virtual server), S3 (file
+storage), RDS (managed DB), Lambda (serverless
+functions), IAM. Deploy full stack app on AWS. Nginx as
+reverse proxy. Environment variables & secrets
+management.
+Containerize and deploy your
+full stack app on AWS
+Month 12 Final Project + Job Prep: Build a production-grade full stack
+project: SaaS App (e.g., Project Management Tool like Trello
+clone OR Social Media App OR Real-time Chat App).
+Features: Auth, CRUD, Real-time updates, File uploads,
+Email notifications, Role-based access, Pagination, Search.
+Then: Code review, performance optimization, write
+documentation, deploy with custom domain. Polish resume +
+GitHub.
+Launch your capstone project
+with live URL and
+documentation
+4.4 Essential Libraries & Tools Quick Reference
+Must-know packages: axios (HTTP), lodash (utilities), date-fns (dates), zod (validation), react-hook-form (forms),
+framer-motion (animations), recharts (charts), socket.io-client, jsonwebtoken, bcryptjs, dotenv, cors, morgan (logging),
+nodemon, concurrently, pm2 (process manager)
+
+-- 17 of 45 --
+
+Page 18	Placement Assistance System | RAG Knowledge Base v1.0
+PART 5: CAREER PATH – DATA SCIENCE & MACHINE LEARNING
+n ROLE: Data Scientist / ML Engineer | DURATION: 12 Months | SALARY: n6–25 LPA (India) | $85K–$150K (US) |
+COMPANIES: Flipkart, Amazon, Google, Microsoft, Analytics firms, Startups
+5.1 Technology Stack
+• Languages: Python (primary), R (secondary/statistical), SQL
+• Math: Linear Algebra, Calculus, Probability, Statistics, Information Theory
+• Libraries: NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn, TensorFlow, PyTorch, Keras
+• ML Ops: MLflow, DVC, Weights & Biases, Docker, Airflow, Kubernetes
+• Big Data: Spark (PySpark), Hadoop (overview), Databricks
+• Cloud: AWS SageMaker, Google Vertex AI, Azure ML Studio
+• Visualization: Tableau, Power BI, Plotly Dash, Streamlit
+5.2 12-Month Timetable
+Week / Phase Topics Covered Deliverable / Goal
+Month 1 Python for Data Science: Python foundations (variables,
+loops, functions, OOP). NumPy – ndarray, broadcasting,
+vectorized operations, linear algebra operations (dot product,
+matrix multiplication, eigenvalues). Pandas – Series,
+DataFrame, indexing (loc/iloc), filtering, groupby, merge/join,
+pivot tables, handling missing data, time series basics.
+Matplotlib & Seaborn – line, bar, scatter, histogram, heatmap,
+pair plot.
+Analyse a real dataset
+(Titanic/Iris) end-to-end with
+Pandas
+Month 2 Mathematics for ML: Linear Algebra – Vectors, Matrices
+(operations, transpose, inverse, determinant), Eigenvalues &
+Eigenvectors, Singular Value Decomposition (SVD), PCA
+derivation. Calculus – Derivatives, Partial derivatives, Chain
+rule, Gradient, Jacobian, Hessian. Optimization – Gradient
+Descent (batch, stochastic, mini-batch), Learning rate,
+Momentum, Adam. Probability – Bayes' theorem,
+Distributions (Bernoulli, Binomial, Normal, Poisson).
+Implement Gradient Descent
+from scratch in Python
+Month 3 Statistics & EDA: Descriptive Stats (mean, median, mode,
+variance, std, skewness, kurtosis). Inferential Stats –
+Hypothesis testing (Z-test, T-test, Chi-square, ANOVA),
+p-value, confidence intervals, Type I & II errors. Correlation
+vs Causation, Covariance. Exploratory Data Analysis (EDA):
+outlier detection, feature distributions, correlation heatmaps,
+data cleaning pipeline.
+Publish EDA notebook on
+Kaggle
+
+-- 18 of 45 --
+
+Page 19	Placement Assistance System | RAG Knowledge Base v1.0
+Week / Phase Topics Covered Deliverable / Goal
+Month 4 Supervised Learning: Linear Regression (OLS, gradient
+descent, assumptions, R²). Logistic Regression (sigmoid,
+log-loss, decision boundary). Regularization (L1 Lasso, L2
+Ridge, ElasticNet). Naive Bayes. K-Nearest Neighbors.
+Decision Trees (Gini impurity, entropy, pruning). Support
+Vector Machines (kernel trick, hyperplane, margin, soft
+margin). Model evaluation: Accuracy, Precision, Recall, F1,
+ROC-AUC, Confusion Matrix, Cross-validation.
+Implement Linear Regression
+from scratch + sklearn
+Month 5 Ensemble Methods & Advanced ML: Bagging (Random
+Forest), Boosting (AdaBoost, Gradient Boosting, XGBoost,
+LightGBM, CatBoost). Stacking. Feature engineering
+(encoding, scaling, binning, polynomial features, interaction
+features). Feature selection (filter, wrapper, embedded
+methods). Hyperparameter tuning (GridSearchCV,
+RandomizedSearchCV, Optuna). Imbalanced data (SMOTE,
+class weights).
+Win or rank top 30% in a Kaggle
+classification competition
+Month 6 Unsupervised Learning: Clustering – K-Means (elbow
+method, silhouette score), DBSCAN, Hierarchical
+(dendrogram), Gaussian Mixture Models. Dimensionality
+Reduction – PCA (explained variance, scree plot), t-SNE,
+UMAP. Anomaly Detection – Isolation Forest, LOF,
+Autoencoder-based. Association Rules – Apriori, FP-Growth
+(Market Basket Analysis). Recommender Systems –
+Collaborative Filtering, Matrix Factorization (SVD).
+Build a Movie Recommendation
+System
+Month 7 Deep Learning Foundations: Neural Networks – Perceptron,
+Multilayer Perceptron (MLP), activation functions (ReLU,
+sigmoid, tanh, softmax), weight initialization,
+backpropagation derivation. TensorFlow & Keras –
+Sequential model, Functional API, Custom layers. Training
+tricks: Batch normalization, Dropout, Early stopping, Learning
+rate schedules. Convolutional Neural Networks (CNN) –
+Conv layer, Pooling, Flatten, image classification.
+Build CNN for image
+classification (CIFAR-10)
+Month 8 Advanced Deep Learning: Recurrent Neural Networks (RNN,
+LSTM, GRU) for sequential data, time series forecasting.
+Transfer Learning – VGG, ResNet, EfficientNet, MobileNet
+with fine-tuning. Object Detection – YOLO (overview).
+Semantic Segmentation basics. Generative Models – VAE,
+GAN basics, image generation. PyTorch fundamentals –
+Tensors, Autograd, Custom Dataset, DataLoader, Training
+loop from scratch.
+Fine-tune a pretrained ResNet
+for custom classification
+
+-- 19 of 45 --
+
+Page 20	Placement Assistance System | RAG Knowledge Base v1.0
+Week / Phase Topics Covered Deliverable / Goal
+Month 9 Natural Language Processing (NLP): Text preprocessing
+(tokenization, stemming, lemmatization, stopword removal),
+Bag of Words, TF-IDF, Word2Vec, GloVe embeddings.
+LSTM for text classification, sentiment analysis.
+Transformers architecture – Attention mechanism,
+Self-attention, Multi-head attention, Positional encoding.
+BERT, GPT overview. HuggingFace library – pipeline,
+tokenizer, fine-tuning BERT for classification. Named Entity
+Recognition, Text Summarization.
+Fine-tune BERT for sentiment
+analysis on custom data
+Month 10 MLOps & Deployment: ML pipeline design, Experiment
+tracking with MLflow (log params, metrics, artifacts), Model
+versioning with DVC, Data versioning. Model deployment –
+Flask/FastAPI REST API for ML model, Docker
+containerization, Streamlit app. Feature stores. Model
+monitoring – data drift (Evidently), concept drift. A/B testing
+for ML models. Airflow for pipeline orchestration basics.
+Deploy an ML model as a REST
+API with Docker
+Month 11 Big Data & Cloud ML: PySpark – RDD, DataFrame API,
+Spark SQL, Spark MLlib, Streaming basics. AWS SageMaker
+– Training jobs, Endpoints, Auto ML, Model registry. Google
+Colab Pro features. Databricks basics. Data lake
+architecture. ETL vs ELT. dbt (data build tool) for
+transformations. Stream processing (Kafka overview for ML
+pipelines).
+Run a PySpark ML job on AWS
+EMR
+Month 12 Capstone Project + Portfolio: Build end-to-end DS project:
+(Option A) Churn Prediction with full pipeline from raw data to
+deployed API; (Option B) NLP project – Resume Screening /
+News Categorization; (Option C) Time Series Forecasting for
+stock/sales. Write a Medium article explaining your
+methodology. Create Kaggle profile with 3 public notebooks.
+Polish GitHub with README, requirements.txt, notebooks.
+Publish project on GitHub +
+write a technical blog post
+
+-- 20 of 45 --
+
+Page 21	Placement Assistance System | RAG Knowledge Base v1.0
+PART 6: CAREER PATH – DEVOPS & CLOUD ENGINEERING
+n ROLE: DevOps Engineer / Cloud Engineer / SRE | DURATION: 10 Months | SALARY: n6–22 LPA (India) | $90K–$160K
+(US) | CERTIFICATIONS: AWS SAA, CKA, Terraform Associate
+6.1 Technology Stack
+• OS & Scripting: Linux (Ubuntu/CentOS), Bash scripting, Python scripting, PowerShell basics
+• Version Control: Git advanced, GitHub/GitLab/Bitbucket, Git branching strategies
+• Containerisation: Docker (Dockerfile, Compose, Registry), Kubernetes (K8s architecture, Helm)
+• CI/CD: Jenkins, GitHub Actions, GitLab CI, ArgoCD (GitOps)
+• IaC: Terraform (primary), Ansible (configuration management), CloudFormation (AWS)
+• Cloud: AWS (deep), GCP (fundamentals), Azure (fundamentals)
+• Monitoring: Prometheus, Grafana, ELK Stack (Elasticsearch, Logstash, Kibana), Datadog
+• Networking: DNS, HTTP/HTTPS, Load Balancers, VPC, Subnets, Security Groups, CDN
+6.2 10-Month Timetable
+Week / Phase Topics Covered Deliverable / Goal
+Month 1 Linux Fundamentals: File system hierarchy, permissions
+(chmod, chown, umask), processes (ps, top, kill, nice), users
+& groups, Package management (apt/yum/dnf), Networking
+commands (ifconfig, ip, netstat, ss, curl, wget, ping,
+traceroute, nslookup, dig), File manipulation (grep, awk, sed,
+cut, sort, uniq, wc, find, xargs), vim/nano editor, Shell
+scripting (variables, conditionals, loops, functions, cron jobs,
+trap).
+Automate a backup script with
+bash
+Month 2 Networking & Security Fundamentals: OSI model (all 7
+layers), TCP/IP (3-way handshake, ports, protocols: HTTP,
+HTTPS, FTP, SSH, DNS, DHCP, SMTP), Firewalls (iptables,
+ufw), SSL/TLS certificates (Let's Encrypt, openssl), SSH
+key-based auth, VPN concepts, Load Balancing (Round
+Robin, Least Connection), Reverse Proxy (Nginx config),
+Network Address Translation (NAT).
+Configure Nginx as a reverse
+proxy with SSL
+Month 3 Git Advanced + Docker: Git – rebasing, cherry-pick, tags,
+submodules, Git hooks, Git workflows (Gitflow, trunk-based
+development). Docker – images (layers, cache), Dockerfile
+best practices (multi-stage builds), Docker Compose
+(multi-service apps), Docker networking (bridge, host,
+overlay), Docker volumes, Docker registry (push/pull to
+DockerHub, ECR).
+Dockerize a full stack app with
+Docker Compose
+
+-- 21 of 45 --
+
+Page 22	Placement Assistance System | RAG Knowledge Base v1.0
+Week / Phase Topics Covered Deliverable / Goal
+Month 4 Kubernetes (K8s): K8s architecture (Control Plane: API
+server, etcd, scheduler, controller manager; Worker: kubelet,
+kube-proxy, container runtime). Core objects: Pod,
+ReplicaSet, Deployment, Service (ClusterIP, NodePort,
+LoadBalancer), Ingress, ConfigMap, Secret,
+PersistentVolume, PersistentVolumeClaim, Namespace.
+kubectl commands, YAML manifests, Health probes
+(liveness, readiness), HPA (Horizontal Pod Autoscaler).
+Deploy a microservice app on
+local K8s (minikube/kind)
+Month 5 CI/CD Pipelines: Jenkins – master/agent architecture,
+Jenkinsfile (declarative pipeline), plugins ecosystem, Blue
+Ocean UI. GitHub Actions – workflows, triggers, jobs, steps,
+marketplace actions, secrets, environments, matrix builds.
+GitLab CI – .gitlab-ci.yml, runners, stages, artifacts, caching.
+Implement: Code push → Build → Test → Docker build →
+Push to registry → Deploy to K8s.
+Build a complete CI/CD pipeline
+on GitHub Actions
+Month 6 AWS Deep Dive (Part 1): IAM (users, roles, policies, MFA,
+least privilege). EC2 (instance types, AMI, key pairs, security
+groups, ELB, Auto Scaling Groups, Launch Templates). VPC
+(subnets, route tables, Internet Gateway, NAT Gateway, VPC
+Peering, VPN). S3 (buckets, versioning, lifecycle, replication,
+static hosting, presigned URLs). RDS (Multi-AZ, Read
+Replicas, parameter groups, snapshots). Route53 (DNS
+records, routing policies).
+Build a 3-tier architecture on
+AWS with VPC
+Month 7 AWS Deep Dive (Part 2) + Terraform: Lambda (serverless,
+triggers, layers, SAM), ECS & EKS (container services),
+CloudFront (CDN, caching, HTTPS), SQS & SNS
+(messaging & notifications), CloudWatch (logs, metrics,
+alarms, dashboards), AWS X-Ray (tracing). Terraform:
+providers, resources, variables, outputs, state (local/remote
+S3+DynamoDB), modules, workspaces, terraform
+plan/apply/destroy, import. Provision entire AWS infra with
+Terraform.
+Write Terraform code for a
+production-like AWS setup
+Month 8 Configuration Management & GitOps: Ansible – inventory,
+playbooks, roles, variables, templates (Jinja2), vault
+(secrets), modules (apt, yum, copy, file, service, command,
+shell, template, user). Ansible Galaxy. ArgoCD – GitOps
+model, application of apps, sync policies, notifications. Helm
+– charts, values.yaml, chart templating, Helm repositories.
+Kustomize – overlays, patches. Flux CD overview.
+Deploy K8s app with ArgoCD
+GitOps workflow
+
+-- 22 of 45 --
+
+Page 23	Placement Assistance System | RAG Knowledge Base v1.0
+Week / Phase Topics Covered Deliverable / Goal
+Month 9 Monitoring, Logging & SRE: Prometheus – metrics types
+(counter, gauge, histogram, summary), PromQL queries,
+exporters (node exporter, cAdvisor), alertmanager. Grafana –
+dashboards, panels, data sources, alerting. ELK Stack –
+Elasticsearch (indices, queries), Logstash (pipeline, filters),
+Kibana (Discover, Visualize, Dashboards). Fluentd/Fluent Bit
+as log shipper. SRE concepts: SLIs, SLOs, SLAs, error
+budgets, incident management, on-call.
+Set up Prometheus + Grafana
+monitoring stack
+Month 10 Capstone + Certification Prep: Build a complete production
+DevOps pipeline: Microservices app → GitHub → CI/CD
+(GitHub Actions) → Docker → ECR → EKS →
+Terraform-provisioned infra → Prometheus/Grafana
+monitoring → ELK logging → ArgoCD GitOps. Certification
+preparation: AWS Solutions Architect Associate (SAA-C03) –
+study AWS official docs + practice tests. Kubernetes CKA
+exam preparation.
+Clear 2 AWS practice exams
+with 80%+ score
+
+-- 23 of 45 --
+
+Page 24	Placement Assistance System | RAG Knowledge Base v1.0
+PART 7: CAREER PATH – ANDROID / MOBILE DEVELOPMENT
+n ROLE: Android Developer / React Native Developer / Flutter Developer | DURATION: 10 Months | SALARY: n4–20 LPA |
+Android powers 72%+ of global smartphones
+7.1 Technology Tracks
+• Track A – Native Android: Kotlin, Jetpack Compose, Android Studio, MVVM, Room, Retrofit, Hilt
+• Track B – Cross-Platform (React Native): JavaScript/TypeScript, React Native CLI/Expo, Navigation, Redux
+• Track C – Cross-Platform (Flutter): Dart language, Flutter SDK, Widgets, BLoC/Provider state management
+RECOMMENDATION: Learn Native Android (Kotlin + Jetpack Compose) for deep understanding, then optionally add Flutter
+or React Native. Both tracks share 60% common concepts.
+7.2 Native Android – 10-Month Timetable
+Week / Phase Topics Covered Deliverable / Goal
+Month 1 Kotlin Fundamentals: Variables (val/var), data types, null
+safety (?, !!, ?., ?:), functions (default params, named
+params, extension functions, higher-order functions,
+lambdas), OOP (class, object, companion object, data class,
+sealed class, enum class, interface, abstract class),
+Collections (List, Set, Map, mutable/immutable), Coroutines
+basics (suspend, launch, async, Dispatchers,
+CoroutineScope). Practice: solve 30 Kotlin coding problems.
+Port a Java snippet to idiomatic
+Kotlin
+Month 2 Android Basics: Android Studio setup, AVD Manager
+(emulator), Project structure, AndroidManifest.xml. Activities
+– Activity lifecycle (onCreate, onStart, onResume, onPause,
+onStop, onDestroy), Intent (explicit, implicit), Activity back
+stack. Resources (strings, colors, dimensions, drawables).
+Permissions (manifest + runtime). Basic UI with XML layouts:
+LinearLayout, RelativeLayout, ConstraintLayout, TextView,
+Button, EditText, ImageView, RecyclerView.
+Build a simple note-taking app
+with XML UI
+Month 3 Jetpack Compose: Composable functions, State (remember,
+mutableStateOf, rememberSaveable), Recomposition,
+Composition local. Layouts (Column, Row, Box,
+LazyColumn, LazyRow). Modifiers (padding, size,
+background, clickable, fillMaxSize). Navigation in Compose
+(NavController, NavHost, NavGraph, arguments, back stack).
+Material3 components (TopAppBar, BottomNavigationBar,
+Card, Scaffold, FloatingActionButton, TextField, Dialog,
+SnackBar, AlertDialog).
+Build a shopping list app with
+Jetpack Compose
+
+-- 24 of 45 --
+
+Page 25	Placement Assistance System | RAG Knowledge Base v1.0
+Week / Phase Topics Covered Deliverable / Goal
+Month 4 Architecture – MVVM + Clean Architecture: ViewModel
+(viewModelScope, StateFlow, SharedFlow, LiveData),
+Repository pattern, Use Cases (interactors). Dependency
+Injection with Hilt (Application, AndroidEntryPoint,
+HiltViewModel, Module, Provides, Binds, Singleton). Room
+Database – Entity, DAO (insert, update, delete, query),
+Database, TypeConverters, migrations, relations
+(one-to-many).
+Build a finance tracker with
+MVVM + Room + Hilt
+Month 5 Networking & Data: Retrofit – service interface,
+@GET/@POST/@PUT/@DELETE, @Path/@Query/@Body,
+Call vs suspend, OkHttp interceptors (logging, auth header),
+Gson/Moshi converters. Kotlin Serialization. Coroutines Flow
+(cold stream, StateFlow, SharedFlow, callbackFlow). Paging
+3 library (PagingSource, PagingData, RemoteMediator).
+Image loading: Coil, Glide. Local data: DataStore
+(Preferences + Proto).
+Build a news app with Retrofit +
+Paging 3
+Month 6 Advanced Android: Broadcast Receivers, Services
+(foreground service, bound service), WorkManager
+(scheduled & periodic tasks, constraints, chaining).
+Notifications (NotificationChannel, PendingIntent, notification
+styles). App widgets. Deep links. Firebase integration
+(Firestore, Authentication, Cloud Messaging, Analytics,
+Crashlytics, Remote Config). Google Maps SDK, Location
+services (FusedLocationProvider), Geofencing.
+Implement push notifications
+with Firebase FCM
+Month 7 Testing & Performance: Unit testing with JUnit4/5, Mockito
+(mocking dependencies), Kotlin Coroutines test (runTest),
+Turbine (Flow testing). UI testing with Espresso & Compose
+UI Test. Screenshot testing. Performance: Android Profiler
+(CPU, Memory, Network), StrictMode, Avoid overdraw,
+Layout Inspector. ProGuard/R8 (code shrinking, obfuscation,
+optimization).
+Write tests for your MVVM app
+achieving 80% coverage
+Month 8 Animations & Advanced UI: Compose animations
+(animate*AsState, AnimatedVisibility, AnimatedContent,
+Crossfade, updateTransition, animateContentSize). Motion
+Layout. Canvas API for custom drawing. Accessibility
+(TalkBack, content descriptions, large text). Custom views
+(onDraw, onMeasure). Gesture detection (pointerInput, drag,
+swipe, zoom). Dark mode support, Dynamic colors (Material
+You).
+Build a custom animated splash
+screen + onboarding
+
+-- 25 of 45 --
+
+Page 26	Placement Assistance System | RAG Knowledge Base v1.0
+Week / Phase Topics Covered Deliverable / Goal
+Month 9 Play Store & Distribution: App signing (keystore, upload key).
+App Bundle (.aab) vs APK. Play Console – internal testing,
+closed testing, open testing, production rollout. App review
+guidelines. Crash monitoring (Firebase Crashlytics).
+Analytics (Firebase Analytics, Google Analytics). In-App
+purchases (Play Billing Library). AdMob integration basics.
+Privacy policy, GDPR compliance. App indexing.
+Publish a test app to Play Store
+internal track
+Month 10 Capstone Project: Build a production-quality Android app:
+Option A – Social Media App (auth, posts, likes, comments,
+realtime chat). Option B – E-commerce App (product listing,
+cart, orders, payments via Razorpay/Stripe). Option C –
+Health/Fitness Tracker (sensors, charts, local data,
+notifications). Features required: MVVM+Clean Arch, Hilt DI,
+Room DB, Retrofit API, Firebase Auth, proper navigation,
+unit tests, Play Store release.
+Launch capstone app on Play
+Store
+
+-- 26 of 45 --
+
+Page 27	Placement Assistance System | RAG Knowledge Base v1.0
+PART 8: CAREER PATH – CYBERSECURITY
+n ROLE: Security Analyst / Penetration Tester / SOC Analyst / Security Engineer | DURATION: 10 Months | SALARY: n5–20
+LPA (India) | $80K–$140K (US) | CERTIFICATIONS: CEH, CompTIA Security+, OSCP, CISSP
+8.1 Technology Stack & Domains
+• Fundamentals: Networking, OS (Linux+Windows), Cryptography, Web Technologies
+• Offensive Security: Penetration Testing, Vulnerability Assessment, Social Engineering, Red Teaming
+• Defensive Security: SOC, SIEM, Incident Response, Threat Intelligence, Blue Teaming
+• Tools: Kali Linux, Metasploit, Nmap, Wireshark, Burp Suite, OWASP ZAP, Nessus, Splunk
+• Specializations: Web App Security, Network Security, Cloud Security, Malware Analysis, Forensics
+8.2 10-Month Timetable
+Week / Phase Topics Covered Deliverable / Goal
+Month 1 Networking & OS Foundations: OSI & TCP/IP model
+mastery. Packet analysis with Wireshark (reading pcap files,
+filter syntax, protocol dissection). Network protocols deep
+dive: ARP, DNS (query types, zone transfer attack), DHCP,
+HTTP/HTTPS, FTP, SMB, SMTP. Linux for security – file
+permissions (setuid, setgid, sticky bit), /etc/passwd &
+/etc/shadow, cron jobs, iptables, netfilter, log analysis
+(/var/log). Windows fundamentals – Active Directory
+overview, registry, event logs, PowerShell basics.
+Capture and analyse network
+traffic with Wireshark
+Month 2 Cryptography & Web Basics: Symmetric encryption (AES,
+DES, 3DES), Asymmetric encryption (RSA, ECC), Hashing
+(MD5, SHA family) – when each is used. Digital signatures,
+PKI, X.509 certificates, SSL/TLS handshake analysis.
+Password hashing (bcrypt, PBKDF2, Argon2). Web
+technologies: HTTP methods, status codes, cookies,
+sessions, CORS, same-origin policy, HTTPS internals.
+Browser dev tools for security analysis.
+Set up a home lab with
+VirtualBox/VMware
+Month 3 Ethical Hacking Methodology & Recon: Penetration testing
+phases (Reconnaissance, Scanning, Gaining Access,
+Maintaining Access, Reporting). Passive recon: OSINT
+(Shodan, Maltego, theHarvester, Recon-ng, Google dorks,
+WHOIS, LinkedIn). Active recon: Nmap (host discovery, port
+scan, service detection, OS detection, NSE scripts), Nikto,
+Gobuster/Dirbuster (directory enumeration). Vulnerability
+scanning with Nessus / OpenVAS.
+Perform a full recon on a CTF
+target machine
+
+-- 27 of 45 --
+
+Page 28	Placement Assistance System | RAG Knowledge Base v1.0
+Week / Phase Topics Covered Deliverable / Goal
+Month 4 OWASP Top 10 & Web Pentesting: Injection attacks (SQL
+Injection – manual + sqlmap, XSS – reflected/stored/DOM,
+Command Injection, LDAP Injection, XXE). Broken
+Authentication (weak passwords, session fixation, insecure
+direct object reference – IDOR). Security Misconfiguration,
+Cryptographic Failures, Insecure Design. Tools: Burp Suite
+(intercept proxy, intruder, repeater, scanner), OWASP ZAP.
+Practice on DVWA, WebGoat, HackTheBox web challenges.
+Complete DVWA on all
+high-difficulty settings
+Month 5 Exploitation Fundamentals: Metasploit Framework
+(msfconsole, search, use, set, exploit, payload, meterpreter
+shell). Payloads (staged vs stageless, reverse vs bind shell).
+Common exploits (EternalBlue MS17-010, Heartbleed,
+Log4Shell). Post-exploitation (privilege escalation, lateral
+movement, persistence, data exfiltration concepts). Buffer
+overflow basics (stack smashing, return address overwrite,
+NOP sled) using vulnerable apps (VulnServer, BOF practice).
+Root a TryHackMe
+easy/medium machine
+independently
+Month 6 Network Security & Active Directory Attacks:
+Man-in-the-Middle attacks (ARP spoofing, SSL stripping with
+Bettercap, Responder). Password attacks (brute force,
+dictionary attack, credential stuffing, pass-the-hash,
+Mimikatz). Wireless security (WEP/WPA2 cracking with
+aircrack-ng, evil twin AP). Active Directory attacks:
+Kerberoasting, AS-REP Roasting, DCSync, BloodHound for
+AD enumeration, lateral movement with PSExec, WMI.
+Complete a full internal pentest
+simulation in a lab
+Month 7 Defensive Security – SOC & SIEM: Security Operations
+Center (SOC) tiers and roles. Security Information and Event
+Management – Splunk (search, SPL queries, dashboards,
+alerts, correlation rules) and ELK. Log analysis: Windows
+event IDs (4624, 4625, 4688, 4720, 4728, 4732, 4740), Linux
+auth logs, web server logs. Threat Intelligence: MITRE
+ATT&CK; framework (tactics, techniques, procedures).
+Indicators of Compromise (IOCs). Threat hunting
+methodology.
+Build a Splunk dashboard for
+detecting failed logins
+Month 8 Incident Response & Forensics: IR lifecycle (Preparation,
+Identification, Containment, Eradication, Recovery, Lessons
+Learned). Digital Forensics: disk imaging (dd, FTK Imager),
+file system analysis (Autopsy), memory forensics (Volatility –
+process listing, network connections, malware detection in
+memory), log forensics, timeline analysis. Malware analysis
+overview: static analysis (strings, file, PEStudio, IDA Pro
+overview), dynamic analysis (sandbox: Any.run, Cuckoo).
+Analyse a memory dump using
+Volatility
+
+-- 28 of 45 --
+
+Page 29	Placement Assistance System | RAG Knowledge Base v1.0
+Week / Phase Topics Covered Deliverable / Goal
+Month 9 Cloud Security & Secure Coding: AWS security: IAM least
+privilege, S3 bucket security, security groups, CloudTrail
+(audit logging), GuardDuty (threat detection), AWS Config,
+Secrets Manager vs Parameter Store. OWASP API Security
+Top 10. Secure coding practices: input validation,
+parameterized queries, secure headers, dependency
+scanning (OWASP Dependency Check, Snyk). DevSecOps:
+integrating security in CI/CD (SAST with SonarQube, DAST,
+container scanning with Trivy).
+Audit an AWS account for
+security misconfigurations
+Month 10 CTF Practice + Certification Prep: Platforms: HackTheBox
+(10 machines), TryHackMe (complete 3 learning paths),
+PicoCTF, CTFtime. Build a pentest report for a completed
+engagement (executive summary, technical findings, risk
+ratings, remediation). Certification prep: CompTIA Security+
+(SY0-701) – 3 weeks of study with Darril Gibson book +
+Jason Dion practice tests. CEH (v12) – attend official training
+or self-study. OSCP – 3-month lab access (PWK course).
+Write a professional penetration
+testing report
+
+-- 29 of 45 --
+
+Page 30	Placement Assistance System | RAG Knowledge Base v1.0
+PART 9: CAREER PATH – DATA ENGINEERING
+n ROLE: Data Engineer / Analytics Engineer | DURATION: 10 Months | SALARY: n7–25 LPA (India) | $100K–$160K (US) |
+COMPANIES: Uber, Airbnb, Netflix, Amazon, Swiggy, Zomato
+9.1 Technology Stack
+• Languages: Python (primary), Scala (Spark), SQL (advanced)
+• Batch Processing: Apache Spark (PySpark), Hadoop (HDFS, MapReduce – conceptual), Hive, Presto
+• Stream Processing: Apache Kafka, Apache Flink, Spark Streaming, Kinesis (AWS)
+• Orchestration: Apache Airflow, Prefect, Dagster, Luigi
+• Data Warehouse: Snowflake, BigQuery, Redshift, Databricks Lakehouse
+• Data Lake: S3, ADLS, GCS + Delta Lake, Apache Iceberg, Apache Hudi
+• Transformation: dbt (data build tool), Great Expectations (data quality)
+• Databases: PostgreSQL, MySQL, Cassandra, DynamoDB, Redis, Elasticsearch, ClickHouse
+• BI Tools: Tableau, Power BI, Looker, Metabase
+9.2 10-Month Timetable
+Week / Phase Topics Covered Deliverable / Goal
+Month 1 Python + SQL Advanced: Python – file handling, regular
+expressions, virtual environments, working with
+JSON/CSV/Parquet files, pandas profiling. SQL Advanced –
+Window functions (ROW_NUMBER, RANK, DENSE_RANK,
+LAG, LEAD, FIRST_VALUE, LAST_VALUE, NTILE), CTEs
+(WITH clause, recursive CTEs), complex JOINs, EXPLAIN
+ANALYZE (query optimization), indexes (B-tree, Hash, GIN,
+GiST), stored procedures, triggers, views, materialized
+views. Database design: ER diagrams, normalization,
+denormalization for analytics.
+Solve 50 advanced SQL
+problems on StrataScratch
+Month 2 Data Warehousing Concepts: OLTP vs OLAP differences.
+Dimensional modelling – Star Schema, Snowflake Schema,
+Galaxy Schema. Slowly Changing Dimensions (SCD Type 1,
+2, 3, 4, 6). Fact tables (transactional, snapshot, accumulating
+snapshot). Kimball vs Inmon methodologies. ETL vs ELT.
+Snowflake – virtual warehouses, databases, schemas,
+tables, stages, file formats, COPY INTO, streams, tasks, time
+travel, cloning, zero-copy cloning. BigQuery – partitioning,
+clustering, slots, reservations.
+Design a data warehouse for an
+e-commerce business
+
+-- 30 of 45 --
+
+Page 31	Placement Assistance System | RAG Knowledge Base v1.0
+Week / Phase Topics Covered Deliverable / Goal
+Month 3 Apache Spark: Spark architecture (Driver, Executor, Cluster
+Manager, DAG Scheduler). RDD – transformations (map,
+filter, flatMap, reduceByKey, groupByKey) vs actions (collect,
+count, first, take, foreach, saveAsTextFile). Spark DataFrame
+& Spark SQL – read/write formats (parquet, CSV, JSON,
+ORC, delta), schema inference, column operations,
+aggregations, window functions, joins, broadcasting. Spark
+optimizations – partitioning, caching, broadcast variables,
+accumulators, AQE (Adaptive Query Execution). Spark
+Streaming overview.
+Process a 1GB dataset with
+PySpark efficiently
+Month 4 Apache Kafka: Kafka architecture – Brokers, Topics,
+Partitions, Offsets, Consumer Groups, ZooKeeper (legacy)
+vs KRaft. Producers – keys, values, serialization,
+acknowledgments (acks=0/1/all), retries, idempotency.
+Consumers – offset management (auto vs manual commit),
+partition rebalancing, consumer lag. Kafka Streams vs
+ksqlDB. Kafka Connect – source & sink connectors. Schema
+Registry & Avro serialization. Kafka security (SSL, SASL,
+ACLs). Use case: real-time data pipeline.
+Build a Kafka
+producer-consumer pipeline
+Month 5 Apache Airflow: DAG (Directed Acyclic Graph) concepts,
+Operators (PythonOperator, BashOperator, EmailOperator,
+PostgresOperator, SparkSubmitOperator, S3 operators),
+TaskFlow API, Dependencies (>>), XComs (cross-task
+communication), Variables, Connections, Pools, Hooks,
+Sensors (FileSensor, HttpSensor, ExternalTaskSensor),
+Branching (BranchPythonOperator), SubDAGs &
+TaskGroups. Deployment: Docker Compose setup, Airflow
+on Kubernetes (KubernetesPodOperator), Astronomer
+overview.
+Orchestrate an ETL pipeline
+with Airflow
+Month 6 dbt + Data Transformation: dbt Core vs dbt Cloud. Project
+structure (models, seeds, snapshots, tests, sources, macros,
+analyses). Model materializations (table, view, incremental,
+ephemeral). Jinja templating in SQL models. dbt tests (not
+null, unique, accepted values, relationships, custom tests).
+Documentation (schema.yml, dbt docs generate & serve).
+Hooks & operations. dbt packages (dbt_utils,
+dbt_expectations). Great Expectations for data quality –
+expectations, validation runs, data docs.
+Build a complete dbt project on
+a real dataset
+
+-- 31 of 45 --
+
+Page 32	Placement Assistance System | RAG Knowledge Base v1.0
+Week / Phase Topics Covered Deliverable / Goal
+Month 7 Cloud Data Platforms: AWS data services – Glue (ETL jobs,
+crawlers, catalog), Athena (serverless SQL on S3), EMR
+(managed Spark/Hadoop), Kinesis (Data Streams, Firehose,
+Analytics), Redshift (distribution keys, sort keys, WLM,
+Redshift Spectrum). GCP data services – BigQuery
+(overview already done), Dataflow (Apache Beam), Pub/Sub,
+Dataproc. Azure data services – Azure Data Factory,
+Synapse Analytics, Azure Event Hubs. Databricks – Delta
+Lake, Unity Catalog, Notebooks, Jobs, MLflow integration.
+Deploy an end-to-end pipeline
+on AWS or GCP
+Month 8 Streaming Data Pipelines + Data Lake: Lambda Architecture
+(batch + streaming layers), Kappa Architecture (streaming
+only). Delta Lake – ACID transactions, time travel, schema
+evolution, MERGE operations, Delta Live Tables. Apache
+Iceberg – table format, hidden partitioning, time travel.
+Apache Hudi – copy-on-write vs merge-on-read. Change
+Data Capture (CDC) with Debezium. Flink – stateful stream
+processing, exactly-once semantics, CEP (Complex Event
+Processing).
+Build a real-time streaming
+pipeline with Kafka + Flink
+Month 9 Data Observability & Engineering Best Practices: Data
+quality monitoring (Great Expectations, Monte Carlo, Soda
+Core). Lineage tracking (OpenLineage, Marquez, dbt docs).
+Data cataloging (Apache Atlas, DataHub, Alation). CI/CD for
+data pipelines – dbt in CI, testing before deployment,
+blue/green deployments. Infrastructure as Code for data:
+Terraform for cloud data resources. Cost optimization
+strategies for Snowflake/BigQuery/Redshift. Data mesh &
+data product thinking.
+Implement data quality checks
+in an existing pipeline
+Month 10 Capstone Project: Build a complete end-to-end data platform.
+Data sources: Simulate transactional data (Postgres) + API
+data + clickstream events (Kafka). Ingestion: Kafka +
+Debezium for CDC, Airflow for batch pulls. Storage: S3 Data
+Lake with Delta Lake format. Processing: Spark for batch,
+Kafka Streams for realtime. Warehouse: Snowflake or
+BigQuery. Transformation: dbt models (staging, intermediate,
+marts). Quality: Great Expectations. BI: Metabase/Tableau
+dashboard. Monitoring: Airflow + custom alerting.
+Present a working data platform
+demo
+
+-- 32 of 45 --
+
+Page 33	Placement Assistance System | RAG Knowledge Base v1.0
+PART 10: CAREER PATH – BACKEND DEVELOPMENT
+n ROLE: Backend Developer / API Engineer / Software Engineer (Backend) | DURATION: 8 Months | Choose your language
+stack: Node.js (JavaScript), Python (Django/FastAPI), Java (Spring Boot), Go, or Ruby on Rails
+10.1 Core Backend Stack (Language-Agnostic)
+• Fundamentals: HTTP/HTTPS, REST principles, request/response cycle, status codes, headers
+• Databases: Relational (PostgreSQL), NoSQL (MongoDB, Redis), Search (Elasticsearch)
+• API Design: REST API, GraphQL, gRPC, WebSockets, API Gateway, API documentation (Swagger/OpenAPI)
+• Security: Authentication (JWT, OAuth2, Session), Authorization (RBAC, ABAC), Input validation, Rate limiting
+• Architecture: Monolith → Microservices → Serverless, Message queues, Event-driven architecture
+• Performance: Caching strategies, Database indexing, Connection pooling, Load balancing, CDN
+10.2 Node.js Backend Track – 8-Month Timetable
+Week / Phase Topics Covered Deliverable / Goal
+Month 1 Node.js Deep Dive: Event loop internals (call stack, task
+queue, microtask queue, phases of event loop), libuv,
+non-blocking I/O, streams (readable, writable, transform,
+duplex, piping), Buffer, cluster module (horizontal scaling),
+worker threads (CPU-bound tasks), child processes (exec,
+spawn, fork), Node.js performance monitoring, memory
+management, garbage collection.
+Profile a Node.js app to find
+memory leaks
+Month 2 Express.js + API Design: Middleware chain (order matters),
+custom error handling middleware, Express Router, route
+params & query strings, request body parsing, file uploads
+with Multer, compression (gzip), ETag & caching headers,
+serving static files. REST API design: resource naming
+conventions, HTTP verbs, status codes (200, 201, 204, 400,
+401, 403, 404, 409, 422, 429, 500, 503), pagination (cursor
+vs offset), filtering & sorting, API versioning strategies,
+HATEOAS.
+Design a production-grade
+REST API with proper
+documentation
+Month 3 Database Design + ORM: PostgreSQL advanced – JOINs,
+window functions, full-text search, JSONB column type, array
+operations, CTEs, stored procedures, triggers, table
+partitioning, connection pooling with pg-pool/pgBouncer.
+Prisma ORM – schema design, relations (one-to-one,
+one-to-many, many-to-many), CRUD, raw queries,
+migrations, seeding, transactions. Redis – caching patterns
+(cache-aside, write-through, write-behind), TTL, pub/sub,
+Redis Streams, distributed locks (Redlock algorithm).
+Build a complex data model
+with Prisma + PostgreSQL
+
+-- 33 of 45 --
+
+Page 34	Placement Assistance System | RAG Knowledge Base v1.0
+Week / Phase Topics Covered Deliverable / Goal
+Month 4 Authentication & Security: JWT deep dive – HS256 vs
+RS256, access token (short-lived) + refresh token (rotation),
+storing tokens securely (httpOnly cookie vs localStorage
+tradeoffs). OAuth 2.0 flows (Authorization Code, Client
+Credentials, PKCE). Passport.js strategies. API Key
+management. RBAC implementation. Security headers
+(Helmet.js – HSTS, X-Frame-Options, X-XSS-Protection,
+Content-Security-Policy). SQL injection prevention, XSS
+prevention, CSRF tokens, brute force protection.
+Implement a complete auth
+system with refresh token
+rotation
+Month 5 Microservices & Messaging: Microservices patterns – API
+Gateway (Kong, AWS API Gateway), service discovery,
+circuit breaker (opossum), bulkhead, saga pattern.
+Inter-service communication: synchronous (REST, gRPC) vs
+asynchronous (message queues). RabbitMQ – exchanges
+(direct, fanout, topic, headers), queues, bindings, consumer
+acknowledgments, DLQ. Apache Kafka for events (basic
+producer/consumer in Node). Event sourcing & CQRS
+patterns overview.
+Build a simple microservices
+architecture with RabbitMQ
+Month 6 Testing + GraphQL: Unit testing – Jest (describe, it, expect,
+beforeEach, mocking with jest.mock, jest.spyOn), testing
+Express routes with supertest. Integration testing – test DB
+setup, transaction rollback. Load testing with k6 or Artillery
+(TPS, latency percentiles, error rate). GraphQL with Apollo
+Server – schemas (types, queries, mutations, subscriptions),
+resolvers, context, DataLoader (N+1 problem solution),
+authentication in GraphQL, schema stitching overview.
+Achieve 85%+ test coverage on
+a REST API
+Month 7 Performance & Scalability: Caching strategy deep dive –
+Redis caching, CDN caching (Cloudflare), in-memory
+caching (node-cache). Database performance – slow query
+analysis (EXPLAIN ANALYZE), index types (B-tree, GIN,
+partial indexes), N+1 query problem, database connection
+pooling. Horizontal scaling – stateless services, sticky
+sessions. Task queues with BullMQ (background jobs,
+scheduled jobs, job prioritization, retries). WebSockets with
+Socket.io – rooms, namespaces, scaling with Redis adapter.
+Server-Sent Events (SSE).
+Optimise an API to handle 1000
+req/sec with k6
+Month 8 Capstone + System Design: Build a production backend:
+Option A – Ride-sharing backend (users, drivers, bookings,
+real-time location, payments). Option B – URL shortener
+(high-scale design, analytics). Option C – Social media API
+(posts, follows, timeline, notifications). System Design study:
+Design Twitter/Instagram feed, URL shortener, WhatsApp,
+YouTube. Read: Designing Data-Intensive Applications
+(Kleppmann). Practice 5 system design questions.
+Complete a system design
+mock interview
+
+-- 34 of 45 --
+
+Page 35	Placement Assistance System | RAG Knowledge Base v1.0
+PART 11: CAREER PATH – FRONTEND DEVELOPMENT
+n ROLE: Frontend Developer / UI Engineer / React Developer | DURATION: 8 Months | SALARY: n4–18 LPA (India) |
+$65K–$120K (US) | DEMAND: Extremely High – every company needs frontend engineers
+11.1 Technology Stack
+• Core: HTML5, CSS3, JavaScript (ES6+), TypeScript
+• Framework: React.js (primary) + Vue.js or Angular (secondary)
+• State: Redux Toolkit, Zustand, Jotai, React Query (server state), Context API
+• Styling: Tailwind CSS, CSS Modules, Styled Components, CSS-in-JS, Sass/SCSS
+• Build Tools: Webpack, Vite, Rollup, Babel, ESLint, Prettier
+• Testing: Jest, React Testing Library, Playwright/Cypress (E2E), Storybook (component docs)
+• Performance: Core Web Vitals, Lighthouse, Web Workers, Code splitting, Lazy loading
+11.2 8-Month Timetable
+Week / Phase Topics Covered Deliverable / Goal
+Month 1 HTML5 + CSS3 Mastery: Advanced HTML – semantic
+structure, forms (all input types, constraint validation API,
+custom validation), tables (accessibility), SVG inline, Canvas
+API (drawing shapes, animations, 2D context). CSS
+Advanced – specificity & cascade deep dive, Custom
+Properties (CSS variables, theming), CSS functions (calc,
+clamp, min, max, var), CSS Grid advanced (subgrid, grid
+areas, auto-placement, dense packing), Flexbox mastery,
+CSS transforms (2D/3D, perspective), CSS filters & blend
+modes, clip-path & shape-outside, scroll-snap, container
+queries.
+Build a pixel-perfect responsive
+webpage without frameworks
+Month 2 JavaScript Mastery: JS engine internals (V8 – parsing,
+compilation, JIT, optimization), memory model (stack vs
+heap), closures in depth, prototype chain, Symbol, Iterator
+protocol, Generator functions, Proxy & Reflect, WeakMap &
+WeakSet (use cases), Service Workers (offline caching,
+PWA foundation), Web APIs (Intersection Observer,
+MutationObserver, ResizeObserver, Broadcast Channel,
+Web Workers, Shared Workers). Performance: debouncing,
+throttling, virtual DOM concept, reflow vs repaint.
+Build a PWA with offline
+functionality
+
+-- 35 of 45 --
+
+Page 36	Placement Assistance System | RAG Knowledge Base v1.0
+Week / Phase Topics Covered Deliverable / Goal
+Month 3 TypeScript + React Foundation: TypeScript deep dive –
+generics (constraints, defaults, conditional types, mapped
+types, template literal types), utility types mastery (Partial,
+Required, Readonly, Record, Pick, Omit, Extract, Exclude,
+ReturnType, Parameters, Awaited), type narrowing,
+discriminated unions, declaration merging, module
+augmentation. React with TypeScript – typing props, state,
+events, refs, context, custom hooks, HOCs.
+Migrate a JavaScript React app
+to TypeScript
+Month 4 React Advanced Patterns: Hooks deep dive – useCallback
+(referential equality), useMemo (memoization),
+useLayoutEffect vs useEffect (timing difference),
+useImperativeHandle, useDeferredValue, useTransition,
+useId, useSyncExternalStore. Advanced patterns –
+Compound Components, Render Props, Custom Hook
+patterns, HOC with TypeScript, Controlled vs Uncontrolled
+components, Portals, Error Boundaries, React Suspense &
+Lazy loading, Concurrent Mode features. React DevTools
+Profiler for performance.
+Implement a compound
+component pattern (e.g., Tabs,
+Accordion)
+Month 5 State Management + Data Fetching: Redux Toolkit –
+createSlice, createAsyncThunk, RTK Query (auto-generated
+CRUD hooks, caching, polling, optimistic updates), Entity
+Adapter. Zustand – simple global state. Jotai – atomic state.
+React Query (TanStack Query) – useQuery, useMutation,
+useInfiniteQuery, cache invalidation, optimistic updates,
+server state vs client state. SWR (stale-while-revalidate).
+Form management – React Hook Form (register, watch,
+handleSubmit, validation) + Zod schema validation.
+Build a data-heavy dashboard
+with React Query + RTK Query
+Month 6 Next.js + Performance: Next.js 14 App Router – Server
+Components (fetch on server, no client JS), Client
+Components (use client directive), Server Actions (inline form
+mutations), Streaming with Suspense, Parallel & Intercepting
+routes, Route groups, Middleware, Image & Font
+optimization, Metadata API. Core Web Vitals – LCP (Largest
+Contentful Paint), FID/INP (Interaction to Next Paint), CLS
+(Cumulative Layout Shift). Tools: Lighthouse CI,
+WebPageTest, Bundle Analyzer, React Profiler.
+Achieve 95+ Lighthouse score
+on your Next.js app
+Month 7 Testing + Accessibility + Animations: Testing – Jest unit
+tests, React Testing Library (queries: getByRole, getByText,
+etc.), user-event (v14), MSW (Mock Service Worker) for API
+mocking, Playwright E2E tests, Storybook for component
+documentation & visual testing. Accessibility (a11y) – WCAG
+2.1 levels (A, AA, AAA), ARIA roles & properties, keyboard
+navigation, focus management, screen reader testing
+(NVDA, VoiceOver). Animations – Framer Motion (variants,
+AnimatePresence, layoutId, useMotionValue, useSpring,
+scroll animations), GSAP basics, React Spring.
+Audit & fix accessibility issues in
+an existing app
+
+-- 36 of 45 --
+
+Page 37	Placement Assistance System | RAG Knowledge Base v1.0
+Week / Phase Topics Covered Deliverable / Goal
+Month 8 Capstone + Advanced Topics: WebGL & Three.js (3D on the
+web – for creative roles). Micro-frontends (Module Federation
+with Webpack 5). Design Systems – build a reusable
+component library with TypeScript + Storybook + Rollup,
+publish to npm. Advanced tooling – Custom Webpack config,
+creating Vite plugins, Turborepo for monorepos. Capstone:
+Build a feature-rich SPA or website: landing page +
+dashboard + multiple features, deployed on Vercel/Netlify
+with perfect Core Web Vitals.
+Publish a component library to
+npm
+
+-- 37 of 45 --
+
+Page 38	Placement Assistance System | RAG Knowledge Base v1.0
+PART 12: CAREER PATH – AI / ML ENGINEERING
+n ROLE: ML Engineer / AI Engineer / LLM Engineer | DURATION: 12 Months | SALARY: n10–40 LPA (India) | $120K–$250K
+(US) | The hottest job in tech 2024–2030
+12.1 Technology Stack
+• Languages: Python (primary), C++ (inference optimization), Rust (emerging for ML systems)
+• ML Frameworks: PyTorch (primary), TensorFlow/Keras, JAX (Google), Hugging Face Transformers
+• LLM & GenAI: OpenAI API, LangChain, LlamaIndex, Ollama (local LLMs), LangGraph, CrewAI
+• Vector Databases: Pinecone, Weaviate, Qdrant, ChromaDB, pgvector
+• MLOps: MLflow, Weights & Biases, BentoML, TorchServe, Triton Inference Server
+• Infrastructure: CUDA/GPU programming basics, Kubernetes for ML, Ray (distributed compute), Spark MLlib
+12.2 12-Month Timetable
+Week / Phase Topics Covered Deliverable / Goal
+Month 1 Python + PyTorch Fundamentals: PyTorch tensors (creation,
+operations, indexing, broadcasting), autograd (requires_grad,
+backward(), .grad, no_grad context), computing gradients
+manually, building a simple neural network from scratch
+(forward pass, loss, backward pass, optimizer step). torch.nn
+module – Linear, Conv2d, ReLU, BatchNorm, Dropout,
+Sequential, Module subclass, parameter management.
+torch.optim – SGD, Adam, AdamW, learning rate schedulers.
+Implement a neural net from
+scratch, no nn.Module
+Month 2 Deep Learning Architectures: CNN architectures – LeNet,
+AlexNet, VGG, ResNet (skip connections), EfficientNet.
+Implement from scratch in PyTorch. Image classification
+training loop – DataLoader, transforms (torchvision),
+augmentation, training/validation loop, checkpointing, mixed
+precision (torch.cuda.amp). RNN family – Vanilla RNN
+(vanishing gradient), LSTM (forget/input/output gates), GRU.
+Sequence modelling tasks: time series, NLP classification.
+Train ResNet-50 on CIFAR-100
+with >70% accuracy
+Month 3 Transformers Architecture In-Depth: Attention mechanism
+(query, key, value, scaled dot-product attention).
+Self-attention & Multi-Head Attention. Positional encoding
+(sinusoidal & learned). Transformer encoder-decoder
+architecture. Layer normalization vs Batch normalization.
+Implement a mini-Transformer for text classification from
+scratch in PyTorch. Understand BERT (bidirectional, MLM,
+NSP pretraining) and GPT (autoregressive, causal masking,
+next-token prediction) architectures.
+Implement a Transformer from
+scratch and train on a task
+
+-- 38 of 45 --
+
+Page 39	Placement Assistance System | RAG Knowledge Base v1.0
+Week / Phase Topics Covered Deliverable / Goal
+Month 4 Hugging Face Ecosystem & Fine-Tuning: HuggingFace
+Transformers – AutoModel, AutoTokenizer, pipeline, model
+cards, Hub. Fine-tuning strategies – Full fine-tuning, Feature
+extraction (frozen backbone), LoRA (Low-Rank Adaptation),
+QLoRA (quantized LoRA), PEFT library. Datasets library.
+Trainer API and custom training loops. Evaluate library
+(metrics). Hugging Face Spaces for model demos. Fine-tune
+BERT for text classification, GPT-2 for text generation, T5 for
+summarization.
+Fine-tune LLaMA-2 7B with
+QLoRA on custom dataset
+Month 5 Large Language Models (LLMs): LLM training pipeline –
+pre-training (next token prediction), instruction tuning (SFT –
+Supervised Fine-Tuning), RLHF (Reinforcement Learning
+from Human Feedback), DPO (Direct Preference
+Optimization). LLM evaluation – MMLU, HellaSwag,
+TruthfulQA, HumanEval benchmarks. Prompt engineering –
+zero-shot, few-shot, chain-of-thought, ReAct,
+Tree-of-Thought. Tokenization deep dive (BPE, WordPiece,
+SentencePiece). Context window management, attention
+patterns (sparse attention, flash attention).
+Evaluate an open-source LLM
+on a custom benchmark
+Month 6 RAG Systems & Vector Databases: Retrieval-Augmented
+Generation (RAG) architecture – indexing pipeline (document
+loading, chunking strategies, embedding, vector store upsert)
+and retrieval pipeline (query embedding, similarity search,
+re-ranking, context assembly, LLM generation). Embedding
+models (OpenAI text-embedding-3, sentence-transformers,
+E5, BGE). Vector databases – Pinecone, Weaviate, Qdrant,
+ChromaDB internals (HNSW index, cosine/dot/euclidean
+distance). Advanced RAG: HyDE, RAPTOR, Contextual
+compression, Parent-child chunking.
+Build a production RAG system
+for document Q&A;
+Month 7 LangChain + LlamaIndex + Agents: LangChain – chains
+(LLMChain, SequentialChain), LCEL (LangChain Expression
+Language), memory types (ConversationBufferMemory,
+ConversationSummaryMemory,
+VectorStoreRetrieverMemory), document loaders (PDF, web,
+CSV), text splitters, retrievers (MultiQuery, Contextual
+Compression, Ensemble). LLM Agents – ReAct agent, tool
+use, function calling (OpenAI), LangGraph for stateful
+multi-agent workflows. LlamaIndex – nodes, indices, query
+engines, routers.
+Build a multi-agent research
+assistant with LangGraph
+
+-- 39 of 45 --
+
+Page 40	Placement Assistance System | RAG Knowledge Base v1.0
+Week / Phase Topics Covered Deliverable / Goal
+Month 8 Computer Vision Advanced & Multimodal: Object Detection –
+YOLO (v8/v9/v10/v11), training custom detector, TorchVision
+models. Semantic Segmentation – SegFormer, SAM
+(Segment Anything Model). Image Generation – Stable
+Diffusion (U-Net, VAE, CLIP, denoising diffusion probabilistic
+models – DDPM), ControlNet, DreamBooth (personalization).
+Multimodal LLMs – LLaVA, GPT-4V, CLIP (contrastive
+pretraining), BLIP-2. Video models overview (VideoMAE,
+Sora architecture discussion).
+Fine-tune Stable Diffusion on
+custom images with
+DreamBooth
+Month 9 MLOps & Production ML: Experiment tracking – MLflow (log
+params/metrics/artifacts/models, model registry, model
+serving). Weights & Biases (sweeps for hyperparameter
+optimization, report generation). Model serving – FastAPI +
+PyTorch (ONNX export for optimization), BentoML (runners,
+services, containerization), TorchServe, Triton Inference
+Server (concurrent model execution, dynamic batching).
+Model optimization – quantization (INT8, INT4), pruning,
+knowledge distillation, TensorRT, ONNX Runtime.
+Deploy an LLM inference API
+achieving <500ms latency
+Month 10 Distributed Training & Scaling: Data Parallelism (DDP –
+DistributedDataParallel), Model Parallelism
+(tensor/pipeline/sequence), ZeRO Optimizer (DeepSpeed
+stages 1/2/3). HuggingFace Accelerate. Training LLMs at
+scale (GPT architecture scaling laws, Chinchilla scaling). Ray
+Train & Ray Tune for distributed training and HPO. GPU
+memory optimization – gradient checkpointing, mixed
+precision training (FP16, BF16). Flash Attention 2. Efficient
+attention mechanisms.
+Run a distributed training job on
+4 GPUs with DDP
+Month 11 Reinforcement Learning & Advanced Topics: RL
+fundamentals – Markov Decision Process, Q-Learning, DQN,
+Policy Gradient (REINFORCE), Actor-Critic (A2C, A3C, PPO,
+SAC). RLHF pipeline for LLMs (reward model training, PPO
+optimization). Multi-arm bandit (for recommendation
+systems). Graph Neural Networks (GNN) – GCN, GAT,
+GraphSAGE, applications in social networks, molecular
+property prediction, recommendation. Diffusion Models
+theory – score matching, DDPM, DDIM, classifier-free
+guidance.
+Implement PPO from scratch for
+CartPole environment
+
+-- 40 of 45 --
+
+Page 41	Placement Assistance System | RAG Knowledge Base v1.0
+Week / Phase Topics Covered Deliverable / Goal
+Month 12 AI Systems Capstone + Research Literacy: Build a complete
+AI system: Option A – Production RAG chatbot with
+evaluation framework, hallucination detection, safety
+guardrails, latency optimization, cost monitoring. Option B –
+Multimodal app (image + text understanding). Option C – AI
+agent with tool use, memory, and planning. How to read ML
+papers (NeurIPS, ICML, ICLR, ACL, CVPR). Understand
+recent influential papers: Attention Is All You Need, BERT,
+GPT-3/4, LLaMA, Stable Diffusion, LoRA, Flash Attention.
+Build paper summaries for GitHub.
+Build and demo your AI
+capstone system
+
+-- 41 of 45 --
+
+Page 42	Placement Assistance System | RAG Knowledge Base v1.0
+PART 13: INTERVIEW PREPARATION
+MASTER PLAN
+The Last 3 Months Before Placement Season
+n This section is for the final 3 months before placement season begins. It assumes you have completed your chosen career
+path roadmap and DSA preparation. The goal is to integrate everything and peak at the right time.
+13.1 Month 1 – Technical Interview Intensive
+Week / Phase Topics Covered Deliverable / Goal
+Week 1–2 LeetCode Grind Plan: Solve 5 problems/day. Distribution: 2
+Easy (warm-up) + 2 Medium (main) + 1 Hard (stretch). Focus
+on patterns: Two pointers, Sliding window, Binary search,
+Tree BFS/DFS, DP (1D). Review editorial for every problem
+you don't solve in 30 min. Use NeetCode 150 list as primary
+source. Track your solve rate, time taken, and revisit failures.
+Solve 70 LeetCode problems
+across all patterns
+Week 3 System Design Preparation: Study: Designing Data-Intensive
+Applications (Chapters 1–9). Topics to master: CAP theorem,
+database replication, partitioning/sharding, consistent
+hashing, SQL vs NoSQL tradeoffs, message queues,
+caching (Redis, Memcached), CDN, load balancers. Practice
+designs: URL shortener, Twitter feed, WhatsApp, Uber,
+Netflix, Google Drive.
+Complete 5 system design
+mock interviews
+Week 4 Company-Specific Preparation: For each target company,
+research: interview format (OA rounds, technical rounds, bar
+raiser/leadership), frequently asked DSA topics, system
+design expectations, coding language preference, culture fit
+assessment. FAANG – leetcode hard + system design +
+behavioral. Service companies (TCS/Infosys) – easy/medium
+DSA + aptitude + HR. Mid-tier product companies – medium
+DSA + project deep dive.
+Create a company-specific
+preparation checklist
+13.2 Month 2 – Mock Interviews & Weak Area Fixing
+
+-- 42 of 45 --
+
+Page 43	Placement Assistance System | RAG Knowledge Base v1.0
+Week / Phase Topics Covered Deliverable / Goal
+Week 5–6 Mock Interview Practice: Do 2 mock interviews per week on
+Pramp, Interviewing.io, or with peers. Full simulation: 45–60
+minutes, think aloud, no interruption, post-interview debrief.
+Common failure points: not clarifying problem before coding,
+not testing edge cases, not discussing time/space
+complexity, poor communication while coding, not recovering
+gracefully from wrong approaches.
+8 mock coding interviews total
+this period
+Week 7 Resume & Online Presence: Resume – 1 page, strong action
+verbs (Engineered, Architected, Optimised, Reduced,
+Increased), quantify impact ('Reduced API latency by 40%',
+'Built feature used by 10K+ users'), ATS-friendly format (no
+tables/images/columns that confuse parsers). LinkedIn –
+professional photo, compelling headline, detailed experience
+with keywords, 50+ skills endorsed, 3+ recommendations
+from professors/project partners. GitHub – pinned repos,
+detailed README with screenshots, live demo links.
+Send resume to 5 peers and 2
+seniors for review
+Week 8 Behavioural Interview Mastery: Prepare 15+ STAR stories
+covering: (1) Leadership (2) Teamwork & Conflict (3)
+Technical challenge overcome (4) Failure & learning (5)
+Innovation (6) Time management under pressure (7) Going
+above and beyond (8) Giving feedback. Amazon Leadership
+Principles deep dive – Customer Obsession, Bias for Action,
+Ownership, Invent & Simplify, Dive Deep, Have Backbone;
+Disagree & Commit, Deliver Results.
+Record video responses to 20
+HR questions, review critically
+13.3 Month 3 – Peak Performance & Active Applications
+Week / Phase Topics Covered Deliverable / Goal
+Week 9–10 Active Application Strategy: Apply to 5–10 companies per
+day (mix of tier 1, tier 2, tier 3). Use LinkedIn Easy Apply +
+company careers pages + referrals (most effective). Cold
+connect on LinkedIn – personalised message, not a
+template. Track everything in a spreadsheet (company, role,
+date applied, stage, notes, follow-up date). Tier 1 (FAANG,
+Dream companies): prepare extra hard, customise
+application. Tier 2 (mid-level product): prepare standard. Tier
+3 (service companies): have offer in pocket.
+Apply to 100+ companies with
+tracked spreadsheet
+Week 11 Final Technical Review: Quick revision of all DSA patterns –
+one problem per pattern per day. Revisit all hard problems
+that were not solved earlier. System design – 2 designs per
+day. Domain knowledge for your chosen path – be able to
+explain every technology in your stack clearly. 'Explain like
+I'm interviewing you' drill: explain React hooks, explain Kafka,
+explain Docker, explain ML model deployment etc. in 3
+minutes each.
+Pass 3 practice technical
+interviews without hints
+
+-- 43 of 45 --
+
+Page 44	Placement Assistance System | RAG Knowledge Base v1.0
+Week / Phase Topics Covered Deliverable / Goal
+Week 12 Offer & Negotiation: How to compare offers (base salary,
+bonus, ESOPs, growth opportunity, culture, tech stack,
+work-life balance). Salary negotiation script: always
+negotiate, have a competing offer (or imply one), be specific
+with a number, use silence as a tool. Deadline extension
+requests (professional template). How to accept/reject offers
+graciously (never burn bridges). Planning your first 90 days.
+Negotiate at least one offer
+(even for practice)
+13.4 Daily Schedule During Placement Season
+Time Activity Notes
+6:00–7:00 AM Morning run / exercise + breakfast Non-negotiable – mental performance
+7:00–9:00 AM LeetCode (2–3 problems) No phones, full focus mode
+9:00–11:00 AM Career path study or project work Depending on stage of preparation
+11:00–1:00 PM Applications or mock interviews Systematic, not random
+1:00–2:00 PM Lunch + break Disconnect completely
+2:00–4:00 PM System design / domain revision Deep work session
+4:00–5:00 PM Aptitude or verbal practice Company-specific
+5:00–6:00 PM Walk / exercise / decompression Avoid burnout
+6:00–8:00 PM Project work or resume tailoring Active output
+8:00–9:00 PM Reading: tech articles, DDIA, papers Broad knowledge
+9:00–10:00 PM Review of the day, plan tomorrow 5-minute journal
+10:30 PM Sleep 8 hours is mandatory
+13.5 Resources Summary
+n DSA: LeetCode, NeetCode.io, Striver's A2Z Sheet, GeeksForGeeks, CLRS (reference) | n System Design: DDIA
+(Kleppmann), ByteByteGo, System Design Primer (GitHub), Grokking System Design | n Aptitude: RS Aggarwal, IndiaBix,
+PrepInsta, company-specific previous papers | n Soft Skills: 'Speak with Impact' (Amy Jen Su), Toastmasters, Pramp for mock
+interviews | n Career Paths: Roadmap.sh, official documentation, freeCodeCamp, The Odin Project, CS50, fast.ai, Hugging
+Face courses | n Practice: HackerRank, Codeforces, HackTheBox, TryHackMe, Kaggle, DataLemur
+
+-- 44 of 45 --
+
+Page 45	Placement Assistance System | RAG Knowledge Base v1.0
+This document is the complete knowledge base for the Placement Assistance RAG Chatbot
+System. Every section is structured for vector embedding and semantic retrieval. Students
+should index their progress against these timetables and use the chatbot to get personalised
+guidance on any topic, week, or career path.
+
+-- 45 of 45 --
+

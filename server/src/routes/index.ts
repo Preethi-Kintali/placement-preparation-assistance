@@ -8,6 +8,9 @@ import { metaRouter } from "./meta";
 import { predictionRouter } from "./prediction";
 import { interviewRouter } from "./interview";
 import { activityRouter } from "./activity";
+import { jobsRouter } from "./jobs";
+import studyAssistantRouter from "./studyAssistant";
+import resumeAnalyzerRouter from "./resumeAnalyzer";
 
 export const apiRouter = Router();
 
@@ -20,3 +23,6 @@ apiRouter.use("/meta", metaRouter);
 apiRouter.use("/prediction", predictionRouter);
 apiRouter.use("/interview", interviewRouter);
 apiRouter.use("/activity", activityRouter);
+apiRouter.use("/jobs", jobsRouter);
+apiRouter.use("/study-assistant", studyAssistantRouter);
+apiRouter.use("/resume", resumeAnalyzerRouter);

@@ -13,6 +13,7 @@ export async function sendEmail(input: {
   to: string;
   subject: string;
   text: string;
+  html?: string;
 }): Promise<{ ok: boolean; skipped?: boolean; error?: string }> {
   if (!isConfigured()) return { ok: true, skipped: true };
 
@@ -30,6 +31,7 @@ export async function sendEmail(input: {
       to: input.to,
       subject: input.subject,
       text: input.text,
+      ...(input.html ? { html: input.html } : {}),
     });
 
     return { ok: true };

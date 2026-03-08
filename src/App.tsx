@@ -19,6 +19,8 @@ import ProfileEdit from "./pages/ProfileEdit";
 import Interview from "./pages/Interview";
 import StudyAssistant from "./pages/StudyAssistant";
 import Leaderboard from "./pages/Leaderboard";
+import JobSearch from "./pages/JobSearch";
+import ResumeAnalyzer from "./pages/ResumeAnalyzer";
 
 const queryClient = new QueryClient();
 
@@ -41,6 +43,8 @@ const App = () => (
               <Route path="/interview" element={<ProtectedRoute requiredRole="student"><Interview /></ProtectedRoute>} />
               <Route path="/study-assistant" element={<ProtectedRoute requiredRole="student"><StudyAssistant /></ProtectedRoute>} />
               <Route path="/leaderboard" element={<ProtectedRoute requiredRole="student"><Leaderboard /></ProtectedRoute>} />
+              <Route path="/jobs" element={<ProtectedRoute requiredRole="student"><JobSearch /></ProtectedRoute>} />
+              <Route path="/resume-analyzer" element={<ProtectedRoute requiredRole="student"><ResumeAnalyzer /></ProtectedRoute>} />
               <Route path="/exam/:type" element={<ProtectedRoute requiredRole="student"><Exam /></ProtectedRoute>} />
               <Route path="/admin" element={<ProtectedRoute requiredRole="admin"><AdminDashboard /></ProtectedRoute>} />
               <Route path="*" element={<NotFound />} />

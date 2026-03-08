@@ -90,9 +90,12 @@ export const api = {
     request<any>("/api/ai/chat", { method: "POST", body: JSON.stringify({ provider, message }) }),
 
   studyChat: (payload: { provider: "groq" | "gemini"; message: string; history?: Array<{ role: "user" | "assistant"; content: string }> }) =>
-    request<any>("/api/ai/study/chat", { method: "POST", body: JSON.stringify(payload) }),
-  studyContext: () => request<any>("/api/ai/study/context"),
-  studySessions: (limit = 10) => request<any>(`/api/ai/study/sessions?limit=${limit}`),
+    request<any>("/api/study-assistant/chat", { method: "POST", body: JSON.stringify(payload) }),
+  studyContext: () => request<any>("/api/study-assistant/context"),
+  studySessions: (limit = 10) => request<any>(`/api/study-assistant/sessions?limit=${limit}`),
+  ragStatus: () => request<any>("/api/study-assistant/rag-status"),
+  ragSources: (query: string, topK = 5) =>
+    request<any>("/api/study-assistant/rag-sources", { method: "POST", body: JSON.stringify({ query, topK }) }),
 
   activitySummary: () => request<any>("/api/activity/summary"),
   dailyLearningSubmit: (text: string) =>
@@ -101,4 +104,27 @@ export const api = {
     request<any>("/api/activity/new-tech", { method: "POST", body: JSON.stringify({ tech }) }),
   leaderboard: (careerPath?: string) =>
     request<any>(`/api/activity/leaderboard${careerPath ? `?careerPath=${encodeURIComponent(careerPath)}` : ""}`),
+
+  // ── Job Search ──
+  jobRoles: (q: string) => request<{ query: string; roles: string[] }>(`/api/jobs/roles?q=${encodeURIComponent(q)}`),
+  jobSearch: (role: string) => request<{ role: string; count: number; jobs: any[]; source: string }>(`/api/jobs/search?role=${encodeURIComponent(role)}`),
+
+  // ── Resume ATS Analyzer ──
+  resumeAnalyze: async (resumeFile: File, jdFile?: File | null) => {
+    const token = getToken();
+    const form = new FormData();
+    form.append("resume", resumeFile);
+    if (jdFile) form.append("jd", jdFile);
+    const headers: Record<string, string> = {};
+    if (token) headers["authorization"] = `Bearer ${token}`;
+    const res = await fetch(`${API_BASE}/api/resume/analyze`, {
+      method: "POST",
+      headers,
+      body: form,
+    });
+    const data = await res.json();
+    if (!res.ok) throw data;
+    return data;
+  },
+  resumeHistory: () => request<any>("/api/resume/history"),
 };

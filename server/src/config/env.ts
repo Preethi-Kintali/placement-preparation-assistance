@@ -27,11 +27,28 @@ const envSchema = z.object({
   STUDY_GEMINI_API_KEY: z.string().optional(),
   STUDY_GROQ_MODEL: z.string().optional(),
 
+  // Job Search (JSearch + Naukri via RapidAPI)
+  JSEARCH_BASE_URL: z.string().optional(),
+  JSEARCH_HOST: z.string().optional(),
+  JSEARCH_SEARCH_PATH: z.string().optional(),
+  JSEARCH_PAGES: z.coerce.number().int().positive().optional(),
+  NAUKRI_BASE_URL: z.string().optional(),
+  NAUKRI_HOST: z.string().optional(),
+  NAUKRI_DISCOVERY_PATH: z.string().optional(),
+
   // Optional email notifications (Nodemailer)
   SMTP_ENABLED: z.coerce.boolean().optional().default(false),
   SMTP_USER: z.string().optional(),
   SMTP_PASS: z.string().optional(),
   SMTP_FROM: z.string().optional(),
+
+  // Resume ATS Analyzer
+  RESUME_GEMINI_API_KEY: z.string().optional(),
+
+  // Additional fallback keys
+  OPENROUTER_API_KEY: z.string().optional(),
+  GROQ_API_KEY_2: z.string().optional(),
+  GEMINI_API_KEY_2: z.string().optional(),
 });
 
 export type Env = z.infer<typeof envSchema>;

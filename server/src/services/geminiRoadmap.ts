@@ -3,7 +3,7 @@ import { fetchJson } from "./http";
 import { roadmapSchema } from "./groq";
 import { z } from "zod";
 
-const GEMINI_MODEL = "gemini-2.0-pro-exp-02-05";
+const GEMINI_MODEL = "gemini-2.5-flash";
 
 type GeminiResponse = {
   candidates?: Array<{

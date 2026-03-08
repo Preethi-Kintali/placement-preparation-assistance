@@ -24,8 +24,28 @@ aiRouter.post("/chat", requireAuth, async (req, res) => {
   const { provider, message } = parsed.data;
 
   try {
-    const reply = provider === "groq" ? await groqChat(message) : await geminiChat(message);
-    return res.json({ provider, reply });
+    let reply: string;
+    let actualProvider = provider;
+
+    if (provider === "gemini") {
+      try {
+        reply = await geminiChat(message);
+      } catch (geminiErr: any) {
+        const msg = String(geminiErr?.message || "");
+        // On rate limit / quota errors → fall back to Groq
+        if (msg.includes("429") || msg.includes("quota") || msg.includes("RESOURCE_EXHAUSTED") || msg.includes("rate")) {
+          console.warn("[AI Chat] Gemini rate-limited, falling back to Groq");
+          reply = await groqChat(message);
+          actualProvider = "groq";
+        } else {
+          throw geminiErr;
+        }
+      }
+    } else {
+      reply = await groqChat(message);
+    }
+
+    return res.json({ provider: actualProvider, reply });
   } catch (e: any) {
     if (e instanceof HttpError) {
       return res.status(502).json({ error: "AI provider error", upstreamStatus: e.status, upstreamBody: e.body });

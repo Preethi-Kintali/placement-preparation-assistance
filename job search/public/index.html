@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Finder</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>Job Finder Module</h1>
+      <p class="sub">Search by role, view suggestions, and fetch latest jobs.</p>
+
+      <section class="card">
+        <label for="roleInput">Role</label>
+        <input id="roleInput" type="text" placeholder="full stack developer" />
+
+        <div class="actions">
+          <button id="suggestBtn">Get Related Roles</button>
+          <button id="jobsBtn">Fetch Jobs</button>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Role Suggestions</h2>
+        <ul id="rolesList" class="list"></ul>
+      </section>
+
+      <section class="card">
+        <h2>Jobs</h2>
+        <div id="jobsList" class="list"></div>
+      </section>
+
+      <section class="card">
+        <h2>Status</h2>
+        <pre id="statusBox">Ready</pre>
+      </section>
+    </main>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

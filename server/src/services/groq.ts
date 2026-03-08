@@ -1,61 +1,35 @@
-import { env } from "../config/env";
-import { fetchJson } from "./http";
 import { z } from "zod";
+import { chainChat } from "./aiChain";
 
 type GroqChatResponse = {
   choices: Array<{ message: { role: string; content: string } }>;
 };
 
+/**
+ * groqChat — AI chat powered by chain fallback.
+ * Tries Groq keys first, then Gemini keys → OpenRouter.
+ */
 export async function groqChat(message: string): Promise<string> {
-  if (!env.GROQ_API_KEY) throw new Error("GROQ_API_KEY not configured");
-
-  const data = await fetchJson<GroqChatResponse>("https://api.groq.com/openai/v1/chat/completions", {
-    method: "POST",
-    headers: {
-      "content-type": "application/json",
-      authorization: `Bearer ${env.GROQ_API_KEY}`,
-    },
-    body: JSON.stringify({
-      model: "llama-3.3-70b-versatile",
-      temperature: 0.3,
-      messages: [
-        {
-          role: "system",
-          content:
-            "You are PlacePrep AI. Help Indian engineering students with a practical placement roadmap: aptitude + DSA + soft skills + career-path tech. Be concise and actionable.",
-        },
-        { role: "user", content: message },
-      ],
-    }),
+  const { text } = await chainChat(message, {
+    system:
+      "You are PlacePrep AI. Help Indian engineering students with a practical placement roadmap: aptitude + DSA + soft skills + career-path tech. Be concise and actionable.",
+    groqModel: "llama-3.3-70b-versatile",
+    temperature: 0.3,
   });
-
-  return data.choices?.[0]?.message?.content ?? "";
+  return text;
 }
 
 export async function groqRequirements(careerPath: string): Promise<Record<string, unknown>> {
-  if (!env.GROQ_API_KEY) throw new Error("GROQ_API_KEY not configured");
-
   const prompt = `Generate a concise JSON of 2026 requirements for a ${careerPath}.\n\n` +
     `Return JSON ONLY with this schema:\n` +
     `{ "careerPath": string, "skills": { "technical": string[], "aptitude": string[], "dsa": string[], "softSkills": string[] } }`;
 
-  const data = await fetchJson<GroqChatResponse>("https://api.groq.com/openai/v1/chat/completions", {
-    method: "POST",
-    headers: {
-      "content-type": "application/json",
-      authorization: `Bearer ${env.GROQ_API_KEY}`,
-    },
-    body: JSON.stringify({
-      model: "llama-3.3-70b-versatile",
-      temperature: 0.2,
-      messages: [
-        { role: "system", content: "Return valid JSON only." },
-        { role: "user", content: prompt },
-      ],
-    }),
+  const { text: raw } = await chainChat(prompt, {
+    system: "Return valid JSON only.",
+    groqModel: "llama-3.3-70b-versatile",
+    temperature: 0.2,
   });
 
-  const raw = data.choices?.[0]?.message?.content ?? "{}";
   try {
     return JSON.parse(raw);
   } catch {
@@ -87,8 +61,6 @@ export async function groqRoadmap(input: {
   requirements: Record<string, unknown>;
   learnedTopics: string[];
 }): Promise<z.infer<typeof roadmapSchema>> {
-  if (!env.GROQ_API_KEY) throw new Error("GROQ_API_KEY not configured");
-
   const prompt =
     `You are generating a 12-week roadmap JSON for a ${input.careerPath} in 2026.\n` +
     `Use these role requirements JSON: ${JSON.stringify(input.requirements)}\n` +
@@ -105,23 +77,12 @@ export async function groqRoadmap(input: {
     `- Keep difficulty ascending across weeks.\n` +
     `- Each day must include a GeeksforGeeks search link in resources for that topic.`;
 
-  const data = await fetchJson<GroqChatResponse>("https://api.groq.com/openai/v1/chat/completions", {
-    method: "POST",
-    headers: {
-      "content-type": "application/json",
-      authorization: `Bearer ${env.GROQ_API_KEY}`,
-    },
-    body: JSON.stringify({
-      model: "llama-3.3-70b-versatile",
-      temperature: 0.2,
-      messages: [
-        { role: "system", content: "Return valid JSON only. No markdown." },
-        { role: "user", content: prompt },
-      ],
-    }),
+  const { text: raw } = await chainChat(prompt, {
+    system: "Return valid JSON only. No markdown.",
+    groqModel: "llama-3.3-70b-versatile",
+    temperature: 0.2,
   });
 
-  const raw = data.choices?.[0]?.message?.content ?? "{}";
   const parsed = JSON.parse(raw);
   return roadmapSchema.parse(parsed);
 }
