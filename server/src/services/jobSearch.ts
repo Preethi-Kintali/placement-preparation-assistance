@@ -74,33 +74,44 @@ export async function fetchRoleSuggestions(queryText: string): Promise<string[]>
  * Fetch live job listings from JSearch (RapidAPI).
  */
 export async function fetchJobs(role: string): Promise<JobResult[]> {
-    if (!env.RAPIDAPI_KEY) return [];
+    if (!env.RAPIDAPI_KEY) {
+        console.error("[JobSearch] RAPIDAPI_KEY is missing!");
+        return [];
+    }
 
     const baseUrl = env.JSEARCH_BASE_URL || "https://jsearch.p.rapidapi.com";
     const host = env.JSEARCH_HOST || "jsearch.p.rapidapi.com";
     const searchPath = env.JSEARCH_SEARCH_PATH || "/search";
     const pages = env.JSEARCH_PAGES || 1;
 
-    const response = await axios.get(`${baseUrl}${searchPath}`, {
-        params: {
-            query: `${role} jobs in india`,
-            page: 1,
-            num_pages: pages,
-            country: "in",
-            date_posted: "all",
-        },
-        headers: buildRapidApiHeaders(host),
-        timeout: 20000,
-    });
+    console.log(`[JobSearch] Fetching jobs for "${role}" from ${baseUrl}${searchPath}`);
 
-    const list = Array.isArray(response?.data?.data) ? response.data.data : [];
+    try {
+        const response = await axios.get(`${baseUrl}${searchPath}`, {
+            params: {
+                query: `${role} jobs in india`,
+                page: 1,
+                num_pages: pages,
+                country: "in",
+                date_posted: "all",
+            },
+            headers: buildRapidApiHeaders(host),
+            timeout: 20000,
+        });
 
-    return list.slice(0, 10).map((job: any): JobResult => ({
-        title: job.job_title || "N/A",
-        company: job.employer_name || "N/A",
-        location:
-            job.job_location || job.job_city || job.job_state || job.job_country || "N/A",
-        applyLink: job.job_apply_link || job.job_google_link || "",
-        posted: job.job_posted_at_datetime_utc || job.job_posted_human_readable || "",
-    }));
+        const list = Array.isArray(response?.data?.data) ? response.data.data : [];
+        console.log(`[JobSearch] Got ${list.length} results for "${role}"`);
+
+        return list.slice(0, 10).map((job: any): JobResult => ({
+            title: job.job_title || "N/A",
+            company: job.employer_name || "N/A",
+            location:
+                job.job_location || job.job_city || job.job_state || job.job_country || "N/A",
+            applyLink: job.job_apply_link || job.job_google_link || "",
+            posted: job.job_posted_at_datetime_utc || job.job_posted_human_readable || "",
+        }));
+    } catch (err: any) {
+        console.error("[JobSearch] API Error:", err?.response?.status, err?.response?.data || err.message);
+        throw err;
+    }
 }
