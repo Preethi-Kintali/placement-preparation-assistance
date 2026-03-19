@@ -1,7 +1,7 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 // Auto-detected LAN IP — your phone must be on the same Wi-Fi as this PC
-const API_BASE = 'http://10.247.106.60:4000';
+const API_BASE = 'http://10.64.42.13:4000';
 
 export async function getToken(): Promise<string | null> {
     return AsyncStorage.getItem('auth_token');
@@ -47,6 +47,9 @@ export const api = {
     login: (payload: any) => request<{ token: string; user: any }>('/api/auth/login', { method: 'POST', body: JSON.stringify(payload) }),
     me: () => request<any>('/api/auth/me'),
     updateProfile: (payload: any) => request<any>('/api/auth/profile', { method: 'PATCH', body: JSON.stringify(payload) }),
+    forgotPassword: (email: string) => request<{ ok: boolean; message: string }>('/api/auth/forgot-password', { method: 'POST', body: JSON.stringify({ email }) }),
+    verifyOtp: (email: string, otp: string) => request<{ valid: boolean }>('/api/auth/verify-otp', { method: 'POST', body: JSON.stringify({ email, otp }) }),
+    resetPassword: (email: string, otp: string, newPassword: string) => request<{ ok: boolean; message: string }>('/api/auth/reset-password', { method: 'POST', body: JSON.stringify({ email, otp, newPassword }) }),
 
     // ── Exams ──
     examStatus: () => request<any>('/api/exams/status'),

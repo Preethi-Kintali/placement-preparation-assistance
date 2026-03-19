@@ -38,7 +38,7 @@ export default function LoginScreen() {
             <StatusBar style="light" />
             <ScrollView contentContainerStyle={styles.container} keyboardShouldPersistTaps="handled">
                 {/* Header */}
-                <LinearGradient colors={COLORS.gradPrimary} style={styles.iconBox}>
+                <LinearGradient colors={COLORS.gradPrimary as [string, string]} style={styles.iconBox}>
                     <Icon name="school" size={36} color="#fff" />
                 </LinearGradient>
                 <Text style={styles.title}>Welcome Back</Text>
@@ -76,8 +76,14 @@ export default function LoginScreen() {
                         </TouchableOpacity>
                     </View>
 
+                    {/* Forgot Password Link */}
+                    <TouchableOpacity onPress={() => router.push('/(auth)/forgot-password')} style={styles.forgotRow}>
+                        <Icon name="key-outline" size={14} color={COLORS.primary} />
+                        <Text style={styles.forgotText}>Forgot Password?</Text>
+                    </TouchableOpacity>
+
                     <TouchableOpacity style={styles.btnPrimary} onPress={handleLogin} disabled={loading}>
-                        <LinearGradient colors={COLORS.gradPrimary} style={styles.btnGrad} start={[0, 0]} end={[1, 0]}>
+                        <LinearGradient colors={COLORS.gradPrimary as [string, string]} style={styles.btnGrad} start={[0, 0]} end={[1, 0]}>
                             {loading
                                 ? <ActivityIndicator color="#fff" />
                                 : <Text style={styles.btnText}>Sign In</Text>}
@@ -105,7 +111,9 @@ const styles = StyleSheet.create({
     inputRow: { flexDirection: 'row', alignItems: 'center', backgroundColor: COLORS.bgInput, borderRadius: 12, paddingHorizontal: 14, height: 52, borderWidth: 1, borderColor: COLORS.bgBorder },
     inputIcon: { marginRight: 10 },
     input: { flex: 1, color: COLORS.text, fontSize: 15 },
-    btnPrimary: { marginTop: 24, borderRadius: 12, overflow: 'hidden' },
+    forgotRow: { flexDirection: 'row', alignItems: 'center', justifyContent: 'flex-end', marginTop: 12, gap: 4 },
+    forgotText: { color: COLORS.primary, fontSize: 13, fontWeight: '600' },
+    btnPrimary: { marginTop: 20, borderRadius: 12, overflow: 'hidden' },
     btnGrad: { height: 52, alignItems: 'center', justifyContent: 'center' },
     btnText: { color: '#fff', fontSize: 16, fontWeight: '700' },
     linkRow: { flexDirection: 'row', justifyContent: 'center', marginTop: 20 },

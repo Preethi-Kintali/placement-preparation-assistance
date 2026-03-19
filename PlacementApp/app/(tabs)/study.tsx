@@ -48,7 +48,7 @@ export default function StudyScreen() {
     };
 
     return (
-        <KeyboardAvoidingView style={{ flex: 1, backgroundColor: COLORS.bg }} behavior={Platform.OS === 'ios' ? 'padding' : 'height'}>
+        <KeyboardAvoidingView style={{ flex: 1, backgroundColor: COLORS.bg }} behavior="padding" keyboardVerticalOffset={Platform.OS === 'ios' ? 90 : 0}>
             <StatusBar style="light" />
             {/* Header */}
             <LinearGradient colors={['#1a1a2e', COLORS.bg] as const} style={s.header}>
@@ -81,7 +81,7 @@ export default function StudyScreen() {
             </LinearGradient>
 
             {/* Messages */}
-            <ScrollView ref={scrollRef} style={{ flex: 1, padding: 16 }} onContentSizeChange={() => scrollRef.current?.scrollToEnd()}>
+            <ScrollView ref={scrollRef} style={{ flex: 1, padding: 16 }} onContentSizeChange={() => scrollRef.current?.scrollToEnd()} keyboardShouldPersistTaps="handled">
                 {messages.length === 0 && (
                     <View style={{ alignItems: 'center', marginTop: 40 }}>
                         <Icon name="chatbubbles" size={40} color={COLORS.textDim} />
@@ -128,7 +128,7 @@ export default function StudyScreen() {
                     onSubmitEditing={send}
                 />
                 <TouchableOpacity onPress={send} disabled={loading || !input.trim()}>
-                    <LinearGradient colors={input.trim() ? COLORS.gradPrimary : [COLORS.bgCard, COLORS.bgCard] as [string, string]}
+                    <LinearGradient colors={input.trim() ? COLORS.gradPrimary as [string, string] : [COLORS.bgCard, COLORS.bgCard] as [string, string]}
                         style={s.sendBtn}>
                         <Icon name="send" size={18} color={input.trim() ? '#fff' : COLORS.textDim} />
                     </LinearGradient>
@@ -152,7 +152,7 @@ const s = StyleSheet.create({
     userMsg: { alignSelf: 'flex-end', backgroundColor: COLORS.primary, borderBottomRightRadius: 4 },
     aiMsg: { alignSelf: 'flex-start', backgroundColor: COLORS.bgCard, borderBottomLeftRadius: 4, borderWidth: 1, borderColor: COLORS.bgBorder, flexDirection: 'row', flexWrap: 'wrap' },
     msgText: { color: COLORS.textMuted, fontSize: 14, lineHeight: 22 },
-    inputRow: { flexDirection: 'row', gap: 8, padding: 12, paddingBottom: Platform.OS === 'ios' ? 28 : 12, borderTopWidth: 1, borderTopColor: COLORS.bgBorder, backgroundColor: COLORS.bg },
-    textInput: { flex: 1, backgroundColor: COLORS.bgCard, borderRadius: 14, paddingHorizontal: 14, paddingVertical: 10, color: COLORS.text, fontSize: 14, maxHeight: 100, borderWidth: 1, borderColor: COLORS.bgBorder },
+    inputRow: { flexDirection: 'row', gap: 8, padding: 12, paddingBottom: Platform.OS === 'ios' ? 28 : 14, borderTopWidth: 1, borderTopColor: COLORS.bgBorder, backgroundColor: COLORS.bgCard, alignItems: 'flex-end' },
+    textInput: { flex: 1, backgroundColor: COLORS.bg, borderRadius: 14, paddingHorizontal: 14, paddingVertical: 10, color: COLORS.text, fontSize: 14, minHeight: 44, maxHeight: 100, borderWidth: 1, borderColor: COLORS.bgBorder },
     sendBtn: { width: 44, height: 44, borderRadius: 14, alignItems: 'center', justifyContent: 'center' },
 });

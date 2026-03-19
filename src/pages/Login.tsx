@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
-import { GraduationCap, Mail, Lock, ArrowRight } from "lucide-react";
+import { GraduationCap, Mail, Lock, ArrowRight, KeyRound } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -83,6 +83,13 @@ export default function Login() {
                     required
                   />
                 </div>
+              </div>
+
+              <div className="flex justify-end">
+                <Link to="/forgot-password" className="text-sm text-primary hover:underline flex items-center gap-1">
+                  <KeyRound className="w-3.5 h-3.5" />
+                  Forgot Password?
+                </Link>
               </div>
 
               <Button type="submit" className="w-full gradient-primary text-primary-foreground border-0 gap-2">

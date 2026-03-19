@@ -7,6 +7,7 @@ import { env } from "../config/env";
 import { User } from "../models/User";
 import mongoose from "mongoose";
 import { requireAuth } from "../middleware/auth";
+import { sendEmail } from "../services/mailer";
 
 export const authRouter = Router();
 
@@ -314,4 +315,136 @@ authRouter.patch("/profile", requireAuth, async (req, res) => {
     profile: user.profile,
     gamification: user.gamification,
   });
+});
+
+// ═══════════════════════════════════════════════════════════════════════
+//  FORGOT PASSWORD — OTP Flow
+// ═══════════════════════════════════════════════════════════════════════
+
+interface OtpEntry {
+  otp: string;
+  expiresAt: number;
+  attempts: number;
+}
+
+const otpStore = new Map<string, OtpEntry>();
+
+function generateOtp(): string {
+  return String(Math.floor(100000 + Math.random() * 900000));
+}
+
+function cleanExpiredOtps() {
+  const now = Date.now();
+  for (const [key, entry] of otpStore) {
+    if (now > entry.expiresAt) otpStore.delete(key);
+  }
+}
+
+// Step 1: Request OTP
+authRouter.post("/forgot-password", async (req, res) => {
+  const parsed = z.object({ email: z.string().email() }).safeParse(req.body);
+  if (!parsed.success) return res.status(400).json({ error: "Please provide a valid email." });
+
+  const email = parsed.data.email.trim().toLowerCase();
+  const user = await User.findOne({ "profile.email": email });
+  if (!user) {
+    // Don't reveal whether an account exists — still return ok
+    return res.json({ ok: true, message: "If an account with that email exists, an OTP has been sent." });
+  }
+
+  cleanExpiredOtps();
+  const otp = generateOtp();
+  const OTP_TTL_MS = 10 * 60 * 1000; // 10 minutes
+
+  otpStore.set(email, {
+    otp,
+    expiresAt: Date.now() + OTP_TTL_MS,
+    attempts: 0,
+  });
+
+  console.log(`[Auth] OTP for ${email}: ${otp}`);
+
+  // Send via email
+  const result = await sendEmail({
+    to: email,
+    subject: "🔑 PlacePrep — Password Reset OTP",
+    text: `Your OTP to reset your password is: ${otp}\n\nThis OTP expires in 10 minutes. If you did not request this, please ignore this email.`,
+    html: `
+      <div style="font-family:'Segoe UI',Arial,sans-serif;max-width:480px;margin:0 auto;">
+        <div style="background:linear-gradient(135deg,#6c63ff,#9c5fff);padding:24px;border-radius:12px 12px 0 0;text-align:center;">
+          <h1 style="color:#fff;margin:0;font-size:22px;">🔑 Password Reset</h1>
+        </div>
+        <div style="background:#fff;padding:24px;border:1px solid #eee;border-top:none;text-align:center;">
+          <p style="color:#333;font-size:15px;margin-bottom:16px;">Your one-time password is:</p>
+          <div style="font-size:36px;font-weight:900;letter-spacing:8px;color:#6c63ff;background:#f4f4ff;padding:16px;border-radius:12px;display:inline-block;">${otp}</div>
+          <p style="color:#888;font-size:13px;margin-top:16px;">This OTP expires in <strong>10 minutes</strong>.</p>
+        </div>
+        <div style="padding:12px;text-align:center;background:#f9fafb;border-radius:0 0 12px 12px;border:1px solid #eee;border-top:none;">
+          <p style="color:#aaa;font-size:11px;margin:0;">If you didn't request this, please ignore this email.</p>
+        </div>
+      </div>`,
+  });
+
+  if (result.skipped) {
+    console.log(`[Auth] SMTP not configured — OTP logged to console above`);
+  }
+
+  return res.json({ ok: true, message: "If an account with that email exists, an OTP has been sent." });
+});
+
+// Step 2: Verify OTP
+authRouter.post("/verify-otp", async (req, res) => {
+  const parsed = z.object({ email: z.string().email(), otp: z.string().length(6) }).safeParse(req.body);
+  if (!parsed.success) return res.status(400).json({ error: "Please provide email and 6-digit OTP." });
+
+  const email = parsed.data.email.trim().toLowerCase();
+  const entry = otpStore.get(email);
+
+  if (!entry) return res.status(400).json({ error: "No OTP was requested for this email. Please request a new one." });
+  if (Date.now() > entry.expiresAt) {
+    otpStore.delete(email);
+    return res.status(400).json({ error: "OTP has expired. Please request a new one." });
+  }
+  if (entry.attempts >= 5) {
+    otpStore.delete(email);
+    return res.status(429).json({ error: "Too many failed attempts. Please request a new OTP." });
+  }
+
+  if (entry.otp !== parsed.data.otp) {
+    entry.attempts++;
+    return res.status(400).json({ error: "Invalid OTP. Please try again." });
+  }
+
+  return res.json({ valid: true });
+});
+
+// Step 3: Reset Password
+authRouter.post("/reset-password", async (req, res) => {
+  const parsed = z.object({
+    email: z.string().email(),
+    otp: z.string().length(6),
+    newPassword: z.string().min(8),
+  }).safeParse(req.body);
+  if (!parsed.success) return res.status(400).json({ error: parsed.error.flatten() });
+
+  const email = parsed.data.email.trim().toLowerCase();
+  const entry = otpStore.get(email);
+
+  if (!entry) return res.status(400).json({ error: "No OTP was requested for this email." });
+  if (Date.now() > entry.expiresAt) {
+    otpStore.delete(email);
+    return res.status(400).json({ error: "OTP has expired. Please request a new one." });
+  }
+  if (entry.otp !== parsed.data.otp) {
+    return res.status(400).json({ error: "Invalid OTP." });
+  }
+
+  const user = await User.findOne({ "profile.email": email });
+  if (!user) return res.status(404).json({ error: "User not found." });
+
+  user.passwordHash = await bcrypt.hash(parsed.data.newPassword, 12);
+  await user.save();
+
+  otpStore.delete(email);
+  return res.json({ ok: true, message: "Password has been reset successfully. You can now login." });
 });
