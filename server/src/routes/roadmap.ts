@@ -20,7 +20,7 @@ import {
   utcDateKey,
   checkAndUnlockRoadmapBadges,
 } from "../services/gamification";
-import { sendEmail } from "../services/mailer";
+import { sendEmailInBackground } from "../services/mailer";
 
 function makeCertificateId(): string {
   const alphabet = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789";
@@ -297,7 +297,7 @@ roadmapRouter.post("/days/complete", requireAuth, async (req, res) => {
     const to = String((u as any)?.profile?.email ?? "").trim();
     if (to && (checkIn as any)?.awarded && (checkIn as any)?.streakMilestone) {
       const milestone = Number((checkIn as any).streakMilestone);
-      await sendEmail({
+      sendEmailInBackground({
         to,
         subject: `PlacePrep: ${milestone}-day streak milestone!`,
         text:
@@ -484,7 +484,7 @@ roadmapRouter.post("/weeks/:week/test/submit", requireAuth, async (req, res) => 
     const u = await User.findById(req.user!.userId).select({ "profile.email": 1, "profile.fullName": 1 }).lean();
     const to = String((u as any)?.profile?.email ?? "").trim();
     if (to) {
-      await sendEmail({
+      sendEmailInBackground({
         to,
         subject: `PlacePrep: Weekly test completed (Week ${week})`,
         text:
@@ -689,7 +689,7 @@ roadmapRouter.post("/grand-test/submit", requireAuth, async (req, res) => {
   try {
     const to = String((user as any)?.profile?.email ?? "").trim();
     if (to) {
-      await sendEmail({
+      sendEmailInBackground({
         to,
         subject: `PlacePrep: Grand test ${passed ? "passed" : "completed"}`,
         text:

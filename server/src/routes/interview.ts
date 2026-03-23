@@ -8,7 +8,7 @@ import { RoadmapProgress } from "../models/RoadmapProgress";
 import { InterviewSession } from "../models/InterviewSession";
 import { User } from "../models/User";
 import { checkAndUnlockInterviewBadges, recordActivity, utcDateKey } from "../services/gamification";
-import { sendEmail } from "../services/mailer";
+import { sendEmailInBackground } from "../services/mailer";
 
 type ProviderId = "groq" | "gemini";
 
@@ -378,7 +378,7 @@ interviewRouter.post("/sessions", requireAuth, async (req, res) => {
     const u = await User.findById(req.user!.userId).select({ "profile.email": 1, "profile.fullName": 1 }).lean();
     const to = String((u as any)?.profile?.email ?? "").trim();
     if (to) {
-      await sendEmail({
+      sendEmailInBackground({
         to,
         subject: "PlacePrep: AI Interview completed",
         text:

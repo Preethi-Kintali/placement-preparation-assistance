@@ -1,7 +1,7 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-// Auto-detected LAN IP — your phone must be on the same Wi-Fi as this PC
-const API_BASE = 'http://10.64.42.13:4000';
+// Production backend on Render
+const API_BASE = 'https://placeprep-api.onrender.com';
 
 export async function getToken(): Promise<string | null> {
     return AsyncStorage.getItem('auth_token');

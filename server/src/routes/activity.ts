@@ -16,7 +16,7 @@ import {
   recordActivity,
   utcDateKey,
 } from "../services/gamification";
-import { sendEmail } from "../services/mailer";
+import { sendEmailInBackground } from "../services/mailer";
 
 export const activityRouter = Router();
 
@@ -47,7 +47,7 @@ activityRouter.post("/daily-learning", requireAuth, async (req, res) => {
       const to = String((u as any)?.profile?.email ?? "").trim();
       if (to) {
         const milestone = Number((checkIn as any).streakMilestone);
-        await sendEmail({
+        sendEmailInBackground({
           to,
           subject: `PlacePrep: ${milestone}-day streak milestone!`,
           text:

@@ -8,7 +8,7 @@ import { computeGrade } from "../services/grading";
 import { User } from "../models/User";
 import { ExamSession } from "../models/ExamSession";
 import { checkAndUnlockExamBadges, recordActivity, utcDateKey } from "../services/gamification";
-import { sendEmail } from "../services/mailer";
+import { sendEmailInBackground } from "../services/mailer";
 
 export const examRouter = Router();
 
@@ -183,26 +183,22 @@ examRouter.post("/submit", requireAuth, async (req, res) => {
 
   const unlockedBadges = await checkAndUnlockExamBadges(req.user!.userId, percentage);
 
-  // Optional email notification
-  try {
-    const u = await User.findById(req.user!.userId).select({ "profile.email": 1, "profile.fullName": 1 }).lean();
-    const to = String((u as any)?.profile?.email ?? "").trim();
-    if (to) {
-      const name = String((u as any)?.profile?.fullName ?? "Student");
-      await sendEmail({
-        to,
-        subject: `PlacePrep: ${examType.toUpperCase()} exam completed`,
-        text:
-          `Hi ${name},\n\n` +
-          `You completed the ${examType.toUpperCase()} exam.\n` +
-          `Score: ${score}/${totalQuestions} (${Math.round(percentage)}%)\n` +
-          `Grade: ${grade}\n\n` +
-          `Keep going!\n` +
-          `PlacePrep`,
-      });
-    }
-  } catch {
-    // ignore email failures
+  // Fire-and-forget email notification (don't block response)
+  const u = await User.findById(req.user!.userId).select({ "profile.email": 1, "profile.fullName": 1 }).lean();
+  const to = String((u as any)?.profile?.email ?? "").trim();
+  if (to) {
+    const name = String((u as any)?.profile?.fullName ?? "Student");
+    sendEmailInBackground({
+      to,
+      subject: `PlacePrep: ${examType.toUpperCase()} exam completed`,
+      text:
+        `Hi ${name},\n\n` +
+        `You completed the ${examType.toUpperCase()} exam.\n` +
+        `Score: ${score}/${totalQuestions} (${Math.round(percentage)}%)\n` +
+        `Grade: ${grade}\n\n` +
+        `Keep going!\n` +
+        `PlacePrep`,
+    });
   }
 
   return res.status(201).json({
