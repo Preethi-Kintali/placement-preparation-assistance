@@ -13,6 +13,7 @@ import studyAssistantRouter from "./studyAssistant";
 import resumeAnalyzerRouter from "./resumeAnalyzer";
 import { alertsRouter } from "./alerts";
 import { knowledgeRouter } from "./knowledge";
+import { interviewV2Router } from "./interviewV2";
 
 export const apiRouter = Router();
 
@@ -24,6 +25,7 @@ apiRouter.use("/ai", aiRouter);
 apiRouter.use("/meta", metaRouter);
 apiRouter.use("/prediction", predictionRouter);
 apiRouter.use("/interview", interviewRouter);
+apiRouter.use("/interview-v2", interviewV2Router);
 apiRouter.use("/activity", activityRouter);
 apiRouter.use("/jobs", jobsRouter);
 apiRouter.use("/study-assistant", studyAssistantRouter);

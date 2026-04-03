@@ -170,4 +170,17 @@ export const api = {
     return data;
   },
   resumeHistory: () => request<any>("/api/resume/history"),
+
+  // ── Interview V2 (Company + Resume) ──
+  interviewCompanies: () => request<any>("/api/interview-v2/companies"),
+  interviewCompanyQuestions: (companyId: string, limit = 10, difficulty = "all") =>
+    request<any>(`/api/interview-v2/company-questions/${companyId}?limit=${limit}&difficulty=${difficulty}`),
+  interviewCompanyAIQuestion: (payload: { title: string; difficulty: string; companyName: string }) =>
+    request<any>("/api/interview-v2/company-interview-question", { method: "POST", body: JSON.stringify(payload) }),
+  interviewResumeExtract: (resumeText: string) =>
+    request<any>("/api/interview-v2/resume-extract", { method: "POST", body: JSON.stringify({ resumeText }) }),
+  interviewResumeQuestions: (payload: { skills: string[]; topics: string[]; experienceLevel: string }) =>
+    request<any>("/api/interview-v2/resume-questions", { method: "POST", body: JSON.stringify(payload) }),
+  companyPrep: (payload: { companyId: string; companyName: string }) =>
+    request<any>("/api/interview-v2/company-prep", { method: "POST", body: JSON.stringify(payload) }),
 };

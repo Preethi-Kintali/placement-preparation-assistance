@@ -54,6 +54,7 @@ export function Navbar() {
       { label: "Study Assistant", path: "/study-assistant" },
       { label: "Job Search", path: "/jobs" },
       { label: "Resume ATS", path: "/resume-analyzer" },
+      { label: "Company Prep", path: "/company-prep" },
     ];
   };
 
