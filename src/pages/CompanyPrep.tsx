@@ -7,7 +7,7 @@ import { Input } from "@/components/ui/input";
 import { Card } from "@/components/ui/card";
 import { api } from "@/lib/api";
 
-type Company = { id: string; name: string; emoji: string; logo: string; totalQuestions: number; easy: number; medium: number; hard: number };
+type Company = { id: string; name: string; logo: string; totalQuestions: number; easy: number; medium: number; hard: number };
 type PrepData = {
   companyId: string; companyName: string; totalQuestions: number;
   difficulty: { easy: number; medium: number; hard: number };
@@ -76,8 +76,8 @@ export default function CompanyPrep() {
             </button>
 
             <div className="flex items-center gap-4 mb-6">
-              <div className="w-16 h-16 rounded-2xl bg-muted/50 flex items-center justify-center text-3xl">
-                {selectedCompany.emoji}
+              <div className="w-16 h-16 rounded-2xl bg-white dark:bg-muted/50 flex items-center justify-center overflow-hidden border border-border/50">
+                <img src={selectedCompany.logo} alt={selectedCompany.name} className="w-10 h-10 object-contain" onError={e => { (e.target as HTMLImageElement).style.display = 'none'; (e.target as HTMLImageElement).parentElement!.innerHTML = `<span class='text-2xl font-bold text-muted-foreground'>${selectedCompany.name.charAt(0)}</span>`; }} />
               </div>
               <div>
                 <h1 className="text-2xl md:text-3xl font-bold">{selectedCompany.name}</h1>
@@ -222,8 +222,8 @@ export default function CompanyPrep() {
                     onClick={() => openPrepSheet(c)}
                   >
                     <div className="flex items-center gap-3 mb-3">
-                      <div className="w-12 h-12 rounded-xl bg-muted/50 flex items-center justify-center text-2xl flex-shrink-0 group-hover:scale-110 transition-transform">
-                        {c.emoji}
+                      <div className="w-12 h-12 rounded-xl bg-white dark:bg-muted/50 flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform overflow-hidden border border-border/50">
+                        <img src={c.logo} alt={c.name} className="w-8 h-8 object-contain" onError={e => { (e.target as HTMLImageElement).style.display = 'none'; (e.target as HTMLImageElement).parentElement!.innerHTML = `<span class='text-lg font-bold text-muted-foreground'>${c.name.charAt(0)}</span>`; }} />
                       </div>
                       <div className="min-w-0 flex-1">
                         <div className="font-semibold text-sm truncate">{c.name}</div>

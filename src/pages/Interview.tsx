@@ -14,7 +14,7 @@ type ChatMessage = { role: "ai" | "user"; text: string };
 type AnswerRecord = { topic: string; question: string; answer: string; score: number; feedback: string; quickTip: string };
 type InterviewSessionSummary = { id: string; currentWeek: number; topics: string[]; overallScore: number; communicationScore: number; dsaScore: number; technicalScore: number; durationSeconds: number; completedAt: string; answers: AnswerRecord[] };
 type CompanyQuestion = { id: string; title: string; acceptance: string; difficulty: string; frequency: number; link: string };
-type Company = { id: string; name: string; emoji: string; logo: string; totalQuestions: number; easy: number; medium: number; hard: number };
+type Company = { id: string; name: string; logo: string; totalQuestions: number; easy: number; medium: number; hard: number };
 type TabId = "weekly" | "resume" | "company";
 
 // ─── Shared voice interview engine ────────────────────────────
@@ -132,7 +132,11 @@ function WeeklyTab() {
         try { await api.interviewSaveSession({ currentWeek, topics, durationSeconds: Math.floor((Date.now() - startedAt) / 1000), answers: all }); setSaveMsg("Saved!"); } catch { setSaveMsg("Save failed."); } finally { setSavingSession(false); }
         setStage("final"); return;
       }
-      setQIdx(next); await askQ(questions[next]);
+      setQIdx(next);
+      const transition = ["Good answer. Let's move to the next question.", "Alright, moving on to the next one.", "Okay, here's the next question.", "Great, let's continue."][Math.floor(Math.random() * 4)];
+      v.addMessage("ai", transition);
+      await v.speakText(transition);
+      await askQ(questions[next]);
     } catch (e: any) { v.addMessage("ai", e?.error ?? "Evaluation failed."); } finally { v.setSubmitting(false); }
   };
 
@@ -301,6 +305,9 @@ function ResumeTab() {
         return;
       }
       setQIdx(next);
+      const transition = ["Good answer. Let's move to the next question.", "Alright, moving on to the next one.", "Okay, here's the next question.", "Great, let's continue."][Math.floor(Math.random() * 4)];
+      v.addMessage("ai", transition);
+      await v.speakText(transition);
       const nq = questions[next];
       v.addMessage("ai", `📌 ${nq.topic}\n\n${nq.question}`);
       await v.speakText(nq.question); v.startListening();
@@ -551,6 +558,9 @@ function CompanyTab() {
         return;
       }
       setQIdx(next);
+      const transition = ["Good answer. Let's move to the next question.", "Alright, moving on to the next one.", "Okay, here's the next question.", "Great, let's continue."][Math.floor(Math.random() * 4)];
+      v.addMessage("ai", transition);
+      await v.speakText(transition);
       const nq = questions[next]; v.addMessage("ai", `Topic: ${nq.topic}\nQuestion: ${nq.question}`); await v.speakText(nq.question); v.startListening();
     } catch { v.addMessage("ai", "Evaluation failed."); } finally { v.setSubmitting(false); }
   };
@@ -576,8 +586,8 @@ function CompanyTab() {
           {filtered.map(c => (
             <Card key={c.id} className="p-4 cursor-pointer hover:border-primary/50 hover:shadow-md transition-all" onClick={() => startCompanyInterview(c)}>
               <div className="flex items-center gap-3 mb-2">
-                <div className="w-10 h-10 rounded-lg bg-muted/50 flex items-center justify-center text-xl flex-shrink-0">
-                  {c.emoji}
+                <div className="w-10 h-10 rounded-lg bg-white dark:bg-muted/50 flex items-center justify-center flex-shrink-0 overflow-hidden border border-border/50">
+                  <img src={c.logo} alt={c.name} className="w-7 h-7 object-contain" onError={e => { (e.target as HTMLImageElement).style.display = 'none'; (e.target as HTMLImageElement).parentElement!.textContent = c.name.charAt(0); }} />
                 </div>
                 <div className="min-w-0">
                   <div className="font-semibold text-sm truncate">{c.name}</div>
