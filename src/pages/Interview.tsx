@@ -174,16 +174,16 @@ function WeeklyTab() {
 // ─── Resume Interview Tab ─────────────────────────────────────
 function ResumeTab() {
   const v = useVoiceInterview();
-  const [stage, setStage] = useState<"upload" | "interview" | "final">("upload");
+  const [stage, setStage] = useState<"upload" | "preparing" | "ready" | "interview" | "final">("upload");
   const [resumeText, setResumeText] = useState("");
-  const [extracting, setExtracting] = useState(false);
+  const [fileName, setFileName] = useState("");
   const [skills, setSkills] = useState<string[]>([]);
   const [topics, setTopics] = useState<string[]>([]);
   const [expLevel, setExpLevel] = useState("mid");
   const [questions, setQuestions] = useState<InterviewQuestion[]>([]);
   const [qIdx, setQIdx] = useState(0);
-  const [loadingQs, setLoadingQs] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [prepStep, setPrepStep] = useState(0);
 
   const current = questions[qIdx] ?? null;
   const total = questions.length;
@@ -191,32 +191,65 @@ function ResumeTab() {
 
   const handleFile = async (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0]; if (!file) return;
-    // Read PDF as text (basic extraction)
+    setFileName(file.name);
     const text = await file.text();
     setResumeText(text.slice(0, 5000));
   };
 
-  const extractSkills = async () => {
-    if (!resumeText || resumeText.length < 20) { setError("Please paste or upload resume text."); return; }
-    setExtracting(true); setError(null);
-    try {
-      const r = await api.interviewResumeExtract(resumeText);
-      setSkills(r.skills || []); setTopics(r.topics || []); setExpLevel(r.experienceLevel || "mid");
-    } catch (e: any) { setError(e?.error ?? "Failed to extract skills"); } finally { setExtracting(false); }
+  const handleDrop = async (e: React.DragEvent) => {
+    e.preventDefault();
+    const file = e.dataTransfer.files?.[0]; if (!file) return;
+    setFileName(file.name);
+    const text = await file.text();
+    setResumeText(text.slice(0, 5000));
   };
 
-  const startInterview = async () => {
-    setLoadingQs(true); setError(null);
+  // Single-click: extract skills + generate questions + start
+  const handleStartInterview = async () => {
+    if (!resumeText || resumeText.length < 20) { setError("Please upload or paste your resume first."); return; }
+    setError(null); setStage("preparing"); setPrepStep(1);
+
+    try {
+      // Step 1: Extract skills
+      const ext = await api.interviewResumeExtract(resumeText);
+      const sk = ext.skills || []; const tp = ext.topics || []; const el = ext.experienceLevel || "mid";
+      setSkills(sk); setTopics(tp); setExpLevel(el);
+      setPrepStep(2);
+
+      // Step 2: Generate questions
+      const r = await api.interviewResumeQuestions({ skills: sk, topics: tp, experienceLevel: el });
+      const qs = r?.questions ?? [];
+      if (!qs.length) throw new Error("Could not generate questions from resume");
+      setQuestions(qs);
+      setPrepStep(3);
+
+      // Step 3: Ready — show brief summary before starting
+      setStage("ready");
+    } catch (e: any) {
+      setError(e?.error ?? e?.message ?? "Failed to analyze resume");
+      setStage("upload");
+    }
+  };
+
+  const beginInterview = async () => {
     try {
       await v.ensureMic();
-      const r = await api.interviewResumeQuestions({ skills, topics, experienceLevel: expLevel });
-      const qs = r?.questions ?? [];
-      if (!qs.length) throw new Error("No questions generated");
-      setQuestions(qs); setQIdx(0); v.setAnswers([]); v.setChat([]); v.setAnswerText(""); setStage("interview");
-      v.addMessage("ai", "Resume-based interview starting. I'll ask questions based on your skills.");
-      await v.speakText("Resume based interview starting.");
-      const q = qs[0]; v.addMessage("ai", `Topic: ${q.topic}\nQuestion: ${q.question}`); await v.speakText(q.question); v.startListening();
-    } catch (e: any) { setError(e?.error ?? e?.message ?? "Failed"); } finally { setLoadingQs(false); }
+      setStage("interview");
+      v.setChat([]); v.setAnswers([]); v.setAnswerText("");
+
+      // Professional intro
+      const intro = `Welcome to your resume-based interview. I've analyzed your profile and prepared ${questions.length} questions covering your skills and project experience. Let's begin.`;
+      v.addMessage("ai", intro);
+      await v.speakText(intro);
+
+      const q = questions[0];
+      v.addMessage("ai", `📌 ${q.topic}\n\n${q.question}`);
+      await v.speakText(q.question);
+      v.startListening();
+    } catch {
+      setError("Failed to start interview");
+      setStage("upload");
+    }
   };
 
   const submitAnswer = async () => {
@@ -226,48 +259,184 @@ function ResumeTab() {
     try {
       const r = await api.interviewScore({ topic: current.topic, question: current.question, answer });
       const score = Number(r?.score ?? 0);
-      v.addMessage("ai", `Score: ${score}/10\n${r?.feedback}\nTip: ${r?.quickTip}`);
+      v.addMessage("ai", `**Score: ${score}/10**\n\n${r?.feedback}\n\n💡 *${r?.quickTip}*`);
       const all = [...v.answers, { topic: current.topic, question: current.question, answer, score, feedback: r?.feedback ?? "", quickTip: r?.quickTip ?? "" }];
       v.setAnswers(all); v.setAnswerText("");
       const next = qIdx + 1;
       if (next >= questions.length) { setStage("final"); return; }
       setQIdx(next);
-      const nq = questions[next]; v.addMessage("ai", `Topic: ${nq.topic}\nQuestion: ${nq.question}`); await v.speakText(nq.question); v.startListening();
-    } catch (e: any) { v.addMessage("ai", "Evaluation failed."); } finally { v.setSubmitting(false); }
+      const nq = questions[next];
+      v.addMessage("ai", `📌 ${nq.topic}\n\n${nq.question}`);
+      await v.speakText(nq.question); v.startListening();
+    } catch { v.addMessage("ai", "Evaluation failed. Please try again."); } finally { v.setSubmitting(false); }
   };
 
+  // ── Upload Stage ──
   if (stage === "upload") return (
-    <div className="glass-card p-6 space-y-4">
-      <h2 className="text-xl font-bold flex items-center gap-2"><FileText className="w-5 h-5" /> Resume Interview</h2>
-      <p className="text-sm text-muted-foreground">Upload your resume or paste text — AI will extract skills and generate targeted interview questions.</p>
-      {error && <p className="text-sm text-destructive">{error}</p>}
-      <div className="space-y-3">
-        <label className="block">
-          <span className="text-sm font-medium">Upload Resume (PDF/TXT)</span>
-          <Input type="file" accept=".pdf,.txt,.doc,.docx" onChange={handleFile} className="mt-1" />
-        </label>
-        <textarea className="w-full min-h-[120px] rounded-xl border border-border bg-background p-3 text-sm" placeholder="Or paste your resume text here…" value={resumeText} onChange={e => setResumeText(e.target.value)} />
-        <Button onClick={extractSkills} disabled={extracting || !resumeText}>{extracting ? "Extracting skills…" : "Extract Skills"}</Button>
+    <div className="space-y-5">
+      <div className="glass-card p-6">
+        <div className="flex items-center gap-3 mb-4">
+          <div className="w-12 h-12 rounded-xl gradient-primary flex items-center justify-center">
+            <FileText className="w-6 h-6 text-primary-foreground" />
+          </div>
+          <div>
+            <h2 className="text-xl font-bold">Resume-Based Interview</h2>
+            <p className="text-sm text-muted-foreground">Upload your resume — AI will interview you on your skills, projects, and experience.</p>
+          </div>
+        </div>
+
+        {error && <p className="text-sm text-destructive bg-destructive/10 rounded-lg px-3 py-2 mb-4">{error}</p>}
+
+        {/* Upload Area */}
+        <div
+          className={`relative rounded-2xl border-2 border-dashed p-8 text-center transition-all cursor-pointer hover:border-primary/50 hover:bg-primary/5 ${fileName ? "border-green-500 bg-green-50 dark:bg-green-900/10" : "border-border"}`}
+          onDragOver={e => e.preventDefault()}
+          onDrop={handleDrop}
+          onClick={() => document.getElementById("resume-upload-input")?.click()}
+        >
+          <input id="resume-upload-input" type="file" accept=".pdf,.txt,.doc,.docx" onChange={handleFile} className="hidden" />
+          {fileName ? (
+            <div className="space-y-2">
+              <div className="w-14 h-14 mx-auto rounded-2xl bg-green-100 dark:bg-green-900/30 flex items-center justify-center">
+                <FileText className="w-7 h-7 text-green-600" />
+              </div>
+              <p className="font-semibold text-green-700 dark:text-green-400">{fileName}</p>
+              <p className="text-xs text-muted-foreground">Resume loaded · {(resumeText.length / 1000).toFixed(1)}K characters</p>
+              <p className="text-xs text-muted-foreground">Click or drop another file to replace</p>
+            </div>
+          ) : (
+            <div className="space-y-2">
+              <div className="w-14 h-14 mx-auto rounded-2xl bg-muted/50 flex items-center justify-center">
+                <Upload className="w-7 h-7 text-muted-foreground" />
+              </div>
+              <p className="font-medium">Drop your resume here or click to browse</p>
+              <p className="text-xs text-muted-foreground">Supports PDF, TXT, DOC, DOCX</p>
+            </div>
+          )}
+        </div>
+
+        {/* Or paste */}
+        <div className="mt-4">
+          <p className="text-xs text-muted-foreground mb-1.5">Or paste your resume content:</p>
+          <textarea
+            className="w-full min-h-[100px] rounded-xl border border-border bg-background p-3 text-sm resize-none focus:ring-2 focus:ring-primary/30 focus:border-primary transition-all"
+            placeholder="Paste resume text here — include your skills, projects, and work experience…"
+            value={resumeText}
+            onChange={e => { setResumeText(e.target.value); if (!fileName) setFileName("pasted-resume.txt"); }}
+          />
+        </div>
+
+        {/* Start Interview Button */}
+        <Button
+          className="w-full mt-4 h-12 text-base font-semibold gradient-primary text-primary-foreground border-0 shadow-lg hover:shadow-xl transition-all"
+          disabled={!resumeText || resumeText.length < 20}
+          onClick={handleStartInterview}
+        >
+          🎙️ Start Interview
+        </Button>
       </div>
-      {skills.length > 0 && (<div className="space-y-3">
-        <div><span className="text-sm font-semibold">Detected Skills:</span>
-          <div className="flex flex-wrap gap-1 mt-1">{skills.map(s => <span key={s} className="text-xs px-2 py-0.5 rounded-full bg-violet-100 text-violet-700 dark:bg-violet-900/20 dark:text-violet-400">{s}</span>)}</div>
+
+      {/* How it works */}
+      <div className="glass-card p-5">
+        <h3 className="text-sm font-semibold mb-3">How it works</h3>
+        <div className="grid grid-cols-3 gap-3 text-center">
+          {[{ step: "1", label: "Upload Resume", desc: "PDF or text" },
+            { step: "2", label: "AI Analyzes", desc: "Skills & projects" },
+            { step: "3", label: "Live Interview", desc: "Voice-based Q&A" }]
+            .map(s => (
+              <div key={s.step} className="space-y-1">
+                <div className="w-8 h-8 mx-auto rounded-full bg-primary/10 flex items-center justify-center text-sm font-bold text-primary">{s.step}</div>
+                <p className="text-xs font-semibold">{s.label}</p>
+                <p className="text-[10px] text-muted-foreground">{s.desc}</p>
+              </div>
+            ))}
         </div>
-        <div><span className="text-sm font-semibold">Interview Topics ({topics.length}):</span>
-          <div className="flex flex-wrap gap-1 mt-1">{topics.map(t => <span key={t} className="text-xs px-2 py-0.5 rounded-full bg-blue-100 text-blue-700 dark:bg-blue-900/20 dark:text-blue-400">{t}</span>)}</div>
-        </div>
-        <div className="text-sm">Experience Level: <span className="font-semibold capitalize">{expLevel}</span></div>
-        <Button onClick={startInterview} disabled={loadingQs} className="gradient-primary text-primary-foreground border-0">{loadingQs ? "Generating questions…" : "Start Interview"}</Button>
-      </div>)}
+      </div>
     </div>
   );
 
+  // ── Preparing Stage (animation) ──
+  if (stage === "preparing") return (
+    <div className="glass-card p-8 text-center">
+      <div className="w-20 h-20 mx-auto rounded-full gradient-primary flex items-center justify-center mb-6 animate-pulse">
+        <FileText className="w-10 h-10 text-primary-foreground" />
+      </div>
+      <h2 className="text-xl font-bold mb-2">Preparing Your Interview</h2>
+      <p className="text-sm text-muted-foreground mb-6">Analyzing your resume and generating personalized questions…</p>
+      <div className="max-w-sm mx-auto space-y-3">
+        {[{ step: 1, label: "Scanning resume & extracting skills" },
+          { step: 2, label: "Generating interview questions" },
+          { step: 3, label: "Setting up interview room" }]
+          .map(s => (
+            <div key={s.step} className="flex items-center gap-3 text-sm">
+              <div className={`w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold transition-all ${prepStep >= s.step ? "gradient-primary text-primary-foreground" : "bg-muted text-muted-foreground"}`}>
+                {prepStep > s.step ? "✓" : s.step}
+              </div>
+              <span className={prepStep >= s.step ? "font-medium" : "text-muted-foreground"}>{s.label}</span>
+              {prepStep === s.step && <span className="ml-auto text-xs text-primary animate-pulse">Processing…</span>}
+            </div>
+          ))}
+      </div>
+    </div>
+  );
+
+  // ── Ready Stage (show skills summary + Begin button) ──
+  if (stage === "ready") return (
+    <div className="glass-card p-6 space-y-5">
+      <div className="text-center">
+        <div className="w-16 h-16 mx-auto rounded-2xl bg-green-100 dark:bg-green-900/20 flex items-center justify-center mb-3">
+          <span className="text-3xl">✅</span>
+        </div>
+        <h2 className="text-xl font-bold">Interview Ready</h2>
+        <p className="text-sm text-muted-foreground mt-1">{questions.length} questions prepared based on your resume</p>
+      </div>
+
+      {/* Skills detected */}
+      <div className="rounded-xl bg-muted/30 p-4 space-y-3">
+        <div>
+          <span className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">Skills Detected</span>
+          <div className="flex flex-wrap gap-1.5 mt-2">{skills.map(s => <span key={s} className="text-xs px-2.5 py-1 rounded-full bg-violet-100 text-violet-700 dark:bg-violet-900/20 dark:text-violet-400 font-medium">{s}</span>)}</div>
+        </div>
+        <div>
+          <span className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">Interview Topics</span>
+          <div className="flex flex-wrap gap-1.5 mt-2">{topics.map(t => <span key={t} className="text-xs px-2.5 py-1 rounded-full bg-blue-100 text-blue-700 dark:bg-blue-900/20 dark:text-blue-400 font-medium">{t}</span>)}</div>
+        </div>
+        <div className="flex items-center gap-2 text-sm"><span className="text-muted-foreground">Experience:</span> <span className="font-semibold capitalize">{expLevel}</span></div>
+      </div>
+
+      <Button
+        className="w-full h-12 text-base font-semibold gradient-primary text-primary-foreground border-0 shadow-lg"
+        onClick={beginInterview}
+      >
+        🎙️ Begin Interview Now
+      </Button>
+
+      <button className="w-full text-xs text-muted-foreground hover:text-foreground transition-colors" onClick={() => { setStage("upload"); setSkills([]); setTopics([]); setQuestions([]); }}>
+        ← Upload a different resume
+      </button>
+    </div>
+  );
+
+  // ── Final Stage ──
   if (stage === "final") return (
     <div className="glass-card p-6">
-      <h2 className="text-2xl font-bold mb-2">Resume Interview Complete 🎉</h2>
-      <div className="text-3xl font-bold mb-4">{v.overallScore}/10</div>
-      <div className="space-y-2 mb-4">{v.answers.map((a, i) => <div key={i} className="rounded-lg bg-muted/40 p-3 text-sm"><div className="font-semibold">{a.topic} — {a.score}/10</div><div className="text-xs text-muted-foreground mt-1">{a.quickTip}</div></div>)}</div>
-      <Button onClick={() => { setStage("upload"); setQuestions([]); setQIdx(0); v.setChat([]); v.setAnswers([]); v.setAnswerText(""); setSkills([]); setTopics([]); setResumeText(""); }}>New Resume Interview</Button>
+      <div className="text-center mb-4">
+        <span className="text-4xl">🎉</span>
+        <h2 className="text-2xl font-bold mt-2">Resume Interview Complete</h2>
+      </div>
+      <div className="text-center mb-4">
+        <div className="inline-flex items-center gap-2 px-6 py-3 rounded-2xl bg-muted/40">
+          <span className="text-3xl font-bold">{v.overallScore}</span>
+          <span className="text-lg text-muted-foreground">/10</span>
+        </div>
+      </div>
+      <div className="space-y-2 mb-4">{v.answers.map((a, i) => (
+        <div key={i} className="rounded-lg bg-muted/40 p-3 text-sm">
+          <div className="flex items-center justify-between"><span className="font-semibold">{a.topic}</span><span className={`text-xs px-2 py-0.5 rounded-full font-medium ${a.score >= 7 ? "bg-green-100 text-green-700 dark:bg-green-900/20 dark:text-green-400" : a.score >= 5 ? "bg-yellow-100 text-yellow-700 dark:bg-yellow-900/20 dark:text-yellow-400" : "bg-red-100 text-red-700 dark:bg-red-900/20 dark:text-red-400"}`}>{a.score}/10</span></div>
+          <div className="text-xs text-muted-foreground mt-1">💡 {a.quickTip}</div>
+        </div>
+      ))}</div>
+      <Button className="w-full" onClick={() => { setStage("upload"); setQuestions([]); setQIdx(0); v.setChat([]); v.setAnswers([]); v.setAnswerText(""); setSkills([]); setTopics([]); setResumeText(""); setFileName(""); }}>New Resume Interview</Button>
     </div>
   );
 
