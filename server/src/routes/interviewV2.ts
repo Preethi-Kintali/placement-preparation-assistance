@@ -1,11 +1,25 @@
-import { Router } from "express";
+import { Router, Request } from "express";
 import { requireAuth } from "../middleware/auth";
 import { chainChat } from "../services/aiChain";
+import { extractTextFromPdf } from "../services/resumeAnalyzer";
+import { InterviewSession } from "../models/InterviewSession";
+import multer from "multer";
 import path from "path";
 import fs from "fs/promises";
 import { parse } from "csv-parse/sync";
 
 export const interviewV2Router = Router();
+
+// ── Multer for resume upload ──────────────────────────────────
+const upload = multer({
+  storage: multer.memoryStorage(),
+  limits: { fileSize: 10 * 1024 * 1024 }, // 10 MB
+  fileFilter: (_req, file, cb) => {
+    const allowed = [".pdf", ".txt", ".doc", ".docx"];
+    const ext = path.extname(file.originalname).toLowerCase();
+    cb(null, allowed.includes(ext));
+  },
+});
 
 // ─── Company data from LeetCode CSVs ──────────────────────────
 const COMPANY_CSV_DIR = path.resolve(process.cwd(), "..", "lunchpad", "LeetCode-Company-Wise-Questions-main", "LeetCode-Company-Wise-Questions-main");
@@ -87,7 +101,195 @@ async function loadCompanyQuestions(companyId: string): Promise<CompanyQuestion[
   }
 }
 
-// ─── GET /companies — List top companies ──────────────────────
+// ════════════════════════════════════════════════════════════════
+//  RESUME UPLOAD — PDF text extraction via pdf-parse
+// ════════════════════════════════════════════════════════════════
+
+interviewV2Router.post("/resume-upload", requireAuth, upload.single("resume"), async (req: Request, res) => {
+  try {
+    const file = (req as any).file;
+    if (!file) return res.status(400).json({ error: "No file uploaded" });
+
+    let text = "";
+    const ext = path.extname(file.originalname).toLowerCase();
+
+    if (ext === ".pdf") {
+      text = await extractTextFromPdf(file.buffer);
+    } else {
+      // .txt, .doc, .docx — read as UTF-8
+      text = file.buffer.toString("utf-8");
+    }
+
+    if (!text || text.trim().length < 20) {
+      return res.status(400).json({ error: "Could not extract text from file. Try pasting your resume text instead." });
+    }
+
+    return res.json({ text: text.slice(0, 8000), chars: text.length });
+  } catch (e: any) {
+    console.error("[resume-upload] error:", e?.message);
+    return res.status(500).json({ error: "Failed to process PDF. Try pasting resume text directly." });
+  }
+});
+
+// ════════════════════════════════════════════════════════════════
+//  RESUME EXTRACT — AI skill extraction from resume text
+// ════════════════════════════════════════════════════════════════
+
+interviewV2Router.post("/resume-extract", requireAuth, async (req, res) => {
+  const { resumeText } = req.body;
+  if (!resumeText || typeof resumeText !== "string" || resumeText.trim().length < 20) {
+    return res.status(400).json({ error: "Resume text too short. Please provide more content." });
+  }
+
+  try {
+    const cleanText = resumeText
+      .replace(/[^\x20-\x7E\n\r\t]/g, " ")  // Remove non-ASCII binary junk
+      .replace(/\s+/g, " ")
+      .trim()
+      .slice(0, 5000);
+
+    const { text } = await chainChat(
+      `You are analyzing a candidate's resume. Extract:
+1. All technical skills, programming languages, tools, and frameworks mentioned
+2. 5-7 specific interview topics based on the candidate's projects, work experience, and skills
+3. Their experience level (junior/mid/senior)
+
+Focus especially on their PROJECTS — generate questions about what they built, technologies they used, and challenges they solved.
+
+Resume content:
+"""
+${cleanText}
+"""
+
+Return ONLY valid JSON, no markdown or extra text:
+{"skills": ["React", "Node.js", ...], "topics": ["Explain your e-commerce project architecture", "How did you implement authentication in your app", ...], "experience_level": "junior|mid|senior"}`,
+      { system: "You are a senior technical recruiter. Parse resumes accurately and generate interview topics focused on the candidate's actual projects and experience.", temperature: 0.3 }
+    );
+
+    // Parse JSON robustly
+    const first = text.indexOf("{");
+    const last = text.lastIndexOf("}");
+    if (first >= 0 && last > first) {
+      const jsonStr = text.slice(first, last + 1);
+      const parsed = JSON.parse(jsonStr);
+      return res.json({
+        skills: Array.isArray(parsed.skills) ? parsed.skills.slice(0, 20) : [],
+        topics: Array.isArray(parsed.topics) ? parsed.topics.slice(0, 7) : [],
+        experienceLevel: parsed.experience_level || "mid",
+      });
+    }
+
+    // Fallback: if AI didn't return JSON, try to extract skills manually
+    throw new Error("AI did not return valid JSON");
+  } catch (e: any) {
+    console.error("[resume-extract] error:", e?.message);
+    // Fallback: basic keyword extraction
+    const lower = resumeText.toLowerCase();
+    const commonSkills = ["python", "java", "javascript", "react", "node.js", "mongodb", "sql", "html", "css", "c++", "typescript", "git", "docker", "aws", "flask", "django", "express", "angular", "vue", "tensorflow", "pytorch", "machine learning", "data structures", "algorithms"];
+    const found = commonSkills.filter(s => lower.includes(s));
+    if (found.length > 0) {
+      return res.json({
+        skills: found,
+        topics: found.slice(0, 5).map(s => `Explain your experience with ${s} and a project where you used it`),
+        experienceLevel: "mid",
+      });
+    }
+    return res.status(500).json({ error: "Failed to analyze resume. Try pasting plain text.", details: e?.message });
+  }
+});
+
+// ════════════════════════════════════════════════════════════════
+//  RESUME QUESTIONS — Generate interview questions from skills
+// ════════════════════════════════════════════════════════════════
+
+interviewV2Router.post("/resume-questions", requireAuth, async (req, res) => {
+  const { skills, topics, experienceLevel } = req.body;
+  if (!Array.isArray(topics) || !topics.length) return res.status(400).json({ error: "No topics provided" });
+
+  try {
+    const topicList = topics.slice(0, 7);
+    const { text } = await chainChat(
+      `You are a senior technical interviewer. Generate exactly one interview question for each topic below.
+
+The candidate is ${experienceLevel || "mid"}-level with skills in: ${(skills || []).slice(0, 15).join(", ")}.
+
+Make questions practical and conversational — ask about their experience, their projects, tradeoffs they considered, and how they'd solve real problems.
+
+Topics:
+${topicList.map((t: string, i: number) => `${i + 1}. ${t}`).join("\n")}
+
+Return strict JSON only:
+{"questions": [{"topic": "<exact topic>", "question": "<interview question>"}]}`,
+      { system: "You are an expert technical interviewer at a top tech company.", temperature: 0.4 }
+    );
+
+    const first = text.indexOf("{");
+    const last = text.lastIndexOf("}");
+    if (first >= 0 && last > first) {
+      const parsed = JSON.parse(text.slice(first, last + 1));
+      if (Array.isArray(parsed.questions) && parsed.questions.length > 0) {
+        return res.json({ questions: parsed.questions });
+      }
+    }
+    // Fallback
+    return res.json({ questions: topicList.map((t: string) => ({ topic: t, question: `Tell me about your experience with ${t}. Walk me through a project where you used this and the challenges you faced.` })) });
+  } catch {
+    return res.json({
+      questions: (topics || []).slice(0, 7).map((t: string) => ({
+        topic: t,
+        question: `Tell me about your experience with ${t}. Walk me through a project where you used this.`,
+      })),
+    });
+  }
+});
+
+// ════════════════════════════════════════════════════════════════
+//  SAVE SESSION — Store resume/company interview sessions
+// ════════════════════════════════════════════════════════════════
+
+interviewV2Router.post("/save-session", requireAuth, async (req: Request, res) => {
+  try {
+    const userId = (req as any).userId;
+    const { interviewType, companyName, topics, answers, durationSeconds } = req.body;
+
+    if (!Array.isArray(answers) || !answers.length) {
+      return res.status(400).json({ error: "No answers to save" });
+    }
+
+    const overallScore = answers.reduce((s: number, a: any) => s + (Number(a.score) || 0), 0) / answers.length;
+
+    const session = await InterviewSession.create({
+      userId,
+      currentWeek: 0, // 0 = resume/company interview (not weekly)
+      topics: topics || [interviewType || "resume", companyName || ""].filter(Boolean),
+      answers: answers.map((a: any) => ({
+        topic: String(a.topic || ""),
+        question: String(a.question || ""),
+        answer: String(a.answer || ""),
+        score: Number(a.score) || 0,
+        feedback: String(a.feedback || ""),
+        quickTip: String(a.quickTip || ""),
+      })),
+      overallScore: Number(overallScore.toFixed(1)),
+      communicationScore: Number(overallScore.toFixed(1)),
+      dsaScore: Number(overallScore.toFixed(1)),
+      technicalScore: Number(overallScore.toFixed(1)),
+      durationSeconds: Number(durationSeconds) || 0,
+      completedAt: new Date(),
+    });
+
+    return res.json({ ok: true, sessionId: session._id, overallScore: Number(overallScore.toFixed(1)) });
+  } catch (e: any) {
+    console.error("[save-session] error:", e?.message);
+    return res.status(500).json({ error: "Failed to save session" });
+  }
+});
+
+// ════════════════════════════════════════════════════════════════
+//  COMPANY ENDPOINTS
+// ════════════════════════════════════════════════════════════════
+
+// ─── GET /companies ───────────────────────────────────────────
 interviewV2Router.get("/companies", requireAuth, async (_req, res) => {
   const companies = await Promise.all(
     TOP_COMPANIES.map(async (c) => {
@@ -106,7 +308,7 @@ interviewV2Router.get("/companies", requireAuth, async (_req, res) => {
   return res.json({ companies });
 });
 
-// ─── GET /company-questions/:companyId — Get questions ────────
+// ─── GET /company-questions/:companyId ────────────────────────
 interviewV2Router.get("/company-questions/:companyId", requireAuth, async (req, res) => {
   const companyId = String(req.params.companyId).toLowerCase();
   const limit = Math.min(Number(req.query.limit) || 10, 50);
@@ -120,14 +322,12 @@ interviewV2Router.get("/company-questions/:companyId", requireAuth, async (req, 
     if (filtered.length) questions = filtered;
   }
 
-  // Sort by frequency (highest first) and take top N
   questions.sort((a, b) => b.frequency - a.frequency);
   const selected = questions.slice(0, limit);
-
   return res.json({ companyId, total: questions.length, questions: selected });
 });
 
-// ─── POST /company-interview-question — AI generates an interview question from a LeetCode problem ──
+// ─── POST /company-interview-question ─────────────────────────
 interviewV2Router.post("/company-interview-question", requireAuth, async (req, res) => {
   const { title, difficulty, companyName } = req.body;
   if (!title) return res.status(400).json({ error: "Missing title" });
@@ -138,72 +338,12 @@ interviewV2Router.post("/company-interview-question", requireAuth, async (req, r
       { system: "You are a senior technical interviewer at a top tech company.", temperature: 0.5 }
     );
     return res.json({ question: text.trim() });
-  } catch (e: any) {
+  } catch {
     return res.json({ question: `Explain your approach to solving "${title}". What data structures would you use? What is the time and space complexity? What edge cases would you consider?` });
   }
 });
 
-// ─── POST /resume-extract — Extract skills from resume text ───
-interviewV2Router.post("/resume-extract", requireAuth, async (req, res) => {
-  const { resumeText } = req.body;
-  if (!resumeText || typeof resumeText !== "string" || resumeText.length < 20) {
-    return res.status(400).json({ error: "Resume text too short" });
-  }
-
-  try {
-    const { text } = await chainChat(
-      `Extract key technical skills, tools, frameworks, and programming languages from this resume. Then generate 5-7 interview topics based on the candidate's experience.\n\nResume:\n${resumeText.slice(0, 4000)}\n\nReturn ONLY JSON:\n{"skills": ["skill1", "skill2"], "topics": ["topic for interview question 1", "topic 2"], "experience_level": "junior|mid|senior"}`,
-      { system: "You are a resume parser. Extract technical skills accurately.", temperature: 0.2 }
-    );
-
-    // Parse JSON
-    const first = text.indexOf("{");
-    const last = text.lastIndexOf("}");
-    if (first >= 0 && last > first) {
-      const parsed = JSON.parse(text.slice(first, last + 1));
-      return res.json({
-        skills: Array.isArray(parsed.skills) ? parsed.skills : [],
-        topics: Array.isArray(parsed.topics) ? parsed.topics : [],
-        experienceLevel: parsed.experience_level || "mid",
-      });
-    }
-    throw new Error("Invalid JSON");
-  } catch (e: any) {
-    return res.status(500).json({ error: "Failed to parse resume", details: e?.message });
-  }
-});
-
-// ─── POST /resume-questions — Generate interview questions from skills ──
-interviewV2Router.post("/resume-questions", requireAuth, async (req, res) => {
-  const { skills, topics, experienceLevel } = req.body;
-  if (!Array.isArray(topics) || !topics.length) return res.status(400).json({ error: "No topics provided" });
-
-  try {
-    const topicList = topics.slice(0, 7);
-    const { text } = await chainChat(
-      `Generate exactly one interview question for each topic below. The candidate is ${experienceLevel || "mid"}-level with skills in: ${(skills || []).slice(0, 15).join(", ")}.\n\nTopics:\n${topicList.map((t: string, i: number) => `${i + 1}. ${t}`).join("\n")}\n\nReturn strict JSON:\n{"questions": [{"topic": "<exact topic>", "question": "<interview question>"}]}`,
-      { system: "You are an expert technical interviewer. Generate practical interview questions.", temperature: 0.4 }
-    );
-
-    const first = text.indexOf("{");
-    const last = text.lastIndexOf("}");
-    if (first >= 0 && last > first) {
-      const parsed = JSON.parse(text.slice(first, last + 1));
-      return res.json({ questions: parsed.questions || [] });
-    }
-    // Fallback
-    return res.json({ questions: topicList.map((t: string) => ({ topic: t, question: `Explain ${t} with a practical example and discuss tradeoffs.` })) });
-  } catch {
-    return res.json({
-      questions: (topics || []).slice(0, 7).map((t: string) => ({
-        topic: t,
-        question: `Explain ${t} with a practical example. What are the trade-offs?`,
-      })),
-    });
-  }
-});
-
-// ─── POST /company-prep — Generate company preparation sheet via AI ──
+// ─── POST /company-prep ───────────────────────────────────────
 interviewV2Router.post("/company-prep", requireAuth, async (req, res) => {
   const { companyId, companyName } = req.body;
   if (!companyId) return res.status(400).json({ error: "Missing companyId" });
@@ -213,11 +353,9 @@ interviewV2Router.post("/company-prep", requireAuth, async (req, res) => {
   const medium = questions.filter(q => q.difficulty === "Medium").length;
   const hard = questions.filter(q => q.difficulty === "Hard").length;
 
-  // Get top 10 by frequency
   const sorted = [...questions].sort((a, b) => b.frequency - a.frequency);
   const top10 = sorted.slice(0, 10);
 
-  // Detect common topics from question titles
   const topicKeywords = ["array", "string", "tree", "graph", "dp", "dynamic programming", "linked list", "hash", "stack", "queue", "binary search", "sort", "greedy", "backtracking", "math", "design", "sliding window", "two pointer", "bfs", "dfs", "heap"];
   const topicCounts: Record<string, number> = {};
   for (const q of questions) {
@@ -248,22 +386,15 @@ interviewV2Router.post("/company-prep", requireAuth, async (req, res) => {
     }
 
     return res.json({
-      companyId,
-      companyName: companyName || companyId,
-      totalQuestions: questions.length,
-      difficulty: { easy, medium, hard },
-      topTopics,
-      top10Questions: top10,
-      roadmap,
+      companyId, companyName: companyName || companyId,
+      totalQuestions: questions.length, difficulty: { easy, medium, hard },
+      topTopics, top10Questions: top10, roadmap,
     });
   } catch {
     return res.json({
-      companyId,
-      companyName: companyName || companyId,
-      totalQuestions: questions.length,
-      difficulty: { easy, medium, hard },
-      topTopics,
-      top10Questions: top10,
+      companyId, companyName: companyName || companyId,
+      totalQuestions: questions.length, difficulty: { easy, medium, hard },
+      topTopics, top10Questions: top10,
       roadmap: { weeks: [], tips: ["Practice easy problems first", "Focus on Arrays and Strings", "Do mock interviews weekly"] },
     });
   }

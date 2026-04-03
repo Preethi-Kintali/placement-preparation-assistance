@@ -177,10 +177,27 @@ export const api = {
     request<any>(`/api/interview-v2/company-questions/${companyId}?limit=${limit}&difficulty=${difficulty}`),
   interviewCompanyAIQuestion: (payload: { title: string; difficulty: string; companyName: string }) =>
     request<any>("/api/interview-v2/company-interview-question", { method: "POST", body: JSON.stringify(payload) }),
+  interviewResumeUpload: async (file: File) => {
+    const token = getToken();
+    const form = new FormData();
+    form.append("resume", file);
+    const headers: Record<string, string> = {};
+    if (token) headers["authorization"] = `Bearer ${token}`;
+    const res = await fetch(`${API_BASE}/api/interview-v2/resume-upload`, {
+      method: "POST",
+      headers,
+      body: form,
+    });
+    const data = await res.json();
+    if (!res.ok) throw data;
+    return data as { text: string; chars: number };
+  },
   interviewResumeExtract: (resumeText: string) =>
     request<any>("/api/interview-v2/resume-extract", { method: "POST", body: JSON.stringify({ resumeText }) }),
   interviewResumeQuestions: (payload: { skills: string[]; topics: string[]; experienceLevel: string }) =>
     request<any>("/api/interview-v2/resume-questions", { method: "POST", body: JSON.stringify(payload) }),
+  interviewV2SaveSession: (payload: any) =>
+    request<any>("/api/interview-v2/save-session", { method: "POST", body: JSON.stringify(payload) }),
   companyPrep: (payload: { companyId: string; companyName: string }) =>
     request<any>("/api/interview-v2/company-prep", { method: "POST", body: JSON.stringify(payload) }),
 };

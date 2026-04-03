@@ -177,6 +177,7 @@ function ResumeTab() {
   const [stage, setStage] = useState<"upload" | "preparing" | "ready" | "interview" | "final">("upload");
   const [resumeText, setResumeText] = useState("");
   const [fileName, setFileName] = useState("");
+  const [resumeFile, setResumeFile] = useState<File | null>(null);
   const [skills, setSkills] = useState<string[]>([]);
   const [topics, setTopics] = useState<string[]>([]);
   const [expLevel, setExpLevel] = useState("mid");
@@ -184,34 +185,59 @@ function ResumeTab() {
   const [qIdx, setQIdx] = useState(0);
   const [error, setError] = useState<string | null>(null);
   const [prepStep, setPrepStep] = useState(0);
+  const [startedAt, setStartedAt] = useState(0);
 
   const current = questions[qIdx] ?? null;
   const total = questions.length;
   const pct = total ? Math.round((v.answers.length / total) * 100) : 0;
 
-  const handleFile = async (e: React.ChangeEvent<HTMLInputElement>) => {
-    const file = e.target.files?.[0]; if (!file) return;
+  const handleFileSelect = (file: File) => {
     setFileName(file.name);
-    const text = await file.text();
-    setResumeText(text.slice(0, 5000));
+    const ext = file.name.split(".").pop()?.toLowerCase() || "";
+    if (ext === "pdf") {
+      // Store file for backend upload — don't try to read PDF as text
+      setResumeFile(file);
+      setResumeText("__PDF_FILE__"); // placeholder to enable Start button
+    } else {
+      // Text files can be read directly
+      file.text().then(text => setResumeText(text.slice(0, 8000)));
+      setResumeFile(null);
+    }
   };
 
-  const handleDrop = async (e: React.DragEvent) => {
+  const handleFileInput = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0]; if (!file) return;
+    handleFileSelect(file);
+  };
+
+  const handleDrop = (e: React.DragEvent) => {
     e.preventDefault();
     const file = e.dataTransfer.files?.[0]; if (!file) return;
-    setFileName(file.name);
-    const text = await file.text();
-    setResumeText(text.slice(0, 5000));
+    handleFileSelect(file);
   };
 
-  // Single-click: extract skills + generate questions + start
+  // Single-click: upload PDF → extract skills → generate questions
   const handleStartInterview = async () => {
-    if (!resumeText || resumeText.length < 20) { setError("Please upload or paste your resume first."); return; }
+    if (!resumeText && !resumeFile) { setError("Please upload or paste your resume first."); return; }
     setError(null); setStage("preparing"); setPrepStep(1);
 
     try {
-      // Step 1: Extract skills
-      const ext = await api.interviewResumeExtract(resumeText);
+      let textForAI = resumeText;
+
+      // If it's a PDF file, upload to backend for proper extraction
+      if (resumeFile || resumeText === "__PDF_FILE__") {
+        if (!resumeFile) { setError("File not found. Please re-upload."); setStage("upload"); return; }
+        const uploadResult = await api.interviewResumeUpload(resumeFile);
+        textForAI = uploadResult.text;
+        setResumeText(textForAI);
+      }
+
+      if (!textForAI || textForAI.length < 20 || textForAI === "__PDF_FILE__") {
+        throw new Error("Could not extract text from resume. Try pasting your resume text instead.");
+      }
+
+      // Step 1: AI extract skills from clean text
+      const ext = await api.interviewResumeExtract(textForAI);
       const sk = ext.skills || []; const tp = ext.topics || []; const el = ext.experienceLevel || "mid";
       setSkills(sk); setTopics(tp); setExpLevel(el);
       setPrepStep(2);
@@ -223,10 +249,10 @@ function ResumeTab() {
       setQuestions(qs);
       setPrepStep(3);
 
-      // Step 3: Ready — show brief summary before starting
+      // Step 3: Ready
       setStage("ready");
     } catch (e: any) {
-      setError(e?.error ?? e?.message ?? "Failed to analyze resume");
+      setError(e?.error ?? e?.message ?? "Failed to analyze resume. Try pasting text instead.");
       setStage("upload");
     }
   };
@@ -235,9 +261,9 @@ function ResumeTab() {
     try {
       await v.ensureMic();
       setStage("interview");
+      setStartedAt(Date.now());
       v.setChat([]); v.setAnswers([]); v.setAnswerText("");
 
-      // Professional intro
       const intro = `Welcome to your resume-based interview. I've analyzed your profile and prepared ${questions.length} questions covering your skills and project experience. Let's begin.`;
       v.addMessage("ai", intro);
       await v.speakText(intro);
@@ -263,7 +289,17 @@ function ResumeTab() {
       const all = [...v.answers, { topic: current.topic, question: current.question, answer, score, feedback: r?.feedback ?? "", quickTip: r?.quickTip ?? "" }];
       v.setAnswers(all); v.setAnswerText("");
       const next = qIdx + 1;
-      if (next >= questions.length) { setStage("final"); return; }
+      if (next >= questions.length) {
+        // Save session to database
+        api.interviewV2SaveSession({
+          interviewType: "resume",
+          topics: skills.slice(0, 5),
+          answers: all,
+          durationSeconds: Math.floor((Date.now() - startedAt) / 1000),
+        }).catch(() => {});
+        setStage("final");
+        return;
+      }
       setQIdx(next);
       const nq = questions[next];
       v.addMessage("ai", `📌 ${nq.topic}\n\n${nq.question}`);
@@ -294,14 +330,14 @@ function ResumeTab() {
           onDrop={handleDrop}
           onClick={() => document.getElementById("resume-upload-input")?.click()}
         >
-          <input id="resume-upload-input" type="file" accept=".pdf,.txt,.doc,.docx" onChange={handleFile} className="hidden" />
+          <input id="resume-upload-input" type="file" accept=".pdf,.txt,.doc,.docx" onChange={handleFileInput} className="hidden" />
           {fileName ? (
             <div className="space-y-2">
               <div className="w-14 h-14 mx-auto rounded-2xl bg-green-100 dark:bg-green-900/30 flex items-center justify-center">
                 <FileText className="w-7 h-7 text-green-600" />
               </div>
               <p className="font-semibold text-green-700 dark:text-green-400">{fileName}</p>
-              <p className="text-xs text-muted-foreground">Resume loaded · {(resumeText.length / 1000).toFixed(1)}K characters</p>
+              <p className="text-xs text-muted-foreground">{resumeFile ? "PDF ready for upload" : `Resume loaded · ${(resumeText.length / 1000).toFixed(1)}K characters`}</p>
               <p className="text-xs text-muted-foreground">Click or drop another file to replace</p>
             </div>
           ) : (
@@ -329,7 +365,7 @@ function ResumeTab() {
         {/* Start Interview Button */}
         <Button
           className="w-full mt-4 h-12 text-base font-semibold gradient-primary text-primary-foreground border-0 shadow-lg hover:shadow-xl transition-all"
-          disabled={!resumeText || resumeText.length < 20}
+          disabled={!resumeText && !resumeFile}
           onClick={handleStartInterview}
         >
           🎙️ Start Interview
@@ -436,7 +472,7 @@ function ResumeTab() {
           <div className="text-xs text-muted-foreground mt-1">💡 {a.quickTip}</div>
         </div>
       ))}</div>
-      <Button className="w-full" onClick={() => { setStage("upload"); setQuestions([]); setQIdx(0); v.setChat([]); v.setAnswers([]); v.setAnswerText(""); setSkills([]); setTopics([]); setResumeText(""); setFileName(""); }}>New Resume Interview</Button>
+      <Button className="w-full" onClick={() => { setStage("upload"); setQuestions([]); setQIdx(0); v.setChat([]); v.setAnswers([]); v.setAnswerText(""); setSkills([]); setTopics([]); setResumeText(""); setFileName(""); setResumeFile(null); }}>New Resume Interview</Button>
     </div>
   );
 
@@ -502,7 +538,18 @@ function CompanyTab() {
       const all = [...v.answers, { topic: current.topic, question: current.question, answer, score, feedback: r?.feedback ?? "", quickTip: r?.quickTip ?? "" }];
       v.setAnswers(all); v.setAnswerText("");
       const next = qIdx + 1;
-      if (next >= questions.length) { setStage("final"); return; }
+      if (next >= questions.length) {
+        // Save to database
+        api.interviewV2SaveSession({
+          interviewType: "company",
+          companyName: selectedCompany?.name,
+          topics: [selectedCompany?.name || "company"],
+          answers: all,
+          durationSeconds: 0,
+        }).catch(() => {});
+        setStage("final");
+        return;
+      }
       setQIdx(next);
       const nq = questions[next]; v.addMessage("ai", `Topic: ${nq.topic}\nQuestion: ${nq.question}`); await v.speakText(nq.question); v.startListening();
     } catch { v.addMessage("ai", "Evaluation failed."); } finally { v.setSubmitting(false); }
