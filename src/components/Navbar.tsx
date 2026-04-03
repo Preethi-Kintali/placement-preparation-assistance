@@ -1,9 +1,10 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
-import { GraduationCap, Menu, X, LogOut, User, LayoutDashboard, Moon, Sun } from "lucide-react";
+import { GraduationCap, Menu, X, LogOut, User, LayoutDashboard, Moon, Sun, Bell } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useAuth } from "@/context/AuthContext";
+import { api } from "@/lib/api";
 import { useTheme } from "@/context/ThemeContext";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
@@ -22,6 +23,7 @@ function firstLetter(name: string | undefined) {
 
 export function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [alertCount, setAlertCount] = useState(0);
   const location = useLocation();
   const navigate = useNavigate();
   const { user, logout } = useAuth();
@@ -59,6 +61,25 @@ export function Navbar() {
   const avatarUrl = user?.profile?.avatarUrl;
   const healthPoints = useMemo(() => Number(user?.gamification?.healthPoints ?? 0), [user]);
 
+  // Fetch alert count on mount and periodically (delayed to not block page load)
+  useEffect(() => {
+    if (!user || user.role === "admin") return;
+    const fetchAlerts = async () => {
+      try {
+        const resp = await api.alertsCount();
+        setAlertCount(resp?.count ?? 0);
+      } catch { /* silent */ }
+    };
+    // Delay initial fetch by 3s so it doesn't block page load
+    const initialTimeout = setTimeout(() => {
+      fetchAlerts();
+      // Trigger alert checks in background after 5s
+      setTimeout(() => api.alertsCheck().catch(() => {}), 5000);
+    }, 3000);
+    const interval = setInterval(fetchAlerts, 120000); // refresh every 2min
+    return () => { clearTimeout(initialTimeout); clearInterval(interval); };
+  }, [user]);
+
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-card/85 backdrop-blur-xl shadow-sm">
       <div className="container mx-auto px-4 h-14 flex items-center justify-between">
@@ -91,6 +112,52 @@ export function Navbar() {
         <div className="flex items-center gap-3">
           {user ? (
             <>
+              {/* Notification Bell */}
+              {user.role !== "admin" && (
+                <DropdownMenu>
+                  <DropdownMenuTrigger asChild>
+                    <Button
+                      type="button"
+                      variant="ghost"
+                      size="icon"
+                      className="rounded-full relative"
+                    >
+                      <Bell className="h-4 w-4" />
+                      {alertCount > 0 && (
+                        <span className="absolute -top-0.5 -right-0.5 w-4 h-4 rounded-full bg-red-500 text-[9px] text-white font-bold flex items-center justify-center animate-pulse">
+                          {alertCount > 9 ? "9+" : alertCount}
+                        </span>
+                      )}
+                    </Button>
+                  </DropdownMenuTrigger>
+                  <DropdownMenuContent align="end" className="w-80 rounded-xl shadow-md max-h-80 overflow-y-auto">
+                    <DropdownMenuLabel className="flex items-center justify-between">
+                      <span>🔔 Notifications</span>
+                      {alertCount > 0 && (
+                        <button
+                          className="text-xs text-primary hover:underline"
+                          onClick={async () => {
+                            await api.alertsMarkAllRead();
+                            setAlertCount(0);
+                          }}
+                        >
+                          Mark all read
+                        </button>
+                      )}
+                    </DropdownMenuLabel>
+                    <DropdownMenuSeparator />
+                    {alertCount === 0 ? (
+                      <div className="p-4 text-center text-xs text-muted-foreground">
+                        No new notifications ✨
+                      </div>
+                    ) : (
+                      <div className="p-1 text-xs text-muted-foreground text-center">
+                        {alertCount} unread alert{alertCount !== 1 ? "s" : ""}
+                      </div>
+                    )}
+                  </DropdownMenuContent>
+                </DropdownMenu>
+              )}
               <Button
                 type="button"
                 variant="ghost"

@@ -150,6 +150,29 @@ roadmapRouter.get("/", requireAuth, async (req, res) => {
       };
     });
 
+    // ── AI Explainability: generation reason ──
+    const attempts = await ExamAttempt.find({ userId: user._id }).sort({ createdAt: -1 }).lean();
+    const latestByType = new Map<string, any>();
+    for (const a of attempts) {
+      const k = String((a as any).examType);
+      if (!latestByType.has(k)) latestByType.set(k, a);
+    }
+    const aptitudePct = Math.round(Number(latestByType.get("aptitude")?.percentage ?? 0));
+    const dsaPct = Math.round(Number(latestByType.get("dsa")?.percentage ?? 0));
+    const softPct = Math.round(Number(latestByType.get("soft_skills")?.percentage ?? 0));
+    const careerPct = Math.round(Number(latestByType.get("career")?.percentage ?? 0));
+
+    const reasonParts: string[] = [
+      `Generated a ${existingPlan.weeks.length}-week plan for ${careerPath}.`,
+    ];
+    if (dsaPct < 50) reasonParts.push(`Your DSA score (${dsaPct}%) is weak — extra DSA days included.`);
+    if (aptitudePct < 50) reasonParts.push(`Aptitude score (${aptitudePct}%) needs work — aptitude tasks added.`);
+    if (softPct < 50) reasonParts.push(`Soft skills score (${softPct}%) is low — communication days added.`);
+    if (careerPct >= 70) reasonParts.push(`Strong technical base (${careerPct}%) — more advanced topics included.`);
+    reasonParts.push(`You are currently on Week ${progress.unlockedWeek}.`);
+
+    const generationReason = reasonParts.join(" ");
+
     return res.json({
       careerPath,
       progress: { unlockedWeek: progress.unlockedWeek },
@@ -157,6 +180,13 @@ roadmapRouter.get("/", requireAuth, async (req, res) => {
       weeks: mappedWeeks,
       provider: existingPlan.provider,
       generatedAt: existingPlan.generatedAt,
+      generationReason,
+      examInfluence: {
+        aptitude: aptitudePct,
+        dsa: dsaPct,
+        softSkills: softPct,
+        career: careerPct,
+      },
     });
   }
 

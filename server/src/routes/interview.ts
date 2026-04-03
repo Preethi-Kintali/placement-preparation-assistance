@@ -395,6 +395,65 @@ interviewRouter.post("/sessions", requireAuth, async (req, res) => {
     // ignore
   }
 
+  // ── AI Explainability ──
+  const dimensionBreakdown = [
+    {
+      dimension: "Communication",
+      score: scores.communicationScore,
+      maxScore: 10,
+      assessment: scores.communicationScore >= 7.5
+        ? "Strong communication skills — clear explanations with good structure."
+        : scores.communicationScore >= 5
+          ? "Adequate communication. Work on structuring answers using the STAR method."
+          : "Needs significant improvement. Practice explaining concepts out loud daily.",
+    },
+    {
+      dimension: "DSA",
+      score: scores.dsaScore,
+      maxScore: 10,
+      assessment: scores.dsaScore >= 7.5
+        ? "Strong DSA foundation — good problem-solving approach."
+        : scores.dsaScore >= 5
+          ? "Fair DSA skills. Focus on edge cases, complexity analysis, and dry-running solutions."
+          : "Weak DSA performance. Solve 3 problems daily on LeetCode/HackerRank.",
+    },
+    {
+      dimension: "Technical",
+      score: scores.technicalScore,
+      maxScore: 10,
+      assessment: scores.technicalScore >= 7.5
+        ? "Excellent technical depth — good understanding of trade-offs and scalability."
+        : scores.technicalScore >= 5
+          ? "Good technical knowledge. Include more trade-offs, production considerations, and scalability."
+          : "Needs deeper technical understanding. Study system design patterns and real-world architectures.",
+    },
+  ];
+
+  const improvementPlan: string[] = [];
+  if (scores.communicationScore < 7) {
+    improvementPlan.push("Practice STAR method (Situation, Task, Action, Result) for behavioral answers.");
+    improvementPlan.push("Record yourself answering questions and self-review for clarity.");
+  }
+  if (scores.dsaScore < 7) {
+    improvementPlan.push("Solve 3 DSA problems daily — focus on Arrays, Trees, and DP.");
+    improvementPlan.push("Always explain your approach before coding: state the algorithm, time/space complexity.");
+  }
+  if (scores.technicalScore < 7) {
+    improvementPlan.push("Study system design: load balancers, caching, database sharding.");
+    improvementPlan.push("For every technology you learn, note 2 trade-offs and 1 real-world use case.");
+  }
+  if (scores.overallScore >= 8) {
+    improvementPlan.push("Great performance! Maintain consistency and try harder topics.");
+  }
+
+  const overallAssessment = scores.overallScore >= 8
+    ? `Excellent interview performance (${scores.overallScore}/10). You're interview-ready!`
+    : scores.overallScore >= 6
+      ? `Good performance (${scores.overallScore}/10). A few more practice sessions will push you to excellent.`
+      : scores.overallScore >= 4
+        ? `Fair performance (${scores.overallScore}/10). Focus on the improvement plan to strengthen weak areas.`
+        : `Below average (${scores.overallScore}/10). Daily practice with the improvement plan is essential.`;
+
   return res.json({
     id: String(session._id),
     overallScore: session.overallScore,
@@ -403,6 +462,10 @@ interviewRouter.post("/sessions", requireAuth, async (req, res) => {
     technicalScore: session.technicalScore,
     completedAt: session.completedAt,
     unlockedBadges,
+    // AI Explainability
+    overallAssessment,
+    dimensionBreakdown,
+    improvementPlan,
   });
 });
 

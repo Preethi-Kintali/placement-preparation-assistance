@@ -77,13 +77,18 @@ function makeStudentId() {
   return `STU${y}${rand}`;
 }
 
+let _txSupportCached: boolean | null = null;
+
 async function supportsTransactions(): Promise<boolean> {
+  if (_txSupportCached !== null) return _txSupportCached;
   try {
     const admin = mongoose.connection.db?.admin();
-    if (!admin) return false;
+    if (!admin) { _txSupportCached = false; return false; }
     const res = await admin.command({ hello: 1 });
-    return Boolean(res.setName);
+    _txSupportCached = Boolean(res.setName);
+    return _txSupportCached;
   } catch {
+    _txSupportCached = false;
     return false;
   }
 }
@@ -364,8 +369,8 @@ authRouter.post("/forgot-password", async (req, res) => {
 
   console.log(`[Auth] OTP for ${email}: ${otp}`);
 
-  // Send via email
-  const result = await sendEmail({
+  // Send via email (non-blocking — don't wait for email delivery)
+  sendEmail({
     to: email,
     subject: "🔑 PlacePrep — Password Reset OTP",
     text: `Your OTP to reset your password is: ${otp}\n\nThis OTP expires in 10 minutes. If you did not request this, please ignore this email.`,
@@ -383,11 +388,13 @@ authRouter.post("/forgot-password", async (req, res) => {
           <p style="color:#aaa;font-size:11px;margin:0;">If you didn't request this, please ignore this email.</p>
         </div>
       </div>`,
+  }).then((result) => {
+    if (result.skipped) {
+      console.log(`[Auth] SMTP not configured — OTP logged to console above`);
+    }
+  }).catch((e) => {
+    console.error("[Auth] Email send failed:", e);
   });
-
-  if (result.skipped) {
-    console.log(`[Auth] SMTP not configured — OTP logged to console above`);
-  }
 
   return res.json({ ok: true, message: "If an account with that email exists, an OTP has been sent." });
 });

@@ -111,16 +111,82 @@ predictionRouter.get("/placement", requireAuth, async (req, res) => {
     checklist.unshift("Take at least 1 AI mock interview to benchmark communication and DSA performance");
   }
 
+  // ── AI EXPLAINABILITY ──────────────────────────────────────
+
+  // Feature importance from model
+  const featureImportance = (model.featureImportance || []).map((fi) => ({
+    feature: fi.feature,
+    importance: Math.round(fi.aucDrop * 1000) / 1000,
+    importancePct: Math.round(fi.aucDrop * 100),
+  }));
+
+  // Analyze top positive and negative factors
+  const topPositiveFactors: Array<{ factor: string; value: string; impact: string }> = [];
+  const topNegativeFactors: Array<{ factor: string; value: string; impact: string }> = [];
+
+  if (features.cgpa >= 7.5) topPositiveFactors.push({ factor: "CGPA", value: `${features.cgpa}`, impact: "Strong academic foundation" });
+  else if (features.cgpa < 6 && features.cgpa > 0) topNegativeFactors.push({ factor: "CGPA", value: `${features.cgpa}`, impact: "Below competitive threshold" });
+
+  if (features.internships >= 2) topPositiveFactors.push({ factor: "Internships", value: `${features.internships}`, impact: "Good practical experience" });
+  else if (features.internships === 0) topNegativeFactors.push({ factor: "Internships", value: "0", impact: "No industry exposure" });
+
+  if (features.projects >= 3) topPositiveFactors.push({ factor: "Projects", value: `${features.projects}`, impact: "Strong portfolio" });
+  else if (features.projects <= 1) topNegativeFactors.push({ factor: "Projects", value: `${features.projects}`, impact: "Need more projects" });
+
+  if (features.aptitudeTestScore >= 70) topPositiveFactors.push({ factor: "Aptitude", value: `${Math.round(features.aptitudeTestScore)}%`, impact: "Good problem-solving" });
+  else if (features.aptitudeTestScore < 50 && features.aptitudeTestScore > 0) topNegativeFactors.push({ factor: "Aptitude", value: `${Math.round(features.aptitudeTestScore)}%`, impact: "Needs improvement" });
+
+  if (features.sscMarks >= 80) topPositiveFactors.push({ factor: "10th Marks", value: `${Math.round(features.sscMarks)}%`, impact: "Strong academics" });
+  if (features.hscMarks >= 80) topPositiveFactors.push({ factor: "12th Marks", value: `${Math.round(features.hscMarks)}%`, impact: "Strong academics" });
+
+  if (features.workshopsCertifications >= 3) topPositiveFactors.push({ factor: "Certifications", value: `${features.workshopsCertifications}`, impact: "Active learner" });
+
+  if (latestInterview) {
+    if (interviewOverall >= 7.5) topPositiveFactors.push({ factor: "Interview Score", value: `${interviewOverall.toFixed(1)}/10`, impact: "Strong interview performance" });
+    else if (interviewOverall < 5) topNegativeFactors.push({ factor: "Interview Score", value: `${interviewOverall.toFixed(1)}/10`, impact: "Weak interview performance" });
+  } else {
+    topNegativeFactors.push({ factor: "Mock Interview", value: "Not taken", impact: "No interview practice recorded" });
+  }
+
+  // Generate natural language explanation
+  const explanationParts: string[] = [];
+  explanationParts.push(`Your placement probability is ${probabilityPct}%.`);
+
+  if (topPositiveFactors.length > 0) {
+    explanationParts.push(
+      `Strengths: ${topPositiveFactors.slice(0, 3).map((f) => `${f.factor} (${f.value})`).join(", ")}.`
+    );
+  }
+  if (topNegativeFactors.length > 0) {
+    explanationParts.push(
+      `Areas to improve: ${topNegativeFactors.slice(0, 3).map((f) => `${f.factor} — ${f.impact}`).join("; ")}.`
+    );
+  }
+  if (interviewDelta !== 0) {
+    explanationParts.push(
+      `Interview performance ${interviewDelta > 0 ? "boosted" : "reduced"} your probability by ${Math.abs(interviewDelta)}%.`
+    );
+  }
+
+  const explanation = explanationParts.join(" ");
+
   return res.json({
     probability: probabilityPct,
     probabilityBase: baseProbabilityPct,
     probabilityInterviewAdjusted: probabilityPct,
     interviewDelta,
+    // AI Explainability
+    explanation,
+    featureImportance,
+    topPositiveFactors: topPositiveFactors.slice(0, 5),
+    topNegativeFactors: topNegativeFactors.slice(0, 5),
     model: {
       algorithm: model.algorithm,
       holdoutAccuracyPct: Math.round(prediction.modelAccuracy * 100),
       trainAccuracyPct: Math.round((model.trainAccuracy ?? 0) * 100),
       sampleCount: prediction.sampleCount,
+      holdoutAuc: Math.round((model.holdoutAuc ?? 0) * 1000) / 1000,
+      confusionMatrix: model.confusionMatrix,
     },
     inputsUsed: {
       cgpa: features.cgpa,

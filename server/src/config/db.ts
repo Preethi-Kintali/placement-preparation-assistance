@@ -46,6 +46,10 @@ export async function connectDb(): Promise<void> {
 
   await mongoose.connect(mongoUri, {
     serverSelectionTimeoutMS: 10_000,
+    maxPoolSize: 10,
+    minPoolSize: 2,
+    socketTimeoutMS: 30_000,
+    connectTimeoutMS: 10_000,
   });
 
   // eslint-disable-next-line no-console

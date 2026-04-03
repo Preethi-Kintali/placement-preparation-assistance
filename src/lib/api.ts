@@ -92,13 +92,53 @@ export const api = {
   aiChat: (provider: "groq" | "gemini", message: string) =>
     request<any>("/api/ai/chat", { method: "POST", body: JSON.stringify({ provider, message }) }),
 
-  studyChat: (payload: { provider: "groq" | "gemini"; message: string; history?: Array<{ role: "user" | "assistant"; content: string }> }) =>
+  studyChat: (payload: {
+    provider: "groq" | "gemini";
+    message: string;
+    history?: Array<{ role: "user" | "assistant"; content: string }>;
+    threadId?: string;
+    useMultiQuery?: boolean;
+  }) =>
     request<any>("/api/study-assistant/chat", { method: "POST", body: JSON.stringify(payload) }),
   studyContext: () => request<any>("/api/study-assistant/context"),
   studySessions: (limit = 10) => request<any>(`/api/study-assistant/sessions?limit=${limit}`),
+  studyThreads: () => request<any>("/api/study-assistant/threads"),
   ragStatus: () => request<any>("/api/study-assistant/rag-status"),
   ragSources: (query: string, topK = 5) =>
     request<any>("/api/study-assistant/rag-sources", { method: "POST", body: JSON.stringify({ query, topK }) }),
+  clearRagCache: () => request<any>("/api/study-assistant/clear-cache", { method: "POST" }),
+
+  // ── Personalization ──
+  personalization: () => request<any>("/api/study-assistant/personalization"),
+
+  // ── Smart Alerts ──
+  alerts: (unread = false) => request<any>(`/api/alerts?unread=${unread}`),
+  alertsCount: () => request<any>("/api/alerts/count"),
+  alertsCheck: () => request<any>("/api/alerts/check", { method: "POST" }),
+  alertMarkRead: (id: string) => request<any>(`/api/alerts/${id}/read`, { method: "PATCH" }),
+  alertsMarkAllRead: () => request<any>("/api/alerts/read-all", { method: "PATCH" }),
+
+  // ── Knowledge Base ──
+  knowledgeDocuments: () => request<any>("/api/knowledge/documents"),
+  knowledgeStatus: () => request<any>("/api/knowledge/status"),
+  knowledgeEvaluation: () => request<any>("/api/knowledge/evaluation"),
+  knowledgeDelete: (source: string) => request<any>(`/api/knowledge/${encodeURIComponent(source)}`, { method: "DELETE" }),
+  knowledgeUpload: async (file: File, tags?: string) => {
+    const token = getToken();
+    const form = new FormData();
+    form.append("file", file);
+    if (tags) form.append("tags", tags);
+    const headers: Record<string, string> = {};
+    if (token) headers["authorization"] = `Bearer ${token}`;
+    const res = await fetch(`${API_BASE}/api/knowledge/upload`, {
+      method: "POST",
+      headers,
+      body: form,
+    });
+    const data = await res.json();
+    if (!res.ok) throw data;
+    return data;
+  },
 
   activitySummary: () => request<any>("/api/activity/summary"),
   dailyLearningSubmit: (text: string) =>

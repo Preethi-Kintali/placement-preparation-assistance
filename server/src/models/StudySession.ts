@@ -8,6 +8,7 @@ export interface StudyCitation {
 export interface StudySessionDoc {
   _id: mongoose.Types.ObjectId;
   userId: mongoose.Types.ObjectId;
+  threadId?: string;
   provider: "groq" | "gemini";
   prompt: string;
   answer: string;
@@ -27,6 +28,7 @@ const citationSchema = new Schema<StudyCitation>(
 const studySessionSchema = new Schema<StudySessionDoc>(
   {
     userId: { type: Schema.Types.ObjectId, ref: "User", required: true, index: true },
+    threadId: { type: String, index: true },
     provider: { type: String, required: true, enum: ["groq", "gemini"] },
     prompt: { type: String, required: true },
     answer: { type: String, required: true },

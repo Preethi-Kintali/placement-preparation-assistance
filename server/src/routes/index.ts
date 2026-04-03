@@ -11,6 +11,8 @@ import { activityRouter } from "./activity";
 import { jobsRouter } from "./jobs";
 import studyAssistantRouter from "./studyAssistant";
 import resumeAnalyzerRouter from "./resumeAnalyzer";
+import { alertsRouter } from "./alerts";
+import { knowledgeRouter } from "./knowledge";
 
 export const apiRouter = Router();
 
@@ -26,3 +28,5 @@ apiRouter.use("/activity", activityRouter);
 apiRouter.use("/jobs", jobsRouter);
 apiRouter.use("/study-assistant", studyAssistantRouter);
 apiRouter.use("/resume", resumeAnalyzerRouter);
+apiRouter.use("/alerts", alertsRouter);
+apiRouter.use("/knowledge", knowledgeRouter);

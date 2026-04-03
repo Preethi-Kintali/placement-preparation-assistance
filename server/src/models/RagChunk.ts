@@ -12,6 +12,7 @@ export interface RagChunkDoc {
         charStart: number;
         charEnd: number;
     };
+    tags?: string[];         // optional topic/domain tags
     createdAt: Date;
     updatedAt: Date;
 }
@@ -28,6 +29,7 @@ const ragChunkSchema = new Schema<RagChunkDoc>(
             charStart: { type: Number, required: true },
             charEnd: { type: Number, required: true },
         },
+        tags: { type: [String], default: [] },
     },
     { timestamps: true }
 );
