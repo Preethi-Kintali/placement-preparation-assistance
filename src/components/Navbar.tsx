@@ -52,6 +52,7 @@ export function Navbar() {
       { label: "Leaderboard", path: "/leaderboard" },
       { label: "AI Interview", path: "/interview" },
       { label: "Study Assistant", path: "/study-assistant" },
+      { label: "Live Learn", path: "/live-learn" },
       { label: "Job Search", path: "/jobs" },
       { label: "Resume ATS", path: "/resume-analyzer" },
       { label: "Company Prep", path: "/company-prep" },

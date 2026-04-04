@@ -23,6 +23,7 @@ import JobSearch from "./pages/JobSearch";
 import ResumeAnalyzer from "./pages/ResumeAnalyzer";
 import ForgotPassword from "./pages/ForgotPassword";
 import CompanyPrep from "./pages/CompanyPrep";
+import LiveLearn from "./pages/LiveLearn";
 
 const queryClient = new QueryClient();
 
@@ -49,6 +50,7 @@ const App = () => (
               <Route path="/jobs" element={<ProtectedRoute requiredRole="student"><JobSearch /></ProtectedRoute>} />
               <Route path="/resume-analyzer" element={<ProtectedRoute requiredRole="student"><ResumeAnalyzer /></ProtectedRoute>} />
               <Route path="/company-prep" element={<ProtectedRoute requiredRole="student"><CompanyPrep /></ProtectedRoute>} />
+              <Route path="/live-learn" element={<ProtectedRoute requiredRole="student"><LiveLearn /></ProtectedRoute>} />
               <Route path="/exam/:type" element={<ProtectedRoute requiredRole="student"><Exam /></ProtectedRoute>} />
               <Route path="/admin" element={<ProtectedRoute requiredRole="admin"><AdminDashboard /></ProtectedRoute>} />
               <Route path="*" element={<NotFound />} />

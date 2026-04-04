@@ -445,3 +445,76 @@ interviewV2Router.post("/company-prep", requireAuth, async (req, res) => {
     });
   }
 });
+
+// ════════════════════════════════════════════════════════════════
+//  LIVE LEARN — Notes-based Q&A (RAG-like)
+// ════════════════════════════════════════════════════════════════
+
+interviewV2Router.post("/live-learn/chat", requireAuth, async (req, res) => {
+  const { notes, message, mode } = req.body;
+  if (!notes || !message) return res.status(400).json({ error: "Notes and message required" });
+
+  const cleanNotes = String(notes).slice(0, 12000);
+  const userMsg = String(message).slice(0, 1000);
+
+  try {
+    const systemPrompt = mode === "quiz"
+      ? `You are a strict quiz tutor. You MUST answer ONLY based on the provided notes. If the user asks something not covered in the notes, say "This topic is not covered in your notes." Generate explanations and verify quiz answers using ONLY the notes content. Be encouraging but accurate.`
+      : `You are a knowledgeable study assistant. You MUST answer ONLY based on the provided notes below. Do NOT use any external knowledge. If the question is not covered in the notes, clearly say "This is not covered in your uploaded notes." Keep answers clear, concise, and well-structured. Use bullet points and bold text for key concepts.`;
+
+    const { text } = await chainChat(
+      `${systemPrompt}
+
+=== STUDENT'S NOTES ===
+${cleanNotes}
+=== END OF NOTES ===
+
+Student's question: ${userMsg}
+
+Answer strictly from the notes above:`,
+      { system: systemPrompt, temperature: 0.3 }
+    );
+
+    return res.json({ reply: text.trim() });
+  } catch (e: any) {
+    console.error("[live-learn/chat] error:", e?.message);
+    return res.status(500).json({ error: "Failed to process. Try again." });
+  }
+});
+
+interviewV2Router.post("/live-learn/quiz", requireAuth, async (req, res) => {
+  const { notes } = req.body;
+  if (!notes) return res.status(400).json({ error: "Notes required" });
+
+  const cleanNotes = String(notes).slice(0, 12000);
+
+  try {
+    const { text } = await chainChat(
+      `You are a quiz generator. Based ONLY on the notes below, generate exactly 5 multiple-choice questions to test understanding.
+
+=== NOTES ===
+${cleanNotes}
+=== END OF NOTES ===
+
+Format each question exactly like this:
+
+**Q1. [Question text]**
+A) [Option A]
+B) [Option B]
+C) [Option C]
+D) [Option D]
+✅ **Answer: [Correct letter]) [Correct answer text]**
+💡 **Explanation:** [Brief explanation from the notes]
+
+---
+
+Generate 5 questions covering different topics from the notes. Make questions that test real understanding, not just memorization.`,
+      { system: "You are a strict quiz generator. Use ONLY the provided notes to create questions. Never use external knowledge.", temperature: 0.5 }
+    );
+
+    return res.json({ quiz: text.trim() });
+  } catch (e: any) {
+    console.error("[live-learn/quiz] error:", e?.message);
+    return res.status(500).json({ error: "Failed to generate quiz." });
+  }
+});

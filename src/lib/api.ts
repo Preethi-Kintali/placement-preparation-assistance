@@ -200,4 +200,10 @@ export const api = {
     request<any>("/api/interview-v2/save-session", { method: "POST", body: JSON.stringify(payload) }),
   companyPrep: (payload: { companyId: string; companyName: string }) =>
     request<any>("/api/interview-v2/company-prep", { method: "POST", body: JSON.stringify(payload) }),
+
+  // ── Live Learn (Notes Q&A) ──
+  liveLearnChat: (payload: { notes: string; message: string; mode: string }) =>
+    request<any>("/api/interview-v2/live-learn/chat", { method: "POST", body: JSON.stringify(payload) }),
+  liveLearnQuiz: (payload: { notes: string }) =>
+    request<any>("/api/interview-v2/live-learn/quiz", { method: "POST", body: JSON.stringify(payload) }),
 };
