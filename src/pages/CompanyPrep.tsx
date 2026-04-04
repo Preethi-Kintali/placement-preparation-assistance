@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 import { ArrowLeft, Building2, ChevronRight, Search, Loader2, BookOpen, Target, BarChart3, ExternalLink } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Navbar } from "@/components/Navbar";
@@ -6,6 +6,70 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Card } from "@/components/ui/card";
 import { api } from "@/lib/api";
+
+// ── Real company logo mapping (high-quality, reliable CDN) ──
+const COMPANY_LOGOS: Record<string, string> = {
+  google: "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
+  amazon: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/200px-Amazon_logo.svg.png",
+  microsoft: "https://img.logo.dev/microsoft.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
+  apple: "https://img.logo.dev/apple.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
+  meta: "https://img.logo.dev/meta.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
+  "meta (facebook)": "https://img.logo.dev/meta.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
+  netflix: "https://img.logo.dev/netflix.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
+  uber: "https://img.logo.dev/uber.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
+  adobe: "https://img.logo.dev/adobe.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
+  bloomberg: "https://img.logo.dev/bloomberg.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
+  oracle: "https://img.logo.dev/oracle.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
+  salesforce: "https://img.logo.dev/salesforce.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
+  linkedin: "https://img.logo.dev/linkedin.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
+  "twitter/x": "https://img.logo.dev/x.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
+  twitter: "https://img.logo.dev/x.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
+  snapchat: "https://img.logo.dev/snapchat.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
+  spotify: "https://img.logo.dev/spotify.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
+  tesla: "https://img.logo.dev/tesla.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
+  tcs: "https://img.logo.dev/tcs.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
+  infosys: "https://img.logo.dev/infosys.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
+  wipro: "https://img.logo.dev/wipro.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
+  ibm: "https://img.logo.dev/ibm.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
+  intel: "https://img.logo.dev/intel.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
+  nvidia: "https://img.logo.dev/nvidia.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
+  paypal: "https://img.logo.dev/paypal.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
+  stripe: "https://img.logo.dev/stripe.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
+  airbnb: "https://img.logo.dev/airbnb.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
+  samsung: "https://img.logo.dev/samsung.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
+  qualcomm: "https://img.logo.dev/qualcomm.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
+  vmware: "https://img.logo.dev/vmware.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
+  cisco: "https://img.logo.dev/cisco.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
+  goldman: "https://img.logo.dev/goldmansachs.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
+  "goldman sachs": "https://img.logo.dev/goldmansachs.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
+  yahoo: "https://img.logo.dev/yahoo.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
+  walmart: "https://img.logo.dev/walmart.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
+};
+
+function getCompanyLogo(name: string, fallbackLogo: string): string {
+  const key = name.toLowerCase().trim();
+  return COMPANY_LOGOS[key] || fallbackLogo || `https://img.logo.dev/${key.replace(/[^a-z0-9]/g, '')}.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80`;
+}
+
+// ── Brand color accent for known companies ──
+const COMPANY_COLORS: Record<string, string> = {
+  google: "from-blue-500 to-green-500",
+  amazon: "from-orange-500 to-yellow-500",
+  microsoft: "from-blue-600 to-green-500",
+  apple: "from-gray-600 to-gray-400",
+  meta: "from-blue-600 to-indigo-500",
+  "meta (facebook)": "from-blue-600 to-indigo-500",
+  netflix: "from-red-600 to-red-500",
+  uber: "from-gray-800 to-gray-600",
+  adobe: "from-red-600 to-red-500",
+  bloomberg: "from-indigo-600 to-blue-500",
+  oracle: "from-red-600 to-red-500",
+  salesforce: "from-blue-500 to-sky-400",
+  linkedin: "from-blue-600 to-blue-500",
+  spotify: "from-green-600 to-green-500",
+  tesla: "from-red-600 to-gray-600",
+};
+
 
 type Company = { id: string; name: string; logo: string; totalQuestions: number; easy: number; medium: number; hard: number };
 type PrepData = {
@@ -76,8 +140,8 @@ export default function CompanyPrep() {
             </button>
 
             <div className="flex items-center gap-4 mb-6">
-              <div className="w-16 h-16 rounded-2xl bg-white dark:bg-muted/50 flex items-center justify-center overflow-hidden border border-border/50">
-                <img src={selectedCompany.logo} alt={selectedCompany.name} className="w-10 h-10 object-contain" onError={e => { (e.target as HTMLImageElement).style.display = 'none'; (e.target as HTMLImageElement).parentElement!.innerHTML = `<span class='text-2xl font-bold text-muted-foreground'>${selectedCompany.name.charAt(0)}</span>`; }} />
+              <div className="w-16 h-16 rounded-2xl bg-white flex items-center justify-center overflow-hidden border border-border/40 shadow-sm">
+                <img src={getCompanyLogo(selectedCompany.name, selectedCompany.logo)} alt={selectedCompany.name} className="w-10 h-10 object-contain" onError={e => { (e.target as HTMLImageElement).style.display = 'none'; (e.target as HTMLImageElement).parentElement!.innerHTML = `<span class='text-2xl font-bold text-muted-foreground'>${selectedCompany.name.charAt(0)}</span>`; }} />
               </div>
               <div>
                 <h1 className="text-2xl md:text-3xl font-bold">{selectedCompany.name}</h1>
@@ -215,40 +279,54 @@ export default function CompanyPrep() {
               </div>
             ) : (
               <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-                {filtered.map(c => (
-                  <Card
-                    key={c.id}
-                    className="p-4 cursor-pointer hover:border-primary/50 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-200 group"
-                    onClick={() => openPrepSheet(c)}
-                  >
-                    <div className="flex items-center gap-3 mb-3">
-                      <div className="w-12 h-12 rounded-xl bg-white dark:bg-muted/50 flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform overflow-hidden border border-border/50">
-                        <img src={c.logo} alt={c.name} className="w-8 h-8 object-contain" onError={e => { (e.target as HTMLImageElement).style.display = 'none'; (e.target as HTMLImageElement).parentElement!.innerHTML = `<span class='text-lg font-bold text-muted-foreground'>${c.name.charAt(0)}</span>`; }} />
-                      </div>
-                      <div className="min-w-0 flex-1">
-                        <div className="font-semibold text-sm truncate">{c.name}</div>
-                        <div className="text-xs text-muted-foreground">{c.totalQuestions} questions</div>
-                      </div>
-                      <ChevronRight className="w-4 h-4 text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity" />
-                    </div>
+                {filtered.map(c => {
+                  const logoUrl = getCompanyLogo(c.name, c.logo);
+                  const accentColor = COMPANY_COLORS[c.name.toLowerCase()] || "from-indigo-500 to-violet-500";
+                  return (
+                    <div
+                      key={c.id}
+                      className="glass-card p-4 cursor-pointer hover:border-primary/30 hover:shadow-lg hover:-translate-y-1 transition-all duration-300 group relative overflow-hidden"
+                      onClick={() => openPrepSheet(c)}
+                    >
+                      {/* Subtle gradient accent */}
+                      <div className={`absolute top-0 left-0 right-0 h-1 bg-gradient-to-r ${accentColor} opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-t-2xl`} />
 
-                    {/* Difficulty bar */}
-                    <div className="flex h-2 rounded-full overflow-hidden bg-muted mb-2">
-                      {c.totalQuestions > 0 && (<>
-                        <div className="bg-green-500" style={{ width: `${(c.easy / c.totalQuestions) * 100}%` }} />
-                        <div className="bg-yellow-500" style={{ width: `${(c.medium / c.totalQuestions) * 100}%` }} />
-                        <div className="bg-red-500" style={{ width: `${(c.hard / c.totalQuestions) * 100}%` }} />
-                      </>)}
+                      <div className="flex items-center gap-3 mb-3">
+                        <div className="w-12 h-12 rounded-xl bg-white flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform overflow-hidden border border-border/40 shadow-sm">
+                          <img
+                            src={logoUrl}
+                            alt={c.name}
+                            className="w-8 h-8 object-contain"
+                            onError={e => {
+                              const el = e.target as HTMLImageElement;
+                              el.style.display = 'none';
+                              el.parentElement!.innerHTML = `<span class='text-lg font-bold bg-gradient-to-br ${accentColor} bg-clip-text text-transparent'>${c.name.charAt(0)}</span>`;
+                            }}
+                          />
+                        </div>
+                        <div className="min-w-0 flex-1">
+                          <div className="font-semibold text-sm truncate">{c.name}</div>
+                          <div className="text-xs text-muted-foreground">{c.totalQuestions} questions</div>
+                        </div>
+                        <ChevronRight className="w-4 h-4 text-muted-foreground opacity-0 group-hover:opacity-100 group-hover:translate-x-0.5 transition-all" />
+                      </div>
+
+                      {/* Difficulty bar */}
+                      <div className="flex h-1.5 rounded-full overflow-hidden bg-muted/60 mb-2">
+                        {c.totalQuestions > 0 && (<>
+                          <div className="bg-emerald-500" style={{ width: `${(c.easy / c.totalQuestions) * 100}%` }} />
+                          <div className="bg-amber-500" style={{ width: `${(c.medium / c.totalQuestions) * 100}%` }} />
+                          <div className="bg-red-500" style={{ width: `${(c.hard / c.totalQuestions) * 100}%` }} />
+                        </>)}
+                      </div>
+                      <div className="flex gap-2 text-[10px] text-muted-foreground">
+                        <span className="flex items-center gap-1"><span className="w-1.5 h-1.5 rounded-full bg-emerald-500" />{c.easy} Easy</span>
+                        <span className="flex items-center gap-1"><span className="w-1.5 h-1.5 rounded-full bg-amber-500" />{c.medium} Med</span>
+                        <span className="flex items-center gap-1"><span className="w-1.5 h-1.5 rounded-full bg-red-500" />{c.hard} Hard</span>
+                      </div>
                     </div>
-                    <div className="flex gap-2 text-[10px] text-muted-foreground">
-                      <span>{c.easy} Easy</span>
-                      <span>·</span>
-                      <span>{c.medium} Med</span>
-                      <span>·</span>
-                      <span>{c.hard} Hard</span>
-                    </div>
-                  </Card>
-                ))}
+                  );
+                })}
               </div>
             )}
           </>
