@@ -7,48 +7,82 @@ import { Input } from "@/components/ui/input";
 import { Card } from "@/components/ui/card";
 import { api } from "@/lib/api";
 
-// ── Real company logo mapping (high-quality, reliable CDN) ──
-const COMPANY_LOGOS: Record<string, string> = {
-  google: "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
-  amazon: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/200px-Amazon_logo.svg.png",
-  microsoft: "https://img.logo.dev/microsoft.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
-  apple: "https://img.logo.dev/apple.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
-  meta: "https://img.logo.dev/meta.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
-  "meta (facebook)": "https://img.logo.dev/meta.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
-  netflix: "https://img.logo.dev/netflix.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
-  uber: "https://img.logo.dev/uber.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
-  adobe: "https://img.logo.dev/adobe.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
-  bloomberg: "https://img.logo.dev/bloomberg.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
-  oracle: "https://img.logo.dev/oracle.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
-  salesforce: "https://img.logo.dev/salesforce.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
-  linkedin: "https://img.logo.dev/linkedin.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
-  "twitter/x": "https://img.logo.dev/x.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
-  twitter: "https://img.logo.dev/x.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
-  snapchat: "https://img.logo.dev/snapchat.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
-  spotify: "https://img.logo.dev/spotify.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
-  tesla: "https://img.logo.dev/tesla.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
-  tcs: "https://img.logo.dev/tcs.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
-  infosys: "https://img.logo.dev/infosys.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
-  wipro: "https://img.logo.dev/wipro.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
-  ibm: "https://img.logo.dev/ibm.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
-  intel: "https://img.logo.dev/intel.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
-  nvidia: "https://img.logo.dev/nvidia.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
-  paypal: "https://img.logo.dev/paypal.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
-  stripe: "https://img.logo.dev/stripe.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
-  airbnb: "https://img.logo.dev/airbnb.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
-  samsung: "https://img.logo.dev/samsung.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
-  qualcomm: "https://img.logo.dev/qualcomm.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
-  vmware: "https://img.logo.dev/vmware.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
-  cisco: "https://img.logo.dev/cisco.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
-  goldman: "https://img.logo.dev/goldmansachs.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
-  "goldman sachs": "https://img.logo.dev/goldmansachs.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
-  yahoo: "https://img.logo.dev/yahoo.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
-  walmart: "https://img.logo.dev/walmart.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80",
+// ── Company domain mapping for reliable logo resolution ──
+const COMPANY_DOMAINS: Record<string, string> = {
+  google: "google.com",
+  amazon: "amazon.com",
+  microsoft: "microsoft.com",
+  apple: "apple.com",
+  meta: "meta.com",
+  "meta (facebook)": "meta.com",
+  facebook: "facebook.com",
+  netflix: "netflix.com",
+  uber: "uber.com",
+  adobe: "adobe.com",
+  bloomberg: "bloomberg.com",
+  oracle: "oracle.com",
+  salesforce: "salesforce.com",
+  linkedin: "linkedin.com",
+  "twitter/x": "x.com",
+  twitter: "twitter.com",
+  snapchat: "snapchat.com",
+  spotify: "spotify.com",
+  tesla: "tesla.com",
+  tcs: "tcs.com",
+  infosys: "infosys.com",
+  wipro: "wipro.com",
+  ibm: "ibm.com",
+  intel: "intel.com",
+  nvidia: "nvidia.com",
+  paypal: "paypal.com",
+  stripe: "stripe.com",
+  airbnb: "airbnb.com",
+  samsung: "samsung.com",
+  qualcomm: "qualcomm.com",
+  vmware: "vmware.com",
+  cisco: "cisco.com",
+  goldman: "goldmansachs.com",
+  "goldman sachs": "goldmansachs.com",
+  yahoo: "yahoo.com",
+  walmart: "walmart.com",
+  "deutsche bank": "db.com",
+  jpmorgan: "jpmorgan.com",
+  "jp morgan": "jpmorgan.com",
+  accenture: "accenture.com",
+  deloitte: "deloitte.com",
+  lyft: "lyft.com",
+  pinterest: "pinterest.com",
+  twitch: "twitch.tv",
+  shopify: "shopify.com",
+  atlassian: "atlassian.com",
+  slack: "slack.com",
+  zoom: "zoom.us",
+  dropbox: "dropbox.com",
+  square: "squareup.com",
+  robinhood: "robinhood.com",
+  coinbase: "coinbase.com",
+  palantir: "palantir.com",
+  snowflake: "snowflake.com",
+  databricks: "databricks.com",
+  doordash: "doordash.com",
+  instacart: "instacart.com",
+  roblox: "roblox.com",
+  epic: "epicgames.com",
+  "epic games": "epicgames.com",
 };
 
-function getCompanyLogo(name: string, fallbackLogo: string): string {
+function getCompanyDomain(name: string): string {
   const key = name.toLowerCase().trim();
-  return COMPANY_LOGOS[key] || fallbackLogo || `https://img.logo.dev/${key.replace(/[^a-z0-9]/g, '')}.com?token=pk_a8JkSx-WTdqKLofszEfbOw&size=80`;
+  if (COMPANY_DOMAINS[key]) return COMPANY_DOMAINS[key];
+  // smart guess: strip common suffixes, use as domain
+  const cleaned = key.replace(/\s*\(.*?\)\s*/g, "").replace(/[^a-z0-9]/g, "");
+  return `${cleaned}.com`;
+}
+
+function getCompanyLogo(name: string, _fallbackLogo: string): string {
+  const domain = getCompanyDomain(name);
+  // Use logo.clearbit.com (free, no token, high quality)
+  return `https://logo.clearbit.com/${domain}`;
 }
 
 // ── Brand color accent for known companies ──
@@ -141,7 +175,23 @@ export default function CompanyPrep() {
 
             <div className="flex items-center gap-4 mb-6">
               <div className="w-16 h-16 rounded-2xl bg-white flex items-center justify-center overflow-hidden border border-border/40 shadow-sm">
-                <img src={getCompanyLogo(selectedCompany.name, selectedCompany.logo)} alt={selectedCompany.name} className="w-10 h-10 object-contain" onError={e => { (e.target as HTMLImageElement).style.display = 'none'; (e.target as HTMLImageElement).parentElement!.innerHTML = `<span class='text-2xl font-bold text-muted-foreground'>${selectedCompany.name.charAt(0)}</span>`; }} />
+                <img
+                  src={getCompanyLogo(selectedCompany.name, selectedCompany.logo)}
+                  alt={selectedCompany.name}
+                  className="w-10 h-10 object-contain"
+                  onError={e => {
+                    const el = e.target as HTMLImageElement;
+                    const domain = getCompanyDomain(selectedCompany.name);
+                    // Try Google favicon as fallback
+                    if (!el.dataset.fallback) {
+                      el.dataset.fallback = "1";
+                      el.src = `https://www.google.com/s2/favicons?domain=${domain}&sz=128`;
+                    } else {
+                      el.style.display = 'none';
+                      el.parentElement!.innerHTML = `<span class='text-2xl font-bold text-muted-foreground'>${selectedCompany.name.charAt(0)}</span>`;
+                    }
+                  }}
+                />
               </div>
               <div>
                 <h1 className="text-2xl md:text-3xl font-bold">{selectedCompany.name}</h1>
@@ -299,8 +349,15 @@ export default function CompanyPrep() {
                             className="w-8 h-8 object-contain"
                             onError={e => {
                               const el = e.target as HTMLImageElement;
-                              el.style.display = 'none';
-                              el.parentElement!.innerHTML = `<span class='text-lg font-bold bg-gradient-to-br ${accentColor} bg-clip-text text-transparent'>${c.name.charAt(0)}</span>`;
+                              const domain = getCompanyDomain(c.name);
+                              // Try Google favicon as second fallback
+                              if (!el.dataset.fallback) {
+                                el.dataset.fallback = "1";
+                                el.src = `https://www.google.com/s2/favicons?domain=${domain}&sz=128`;
+                              } else {
+                                el.style.display = 'none';
+                                el.parentElement!.innerHTML = `<span class='text-lg font-bold bg-gradient-to-br ${accentColor} bg-clip-text text-transparent'>${c.name.charAt(0)}</span>`;
+                              }
                             }}
                           />
                         </div>
