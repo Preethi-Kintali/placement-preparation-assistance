@@ -124,41 +124,39 @@ function MessageBubble({ turn, isLatest }: { turn: Turn; isLatest: boolean }) {
   const showContent = isLatest && !isUser && turn.typing !== false ? displayed : turn.content;
 
   return (
-    <div className={`flex ${isUser ? "justify-end" : "justify-start"} gap-2`}>
+    <div className={`flex ${isUser ? "justify-end" : "justify-start"} gap-3`}>
       {!isUser && (
-        <div className="w-8 h-8 rounded-full bg-gradient-to-br from-violet-500 to-blue-600 flex items-center justify-center text-white text-sm flex-shrink-0 mt-1 shadow-md">
-          🤖
+        <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-indigo-500 to-violet-600 flex items-center justify-center text-white text-sm flex-shrink-0 mt-0.5 shadow-lg shadow-indigo-500/20">
+          <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+            <path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.455 2.456L21.75 6l-1.036.259a3.375 3.375 0 00-2.455 2.456z" />
+          </svg>
         </div>
       )}
-      <div className="max-w-[80%] space-y-1">
+      <div className={`max-w-[78%] space-y-2 ${isUser ? "items-end" : "items-start"}`}>
         <div
-          className={
-            isUser
-              ? "rounded-2xl rounded-tr-sm bg-gradient-to-r from-violet-600 to-blue-600 text-white px-4 py-2.5 text-sm shadow-md"
-              : "rounded-2xl rounded-tl-sm bg-card border border-border px-4 py-2.5 text-sm shadow-sm"
-          }
+          className={isUser ? "chat-bubble-user" : "chat-bubble-ai"}
           style={{ whiteSpace: "pre-wrap" }}
         >
-          {showContent}
+          <div className="text-sm leading-relaxed">{showContent}</div>
           {isLatest && !isUser && !done && (
-            <span className="inline-block w-1.5 h-4 bg-violet-500 ml-0.5 animate-pulse rounded-sm" />
+            <span className="inline-block w-1.5 h-4 bg-indigo-500 ml-0.5 animate-pulse rounded-sm" />
           )}
         </div>
 
         {/* Confidence + Grounding badges */}
         {!isUser && turn.confidence && (
           <div className="flex gap-1.5 flex-wrap px-1">
-            <span className={`text-[10px] px-2 py-0.5 rounded-full font-medium ${CONFIDENCE_COLORS[turn.confidence.level] || CONFIDENCE_COLORS.none}`}>
+            <span className={`text-[10px] px-2.5 py-1 rounded-full font-medium border ${CONFIDENCE_COLORS[turn.confidence.level] || CONFIDENCE_COLORS.none}`}>
               {turn.confidence.level === "high" ? "🟢" : turn.confidence.level === "medium" ? "🟡" : turn.confidence.level === "low" ? "🟠" : "🔴"}{" "}
               Confidence: {Math.round(turn.confidence.score * 100)}%
             </span>
             {turn.grounded !== undefined && (
-              <span className={`text-[10px] px-2 py-0.5 rounded-full font-medium ${turn.grounded ? "bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-400" : "bg-orange-100 text-orange-800 dark:bg-orange-900/30 dark:text-orange-400"}`}>
+              <span className={`text-[10px] px-2.5 py-1 rounded-full font-medium border ${turn.grounded ? "bg-emerald-50 text-emerald-700 border-emerald-200" : "bg-amber-50 text-amber-700 border-amber-200"}`}>
                 {turn.grounded ? "⚓ Grounded" : "⚠ Ungrounded"}
               </span>
             )}
             {turn.guardrails?.outputWarnings && turn.guardrails.outputWarnings.length > 0 && (
-              <span className="text-[10px] px-2 py-0.5 rounded-full font-medium bg-orange-100 text-orange-800 dark:bg-orange-900/30 dark:text-orange-400">
+              <span className="text-[10px] px-2.5 py-1 rounded-full font-medium bg-amber-50 text-amber-700 border border-amber-200">
                 ⚠ {turn.guardrails.outputWarnings.length} warning(s)
               </span>
             )}
@@ -168,7 +166,7 @@ function MessageBubble({ turn, isLatest }: { turn: Turn; isLatest: boolean }) {
         {/* Blocked message */}
         {!isUser && turn.guardrails?.blocked && (
           <div className="flex gap-1.5 px-1">
-            <span className="text-[10px] px-2 py-0.5 rounded-full font-medium bg-red-100 text-red-800 dark:bg-red-900/30 dark:text-red-400">
+            <span className="text-[10px] px-2.5 py-1 rounded-full font-medium bg-red-50 text-red-700 border border-red-200">
               🛡️ Blocked by guardrails {turn.guardrails.injectionDetected ? "(injection detected)" : ""}
             </span>
           </div>
@@ -176,8 +174,10 @@ function MessageBubble({ turn, isLatest }: { turn: Turn; isLatest: boolean }) {
       </div>
 
       {isUser && (
-        <div className="w-8 h-8 rounded-full bg-gradient-to-br from-emerald-500 to-teal-600 flex items-center justify-center text-white text-sm flex-shrink-0 mt-1 shadow-md">
-          👤
+        <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-emerald-500 to-teal-600 flex items-center justify-center text-white text-sm flex-shrink-0 mt-0.5 shadow-lg shadow-emerald-500/20">
+          <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+            <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+          </svg>
         </div>
       )}
     </div>
@@ -328,76 +328,89 @@ export default function StudyAssistant() {
       <Navbar />
       <main className="max-w-7xl mx-auto px-4 pt-20 pb-8 space-y-4">
         {/* ─── Header ─── */}
-        <div className="flex flex-wrap items-center justify-between gap-3">
-          <div className="min-w-0">
-            <h1 className="text-2xl font-bold flex items-center gap-2">
-              🤖 AI Study Assistant <span className="text-xs bg-gradient-to-r from-violet-600 to-blue-600 text-white px-2 py-0.5 rounded-full font-medium">v2</span>
-            </h1>
-            <p className="text-sm text-muted-foreground mt-0.5">
-              Advanced RAG • Multi-Query • Guardrails • Chat Memory • Personalization
-            </p>
-          </div>
-
-          <div className="flex items-center gap-2 flex-shrink-0">
-            {/* RAG Status Badge */}
-            {ragStatus && (
-              <div className={`px-3 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap ${ragStatus.indexed
-                ? "bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-400"
-                : "bg-red-100 text-red-800 dark:bg-red-900/30 dark:text-red-400"
-                }`}>
-                {ragStatus.indexed
-                  ? `✅ ${ragStatus.totalChunks} chunks • ${ragStatus.cacheSize ?? 0} cached`
-                  : "⚠️ Not indexed"}
+        <div className="glass-card p-4 card-shine">
+          <div className="flex flex-wrap items-center justify-between gap-3">
+            <div className="min-w-0 flex items-center gap-3">
+              <div className="w-11 h-11 rounded-xl gradient-primary flex items-center justify-center shadow-lg shadow-indigo-500/20 flex-shrink-0">
+                <svg className="w-6 h-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.455 2.456L21.75 6l-1.036.259a3.375 3.375 0 00-2.455 2.456z" />
+                </svg>
               </div>
-            )}
+              <div>
+                <h1 className="text-xl font-bold flex items-center gap-2">
+                  AI Study Assistant
+                  <span className="text-[10px] gradient-primary text-white px-2 py-0.5 rounded-full font-semibold tracking-wide">v2</span>
+                </h1>
+                <p className="text-xs text-muted-foreground mt-0.5 flex items-center gap-1.5 flex-wrap">
+                  <span className="inline-flex items-center gap-1">Advanced RAG</span>
+                  <span className="w-1 h-1 rounded-full bg-muted-foreground/40" />
+                  <span>Multi-Query</span>
+                  <span className="w-1 h-1 rounded-full bg-muted-foreground/40" />
+                  <span>Guardrails</span>
+                  <span className="w-1 h-1 rounded-full bg-muted-foreground/40" />
+                  <span>Chat Memory</span>
+                </p>
+              </div>
+            </div>
 
-            <Button size="sm" variant="outline" onClick={newChat} className="text-xs">
-              ➕ New Chat
-            </Button>
+            <div className="flex items-center gap-2 flex-shrink-0">
+              {ragStatus && (
+                <div className={`px-3 py-1.5 rounded-lg text-xs font-medium whitespace-nowrap border ${ragStatus.indexed
+                  ? "bg-emerald-50 text-emerald-700 border-emerald-200"
+                  : "bg-red-50 text-red-700 border-red-200"
+                  }`}>
+                  {ragStatus.indexed
+                    ? `✅ ${ragStatus.totalChunks} chunks • ${ragStatus.cacheSize ?? 0} cached`
+                    : "⚠️ Not indexed"}
+                </div>
+              )}
 
-            <div className="w-28">
-              <Select value={provider} onValueChange={(v) => setProvider(v as any)}>
-                <SelectTrigger className="h-8 text-xs">
-                  <SelectValue placeholder="Provider" />
-                </SelectTrigger>
-                <SelectContent>
-                  <SelectItem value="groq">Groq</SelectItem>
-                  <SelectItem value="gemini">Gemini</SelectItem>
-                </SelectContent>
-              </Select>
+              <Button size="sm" variant="outline" onClick={newChat} className="text-xs h-8 rounded-lg border-border/80 hover:bg-primary/5 hover:border-primary/30">
+                + New Chat
+              </Button>
+
+              <div className="w-28">
+                <Select value={provider} onValueChange={(v) => setProvider(v as any)}>
+                  <SelectTrigger className="h-8 text-xs rounded-lg border-border/80">
+                    <SelectValue placeholder="Provider" />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectItem value="groq">Groq</SelectItem>
+                    <SelectItem value="gemini">Gemini</SelectItem>
+                  </SelectContent>
+                </Select>
+              </div>
             </div>
           </div>
         </div>
 
         {/* ─── Main Layout ─── */}
-        <div className="grid gap-4 lg:grid-cols-[1fr_340px]">
+        <div className="grid gap-4 lg:grid-cols-[1fr_320px]">
           {/* Chat Area */}
-          <Card className="flex flex-col" style={{ height: "calc(100vh - 170px)" }}>
+          <div className="glass-card flex flex-col overflow-hidden" style={{ height: "calc(100vh - 190px)" }}>
             {/* Quick Prompts */}
-            <div className="flex flex-wrap gap-1.5 p-3 border-b border-border">
+            <div className="flex flex-wrap gap-2 p-3 border-b border-border/50 bg-muted/20">
               {[
-                "What skills do I need for placement?",
-                "How to prepare for technical interviews?",
-                "Analyze my weak areas",
-                "Give me today's study plan",
-              ].map((q) => (
-                <Button
+                { q: "What skills do I need for placement?", icon: "🎯" },
+                { q: "How to prepare for technical interviews?", icon: "💻" },
+                { q: "Analyze my weak areas", icon: "📊" },
+                { q: "Give me today's study plan", icon: "📅" },
+              ].map(({ q, icon }) => (
+                <button
                   key={q}
                   type="button"
-                  size="sm"
-                  variant="secondary"
                   onClick={() => sendMessage(q)}
                   disabled={loading}
-                  className="text-[11px] h-7 px-2.5 rounded-full"
+                  className="text-[11px] h-7 px-3 rounded-lg bg-card border border-border/60 text-muted-foreground hover:text-foreground hover:border-primary/30 hover:bg-primary/5 transition-all duration-200 disabled:opacity-50 font-medium"
                 >
-                  {q}
-                </Button>
+                  {icon} {q}
+                </button>
               ))}
             </div>
 
             {/* Messages */}
-            <ScrollArea className="flex-1 p-4">
-              <div className="space-y-4 pb-2">
+            <ScrollArea className="flex-1 px-5 py-4">
+              <div className="space-y-5 pb-2">
                 {turns.map((t, idx) => (
                   <MessageBubble
                     key={idx}
@@ -406,15 +419,16 @@ export default function StudyAssistant() {
                   />
                 ))}
                 {loading && (
-                  <div className="flex justify-start gap-2">
-                    <div className="w-8 h-8 rounded-full bg-gradient-to-br from-violet-500 to-blue-600 flex items-center justify-center text-white text-sm flex-shrink-0 shadow-md">
-                      🤖
+                  <div className="flex justify-start gap-3">
+                    <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-indigo-500 to-violet-600 flex items-center justify-center text-white flex-shrink-0 shadow-lg shadow-indigo-500/20">
+                      <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09z" />
+                      </svg>
                     </div>
-                    <div className="rounded-2xl rounded-tl-sm bg-card border border-border px-4 py-3 shadow-sm">
-                      <div className="flex gap-1.5">
-                        <span className="w-2 h-2 bg-violet-500 rounded-full animate-bounce" style={{ animationDelay: "0ms" }} />
-                        <span className="w-2 h-2 bg-blue-500 rounded-full animate-bounce" style={{ animationDelay: "150ms" }} />
-                        <span className="w-2 h-2 bg-violet-500 rounded-full animate-bounce" style={{ animationDelay: "300ms" }} />
+                    <div className="chat-bubble-ai">
+                      <div className="typing-indicator flex items-center gap-1.5 py-0.5">
+                        <span /><span /><span />
+                        <span className="text-xs text-muted-foreground ml-2">Thinking…</span>
                       </div>
                     </div>
                   </div>
@@ -424,66 +438,78 @@ export default function StudyAssistant() {
             </ScrollArea>
 
             {/* Input Area */}
-            <div className="p-3 border-t border-border">
-              <div className="flex gap-2">
-                <Input
-                  value={input}
-                  onChange={(e) => setInput(e.target.value)}
-                  placeholder={loading ? "🔄 Processing through RAG pipeline…" : "Ask about placement preparation..."}
-                  onKeyDown={(e) => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); send(); } }}
-                  disabled={loading}
-                  className="flex-1 rounded-full px-4"
-                />
-                <Button onClick={send} disabled={loading || !input.trim()} className="rounded-full px-6 bg-gradient-to-r from-violet-600 to-blue-600 hover:from-violet-700 hover:to-blue-700">
-                  Send
+            <div className="p-4 border-t border-border/50 bg-card/50">
+              <div className="flex gap-2 items-center">
+                <div className="flex-1 relative">
+                  <Input
+                    value={input}
+                    onChange={(e) => setInput(e.target.value)}
+                    placeholder={loading ? "Processing through RAG pipeline…" : "Ask about placement preparation..."}
+                    onKeyDown={(e) => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); send(); } }}
+                    disabled={loading}
+                    className="rounded-xl pl-4 pr-12 h-11 border-border/80 bg-background focus-visible:ring-primary/20 focus-visible:border-primary/40"
+                  />
+                </div>
+                <Button
+                  onClick={send}
+                  disabled={loading || !input.trim()}
+                  className="rounded-xl h-11 px-5 gradient-primary text-primary-foreground border-0 shadow-lg shadow-indigo-500/20 hover:shadow-xl hover:shadow-indigo-500/30 transition-all disabled:opacity-50"
+                >
+                  <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
+                  </svg>
                 </Button>
               </div>
               {threadId && (
-                <p className="text-[10px] text-muted-foreground mt-1 px-2">
-                  Thread: {threadId.slice(0, 20)}… • {history.length} messages in memory
+                <p className="text-[10px] text-muted-foreground mt-2 px-1 flex items-center gap-1.5">
+                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
+                  Thread active • {history.length} messages in memory
                 </p>
               )}
             </div>
-          </Card>
+          </div>
 
           {/* ─── Side Panel ─── */}
-          <div className="space-y-3" style={{ maxHeight: "calc(100vh - 170px)", overflowY: "auto" }}>
+          <div className="space-y-3" style={{ maxHeight: "calc(100vh - 190px)", overflowY: "auto" }}>
             {/* Tab Selector */}
-            <div className="flex gap-1 bg-muted/50 rounded-lg p-1">
+            <div className="glass-card p-1 flex gap-1">
               {(["pipeline", "sources", "context", "personalization"] as const).map((tab) => (
                 <button
                   key={tab}
-                  className={`flex-1 text-[11px] py-1.5 px-2 rounded-md font-medium transition-colors ${activeTab === tab ? "bg-background shadow-sm" : "text-muted-foreground hover:text-foreground"}`}
+                  className={`flex-1 text-[11px] py-2 px-2 rounded-lg font-medium transition-all duration-200 ${activeTab === tab ? "bg-card shadow-sm text-foreground border border-border/60" : "text-muted-foreground hover:text-foreground hover:bg-muted/50"}`}
                   onClick={() => {
                     setActiveTab(tab);
                     if (tab === "personalization" && !personalization) loadPersonalization();
                   }}
                 >
-                  {tab === "pipeline" ? "🔧 Pipeline" : tab === "sources" ? "📎 Sources" : tab === "context" ? "📋 Context" : "🎯 Skills"}
+                  {tab === "pipeline" ? "Pipeline" : tab === "sources" ? "Sources" : tab === "context" ? "Context" : "Skills"}
                 </button>
               ))}
             </div>
 
             {/* Pipeline Panel */}
             {activeTab === "pipeline" && (
-              <Card className="p-3">
-                <h3 className="text-sm font-semibold mb-2">Advanced RAG Pipeline v2</h3>
+              <div className="glass-card p-4">
+                <h3 className="text-sm font-semibold mb-3 flex items-center gap-2">
+                  <span className="w-6 h-6 rounded-md gradient-primary flex items-center justify-center text-white text-[10px]">⚡</span>
+                  RAG Pipeline v2
+                </h3>
                 {pipeline.length > 0 ? (
-                  <div className="space-y-1">
+                  <div className="space-y-1.5">
                     {pipeline.map((p, i) => (
-                      <div key={i} className="flex items-start gap-2 text-xs">
-                        <span className="w-5 text-center mt-0.5">
+                      <div key={i} className={`flex items-start gap-2.5 text-xs p-2 rounded-lg transition-colors ${p.status === "done" ? "bg-emerald-50/50 border border-emerald-100" : p.status === "processing" ? "bg-indigo-50/50 border border-indigo-100 animate-pulse" : p.status === "blocked" ? "bg-red-50/50 border border-red-100" : "bg-muted/30 border border-transparent"}`}>
+                        <span className="w-5 text-center mt-0.5 flex-shrink-0">
                           {p.status === "done" ? STEP_ICONS[p.step] || "✅" :
                            p.status === "processing" ? "⏳" :
                            p.status === "blocked" ? "🚫" :
-                           p.status === "warning" ? "⚠️" : "⬜"}
+                           p.status === "warning" ? "⚠️" : "○"}
                         </span>
                         <div className="flex-1 min-w-0">
-                          <span className={`font-medium ${p.status === "done" ? "" : p.status === "blocked" ? "text-red-600" : "text-muted-foreground"}`}>
+                          <span className={`font-medium ${p.status === "done" ? "text-emerald-700" : p.status === "blocked" ? "text-red-600" : p.status === "processing" ? "text-indigo-600" : "text-muted-foreground"}`}>
                             {p.step}
                           </span>
                           {p.detail && (
-                            <span className="text-muted-foreground ml-1 block truncate">— {p.detail}</span>
+                            <span className="text-muted-foreground ml-1 block truncate text-[10px]">— {p.detail}</span>
                           )}
                         </div>
                       </div>
@@ -492,26 +518,29 @@ export default function StudyAssistant() {
                 ) : (
                   <p className="text-xs text-muted-foreground">Send a message to see the 12-step RAG pipeline</p>
                 )}
-              </Card>
+              </div>
             )}
 
             {/* Sources Panel */}
             {activeTab === "sources" && (
-              <Card className="p-3">
-                <h3 className="text-sm font-semibold mb-2">📎 Retrieved Sources ({ragSources.length})</h3>
+              <div className="glass-card p-4">
+                <h3 className="text-sm font-semibold mb-3 flex items-center gap-2">
+                  <span className="w-6 h-6 rounded-md bg-violet-100 flex items-center justify-center text-violet-600 text-[10px]">📎</span>
+                  Retrieved Sources ({ragSources.length})
+                </h3>
                 {ragSources.length > 0 ? (
                   <ScrollArea className="max-h-[400px] pr-2">
                     <div className="space-y-2">
                       {ragSources.map((s, i) => (
-                        <div key={i} className="rounded-lg border border-border p-2.5 text-xs hover:bg-muted/50 transition-colors">
-                          <div className="flex items-center justify-between mb-1">
-                            <span className="font-semibold text-violet-600 dark:text-violet-400">[Source {i + 1}]</span>
-                            <span className={`px-1.5 py-0.5 rounded text-[10px] font-medium ${s.score >= 0.7 ? "bg-green-100 text-green-700" : s.score >= 0.4 ? "bg-yellow-100 text-yellow-700" : "bg-orange-100 text-orange-700"}`}>
+                        <div key={i} className="rounded-xl border border-border/60 p-3 text-xs hover:border-primary/20 hover:bg-primary/[0.02] transition-all duration-200">
+                          <div className="flex items-center justify-between mb-1.5">
+                            <span className="font-semibold text-indigo-600">[Source {i + 1}]</span>
+                            <span className={`px-2 py-0.5 rounded-full text-[10px] font-medium border ${s.score >= 0.7 ? "bg-emerald-50 text-emerald-700 border-emerald-200" : s.score >= 0.4 ? "bg-amber-50 text-amber-700 border-amber-200" : "bg-orange-50 text-orange-700 border-orange-200"}`}>
                               {Math.round(s.score * 100)}% match
                             </span>
                           </div>
                           <p className="text-muted-foreground leading-relaxed">{s.text}</p>
-                          <div className="text-[10px] text-muted-foreground mt-1 flex items-center gap-2">
+                          <div className="text-[10px] text-muted-foreground mt-1.5 flex items-center gap-2">
                             <span>📄 {s.source}</span>
                             <span>Chunk #{s.chunkIndex}</span>
                           </div>
@@ -522,13 +551,16 @@ export default function StudyAssistant() {
                 ) : (
                   <p className="text-xs text-muted-foreground">Sources appear after sending a message</p>
                 )}
-              </Card>
+              </div>
             )}
 
             {/* Context Panel */}
             {activeTab === "context" && (
-              <Card className="p-3">
-                <h3 className="text-sm font-semibold mb-2">📋 Student Context</h3>
+              <div className="glass-card p-4">
+                <h3 className="text-sm font-semibold mb-3 flex items-center gap-2">
+                  <span className="w-6 h-6 rounded-md bg-sky-100 flex items-center justify-center text-sky-600 text-[10px]">📋</span>
+                  Student Context
+                </h3>
                 {contextLoading ? (
                   <p className="text-xs text-muted-foreground">Loading...</p>
                 ) : context ? (
@@ -564,15 +596,18 @@ export default function StudyAssistant() {
                 ) : (
                   <p className="text-xs text-muted-foreground">No context available.</p>
                 )}
-              </Card>
+              </div>
             )}
 
             {/* Personalization Panel */}
             {activeTab === "personalization" && (
-              <Card className="p-3">
-                <div className="flex items-center justify-between mb-2">
-                  <h3 className="text-sm font-semibold">🎯 Skill Gap & Daily Tasks</h3>
-                  <Button size="sm" variant="ghost" className="h-6 text-[10px]" onClick={loadPersonalization} disabled={persLoading}>
+              <div className="glass-card p-4">
+                <div className="flex items-center justify-between mb-3">
+                  <h3 className="text-sm font-semibold flex items-center gap-2">
+                    <span className="w-6 h-6 rounded-md bg-amber-100 flex items-center justify-center text-amber-600 text-[10px]">🎯</span>
+                    Skill Gap & Daily Tasks
+                  </h3>
+                  <Button size="sm" variant="ghost" className="h-7 text-[10px] rounded-lg" onClick={loadPersonalization} disabled={persLoading}>
                     {persLoading ? "Loading..." : "Refresh"}
                   </Button>
                 </div>
@@ -651,7 +686,7 @@ export default function StudyAssistant() {
                 ) : (
                   <p className="text-xs text-muted-foreground">Click refresh to analyze your skill gaps</p>
                 )}
-              </Card>
+              </div>
             )}
           </div>
         </div>
